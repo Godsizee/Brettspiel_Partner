@@ -1,0 +1,11 @@
+Anmerkung für die KI: Blauim Dateinamen bezieht sich auf die Farbe der Rückseite der Karte
+
+Für diese Erdenverträge müssen zur Erfüllung Rohstoffe wieder in den allgemeinen Vorrat abgegeben werden
+01 - Gib 3 LUft 2 Mineral ab
+02 - gib 03 Wasser und 2 MIneral ab
+03 - Gib 3Pflanzen und 2 MIneral ab
+04 - Gib 3 Batterien und 2 MIneral ab
+05 - Gib 4 Mineralien ab
+06 -Gib 3 Kristalle und 2 MIneral ab
+
+Egal Welcher Vertrag: Erfüllt am Spielende gibt 9 Punkte Nicht Erfüllt gibt 4 Minuspunkte

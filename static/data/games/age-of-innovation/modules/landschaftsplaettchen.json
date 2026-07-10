@@ -1,0 +1,130 @@
+{
+  "entries": [
+    {
+      "id": "lp-acker",
+      "type": "card",
+      "category": "Landschaftsplättchen",
+      "name": "Acker",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Landschaftsplättchen/LandschaftsplättchenAcker.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "landschaftsplaettchen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "lp-berg",
+      "type": "card",
+      "category": "Landschaftsplättchen",
+      "name": "Gebirge",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Landschaftsplättchen/LandschaftsplättchenBerg.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "landschaftsplaettchen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "lp-see",
+      "type": "card",
+      "category": "Landschaftsplättchen",
+      "name": "See",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Landschaftsplättchen/LandschaftsplättchenSee.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "landschaftsplaettchen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "lp-sumpf",
+      "type": "card",
+      "category": "Landschaftsplättchen",
+      "name": "Sumpf",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Landschaftsplättchen/LandschaftsplättchenSumpf.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "landschaftsplaettchen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "lp-wald",
+      "type": "card",
+      "category": "Landschaftsplättchen",
+      "name": "Wald",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Landschaftsplättchen/LandschaftsplättchenWald.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "landschaftsplaettchen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "lp-wueste",
+      "type": "card",
+      "category": "Landschaftsplättchen",
+      "name": "Wüste",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Landschaftsplättchen/LandschaftsplättchenWüste.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "landschaftsplaettchen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "lp-oednis",
+      "type": "card",
+      "category": "Landschaftsplättchen",
+      "name": "Ödnis",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Landschaftsplättchen/LandschaftsplättchenÖdnis.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "landschaftsplaettchen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    }
+  ]
+}

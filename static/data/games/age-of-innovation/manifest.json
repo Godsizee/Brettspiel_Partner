@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "game": {
+    "key": "age-of-innovation",
+    "name": "Age of Innovation",
+    "publisher": "Feuerland Spiele",
+    "edition": "base-v1.0",
+    "defaultLanguage": "de"
+  },
+  "modules": [
+    {
+      "id": "uebersicht",
+      "type": "reference",
+      "title": "Aktionsübersicht",
+      "icon": "layout",
+      "source": "modules/uebersicht.json",
+      "featured": true
+    },
+    {
+      "id": "buchaktionen",
+      "type": "reference",
+      "title": "Buchaktionen",
+      "icon": "book-open",
+      "source": "modules/buchaktionen.json",
+      "featured": false
+    },
+    {
+      "id": "buecher",
+      "type": "reference",
+      "title": "Bücher",
+      "icon": "book",
+      "source": "modules/buecher.json",
+      "featured": false
+    },
+    {
+      "id": "erfindungen",
+      "type": "reference",
+      "title": "Erfindungen",
+      "icon": "lightbulb",
+      "source": "modules/erfindungen.json",
+      "featured": true
+    },
+    {
+      "id": "gemeinschaften",
+      "type": "reference",
+      "title": "Gemeinschaften",
+      "icon": "users",
+      "source": "modules/gemeinschaften.json",
+      "featured": true
+    },
+    {
+      "id": "kompetenzen",
+      "type": "reference",
+      "title": "Kompetenzen",
+      "icon": "award",
+      "source": "modules/kompetenzen.json",
+      "featured": true
+    },
+    {
+      "id": "landschaftsplaettchen",
+      "type": "reference",
+      "title": "Landschaftsplättchen",
+      "icon": "map",
+      "source": "modules/landschaftsplaettchen.json",
+      "featured": false
+    },
+    {
+      "id": "palastplaettchen",
+      "type": "reference",
+      "title": "Palastplättchen",
+      "icon": "castle",
+      "source": "modules/palastplaettchen.json",
+      "featured": true
+    },
+    {
+      "id": "planungstableau",
+      "type": "reference",
+      "title": "Planungstableau",
+      "icon": "columns",
+      "source": "modules/planungstableau.json",
+      "featured": false
+    },
+    {
+      "id": "rundenbonus",
+      "type": "reference",
+      "title": "Rundenboni",
+      "icon": "gift",
+      "source": "modules/rundenbonus.json",
+      "featured": false
+    },
+    {
+      "id": "rundenwertung",
+      "type": "reference",
+      "title": "Rundenwertung",
+      "icon": "refresh-cw",
+      "source": "modules/rundenwertung.json",
+      "featured": false
+    },
+    {
+      "id": "stadtmarker",
+      "type": "reference",
+      "title": "Stadtmarker",
+      "icon": "building",
+      "source": "modules/stadtmarker.json",
+      "featured": false
+    },
+    {
+      "id": "glossary",
+      "type": "glossary",
+      "title": "Symbole & Begriffe",
+      "icon": "book-open",
+      "source": "glossary.json",
+      "featured": true
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "title": "Häufige Fragen",
+      "icon": "circle-help",
+      "source": "faq.json"
+    },
+    {
+      "id": "credits",
+      "type": "credits",
+      "title": "Quellen & Rechte",
+      "icon": "copyright",
+      "source": "credits.json"
+    }
+  ]
+}

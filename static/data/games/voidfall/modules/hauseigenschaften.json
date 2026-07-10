@@ -1,0 +1,154 @@
+{
+  "entries": [
+    {
+      "id": "hauseigenschaft_astoran",
+      "type": "reference",
+      "category": "hauseigenschaften",
+      "name": "Hauseigenschaft – Haus Astoran",
+      "image": "/images/voidfall/hauseigenschaften/hauseigenschaft_astoran.webp",
+      "summary": "Du darfst zu Beginn jeder Auswertungsphase (vor Schritt 1) 2 **Flotten** aktivieren.\nZu Beginn der Partie sind deine Wartungskosten bereits 2. Beachte dies während jeder Auswertungsphase. Diese Eigenschaft ist **permanent** und obligatorisch.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "hauseigenschaften"
+      ],
+      "warnings": [],
+      "sort_order": 100
+    },
+    {
+      "id": "hauseigenschaft_fenrax",
+      "type": "reference",
+      "category": "hauseigenschaften",
+      "name": "Hauseigenschaft – Haus Fenrax",
+      "image": "/images/voidfall/hauseigenschaften/hauseigenschaft_fenrax.webp",
+      "summary": "Du darfst zu Beginn jeder Auswertungsphase (vor Schritt 1) folgende Ziele werten:\n- Erhalte 2 **Credits** pro eigenem reinen Sektor mit **Bevölkerungswert** 1/2.\n- Erhalte 1 **Credit** pro eigenem reinen Sektor mit **Bevölkerungswert** 3.\n- Erhalte 1 **Wissen** pro eigenem reinen Sektor mit **Bevölkerungswert** 4.\n- Erhalte 2 **Wissen** pro eigenem reinen Sektor mit **Bevölkerungswert** 5/6.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "hauseigenschaften"
+      ],
+      "warnings": [],
+      "sort_order": 110
+    },
+    {
+      "id": "hauseigenschaft_kradmor",
+      "type": "reference",
+      "category": "hauseigenschaften",
+      "name": "Hauseigenschaft – Haus Kradmor",
+      "image": "/images/voidfall/hauseigenschaften/hauseigenschaft_kradmor.webp",
+      "summary": "- Entfernst du 1 Verderbnis von deinem Haustableau (außer von **Dekontaminationskammern**): Erhalte 2 **Energie**.\n- Entfernst du 1 Verderbnis aus einem Sektor: Erhalte 2 **Wissen**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "hauseigenschaften"
+      ],
+      "warnings": [],
+      "sort_order": 120
+    },
+    {
+      "id": "hauseigenschaft_marqualos",
+      "type": "reference",
+      "category": "hauseigenschaften",
+      "name": "Hauseigenschaft – Haus Marqualos",
+      "image": "/images/voidfall/hauseigenschaften/hauseigenschaft_marqualos.webp",
+      "summary": "Suche nach der Wahl deiner Herkunft (A/B) deine Zusatzagenda. Lege sie mit der entsprechenden Seite (A/B) nach oben auf das Agendafeld neben deiner Startagenda. Für alle weiteren Belange gilt sie als (nicht Start-)Agenda ohne Agendatyp.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "hauseigenschaften"
+      ],
+      "warnings": [],
+      "sort_order": 130
+    },
+    {
+      "id": "hauseigenschaft_nervo",
+      "type": "reference",
+      "category": "hauseigenschaften",
+      "name": "Hauseigenschaft – Haus Nervo",
+      "image": "/images/voidfall/hauseigenschaften/hauseigenschaft_nervo.webp",
+      "summary": "Außerhalb der Wartung darfst du jederzeit mit **Material** statt **Nahrung** oder **Energie** zahlen (zur üblichen **Credit**substitution).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "hauseigenschaften"
+      ],
+      "warnings": [],
+      "sort_order": 140
+    },
+    {
+      "id": "hauseigenschaft_novaris",
+      "type": "reference",
+      "category": "hauseigenschaften",
+      "name": "Hauseigenschaft – Haus Novaris",
+      "image": "/images/voidfall/hauseigenschaften/hauseigenschaft_novaris.webp",
+      "summary": "Erhältst du 1 Verderbnis: Produziere 1 Ressourcentyp.\nÜbernimmst du einen Sektor mit Verderbnis, zählt dies nicht als Erhalt. Du darfst diese Eigenschaft jedoch nutzen, falls du Verderbnis erhältst und auf **Dekontaminationskammern** legst.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "hauseigenschaften"
+      ],
+      "warnings": [],
+      "sort_order": 150
+    },
+    {
+      "id": "hauseigenschaft_shiveus",
+      "type": "reference",
+      "category": "hauseigenschaften",
+      "name": "Hauseigenschaft – Haus Shiveus",
+      "image": "/images/voidfall/hauseigenschaften/hauseigenschaft_shiveus.webp",
+      "summary": "Bei Gefechten hat die Ausgeburt der Leere +1 Flotte der Leere gegen dich. Diese Eigenschaft ist **permanent** und obligatorisch.\nErhalte nach erfolgreicher Verteidigung in Gefechten 2 Einflusspunkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "hauseigenschaften"
+      ],
+      "warnings": [],
+      "sort_order": 160
+    },
+    {
+      "id": "hauseigenschaft_thegwyn",
+      "type": "reference",
+      "category": "hauseigenschaften",
+      "name": "Hauseigenschaft – Haus Thegwyn",
+      "image": "/images/voidfall/hauseigenschaften/hauseigenschaft_thegwyn.webp",
+      "summary": "Setzt du 1 **Flotte** pro eigener Werft ein, darfst du zusätzlich 1 **Flotte** pro eigener **Nahrungsgilde** einsetzen. Hast du **Orbitale Häfen** und eine **Nahrungsgilde** in einem Sektor ohne Werft, darfst du in diesem Sektor 1 zusätzliche **Flotte** einsetzen (als wäre dort eine Werft). Für alle anderen Belange gelten deine **Nahrungsgilden** nicht als Werften *(z.B. für Agenden oder Weltraumgeschosse)*.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "hauseigenschaften"
+      ],
+      "warnings": [],
+      "sort_order": 170
+    },
+    {
+      "id": "hauseigenschaft_yarvek",
+      "type": "reference",
+      "category": "hauseigenschaften",
+      "name": "Hauseigenschaft – Haus Yarvek",
+      "image": "/images/voidfall/hauseigenschaften/hauseigenschaft_yarvek.webp",
+      "summary": "Du darfst in deinem Zug jederzeit und beliebig oft 1 **Beute** abwerfen, um 1 **Credit** oder 1 **Wissen** zu erhalten.\nDu darfst in deinem Zug jederzeit und beliebig oft 1 Hinterlassenschaft abwerfen, um alle 3 Aktionen deines gewählten Fokus zu nutzen. Dieser Effekt entspricht dem Umdrehen eines **Handelsplättchens** und du kannst ihn nicht zusätzlich dazu im selben Zug verwenden.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "hauseigenschaften"
+      ],
+      "warnings": [],
+      "sort_order": 180
+    },
+    {
+      "id": "hauseigenschaft_zenor",
+      "type": "reference",
+      "category": "hauseigenschaften",
+      "name": "Hauseigenschaft – Haus Zenor",
+      "image": "/images/voidfall/hauseigenschaften/hauseigenschaft_zenor.webp",
+      "summary": "Überproduzierst du **Wissen**: Erhalte (zusätzlich zu den 3 **Einflusspunkten**) 1 **Credit** pro überschüssiger Wissenseinheit.\nÜberproduzierst du **Credits**: Erhalte keine **Einflusspunkte**. Auch mit **Fortschrittlichen Handelsnexus** erhältst du keinen Einfluss und auch kein Handelsplättchen.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "hauseigenschaften"
+      ],
+      "warnings": [],
+      "sort_order": 190
+    }
+  ]
+}

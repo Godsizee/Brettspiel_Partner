@@ -1,0 +1,169 @@
+{
+  "entries": [
+    {
+      "id": "ziv-basis",
+      "type": "reference",
+      "category": "zivilisationsleisten",
+      "name": "Basisfraktionen",
+      "image": "/images/voidfall/zivilisationsleisten/ziv_basis.webp",
+      "summary": "**Gesellschaftsleiste**\n1. Erhalte 1 Credit und 1 Wissen.\n2. Vermehre 1 reine Bevölkerung.\n3. Erhalte 1 Agenda.\n4. Vermehre 1 reine Bevölkerung.\n5. Vermehre 1 reine Bevölkerung.\n6. Vermehre 1 reine Bevölkerung und/oder entferne 1 Verderbnis.\n7. Erhalte 20 Einflusspunkte.\n\n**Staatsführungsleiste**\n1. Aktiviere 1 Flotte.\n2. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n3. Erhalte 1 Agenda.\n4. Entferne 1 Verderbnis.\n5. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n6. Werte 1 Ruhmplättchen auf und/oder erhalte dem Wert deiner Ruhmplättchen entsprechend viele Einflusspunkte. 7 Werte die Ziele von 1 deiner reinen (nicht Start-)Agenden.\n\n**Wirtschaftsleiste**\n1. Überspringe dieses Feld\n2. Erhalte 1 Handelsplättchen\n3. Gründe 1 Gilde\n4. Erhalte 1 Handelsplättchen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "zivilisationsleisten"
+      ],
+      "warnings": [],
+      "sort_order": 100
+    },
+    {
+      "id": "ziv-astoran",
+      "type": "reference",
+      "category": "zivilisationsleisten",
+      "name": "Haus Astoran",
+      "image": "/images/voidfall/zivilisationsleisten/ziv_astoran.webp",
+      "summary": "**Gesellschaftsleiste**\n1. Gründe 1 Gilde.\n2. Vermehre 1 reine Bevölkerung.\n3. Vermehre 1 reine Bevölkerung und/oder errichte 1 Stützpunkt.\n4. Vermehre 1 reine Bevölkerung und/oder errichte 1 Stützpunkt.\n5. Erhalte 1 Machtagenda.\n6. Vermehre 1 reine Bevölkerung und/oder entferne 1 Verderbnis.\n7. Erhalte 25 Einflusspunkte.\n\n**Staatsführungsleiste**\n1. Überspringe dieses Feld.\n2. Erhalte 1 Unterstützungsagenda.\n3. Errichte 1 Stützpunkt und/oder aktiviere 1 Flotte.\n4. Entferne 1 Verderbnis.\n5. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n6. Erhalte 1 Dominanzagenda und/oder entferne 1 Verderbnis.\n7. Erhalte 2 Einflusspunkte pro eigenem reinen Stützpunkt.\n\n**Wirtschaftsleiste**\n1. Erhalte 1 Ressource jeder Art.\n2. Gründe 1 Gilde.\n3. Überspringe dieses Feld.\n4. Erhalte 1 Agenda.\n5. Produziere 2 verschiedene Ressourcentypen.\n6. Erhalte 1 Einflusspunkt pro Flotte in deinen reinen Sektoren.\n7. Erhalte 15 Einflusspunkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "zivilisationsleisten"
+      ],
+      "warnings": [],
+      "sort_order": 110
+    },
+    {
+      "id": "ziv-fenrax",
+      "type": "reference",
+      "category": "zivilisationsleisten",
+      "name": "Haus Fenrax",
+      "image": "/images/voidfall/zivilisationsleisten/ziv_fenrax.webp",
+      "summary": "**Gesellschaftsleiste**\n1. Vermehre 1 reine Bevölkerung.\n2. Gründe 1 Gilde.\n3. Erhalte 1 Machtagenda.\n4. Vermehre 1 reine Bevölkerung und/oder gründe 1 Gilde.\n5. Vermehre 1 reine Bevölkerung und/oder entferne 1 Verderbnis.\n6. Erhalte 1 Einflusspunkt pro Flotte in deinen reinen Sektoren.\n7. Erhalte 2 Einflusspunkte pro Flotte in deinen reinen Sektoren und in deiner Einsatzzone.\n\n**Staatsführungsleiste**\n1. Überspringe dieses Feld.\n2. Aktiviere 1 Flotte.\n3. Überspringe dieses Feld.\n4. Setze in jedem deiner Sektoren pro darin befindlicher Werft 1 Flotte ein.\n5. Setze in jedem deiner Sektoren pro darin befindlicher Werft 1 Flotte ein.\n6. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n7. Erhalte 18 Einflusspunkte.\n\n**Wirtschaftsleiste**\n1. Erhalte 1 Credit und 1 Wissen.\n2. Erhalte 1 Basistechnologie.\n3. Überspringe dieses Feld.\n4. Gründe 1 Gilde.\n5. Erhalte 1 Handelsplättchen\n6. Erhalte 1 Handelsplättchen und/oder entferne 1 Verderbnis\n7. Erhalte 18 Einflusspunkte",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "zivilisationsleisten"
+      ],
+      "warnings": [],
+      "sort_order": 120
+    },
+    {
+      "id": "ziv-kradmor",
+      "type": "reference",
+      "category": "zivilisationsleisten",
+      "name": "Haus Kradmor",
+      "image": "/images/voidfall/zivilisationsleisten/ziv_kradmor.webp",
+      "summary": "**Gesellschaftsleiste**\n1. Vermehre 1 reine Bevölkerung.\n2. Vermehre 1 reine Bevölkerung.\n3. Überspringe dieses Feld.\n4. Vermehre 1 reine Bevölkerung.\n5. Vermehre 1 reine Bevölkerung und/oder entferne 1 Verderbnis.\n6. Erhalte 1 Machtagenda.\n7. Erhalte 20 Einflusspunkte.\n\n**Staatsführungsleiste**\n1. Errichte 1 Stützpunkt.\n2. Errichte 1 Stützpunkt und/oder aktiviere 1 Flotte.\n3. Überspringe dieses Feld.\n4. Errichte 1 Stützpunkt und/oder aktiviere 1 Flotte.\n5. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n6. Errichte 1 Stützpunkt und/oder erhalte dem Wert deiner Ruhmplättchen entsprechend viele Einflusspunkte.\n7. Erhalte 20 Einflusspunkte.\n\n**Wirtschaftsleiste**\n1. Erhalte 1 Handelsplättchen.\n2. Erhalte 1 Reichtumsagenda.\n3. Überspringe dieses Feld.\n4. Erhalte 1 Handelsplättchen.\n5. Produziere 2 verschiedene Ressourcentypen.\n6. Erhalte 1 Agenda und/oder 1 Handelsplättchen.\n7. Erhalte 20 Einflusspunkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "zivilisationsleisten"
+      ],
+      "warnings": [],
+      "sort_order": 130
+    },
+    {
+      "id": "ziv-marqualos",
+      "type": "reference",
+      "category": "zivilisationsleisten",
+      "name": "Haus Marqualos",
+      "image": "/images/voidfall/zivilisationsleisten/ziv_marqualos.webp",
+      "summary": "**Gesellschaftsleiste**\n1. Überspringe dieses Feld.\n2. Vermehre 1 reine Bevölkerung.\n3. Vermehre 1 reine Bevölkerung.\n4. Entferne 1 Verderbnis.\n5. Erhalte 2 Nahrung, 2 Credits und 2 Wissen.\n6. Vermehre 1 reine Bevölkerung und/oder entferne 1 Verderbnis.\n7. Werte die Ziele von 1 deiner reinen (nicht Start-)Agenden.\n\n**Staatsführungsleiste**\n1. Entferne 1 Verderbnis.\n2. Erhalte 1 Basistechnologie.\n3. Erhalte 1 Unterstützungsagenda.\n4. Aktiviere 1 Flotte und/oder erhalte 1 Handelsplättchen.\n5. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n6. Erhalte 8 Einflusspunkte und/oder sammle deine Flotten.\n7. Werte 1 Ruhmplättchen auf und/oder erhalte dem Wert deiner Ruhmplättchen entsprechend viele Einflusspunkte.\n\n**Wirtschaftsleiste**\n1. Erhalte 1 Handelsplättchen.\n2. Gründe 1 Gilde.\n3. Überspringe dieses Feld.\n4. Gründe 1 Gilde.\n5. Erhalte 1 Handelsplättchen.\n6. Erhalte 1 Agenda und/oder 1 Handelsplättchen.\n7. Werte die Ziele von 1 deiner reinen (nicht Start-)Agenden",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "zivilisationsleisten"
+      ],
+      "warnings": [],
+      "sort_order": 140
+    },
+    {
+      "id": "ziv-nervo",
+      "type": "reference",
+      "category": "zivilisationsleisten",
+      "name": "Haus Nervo",
+      "image": "/images/voidfall/zivilisationsleisten/ziv_nervo.webp",
+      "summary": "**Gesellschaftsleiste**\n1. Vermehre 1 reine Bevölkerung.\n2. Entferne 1 Verderbnis.\n3. Überspringe dieses Feld.\n4. Vermehre 1 reine Bevölkerung und/oder entferne 1 Verderbnis.\n5. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n6. Vermehre 2-mal 1 reine Bevölkerung (im selben oder unterschiedlichen Sektoren).\n7. Erhalte 8 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 6.\n\n**Staatsführungsleiste**\n1. Errichte 1 Stützpunkt und/oder aktiviere 1 Flotte.\n2. Gründe 1 Gilde.\n3. Aktiviere 1 Flotte und/oder setze 1 Flotte ein.\n4. Erhalte 1 Unterstützungsagenda.\n5. Entferne 1 Verderbnis.\n6. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n7. Erhalte 6 Einflusspunkte pro eigener Fortschrittlicher Technologie.\n\n**Wirtschaftsleiste**\n1. Erhalte 2 Credits.\n2. Gründe 1 Gilde.\n3. Erhalte 1 Handelsplättchen.\n4. Entferne 1 Verderbnis.\n5. Erhalte 1 Reichtumsagenda und/oder erhalte 1 Handelsplättchen.\n6. Erhalte 1 Handelsplättchen und/oder produziere 1 Ressourcentyp\n7. Erhalte 15 Einflusspunkte",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "zivilisationsleisten"
+      ],
+      "warnings": [],
+      "sort_order": 150
+    },
+    {
+      "id": "ziv-novaris",
+      "type": "reference",
+      "category": "zivilisationsleisten",
+      "name": "Haus Novaris",
+      "image": "/images/voidfall/zivilisationsleisten/ziv_novaris.webp",
+      "summary": "**Gesellschaftsleiste**\n1. Überspringe dieses Feld.\n2. Gründe 1 Konstruktionsgilde.\n3. Entferne 1 Verderbnis.\n4. Erhalte 1 Machtagenda.\n5. Vermehre 1 reine Bevölkerung und/oder entferne 1 Verderbnis.\n6. Vermehre 1 reine Bevölkerung und/oder entferne 1 Verderbnis.\n7. Erhalte 22 Einflusspunkte.\n\n**Staatsführungsleiste**\n1. Überspringe dieses Feld.\n2. Erhalte 1 Unterstützungsagenda.\n3. Aktiviere 1 Flotte.\n4. Erhalte 1 Basistechnologie.\n5. Aktiviere 1 Flotte und/oder entferne 1 Verderbnis.\n6. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n7. Erhalte 24 Einflusspunkte.\n\n**Wirtschaftsleiste**\n1. Überspringe dieses Feld.\n2. Erhalte 1 Energie und 1 Material.\n3. Erhalte 1 Handelsplättchen.\n4. Erhalte 1 Agenda.\n5. Gründe 1 Gilde und/oder sammle deine Flotten.\n6. Gründe 1 Gilde und/oder erhalte 1 Handelsplättchen.\n7. Erhalte 22 Einflusspunkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "zivilisationsleisten"
+      ],
+      "warnings": [],
+      "sort_order": 160
+    },
+    {
+      "id": "ziv-shiveus",
+      "type": "reference",
+      "category": "zivilisationsleisten",
+      "name": "Haus Shiveus",
+      "image": "/images/voidfall/zivilisationsleisten/ziv_shiveus.webp",
+      "summary": "**Gesellschaftsleiste**\n1. Vermehre 1 reine Bevölkerung.\n2. Vermehre 1 reine Bevölkerung und/oder errichte 1 Stützpunkt.\n3. Überspringe dieses Feld.\n4. Erhalte 1 Handelsplättchen und/oder entferne 1 Verderbnis.\n5. Vermehre 1 reine Bevölkerung und/oder erhalte 3 Nahrung.\n6. Überspringe dieses Feld.\n7. Erhalte 20 Einflusspunkte.\n\n**Staatsführungsleiste**\n1. Aktiviere max. 2 Flotten.\n2. Setze max. 2 Flotten ein.\n3. Erhalte 1 Basistechnologie.\n4. Entferne 1 Verderbnis.\n5. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n6. Erhalte 1 Dominanzagenda und/oder erhalte dem Wert deiner Ruhmplättchen entsprechend viele Einflusspunkte.\n7. Erhalte 2 Einflusspunkte pro eigenem reinen Sektor.\n\n**Wirtschaftsleiste**\n1. Erhalte 2 Credits.\n2. Erhalte 1 Handelsplättchen und/oder aktiviere 1 Flotte.\n3. Produziere 1 Ressourcentyp.\n4. Erhalte 1 Reichtumsagenda.\n5. Erhalte 1 Dominanzagenda.\n6. Erhalte 1 Einflusspunkt pro eigener reiner Gilde.\n7. Erhalte 18 Einflusspunkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "zivilisationsleisten"
+      ],
+      "warnings": [],
+      "sort_order": 170
+    },
+    {
+      "id": "ziv-thegwyn",
+      "type": "reference",
+      "category": "zivilisationsleisten",
+      "name": "Haus Thegwyn",
+      "image": "/images/voidfall/zivilisationsleisten/ziv_thegwyn.webp",
+      "summary": "**Gesellschaftsleiste**\n1. Überspringe dieses Feld.\n2. Entferne 1 Verderbnis.\n3. Erhalte 1 Basistechnologie.\n4. Vermehre 1 reine Bevölkerung.\n5. Vermehre 1 reine Bevölkerung und/oder entferne 1 Verderbnis.\n6. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n7. Erhalte 20 Einflusspunkte.\n\n**Staatsführungsleiste**\n1. Aktiviere 1 Flotte.\n2. Gründe 1 Nahrungsgilde.\n3. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n4. Aktiviere max. 2 Flotten.\n5. Erhalte 1 Unterstützungsagenda.\n6. Setze in jedem deiner Sektoren pro darin befindlicher Werft 1 Flotte ein und/oder erhalte dem Wert deiner Ruhmplättchen entsprechend viele Einflusspunkte.\n7. Erhalte 3 Einflusspunkte pro eigenem reinen Sektor.\n\n**Wirtschaftsleiste**\n1. Erhalte 1 Handelsplättchen.\n2. Erhalte 1 Handelsplättchen.\n3. Gründe 1 Gilde.\n4. Produziere 1 Ressourcentyp.\n5. Erhalte 1 Reichtumsagenda\n6. Werte die Ziele von 1 deiner reinen (nicht Start-)Agenden",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "zivilisationsleisten"
+      ],
+      "warnings": [],
+      "sort_order": 180
+    },
+    {
+      "id": "ziv-yarvek",
+      "type": "reference",
+      "category": "zivilisationsleisten",
+      "name": "Haus Yarvek",
+      "image": "/images/voidfall/zivilisationsleisten/ziv_yarvek.webp",
+      "summary": "**Gesellschaftsleiste**\n1. Vermehre 1 reine Bevölkerung.\n2. Erhalte 1 Hinterlassenschaft.\n3. Erhalte 1 Machtagenda.\n4. Erhalte 1 Hinterlassenschaft.\n5. Erhalte 1 Beute und/oder entferne 1 Verderbnis.\n6. Erhalte 1 Beute und/oder schreite auf der Staatsführungsleiste voran.\n7. Kein Effekt (aber du kannst bis hierhin voranschreiten).\n\n**Staatsführungsleiste**\n1. Aktiviere 1 Flotte.\n2. Errichte 1 Stützpunkt.\n3. Erhalte 1 Basistechnologie und/oder aktiviere 1 Flotte.\n4. Aktiviere 1 Flotte und/oder setze max. 2 Flotten ein.\n5. Aktiviere max. 2 Flotten.\n6. Setze max. 2 Flotten ein und/oder erhalte dem Wert deiner Ruhmplättchen entsprechend viele Einflusspunkte.\n7. Kein Effekt (aber du kannst bis hierhin voranschreiten).\n\n**Wirtschaftsleiste**\n1. Erhalte 1 Beute.\n2. Erhalte 2 Beuten.\n3. Erhalte 1 Beute und/oder 1 Handelsplättchen.\n4. Erhalte 1 Reichtumsagenda.\n5. Erhalte 1 Beute und/oder 4 beliebige Ressourcen.\n6. Werte die Ziele von 1 deiner reinen (nicht Start-)Agenden.\n7. Kein Effekt (aber du kannst bis hierhin voranschreiten).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "zivilisationsleisten"
+      ],
+      "warnings": [],
+      "sort_order": 190
+    },
+    {
+      "id": "ziv-zenor",
+      "type": "reference",
+      "category": "zivilisationsleisten",
+      "name": "Haus Zenor",
+      "image": "/images/voidfall/zivilisationsleisten/ziv_zenor.webp",
+      "summary": "**Gesellschaftsleiste**\n1. Vermehre 1 reine Bevölkerung.\n2. Entferne 1 Verderbnis.\n3. Erhalte 1 Machtagenda.\n4. Entferne 1 Verderbnis.\n5. Vermehre 1 reine Bevölkerung und/oder entferne 1 Verderbnis.\n6. Werte die Ziele von 1 deiner reinen (nicht Start-)Agenden.\n7. Erhalte 15 Einflusspunkte.\n\n**Staatsführungsleiste**\n1. Aktiviere 1 Flotte.\n2. Errichte 1 Stützpunkt und/oder aktiviere 1 Flotte.\n3. Überspringe dieses Feld.\n4. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n5. Sammle deine Flotten und/oder aktiviere 1 Flotte.\n6. Erhalte 1 Dominanzagenda.\n7. Erhalte 4 Einflusspunkte pro eigener reiner Forschungsgilde.\n\n**Wirtschaftsleiste**\n1. Erhalte 1 Nahrung, 1 Energie, 1 Material und 1 Wissen.\n2. Gründe 1 Gilde.\n3. Überspringe dieses Feld.\n4. Gründe 1 Gilde und/oder erhalte 1 Handelsplättchen.\n5. Gründe 1 Gilde und/oder erhalte 1 Handelsplättchen.\n6. Erhalte dem Wert deiner Ruhmplättchen entsprechend viele Einflusspunkte.\n7. Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit Gilde(n)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "zivilisationsleisten"
+      ],
+      "warnings": [],
+      "sort_order": 200
+    }
+  ]
+}

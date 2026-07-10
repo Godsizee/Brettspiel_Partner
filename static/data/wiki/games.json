@@ -1,0 +1,134 @@
+[
+  {
+    "key": "age-of-innovation",
+    "name": "Age of Innovation",
+    "publisher": "Feuerland Spiele",
+    "badge": "Expertenspiel",
+    "players": "1–5 Spieler",
+    "wiki": {
+      "enabled": true,
+      "manifest": "/data/games/age-of-innovation/manifest.json"
+    }
+  },
+  {
+    "key": "on-mars",
+    "name": "On Mars",
+    "publisher": "Eagle-Gryphon Games / Spielworxx",
+    "badge": "Expertenspiel",
+    "players": "1–4 Spieler",
+    "wiki": {
+      "enabled": true,
+      "manifest": "/data/games/on-mars/manifest.json"
+    }
+  },
+  {
+    "key": "arche-nova",
+    "name": "Arche Nova",
+    "publisher": "Feuerland Spiele",
+    "wiki": {
+      "enabled": true,
+      "manifest": null
+    }
+  },
+  {
+    "key": "hallertau",
+    "name": "Hallertau",
+    "publisher": "Lookout Spiele",
+    "wiki": {
+      "enabled": true,
+      "manifest": null
+    }
+  },
+  {
+    "key": "sattgruen",
+    "name": "Sattgrün",
+    "publisher": "KOSMOS",
+    "wiki": {
+      "enabled": true,
+      "manifest": null
+    }
+  },
+  {
+    "key": "revive",
+    "name": "Revive",
+    "publisher": "Pegasus Spiele",
+    "wiki": {
+      "enabled": true,
+      "manifest": null
+    }
+  },
+  {
+    "key": "fluegelschlag",
+    "name": "Flügelschlag",
+    "publisher": "Feuerland Spiele",
+    "wiki": {
+      "enabled": true,
+      "manifest": null
+    }
+  },
+  {
+    "key": "mischwald",
+    "name": "Mischwald",
+    "publisher": "Lookout Spiele",
+    "wiki": {
+      "enabled": true,
+      "manifest": null
+    }
+  },
+  {
+    "key": "mischwald-dartmoor",
+    "name": "Mischwald: Dartmoor",
+    "publisher": "Lookout Spiele",
+    "wiki": {
+      "enabled": true,
+      "manifest": null
+    }
+  },
+  {
+    "key": "arler-erde",
+    "name": "Arler Erde",
+    "publisher": "Feuerland Spiele",
+    "wiki": {
+      "enabled": true,
+      "manifest": null
+    }
+  },
+  {
+    "key": "arnak",
+    "name": "Arnak",
+    "publisher": "HeidelBÄR Games",
+    "wiki": {
+      "enabled": true,
+      "manifest": null
+    }
+  },
+  {
+    "key": "la-granja",
+    "name": "La Granja",
+    "publisher": "Spielworxx / Giant Roc",
+    "wiki": {
+      "enabled": true,
+      "manifest": null
+    }
+  },
+  {
+    "key": "radlands",
+    "name": "Radlands",
+    "publisher": "Grimspire",
+    "wiki": {
+      "enabled": true,
+      "manifest": null
+    }
+  },
+  {
+    "key": "voidfall",
+    "name": "Voidfall",
+    "publisher": "Mindclash Games / Skellig Games",
+    "badge": "Alpha",
+    "players": "1–4 Spieler",
+    "wiki": {
+      "enabled": true,
+      "manifest": "/data/games/voidfall/manifest.json"
+    }
+  }
+]

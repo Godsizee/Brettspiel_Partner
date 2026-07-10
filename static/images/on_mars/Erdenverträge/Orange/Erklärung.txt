@@ -1,0 +1,14 @@
+Anmerkung für die KI: Orange im Dateinamen bezieht sich auf die Farbe der Rückseite der Karte
+
+Für Alle Verträge gilt: Hast du am Ende des Spiels 2 gebäudefortschritts-Marker(Gebüude aufgewertet und drauf gesetzt) auf einem Komplex des abgebildeten Tys stehen, der mindestens die größe 3 hat.
+
+Auflistung der Arten:
+01 Luft
+02 Wasser
+03 Pflanzen
+04 Batterie
+05 Mineral
+06 Wohngebäude
+
+
+Egal Welcher Vertrag: Erfüllt am Spielende gibt 12 Punkte Nicht Erfüllt gibt 6 Minuspunkte

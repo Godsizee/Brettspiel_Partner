@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.1.0-alpha",
+  "game": {
+    "key": "voidfall",
+    "name": "Voidfall",
+    "publisher": "Mindclash Games",
+    "edition": "base",
+    "defaultLanguage": "de"
+  },
+  "modules": [
+    {
+      "id": "fokusse",
+      "type": "reference",
+      "layout": "voidfall-fokus",
+      "title": "Fokusse",
+      "icon": "book-open",
+      "source": "modules/fokusse.json",
+      "featured": true
+    },
+    {
+      "id": "zivilisationsleisten",
+      "type": "reference",
+      "layout": "voidfall-leiste",
+      "title": "Zivilisationsleisten",
+      "icon": "list",
+      "source": "modules/zivilisationsleisten.json",
+      "featured": true
+    },
+    {
+      "id": "startagenden",
+      "type": "reference",
+      "title": "Startagenden",
+      "icon": "flag",
+      "source": "modules/startagenden.json",
+      "featured": true
+    },
+    {
+      "id": "hauseigenschaften",
+      "type": "reference",
+      "title": "Hauseigenschaften",
+      "icon": "home",
+      "source": "modules/hauseigenschaften.json",
+      "featured": false
+    },
+    {
+      "id": "gefallene_haeuser",
+      "type": "reference",
+      "title": "Gefallene Häuser",
+      "icon": "alert-triangle",
+      "source": "modules/gefallene_haeuser.json",
+      "featured": false
+    },
+    {
+      "id": "technologien",
+      "type": "reference",
+      "title": "Technologien",
+      "icon": "cpu",
+      "source": "modules/technologien.json",
+      "featured": true
+    },
+    {
+      "id": "agenden",
+      "type": "reference",
+      "title": "Agenden",
+      "icon": "target",
+      "source": "modules/agenden.json",
+      "featured": false
+    },
+    {
+      "id": "galaktische_ereignisse",
+      "type": "reference",
+      "title": "Galaktische Ereignisse",
+      "icon": "globe",
+      "source": "modules/galaktische_ereignisse.json",
+      "featured": false
+    },
+    {
+      "id": "sektoren",
+      "type": "reference",
+      "title": "Sektoren",
+      "icon": "map",
+      "source": "modules/sektoren.json",
+      "featured": false
+    },
+    {
+      "id": "icons",
+      "type": "reference",
+      "layout": "voidfall-icons",
+      "title": "Icons",
+      "icon": "help-circle",
+      "source": "modules/icons.json",
+      "featured": true
+    }
+  ]
+}

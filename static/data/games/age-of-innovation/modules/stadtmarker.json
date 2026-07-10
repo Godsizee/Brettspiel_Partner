@@ -1,0 +1,148 @@
+{
+  "entries": [
+    {
+      "id": "stadtmarker-01",
+      "type": "card",
+      "category": "Stadtmarker",
+      "name": "Stadtmarker 1",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Stadtmarker/1.webp",
+      "summary": "Wenn du diesen Stadtmarker nimmst, erhältst du 8 Punkte und 1 Gelehrten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "stadtmarker"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "stadtmarker-02",
+      "type": "card",
+      "category": "Stadtmarker",
+      "name": "Stadtmarker 2",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Stadtmarker/2.webp",
+      "summary": "Wenn du diesen Stadtmarker nimmst, erhältst du 4 Punkte und 3 Werkzeuge.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "stadtmarker"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "stadtmarker-03",
+      "type": "card",
+      "category": "Stadtmarker",
+      "name": "Stadtmarker 3",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Stadtmarker/3.webp",
+      "summary": "Wenn du diesen Stadtmarker nimmst, erhältst du 8 Punkte und 8 Macht.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "stadtmarker"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "stadtmarker-04",
+      "type": "card",
+      "category": "Stadtmarker",
+      "name": "Stadtmarker 4",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Stadtmarker/4.webp",
+      "summary": "Wenn du diesen Stadtmarker nimmst, erhältst du 6 Punkte und 6 Geld.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "stadtmarker"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "stadtmarker-05",
+      "type": "card",
+      "category": "Stadtmarker",
+      "name": "Stadtmarker 5",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Stadtmarker/5.webp",
+      "summary": "Wenn du diesen Stadtmarker nimmst, erhältst du 5 Punkte und 2 Bücher deiner Wahl.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "stadtmarker"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "stadtmarker-06",
+      "type": "card",
+      "category": "Stadtmarker",
+      "name": "Stadtmarker 6",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Stadtmarker/6.webp",
+      "summary": "Wenn du diesen Stadtmarker nimmst, erhältst du 7 Punkte und steigst in jeder Disziplin 1 Stufe auf.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "stadtmarker"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "stadtmarker-07",
+      "type": "card",
+      "category": "Stadtmarker",
+      "name": "Stadtmarker 7",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Stadtmarker/7.webp",
+      "summary": "Wenn du diesen Stadtmarker nimmst, erhältst du 5 Punkte und darfst sofort eine Aktion *Umwandeln und Bauen* mit 2 kostenlosen Spaten ausführen. (Evtl. fehlende Spaten für die Umwandlung in deine Heimatlandschaft darfst du durch Abgabe von Werkzeugen zukaufen.)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "stadtmarker"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "stadtmarker-genutzt",
+      "type": "card",
+      "category": "Stadtmarker",
+      "name": "Stadtmarker (genutzt)",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Stadtmarker/genutzt.webp",
+      "summary": "So legt ihr den Stadtmarker hin nachdem ihr ihn eingesetzt habt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "stadtmarker"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    }
+  ]
+}

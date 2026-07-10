@@ -1,0 +1,400 @@
+{
+  "entries": [
+    {
+      "id": "private_001",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 001",
+      "image": "/images/on_mars/Privatziele/1.webp",
+      "summary": "Ziel: 4 gebaute oder ungebaute Baupläne haben.\r\nBelohnung: Entwickle 2x kostenlos ODER verbessere kostenlos bis zu 2 Gebäude.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_002",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 002",
+      "image": "/images/on_mars/Privatziele/2.webp",
+      "summary": "Ziel: 3 Unterkünfte besitzen.\r\nBelohnung: Entwickle 2x kostenlos ODER versetze 2 Kolonisten aus deinem Vorrat in deinen Wohnbereich.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_003",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 003",
+      "image": "/images/on_mars/Privatziele/3.webp",
+      "summary": "Ziel: 3 Minen besitzen (entweder mit einem deiner Kolonisten oder einem deiner Gebäudefortschritt-Marker).\r\nBelohnung: Entwickle 2x kostenlos ODER erhalte 3 Mineralien.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_004",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 004",
+      "image": "/images/on_mars/Privatziele/4.webp",
+      "summary": "Ziel: Mit deinem Rover 3 Entdeckungsplättchen vom Spielplan genommen zu haben.\r\nBelohnung: Entwickle 2x kostenlos ODER bewege deinen Rover 5 Felder (Kristall-/Tech-Zusatzbewegung möglich).",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_005",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 005",
+      "image": "/images/on_mars/Privatziele/5.webp",
+      "summary": "Ziel: 1 Gebäudefortschritt-Marker auf einem Komplex mit einer Größe von mindestens 4 stehen zu haben.\r\nBelohnung: Entwickle 2x kostenlos ODER versetze 2 Kolonisten aus deinem Vorrat in deinen Wohnbereich.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_006",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 006",
+      "image": "/images/on_mars/Privatziele/6.webp",
+      "summary": "Ziel: 4 Ressourcen des gleichen Typs besitzen (keine Mineralien).\r\nBelohnung: Entwickle 2x kostenlos ODER nimm einen kostenlosen Erdenvertrag aus der Auslage.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_007",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 007",
+      "image": "/images/on_mars/Privatziele/7.webp",
+      "summary": "Ziel: 3 Fortschrittliche Gebäude aufwerten.\r\nBelohnung: Entwickle 2x kostenlos ODER nimm bis zu 3 Ressourcen (keine Mineralien).",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_008",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 008",
+      "image": "/images/on_mars/Privatziele/8.webp",
+      "summary": "Ziel: Die Kolonie muss Level 3 erreichen.\r\nBelohnung: Entwickle 2x kostenlos ODER bewege deinen Rover 5 Felder (Kristall-/Tech-Zusatzbewegung möglich).",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_009",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 009",
+      "image": "/images/on_mars/Privatziele/9.webp",
+      "summary": "Ziel: 7 Kolonisten in deinem Wohnbereich zu haben.\r\nBelohnung: Entwickle 2x kostenlos ODER empfange kostenlos ein Schiff.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_010",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 010",
+      "image": "/images/on_mars/Privatziele/10.webp",
+      "summary": "Ziel: Mindestens 5 Techplättchen zu haben (dein Unterkunft-Start-Techplättchen zählt mit).\r\nBelohnung: Entwickle 2x kostenlos ODER hole 2 deiner Kolonisten von irgendwo auf dem Spielplan und/oder deinem Arbeitsbereich zurück.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_011",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 011",
+      "image": "/images/on_mars/Privatziele/11.webp",
+      "summary": "Ziel: 3 Schiffe in deinem Hangar zu haben.\r\nBelohnung: Entwickle 2x kostenlos ODER reise ins Orbit oder in die Kolonie und führe die normalen Schritte der Reise durch. Wenn vor Hauptaktion ausgeführt, findet diese am Ziel statt.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_012",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 012",
+      "image": "/images/on_mars/Privatziele/12.webp",
+      "summary": "Ziel: 2 Forschungsplättchen besitzen.\r\nBelohnung: Entwickle 2x kostenlos ODER nimm eine kostenlose Wissenschaftlerkarte.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_013",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 013",
+      "image": "/images/on_mars/Privatziele/13.webp",
+      "summary": "Ziel: 1 Wissenschaftler und 1 Erdenvertrag erfüllt haben.\r\nBelohnung: Entwickle 2x kostenlos ODER nimm 1 kostenlosen Erdenvertrag.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_014",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 014",
+      "image": "/images/on_mars/Privatziele/14.webp",
+      "summary": "Ziel: 3 Techplättchen auf den angegebenen Feldern deines Labors zu haben.\r\nBelohnung: Entwickle 2x kostenlos ODER nimm 3 Kristalle aus dem Vorrat.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_015",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 015",
+      "image": "/images/on_mars/Privatziele/15.webp",
+      "summary": "Ziel: 3 Würfel im Fortschrittsbereich zu haben.\r\nBelohnung: Entwickle 2x kostenlos ODER hole 2 Kolonisten von einem beliebigen Aktionsfeld und/oder deinem Arbeitsbereich zurück.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_016",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 016",
+      "image": "/images/on_mars/Privatziele/16.webp",
+      "summary": "Ziel: 2 Gebäudefortschritt-Marker auf 2 Komplexen, die mindestens die Größe 3 haben, stehen zu haben.\r\nBelohnung: Entwickle 2x kostenlos ODER werte kostenlos bis zu 2 Gebäude auf.",
+      "description": "Punkte am Spielende sind dir nach Erfüllung sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_017",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 017",
+      "image": "/images/on_mars/Privatziele/Privatziele017.webp",
+      "summary": "Ziel (Technologie-Anordnung): Sobald man während dem Spiel seine technologie auf seinem Spielertableau so angeordnet hat wie auf der Karte angegeben, kann man das Privatziel erfüllen und erhält 9 Punkte.",
+      "description": "Anmerkung: Man kann nach dem Erfüllen des Ziels die Technologien weiter aufwerten. Die Punkte sind dir sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_018",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 018",
+      "image": "/images/on_mars/Privatziele/Privatziele018.webp",
+      "summary": "Ziel (Technologie-Anordnung): Sobald man während dem Spiel seine technologie auf seinem Spielertableau so angeordnet hat wie auf der Karte angegeben, kann man das Privatziel erfüllen und erhält 9 Punkte.",
+      "description": "Anmerkung: Man kann nach dem Erfüllen des Ziels die Technologien weiter aufwerten. Die Punkte sind dir sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_019",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 019",
+      "image": "/images/on_mars/Privatziele/Privatziele019.webp",
+      "summary": "Ziel (Technologie-Anordnung): Sobald man während dem Spiel seine technologie auf seinem Spielertableau so angeordnet hat wie auf der Karte angegeben, kann man das Privatziel erfüllen und erhält 9 Punkte.",
+      "description": "Anmerkung: Man kann nach dem Erfüllen des Ziels die Technologien weiter aufwerten. Die Punkte sind dir sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_020",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 020",
+      "image": "/images/on_mars/Privatziele/Privatziele020.webp",
+      "summary": "Ziel (Technologie-Anordnung): Sobald man während dem Spiel seine technologie auf seinem Spielertableau so angeordnet hat wie auf der Karte angegeben, kann man das Privatziel erfüllen und erhält 9 Punkte.",
+      "description": "Anmerkung: Man kann nach dem Erfüllen des Ziels die Technologien weiter aufwerten. Die Punkte sind dir sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_021",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 021",
+      "image": "/images/on_mars/Privatziele/Privatziele021.webp",
+      "summary": "Ziel (Technologie-Anordnung): Sobald man während dem Spiel seine technologie auf seinem Spielertableau so angeordnet hat wie auf der Karte angegeben, kann man das Privatziel erfüllen und erhält 9 Punkte.",
+      "description": "Anmerkung: Man kann nach dem Erfüllen des Ziels die Technologien weiter aufwerten. Die Punkte sind dir sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "private_022",
+      "type": "card",
+      "category": "Privatziele",
+      "name": "Privatziel 022",
+      "image": "/images/on_mars/Privatziele/Privatziele022.webp",
+      "summary": "Ziel (Technologie-Anordnung): Sobald man während dem Spiel seine technologie auf seinem Spielertableau so angeordnet hat wie auf der Karte angegeben, kann man das Privatziel erfüllen und erhält 9 Punkte.",
+      "description": "Anmerkung: Man kann nach dem Erfüllen des Ziels die Technologien weiter aufwerten. Die Punkte sind dir sicher.",
+      "timing": [],
+      "tags": [
+        "private_goals"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    }
+  ]
+}

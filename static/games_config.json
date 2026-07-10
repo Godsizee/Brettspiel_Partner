@@ -1,0 +1,2362 @@
+[
+  {
+    "key": "wingspan",
+    "name": "Flügelschlag",
+    "badge": "Kennerspiel",
+    "description": "Trage Eier, Vögel, Futter und Bonuskarten ein.",
+    "players": "1–5 Spieler",
+    "cover": "wingspan_cover.webp",
+    "order": 1,
+    "active": true,
+    "wiki": null,
+    "theme": {
+      "primary": "hsl(142, 45%, 45%)",
+      "secondary": "hsl(38, 75%, 65%)",
+      "gradientColor": "#4ADE80",
+      "icon_bg": "rgba(255,255,255,0.9)",
+      "icon_style": "white-circle"
+    },
+    "categories": [
+      {
+        "id": "birds",
+        "label": "Vogel-Kartenwert",
+        "icon": "icons/icons_flügelschlag/01_Voegel.webp",
+        "type": "sum",
+        "description": "Punkte für ausgespielte Vögel in deinem Reservat (Wert steht auf den Karten)."
+      },
+      {
+        "id": "bonus",
+        "label": "Bonuskarten",
+        "icon": "icons/icons_flügelschlag/02_Bonuskarten.webp",
+        "type": "sum",
+        "description": "Punkte für erfüllte Bonuskarten (grüne Karten, die du während des Spiels gesammelt hast)."
+      },
+      {
+        "id": "goals",
+        "label": "Rundenziele",
+        "icon": "icons/icons_flügelschlag/03_Rundenziele.webp",
+        "type": "sum",
+        "description": "Punkte für das Erreichen der gemeinsamen Rundenziele am Ende jeder der vier Runden."
+      },
+      {
+        "id": "eggs",
+        "label": "Eier",
+        "icon": "icons/icons_flügelschlag/04_Eier.webp",
+        "type": "sum",
+        "description": "Jedes Ei auf deinen Vögeln im Reservat bringt am Spielende genau 1 Punkt."
+      },
+      {
+        "id": "food",
+        "label": "Gelagertes Futter",
+        "icon": "icons/icons_flügelschlag/05_Gelagertes_Futter.webp",
+        "type": "sum",
+        "description": "Futtermarker, die du auf deinen Vogelkarten gelagert hast, bringen je 1 Punkt."
+      },
+      {
+        "id": "cards",
+        "label": "Untergeschobene Karten",
+        "icon": "icons/icons_flügelschlag/06_Karten_unter_Voegeln.webp",
+        "type": "sum",
+        "description": "Karten, die unter deine Vogelkarten geschoben wurden (z.B. durch Jagd- oder Schwarm-Effekte), bringen je 1 Punkt."
+      },
+      {
+        "id": "nectar",
+        "label": "Nektar-Mehrheiten",
+        "icon": "icons/icons_flügelschlag/07_Nektar.webp",
+        "type": "sum",
+        "description": "Mehrheiten-Wertung für Nektar in jedem der drei Lebensräume (Ozeanien-Erweiterung)."
+      }
+    ]
+  },
+  {
+    "key": "on mars",
+    "name": "On Mars",
+    "badge": "Expertenspiel",
+    "description": "Besiedle den Mars und verwalte Ressourcen, Schiffe und Kolonisten.",
+    "players": "1–4 Spieler",
+    "cover": "on_mars_cover.webp",
+    "order": 2,
+    "active": true,
+    "wiki": {
+      "categories": [
+        {
+          "id": "scientists",
+          "label": "Wissenschaftler",
+          "description": "Im Spiel gibt es <strong>6 verschiedene Wissenschaftlerkarten</strong>. Sie können zum Arbeiten in <em>Fortschrittliche Gebäude</em> geschickt werden, die ihrer Spezialisierung entsprechen. Dadurch kann die Sonderaktion des Gebäudes <strong>kostenlos</strong> (ohne Kristalle) genutzt werden.<br><br>⚡ <strong>Spielende:</strong> Sie bringen <span class=\"highlight-gp\">+3 GP</span> pro passendem Gebäude. Du bekommst die Punkte <strong>auch für Gebäude, die deinen Mitspielern gehören</strong>.",
+          "items": [
+            {
+              "id": "biochemist",
+              "name": "Der Biochemiker",
+              "image": "images/on_mars/Wissenschaftler/Der Biochemiker.webp",
+              "effect": "Kosten: 2 Wasser\nArbeitsort: Aufgewertetes Gewächshaus (Greenhouse)\nErlaubt die kostenlose Nutzung der Sonderaktion des Gewächshauses.",
+              "tip": "Spielende: Bringt 3 GP für jeden aufgewerteten Sauerstoffkondensator auf dem Mars."
+            },
+            {
+              "id": "rd_engineer",
+              "name": "Der F&E Ingenieur",
+              "image": "images/on_mars/Wissenschaftler/Der F&E Ingenieur.webp",
+              "effect": "Kosten: 2 Mineralien\nArbeitsort: Aufgewerteter Generator (Generator)\nErlaubt die kostenlose Nutzung der Sonderaktion des Generators.",
+              "tip": "Spielende: Bringt 3 GP für jeden aufgewerteten Wasserextraktor auf dem Mars."
+            },
+            {
+              "id": "geochemist",
+              "name": "Der Geochemiker",
+              "image": "images/on_mars/Wissenschaftler/Der Geochemiker.webp",
+              "effect": "Kosten: 2 Pflanzen\nArbeitsort: Aufgewerteter Sauerstoffkondensator (Oxygen Condenser)\nErlaubt die kostenlose Nutzung der Sonderaktion des Sauerstoffkondensators.",
+              "tip": "Spielende: Bringt 3 GP für jede aufgewertete Unterkunft auf dem Mars."
+            },
+            {
+              "id": "geologist",
+              "name": "Der Geologe",
+              "image": "images/on_mars/Wissenschaftler/Der Geologe.webp",
+              "effect": "Kosten: Stelle 2 Kolonisten aus deinem Wohnbereich in deinen Arbeitsbereich.\nArbeitsort: Aufgewertete Mine (Mine)\nErlaubt die kostenlose Nutzung der Sonderaktion der Mine.",
+              "tip": "Spielende: Bringt 3 GP für jeden aufgewerteten Generator auf dem Mars."
+            },
+            {
+              "id": "hydrologist",
+              "name": "Der Hydrologe",
+              "image": "images/on_mars/Wissenschaftler/Der Hydrologe.webp",
+              "effect": "Kosten: 2 Batterien\nArbeitsort: Aufgewerteter Wasserextraktor (Water Extractor)\nErlaubt die kostenlose Nutzung der Sonderaktion des Wasserextraktors.",
+              "tip": "Spielende: Bringt 3 GP für jedes aufgewertete Gewächshaus auf dem Mars."
+            },
+            {
+              "id": "systems_engineer",
+              "name": "Der Systemingenieur",
+              "image": "images/on_mars/Wissenschaftler/Der Systemingenieur.webp",
+              "effect": "Kosten: 2 Sauerstoff\nArbeitsort: Aufgewertete Unterkunft (Shelter)\nErlaubt die kostenlose Nutzung der Sonderaktion der Unterkunft.",
+              "tip": "Spielende: Bringt 3 GP für jede aufgewertete Mine auf dem Mars."
+            }
+          ]
+        },
+        {
+          "id": "contracts",
+          "label": "Erdenverträge",
+          "description": "Erdenvertragskarten kommen ins Spiel, sobald der erste Wissenschaftler genommen wurde. Die Aufnahme kostet 1 Kristall. Am Spielende erhältst du GP, wenn erfüllt, andernfalls Punktabzug. Ressourcen auf lieferbaren Verträgen zählen nicht gegen dein Limit.",
+          "items": [
+            {
+              "id": "contract_blue_01",
+              "name": "Liefervertrag 01 (Blau)",
+              "image": "images/on_mars/Erdenverträge/Blau/01 Blau.webp",
+              "effect": "Bedingung: Gib am Spielende 3 Luft und 2 Mineralien in den allgemeinen Vorrat ab.\nErfüllt am Spielende: +9 GP\nNicht erfüllt am Spielende: -4 GP",
+              "tip": "Ressourcen können während des Spiels auf der Karte gelagert werden und belegen keinen Platz im Depot."
+            },
+            {
+              "id": "contract_blue_02",
+              "name": "Liefervertrag 02 (Blau)",
+              "image": "images/on_mars/Erdenverträge/Blau/02 Blau.webp",
+              "effect": "Bedingung: Gib am Spielende 3 Wasser und 2 Mineralien in den allgemeinen Vorrat ab.\nErfüllt am Spielende: +9 GP\nNicht erfüllt am Spielende: -4 GP",
+              "tip": "Ressourcen können während des Spiels auf der Karte gelagert werden und belegen keinen Platz im Depot."
+            },
+            {
+              "id": "contract_blue_03",
+              "name": "Liefervertrag 03 (Blau)",
+              "image": "images/on_mars/Erdenverträge/Blau/03 Blau.webp",
+              "effect": "Bedingung: Gib am Spielende 3 Pflanzen und 2 Mineralien in den allgemeinen Vorrat ab.\nErfüllt am Spielende: +9 GP\nNicht erfüllt am Spielende: -4 GP",
+              "tip": "Ressourcen können während des Spiels auf der Karte gelagert werden und belegen keinen Platz im Depot."
+            },
+            {
+              "id": "contract_blue_04",
+              "name": "Liefervertrag 04 (Blau)",
+              "image": "images/on_mars/Erdenverträge/Blau/04 Blau.webp",
+              "effect": "Bedingung: Gib am Spielende 3 Batterien und 2 Mineralien in den allgemeinen Vorrat ab.\nErfüllt am Spielende: +9 GP\nNicht erfüllt am Spielende: -4 GP",
+              "tip": "Ressourcen können während des Spiels auf der Karte gelagert werden und belegen keinen Platz im Depot."
+            },
+            {
+              "id": "contract_blue_05",
+              "name": "Liefervertrag 05 (Blau)",
+              "image": "images/on_mars/Erdenverträge/Blau/05 Blau.webp",
+              "effect": "Bedingung: Gib am Spielende 4 Mineralien in den allgemeinen Vorrat ab.\nErfüllt am Spielende: +9 GP\nNicht erfüllt am Spielende: -4 GP",
+              "tip": "Ressourcen können während des Spiels auf der Karte gelagert werden und belegen keinen Platz im Depot."
+            },
+            {
+              "id": "contract_blue_06",
+              "name": "Liefervertrag 06 (Blau)",
+              "image": "images/on_mars/Erdenverträge/Blau/06 Blau.webp",
+              "effect": "Bedingung: Gib am Spielende 3 Kristalle und 2 Mineralien in den allgemeinen Vorrat ab.\nErfüllt am Spielende: +9 GP\nNicht erfüllt am Spielende: -4 GP",
+              "tip": "Ressourcen können während des Spiels auf der Karte gelagert werden und belegen keinen Platz im Depot."
+            },
+            {
+              "id": "contract_green_01",
+              "name": "Besitzvertrag 01 (Grün)",
+              "image": "images/on_mars/Erdenverträge/Grün/01 Grün.webp",
+              "effect": "Bedingung: Besitze am Spielende mindestens 3 Luft-Baupläne.\nErfüllt am Spielende: +9 GP\nNicht erfüllt am Spielende: -4 GP",
+              "tip": "Die Baupläne müssen sich nur in deinem Besitz befinden. Sie müssen für diesen Vertrag nicht gebaut worden sein."
+            },
+            {
+              "id": "contract_green_02",
+              "name": "Besitzvertrag 02 (Grün)",
+              "image": "images/on_mars/Erdenverträge/Grün/02 Grün.webp",
+              "effect": "Bedingung: Besitze am Spielende mindestens 3 Wasser-Baupläne.\nErfüllt am Spielende: +9 GP\nNicht erfüllt am Spielende: -4 GP",
+              "tip": "Die Baupläne müssen sich nur in deinem Besitz befinden. Sie müssen für diesen Vertrag nicht gebaut worden sein."
+            },
+            {
+              "id": "contract_green_03",
+              "name": "Besitzvertrag 03 (Grün)",
+              "image": "images/on_mars/Erdenverträge/Grün/03 Grün.webp",
+              "effect": "Bedingung: Besitze am Spielende mindestens 3 Pflanzen-Baupläne.\nErfüllt am Spielende: +9 GP\nNicht erfüllt am Spielende: -4 GP",
+              "tip": "Die Baupläne müssen sich nur in deinem Besitz befinden. Sie müssen für diesen Vertrag nicht gebaut worden sein."
+            },
+            {
+              "id": "contract_green_04",
+              "name": "Besitzvertrag 04 (Grün)",
+              "image": "images/on_mars/Erdenverträge/Grün/04 Grün.webp",
+              "effect": "Bedingung: Besitze am Spielende mindestens 3 Batterie-Baupläne.\nErfüllt am Spielende: +9 GP\nNicht erfüllt am Spielende: -4 GP",
+              "tip": "Die Baupläne müssen sich nur in deinem Besitz befinden. Sie müssen für diesen Vertrag nicht gebaut worden sein."
+            },
+            {
+              "id": "contract_green_05",
+              "name": "Besitzvertrag 05 (Grün)",
+              "image": "images/on_mars/Erdenverträge/Grün/05 Grün.webp",
+              "effect": "Bedingung: Besitze am Spielende mindestens 3 Mineral-Baupläne.\nErfüllt am Spielende: +9 GP\nNicht erfüllt am Spielende: -4 GP",
+              "tip": "Die Baupläne müssen sich nur in deinem Besitz befinden. Sie müssen für diesen Vertrag nicht gebaut worden sein."
+            },
+            {
+              "id": "contract_green_06",
+              "name": "Besitzvertrag 06 (Grün)",
+              "image": "images/on_mars/Erdenverträge/Grün/06 Grün.webp",
+              "effect": "Bedingung: Besitze am Spielende mindestens 3 Wohngebäude-Baupläne.\nErfüllt am Spielende: +9 GP\nNicht erfüllt am Spielende: -4 GP",
+              "tip": "Die Baupläne müssen sich nur in deinem Besitz befinden. Sie müssen für diesen Vertrag nicht gebaut worden sein."
+            },
+            {
+              "id": "contract_orange_01",
+              "name": "Ausbauvertrag 01 (Orange)",
+              "image": "images/on_mars/Erdenverträge/Orange/01 Orange.webp",
+              "effect": "Bedingung: Besitze bei Spielende 2 eigene Gebäudefortschritt-Marker (aufgewertete Gebäude) auf einem Luft-Komplex der Mindestgröße 3.\nErfüllt am Spielende: +12 GP\nNicht erfüllt am Spielende: -6 GP",
+              "tip": "Sehr lukrativ, erfordert jedoch eine starke Präsenz in einem großen Luft-Komplex."
+            },
+            {
+              "id": "contract_orange_02",
+              "name": "Ausbauvertrag 02 (Orange)",
+              "image": "images/on_mars/Erdenverträge/Orange/02 Orange.webp",
+              "effect": "Bedingung: Besitze bei Spielende 2 eigene Gebäudefortschritt-Marker (aufgewertete Gebäude) auf einem Wasser-Komplex der Mindestgröße 3.\nErfüllt am Spielende: +12 GP\nNicht erfüllt am Spielende: -6 GP",
+              "tip": "Sehr lukrativ, erfordert jedoch eine starke Präsenz in einem großen Wasser-Komplex."
+            },
+            {
+              "id": "contract_orange_03",
+              "name": "Ausbauvertrag 03 (Orange)",
+              "image": "images/on_mars/Erdenverträge/Orange/03 Orange.webp",
+              "effect": "Bedingung: Besitze bei Spielende 2 eigene Gebäudefortschritt-Marker (aufgewertete Gebäude) auf einem Pflanzen-Komplex der Mindestgröße 3.\nErfüllt am Spielende: +12 GP\nNicht erfüllt am Spielende: -6 GP",
+              "tip": "Sehr lukrativ, erfordert jedoch eine starke Präsenz in einem großen Pflanzen-Komplex."
+            },
+            {
+              "id": "contract_orange_04",
+              "name": "Ausbauvertrag 04 (Orange)",
+              "image": "images/on_mars/Erdenverträge/Orange/04 Orange.webp",
+              "effect": "Bedingung: Besitze bei Spielende 2 eigene Gebäudefortschritt-Marker (aufgewertete Gebäude) auf einem Batterie-Komplex der Mindestgröße 3.\nErfüllt am Spielende: +12 GP\nNicht erfüllt am Spielende: -6 GP",
+              "tip": "Sehr lukrativ, erfordert jedoch eine starke Präsenz in einem großen Batterie-Komplex."
+            },
+            {
+              "id": "contract_orange_05",
+              "name": "Ausbauvertrag 05 (Orange)",
+              "image": "images/on_mars/Erdenverträge/Orange/05 Orange.webp",
+              "effect": "Bedingung: Besitze bei Spielende 2 eigene Gebäudefortschritt-Marker (aufgewertete Gebäude) auf einem Mineral-Komplex der Mindestgröße 3.\nErfüllt am Spielende: +12 GP\nNicht erfüllt am Spielende: -6 GP",
+              "tip": "Sehr lukrativ, erfordert jedoch eine starke Präsenz in einem großen Mineral-Komplex."
+            },
+            {
+              "id": "contract_orange_06",
+              "name": "Ausbauvertrag 06 (Orange)",
+              "image": "images/on_mars/Erdenverträge/Orange/06 Orange.webp",
+              "effect": "Bedingung: Besitze bei Spielende 2 eigene Gebäudefortschritt-Marker (aufgewertete Gebäude) auf einem Wohngebäude-Komplex der Mindestgröße 3.\nErfüllt am Spielende: +12 GP\nNicht erfüllt am Spielende: -6 GP",
+              "tip": "Sehr lukrativ, erfordert jedoch eine starke Präsenz in einem großen Wohngebäude-Komplex."
+            },
+            {
+              "id": "contract_turquoise_01",
+              "name": "Großkomplexvertrag 01 (Türkis)",
+              "image": "images/on_mars/Erdenverträge/Türkis/01 Türkis.webp",
+              "effect": "Bedingung: Besitze bei Spielende 1 eigenen Gebäudefortschritt-Marker auf einem Luft-Komplex der Mindestgröße 4.\nErfüllt am Spielende: +12 GP\nNicht erfüllt am Spielende: -6 GP",
+              "tip": "Die Mindestgröße 4 bezieht sich auf die Anzahl der Plättchen im zusammenhängenden Luft-Komplex."
+            },
+            {
+              "id": "contract_turquoise_02",
+              "name": "Großkomplexvertrag 02 (Türkis)",
+              "image": "images/on_mars/Erdenverträge/Türkis/02 Türkis.webp",
+              "effect": "Bedingung: Besitze bei Spielende 1 eigenen Gebäudefortschritt-Marker auf einem Wasser-Komplex der Mindestgröße 4.\nErfüllt am Spielende: +12 GP\nNicht erfüllt am Spielende: -6 GP",
+              "tip": "Die Mindestgröße 4 bezieht sich auf die Anzahl der Plättchen im zusammenhängenden Wasser-Komplex."
+            },
+            {
+              "id": "contract_turquoise_03",
+              "name": "Großkomplexvertrag 03 (Türkis)",
+              "image": "images/on_mars/Erdenverträge/Türkis/03 Türkis.webp",
+              "effect": "Bedingung: Besitze bei Spielende 1 eigenen Gebäudefortschritt-Marker auf einem Pflanzen-Komplex der Mindestgröße 4.\nErfüllt am Spielende: +12 GP\nNicht erfüllt am Spielende: -6 GP",
+              "tip": "Die Mindestgröße 4 bezieht sich auf die Anzahl der Plättchen im zusammenhängenden Pflanzen-Komplex."
+            },
+            {
+              "id": "contract_turquoise_04",
+              "name": "Großkomplexvertrag 04 (Türkis)",
+              "image": "images/on_mars/Erdenverträge/Türkis/04 Türkis.webp",
+              "effect": "Bedingung: Besitze bei Spielende 1 eigenen Gebäudefortschritt-Marker auf einem Batterie-Komplex der Mindestgröße 4.\nErfüllt am Spielende: +12 GP\nNicht erfüllt am Spielende: -6 GP",
+              "tip": "Die Mindestgröße 4 bezieht sich auf die Anzahl der Plättchen im zusammenhängenden Batterie-Komplex."
+            },
+            {
+              "id": "contract_turquoise_05",
+              "name": "Großkomplexvertrag 05 (Türkis)",
+              "image": "images/on_mars/Erdenverträge/Türkis/05 Türkis.webp",
+              "effect": "Bedingung: Besitze bei Spielende 1 eigenen Gebäudefortschritt-Marker auf einem Mineral-Komplex der Mindestgröße 4.\nErfüllt am Spielende: +12 GP\nNicht erfüllt am Spielende: -6 GP",
+              "tip": "Die Mindestgröße 4 bezieht sich auf die Anzahl der Plättchen im zusammenhängenden Mineral-Komplex."
+            },
+            {
+              "id": "contract_turquoise_06",
+              "name": "Großkomplexvertrag 06 (Türkis)",
+              "image": "images/on_mars/Erdenverträge/Türkis/06 Türkis.webp",
+              "effect": "Bedingung: Besitze bei Spielende 1 eigenen Gebäudefortschritt-Marker auf einem Wohngebäude-Komplex der Mindestgröße 4.\nErfüllt am Spielende: +12 GP\nNicht erfüllt am Spielende: -6 GP",
+              "tip": "Die Mindestgröße 4 bezieht sich auf die Anzahl der Plättchen im zusammenhängenden Wohngebäude-Komplex."
+            }
+          ]
+        },
+        {
+          "id": "blueprints",
+          "label": "Baupläne",
+          "description": "<strong>Fortschrittliche Gebäude</strong> (Level 1 und Level 3):<br>🏢 <strong>Level 1 Pläne:</strong> Werten Gebäude beliebigen Typs auf (<span class=\"highlight-gp\">+3 GP</span> wenn gebaut, <span class=\"highlight-red\">-3 GP</span> wenn nicht).<br>🏗️ <strong>Level 3 Pläne:</strong> Werten Gebäude in Komplexen ab Größe 3 auf (<span class=\"highlight-gp\">+5 GP</span> wenn gebaut, <span class=\"highlight-red\">-5 GP</span> wenn ungebaut).",
+          "items": [
+            {
+              "id": "blueprint_01",
+              "name": "01. Bauhof (Level 1)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 1/Bauhof.webp",
+              "effect": "Wertet eine Mine auf.\nNach Erhalt: Nimm 1 Mineral.\nGebäude-Aktion: Werte 1 Gebäude nach den normalen Regeln auf (Tech kann verwendet werden). Für jeden Kolonisten, den du in deinen Arbeitsbereich schickst, führst du 1 zusätzliche Aufwertung durch.",
+              "tip": "Passender Wissenschaftler: Geologe."
+            },
+            {
+              "id": "blueprint_02",
+              "name": "02. Metallvorkommen (Level 1)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 1/Metallvorkommen.webp",
+              "effect": "Wertet eine Mine auf.\nNach Erhalt: Nimm 1 Mineral.\nGebäude-Aktion: Baue eine Mine nach den normalen Regeln. Für das Bilden oder Vergrößern eines Komplexes ist Tech nötig. Jeder Kolonist, den du in deinen Arbeitsbereich schickst, zählt als 1 Techlevel.",
+              "tip": "Passender Wissenschaftler: Geologe."
+            },
+            {
+              "id": "blueprint_03",
+              "name": "03. Automatisierte Produktion (Level 1)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 1/Automatisierte Produktion.webp",
+              "effect": "Wertet einen Generator auf.\nNach Erhalt: Nimm 1 Batterie.\nGebäude-Aktion: Jede(s) deiner Minen/Fortschrittlichen Gebäude produziert 1 passende Ressource (Unterkunft 1 Kristall). Für jeden Kolonist, den du in deinen Arbeitsbereich schickst, produziert ein Gebäude nochmal.",
+              "tip": "Passender Wissenschaftler: F&E Ingenieur."
+            },
+            {
+              "id": "blueprint_04",
+              "name": "04. Windturbinen (Level 1)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 1/Windturbinen.webp",
+              "effect": "Wertet einen Generator auf.\nNach Erhalt: Nimm 1 Batterie.\nGebäude-Aktion: Baue einen Generator nach den normalen Regeln. Für das Bilden oder Vergrößern eines Komplexes ist Tech nötig. Jeder Kolonist, den du in deinen Arbeitsbereich schickst, zählt als 1 Techlevel.",
+              "tip": "Passender Wissenschaftler: F&E Ingenieur."
+            },
+            {
+              "id": "blueprint_05",
+              "name": "05. Privatschiff (Level 1)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 1/Privatschiff.webp",
+              "effect": "Wertet einen Wasserextraktor auf.\nNach Erhalt: Nimm 1 Wasser.\nGebäude-Aktion: Empfange 1 Schiff. Kostet 1 Pflanze und 1 Wasser. Bringt dir 2 Kolonisten und 1 Bot ODER 3 Kolonisten. Für jeden Kolonist in den Arbeitsbereich empfängst du 1 zusätzliches Schiff.",
+              "tip": "Passender Wissenschaftler: Hydrologe."
+            },
+            {
+              "id": "blueprint_06",
+              "name": "06. Feuchtigkeitsvaporator (Level 1)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 1/Feuchtigkeitsvaporator.webp",
+              "effect": "Wertet einen Wasserextraktor auf.\nNach Erhalt: Nimm 1 Wasser.\nGebäude-Aktion: Baue einen Wasserextraktor nach den normalen Regeln. Für das Bilden oder Vergrößern eines Komplexes ist Tech nötig. Jeder Kolonist, den du in deinen Arbeitsbereich schickst, zählt als 1 Techlevel.",
+              "tip": "Passender Wissenschaftler: Hydrologe."
+            },
+            {
+              "id": "blueprint_07",
+              "name": "07. Biomarkt (Level 1)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 1/Biomarkt.webp",
+              "effect": "Wertet ein Gewächshaus auf.\nNach Erhalt: Nimm 1 Pflanze.\nGebäude-Aktion: Nimm 1 Kristall oder 1 Ressource aus dem Warenlager. Für jeden Kolonist, den du in deinen Arbeitsbereich schickst, erhältst du 1 zusätzliche Ressource oder Kristall.",
+              "tip": "Passender Wissenschaftler: Biochemiker."
+            },
+            {
+              "id": "blueprint_08",
+              "name": "08. Hydroponische Farm (Level 1)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 1/Hydroponische Farm.webp",
+              "effect": "Wertet ein Gewächshaus auf.\nNach Erhalt: Nimm 1 Pflanze.\nGebäude-Aktion: Baue ein Gewächshaus nach den normalen Regeln. Für das Bilden oder Vergrößern eines Komplexes ist Tech nötig. Jeder Kolonist, den du in deinen Arbeitsbereich schickst, zählt als 1 Techlevel.",
+              "tip": "Passender Wissenschaftler: Biochemiker."
+            },
+            {
+              "id": "blueprint_09",
+              "name": "09. Sauerstofftank (Level 1)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 1/Sauerstofftank.webp",
+              "effect": "Wertet einen Sauerstoffkondensator auf.\nNach Erhalt: Nimm 1 Sauerstoff.\nGebäude-Aktion: Nimm 1 Techplättchen aus dem Techbereich nach den normalen Regeln. Für jeden Kolonist, den du in deinen Arbeitsbereich schickst, nimm 1 zusätzliches Techplättchen.",
+              "tip": "Passender Wissenschaftler: Geochemiker."
+            },
+            {
+              "id": "blueprint_10",
+              "name": "10. Konzentrator (Level 1)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 1/Konzentrator.webp",
+              "effect": "Wertet einen Sauerstoffkondensator auf.\nNach Erhalt: Nimm 1 Sauerstoff.\nGebäude-Aktion: Baue einen Sauerstoffkondensator nach den normalen Regeln. Für das Bilden oder Vergrößern eines Komplexes ist Tech nötig. Jeder Kolonist, den du in deinen Arbeitsbereich schickst, zählt als 1 Techlevel.",
+              "tip": "Passender Wissenschaftler: Geochemiker."
+            },
+            {
+              "id": "blueprint_11",
+              "name": "11. Casino (Level 1)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 1/Casino.webp",
+              "effect": "Wertet eine Unterkunft auf.\nNach Erhalt: Nimm 1 Kristall.\nGebäude-Aktion: Nimm 2 Kristalle. Für jeden Kolonist, den du in deinen Arbeitsbereich schickst, erhältst du 1 zusätzlichen Kristall.",
+              "tip": "Passender Wissenschaftler: Systemingenieur."
+            },
+            {
+              "id": "blueprint_12",
+              "name": "12. Turnhalle (Level 1)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 1/Turnhalle.webp",
+              "effect": "Wertet eine Unterkunft auf.\nNach Erhalt: Nimm 1 Kristall.\nGebäude-Aktion: Baue eine Unterkunft nach den normalen Regeln. Das Bilden/Bauen eines Komplexes erfordert Tech. Jeder Kolonist, den du in deinen Arbeitsbereich schickst, zählt als 1 Techlevel.",
+              "tip": "Passender Wissenschaftler: Systemingenieur."
+            },
+            {
+              "id": "blueprint_13",
+              "name": "13. Mineralienmine (Level 3)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 3/Mineralienmine.webp",
+              "effect": "Wertet eine Mine auf (in einem Komplex mit Mindestgröße 3).\nNach Erhalt: Nimm 1 Mineral.\nGebäude-Aktion: Erhalte 2 GP (Gewinnpunkte).",
+              "tip": "Passender Wissenschaftler: Geologe."
+            },
+            {
+              "id": "blueprint_14",
+              "name": "14. Biolabor (Level 3)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 3/Biolabor.webp",
+              "effect": "Wertet eine Mine auf (in einem Komplex mit Mindestgröße 3).\nNach Erhalt: Nimm 1 Mineral.\nGebäude-Aktion: Nimm 1 Erdenvertrag aus der Auslage und bezahle die normalen Kosten.",
+              "tip": "Passender Wissenschaftler: Geologe."
+            },
+            {
+              "id": "blueprint_15",
+              "name": "15. Radar (Level 3)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 3/radar.webp",
+              "effect": "Wertet einen Generator auf (in einem Komplex mit Mindestgröße 3).\nNach Erhalt: Nimm 1 Batterie.\nGebäude-Aktion: Lege eines der Entdeckungsplättchen vom Forschungsfeld auf diese Karte (ersetze das Plättchen durch ein neues). Erhalte den Bonus des Plättchens. Für den Rest des Spiels ist die Aktion dieser Karte, den Bonus des Entdeckungsplättchens zu erhalten.",
+              "tip": "Passender Wissenschaftler: F&E Ingenieur."
+            },
+            {
+              "id": "blueprint_16",
+              "name": "16. Baudrohne AI600 (Level 3)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 3/Baudrohne AI600.webp",
+              "effect": "Wertet einen Generator auf (in einem Komplex mit Mindestgröße 3).\nNach Erhalt: Nimm 1 Batterie.\nGebäude-Aktion: Werte ein Gebäude irgendwo auf dem Spielplan auf (der Baubereich deiner Bots ist für diese Aktion unbegrenzt).",
+              "tip": "Passender Wissenschaftler: F&E Ingenieur."
+            },
+            {
+              "id": "blueprint_17",
+              "name": "17. Forschungslabor (Level 3)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 3/Forschungslabor.webp",
+              "effect": "Wertet einen Wasserextraktor auf (in einem Komplex mit Mindestgröße 3).\nNach Erhalt: Nimm 1 Wasser.\nGebäude-Aktion: Entwickle 1 deiner Techplättchen bis zu 2 Mal oder 2 Techplättchen je 1x und zahle die normalen Kosten. Für jeden Kolonist, den du in deinen Arbeitsbereich schickst, entwickle eine Tech nochmal und zahle die normalen Kosten.",
+              "tip": "Passender Wissenschaftler: Hydrologe."
+            },
+            {
+              "id": "blueprint_18",
+              "name": "18. Aquädukt (Level 3)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 3/Aquädukt.webp",
+              "effect": "Wertet einen Wasserextraktor auf (in einem Komplex mit Mindestgröße 3).\nNach Erhalt: Nimm 1 Wasser.\nGebäude-Aktion: Stelle bis zu 2 Kolonisten aus deinem Arbeitsbereich in deinen Wohnbereich zurück.",
+              "tip": "Passender Wissenschaftler: Hydrologe."
+            },
+            {
+              "id": "blueprint_19",
+              "name": "19. Ökoresort (Level 3)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 3/ökoresort.webp",
+              "effect": "Wertet ein Gewächshaus auf (in einem Komplex mit Mindestgröße 3).\nNach Erhalt: Nimm 1 Pflanze.\nGebäude-Aktion: Stelle einige oder alle Kolonisten von den Aktionsfeldern im Orbit und/oder der Kolonie in deinen Wohnbereich zurück.",
+              "tip": "Passender Wissenschaftler: Biochemiker."
+            },
+            {
+              "id": "blueprint_20",
+              "name": "20. Handelsmarkt (Level 3)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 3/Handelsmarkt.webp",
+              "effect": "Wertet ein Gewächshaus auf (in einem Komplex mit Mindestgröße 3).\nNach Erhalt: Nimm 1 Pflanze.\nGebäude-Aktion: Zahle 1 Ressource aus deinem Lager und nimm 2 Nicht-Mineralien Ressourcen aus dem allgemeinen Vorrat. Für jeden Kolonist, den du in deinen Arbeitsbereich schickst, erhältst du 1 zusätzliche Ressource.",
+              "tip": "Passender Wissenschaftler: Biochemiker."
+            },
+            {
+              "id": "blueprint_21",
+              "name": "21. Recycling-Bots (Level 3)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 3/Recycling Bots.webp",
+              "effect": "Wertet einen Sauerstoffkondensator auf (in einem Komplex mit Mindestgröße 3).\nNach Erhalt: Nimm 1 Sauerstoff.\nGebäude-Aktion: Nutze bis zu 2 BP, um deine Bots zu bewegen (Kristalle für Zusatzbewegung möglich). In dieser Bewegung funktionieren deine Bots wie Rover (sie können Kristalle und Forschungs-/Entdeckungsplättchen sammeln).",
+              "tip": "Passender Wissenschaftler: Geochemiker."
+            },
+            {
+              "id": "blueprint_22",
+              "name": "22. Raumaufzug (Level 3)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 3/Raumaufzug.webp",
+              "effect": "Wertet einen Sauerstoffkondensator auf (in einem Komplex mit Mindestgröße 3).\nNach Erhalt: Nimm 1 Sauerstoff.\nGebäude-Aktion: Reise ins Orbit, indem du die normalen Schritte der Reise durchführst. Machst du das vor deiner Hauptaktion, führe deine Hauptaktion im Orbit durch.",
+              "tip": "Passender Wissenschaftler: Geochemiker."
+            },
+            {
+              "id": "blueprint_23",
+              "name": "23. Bücherei (Level 3)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 3/Bücherei.webp",
+              "effect": "Wertet eine Unterkunft auf (in einem Komplex mit Mindestgröße 3).\nNach Erhalt: Nimm 1 Kristall.\nGebäude-Aktion: Nimm 1 Bauplan. Nimm einen zusätzlichen für jeden Kolonist, den du in deinen Arbeitsbereich schickst.",
+              "tip": "Passender Wissenschaftler: Systemingenieur."
+            },
+            {
+              "id": "blueprint_24",
+              "name": "24. Kommandozentrale (Level 3)",
+              "image": "images/on_mars/Baupläne/Baupläne Level 3/Kommandozentrale.webp",
+              "effect": "Wertet eine Unterkunft auf (in einem Komplex mit Mindestgröße 3).\nNach Erhalt: Nimm 1 Kristall.\nGebäude-Aktion: Bewege deinen Rover maximal bis zur Anzahl an Feldern, die dem Level der Rover-Tech mit dem höchsten Level im Spiel entspricht. Für jeden bezahlten Kristall kannst du ihn 1 weiteres Feld bewegen.",
+              "tip": "Passender Wissenschaftler: Systemingenieur."
+            }
+          ]
+        },
+        {
+          "id": "private_goals",
+          "label": "Privatziele",
+          "description": "Privatzielkarten können bei Erfüllung im eigenen Zug ausgespielt werden, um eine der abgebildeten Belohnungen zu erhalten. Du kannst nur ein Privatziel im Spiel werten. Alternativ kann die Karte abgeworfen und wie ein Kristall verwendet werden.",
+          "items": [
+            {
+              "id": "private_001",
+              "name": "Privatziel 001",
+              "image": "images/on_mars/Privatziele/01.webp",
+              "effect": "Ziel: 4 gebaute oder ungebaute Baupläne haben.\nBelohnung: Entwickle 2x kostenlos ODER verbessere kostenlos bis zu 2 Gebäude.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_002",
+              "name": "Privatziel 002",
+              "image": "images/on_mars/Privatziele/02.webp",
+              "effect": "Ziel: 3 Unterkünfte besitzen.\nBelohnung: Entwickle 2x kostenlos ODER versetze 2 Kolonisten aus deinem Vorrat in deinen Wohnbereich.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_003",
+              "name": "Privatziel 003",
+              "image": "images/on_mars/Privatziele/03.webp",
+              "effect": "Ziel: 3 Minen besitzen (entweder mit einem deiner Kolonisten oder einem deiner Gebäudefortschritt-Marker).\nBelohnung: Entwickle 2x kostenlos ODER erhalte 3 Mineralien.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_004",
+              "name": "Privatziel 004",
+              "image": "images/on_mars/Privatziele/04.webp",
+              "effect": "Ziel: Mit deinem Rover 3 Entdeckungsplättchen vom Spielplan genommen zu haben.\nBelohnung: Entwickle 2x kostenlos ODER bewege deinen Rover 5 Felder (Kristall-/Tech-Zusatzbewegung möglich).",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_005",
+              "name": "Privatziel 005",
+              "image": "images/on_mars/Privatziele/05.webp",
+              "effect": "Ziel: 1 Gebäudefortschritt-Marker auf einem Komplex mit einer Größe von mindestens 4 stehen zu haben.\nBelohnung: Entwickle 2x kostenlos ODER versetze 2 Kolonisten aus deinem Vorrat in deinen Wohnbereich.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_006",
+              "name": "Privatziel 006",
+              "image": "images/on_mars/Privatziele/6.webp",
+              "effect": "Ziel: 4 Ressourcen des gleichen Typs besitzen (keine Mineralien).\nBelohnung: Entwickle 2x kostenlos ODER nimm einen kostenlosen Erdenvertrag aus der Auslage.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_007",
+              "name": "Privatziel 007",
+              "image": "images/on_mars/Privatziele/07.webp",
+              "effect": "Ziel: 3 Fortschrittliche Gebäude aufwerten.\nBelohnung: Entwickle 2x kostenlos ODER nimm bis zu 3 Ressourcen (keine Mineralien).",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_008",
+              "name": "Privatziel 008",
+              "image": "images/on_mars/Privatziele/08.webp",
+              "effect": "Ziel: Die Kolonie muss Level 3 erreichen.\nBelohnung: Entwickle 2x kostenlos ODER bewege deinen Rover 5 Felder (Kristall-/Tech-Zusatzbewegung möglich).",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_009",
+              "name": "Privatziel 009",
+              "image": "images/on_mars/Privatziele/09.webp",
+              "effect": "Ziel: 7 Kolonisten in deinem Wohnbereich zu haben.\nBelohnung: Entwickle 2x kostenlos ODER empfange kostenlos ein Schiff.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_010",
+              "name": "Privatziel 010",
+              "image": "images/on_mars/Privatziele/10.webp",
+              "effect": "Ziel: Mindestens 5 Techplättchen zu haben (dein Unterkunft-Start-Techplättchen zählt mit).\nBelohnung: Entwickle 2x kostenlos ODER hole 2 deiner Kolonisten von irgendwo auf dem Spielplan und/oder deinem Arbeitsbereich zurück.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_011",
+              "name": "Privatziel 011",
+              "image": "images/on_mars/Privatziele/11.webp",
+              "effect": "Ziel: 3 Schiffe in deinem Hangar zu haben.\nBelohnung: Entwickle 2x kostenlos ODER reise ins Orbit oder in die Kolonie und führe die normalen Schritte der Reise durch. Wenn vor Hauptaktion ausgeführt, findet diese am Ziel statt.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_012",
+              "name": "Privatziel 012",
+              "image": "images/on_mars/Privatziele/12.webp",
+              "effect": "Ziel: 2 Forschungsplättchen besitzen.\nBelohnung: Entwickle 2x kostenlos ODER nimm eine kostenlose Wissenschaftlerkarte.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_013",
+              "name": "Privatziel 013",
+              "image": "images/on_mars/Privatziele/13.webp",
+              "effect": "Ziel: 1 Wissenschaftler und 1 Erdenvertrag erfüllt haben.\nBelohnung: Entwickle 2x kostenlos ODER nimm 1 kostenlosen Erdenvertrag.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_014",
+              "name": "Privatziel 014",
+              "image": "images/on_mars/Privatziele/14.webp",
+              "effect": "Ziel: 3 Techplättchen auf den angegebenen Feldern deines Labors zu haben.\nBelohnung: Entwickle 2x kostenlos ODER nimm 3 Kristalle aus dem Vorrat.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_015",
+              "name": "Privatziel 015",
+              "image": "images/on_mars/Privatziele/15.webp",
+              "effect": "Ziel: 3 Würfel im Fortschrittsbereich zu haben.\nBelohnung: Entwickle 2x kostenlos ODER hole 2 Kolonisten von einem beliebigen Aktionsfeld und/oder deinem Arbeitsbereich zurück.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_016",
+              "name": "Privatziel 016",
+              "image": "images/on_mars/Privatziele/16.webp",
+              "effect": "Ziel: 2 Gebäudefortschritt-Marker auf 2 Komplexen, die mindestens die Größe 3 haben, stehen zu haben.\nBelohnung: Entwickle 2x kostenlos ODER werte kostenlos bis zu 2 Gebäude auf.",
+              "tip": "Punkte am Spielende sind dir nach Erfüllung sicher."
+            },
+            {
+              "id": "private_017",
+              "name": "Privatziel 017",
+              "image": "images/on_mars/Privatziele/Privatziele017.webp",
+              "effect": "Ziel (Technologie-Anordnung): Sobald man während dem Spiel seine technologie auf seinem Spielertableau so angeordnet hat wie auf der Karte angegeben, kann man das Privatziel erfüllen und erhält 9 Punkte.",
+              "tip": "Anmerkung: Man kann nach dem Erfüllen des Ziels die Technologien weiter aufwerten. Die Punkte sind dir sicher."
+            },
+            {
+              "id": "private_018",
+              "name": "Privatziel 018",
+              "image": "images/on_mars/Privatziele/Privatziele018.webp",
+              "effect": "Ziel (Technologie-Anordnung): Sobald man während dem Spiel seine technologie auf seinem Spielertableau so angeordnet hat wie auf der Karte angegeben, kann man das Privatziel erfüllen und erhält 9 Punkte.",
+              "tip": "Anmerkung: Man kann nach dem Erfüllen des Ziels die Technologien weiter aufwerten. Die Punkte sind dir sicher."
+            },
+            {
+              "id": "private_019",
+              "name": "Privatziel 019",
+              "image": "images/on_mars/Privatziele/Privatziele019.webp",
+              "effect": "Ziel (Technologie-Anordnung): Sobald man während dem Spiel seine technologie auf seinem Spielertableau so angeordnet hat wie auf der Karte angegeben, kann man das Privatziel erfüllen und erhält 9 Punkte.",
+              "tip": "Anmerkung: Man kann nach dem Erfüllen des Ziels die Technologien weiter aufwerten. Die Punkte sind dir sicher."
+            },
+            {
+              "id": "private_020",
+              "name": "Privatziel 020",
+              "image": "images/on_mars/Privatziele/Privatziele020.webp",
+              "effect": "Ziel (Technologie-Anordnung): Sobald man während dem Spiel seine technologie auf seinem Spielertableau so angeordnet hat wie auf der Karte angegeben, kann man das Privatziel erfüllen und erhält 9 Punkte.",
+              "tip": "Anmerkung: Man kann nach dem Erfüllen des Ziels die Technologien weiter aufwerten. Die Punkte sind dir sicher."
+            },
+            {
+              "id": "private_021",
+              "name": "Privatziel 021",
+              "image": "images/on_mars/Privatziele/Privatziele021.webp",
+              "effect": "Ziel (Technologie-Anordnung): Sobald man während dem Spiel seine technologie auf seinem Spielertableau so angeordnet hat wie auf der Karte angegeben, kann man das Privatziel erfüllen und erhält 9 Punkte.",
+              "tip": "Anmerkung: Man kann nach dem Erfüllen des Ziels die Technologien weiter aufwerten. Die Punkte sind dir sicher."
+            },
+            {
+              "id": "private_022",
+              "name": "Privatziel 022",
+              "image": "images/on_mars/Privatziele/Privatziele022.webp",
+              "effect": "Ziel (Technologie-Anordnung): Sobald man während dem Spiel seine technologie auf seinem Spielertableau so angeordnet hat wie auf der Karte angegeben, kann man das Privatziel erfüllen und erhält 9 Punkte.",
+              "tip": "Anmerkung: Man kann nach dem Erfüllen des Ziels die Technologien weiter aufwerten. Die Punkte sind dir sicher."
+            }
+          ]
+        },
+        {
+          "id": "missions",
+          "label": "Missionskarten",
+          "description": "Jede Karte hat eine Zielvorgabe (je nach Spieleranzahl 2/3/4 Spieler), wie oft die Anforderung erfüllt werden muss. Jedes Mal, wenn du beiträgst, erhältst du 1 oder 2 Kristalle. Das Spielende wird bei 3 erfüllten Missionen ausgelöst.",
+          "items": [
+            {
+              "id": "mission_01",
+              "name": "Missionskarte 1",
+              "image": "images/on_mars/Missionskarten/01.webp",
+              "effect": "Ziel: 5 / 5 / 7 Forschungsplättchen wurden vom Spielplan genommen (2/3/4 Spieler).\nBelohnung pro Beitrag: Erhalte 2 Kristalle.",
+              "tip": "Forschungsplättchen werden bei Spielaufbau platziert und vom Rover aufgesammelt."
+            },
+            {
+              "id": "mission_02",
+              "name": "Missionskarte 2",
+              "image": "images/on_mars/Missionskarten/06.webp",
+              "effect": "Ziel: 10 / 10 / 13 Baupläne wurden aus der Auslage genommen (2/3/4 Spieler).\nBelohnung pro Beitrag: Erhalte 1 Kristall.",
+              "tip": "Baupläne werden in der Kolonie oder im Orbit über Sonderaktionen/Aktionen erworben."
+            },
+            {
+              "id": "mission_03",
+              "name": "Missionskarte 3",
+              "image": "images/on_mars/Missionskarten/02.webp",
+              "effect": "Ziel: 8 / 8 / 10 Fortschrittliche Gebäude befinden sich auf dem Spielplan (2/3/4 Spieler).\nBelohnung pro Beitrag: Erhalte 1 Kristall.",
+              "tip": "Entsteht durch das Aufwerten bestehender Gebäude mittels Bauplänen."
+            },
+            {
+              "id": "mission_04",
+              "name": "Missionskarte 4",
+              "image": "images/on_mars/Missionskarten/07.webp",
+              "effect": "Ziel: 3 / 4 / 5 Bots befinden sich auf dem Spielplan (die Bots vom Spielanfang zählen nicht mit) (2/3/4 Spieler).\nBelohnung pro Beitrag: Erhalte 2 Kristalle.",
+              "tip": "Bots werden über die Aktion 'Bots bauen' im Labor erzeugt."
+            },
+            {
+              "id": "mission_05",
+              "name": "Missionskarte 5",
+              "image": "images/on_mars/Missionskarten/03.webp",
+              "effect": "Ziel: 5 / 7 / 9 Entdeckungsplättchen wurden von Rovern eingesammelt (2/3/4 Spieler).\nBelohnung pro Beitrag: Erhalte 1 Kristall.",
+              "tip": "Rover sammeln Entdeckungsplättchen ein, wenn sie ihre Bewegung auf deren Feld beenden."
+            },
+            {
+              "id": "mission_06",
+              "name": "Missionskarte 6",
+              "image": "images/on_mars/Missionskarten/08.webp",
+              "effect": "Ziel: 7 / 11 / 12 Techs wurden aus der Auslage genommen (2/3/4 Spieler).\nBelohnung pro Beitrag: Erhalte 1 Kristall.",
+              "tip": "Techs können im Labor erworben und weiterentwickelt werden."
+            },
+            {
+              "id": "mission_07",
+              "name": "Missionskarte 7",
+              "image": "images/on_mars/Missionskarten/04.webp",
+              "effect": "Ziel: 8 / 11 / 14 Würfel wurden in den Fortschrittsbereich gelegt (2/3/4 Spieler).\nBelohnung pro Beitrag: Erhalte 1 Kristall.",
+              "tip": "Erfolgt durch Aktionen im Labor und Erhöhen der LSS-Level."
+            },
+            {
+              "id": "mission_08",
+              "name": "Missionskarte 8",
+              "image": "images/on_mars/Missionskarten/09.webp",
+              "effect": "Ziel: 4 / 4 / 5 Wissenschaftler wurden aus der Auslage genommen (2/3/4 Spieler).\nBelohnung pro Beitrag: Erhalte 2 Kristalle.",
+              "tip": "Wissenschaftler sind stark limitiert und bieten exzellente Endwertungsboni."
+            },
+            {
+              "id": "mission_09",
+              "name": "Missionskarte 9",
+              "image": "images/on_mars/Missionskarten/05.webp",
+              "effect": "Ziel: 2 / 2 / 3 Erdenverträge wurden erfüllt (2/3/4 Spieler).\nBelohnung pro Beitrag: Erhalte 2 Kristalle.",
+              "tip": "Erfüllte Erdenverträge bringen bei Spielende wertvolle Pluspunkte (+9/+12 GP)."
+            }
+          ]
+        }
+      ]
+    },
+    "theme": {
+      "primary": "hsl(15, 89%, 60%)",
+      "secondary": "hsl(188, 90%, 45%)",
+      "gradientColor": "#EF4444",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "categories": [
+      {
+        "id": "ingame_vp",
+        "label": "Im Spiel gesammelte GP",
+        "icon": "icons/icons_on_mars/01_fortschrittspfeile_hochaufloesend.webp",
+        "type": "sum",
+        "description": "GP, die bereits während des Spiels vor der Endwertung gesammelt wurden: Kolonieausbau (Level 2/3-Boni), erfüllte Privatziele, Gebäudeaktionen (z.B. Mineralienmine +2 GP/Nutzung), Entdeckungsplättchen mit sofortigem GP-Bonus."
+      },
+      {
+        "id": "progress",
+        "label": "Fortschrittswürfel (1–5+)",
+        "icon": "icons/icons_on_mars/01_fortschrittspfeile_hochaufloesend.webp",
+        "type": "step",
+        "steps": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          11
+        ],
+        "iconColor": "hsl(15, 100%, 65%)",
+        "iconBg": "rgba(239,68,68,0.15)"
+      },
+      {
+        "id": "ships",
+        "label": "Schiffe im Hangar (x3 GP)",
+        "icon": "icons/icons_on_mars/02_rakete_hochaufloesend.webp",
+        "type": "multiplier",
+        "multiplier": 3,
+        "iconColor": "hsl(188, 90%, 60%)",
+        "iconBg": "rgba(6,182,212,0.15)"
+      },
+      {
+        "id": "colonists",
+        "label": "Wohnbereich & Kolonisten",
+        "icon": "icons/icons_on_mars/03_arbeiter wohnbereich.webp",
+        "type": "sum",
+        "iconColor": "hsl(40, 100%, 60%)",
+        "iconBg": "rgba(245,158,11,0.15)"
+      },
+      {
+        "id": "tech",
+        "label": "Techplättchen im Labor",
+        "icon": "icons/icons_on_mars/04_techplaettchen_labor_hochaufloesend.webp",
+        "type": "sum",
+        "iconColor": "hsl(210, 95%, 65%)",
+        "iconBg": "rgba(59,130,246,0.15)"
+      },
+      {
+        "id": "blueprints",
+        "label": "Baupläne & Gebäude (+/-)",
+        "icon": "icons/icons_on_mars/05_karten_hochaufloesend.webp",
+        "type": "sum",
+        "allowNegative": true,
+        "iconColor": "hsl(260, 95%, 70%)",
+        "iconBg": "rgba(139,92,246,0.15)"
+      },
+      {
+        "id": "scientists",
+        "label": "Wissenschaftler",
+        "icon": "icons/icons_on_mars/06_wissenschaftler_hochaufloesend.webp",
+        "type": "sum",
+        "iconColor": "hsl(240, 100%, 75%)",
+        "iconBg": "rgba(99,102,241,0.15)"
+      },
+      {
+        "id": "contracts",
+        "label": "Erdenverträge (+/- GP)",
+        "icon": "icons/icons_on_mars/07_ereignis_globus_hochaufloesend.webp",
+        "type": "sum",
+        "allowNegative": true,
+        "iconColor": "hsl(150, 90%, 60%)",
+        "iconBg": "rgba(16,185,129,0.15)"
+      }
+    ]
+  },
+  {
+    "key": "mischwald",
+    "name": "Mischwald",
+    "badge": "Familienspiel",
+    "description": "Baue deinen eigenen Wald und ernte Punkte durch Bäume und Kartenkombinationen.",
+    "players": "2–5 Spieler",
+    "cover": "mischwald_cover_neu.png",
+    "order": 3,
+    "active": true,
+    "theme": {
+      "primary": "hsl(140, 50%, 40%)",
+      "secondary": "hsl(80, 60%, 45%)",
+      "gradientColor": "#22C55E",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "modal": {
+      "title": "Wertungsübersicht: Mischwald",
+      "image": "mischwald_sheet.webp"
+    },
+    "categories": [
+      {
+        "id": "trees",
+        "label": "Bäume",
+        "type": "sum",
+        "svgIcon": "tree",
+        "iconColor": "hsl(140, 55%, 45%)",
+        "iconBg": "rgba(34,197,94,0.15)",
+        "description": "Jeder ausgespielte Baum kostet 1 Karte. Bäume dienen als Plätze zum Anlegen von Tier-/Pflanzenkarten an ihren 4 Seiten. <em>Buchen</em> belohnen Monokultur, <em>Eichen/Linden</em> belohnen Vielfalt."
+      },
+      {
+        "id": "top",
+        "label": "Karten oben",
+        "type": "sum",
+        "svgIcon": "up",
+        "iconColor": "hsl(50, 90%, 50%)",
+        "iconBg": "rgba(234,179,8,0.15)",
+        "description": "Insekten, Vögel und Eichhörnchen. Vögel benötigen freie Wipfel. Eichhörnchen geben Synergien untereinander."
+      },
+      {
+        "id": "bottom",
+        "label": "Karten unten",
+        "type": "sum",
+        "svgIcon": "down",
+        "iconColor": "hsl(30, 90%, 55%)",
+        "iconBg": "rgba(249,115,22,0.15)",
+        "description": "Pilze, Farne, Kröten, Frösche, Dachse und Bären. Pilze geben dauerhafte passive Boni, Bären/Dachse schieben Karten in deine Höhle."
+      },
+      {
+        "id": "left",
+        "label": "Karten links",
+        "type": "sum",
+        "svgIcon": "left",
+        "iconColor": "hsl(210, 90%, 60%)",
+        "iconBg": "rgba(59,130,246,0.15)",
+        "description": "Wölfe, Luchse, Rehe, Hirsche und Füchse. Wölfe punkten extrem stark für Rehe/Hirsche in deinem Wald."
+      },
+      {
+        "id": "right",
+        "label": "Karten rechts",
+        "type": "sum",
+        "svgIcon": "right",
+        "iconColor": "hsl(190, 80%, 55%)",
+        "iconBg": "rgba(6,182,212,0.15)",
+        "description": "Schmetterlinge, Wildschweine, Frischlinge, Käfer. Schmetterlinge punkten exponentiell bei Vielfalt. Wildschweine skalieren mit Frischlingen."
+      },
+      {
+        "id": "cave",
+        "label": "Höhle",
+        "type": "sum",
+        "svgIcon": "cave",
+        "iconColor": "hsl(270, 70%, 65%)",
+        "iconBg": "rgba(168,85,247,0.15)",
+        "description": "Karten in der Höhle bringen am Spielende je <span class=\"highlight-gp\">1 GP</span>. Raubvögel wie der Habicht skalieren zusätzlich mit der Größe deiner Höhle."
+      }
+    ]
+  },
+  {
+    "key": "mischwald_dartmoor",
+    "name": "Mischwald: Dartmoor",
+    "badge": "Erweiterung",
+    "description": "Die Erweiterung bringt Moore und neue Kartenkombinationen auf den Tisch.",
+    "players": "2–5 Spieler",
+    "cover": "mischwald_dartmoor_cover_neu.png",
+    "order": 4,
+    "active": true,
+    "theme": {
+      "primary": "hsl(200, 40%, 40%)",
+      "secondary": "hsl(160, 50%, 45%)",
+      "gradientColor": "#06B6D4",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "modal": {
+      "title": "Wertungsübersicht: Mischwald Dartmoor",
+      "image": "mischwald_dartmoor_sheet.webp"
+    },
+    "categories": [
+      {
+        "id": "trees",
+        "label": "Bäume",
+        "type": "sum",
+        "svgIcon": "tree",
+        "iconColor": "hsl(140, 55%, 45%)",
+        "iconBg": "rgba(34,197,94,0.15)",
+        "description": "Jeder ausgespielte Baum kostet 1 Karte. Bäume dienen als Plätze zum Anlegen von Tier-/Pflanzenkarten an ihren 4 Seiten."
+      },
+      {
+        "id": "moors",
+        "label": "Moore",
+        "type": "sum",
+        "svgIcon": "water",
+        "iconColor": "hsl(200, 60%, 55%)",
+        "iconBg": "rgba(6,182,212,0.15)",
+        "description": "Moore bringen am Spielende Punkte und bieten eigene Sonderwertungen."
+      },
+      {
+        "id": "top_cards",
+        "label": "Karten oben",
+        "type": "sum",
+        "svgIcon": "up",
+        "iconColor": "hsl(50, 90%, 50%)",
+        "iconBg": "rgba(234,179,8,0.15)",
+        "description": "Insekten, Vögel und Eichhörnchen. Vögel benötigen freie Wipfel."
+      },
+      {
+        "id": "bottom_cards",
+        "label": "Karten unten",
+        "type": "sum",
+        "svgIcon": "down",
+        "iconColor": "hsl(30, 90%, 55%)",
+        "iconBg": "rgba(249,115,22,0.15)",
+        "description": "Pilze, Farne, Kröten, Frösche, Dachse und Bären."
+      },
+      {
+        "id": "left_cards",
+        "label": "Karten links",
+        "type": "sum",
+        "svgIcon": "left",
+        "iconColor": "hsl(160, 55%, 45%)",
+        "iconBg": "rgba(16,185,129,0.15)",
+        "description": "Wölfe, Luchse, Rehe, Hirsche und Füchse. Wölfe punkten extrem stark für Rehe/Hirsche."
+      },
+      {
+        "id": "right_cards",
+        "label": "Karten rechts",
+        "type": "sum",
+        "svgIcon": "right",
+        "iconColor": "hsl(220, 70%, 60%)",
+        "iconBg": "rgba(99,102,241,0.15)",
+        "description": "Schmetterlinge, Wildschweine, Frischlinge, Käfer."
+      },
+      {
+        "id": "cave",
+        "label": "Höhle",
+        "type": "sum",
+        "svgIcon": "cave",
+        "iconColor": "hsl(270, 70%, 65%)",
+        "iconBg": "rgba(168,85,247,0.15)"
+      }
+    ]
+  },
+  {
+    "key": "revive",
+    "name": "Revive",
+    "badge": "Expertenspiel",
+    "description": "Erwecke die Menschheit wieder zum Leben und erkunde die zugefrorene Erde.",
+    "players": "1–4 Spieler",
+    "cover": "revive_cover.webp",
+    "order": 5,
+    "active": true,
+    "theme": {
+      "primary": "hsl(217, 91%, 60%)",
+      "secondary": "hsl(295, 85%, 63%)",
+      "gradientColor": "#3B82F6",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "modal": {
+      "title": "Wertungsübersicht: Revive",
+      "image": "revive_sheet.webp"
+    },
+    "expansion": {
+      "id": "revive_expansion",
+      "label": "Erweiterung: Ruf aus der Tiefe",
+      "badge": "Hingabe",
+      "expansionModal": "revive_expansion.webp",
+      "extraCategories": [
+        {
+          "id": "devotion",
+          "label": "Verehrungspunkte",
+          "type": "sum",
+          "svgIcon": "triangle-circle",
+          "iconColor": "hsl(295, 85%, 63%)",
+          "iconBg": "rgba(217,70,239,0.18)"
+        }
+      ]
+    },
+    "categories": [
+      {
+        "id": "revive_progress",
+        "label": "Fortschritt",
+        "type": "sum",
+        "svgIcon": "activity",
+        "iconColor": "hsl(142, 70%, 50%)",
+        "iconBg": "rgba(34,197,94,0.15)"
+      },
+      {
+        "id": "technologies",
+        "label": "Technologien",
+        "type": "sum",
+        "svgIcon": "settings",
+        "iconColor": "hsl(217, 91%, 60%)",
+        "iconBg": "rgba(59,130,246,0.15)"
+      },
+      {
+        "id": "locations",
+        "label": "Große Orte",
+        "type": "sum",
+        "svgIcon": "mappin",
+        "iconColor": "hsl(45, 93%, 47%)",
+        "iconBg": "rgba(234,179,8,0.15)"
+      },
+      {
+        "id": "card_bonus",
+        "label": "Kartenbonus",
+        "type": "sum",
+        "svgIcon": "copy",
+        "iconColor": "hsl(188, 86%, 53%)",
+        "iconBg": "rgba(6,182,212,0.15)"
+      },
+      {
+        "id": "tile",
+        "label": "Spielendeplättchen",
+        "type": "sum",
+        "svgIcon": "hexagon",
+        "iconColor": "hsl(25, 95%, 53%)",
+        "iconBg": "rgba(249,115,22,0.15)"
+      },
+      {
+        "id": "small_artifacts",
+        "label": "Kleine Artefakte",
+        "type": "sum",
+        "svgIcon": "diamond",
+        "iconColor": "hsl(172, 66%, 50%)",
+        "iconBg": "rgba(20,184,166,0.15)"
+      },
+      {
+        "id": "resources",
+        "label": "Übrige Ressourcen",
+        "type": "sum",
+        "svgIcon": "sliders",
+        "iconColor": "hsl(215, 16%, 65%)",
+        "iconBg": "rgba(148,163,184,0.15)"
+      },
+      {
+        "id": "artifacts",
+        "label": "Artefaktkarten & Große",
+        "type": "sum",
+        "svgIcon": "book",
+        "iconColor": "hsl(270, 91%, 65%)",
+        "iconBg": "rgba(168,85,247,0.15)"
+      }
+    ]
+  },
+  {
+    "key": "scythe",
+    "name": "Scythe",
+    "badge": "Expertenspiel",
+    "description": "Strategiespiel in einer retrofuturistischen Welt. Sterne, Regionen und Ressourcen zählen.",
+    "players": "1–5 Spieler",
+    "cover": "scythe_cover.webp",
+    "order": 6,
+    "active": true,
+    "theme": {
+      "primary": "hsl(351, 89%, 60%)",
+      "secondary": "hsl(45, 100%, 60%)",
+      "gradientColor": "#F59E0B",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "calculator": "scythe",
+    "categories": [
+      {
+        "id": "popularity",
+        "label": "Beliebtheit / Ansehen (0–18)",
+        "type": "popularity_driver",
+        "svgIcon": "heart",
+        "iconColor": "hsl(330, 100%, 65%)",
+        "iconBg": "rgba(236,72,153,0.15)"
+      },
+      {
+        "id": "stars",
+        "label": "Gewonnene Sterne (Max. 6)",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(45, 100%, 60%)",
+        "iconBg": "rgba(251,191,36,0.15)"
+      },
+      {
+        "id": "regions",
+        "label": "Beherrschte Regionen",
+        "type": "sum",
+        "svgIcon": "hexagon",
+        "iconColor": "hsl(145, 65%, 45%)",
+        "iconBg": "rgba(34,197,94,0.15)"
+      },
+      {
+        "id": "resources",
+        "label": "Ressourcenbesitz (Gesamtzahl)",
+        "type": "sum",
+        "svgIcon": "building",
+        "iconColor": "hsl(25, 95%, 55%)",
+        "iconBg": "rgba(249,115,22,0.15)"
+      },
+      {
+        "id": "coins",
+        "label": "Barvermögen / Münzen",
+        "type": "sum",
+        "svgIcon": "coin",
+        "iconColor": "hsl(48, 85%, 50%)",
+        "iconBg": "rgba(234,179,8,0.15)"
+      },
+      {
+        "id": "building_bonus",
+        "label": "Gebäudebonus Münzen",
+        "type": "sum",
+        "svgIcon": "home",
+        "iconColor": "hsl(240, 100%, 70%)",
+        "iconBg": "rgba(99,102,241,0.15)"
+      }
+    ]
+  },
+  {
+    "key": "sattgruen",
+    "name": "Sattgrün",
+    "badge": "Kennerspiel",
+    "description": "Erziele Punkte durch vollendete Pflanzen, Blätter, Blumentöpfe, Zimmerkarten, Möbel, Haustiere und Vielfalt.",
+    "players": "1–4 Spieler",
+    "cover": "sattgruen_cover.webp",
+    "order": 7,
+    "active": true,
+    "theme": {
+      "primary": "hsl(140, 50%, 35%)",
+      "secondary": "hsl(42, 85%, 55%)",
+      "gradientColor": "#22C55E",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "calculator": "sattgruen",
+    "categories": [
+      {
+        "id": "sattgruen_plants",
+        "label": "Vollendete Pflanzen (Punkte laut Goldstern)",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(42, 85%, 55%)",
+        "iconBg": "rgba(245,158,11,0.15)",
+        "description": "Siegpunkte für vollständig gewachsene Pflanzen laut Angabe auf dem Goldstern der Karte."
+      },
+      {
+        "id": "sattgruen_leaves",
+        "label": "Blätter unvollendeter Pflanzen (2 Blätter = 1 P.)",
+        "type": "sum",
+        "svgIcon": "layers",
+        "iconColor": "hsl(140, 55%, 45%)",
+        "iconBg": "rgba(34,197,94,0.15)",
+        "description": "Jeweils 2 Blätter auf noch nicht vollendeten Pflanzenkarten bringen am Spielende 1 Siegpunkt."
+      },
+      {
+        "id": "sattgruen_pot_stein",
+        "label": "Stein-Blumentöpfe (je 3 Punkte)",
+        "type": "multiplier",
+        "multiplier": 3,
+        "svgIcon": "hexagon",
+        "iconColor": "hsl(210, 16%, 65%)",
+        "iconBg": "rgba(148,163,184,0.15)",
+        "description": "Jeder verwendete Stein-Blumentopf bringt am Spielende <span class=\"highlight-gp\">3 GP</span>."
+      },
+      {
+        "id": "sattgruen_pot_holz",
+        "label": "Holz-Blumentöpfe (je 2 Punkte)",
+        "type": "multiplier",
+        "multiplier": 2,
+        "svgIcon": "home",
+        "iconColor": "hsl(25, 60%, 45%)",
+        "iconBg": "rgba(249,115,22,0.15)",
+        "description": "Jeder verwendete Holz-Blumentopf bringt am Spielende <span class=\"highlight-gp\">2 GP</span>."
+      },
+      {
+        "id": "sattgruen_pot_keramik",
+        "label": "Keramik-Blumentöpfe (je 1 Punkt)",
+        "type": "multiplier",
+        "multiplier": 1,
+        "svgIcon": "diamond",
+        "iconColor": "hsl(180, 50%, 55%)",
+        "iconBg": "rgba(20,184,166,0.15)",
+        "description": "Jeder verwendete Keramik-Blumentopf bringt am Spielende <span class=\"highlight-gp\">1 GP</span>."
+      },
+      {
+        "id": "sattgruen_rooms",
+        "label": "Zimmerkarten (Punkte für benachbarte Pflanzen, evtl. verdoppelt)",
+        "type": "sum",
+        "svgIcon": "building",
+        "iconColor": "hsl(270, 70%, 65%)",
+        "iconBg": "rgba(168,85,247,0.15)",
+        "description": "Punkte für benachbarte Pflanzen mit passenden Farben oder Bedingungen (kann durch passende Möbel verdoppelt werden)."
+      },
+      {
+        "id": "sattgruen_items",
+        "label": "Möbelstücke und Haustiere (Anzahl unterschiedlicher)",
+        "type": "step",
+        "steps": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          16,
+          20,
+          25
+        ],
+        "svgIcon": "heart",
+        "iconColor": "hsl(340, 80%, 60%)",
+        "iconBg": "rgba(244,63,94,0.15)",
+        "description": "Punkte basierend auf der Anzahl unterschiedlicher gesammelter Gegenstände (1/3/6/9/12/16/20/25 GP)."
+      },
+      {
+        "id": "sattgruen_plant_diversity",
+        "label": "Bonus Pflanzenvielfalt (1 = alle 5 Pflanzenarten vorhanden)",
+        "type": "step",
+        "steps": [
+          0,
+          3
+        ],
+        "svgIcon": "tree",
+        "iconColor": "hsl(140, 55%, 45%)",
+        "iconBg": "rgba(34,197,94,0.15)",
+        "description": "3 Bonuspunkte, wenn du mindestens eine Pflanze von jeder der 5 verschiedenen Pflanzenarten besitzt."
+      },
+      {
+        "id": "sattgruen_room_diversity",
+        "label": "Bonus Zimmervielfalt (1 = alle 5 Zimmerfarben vorhanden)",
+        "type": "step",
+        "steps": [
+          0,
+          3
+        ],
+        "svgIcon": "water",
+        "iconColor": "hsl(200, 60%, 55%)",
+        "iconBg": "rgba(6,182,212,0.15)",
+        "description": "3 Bonuspunkte, wenn du mindestens ein Zimmer von jeder der 5 verschiedenen Zimmerfarben besitzt."
+      },
+      {
+        "id": "sattgruen_goals",
+        "label": "Zielkarten",
+        "type": "sum",
+        "svgIcon": "copy",
+        "iconColor": "hsl(48, 85%, 50%)",
+        "iconBg": "rgba(234,179,8,0.15)",
+        "description": "Siegpunkte für erfüllte Zielkarten (Muster oder Bedingungen)."
+      }
+    ]
+  },
+  {
+    "key": "age_of_innovation",
+    "name": "Age of Innovation",
+    "badge": "Expertenspiel",
+    "description": "Errichte Gebäude, gründe Städte und steige auf den vier Wissensleisten auf.",
+    "players": "1–5 Spieler",
+    "cover": "age_of_innovation_cover.webp",
+    "order": 8,
+    "active": true,
+    "theme": {
+      "primary": "hsl(25, 65%, 45%)",
+      "secondary": "hsl(45, 90%, 55%)",
+      "gradientColor": "#F59E0B",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "calculator": "age_of_innovation",
+    "categories": [
+      {
+        "id": "aoi_during_game",
+        "label": "Punkte auf Punkteleiste während des Spiels",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(45, 100%, 60%)",
+        "iconBg": "rgba(251,191,36,0.15)"
+      },
+      {
+        "id": "aoi_buildings",
+        "label": "Größte Gebäudegruppe (Anzahl)",
+        "type": "sum",
+        "svgIcon": "hexagon",
+        "iconColor": "hsl(25, 95%, 55%)",
+        "iconBg": "rgba(249,115,22,0.15)"
+      },
+      {
+        "id": "aoi_banking",
+        "label": "Wissen: Bankwesen (Stufe 0–12)",
+        "type": "sum",
+        "svgIcon": "coin",
+        "iconColor": "hsl(48, 85%, 50%)",
+        "iconBg": "rgba(234,179,8,0.15)"
+      },
+      {
+        "id": "aoi_law",
+        "label": "Wissen: Recht (Stufe 0–12)",
+        "type": "sum",
+        "svgIcon": "book",
+        "iconColor": "hsl(217, 91%, 60%)",
+        "iconBg": "rgba(59,130,246,0.15)"
+      },
+      {
+        "id": "aoi_engineering",
+        "label": "Wissen: Ingenieurskunst (Stufe 0–12)",
+        "type": "sum",
+        "svgIcon": "settings",
+        "iconColor": "hsl(142, 70%, 50%)",
+        "iconBg": "rgba(34,197,94,0.15)"
+      },
+      {
+        "id": "aoi_medicine",
+        "label": "Wissen: Medizin (Stufe 0–12)",
+        "type": "sum",
+        "svgIcon": "heart",
+        "iconColor": "hsl(340, 80%, 60%)",
+        "iconBg": "rgba(244,63,94,0.15)"
+      },
+      {
+        "id": "aoi_leftover_coins",
+        "label": "Übriges Geld (Münzen)",
+        "type": "sum",
+        "svgIcon": "coin",
+        "iconColor": "hsl(45, 90%, 55%)",
+        "iconBg": "rgba(234,179,8,0.15)"
+      },
+      {
+        "id": "aoi_resource_info",
+        "type": "info",
+        "label": "Ressourcentausch",
+        "lines": [
+          "Wandelt eure übrigen Ressourcen zunächst durch Ressourcentausch in Geld um:",
+          "1 Buch = 1 Geld · 1 Werkzeug = 1 Geld · 1 Gelehrter = 1 Geld · 1 Macht (Schale III) = 1 Geld",
+          "Je 5 Geld sind 1 Siegpunkt wert."
+        ]
+      }
+    ]
+  },
+  {
+    "key": "arler_erde",
+    "name": "Arler Erde",
+    "badge": "Expertenspiel",
+    "description": "Tierzucht, Ackerbau, Entwässerung des Moors und Handwerksfortschritt in Ostfriesland.",
+    "players": "1–2 Spieler",
+    "cover": "arler_erde_cover.jpg",
+    "order": 9,
+    "active": true,
+    "theme": {
+      "primary": "hsl(28, 45%, 35%)",
+      "secondary": "hsl(145, 45%, 55%)",
+      "gradientColor": "#78350F",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "calculator": "arler_erde",
+    "modal": {
+      "title": "Wertungsübersicht: Arler Erde",
+      "image": "arler_erde_sheet.webp"
+    },
+    "expansion": {
+      "id": "arler_erde_expansion",
+      "label": "Erweiterung: Tee & Handel",
+      "badge": "Tee & Kutter",
+      "expansionModal": "arler_erde_expansion.webp",
+      "extraCategories": [
+        {
+          "id": "tea",
+          "label": "Tee & Ostfriesentee",
+          "type": "sum",
+          "svgIcon": "tree",
+          "iconColor": "hsl(140, 55%, 45%)",
+          "iconBg": "rgba(34,197,94,0.15)"
+        },
+        {
+          "id": "ships",
+          "label": "Kutter & Schiffe",
+          "type": "sum",
+          "svgIcon": "hexagon",
+          "iconColor": "hsl(200, 60%, 55%)",
+          "iconBg": "rgba(6,182,212,0.15)"
+        },
+        {
+          "id": "schlootzieher",
+          "label": "Handwerksleiste Schlootzieher",
+          "type": "sum",
+          "svgIcon": "up",
+          "iconColor": "hsl(45, 93%, 47%)",
+          "iconBg": "rgba(234,179,8,0.15)"
+        }
+      ]
+    },
+    "categories": [
+      {
+        "id": "clothing_building",
+        "label": "Kleidungsmarken & Baustoffe",
+        "type": "sum",
+        "svgIcon": "layers",
+        "iconColor": "hsl(28, 75%, 55%)",
+        "iconBg": "rgba(245,158,11,0.15)"
+      },
+      {
+        "id": "equipment",
+        "label": "Gerätschaften in der Scheune",
+        "type": "sum",
+        "svgIcon": "settings",
+        "iconColor": "hsl(215, 16%, 65%)",
+        "iconBg": "rgba(148,163,184,0.15)"
+      },
+      {
+        "id": "travel",
+        "label": "Reiseerfahrung",
+        "type": "sum",
+        "svgIcon": "mappin",
+        "iconColor": "hsl(45, 93%, 47%)",
+        "iconBg": "rgba(234,179,8,0.15)"
+      },
+      {
+        "id": "crafting",
+        "label": "Handwerksgeräte",
+        "type": "sum",
+        "svgIcon": "sliders",
+        "iconColor": "hsl(210, 95%, 65%)",
+        "iconBg": "rgba(59,130,246,0.15)"
+      },
+      {
+        "id": "goods",
+        "label": "Warenleiste",
+        "type": "sum",
+        "svgIcon": "coin",
+        "iconColor": "hsl(48, 85%, 50%)",
+        "iconBg": "rgba(234,179,8,0.15)"
+      },
+      {
+        "id": "home_board",
+        "label": "Heimatplan (Gebäude, Ställe etc.)",
+        "type": "sum",
+        "svgIcon": "home",
+        "iconColor": "hsl(142, 70%, 50%)",
+        "iconBg": "rgba(34,197,94,0.15)"
+      },
+      {
+        "id": "moors",
+        "label": "Moore & Wattflächen (Abzug)",
+        "type": "sum",
+        "svgIcon": "water",
+        "iconColor": "hsl(200, 60%, 55%)",
+        "iconBg": "rgba(6,182,212,0.15)"
+      },
+      {
+        "id": "animals_sheep",
+        "label": "Tiere: Schafe (Anzahl)",
+        "type": "sum",
+        "svgIcon": "heart",
+        "iconColor": "hsl(350, 85%, 65%)",
+        "iconBg": "rgba(244,63,94,0.15)"
+      },
+      {
+        "id": "animals_horse",
+        "label": "Tiere: Pferde (Anzahl)",
+        "type": "sum",
+        "svgIcon": "activity",
+        "iconColor": "hsl(25, 95%, 53%)",
+        "iconBg": "rgba(249,115,22,0.15)"
+      },
+      {
+        "id": "animals_cattle",
+        "label": "Tiere: Rinder (Anzahl)",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(45, 100%, 60%)",
+        "iconBg": "rgba(251,191,36,0.15)"
+      },
+      {
+        "id": "shortages",
+        "label": "Versorgungsengpässe (Abzug)",
+        "type": "sum",
+        "svgIcon": "down",
+        "iconColor": "hsl(351, 89%, 60%)",
+        "iconBg": "rgba(239,68,68,0.15)"
+      }
+    ]
+  },
+  {
+    "key": "arnak",
+    "name": "Die verlorenen Ruinen von Arnak",
+    "badge": "Kennerspiel",
+    "description": "Erforsche die Insel, bezwinge Wächter, sammle Totems und steige auf der Forschungsleiste auf.",
+    "players": "1–4 Spieler",
+    "cover": "arnak_cover.webp",
+    "order": 10,
+    "active": true,
+    "theme": {
+      "primary": "hsl(140, 45%, 25%)",
+      "secondary": "hsl(38, 75%, 65%)",
+      "gradientColor": "#D97706",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "modal": {
+      "title": "Wertungsübersicht: Die verlorenen Ruinen von Arnak",
+      "image": "arnak_sheet.webp"
+    },
+    "categories": [
+      {
+        "id": "arnak_research",
+        "label": "Forschung (Lupen & Bücher)",
+        "type": "sum",
+        "svgIcon": "book",
+        "iconColor": "hsl(42, 85%, 55%)",
+        "iconBg": "rgba(245,158,11,0.15)"
+      },
+      {
+        "id": "arnak_temple_tiles",
+        "label": "Tempelplättchen",
+        "type": "sum",
+        "svgIcon": "hexagon",
+        "iconColor": "hsl(28, 75%, 55%)",
+        "iconBg": "rgba(249,115,22,0.15)"
+      },
+      {
+        "id": "arnak_totems",
+        "label": "Totems",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(200, 60%, 55%)",
+        "iconBg": "rgba(6,182,212,0.15)"
+      },
+      {
+        "id": "arnak_guardians",
+        "label": "Bezwungene Wächter (je 5 Punkte)",
+        "type": "multiplier",
+        "multiplier": 5,
+        "svgIcon": "heart",
+        "iconColor": "hsl(140, 55%, 45%)",
+        "iconBg": "rgba(34,197,94,0.15)"
+      },
+      {
+        "id": "arnak_cards",
+        "label": "Karten (Ausrüstung & Artefakte)",
+        "type": "sum",
+        "svgIcon": "copy",
+        "iconColor": "hsl(215, 16%, 65%)",
+        "iconBg": "rgba(148,163,184,0.15)"
+      },
+      {
+        "id": "arnak_fear",
+        "label": "Furchtkarten (je -1)",
+        "type": "sum",
+        "allowNegative": true,
+        "svgIcon": "down",
+        "iconColor": "hsl(351, 89%, 60%)",
+        "iconBg": "rgba(239,68,68,0.15)"
+      }
+    ]
+  },
+  {
+    "key": "hallertau",
+    "name": "Hallertau",
+    "badge": "Expertenspiel",
+    "description": "Ernte Hopfen, züchte Schafe und lasse dein Dorf im Bayern des 19. Jahrhunderts am besten erblühen.",
+    "players": "1–4 Spieler",
+    "cover": "hallertau_cover.webp",
+    "order": 11,
+    "active": true,
+    "theme": {
+      "primary": "hsl(205, 75%, 45%)",
+      "secondary": "hsl(48, 90%, 55%)",
+      "gradientColor": "#1D4ED8",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "modal": {
+      "title": "Wertungsübersicht: Hallertau",
+      "image": "hallertau_sheet.webp"
+    },
+    "categories": [
+      {
+        "id": "hallertau_house",
+        "label": "Hausplan (Dorfgemeinschaftshaus & Handwerke)",
+        "type": "sum",
+        "svgIcon": "home",
+        "iconColor": "hsl(205, 75%, 50%)",
+        "iconBg": "rgba(29, 78, 216, 0.15)"
+      },
+      {
+        "id": "hallertau_sheep",
+        "label": "Schafe (Stallung)",
+        "type": "sum",
+        "svgIcon": "heart",
+        "iconColor": "hsl(350, 85%, 65%)",
+        "iconBg": "rgba(244, 63, 94, 0.15)"
+      },
+      {
+        "id": "hallertau_jewelry",
+        "label": "Schmuck (Schatulle)",
+        "type": "sum",
+        "svgIcon": "diamond",
+        "iconColor": "hsl(45, 95%, 55%)",
+        "iconBg": "rgba(234, 179, 8, 0.15)"
+      },
+      {
+        "id": "hallertau_resources",
+        "label": "Äcker, Geräte & Waren (1 SP je 5)",
+        "type": "sum",
+        "svgIcon": "settings",
+        "iconColor": "hsl(142, 70%, 50%)",
+        "iconBg": "rgba(34, 197, 94, 0.15)"
+      },
+      {
+        "id": "hallertau_cards",
+        "label": "Ausgespielte Karten",
+        "type": "sum",
+        "svgIcon": "copy",
+        "iconColor": "hsl(270, 70%, 65%)",
+        "iconBg": "rgba(168, 85, 247, 0.15)"
+      }
+    ]
+  },
+  {
+    "key": "quacksalber",
+    "name": "Die Quacksalber von Quedlinburg",
+    "badge": "Kennerspiel",
+    "description": "Braue deinen eigenen Zaubertrank, ziehe Zutaten aus dem Beutel und gehe auf Nummer sicher oder zocke um Punkte.",
+    "players": "2–4 Spieler",
+    "cover": "quacksalber_cover.webp",
+    "order": 12,
+    "active": true,
+    "calculator": "quacksalber",
+    "theme": {
+      "primary": "hsl(45, 80%, 45%)",
+      "secondary": "hsl(280, 60%, 50%)",
+      "gradientColor": "#8B5CF6",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "categories": [
+      {
+        "id": "quacksalber_vp",
+        "label": "Siegpunkte auf der Siegpunktleiste",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(45, 100%, 60%)",
+        "iconBg": "rgba(251,191,36,0.15)"
+      },
+      {
+        "id": "quacksalber_rubies",
+        "label": "Übrige Rubine (je 2 Rubine = 1 SP)",
+        "type": "sum",
+        "svgIcon": "diamond",
+        "iconColor": "hsl(351, 89%, 60%)",
+        "iconBg": "rgba(239,68,68,0.15)"
+      },
+      {
+        "id": "quacksalber_coins",
+        "label": "Übriges Geld in Runde 9 (je 5 Münzen = 1 SP)",
+        "type": "sum",
+        "svgIcon": "coin",
+        "iconColor": "hsl(48, 85%, 50%)",
+        "iconBg": "rgba(234,179,8,0.15)"
+      }
+    ]
+  },
+  {
+    "key": "tavernen",
+    "name": "Die Tavernen im tiefen Thal",
+    "badge": "Kennerspiel",
+    "description": "Gewinne neue Gäste, kaufe Wirtshaus-Ausbauten und locke Adlige an, um die bestbesuchte Taverne des Tals zu führen.",
+    "players": "2–4 Spieler",
+    "cover": "tavernen_cover.webp",
+    "order": 13,
+    "active": true,
+    "theme": {
+      "primary": "hsl(35, 75%, 40%)",
+      "secondary": "hsl(200, 70%, 50%)",
+      "gradientColor": "#D97706",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "categories": [
+      {
+        "id": "tavernen_nobles",
+        "label": "Adlige (je 10 Punkte)",
+        "type": "multiplier",
+        "multiplier": 10,
+        "svgIcon": "star",
+        "iconColor": "hsl(45, 100%, 60%)",
+        "iconBg": "rgba(251,191,36,0.15)"
+      },
+      {
+        "id": "tavernen_guests",
+        "label": "Gäste (Siegpunkte laut Karten)",
+        "type": "sum",
+        "svgIcon": "heart",
+        "iconColor": "hsl(351, 89%, 60%)",
+        "iconBg": "rgba(239,68,68,0.15)"
+      },
+      {
+        "id": "tavernen_tavern_cards",
+        "label": "Wirtshaus-Karten & Personal",
+        "type": "sum",
+        "svgIcon": "building",
+        "iconColor": "hsl(25, 95%, 55%)",
+        "iconBg": "rgba(249,115,22,0.15)"
+      },
+      {
+        "id": "tavernen_monastery",
+        "label": "Klosterleiste & Ruf",
+        "type": "sum",
+        "svgIcon": "book",
+        "iconColor": "hsl(217, 91%, 60%)",
+        "iconBg": "rgba(59,130,246,0.15)"
+      },
+      {
+        "id": "tavernen_schnapps",
+        "label": "Übrige Schnäpse (Punkte laut Modulen)",
+        "type": "sum",
+        "svgIcon": "layers",
+        "iconColor": "hsl(142, 70%, 50%)",
+        "iconBg": "rgba(34,197,94,0.15)"
+      }
+    ]
+  },
+  {
+    "key": "arche_nova",
+    "name": "Arche Nova",
+    "badge": "Expertenspiel",
+    "description": "Errichte moderne Zuchtgehege, unterstütze weltweite Artenschutzprojekte und baue den attraktivsten Zoo auf.",
+    "players": "1–4 Spieler",
+    "cover": "arche_nova_cover.webp",
+    "order": 14,
+    "active": true,
+    "calculator": "arche_nova",
+    "theme": {
+      "primary": "hsl(142, 65%, 35%)",
+      "secondary": "hsl(35, 80%, 45%)",
+      "gradientColor": "#15803D",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "categories": [
+      {
+        "id": "arche_nova_appeal",
+        "label": "Attraktivität (braune Leiste)",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(35, 80%, 50%)",
+        "iconBg": "rgba(245, 158, 11, 0.15)"
+      },
+      {
+        "id": "arche_nova_conservation",
+        "label": "Artenschutzpunkte (grüne Leiste)",
+        "type": "sum",
+        "svgIcon": "heart",
+        "iconColor": "hsl(142, 70%, 45%)",
+        "iconBg": "rgba(34, 197, 94, 0.15)"
+      }
+    ]
+  },
+  {
+    "key": "patchwork",
+    "name": "Patchwork",
+    "badge": "Familienspiel",
+    "description": "Puzzele die schönsten Flicken auf deiner Decke zusammen, sammle Knöpfe und lass möglichst keine Lücken frei.",
+    "players": "2 Spieler",
+    "cover": "patchwork_cover.webp",
+    "order": 15,
+    "active": true,
+    "theme": {
+      "primary": "hsl(340, 75%, 45%)",
+      "secondary": "hsl(200, 75%, 45%)",
+      "gradientColor": "#DB2777",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "categories": [
+      {
+        "id": "patchwork_buttons",
+        "label": "Gesammelte Knöpfe (je 1 Punkt)",
+        "type": "sum",
+        "svgIcon": "coin",
+        "iconColor": "hsl(200, 90%, 50%)",
+        "iconBg": "rgba(14, 165, 233, 0.15)"
+      },
+      {
+        "id": "patchwork_empty_spaces",
+        "label": "Leere Felder auf dem Plan (je -2 Punkte)",
+        "type": "multiplier",
+        "multiplier": -2,
+        "svgIcon": "mappin",
+        "iconColor": "hsl(350, 85%, 60%)",
+        "iconBg": "rgba(244, 63, 94, 0.15)"
+      },
+      {
+        "id": "patchwork_special_tile",
+        "label": "Sonderplättchen (7x7 Decke, 7 Punkte)",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(45, 100%, 60%)",
+        "iconBg": "rgba(251, 191, 36, 0.15)"
+      }
+    ]
+  },
+  {
+    "key": "radlands",
+    "name": "Radlands",
+    "badge": "Duellspiel",
+    "description": "Zerstöre alle 3 gegnerischen Camps in einem postapokalyptischen Duell um Wasser und Überleben.",
+    "players": "2 Spieler",
+    "cover": "radlands_cover.webp",
+    "order": 16,
+    "active": true,
+    "theme": {
+      "primary": "hsl(330, 95%, 55%)",
+      "secondary": "hsl(190, 95%, 50%)",
+      "gradientColor": "#F43F5E",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "categories": [
+      {
+        "id": "radlands_destroyed_camps",
+        "label": "Zerstörte gegnerische Camps (0 bis 3)",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(330, 95%, 55%)",
+        "iconBg": "rgba(244, 63, 94, 0.15)"
+      }
+    ]
+  },
+  {
+    "key": "la_granja",
+    "name": "La Granja",
+    "badge": "Expertenspiel",
+    "description": "Erweitere deinen Hof, beliefere die Märkte von Esporles und erringe den Titel La Granja.",
+    "players": "1–4 Spieler",
+    "cover": "la_granja_cover.webp",
+    "order": 17,
+    "active": true,
+    "theme": {
+      "primary": "hsl(120, 45%, 35%)",
+      "secondary": "hsl(45, 90%, 50%)",
+      "gradientColor": "#84CC16",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "calculator": "la_granja",
+    "categories": [
+      {
+        "id": "lagranja_vp",
+        "label": "Siegpunkte auf der Siegpunktleiste",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(45, 90%, 50%)",
+        "iconBg": "rgba(234, 179, 8, 0.15)"
+      },
+      {
+        "id": "lagranja_silver",
+        "label": "Gesamt-Silber (Münzen & übrige Hofgüter, je 5 Silber = 1 SP)",
+        "type": "sum",
+        "svgIcon": "coin",
+        "iconColor": "hsl(200, 10%, 65%)",
+        "iconBg": "rgba(148, 163, 184, 0.15)"
+      }
+    ]
+  },
+  {
+    "key": "underwater_cities",
+    "name": "Underwater Cities",
+    "badge": "Expertenspiel",
+    "description": "Errichte Kuppelstädte am Meeresgrund, baue Entsalzungsanlagen, Labore und Farmen und verbinde sie per Tunnel.",
+    "players": "1–4 Spieler",
+    "cover": "underwater_cities_cover.webp",
+    "order": 18,
+    "active": true,
+    "theme": {
+      "primary": "hsl(195, 85%, 35%)",
+      "secondary": "hsl(45, 95%, 55%)",
+      "gradientColor": "#0E7490",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "calculator": "underwater_cities",
+    "modal": {
+      "title": "Wertungsübersicht: Underwater Cities",
+      "image": "underwater_cities_sheet.webp"
+    },
+    "categories": [
+      {
+        "id": "underwater_cities_ingame_vp",
+        "label": "Im Spiel gesammelte GP",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(45, 95%, 55%)",
+        "iconBg": "rgba(234,179,8,0.15)",
+        "description": "GP, die bereits während des Spiels vor der Endwertung gesammelt wurden (Sofort-GP aus Karten, Aktionsfelder, Produktionsphasen-GP, Sondergebäude)."
+      },
+      {
+        "id": "underwater_cities_metropolis",
+        "label": "Metropolen-Plättchen (Schlusswertungsplättchen)",
+        "type": "sum",
+        "svgIcon": "hexagon",
+        "iconColor": "hsl(45, 95%, 55%)",
+        "iconBg": "rgba(234,179,8,0.15)"
+      },
+      {
+        "id": "underwater_cities_net_0",
+        "label": "Städte mit 0 Gebäudetypen (je 2 Punkte)",
+        "type": "multiplier",
+        "multiplier": 2,
+        "svgIcon": "home",
+        "iconColor": "hsl(190, 80%, 65%)",
+        "iconBg": "rgba(6,182,212,0.12)"
+      },
+      {
+        "id": "underwater_cities_net_1",
+        "label": "Städte mit 1 Gebäudetyp (je 3 Punkte)",
+        "type": "multiplier",
+        "multiplier": 3,
+        "svgIcon": "home",
+        "iconColor": "hsl(200, 85%, 55%)",
+        "iconBg": "rgba(14,165,233,0.15)"
+      },
+      {
+        "id": "underwater_cities_net_2",
+        "label": "Städte mit 2 Gebäudetypen (je 4 Punkte)",
+        "type": "multiplier",
+        "multiplier": 4,
+        "svgIcon": "home",
+        "iconColor": "hsl(210, 90%, 50%)",
+        "iconBg": "rgba(59,130,246,0.15)"
+      },
+      {
+        "id": "underwater_cities_net_3",
+        "label": "Städte mit 3 Gebäudetypen (je 6 Punkte)",
+        "type": "multiplier",
+        "multiplier": 6,
+        "svgIcon": "home",
+        "iconColor": "hsl(220, 95%, 45%)",
+        "iconBg": "rgba(29,78,216,0.18)"
+      },
+      {
+        "id": "underwater_cities_cards",
+        "label": "Schlusswertungskarten (Karten mit Uhr-Symbol)",
+        "type": "sum",
+        "svgIcon": "copy",
+        "iconColor": "hsl(280, 75%, 65%)",
+        "iconBg": "rgba(168,85,247,0.15)"
+      },
+      {
+        "id": "underwater_cities_biomass",
+        "label": "Übrige Biomasse (wird für je 2 Credits verkauft)",
+        "type": "sum",
+        "svgIcon": "tree",
+        "iconColor": "hsl(142, 70%, 50%)",
+        "iconBg": "rgba(34,197,94,0.15)"
+      },
+      {
+        "id": "underwater_cities_kelp",
+        "label": "Übriger Tang (Kelp)",
+        "type": "sum",
+        "svgIcon": "layers",
+        "iconColor": "hsl(150, 75%, 45%)",
+        "iconBg": "rgba(16,185,129,0.15)"
+      },
+      {
+        "id": "underwater_cities_science",
+        "label": "Übrige Wissenschaft",
+        "type": "sum",
+        "svgIcon": "settings",
+        "iconColor": "hsl(200, 80%, 55%)",
+        "iconBg": "rgba(6,182,212,0.15)"
+      },
+      {
+        "id": "underwater_cities_steelplastic",
+        "label": "Übriger Stahlplastik",
+        "type": "sum",
+        "svgIcon": "hexagon",
+        "iconColor": "hsl(215, 16%, 65%)",
+        "iconBg": "rgba(148,163,184,0.15)"
+      },
+      {
+        "id": "underwater_cities_credits",
+        "label": "Übrige Credits",
+        "type": "sum",
+        "svgIcon": "coin",
+        "iconColor": "hsl(45, 95%, 55%)",
+        "iconBg": "rgba(234,179,8,0.15)"
+      }
+    ]
+  },
+  {
+    "key": "next_station_london",
+    "name": "Next Station: London",
+    "badge": "Familienspiel",
+    "description": "Erstelle das beste U-Bahn-Netz von London über 4 U-Bahn-Linien (Farben).",
+    "players": "1-4 Spieler",
+    "cover": "next_station_london_cover.webp",
+    "order": 19,
+    "active": true,
+    "calculator": "next_station_london",
+    "modal": {
+      "title": "Wertungsübersicht: Next Station: London",
+      "image": "next_station_london_sheet.webp"
+    },
+    "theme": {
+      "primary": "hsl(340, 85%, 55%)",
+      "secondary": "hsl(200, 85%, 50%)",
+      "gradientColor": "#EC4899",
+      "icon_bg": null,
+      "icon_style": "colored"
+    },
+    "expansion": {
+      "id": "london_shared_goals",
+      "label": "Gemeinsame Ziele",
+      "badge": "Ziele",
+      "extraCategories": [
+        {
+          "id": "london_goals_achieved",
+          "label": "Erreichte gemeinsame Ziele (Anzahl, max. 2)",
+          "section": "Endwertung",
+          "type": "multiplier",
+          "multiplier": 10,
+          "svgIcon": "star",
+          "iconColor": "hsl(45, 100%, 60%)",
+          "iconBg": "rgba(251,191,36,0.15)",
+          "description": "Jedes der zwei offenen gemeinsamen Ziele bringt dir 10 zusätzliche Siegpunkte beim Endergebnis."
+        }
+      ]
+    },
+    "categories": [
+      {
+        "id": "london_r1_districts",
+        "label": "Stadtbezirke",
+        "section": "Runde 1",
+        "type": "sum",
+        "svgIcon": "layers",
+        "iconColor": "hsl(340, 85%, 55%)",
+        "iconBg": "rgba(244,63,94,0.15)",
+        "description": "Zahl der verschiedenen Stadtbezirke, durch die deine erste U-Bahn-Linie führt."
+      },
+      {
+        "id": "london_r1_stations",
+        "label": "Meiste Stationen",
+        "section": "Runde 1",
+        "type": "sum",
+        "svgIcon": "mappin",
+        "iconColor": "hsl(340, 85%, 55%)",
+        "iconBg": "rgba(244,63,94,0.15)",
+        "description": "Stadtbezirk, in dem deine erste U-Bahn-Linie die meisten Stationen anfährt."
+      },
+      {
+        "id": "london_r1_thames",
+        "label": "Themse-Überquerungen",
+        "section": "Runde 1",
+        "type": "sum",
+        "svgIcon": "water",
+        "iconColor": "hsl(340, 85%, 55%)",
+        "iconBg": "rgba(244,63,94,0.15)",
+        "description": "Anzahl der Streckenabschnitte deiner ersten Linie, die die Themse überqueren (je 2 Siegpunkte)."
+      },
+      {
+        "id": "london_r2_districts",
+        "label": "Stadtbezirke",
+        "section": "Runde 2",
+        "type": "sum",
+        "svgIcon": "layers",
+        "iconColor": "hsl(200, 85%, 55%)",
+        "iconBg": "rgba(14,165,233,0.15)",
+        "description": "Zahl der verschiedenen Stadtbezirke, durch die deine zweite U-Bahn-Linie führt."
+      },
+      {
+        "id": "london_r2_stations",
+        "label": "Meiste Stationen",
+        "section": "Runde 2",
+        "type": "sum",
+        "svgIcon": "mappin",
+        "iconColor": "hsl(200, 85%, 55%)",
+        "iconBg": "rgba(14,165,233,0.15)",
+        "description": "Stadtbezirk, in dem deine zweite U-Bahn-Linie die meisten Stationen anfährt."
+      },
+      {
+        "id": "london_r2_thames",
+        "label": "Themse-Überquerungen",
+        "section": "Runde 2",
+        "type": "sum",
+        "svgIcon": "water",
+        "iconColor": "hsl(200, 85%, 55%)",
+        "iconBg": "rgba(14,165,233,0.15)",
+        "description": "Anzahl der Streckenabschnitte deiner zweiten Linie, die die Themse überqueren (je 2 Siegpunkte)."
+      },
+      {
+        "id": "london_r3_districts",
+        "label": "Stadtbezirke",
+        "section": "Runde 3",
+        "type": "sum",
+        "svgIcon": "layers",
+        "iconColor": "hsl(142, 70%, 45%)",
+        "iconBg": "rgba(34,197,94,0.15)",
+        "description": "Zahl der verschiedenen Stadtbezirke, durch die deine dritte U-Bahn-Linie führt."
+      },
+      {
+        "id": "london_r3_stations",
+        "label": "Meiste Stationen",
+        "section": "Runde 3",
+        "type": "sum",
+        "svgIcon": "mappin",
+        "iconColor": "hsl(142, 70%, 45%)",
+        "iconBg": "rgba(34,197,94,0.15)",
+        "description": "Stadtbezirk, in dem deine dritte U-Bahn-Linie die meisten Stationen anfährt."
+      },
+      {
+        "id": "london_r3_thames",
+        "label": "Themse-Überquerungen",
+        "section": "Runde 3",
+        "type": "sum",
+        "svgIcon": "water",
+        "iconColor": "hsl(142, 70%, 45%)",
+        "iconBg": "rgba(34,197,94,0.15)",
+        "description": "Anzahl der Streckenabschnitte deiner dritten Linie, die die Themse überqueren (je 2 Siegpunkte)."
+      },
+      {
+        "id": "london_r4_districts",
+        "label": "Stadtbezirke",
+        "section": "Runde 4",
+        "type": "sum",
+        "svgIcon": "layers",
+        "iconColor": "hsl(280, 75%, 60%)",
+        "iconBg": "rgba(168,85,247,0.15)",
+        "description": "Zahl der verschiedenen Stadtbezirke, durch die deine vierte U-Bahn-Linie führt."
+      },
+      {
+        "id": "london_r4_stations",
+        "label": "Meiste Stationen",
+        "section": "Runde 4",
+        "type": "sum",
+        "svgIcon": "mappin",
+        "iconColor": "hsl(280, 75%, 60%)",
+        "iconBg": "rgba(168,85,247,0.15)",
+        "description": "Stadtbezirk, in dem deine vierte U-Bahn-Linie die meisten Stationen anfährt."
+      },
+      {
+        "id": "london_r4_thames",
+        "label": "Themse-Überquerungen",
+        "section": "Runde 4",
+        "type": "sum",
+        "svgIcon": "water",
+        "iconColor": "hsl(280, 75%, 60%)",
+        "iconBg": "rgba(168,85,247,0.15)",
+        "description": "Anzahl der Streckenabschnitte deiner vierten Linie, die die Themse überqueren (je 2 Siegpunkte)."
+      },
+      {
+        "id": "london_tourist_attractions",
+        "label": "Touristenattraktionen",
+        "section": "Endwertung",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(45, 100%, 60%)",
+        "iconBg": "rgba(251,191,36,0.15)",
+        "description": "Punkte für Touristenattraktionen laut Sightseeing-Skala (erste von links nicht durchgestrichene Zahl)."
+      },
+      {
+        "id": "london_interchanges_2",
+        "label": "Umsteigemöglichkeit zwischen 2 Linien (je 2 SP)",
+        "section": "Endwertung",
+        "type": "sum",
+        "svgIcon": "columns",
+        "iconColor": "hsl(140, 50%, 45%)",
+        "iconBg": "rgba(34,197,94,0.12)",
+        "description": "Anzahl der geschaffenen Umsteigemöglichkeiten zwischen genau 2 U-Bahn-Linien."
+      },
+      {
+        "id": "london_interchanges_3",
+        "label": "Umsteigemöglichkeit zwischen 3 Linien (je 5 SP)",
+        "section": "Endwertung",
+        "type": "sum",
+        "svgIcon": "columns",
+        "iconColor": "hsl(140, 50%, 45%)",
+        "iconBg": "rgba(34,197,94,0.12)",
+        "description": "Anzahl der geschaffenen Umsteigemöglichkeiten zwischen genau 3 U-Bahn-Linien."
+      },
+      {
+        "id": "london_interchanges_4",
+        "label": "Umsteigemöglichkeit zwischen 4 Linien (je 9 SP)",
+        "section": "Endwertung",
+        "type": "sum",
+        "svgIcon": "columns",
+        "iconColor": "hsl(140, 50%, 45%)",
+        "iconBg": "rgba(34,197,94,0.12)",
+        "description": "Anzahl der geschaffenen Umsteigemöglichkeiten zwischen genau 4 U-Bahn-Linien."
+      }
+    ]
+  },
+  {
+    "key": "die blumenstraße",
+    "name": "Die Blumenstraße",
+    "badge": "Kennerspiel",
+    "description": "Pflanze Tulpenzwiebeln in deinen Beeten, baue Windmühlen und erfülle gewinnbringende Verträge.",
+    "players": "1–4 Spieler",
+    "cover": "die_blumenstrasse_cover.webp",
+    "order": 20,
+    "active": true,
+    "wiki": null,
+    "theme": {
+      "primary": "hsl(5, 75%, 52%)",
+      "secondary": "hsl(45, 90%, 55%)",
+      "gradientColor": "#EF4444",
+      "icon_bg": "rgba(255,255,255,0.9)",
+      "icon_style": "white-circle"
+    },
+    "categories": [
+      {
+        "id": "blumenstrasse_contracts",
+        "label": "Aufträge",
+        "section": "Wertungskriterien",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(45, 95%, 55%)",
+        "iconBg": "rgba(234,179,8,0.15)",
+        "description": "Siegpunkte für erfüllte Aufträge unten an eurem Tulpenfarmtableau."
+      },
+      {
+        "id": "blumenstrasse_windmill_white",
+        "label": "Leere weiße Windmühlengruppe (1 SP/Zwiebel)",
+        "section": "Windmühlengruppen",
+        "type": "multiplier",
+        "multiplier": 1,
+        "svgIcon": "diamond",
+        "iconColor": "hsl(0, 0%, 90%)",
+        "iconBg": "rgba(255,255,255,0.15)",
+        "description": "Anzahl der weißen Tulpenzwiebeln in deinen Beeten, falls du die weiße leere Windmühlengruppe besitzt."
+      },
+      {
+        "id": "blumenstrasse_windmill_yellow",
+        "label": "Leere gelbe Windmühlengruppe (1 SP/Zwiebel)",
+        "section": "Windmühlengruppen",
+        "type": "multiplier",
+        "multiplier": 1,
+        "svgIcon": "diamond",
+        "iconColor": "hsl(45, 95%, 55%)",
+        "iconBg": "rgba(234,179,8,0.15)",
+        "description": "Anzahl der gelben Tulpenzwiebeln in deinen Beeten, falls du die gelbe leere Windmühlengruppe besitzt."
+      },
+      {
+        "id": "blumenstrasse_windmill_red",
+        "label": "Leere rote Windmühlengruppe (2 SP/Zwiebel)",
+        "section": "Windmühlengruppen",
+        "type": "multiplier",
+        "multiplier": 2,
+        "svgIcon": "diamond",
+        "iconColor": "hsl(5, 85%, 55%)",
+        "iconBg": "rgba(239,68,68,0.15)",
+        "description": "Anzahl der roten Tulpenzwiebeln in deinen Beeten, falls du die rote leere Windmühlengruppe besitzt."
+      },
+      {
+        "id": "blumenstrasse_windmill_purple",
+        "label": "Leere violette Windmühlengruppe (2 SP/Zwiebel)",
+        "section": "Windmühlengruppen",
+        "type": "multiplier",
+        "multiplier": 2,
+        "svgIcon": "diamond",
+        "iconColor": "hsl(280, 75%, 60%)",
+        "iconBg": "rgba(168,85,247,0.15)",
+        "description": "Anzahl der violetten Tulpenzwiebeln in deinen Beeten, falls du die violette leere Windmühlengruppe besitzt."
+      },
+      {
+        "id": "blumenstrasse_windmill_black",
+        "label": "Leere schwarze Windmühlengruppe (3 SP/Zwiebel)",
+        "section": "Windmühlengruppen",
+        "type": "multiplier",
+        "multiplier": 3,
+        "svgIcon": "diamond",
+        "iconColor": "hsl(0, 0%, 20%)",
+        "iconBg": "rgba(0,0,0,0.4)",
+        "description": "Anzahl der schwarzen Tulpenzwiebeln in deinen Beeten, falls du die schwarze leere Windmühlengruppe besitzt."
+      },
+      {
+        "id": "blumenstrasse_rows",
+        "label": "Vollständig gefüllte Zeilen (Siegpunkte)",
+        "section": "Beete",
+        "type": "sum",
+        "svgIcon": "layers",
+        "iconColor": "hsl(142, 70%, 45%)",
+        "iconBg": "rgba(34,197,94,0.15)",
+        "description": "Siegpunkte für vollständig gefüllte Zeilen. Erhaltet den höheren Siegpunktwert, falls alle Tulpenzwiebeln dieselbe Farbe haben. Ansonsten erhaltet ihr den niedrigeren Siegpunktwert."
+      },
+      {
+        "id": "blumenstrasse_cols",
+        "label": "Vollständig gefüllte Spalten (Siegpunkte)",
+        "section": "Beete",
+        "type": "sum",
+        "svgIcon": "columns",
+        "iconColor": "hsl(200, 85%, 55%)",
+        "iconBg": "rgba(14,165,233,0.15)",
+        "description": "Siegpunkte für vollständig gefüllte Spalten. Weißer Wert über der Spalte bei unterschiedlichen Farben, roter (negativer) Wert bei mind. 2 gleichen Farben in einer Spalte (egal ob vollständig gefüllt oder nicht)."
+      }
+    ]
+  },
+  {
+    "key": "everdell_duo",
+    "name": "Everdell Duo",
+    "badge": "Kennerspiel",
+    "description": "Schlusswertung: Kartenpunkte, Wohlstandsboni, Punktemarker und erledigte Ereignisse (inkl. Reise).",
+    "players": "1–2 Spieler",
+    "cover": "everdell_duo_cover.webp",
+    "order": 21,
+    "active": true,
+    "wiki": null,
+    "theme": {
+      "primary": "hsl(150, 42%, 40%)",
+      "secondary": "hsl(43, 82%, 60%)",
+      "gradientColor": "#3E9E6E"
+    },
+    "categories": [
+      {
+        "id": "everdell_city_cards",
+        "label": "Karten in der Stadt",
+        "type": "sum",
+        "svgIcon": "building",
+        "iconColor": "hsl(150, 45%, 48%)",
+        "iconBg": "rgba(52,168,110,0.15)",
+        "description": "Summe der aufgedruckten Punkte aller Wesen- und Bauwerkkarten in deiner Stadt. Karten unter Verlies/Wanderführer zählen nicht mit."
+      },
+      {
+        "id": "everdell_prosperity",
+        "label": "Wohlstandskarten (lila)",
+        "type": "sum",
+        "svgIcon": "diamond",
+        "iconColor": "hsl(280, 55%, 62%)",
+        "iconBg": "rgba(168,85,247,0.15)",
+        "description": "Bonuspunkte der lila Wohlstandskarten – zusätzlich zu den auf den Karten aufgedruckten Punkten (z. B. Immerbaum, Dichterling, Theater, Architekt)."
+      },
+      {
+        "id": "everdell_tokens",
+        "label": "Punktemarker",
+        "type": "sum",
+        "svgIcon": "coin",
+        "iconColor": "hsl(43, 82%, 55%)",
+        "iconBg": "rgba(234,179,8,0.15)",
+        "description": "Punktemarker in deinem Vorrat (je 1 bzw. 3 Punkte) sowie verbliebene Marker auf Karten wie Brücke, Gericht oder Uhrenturm."
+      },
+      {
+        "id": "everdell_events",
+        "label": "Ereignisse (inkl. Reise)",
+        "type": "sum",
+        "svgIcon": "star",
+        "iconColor": "hsl(200, 70%, 55%)",
+        "iconBg": "rgba(56,189,248,0.15)",
+        "description": "Punkte aller erledigten Ereignisse. Im kompetitiven Modus bringt die Reise am Spielende 5 Punkte an die Person mit mehr Karten in Stadt + Hand."
+      }
+    ]
+  }
+]

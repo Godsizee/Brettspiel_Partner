@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "game": {
+    "key": "on-mars",
+    "name": "On Mars",
+    "publisher": "Eagle-Gryphon Games / Spielworxx",
+    "edition": "base-v1.0",
+    "defaultLanguage": "de"
+  },
+  "modules": [
+    {
+      "id": "scientists",
+      "type": "reference",
+      "title": "Wissenschaftler",
+      "icon": "graduation-cap",
+      "source": "modules/scientists.json",
+      "featured": true
+    },
+    {
+      "id": "contracts",
+      "type": "reference",
+      "title": "Erdenverträge",
+      "icon": "file-text",
+      "source": "modules/contracts.json",
+      "featured": true
+    },
+    {
+      "id": "blueprints",
+      "type": "reference",
+      "title": "Baupläne",
+      "icon": "map",
+      "source": "modules/blueprints.json",
+      "featured": true
+    },
+    {
+      "id": "private_goals",
+      "type": "reference",
+      "title": "Privatziele",
+      "icon": "target",
+      "source": "modules/private_goals.json",
+      "featured": false
+    },
+    {
+      "id": "missions",
+      "type": "reference",
+      "title": "Missionskarten",
+      "icon": "compass",
+      "source": "modules/missions.json",
+      "featured": false
+    },
+    {
+      "id": "credits",
+      "type": "credits",
+      "title": "Quellen & Rechte",
+      "icon": "copyright",
+      "source": "credits.json"
+    }
+  ]
+}

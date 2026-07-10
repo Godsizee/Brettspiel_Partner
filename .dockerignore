@@ -1,0 +1,8 @@
+node_modules/
+_legacy/
+public/assets/
+playwright-report/
+test-results/
+.git/
+*.md
+tests/

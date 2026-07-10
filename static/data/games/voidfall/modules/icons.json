@@ -1,0 +1,3199 @@
+{
+  "entries": [
+    {
+      "id": "icon-einfluss",
+      "type": "reference",
+      "category": "icons",
+      "name": "Einfluss(-punkt)",
+      "image": "/images/voidfall/icons/icon-einfluss.png",
+      "summary": "Einfluss(-punkt)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 0
+    },
+    {
+      "id": "icon-haustableau",
+      "type": "reference",
+      "category": "icons",
+      "name": "Haustableau",
+      "image": "/images/voidfall/icons/icon-haustableau.png",
+      "summary": "Haustableau",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 10
+    },
+    {
+      "id": "icon-galaktisches-ereignis",
+      "type": "reference",
+      "category": "icons",
+      "name": "Galaktisches Ereignis",
+      "image": "/images/voidfall/icons/icon-galaktisches-ereignis.png",
+      "summary": "Galaktisches Ereignis",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 20
+    },
+    {
+      "id": "icon-siehe",
+      "type": "reference",
+      "category": "icons",
+      "name": "Siehe",
+      "image": "/images/voidfall/icons/icon-siehe.png",
+      "summary": "Siehe",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 30
+    },
+    {
+      "id": "icon-lege-das-galaktische-ereignis-unter-den-stapel",
+      "type": "reference",
+      "category": "icons",
+      "name": "Lege das Galaktische Ereignis unter den Stapel",
+      "image": "/images/voidfall/icons/icon-lege-das-galaktische-ereignis-unter-den-stapel.png",
+      "summary": "Lege das Galaktische Ereignis unter den Stapel",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 40
+    },
+    {
+      "id": "icon-wartungskosten",
+      "type": "reference",
+      "category": "icons",
+      "name": "Wartungskosten",
+      "image": "/images/voidfall/icons/icon-wartungskosten.png",
+      "summary": "Wartungskosten",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 50
+    },
+    {
+      "id": "icon-bezahlte-wartungskosten",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bezahlte Wartungskosten",
+      "image": "/images/voidfall/icons/icon-bezahlte-wartungskosten.png",
+      "summary": "Bezahlte Wartungskosten",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 60
+    },
+    {
+      "id": "icon-invasion-eindringen-in-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Invasion/Eindringen in Sektor",
+      "image": "/images/voidfall/icons/icon-invasion-eindringen-in-sektor.png",
+      "summary": "Invasion/Eindringen in Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 70
+    },
+    {
+      "id": "icon-invasion-von-verderbtem-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Invasion von verderbtem Sektor",
+      "image": "/images/voidfall/icons/icon-invasion-von-verderbtem-sektor.png",
+      "summary": "Invasion von verderbtem Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 80
+    },
+    {
+      "id": "icon-gefecht",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gefecht",
+      "image": "/images/voidfall/icons/icon-gefecht.png",
+      "summary": "Gefecht",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 90
+    },
+    {
+      "id": "icon-gefechtsverteidigung",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gefechtsverteidigung",
+      "image": "/images/voidfall/icons/icon-gefechtsverteidigung.png",
+      "summary": "Gefechtsverteidigung",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 100
+    },
+    {
+      "id": "icon-erhalt-von-x",
+      "type": "reference",
+      "category": "icons",
+      "name": "Erhalt von X",
+      "image": "/images/voidfall/icons/icon-erhalt-von-x.png",
+      "summary": "Erhalt von X",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 110
+    },
+    {
+      "id": "icon-kosten-von-x",
+      "type": "reference",
+      "category": "icons",
+      "name": "Kosten von X",
+      "image": "/images/voidfall/icons/icon-kosten-von-x.png",
+      "summary": "Kosten von X",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 120
+    },
+    {
+      "id": "icon-mit-hoechstem-wert",
+      "type": "reference",
+      "category": "icons",
+      "name": "Mit höchstem Wert",
+      "image": "/images/voidfall/icons/icon-mit-hoechstem-wert.png",
+      "summary": "Mit höchstem Wert",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 130
+    },
+    {
+      "id": "icon-mit-geringstem-wert",
+      "type": "reference",
+      "category": "icons",
+      "name": "Mit geringstem Wert",
+      "image": "/images/voidfall/icons/icon-mit-geringstem-wert.png",
+      "summary": "Mit geringstem Wert",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 140
+    },
+    {
+      "id": "icon-umtausch-einer-ressource",
+      "type": "reference",
+      "category": "icons",
+      "name": "Umtausch einer Ressource",
+      "image": "/images/voidfall/icons/icon-umtausch-einer-ressource.png",
+      "summary": "Umtausch einer Ressource",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 150
+    },
+    {
+      "id": "icon-austausch-einer-ressource",
+      "type": "reference",
+      "category": "icons",
+      "name": "Austausch einer Ressource",
+      "image": "/images/voidfall/icons/icon-austausch-einer-ressource.png",
+      "summary": "Austausch einer Ressource",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 160
+    },
+    {
+      "id": "icon-gefallenes-haus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gefallenes Haus",
+      "image": "/images/voidfall/icons/icon-gefallenes-haus.png",
+      "summary": "Gefallenes Haus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 170
+    },
+    {
+      "id": "icon-zusaetzliches-technologiefeld-durch-umdrehen-des-gefallenen-hauses",
+      "type": "reference",
+      "category": "icons",
+      "name": "Zusätzliches Technologiefeld (durch Umdrehen des Gefallenen Hauses)",
+      "image": "/images/voidfall/icons/icon-zusaetzliches-technologiefeld-durch-umdrehen-des-gefallenen-hauses.png",
+      "summary": "Zusätzliches Technologiefeld (durch Umdrehen des Gefallenen Hauses)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 180
+    },
+    {
+      "id": "icon-errichtung-oder-erweiterung-einer-zuflucht",
+      "type": "reference",
+      "category": "icons",
+      "name": "Errichtung oder Erweiterung einer Zuflucht",
+      "image": "/images/voidfall/icons/icon-errichtung-oder-erweiterung-einer-zuflucht.png",
+      "summary": "Errichtung oder Erweiterung einer Zuflucht",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 190
+    },
+    {
+      "id": "icon-ressourcenhandel",
+      "type": "reference",
+      "category": "icons",
+      "name": "Ressourcenhandel",
+      "image": "/images/voidfall/icons/icon-ressourcenhandel.png",
+      "summary": "Ressourcenhandel",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 200
+    },
+    {
+      "id": "icon-tutorialmaterial",
+      "type": "reference",
+      "category": "icons",
+      "name": "Tutorialmaterial",
+      "image": "/images/voidfall/icons/icon-tutorialmaterial.png",
+      "summary": "Tutorialmaterial",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 210
+    },
+    {
+      "id": "icon-diese-regeln-im-tutorial-ueberspringen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Diese Regeln im Tutorial überspringen",
+      "image": "/images/voidfall/icons/icon-diese-regeln-im-tutorial-ueberspringen.png",
+      "summary": "Diese Regeln im Tutorial überspringen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 220
+    },
+    {
+      "id": "icon-tutorial-diese-regel-vor-dem-2-zyklus-lesen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Tutorial: Diese Regel vor dem 2. Zyklus lesen",
+      "image": "/images/voidfall/icons/icon-tutorial-diese-regel-vor-dem-2-zyklus-lesen.png",
+      "summary": "Tutorial: Diese Regel vor dem 2. Zyklus lesen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 230
+    },
+    {
+      "id": "icon-verderbnis",
+      "type": "reference",
+      "category": "icons",
+      "name": "Verderbnis",
+      "image": "/images/voidfall/icons/icon-verderbnis.png",
+      "summary": "Verderbnis",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 240
+    },
+    {
+      "id": "icon-platzieren-erhalt-von-verderbnis",
+      "type": "reference",
+      "category": "icons",
+      "name": "Platzieren/Erhalt von Verderbnis",
+      "image": "/images/voidfall/icons/icon-platzieren-erhalt-von-verderbnis.png",
+      "summary": "Platzieren/Erhalt von Verderbnis",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 250
+    },
+    {
+      "id": "icon-entfernen-von-verderbnis",
+      "type": "reference",
+      "category": "icons",
+      "name": "Entfernen von Verderbnis",
+      "image": "/images/voidfall/icons/icon-entfernen-von-verderbnis.png",
+      "summary": "Entfernen von Verderbnis",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 260
+    },
+    {
+      "id": "icon-versetzen-von-verderbnis",
+      "type": "reference",
+      "category": "icons",
+      "name": "Versetzen von Verderbnis",
+      "image": "/images/voidfall/icons/icon-versetzen-von-verderbnis.png",
+      "summary": "Versetzen von Verderbnis",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 270
+    },
+    {
+      "id": "icon-rein",
+      "type": "reference",
+      "category": "icons",
+      "name": "Rein",
+      "image": "/images/voidfall/icons/icon-rein.png",
+      "summary": "Rein",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 280
+    },
+    {
+      "id": "icon-verderbnisresistent-keine-verderbnis",
+      "type": "reference",
+      "category": "icons",
+      "name": "Verderbnisresistent (keine Verderbnis)",
+      "image": "/images/voidfall/icons/icon-verderbnisresistent-keine-verderbnis.png",
+      "summary": "Verderbnisresistent (keine Verderbnis)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 290
+    },
+    {
+      "id": "icon-verderbnis-in-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Verderbnis in Sektor",
+      "image": "/images/voidfall/icons/icon-verderbnis-in-sektor.png",
+      "summary": "Verderbnis in Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 300
+    },
+    {
+      "id": "icon-verderbnis-auf-haustableau",
+      "type": "reference",
+      "category": "icons",
+      "name": "Verderbnis auf Haustableau",
+      "image": "/images/voidfall/icons/icon-verderbnis-auf-haustableau.png",
+      "summary": "Verderbnis auf Haustableau",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 310
+    },
+    {
+      "id": "icon-verderbnis-auf-zivilisationsleiste",
+      "type": "reference",
+      "category": "icons",
+      "name": "Verderbnis auf Zivilisationsleiste",
+      "image": "/images/voidfall/icons/icon-verderbnis-auf-zivilisationsleiste.png",
+      "summary": "Verderbnis auf Zivilisationsleiste",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 320
+    },
+    {
+      "id": "icon-verderbnis-auf-agenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "Verderbnis auf Agenda",
+      "image": "/images/voidfall/icons/icon-verderbnis-auf-agenda.png",
+      "summary": "Verderbnis auf Agenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 330
+    },
+    {
+      "id": "icon-verderbnis-auf-agendaauslage",
+      "type": "reference",
+      "category": "icons",
+      "name": "Verderbnis auf Agendaauslage",
+      "image": "/images/voidfall/icons/icon-verderbnis-auf-agendaauslage.png",
+      "summary": "Verderbnis auf Agendaauslage",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 340
+    },
+    {
+      "id": "icon-zivilisationsleiste",
+      "type": "reference",
+      "category": "icons",
+      "name": "Zivilisationsleiste",
+      "image": "/images/voidfall/icons/icon-zivilisationsleiste.png",
+      "summary": "Zivilisationsleiste",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 350
+    },
+    {
+      "id": "icon-gesellschaftsleiste",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gesellschaftsleiste",
+      "image": "/images/voidfall/icons/icon-gesellschaftsleiste.png",
+      "summary": "Gesellschaftsleiste",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 360
+    },
+    {
+      "id": "icon-wirtschaftsleiste",
+      "type": "reference",
+      "category": "icons",
+      "name": "Wirtschaftsleiste",
+      "image": "/images/voidfall/icons/icon-wirtschaftsleiste.png",
+      "summary": "Wirtschaftsleiste",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 370
+    },
+    {
+      "id": "icon-staatsfuehrungsleiste",
+      "type": "reference",
+      "category": "icons",
+      "name": "Staatsführungsleiste",
+      "image": "/images/voidfall/icons/icon-staatsfuehrungsleiste.png",
+      "summary": "Staatsführungsleiste",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 380
+    },
+    {
+      "id": "icon-voranschreiten-auf-zivilisationsleiste",
+      "type": "reference",
+      "category": "icons",
+      "name": "Voranschreiten auf Zivilisationsleiste",
+      "image": "/images/voidfall/icons/icon-voranschreiten-auf-zivilisationsleiste.png",
+      "summary": "Voranschreiten auf Zivilisationsleiste",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 390
+    },
+    {
+      "id": "icon-voranschreiten-auf-niedrigster-zivilisationsleiste",
+      "type": "reference",
+      "category": "icons",
+      "name": "Voranschreiten auf niedrigster Zivilisationsleiste",
+      "image": "/images/voidfall/icons/icon-voranschreiten-auf-niedrigster-zivilisationsleiste.png",
+      "summary": "Voranschreiten auf niedrigster Zivilisationsleiste",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 400
+    },
+    {
+      "id": "icon-stufe-x-einer-zivilisationsleiste",
+      "type": "reference",
+      "category": "icons",
+      "name": "Stufe X einer Zivilisationsleiste",
+      "image": "/images/voidfall/icons/icon-stufe-x-einer-zivilisationsleiste.png",
+      "summary": "Stufe X einer Zivilisationsleiste",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 410
+    },
+    {
+      "id": "icon-reine-zivilisationsleiste",
+      "type": "reference",
+      "category": "icons",
+      "name": "Reine Zivilisationsleiste",
+      "image": "/images/voidfall/icons/icon-reine-zivilisationsleiste.png",
+      "summary": "Reine Zivilisationsleiste",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 420
+    },
+    {
+      "id": "icon-fokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Fokus",
+      "image": "/images/voidfall/icons/icon-fokus.png",
+      "summary": "Fokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 430
+    },
+    {
+      "id": "icon-eroberungsfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Eroberungsfokus",
+      "image": "/images/voidfall/icons/icon-eroberungsfokus.png",
+      "summary": "Eroberungsfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 440
+    },
+    {
+      "id": "icon-entwicklungsfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Entwicklungsfokus",
+      "image": "/images/voidfall/icons/icon-entwicklungsfokus.png",
+      "summary": "Entwicklungsfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 450
+    },
+    {
+      "id": "icon-innovationsfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Innovationsfokus",
+      "image": "/images/voidfall/icons/icon-innovationsfokus.png",
+      "summary": "Innovationsfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 460
+    },
+    {
+      "id": "icon-politikfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Politikfokus",
+      "image": "/images/voidfall/icons/icon-politikfokus.png",
+      "summary": "Politikfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 470
+    },
+    {
+      "id": "icon-produktionsfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Produktionsfokus",
+      "image": "/images/voidfall/icons/icon-produktionsfokus.png",
+      "summary": "Produktionsfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 480
+    },
+    {
+      "id": "icon-fortschrittsfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Fortschrittsfokus",
+      "image": "/images/voidfall/icons/icon-fortschrittsfokus.png",
+      "summary": "Fortschrittsfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 490
+    },
+    {
+      "id": "icon-wohlstandsfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Wohlstandsfokus",
+      "image": "/images/voidfall/icons/icon-wohlstandsfokus.png",
+      "summary": "Wohlstandsfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 500
+    },
+    {
+      "id": "icon-verstaerkungsfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Verstärkungsfokus",
+      "image": "/images/voidfall/icons/icon-verstaerkungsfokus.png",
+      "summary": "Verstärkungsfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 510
+    },
+    {
+      "id": "icon-versuchungsfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Versuchungsfokus",
+      "image": "/images/voidfall/icons/icon-versuchungsfokus.png",
+      "summary": "Versuchungsfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 520
+    },
+    {
+      "id": "icon-kreuzzugsfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Kreuzzugsfokus",
+      "image": "/images/voidfall/icons/icon-kreuzzugsfokus.png",
+      "summary": "Kreuzzugsfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 530
+    },
+    {
+      "id": "icon-verbreitungsfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Verbreitungsfokus",
+      "image": "/images/voidfall/icons/icon-verbreitungsfokus.png",
+      "summary": "Verbreitungsfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 540
+    },
+    {
+      "id": "icon-raubzugsfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Raubzugsfokus",
+      "image": "/images/voidfall/icons/icon-raubzugsfokus.png",
+      "summary": "Raubzugsfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 550
+    },
+    {
+      "id": "icon-komplottfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Komplottfokus",
+      "image": "/images/voidfall/icons/icon-komplottfokus.png",
+      "summary": "Komplottfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 560
+    },
+    {
+      "id": "icon-erhebungsfokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Erhebungsfokus",
+      "image": "/images/voidfall/icons/icon-erhebungsfokus.png",
+      "summary": "Erhebungsfokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 570
+    },
+    {
+      "id": "icon-bevorzugter-fokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bevorzugter Fokus",
+      "image": "/images/voidfall/icons/icon-bevorzugter-fokus.png",
+      "summary": "Bevorzugter Fokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 580
+    },
+    {
+      "id": "icon-nutzung-von-fokusaktion",
+      "type": "reference",
+      "category": "icons",
+      "name": "Nutzung von Fokusaktion",
+      "image": "/images/voidfall/icons/icon-nutzung-von-fokusaktion.png",
+      "summary": "Nutzung von Fokusaktion",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 590
+    },
+    {
+      "id": "icon-kopieren-1-aktion-des-bevorzugten-fokus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Kopieren 1 Aktion des bevorzugten Fokus",
+      "image": "/images/voidfall/icons/icon-kopieren-1-aktion-des-bevorzugten-fokus.png",
+      "summary": "Kopieren 1 Aktion des bevorzugten Fokus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 600
+    },
+    {
+      "id": "icon-nutzung-1-weiteren-anderen-aktion",
+      "type": "reference",
+      "category": "icons",
+      "name": "Nutzung 1 weiteren anderen Aktion",
+      "image": "/images/voidfall/icons/icon-nutzung-1-weiteren-anderen-aktion.png",
+      "summary": "Nutzung 1 weiteren anderen Aktion",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 610
+    },
+    {
+      "id": "icon-nutzung-von-2-weiteren-verschiedenen-aktionen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Nutzung von 2 weiteren verschiedenen Aktionen",
+      "image": "/images/voidfall/icons/icon-nutzung-von-2-weiteren-verschiedenen-aktionen.png",
+      "summary": "Nutzung von 2 weiteren verschiedenen Aktionen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 620
+    },
+    {
+      "id": "icon-alle-bevorzugten-fokusse-auf-der-hand",
+      "type": "reference",
+      "category": "icons",
+      "name": "Alle bevorzugten Fokusse auf der Hand",
+      "image": "/images/voidfall/icons/icon-alle-bevorzugten-fokusse-auf-der-hand.png",
+      "summary": "Alle bevorzugten Fokusse auf der Hand",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 630
+    },
+    {
+      "id": "icon-basistechnologie",
+      "type": "reference",
+      "category": "icons",
+      "name": "Basistechnologie",
+      "image": "/images/voidfall/icons/icon-basistechnologie.png",
+      "summary": "Basistechnologie",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 640
+    },
+    {
+      "id": "icon-fortschrittliche-technologie",
+      "type": "reference",
+      "category": "icons",
+      "name": "Fortschrittliche Technologie",
+      "image": "/images/voidfall/icons/icon-fortschrittliche-technologie.png",
+      "summary": "Fortschrittliche Technologie",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 650
+    },
+    {
+      "id": "icon-erforschung-von-technologie",
+      "type": "reference",
+      "category": "icons",
+      "name": "Erforschung von Technologie",
+      "image": "/images/voidfall/icons/icon-erforschung-von-technologie.png",
+      "summary": "Erforschung von Technologie",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 660
+    },
+    {
+      "id": "icon-technologie-auf-haustableau",
+      "type": "reference",
+      "category": "icons",
+      "name": "Technologie auf Haustableau",
+      "image": "/images/voidfall/icons/icon-technologie-auf-haustableau.png",
+      "summary": "Technologie auf Haustableau",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 670
+    },
+    {
+      "id": "icon-blockiertes-feld-fuer-fortschrittliche-technologie",
+      "type": "reference",
+      "category": "icons",
+      "name": "Blockiertes Feld für Fortschrittliche Technologie",
+      "image": "/images/voidfall/icons/icon-blockiertes-feld-fuer-fortschrittliche-technologie.png",
+      "summary": "Blockiertes Feld für Fortschrittliche Technologie",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 680
+    },
+    {
+      "id": "icon-freies-feld-fuer-fortschrittliche-technologie",
+      "type": "reference",
+      "category": "icons",
+      "name": "Freies Feld für Fortschrittliche Technologie",
+      "image": "/images/voidfall/icons/icon-freies-feld-fuer-fortschrittliche-technologie.png",
+      "summary": "Freies Feld für Fortschrittliche Technologie",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 690
+    },
+    {
+      "id": "icon-startagenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "Startagenda",
+      "image": "/images/voidfall/icons/icon-startagenda.png",
+      "summary": "Startagenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 700
+    },
+    {
+      "id": "icon-nicht-start-agenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "(nicht Start-)Agenda",
+      "image": "/images/voidfall/icons/icon-nicht-start-agenda.png",
+      "summary": "(nicht Start-)Agenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 710
+    },
+    {
+      "id": "icon-dominanzagenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "Dominanzagenda",
+      "image": "/images/voidfall/icons/icon-dominanzagenda.png",
+      "summary": "Dominanzagenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 720
+    },
+    {
+      "id": "icon-machtagenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "Machtagenda",
+      "image": "/images/voidfall/icons/icon-machtagenda.png",
+      "summary": "Machtagenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 730
+    },
+    {
+      "id": "icon-unterstuetzungsagenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "Unterstützungsagenda",
+      "image": "/images/voidfall/icons/icon-unterstuetzungsagenda.png",
+      "summary": "Unterstützungsagenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 740
+    },
+    {
+      "id": "icon-reichtumsagenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "Reichtumsagenda",
+      "image": "/images/voidfall/icons/icon-reichtumsagenda.png",
+      "summary": "Reichtumsagenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 750
+    },
+    {
+      "id": "icon-erhalt-von-agenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "Erhalt von Agenda",
+      "image": "/images/voidfall/icons/icon-erhalt-von-agenda.png",
+      "summary": "Erhalt von Agenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 760
+    },
+    {
+      "id": "icon-abwerfen-von-agenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "Abwerfen von Agenda",
+      "image": "/images/voidfall/icons/icon-abwerfen-von-agenda.png",
+      "summary": "Abwerfen von Agenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 770
+    },
+    {
+      "id": "icon-agenda-auf-der-hand",
+      "type": "reference",
+      "category": "icons",
+      "name": "Agenda auf der Hand",
+      "image": "/images/voidfall/icons/icon-agenda-auf-der-hand.png",
+      "summary": "Agenda auf der Hand",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 780
+    },
+    {
+      "id": "icon-ausspielen-von-agenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "Ausspielen von Agenda",
+      "image": "/images/voidfall/icons/icon-ausspielen-von-agenda.png",
+      "summary": "Ausspielen von Agenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 790
+    },
+    {
+      "id": "icon-nicht-start-agenda-am-haustableau",
+      "type": "reference",
+      "category": "icons",
+      "name": "(nicht Start-)Agenda am Haustableau",
+      "image": "/images/voidfall/icons/icon-nicht-start-agenda-am-haustableau.png",
+      "summary": "(nicht Start-)Agenda am Haustableau",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 800
+    },
+    {
+      "id": "icon-startagenda-am-haustableau",
+      "type": "reference",
+      "category": "icons",
+      "name": "Startagenda am Haustableau",
+      "image": "/images/voidfall/icons/icon-startagenda-am-haustableau.png",
+      "summary": "Startagenda am Haustableau",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 810
+    },
+    {
+      "id": "icon-reine-nicht-start-agenda-am-haustableau",
+      "type": "reference",
+      "category": "icons",
+      "name": "Reine (nicht Start-)Agenda am Haustableau",
+      "image": "/images/voidfall/icons/icon-reine-nicht-start-agenda-am-haustableau.png",
+      "summary": "Reine (nicht Start-)Agenda am Haustableau",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 820
+    },
+    {
+      "id": "icon-abwerfen-von-nicht-start-agenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "Abwerfen von (nicht Start-)Agenda",
+      "image": "/images/voidfall/icons/icon-abwerfen-von-nicht-start-agenda.png",
+      "summary": "Abwerfen von (nicht Start-)Agenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 830
+    },
+    {
+      "id": "icon-wertung-von-reiner-nicht-start-agenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "Wertung von reiner (nicht Start-)Agenda",
+      "image": "/images/voidfall/icons/icon-wertung-von-reiner-nicht-start-agenda.png",
+      "summary": "Wertung von reiner (nicht Start-)Agenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 840
+    },
+    {
+      "id": "icon-wertung-von-reiner-agenda",
+      "type": "reference",
+      "category": "icons",
+      "name": "Wertung von reiner Agenda",
+      "image": "/images/voidfall/icons/icon-wertung-von-reiner-agenda.png",
+      "summary": "Wertung von reiner Agenda",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 850
+    },
+    {
+      "id": "icon-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektor",
+      "image": "/images/voidfall/icons/icon-sektor.png",
+      "summary": "Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 860
+    },
+    {
+      "id": "icon-reiner-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Reiner Sektor",
+      "image": "/images/voidfall/icons/icon-reiner-sektor.png",
+      "summary": "Reiner Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 870
+    },
+    {
+      "id": "icon-reiner-nicht-heimat-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Reiner (nicht Heimat-)Sektor",
+      "image": "/images/voidfall/icons/icon-reiner-nicht-heimat-sektor.png",
+      "summary": "Reiner (nicht Heimat-)Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 880
+    },
+    {
+      "id": "icon-leereberuehrter-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Leereberührter Sektor",
+      "image": "/images/voidfall/icons/icon-leereberuehrter-sektor.png",
+      "summary": "Leereberührter Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 890
+    },
+    {
+      "id": "icon-sektor-mit-x-flottentyp-en",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektor mit X Flottentyp(en)",
+      "image": "/images/voidfall/icons/icon-sektor-mit-x-flottentyp-en.png",
+      "summary": "Sektor mit X Flottentyp(en)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 900
+    },
+    {
+      "id": "icon-sektor-mit-x-flotte-n",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektor mit X Flotte(n)",
+      "image": "/images/voidfall/icons/icon-sektor-mit-x-flotte-n.png",
+      "summary": "Sektor mit X Flotte(n)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 910
+    },
+    {
+      "id": "icon-sektor-mit-x-gilde-n",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektor mit X Gilde(n)",
+      "image": "/images/voidfall/icons/icon-sektor-mit-x-gilde-n.png",
+      "summary": "Sektor mit X Gilde(n)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 920
+    },
+    {
+      "id": "icon-sektor-mit-x-verschiedenen-gilden",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektor mit X verschiedenen Gilden",
+      "image": "/images/voidfall/icons/icon-sektor-mit-x-verschiedenen-gilden.png",
+      "summary": "Sektor mit X verschiedenen Gilden",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 930
+    },
+    {
+      "id": "icon-sektor-ohne-gildenfelder",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektor ohne Gildenfelder",
+      "image": "/images/voidfall/icons/icon-sektor-ohne-gildenfelder.png",
+      "summary": "Sektor ohne Gildenfelder",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 940
+    },
+    {
+      "id": "icon-sektor-mit-x-stuetzpunkt-en",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektor mit X Stützpunkt(en)",
+      "image": "/images/voidfall/icons/icon-sektor-mit-x-stuetzpunkt-en.png",
+      "summary": "Sektor mit X Stützpunkt(en)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 950
+    },
+    {
+      "id": "icon-sektor-mit-wartungskosten-von-x",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektor mit Wartungskosten von X",
+      "image": "/images/voidfall/icons/icon-sektor-mit-wartungskosten-von-x.png",
+      "summary": "Sektor mit Wartungskosten von X",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 960
+    },
+    {
+      "id": "icon-sektor-mit-konstanter-bevoelkerung-x",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektor mit konstanter Bevölkerung X",
+      "image": "/images/voidfall/icons/icon-sektor-mit-konstanter-bevoelkerung-x.png",
+      "summary": "Sektor mit konstanter Bevölkerung X",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 970
+    },
+    {
+      "id": "icon-sektor-mit-bevoelkerungswert-von-mind-x",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektor mit Bevölkerungswert von mind. X",
+      "image": "/images/voidfall/icons/icon-sektor-mit-bevoelkerungswert-von-mind-x.png",
+      "summary": "Sektor mit Bevölkerungswert von mind. X",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 980
+    },
+    {
+      "id": "icon-keine-4-sektoren",
+      "type": "reference",
+      "category": "icons",
+      "name": "Keine 4 Sektoren",
+      "image": "/images/voidfall/icons/icon-keine-4-sektoren.png",
+      "summary": "Keine 4 Sektoren",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 990
+    },
+    {
+      "id": "icon-nach-erfolgreicher-uebernahme",
+      "type": "reference",
+      "category": "icons",
+      "name": "Nach erfolgreicher Übernahme",
+      "image": "/images/voidfall/icons/icon-nach-erfolgreicher-uebernahme.png",
+      "summary": "Nach erfolgreicher Übernahme",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1000
+    },
+    {
+      "id": "icon-auch-ohne-flotten-unter-eurer-kontrolle",
+      "type": "reference",
+      "category": "icons",
+      "name": "Auch ohne Flotten unter eurer Kontrolle",
+      "image": "/images/voidfall/icons/icon-auch-ohne-flotten-unter-eurer-kontrolle.png",
+      "summary": "Auch ohne Flotten unter eurer Kontrolle",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1010
+    },
+    {
+      "id": "icon-keine-invasion-moeglich",
+      "type": "reference",
+      "category": "icons",
+      "name": "Keine Invasion möglich",
+      "image": "/images/voidfall/icons/icon-keine-invasion-moeglich.png",
+      "summary": "Keine Invasion möglich",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1020
+    },
+    {
+      "id": "icon-im-selben-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Im selben Sektor",
+      "image": "/images/voidfall/icons/icon-im-selben-sektor.png",
+      "summary": "Im selben Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1030
+    },
+    {
+      "id": "icon-leereresistent-keine-flotten-der-leere",
+      "type": "reference",
+      "category": "icons",
+      "name": "Leereresistent (keine Flotten der Leere)",
+      "image": "/images/voidfall/icons/icon-leereresistent-keine-flotten-der-leere.png",
+      "summary": "Leereresistent (keine Flotten der Leere)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1040
+    },
+    {
+      "id": "icon-bevoelkerung",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bevölkerung",
+      "image": "/images/voidfall/icons/icon-bevoelkerung.png",
+      "summary": "Bevölkerung",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1050
+    },
+    {
+      "id": "icon-bevoelkerungswert-x",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bevölkerungswert X",
+      "image": "/images/voidfall/icons/icon-bevoelkerungswert-x.png",
+      "summary": "Bevölkerungswert X",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1060
+    },
+    {
+      "id": "icon-vermehrung-von-bevoelkerung",
+      "type": "reference",
+      "category": "icons",
+      "name": "Vermehrung von Bevölkerung",
+      "image": "/images/voidfall/icons/icon-vermehrung-von-bevoelkerung.png",
+      "summary": "Vermehrung von Bevölkerung",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1070
+    },
+    {
+      "id": "icon-senkung-von-bevoelkerung",
+      "type": "reference",
+      "category": "icons",
+      "name": "Senkung von Bevölkerung",
+      "image": "/images/voidfall/icons/icon-senkung-von-bevoelkerung.png",
+      "summary": "Senkung von Bevölkerung",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1080
+    },
+    {
+      "id": "icon-reine-bevoelkerung",
+      "type": "reference",
+      "category": "icons",
+      "name": "Reine Bevölkerung",
+      "image": "/images/voidfall/icons/icon-reine-bevoelkerung.png",
+      "summary": "Reine Bevölkerung",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1090
+    },
+    {
+      "id": "icon-bevoelkerung-im-heimatsektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bevölkerung im Heimatsektor",
+      "image": "/images/voidfall/icons/icon-bevoelkerung-im-heimatsektor.png",
+      "summary": "Bevölkerung im Heimatsektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1100
+    },
+    {
+      "id": "icon-bevoelkerung-im-nicht-heimat-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bevölkerung im (nicht Heimat-)Sektor",
+      "image": "/images/voidfall/icons/icon-bevoelkerung-im-nicht-heimat-sektor.png",
+      "summary": "Bevölkerung im (nicht Heimat-)Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1110
+    },
+    {
+      "id": "icon-wertung-der-gesamtbevoelkerung",
+      "type": "reference",
+      "category": "icons",
+      "name": "Wertung der Gesamtbevölkerung",
+      "image": "/images/voidfall/icons/icon-wertung-der-gesamtbevoelkerung.png",
+      "summary": "Wertung der Gesamtbevölkerung",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1120
+    },
+    {
+      "id": "icon-flotte-der-leere",
+      "type": "reference",
+      "category": "icons",
+      "name": "Flotte der Leere",
+      "image": "/images/voidfall/icons/icon-flotte-der-leere.png",
+      "summary": "Flotte der Leere",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1130
+    },
+    {
+      "id": "icon-platzieren-von-flotte-der-leere",
+      "type": "reference",
+      "category": "icons",
+      "name": "Platzieren von Flotte der Leere",
+      "image": "/images/voidfall/icons/icon-platzieren-von-flotte-der-leere.png",
+      "summary": "Platzieren von Flotte der Leere",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1140
+    },
+    {
+      "id": "icon-platzieren-von-flotte-der-leere-in-leereberuehrtem-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Platzieren von Flotte der Leere in leereberührtem Sektor",
+      "image": "/images/voidfall/icons/icon-platzieren-von-flotte-der-leere-in-leereberuehrtem-sektor.png",
+      "summary": "Platzieren von Flotte der Leere in leereberührtem Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1150
+    },
+    {
+      "id": "icon-platzieren-von-flotte-der-leere-in-benachbartem-leereberuehrten-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Platzieren von Flotte der Leere in benachbartem leereberührten Sektor",
+      "image": "/images/voidfall/icons/icon-platzieren-von-flotte-der-leere-in-benachbartem-leereberuehrten-sektor.png",
+      "summary": "Platzieren von Flotte der Leere in benachbartem leereberührten Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1160
+    },
+    {
+      "id": "icon-entfernen-von-flotte-der-leere",
+      "type": "reference",
+      "category": "icons",
+      "name": "Entfernen von Flotte der Leere",
+      "image": "/images/voidfall/icons/icon-entfernen-von-flotte-der-leere.png",
+      "summary": "Entfernen von Flotte der Leere",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1170
+    },
+    {
+      "id": "icon-entfernen-von-flotte-der-leere-aus-benachbartem-leereberuehrten-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Entfernen von Flotte der Leere aus benachbartem leereberührten Sektor",
+      "image": "/images/voidfall/icons/icon-entfernen-von-flotte-der-leere-aus-benachbartem-leereberuehrten-sektor.png",
+      "summary": "Entfernen von Flotte der Leere aus benachbartem leereberührten Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1180
+    },
+    {
+      "id": "icon-flottenverbandlimit-der-leere-von-2",
+      "type": "reference",
+      "category": "icons",
+      "name": "Flottenverbandlimit der Leere von 2",
+      "image": "/images/voidfall/icons/icon-flottenverbandlimit-der-leere-von-2.png",
+      "summary": "Flottenverbandlimit der Leere von 2",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1190
+    },
+    {
+      "id": "icon-flottenverbandlimit-der-leere-von-3",
+      "type": "reference",
+      "category": "icons",
+      "name": "Flottenverbandlimit der Leere von 3",
+      "image": "/images/voidfall/icons/icon-flottenverbandlimit-der-leere-von-3.png",
+      "summary": "Flottenverbandlimit der Leere von 3",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1200
+    },
+    {
+      "id": "icon-platzieren-von-flotte-der-leere-in-allen-rissen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Platzieren von Flotte der Leere in allen Rissen",
+      "image": "/images/voidfall/icons/icon-platzieren-von-flotte-der-leere-in-allen-rissen.png",
+      "summary": "Platzieren von Flotte der Leere in allen Rissen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1210
+    },
+    {
+      "id": "icon-beute",
+      "type": "reference",
+      "category": "icons",
+      "name": "Beute",
+      "image": "/images/voidfall/icons/icon-beute.png",
+      "summary": "Beute",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1220
+    },
+    {
+      "id": "icon-erhalt-von-beute",
+      "type": "reference",
+      "category": "icons",
+      "name": "Erhalt von Beute",
+      "image": "/images/voidfall/icons/icon-erhalt-von-beute.png",
+      "summary": "Erhalt von Beute",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1230
+    },
+    {
+      "id": "icon-platzieren-von-beute-in-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Platzieren von Beute in Sektor",
+      "image": "/images/voidfall/icons/icon-platzieren-von-beute-in-sektor.png",
+      "summary": "Platzieren von Beute in Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1240
+    },
+    {
+      "id": "icon-abwerfen-von-beute",
+      "type": "reference",
+      "category": "icons",
+      "name": "Abwerfen von Beute",
+      "image": "/images/voidfall/icons/icon-abwerfen-von-beute.png",
+      "summary": "Abwerfen von Beute",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1250
+    },
+    {
+      "id": "icon-hinterlassenschaft",
+      "type": "reference",
+      "category": "icons",
+      "name": "Hinterlassenschaft",
+      "image": "/images/voidfall/icons/icon-hinterlassenschaft.png",
+      "summary": "Hinterlassenschaft",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1260
+    },
+    {
+      "id": "icon-erhalt-von-hinterlassenschaft",
+      "type": "reference",
+      "category": "icons",
+      "name": "Erhalt von Hinterlassenschaft",
+      "image": "/images/voidfall/icons/icon-erhalt-von-hinterlassenschaft.png",
+      "summary": "Erhalt von Hinterlassenschaft",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1270
+    },
+    {
+      "id": "icon-platzieren-von-hinterlassenschaft-in-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Platzieren von Hinterlassenschaft in Sektor",
+      "image": "/images/voidfall/icons/icon-platzieren-von-hinterlassenschaft-in-sektor.png",
+      "summary": "Platzieren von Hinterlassenschaft in Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1280
+    },
+    {
+      "id": "icon-abwerfen-von-hinterlassenschaft",
+      "type": "reference",
+      "category": "icons",
+      "name": "Abwerfen von Hinterlassenschaft",
+      "image": "/images/voidfall/icons/icon-abwerfen-von-hinterlassenschaft.png",
+      "summary": "Abwerfen von Hinterlassenschaft",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1290
+    },
+    {
+      "id": "icon-handelsplaettchen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Handelsplättchen",
+      "image": "/images/voidfall/icons/icon-handelsplaettchen.png",
+      "summary": "Handelsplättchen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1300
+    },
+    {
+      "id": "icon-erhalt-von-handelsplaettchen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Erhalt von Handelsplättchen",
+      "image": "/images/voidfall/icons/icon-erhalt-von-handelsplaettchen.png",
+      "summary": "Erhalt von Handelsplättchen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1310
+    },
+    {
+      "id": "icon-abwerfen-von-handelsplaettchen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Abwerfen von Handelsplättchen",
+      "image": "/images/voidfall/icons/icon-abwerfen-von-handelsplaettchen.png",
+      "summary": "Abwerfen von Handelsplättchen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1320
+    },
+    {
+      "id": "icon-ruhmplaettchen-beliebigen-werts",
+      "type": "reference",
+      "category": "icons",
+      "name": "Ruhmplättchen (beliebigen Werts)",
+      "image": "/images/voidfall/icons/icon-ruhmplaettchen-beliebigen-werts.png",
+      "summary": "Ruhmplättchen (beliebigen Werts)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1330
+    },
+    {
+      "id": "icon-erhalt-von-ruhmplaettchen-beliebigen-werts",
+      "type": "reference",
+      "category": "icons",
+      "name": "Erhalt von Ruhmplättchen (beliebigen Werts)",
+      "image": "/images/voidfall/icons/icon-erhalt-von-ruhmplaettchen-beliebigen-werts.png",
+      "summary": "Erhalt von Ruhmplättchen (beliebigen Werts)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1340
+    },
+    {
+      "id": "icon-aufwertung-von-ruhmplaettchen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Aufwertung von Ruhmplättchen",
+      "image": "/images/voidfall/icons/icon-aufwertung-von-ruhmplaettchen.png",
+      "summary": "Aufwertung von Ruhmplättchen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1350
+    },
+    {
+      "id": "icon-abwerfen-von-ruhmplaettchen-beliebigen-werts",
+      "type": "reference",
+      "category": "icons",
+      "name": "Abwerfen von Ruhmplättchen (beliebigen Werts)",
+      "image": "/images/voidfall/icons/icon-abwerfen-von-ruhmplaettchen-beliebigen-werts.png",
+      "summary": "Abwerfen von Ruhmplättchen (beliebigen Werts)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1360
+    },
+    {
+      "id": "icon-platzieren-von-ruhmplaettchen-mit-wert-x-in-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Platzieren von Ruhmplättchen mit Wert X in Sektor",
+      "image": "/images/voidfall/icons/icon-platzieren-von-ruhmplaettchen-mit-wert-x-in-sektor.png",
+      "summary": "Platzieren von Ruhmplättchen mit Wert X in Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1370
+    },
+    {
+      "id": "icon-alle-ruhmplaettchen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Alle Ruhmplättchen",
+      "image": "/images/voidfall/icons/icon-alle-ruhmplaettchen.png",
+      "summary": "Alle Ruhmplättchen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1380
+    },
+    {
+      "id": "icon-erhalt-vom-gesamtwert-der-ruhmplaettchen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Erhalt vom Gesamtwert der Ruhmplättchen",
+      "image": "/images/voidfall/icons/icon-erhalt-vom-gesamtwert-der-ruhmplaettchen.png",
+      "summary": "Erhalt vom Gesamtwert der Ruhmplättchen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1390
+    },
+    {
+      "id": "icon-offensive",
+      "type": "reference",
+      "category": "icons",
+      "name": "Offensive",
+      "image": "/images/voidfall/icons/icon-offensive.png",
+      "summary": "Offensive",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1400
+    },
+    {
+      "id": "icon-defensive",
+      "type": "reference",
+      "category": "icons",
+      "name": "Defensive",
+      "image": "/images/voidfall/icons/icon-defensive.png",
+      "summary": "Defensive",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1410
+    },
+    {
+      "id": "icon-initiative",
+      "type": "reference",
+      "category": "icons",
+      "name": "Initiative",
+      "image": "/images/voidfall/icons/icon-initiative.png",
+      "summary": "Initiative",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1420
+    },
+    {
+      "id": "icon-annaeherungsschaden",
+      "type": "reference",
+      "category": "icons",
+      "name": "Annäherungsschaden",
+      "image": "/images/voidfall/icons/icon-annaeherungsschaden.png",
+      "summary": "Annäherungsschaden",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1430
+    },
+    {
+      "id": "icon-salvenschaden",
+      "type": "reference",
+      "category": "icons",
+      "name": "Salvenschaden",
+      "image": "/images/voidfall/icons/icon-salvenschaden.png",
+      "summary": "Salvenschaden",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1440
+    },
+    {
+      "id": "icon-annaeherungsabsorption",
+      "type": "reference",
+      "category": "icons",
+      "name": "Annäherungsabsorption",
+      "image": "/images/voidfall/icons/icon-annaeherungsabsorption.png",
+      "summary": "Annäherungsabsorption",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1450
+    },
+    {
+      "id": "icon-salvenabsorption",
+      "type": "reference",
+      "category": "icons",
+      "name": "Salvenabsorption",
+      "image": "/images/voidfall/icons/icon-salvenabsorption.png",
+      "summary": "Salvenabsorption",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1460
+    },
+    {
+      "id": "icon-erfolgreiche-defensive-im-kampf",
+      "type": "reference",
+      "category": "icons",
+      "name": "Erfolgreiche Defensive im Kampf",
+      "image": "/images/voidfall/icons/icon-erfolgreiche-defensive-im-kampf.png",
+      "summary": "Erfolgreiche Defensive im Kampf",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1470
+    },
+    {
+      "id": "icon-abhandlung-des-krisentableaus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Abhandlung des Krisentableaus",
+      "image": "/images/voidfall/icons/icon-abhandlung-des-krisentableaus.png",
+      "summary": "Abhandlung des Krisentableaus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1480
+    },
+    {
+      "id": "icon-auslegen-von-militaerischer-startkrise",
+      "type": "reference",
+      "category": "icons",
+      "name": "Auslegen von Militärischer Startkrise",
+      "image": "/images/voidfall/icons/icon-auslegen-von-militaerischer-startkrise.png",
+      "summary": "Auslegen von Militärischer Startkrise",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1490
+    },
+    {
+      "id": "icon-auslegen-von-oekonomischer-startkrise",
+      "type": "reference",
+      "category": "icons",
+      "name": "Auslegen von Ökonomischer Startkrise",
+      "image": "/images/voidfall/icons/icon-auslegen-von-oekonomischer-startkrise.png",
+      "summary": "Auslegen von Ökonomischer Startkrise",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1500
+    },
+    {
+      "id": "icon-abwerfen-von-krise",
+      "type": "reference",
+      "category": "icons",
+      "name": "Abwerfen von Krise",
+      "image": "/images/voidfall/icons/icon-abwerfen-von-krise.png",
+      "summary": "Abwerfen von Krise",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1510
+    },
+    {
+      "id": "icon-abwerfen-von-oekonomischer-oder-allgemeiner-krise",
+      "type": "reference",
+      "category": "icons",
+      "name": "Abwerfen von Ökonomischer oder Allgemeiner Krise",
+      "image": "/images/voidfall/icons/icon-abwerfen-von-oekonomischer-oder-allgemeiner-krise.png",
+      "summary": "Abwerfen von Ökonomischer oder Allgemeiner Krise",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1520
+    },
+    {
+      "id": "icon-abwerfen-von-allgemeiner-krise",
+      "type": "reference",
+      "category": "icons",
+      "name": "Abwerfen von Allgemeiner Krise",
+      "image": "/images/voidfall/icons/icon-abwerfen-von-allgemeiner-krise.png",
+      "summary": "Abwerfen von Allgemeiner Krise",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1530
+    },
+    {
+      "id": "icon-abwerfen-von-militaerischer-oder-allgemeiner-krise",
+      "type": "reference",
+      "category": "icons",
+      "name": "Abwerfen von Militärischer oder Allgemeiner Krise",
+      "image": "/images/voidfall/icons/icon-abwerfen-von-militaerischer-oder-allgemeiner-krise.png",
+      "summary": "Abwerfen von Militärischer oder Allgemeiner Krise",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1540
+    },
+    {
+      "id": "icon-ausloeschen-von-technologie",
+      "type": "reference",
+      "category": "icons",
+      "name": "Auslöschen von Technologie",
+      "image": "/images/voidfall/icons/icon-ausloeschen-von-technologie.png",
+      "summary": "Auslöschen von Technologie",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1550
+    },
+    {
+      "id": "icon-katastrophe",
+      "type": "reference",
+      "category": "icons",
+      "name": "Katastrophe",
+      "image": "/images/voidfall/icons/icon-katastrophe.png",
+      "summary": "Katastrophe",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1560
+    },
+    {
+      "id": "icon-platzieren-einer-katastrophe-auf-das-krisentableau",
+      "type": "reference",
+      "category": "icons",
+      "name": "Platzieren einer Katastrophe auf das Krisentableau",
+      "image": "/images/voidfall/icons/icon-platzieren-einer-katastrophe-auf-das-krisentableau.png",
+      "summary": "Platzieren einer Katastrophe auf das Krisentableau",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1570
+    },
+    {
+      "id": "icon-gilde",
+      "type": "reference",
+      "category": "icons",
+      "name": "Beliebige Gilde",
+      "image": "/images/voidfall/icons/icon-gilde.png",
+      "summary": "Beliebige Gilde",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1580
+    },
+    {
+      "id": "icon-kreditgilde",
+      "type": "reference",
+      "category": "icons",
+      "name": "Kreditgilde",
+      "image": "/images/voidfall/icons/icon-kreditgilde.png",
+      "summary": "Kreditgilde",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1590
+    },
+    {
+      "id": "icon-konstruktionsgilde",
+      "type": "reference",
+      "category": "icons",
+      "name": "Konstruktionsgilde",
+      "image": "/images/voidfall/icons/icon-konstruktionsgilde.png",
+      "summary": "Konstruktionsgilde",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1600
+    },
+    {
+      "id": "icon-nahrungsgilde",
+      "type": "reference",
+      "category": "icons",
+      "name": "Nahrungsgilde",
+      "image": "/images/voidfall/icons/icon-nahrungsgilde.png",
+      "summary": "Nahrungsgilde",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1610
+    },
+    {
+      "id": "icon-bergbaugilde",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bergbaugilde",
+      "image": "/images/voidfall/icons/icon-bergbaugilde.png",
+      "summary": "Bergbaugilde",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1620
+    },
+    {
+      "id": "icon-forschungsgilde",
+      "type": "reference",
+      "category": "icons",
+      "name": "Forschungsgilde",
+      "image": "/images/voidfall/icons/icon-forschungsgilde.png",
+      "summary": "Forschungsgilde",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1630
+    },
+    {
+      "id": "icon-konstruktions-nahrungs-bergbaugilde",
+      "type": "reference",
+      "category": "icons",
+      "name": "Konstruktions-/Nahrungs-/Bergbaugilde",
+      "image": "/images/voidfall/icons/icon-konstruktions-nahrungs-bergbaugilde.png",
+      "summary": "Konstruktions-/Nahrungs-/Bergbaugilde",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1640
+    },
+    {
+      "id": "icon-gilde-in-reinem-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gilde in reinem Sektor",
+      "image": "/images/voidfall/icons/icon-gilde-in-reinem-sektor.png",
+      "summary": "Gilde in reinem Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1650
+    },
+    {
+      "id": "icon-gruendung-von-gilde",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gründung von Gilde",
+      "image": "/images/voidfall/icons/icon-gruendung-von-gilde.png",
+      "summary": "Gründung von Gilde",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1660
+    },
+    {
+      "id": "icon-entfernen-von-gilde-aus-nicht-heimat-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Entfernen von Gilde aus (nicht Heimat-)Sektor",
+      "image": "/images/voidfall/icons/icon-entfernen-von-gilde-aus-nicht-heimat-sektor.png",
+      "summary": "Entfernen von Gilde aus (nicht Heimat-)Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1670
+    },
+    {
+      "id": "icon-freies-gildenfeld",
+      "type": "reference",
+      "category": "icons",
+      "name": "Freies Gildenfeld",
+      "image": "/images/voidfall/icons/icon-freies-gildenfeld.png",
+      "summary": "Freies Gildenfeld",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1680
+    },
+    {
+      "id": "icon-freies-gildenfeld-in-reinem-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Freies Gildenfeld in reinem Sektor",
+      "image": "/images/voidfall/icons/icon-freies-gildenfeld-in-reinem-sektor.png",
+      "summary": "Freies Gildenfeld in reinem Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1690
+    },
+    {
+      "id": "icon-stuetzpunkt",
+      "type": "reference",
+      "category": "icons",
+      "name": "Stützpunkt",
+      "image": "/images/voidfall/icons/icon-stuetzpunkt.png",
+      "summary": "Stützpunkt",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1700
+    },
+    {
+      "id": "icon-verteidigungsanlage",
+      "type": "reference",
+      "category": "icons",
+      "name": "Verteidigungsanlage",
+      "image": "/images/voidfall/icons/icon-verteidigungsanlage.png",
+      "summary": "Verteidigungsanlage",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1710
+    },
+    {
+      "id": "icon-werft",
+      "type": "reference",
+      "category": "icons",
+      "name": "Werft",
+      "image": "/images/voidfall/icons/icon-werft.png",
+      "summary": "Werft",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1720
+    },
+    {
+      "id": "icon-sternenbasis",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sternenbasis",
+      "image": "/images/voidfall/icons/icon-sternenbasis.png",
+      "summary": "Sternenbasis",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1730
+    },
+    {
+      "id": "icon-errichtung-von-stuetzpunkt",
+      "type": "reference",
+      "category": "icons",
+      "name": "Errichtung von Stützpunkt",
+      "image": "/images/voidfall/icons/icon-errichtung-von-stuetzpunkt.png",
+      "summary": "Errichtung von Stützpunkt",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1740
+    },
+    {
+      "id": "icon-entfernen-von-stuetzpunkt-aus-nicht-heimat-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Entfernen von Stützpunkt aus (nicht Heimat-)Sektor",
+      "image": "/images/voidfall/icons/icon-entfernen-von-stuetzpunkt-aus-nicht-heimat-sektor.png",
+      "summary": "Entfernen von Stützpunkt aus (nicht Heimat-)Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1750
+    },
+    {
+      "id": "icon-stuetzpunkt-in-reinem-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Stützpunkt in reinem Sektor",
+      "image": "/images/voidfall/icons/icon-stuetzpunkt-in-reinem-sektor.png",
+      "summary": "Stützpunkt in reinem Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1760
+    },
+    {
+      "id": "icon-errichtung-von-stuetzpunkt-in-leereberuehrtem-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Errichtung von Stützpunkt in leereberührtem Sektor",
+      "image": "/images/voidfall/icons/icon-errichtung-von-stuetzpunkt-in-leereberuehrtem-sektor.png",
+      "summary": "Errichtung von Stützpunkt in leereberührtem Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1770
+    },
+    {
+      "id": "icon-errichtung-von-stuetzpunkt-in-benachbartem-leereberuehrten-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Errichtung von Stützpunkt in benachbartem leereberührten Sektor",
+      "image": "/images/voidfall/icons/icon-errichtung-von-stuetzpunkt-in-benachbartem-leereberuehrten-sektor.png",
+      "summary": "Errichtung von Stützpunkt in benachbartem leereberührten Sektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1780
+    },
+    {
+      "id": "icon-vorrat-beliebige-ressource",
+      "type": "reference",
+      "category": "icons",
+      "name": "Vorrat/beliebige Ressource",
+      "image": "/images/voidfall/icons/icon-vorrat-beliebige-ressource.png",
+      "summary": "Vorrat/beliebige Ressource",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1790
+    },
+    {
+      "id": "icon-nahrung",
+      "type": "reference",
+      "category": "icons",
+      "name": "Nahrung",
+      "image": "/images/voidfall/icons/icon-nahrung.png",
+      "summary": "Nahrung",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1800
+    },
+    {
+      "id": "icon-energie",
+      "type": "reference",
+      "category": "icons",
+      "name": "Energie",
+      "image": "/images/voidfall/icons/icon-energie.png",
+      "summary": "Energie",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1810
+    },
+    {
+      "id": "icon-material",
+      "type": "reference",
+      "category": "icons",
+      "name": "Material",
+      "image": "/images/voidfall/icons/icon-material.png",
+      "summary": "Material",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1820
+    },
+    {
+      "id": "icon-wissen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Wissen",
+      "image": "/images/voidfall/icons/icon-wissen.png",
+      "summary": "Wissen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1830
+    },
+    {
+      "id": "icon-credits",
+      "type": "reference",
+      "category": "icons",
+      "name": "Credits",
+      "image": "/images/voidfall/icons/icon-credits.png",
+      "summary": "Credits",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1840
+    },
+    {
+      "id": "icon-nahrung-energie-material",
+      "type": "reference",
+      "category": "icons",
+      "name": "Nahrung/Energie/Material",
+      "image": "/images/voidfall/icons/icon-nahrung-energie-material.png",
+      "summary": "Nahrung/Energie/Material",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1850
+    },
+    {
+      "id": "icon-selber-vorrat",
+      "type": "reference",
+      "category": "icons",
+      "name": "Selber Vorrat",
+      "image": "/images/voidfall/icons/icon-selber-vorrat.png",
+      "summary": "Selber Vorrat",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1860
+    },
+    {
+      "id": "icon-verschiedene-vorraete",
+      "type": "reference",
+      "category": "icons",
+      "name": "Verschiedene Vorräte",
+      "image": "/images/voidfall/icons/icon-verschiedene-vorraete.png",
+      "summary": "Verschiedene Vorräte",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1870
+    },
+    {
+      "id": "icon-produktionsstufe",
+      "type": "reference",
+      "category": "icons",
+      "name": "Produktionsstufe",
+      "image": "/images/voidfall/icons/icon-produktionsstufe.png",
+      "summary": "Produktionsstufe",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1880
+    },
+    {
+      "id": "icon-produktionsertrag",
+      "type": "reference",
+      "category": "icons",
+      "name": "Produktionsertrag",
+      "image": "/images/voidfall/icons/icon-produktionsertrag.png",
+      "summary": "Produktionsertrag",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1890
+    },
+    {
+      "id": "icon-produktion-von-1-ressourcentyp",
+      "type": "reference",
+      "category": "icons",
+      "name": "Produktion von 1 Ressourcentyp",
+      "image": "/images/voidfall/icons/icon-produktion-von-1-ressourcentyp.png",
+      "summary": "Produktion von 1 Ressourcentyp",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1900
+    },
+    {
+      "id": "icon-ueberproduktion",
+      "type": "reference",
+      "category": "icons",
+      "name": "Überproduktion",
+      "image": "/images/voidfall/icons/icon-ueberproduktion.png",
+      "summary": "Überproduktion",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1910
+    },
+    {
+      "id": "icon-ueberproduktion-ohne-einflussbonus",
+      "type": "reference",
+      "category": "icons",
+      "name": "Überproduktion ohne Einflussbonus",
+      "image": "/images/voidfall/icons/icon-ueberproduktion-ohne-einflussbonus.png",
+      "summary": "Überproduktion ohne Einflussbonus",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1920
+    },
+    {
+      "id": "icon-produktion-desselben-ressourcentyps",
+      "type": "reference",
+      "category": "icons",
+      "name": "Produktion desselben Ressourcentyps",
+      "image": "/images/voidfall/icons/icon-produktion-desselben-ressourcentyps.png",
+      "summary": "Produktion desselben Ressourcentyps",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1930
+    },
+    {
+      "id": "icon-produktion-verschiedener-ressourcentypen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Produktion verschiedener Ressourcentypen",
+      "image": "/images/voidfall/icons/icon-produktion-verschiedener-ressourcentypen.png",
+      "summary": "Produktion verschiedener Ressourcentypen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1940
+    },
+    {
+      "id": "icon-eingesetzte-flotte",
+      "type": "reference",
+      "category": "icons",
+      "name": "Eingesetzte Flotte",
+      "image": "/images/voidfall/icons/icon-eingesetzte-flotte.png",
+      "summary": "Eingesetzte Flotte",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1950
+    },
+    {
+      "id": "icon-aktive-flotte",
+      "type": "reference",
+      "category": "icons",
+      "name": "Aktive Flotte",
+      "image": "/images/voidfall/icons/icon-aktive-flotte.png",
+      "summary": "Aktive Flotte",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1960
+    },
+    {
+      "id": "icon-inaktive-flotte",
+      "type": "reference",
+      "category": "icons",
+      "name": "Inaktive Flotte",
+      "image": "/images/voidfall/icons/icon-inaktive-flotte.png",
+      "summary": "Inaktive Flotte",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1970
+    },
+    {
+      "id": "icon-korvette",
+      "type": "reference",
+      "category": "icons",
+      "name": "Korvette",
+      "image": "/images/voidfall/icons/icon-korvette.png",
+      "summary": "Korvette",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1980
+    },
+    {
+      "id": "icon-traeger",
+      "type": "reference",
+      "category": "icons",
+      "name": "Träger",
+      "image": "/images/voidfall/icons/icon-traeger.png",
+      "summary": "Träger",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1990
+    },
+    {
+      "id": "icon-zerstoerer",
+      "type": "reference",
+      "category": "icons",
+      "name": "Zerstörer",
+      "image": "/images/voidfall/icons/icon-zerstoerer.png",
+      "summary": "Zerstörer",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2000
+    },
+    {
+      "id": "icon-schlaechter",
+      "type": "reference",
+      "category": "icons",
+      "name": "Schlächter",
+      "image": "/images/voidfall/icons/icon-schlaechter.png",
+      "summary": "Schlächter",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2010
+    },
+    {
+      "id": "icon-waechter",
+      "type": "reference",
+      "category": "icons",
+      "name": "Wächter",
+      "image": "/images/voidfall/icons/icon-waechter.png",
+      "summary": "Wächter",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2020
+    },
+    {
+      "id": "icon-einsetzen-von-flotte-aus-einsatzzone-in-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Einsetzen von Flotte (aus Einsatzzone in Sektor)",
+      "image": "/images/voidfall/icons/icon-einsetzen-von-flotte-aus-einsatzzone-in-sektor.png",
+      "summary": "Einsetzen von Flotte (aus Einsatzzone in Sektor)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2030
+    },
+    {
+      "id": "icon-einsetzen-von-flotte-im-heimatsektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Einsetzen von Flotte im Heimatsektor",
+      "image": "/images/voidfall/icons/icon-einsetzen-von-flotte-im-heimatsektor.png",
+      "summary": "Einsetzen von Flotte im Heimatsektor",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2040
+    },
+    {
+      "id": "icon-rueckruf-von-flotte-aus-sektor-in-einsatzzone",
+      "type": "reference",
+      "category": "icons",
+      "name": "Rückruf von Flotte (aus Sektor in Einsatzzone)",
+      "image": "/images/voidfall/icons/icon-rueckruf-von-flotte-aus-sektor-in-einsatzzone.png",
+      "summary": "Rückruf von Flotte (aus Sektor in Einsatzzone)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2050
+    },
+    {
+      "id": "icon-einsatzzone",
+      "type": "reference",
+      "category": "icons",
+      "name": "Einsatzzone",
+      "image": "/images/voidfall/icons/icon-einsatzzone.png",
+      "summary": "Einsatzzone",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2060
+    },
+    {
+      "id": "icon-ruhezone",
+      "type": "reference",
+      "category": "icons",
+      "name": "Ruhezone",
+      "image": "/images/voidfall/icons/icon-ruhezone.png",
+      "summary": "Ruhezone",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2070
+    },
+    {
+      "id": "icon-aktivierung-von-flotte-aus-ruhezone-in-einsatzzone",
+      "type": "reference",
+      "category": "icons",
+      "name": "Aktivierung von Flotte (aus Ruhezone in Einsatzzone)",
+      "image": "/images/voidfall/icons/icon-aktivierung-von-flotte-aus-ruhezone-in-einsatzzone.png",
+      "summary": "Aktivierung von Flotte (aus Ruhezone in Einsatzzone)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2080
+    },
+    {
+      "id": "icon-deaktivierung-von-flotte-aus-einsatzzone-in-ruhezone",
+      "type": "reference",
+      "category": "icons",
+      "name": "Deaktivierung von Flotte (aus Einsatzzone in Ruhezone)",
+      "image": "/images/voidfall/icons/icon-deaktivierung-von-flotte-aus-einsatzzone-in-ruhezone.png",
+      "summary": "Deaktivierung von Flotte (aus Einsatzzone in Ruhezone)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2090
+    },
+    {
+      "id": "icon-selber-flottentyp",
+      "type": "reference",
+      "category": "icons",
+      "name": "Selber Flottentyp",
+      "image": "/images/voidfall/icons/icon-selber-flottentyp.png",
+      "summary": "Selber Flottentyp",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2100
+    },
+    {
+      "id": "icon-verschiedene-flottentypen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Verschiedene Flottentypen",
+      "image": "/images/voidfall/icons/icon-verschiedene-flottentypen.png",
+      "summary": "Verschiedene Flottentypen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2110
+    },
+    {
+      "id": "icon-sammeln-aus-sektor-in-sektor",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sammeln (aus Sektor in Sektor)",
+      "image": "/images/voidfall/icons/icon-sammeln-aus-sektor-in-sektor.png",
+      "summary": "Sammeln (aus Sektor in Sektor)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2120
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "entries": [
+    {
+      "id": "glossary-power",
+      "type": "glossary",
+      "category": "Ressource",
+      "name": "Macht",
+      "summary": "Ressource für Aktionen und Effekte.",
+      "aliases": ["Machtmarker", "Power"],
+      "tags": ["macht", "ressource"],
+      "source": { "document": "Spielregel", "page": 7 }
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "entries": [
+    {
+      "id": "fokus-entwicklung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Entwicklung",
+      "image": "/images/voidfall/fokusse/fokus_entwicklung.webp",
+      "summary": "**Wachsen** — Zahle 1 [[icon:material]]. Gründe 1 Gilde oder errichte 1 Stützpunkt.\n**Siedeln** — Rufe 1 Flotte zurück. Gründe in dem Sektor, aus dem du die Flotte zurückgerufen hast, 1 Gilde und/oder errichte dort 1 Stützpunkt.\n**Einstimmen** — Zahle 1 [[icon:wissen]]. Vermehre 1 reine Bevölkerung oder entferne 1 [[icon:verderbnis]].",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 1
+    },
+    {
+      "id": "fokus-eroberung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Eroberung",
+      "image": "/images/voidfall/fokusse/fokus_eroberung.webp",
+      "summary": "**Angreifen** — Zahle 2 [[icon:energie]]. Dringe in 1 Sektor ein oder sammle deine Flotten.\n**Planen** — Zahle 1 [[icon:energie]] und 1 [[icon:credits]]. Erhalte 1 Agenda und/oder versetze 1 [[icon:verderbnis]].\n**Vorbereiten** — Zahle 3 [[icon:material]]. Aktiviere 2 Flotten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 2
+    },
+    {
+      "id": "fokus-fortschritt",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Fortschritt",
+      "image": "/images/voidfall/fokusse/fokus_fortschritt.webp",
+      "summary": "**Testen** — kostenlos Produziere [[icon:wissen]] oder gründe 1 Forschungsgilde.\n**Erfinden** — Zahle 2 [[icon:wissen]]. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n**Erholen** — Rufe 1 Flotte zurück. Entferne 1 [[icon:verderbnis]] aus dem Sektor, aus dem du die Flotte zurückgerufen hast, und/oder sammle deine Flotten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 3
+    },
+    {
+      "id": "fokus-innovation",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Innovation",
+      "image": "/images/voidfall/fokusse/fokus_innovation.webp",
+      "summary": "⚠ Werft diesen Fokus im 1. Zyklus ab!\n\n**Beweisen** — Zahle 2 [[icon:nahrung]]. Produziere [[icon:wissen]] und Creditss und/oder erhalte 1 [[icon:einfluss]] pro eigener reiner Forschungsgilde und/oder Kreditgilde.\n**Erfinden** — Zahle 2 [[icon:wissen]]. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n**Festlegen** — Zahle 1 [[icon:nahrung]], 1 [[icon:energie]] und 1 [[icon:material]]. Erhalte 1 Agenda.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 4
+    },
+    {
+      "id": "fokus-politik",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Politik",
+      "image": "/images/voidfall/fokusse/fokus_politik.webp",
+      "summary": "**Inspirieren** — Zahle 1 [[icon:wissen]]. Schreite auf der Staatsführungsleiste voran.\n**Herrschen** — Zahle 2 [[icon:energie]] und 1 [[icon:credits]]. Werte 1 Ruhmplättchen auf und/oder dringe in 1 Sektor ein.\n**Prüfen** — Zahle 1 [[icon:credits]]. Erhalte 1 Handelsplättchen und/oder versetze 1 [[icon:verderbnis]].",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 5
+    },
+    {
+      "id": "fokus-produktion",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Produktion",
+      "image": "/images/voidfall/fokusse/fokus_produktion.webp",
+      "summary": "**Gedeihen** — kostenlos Schreite auf der Gesellschaftsleiste voran.\n**Bevorraten** — kostenlos Produziere [[icon:nahrung]], [[icon:energie]] und [[icon:material]] und/oder erhalte 1 [[icon:einfluss]] pro eigener reiner Nahrungsgilde, Bergbaugilde und/oder Konstruktionsgilde.\n**Fördern** — Zahle 1 [[icon:nahrung]] und 1 [[icon:energie]]. Entferne 1 [[icon:verderbnis]] und/oder sammle deine Flotten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 6
+    },
+    {
+      "id": "fokus-verstaerkung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Verstärkung",
+      "image": "/images/voidfall/fokusse/fokus_verstaerkung.webp",
+      "summary": "**Vorantreiben** — Deaktiviere 1 Flotte. Schreite auf 1 Zivilisationsleiste voran und/oder errichte 1 Verteidigungsanlage.\n**Einberufen** — Zahle 2 [[icon:material]]. Setze in jedem deiner Sektoren pro darin befindlicher Werft 1 Flotte ein.\n**Besetzen** — Zahle 1 [[icon:energie]]. Sammle deine Flotten und/oder errichte 1 Verteidigungsanlage.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 7
+    },
+    {
+      "id": "fokus-versuchung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Versuchung",
+      "image": "/images/voidfall/fokusse/fokus_versuchung.webp",
+      "summary": "**Verwerten** — kostenlos Nutze 1 Aktion von einem deiner bevorzugten Fokusse von der Hand oder dem Abwurfstapel (zahle dazu ihre Kosten).\n**Verschwören** — Erhalte 1 [[icon:verderbnis]]. Schreite auf 1 Zivilisationsleiste voran und/oder ahne das nächste Galaktische Ereignis voraus.\n**Auslaugen** — Erhalte 1 [[icon:verderbnis]]. Aktiviere 1 Flotte und/oder setze 1 Flotte in deinem Heimatsektor ein und/oder produziere 2 verschiedene Ressourcentypen.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 8
+    },
+    {
+      "id": "fokus-wohlstand",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Wohlstand",
+      "image": "/images/voidfall/fokusse/fokus_wohlstand.webp",
+      "summary": "**Vermehren** — Zahle 1 [[icon:material]]. Schreite auf der Wirtschaftsleiste voran.\n**Lagern** — kostenlos Produziere 1 Ressourcentyp und/oder erhalte 2 beliebige Ressourcen.\n**Einteilen** — Deaktiviere 1 Flotte und zahle 1 [[icon:material]] und 1 [[icon:energie]]. Erhalte 1 Agenda und/oder errichte 1 Stützpunkt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 9
+    },
+    {
+      "id": "fokus-eroberung-astoran",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Eroberung – Haus Astoran",
+      "image": "/images/voidfall/fokusse/fokus_eroberung_astoran.webp",
+      "summary": "**Belagern** — Zahle 3 [[icon:energie]]. Dringe in 1 Sektor ein und/oder errichte 1 Stützpunkt.\n**Ernten** — Zahle 1 [[icon:credits]]. Erhalte 1 [[icon:nahrung]] pro eigenem reinen Sektor und/oder versetze 1 [[icon:verderbnis]].\n**Erhalten** — Zahle 1 [[icon:wissen]]. Erhalte 1 [[icon:einfluss]] und 1 [[icon:credits]] pro eigenem reinen Sektor mit Stützpunkt(en).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 10
+    },
+    {
+      "id": "fokus-wohlstand-astoran",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Wohlstand – Haus Astoran",
+      "image": "/images/voidfall/fokusse/fokus_wohlstand_astoran.webp",
+      "summary": "**Stärken** — Zahle 1 [[icon:nahrung]] und rufe 1 Flotte zurück. Errichte 1 Stützpunkt und/oder schreite auf der Wirtschaftsleiste voran.\n**Lenken** — Rufe 1 Flotte zurück. Erhalte 1 Machtagenda oder 1 Reichtumsagenda.\n**Umbauen** — Zerstöre 1 Stützpunkt (nicht in Heimatsektoren). Gründe 1 Gilde in dem Sektor, in dem du den Stützpunkt zerstört hast, und/oder entferne 1 [[icon:verderbnis]].",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 11
+    },
+    {
+      "id": "fokus-entwicklung-fenrax",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Entwicklung – Haus Fenrax",
+      "image": "/images/voidfall/fokusse/fokus_entwicklung_fenrax.webp",
+      "summary": "**Niederlassen** — Zahle 1 [[icon:material]] und 1 [[icon:credits]]. Gründe 1 Gilde und/oder errichte 1 Stützpunkt im selben Sektor.\n**Kolonisieren** — Zahle 1 [[icon:material]] und senke 1 reine Bevölkerung (nicht in Heimatsektoren). Gründe max. 2 Gilden in einem oder unterschiedlichen Sektoren (nicht dem, in dem du die Bevölkerung gesenkt hast).\n**Rekrutieren** — Zahle 1 [[icon:nahrung]] und 1 [[icon:wissen]]. Setze 1 Flotte ein und/oder vermehre 1 reine Bevölkerung im selben Sektor.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 12
+    },
+    {
+      "id": "fokus-verbreitung-fenrax",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Verbreitung – Haus Fenrax",
+      "image": "/images/voidfall/fokusse/fokus_verbreitung_fenrax.webp",
+      "summary": "**Wiederaufnehmen** — Zahle 1 [[icon:wissen]] und zerstöre 1 Stützpunkt (nicht in Heimatsektoren). Errichte 1 Stützpunkt (nicht in dem Sektor, in dem du den Stützpunkt zerstört hast) und/oder entferne 1 [[icon:verderbnis]].\n**Einberufen** — Zahle 1 [[icon:material]] und 1 [[icon:credits]]. Setze in jedem deiner Sektoren pro darin befindlicher Werft 1 Flotte ein.\n**Ausbreiten** — Zahle 1 [[icon:energie]] und senke 1 reine Bevölkerung (nicht in Heimatsektoren). Vermehre max. 2 reine Bevölkerungen (nicht in dem Sektor, in dem du die Bevölkerung gesenkt hast).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 13
+    },
+    {
+      "id": "fokus-versuchung-kradmor",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Versuchung – Haus Kradmor",
+      "image": "/images/voidfall/fokusse/fokus_versuchung_kradmor.webp",
+      "summary": "**Überwinden** — Zahle 1 [[icon:credits]] und 1 [[icon:wissen]]. Vermehre 1 reine Bevölkerung und/oder nutze 1 Aktion von einem deiner bevorzugten Fokusse von der Hand oder dem Abwurfstapel (zahle dazu ihre Kosten).\n**Voraussehen** — kostenlos Schreite auf 1 deiner niedrigsten Zivilisationsleisteen voran und/oder ahne das nächste Galaktische Ereignis voraus.\n**Auslaugen** — Erhalte 1 [[icon:verderbnis]]. Aktiviere 1 Flotte und/oder setze 1 Flotte in deinem Heimatsektor ein und/oder produziere 1 Ressourcentyp.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 14
+    },
+    {
+      "id": "fokus-produktion-kradmor",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Produktion – Haus Kradmor",
+      "image": "/images/voidfall/fokusse/fokus_produktion_kradmor.webp",
+      "summary": "**Vorstossen** — Zahle 1 [[icon:nahrung]] und 1 [[icon:material]]. Entferne 1 [[icon:verderbnis]] und/oder produziere [[icon:energie]].\n**Erweitern** — kostenlos Produziere [[icon:nahrung]] und [[icon:material]] oder schreite auf der Wirtschaftsleiste voran.\n**Keimen** — Erhalte 1 [[icon:verderbnis]] und zahle 1 [[icon:energie]]. Gründe 1 Gilde und/oder schreite auf der Gesellschaftsleiste voran.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 15
+    },
+    {
+      "id": "fokus-komplott-marqualos",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Komplott – Haus Marqualos",
+      "image": "/images/voidfall/fokusse/fokus_komplott_marqualos.webp",
+      "summary": "**Erlangen** — Zahle 1 [[icon:credits]] und 1 [[icon:wissen]]. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n**Austauschen** — Wirf 1 (nicht Start-)Agenda vom Haustableau ab. Erhalte 1 Handelsplättchen und/oder produziere 2 verschiedene Ressourcentypen.\n**Befehlen** — Rufe 1 Flotte zurück. Erhalte 1 Agenda und/oder 1 Beute.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 16
+    },
+    {
+      "id": "fokus-produktion-nervo",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Produktion – Haus Nervo",
+      "image": "/images/voidfall/fokusse/fokus_produktion_nervo.webp",
+      "summary": "**Industrialisieren** — kostenlos Schreite auf der Wirtschaftsleiste voran und/oder produziere [[icon:material]].\n**Maschinisieren** — Zahle 2 [[icon:material]]. Schreite auf der Staatsführungsleiste voran und/oder produziere [[icon:nahrung]] und [[icon:energie]].\n**Gedeihen** — Zahle 1 [[icon:material]]. Schreite auf der Gesellschaftsleiste voran.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 17
+    },
+    {
+      "id": "fokus-erhebung-nervo",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Erhebung – Haus Nervo",
+      "image": "/images/voidfall/fokusse/fokus_erhebung_nervo.webp",
+      "summary": "**Bombardieren** — Zahle 2 [[icon:energie]]. Dringe in 1 Sektor ein. Zahle beliebig oft 3 [[icon:energie]], um je 1 Absorption (für Annäherung/Salven) für diesen Kampf zu erhalten.\n**Analysieren** — Zahle 1 [[icon:credits]]. Erhalte 1 Agenda.\n**Heilen** — Zahle 1 [[icon:wissen]]. Entferne 1 [[icon:verderbnis]] und/oder produziere [[icon:credits]].",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 18
+    },
+    {
+      "id": "fokus-fortschritt-novaris",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Fortschritt – Haus Novaris",
+      "image": "/images/voidfall/fokusse/fokus_fortschritt_novaris.webp",
+      "summary": "**Aneignen** — Erhalte 1 [[icon:verderbnis]]. Erhalte 1 Basis- oder Fortschrittliche Technologie.\n**Testen** — Erhalte 1 [[icon:verderbnis]]. Erhalte 1 Agenda.\n**Überfallen** — Zahle 2 [[icon:energie]] und 1 [[icon:wissen]]. Sammle deine Flotten und/oder dringe in 1 verderbten Sektor ein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 19
+    },
+    {
+      "id": "fokus-verstaerkung-novaris",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Verstärkung – Haus Novaris",
+      "image": "/images/voidfall/fokusse/fokus_verstaerkung_novaris.webp",
+      "summary": "**Adaptieren** — Zahle 1 [[icon:nahrung]], 1 [[icon:energie]] und 1 [[icon:material]]. Aktiviere 1 Flotte und/oder entferne 1 [[icon:verderbnis]] von deinem Haustableau.\n**Einberufen** — Zahle 1 [[icon:energie]] und 1 [[icon:material]]. Setze in jedem deiner Sektoren pro darin befindlicher Werft 1 Flotte ein.\n**Vorantreiben** — Zahle 1 [[icon:energie]] und 1 [[icon:material]]. Schreite auf 1 Zivilisationsleiste voran und/oder sammle deine Flotten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 20
+    },
+    {
+      "id": "fokus-kreuzzug-shiveus",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Kreuzzug – Haus Shiveus",
+      "image": "/images/voidfall/fokusse/fokus_kreuzzug_shiveus.webp",
+      "summary": "**Beeinflussen** — Zahle 1 [[icon:nahrung]], 1 [[icon:energie]] und 1 [[icon:material]]. Setze in jedem deiner Sektoren pro darin befindlicher Werft 1 Flotte ein und/oder vermehre 1 reine Bevölkerung.\n**Ausrotten** — Zahle 1 [[icon:energie]] und 1 [[icon:credits]]. Dringe in 1 verderbten Sektor ein und erhalte 2 Einflusspunkte pro Flotte der Leere, die du im folgenden Kampf zerstörst. (Du musst dazu in einen Sektor eindringen.)\n**Erleuchten** — Zahle 2 [[icon:wissen]] und rufe 1 Flotte zurück. Entferne 1 [[icon:verderbnis]] aus dem Sektor, aus dem du die Flotte zurückgerufen hast, und/oder schreite auf 1 Zivilisationsleiste voran.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 21
+    },
+    {
+      "id": "fokus-politik-shiveus",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Politik – Haus Shiveus",
+      "image": "/images/voidfall/fokusse/fokus_politik_shiveus.webp",
+      "summary": "**Preisen** — Zahle 2 [[icon:nahrung]]. Schreite auf der Staatsführungsleiste voran und/oder werte 1 Ruhmplättchen auf.\n**Vergelten** — Zahle 2 [[icon:energie]]. Dringe in 1 verderbten Sektor ein.\n**Bereichern** — Erhalte 1 [[icon:verderbnis]]. Erhalte 1 Handelsplättchen und/oder produziere 1 Ressourcentyp.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 22
+    },
+    {
+      "id": "fokus-produktion-thegwyn",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Produktion – Haus Thegwyn",
+      "image": "/images/voidfall/fokusse/fokus_produktion_thegwyn.webp",
+      "summary": "**Gedeihen** — kostenlos Schreite auf der Gesellschaftsleiste voran.\n**Thronen** — Zahle 1 [[icon:nahrung]] und 1 [[icon:material]]. Entferne 1 [[icon:verderbnis]] oder schreite auf der Staatsführungsleiste voran.\n**Anhäufen** — kostenlos Produziere [[icon:nahrung]], [[icon:energie]], [[icon:material]] und [[icon:wissen]].",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 23
+    },
+    {
+      "id": "fokus-eroberung-yarvek",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Eroberung – Haus Yarvek",
+      "image": "/images/voidfall/fokusse/fokus_eroberung_yarvek.webp",
+      "summary": "**Angreifen** — Zahle 2 [[icon:energie]]. Dringe in 1 Sektor ein oder sammle deine Flotten.\n**Mobilisieren** — Wirf 1 Beute ab und zahle 1 [[icon:credits]]. Erhalte 1 Agenda.\n**Recyceln** — Wirf 1 Hinterlassenschaft ab und zahle 2 [[icon:material]]. Wähle 2-mal: Entferne 1 [[icon:verderbnis]] aus einem Sektor oder aktiviere 1 Flotte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 24
+    },
+    {
+      "id": "fokus-raubzug-yarvek",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Raubzug – Haus Yarvek",
+      "image": "/images/voidfall/fokusse/fokus_raubzug_yarvek.webp",
+      "summary": "**Befreien** — Zahle 2 [[icon:energie]]. Dringe in 1 Sektor ein und erhalte dessen Bevölkerungswert entsprechend viele Einflusspunkte. (Du musst dazu in einen Sektor eindringen.)\n**Beraten** — Wirf 1 Beute ab und zahle 1 [[icon:wissen]]. Erhalte 1 Basistechnologie.\n**Feilschen** — Erhalte 1 [[icon:verderbnis]] und zahle 1 [[icon:credits]]. Erhalte 1 Beute und/oder 1 Handelsplättchen.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 25
+    },
+    {
+      "id": "fokus-eroberung-zenor",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Eroberung – Haus Zenor",
+      "image": "/images/voidfall/fokusse/fokus_eroberung_zenor.webp",
+      "summary": "**Angreifen** — Zahle 2 [[icon:energie]]. Dringe in 1 Sektor ein oder sammle deine Flotten.\n**Investieren** — Zahle 3 [[icon:credits]]. Erhalte 1 Agenda und/oder 1 Handelsplättchen.\n**Testen** — Zahle 1 [[icon:wissen]]. Produziere [[icon:wissen]] und/oder erhalte 1 Basistechnologie.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 26
+    },
+    {
+      "id": "fokus-politik-zenor",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Politik – Haus Zenor",
+      "image": "/images/voidfall/fokusse/fokus_politik_zenor.webp",
+      "summary": "**Inspirieren** — Zahle 2 [[icon:wissen]]. Schreite auf der Staatsführungsleiste voran.\n**Aufteilen** — Zahle 1 [[icon:energie]], 1 [[icon:material]] und 1 [[icon:wissen]]. Aktiviere 1 Flotte und/oder dringe in 1 Sektor ein.\n**Duplizieren** — Zahle 1 [[icon:energie]] und 1 [[icon:wissen]]. Versetze 1 [[icon:verderbnis]] und/oder vermehre 1 reine Bevölkerung.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 27
+    },
+    {
+      "id": "fokus-gemeinsame-entwicklung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Gemeinsame Entwicklung",
+      "image": "/images/voidfall/fokusse/fokus_gemeinsame_entwicklung.webp",
+      "summary": "**Wachsen** — Zahle 1 [[icon:credits]]. Du und 1 anderes Haus: Gründet beide je 1 Gilde der gleichen Art. Du und 1 anderes Haus: Handelt max. 4 Ressourcen miteinander.\n**Erbauen** — Zahle 1 [[icon:material]]. Du und 1 anderes Haus: Errichtet beide je 1 Stützpunkt.\n**Einstimmen** — Zahle 1 [[icon:wissen]]. Du und 1 anderes Haus: 1 Haus entfernt 1 [[icon:verderbnis]], das andere Haus vermehrt 1 reine Bevölkerung.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 28
+    },
+    {
+      "id": "fokus-gemeinsame-eroberung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Gemeinsame Eroberung",
+      "image": "/images/voidfall/fokusse/fokus_gemeinsame_eroberung.webp",
+      "summary": "**Angreifen** — Zahle 1 [[icon:energie]]. Du und 1 anderes Haus: 1 Haus dringt in 1 Sektor ein, das andere Haus sammelt seine Flotten.\n**Planen** — Zahle 1 [[icon:nahrung]] und 1 [[icon:credits]]. Du und 1 anderes Haus: 1 Haus erhält 1 Agenda, das andere Haus entfernt 1 [[icon:verderbnis]].\n**Vorbereiten** — Rufe 1 Flotte zurück. Du und 1 anderes Haus: 1 Haus aktiviert max. 2 Flotten, das andere Haus wertet 1 Ruhmplättchen auf.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 29
+    },
+    {
+      "id": "fokus-gemeinsamer-fortschritt",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Gemeinsamer Fortschritt",
+      "image": "/images/voidfall/fokusse/fokus_gemeinsamer_fortschritt.webp",
+      "summary": "**Testen** — Zahle 1 [[icon:nahrung]]. Du und 1 anderes Haus: 1 Haus produziert [[icon:wissen]], das andere Haus entfernt 1 [[icon:verderbnis]].\n**Erfinden** — Zahle 2 [[icon:wissen]]. Du und 1 anderes Haus: 1 Haus erhält 1 Basis- oder Fortschrittliche Technologie, das andere Haus gründet 1 Forschungsgilde.\n**Erholen** — Wirf 1 Ruhmplättchen ab. 1 Haus deiner Wahl setzt 1 Flotte ein und/oder sammelt seine Flotten. Du wirfst eine Ökonomische oder Allgemeine Krise ab.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 30
+    },
+    {
+      "id": "fokus-gemeinsame-fuehrung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Gemeinsame Führung",
+      "image": "/images/voidfall/fokusse/fokus_gemeinsame_fuehrung.webp",
+      "summary": "⚠ Diese Karte gilt als beliebiger Fokustyp für das Ausspielen von Agenden und das Bestehen von Krisen. Sie ist nie bevorzugter Fokus.\n\n**Teilen** — Zahle 1 [[icon:credits]]. 1 anderes Haus erhält dem Wert deiner Ruhmplättchen entsprechend viele Einflusspunkte. Du und 1 anderes Haus: Handelt beliebig viele Ressourcen miteinander.\n**Helfen** — Wirf 1 Ruhmplättchen ab. Du und 1 anderes Haus: 1 Haus entfernt 1 [[icon:verderbnis]], das andere Haus nutzt 1 Aktion der eigenen bevorzugten Fokusse von der Hand oder dem Abwurfstapel (zahlt dazu ihre Kosten).\n**Vertreiben** — Zahle 1 Ressource. Entferne 1 Vorboten oder wirf 1 Krise ab.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 31
+    },
+    {
+      "id": "fokus-gemeinsame-innovation",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Gemeinsame Innovation",
+      "image": "/images/voidfall/fokusse/fokus_gemeinsame_innovation.webp",
+      "summary": "⚠ Im 1. Zyklus wird dieser Fokus abgeworfen.\n\n**Beweisen** — Zahle 1 [[icon:nahrung]] und 1 [[icon:wissen]]. Du und 1 anderes Haus: 1 Haus erhält 1 Basis- oder Fortschrittliche Technologie, das andere Haus produziert [[icon:wissen]] und [[icon:credits]].\n**Erfinden** — Zahle 2 [[icon:wissen]]. Du und 1 anderes Haus: 1 Haus erhält 1 Basis- oder Fortschrittliche Technologie, das andere Haus entfernt 1 Flotte der Leere aus einem benachbarten Sektor. War dies die letzte Flotte der Leere dort, ist der Sektor verlassen (siehe Anleitung S. 24).\n**Festlegen** — Zahle 2 beliebige Ressourcen. 1 Haus deiner Wahl erhält 1 Agenda und/oder du wirfst 1 Krise ab.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 32
+    },
+    {
+      "id": "fokus-gemeinsame-politik",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Gemeinsame Politik",
+      "image": "/images/voidfall/fokusse/fokus_gemeinsame_politik.webp",
+      "summary": "**Inspirieren** — Zahle 1 [[icon:energie]] und 1 [[icon:wissen]]. Du und 1 anderes Haus: 1 Haus schreitet auf der Staatsführungsleiste voran, das andere Haus wertet 1 Ruhmplättchen auf.\n**Herrschen** — Zahle 2 [[icon:energie]] und 1 [[icon:credits]]. Du und 1 anderes Haus: 1 Haus dringt in 1 Sektor ein und/oder das andere Haus erhält 1 Handelsplättchen.\n**Stürzen** — Zerstöre 1 Stützpunkt (nicht in Heimatsektoren). 1 Haus deiner Wahl entfernt 1 [[icon:verderbnis]] aus einem Sektor und/oder du entfernst 1 Vorboten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 33
+    },
+    {
+      "id": "fokus-gemeinsame-produktion",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Gemeinsame Produktion",
+      "image": "/images/voidfall/fokusse/fokus_gemeinsame_produktion.webp",
+      "summary": "**Gedeihen** — Lege 1 Handelsplättchen zurück. 1 Haus deiner Wahl erhält 2 Einflusspunkte pro eigener reiner Gilde und/oder du entfernst 1 Vorboten.\n**Bevorraten** — kostenlos Du und 1 anderes Haus: 1 Haus produziert [[icon:nahrung]], [[icon:energie]] und [[icon:material]], das andere Haus schreitet auf der Gesellschaftsleiste voran.\n**Fördern** — Zahle 1 [[icon:nahrung]] und 1 [[icon:energie]]. Du und 1 anderes Haus: 1 Haus entfernt 1 [[icon:verderbnis]], das andere Haus sammelt seine Flotten und/oder vermehrt 1 reine Bevölkerung.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 34
+    },
+    {
+      "id": "fokus-gemeinsame-verstaerkung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Gemeinsame Verstärkung",
+      "image": "/images/voidfall/fokusse/fokus_gemeinsame_verstaerkung.webp",
+      "summary": "**Vorantreiben** — Zahle 1 [[icon:energie]] und 1 [[icon:wissen]]. Du und 1 anderes Haus: 1 Haus sammelt seine Flotten und/oder errichtet 1 Stützpunkt, das andere Haus schreitet auf 1 Zivilisationsleiste voran.\n**Einberufen** — Zahle 1 [[icon:material]] und 1 [[icon:credits]]. Du und 1 anderes Haus: Setzt beide in jedem eigenen Sektor pro darin befindlicher Werft 1 Flotte ein. Du und 1 anderes Haus: Handelt max. 4 Ressourcen miteinander.\n**Standhalten** — Erhalte 1 [[icon:verderbnis]]. 1 Haus deiner Wahl errichtet max. 2 Stützpunkte und/oder du wirfst 1 Militärische oder Allgemeine Krise ab.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 35
+    },
+    {
+      "id": "fokus-gemeinsame-versuchung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Gemeinsame Versuchung",
+      "image": "/images/voidfall/fokusse/fokus_gemeinsame_versuchung.webp",
+      "summary": "**Verwerten** — Erhalte 1 [[icon:verderbnis]]. Du und 1 anderes Haus: Nutzt beide je 1 Aktion der eigenen bevorzugten Fokusse von der Hand oder dem Abwurfstapel (zahlt dazu jeweils ihre Kosten und führt sie separat aus).\n**Verschwören** — Erhalte 1 [[icon:verderbnis]]. Du und 1 anderes Haus: Schreitet beide auf derselben Zivilisationsleiste voran.\n**Auslaugen** — Zahle 2 beliebige Ressourcen. Du und 1 anderes Haus: 1 Haus aktiviert 1 Flotte und/oder setzt 1 Flotte ein, das andere Haus produziert 2 verschiedene Ressourcentypen.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 36
+    },
+    {
+      "id": "fokus-gemeinsamer-wohlstand",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Gemeinsamer Wohlstand",
+      "image": "/images/voidfall/fokusse/fokus_gemeinsamer_wohlstand.webp",
+      "summary": "**Vermehren** — Zahle 1 [[icon:nahrung]] und 1 [[icon:material]]. Du und 1 anderes Haus: 1 Haus schreitet auf der Wirtschaftsleiste voran, das andere Haus erhält 2 beliebige Ressourcen und/oder produziert 1 Ressourcentyp.\n**Auflehnen** — Zerstöre 1 Gilde (nicht in Heimatsektoren). 1 Haus deiner Wahl erhält 1 Handelsplättchen und/oder du entfernst 1 Vorboten.\n**Einteilen** — Rufe 1 Flotte zurück. Du und 1 anderes Haus: 1 Haus erhält 1 Agenda, das andere Haus errichtet 1 Stützpunkt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 37
+    },
+    {
+      "id": "fokus-heroische-entwicklung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Heroische Entwicklung",
+      "image": "/images/voidfall/fokusse/fokus_heroische_entwicklung.webp",
+      "summary": "**Aufblühen** — Zahle 2 [[icon:material]]. Gründe 1 Gilde und/oder vermehre 1 reine Bevölkerung im selben Sektor.\n**Wachsen** — Zahle 3 beliebige Ressourcen. Gründe 1 Gilde und/oder erhalte 4 beliebige Ressourcen.\n**Einstimmen** — Zahle 1 [[icon:wissen]]. Entferne 1 [[icon:verderbnis]] aus einem Sektor und/oder errichte 1 Stützpunkt im selben Sektor.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 38
+    },
+    {
+      "id": "fokus-heroische-eroberung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Heroische Eroberung",
+      "image": "/images/voidfall/fokusse/fokus_heroische_eroberung.webp",
+      "summary": "**Ausmerzen** — Zahle 1 [[icon:nahrung]] und 2 [[icon:energie]]. Dringe in 1 Sektor ein. Gelingt dir die Invasion, entferne (falls möglich) 1 [[icon:verderbnis]] aus dem Kampfsektor.\n**Planen** — Zahle 1 [[icon:energie]] und 1 [[icon:credits]]. Sammle deine Flotten und/oder erhalte 1 Agenda.\n**Vorbereiten** — Rufe 1 Flotte zurück. Aktiviere max. 2 Flotten und/oder werte 1 Ruhmplättchen auf.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 39
+    },
+    {
+      "id": "fokus-heroischer-fortschritt",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Heroischer Fortschritt",
+      "image": "/images/voidfall/fokusse/fokus_heroischer_fortschritt.webp",
+      "summary": "**Testen** — kostenlos Gründe 1 Forschungsgilde und/oder produziere [[icon:wissen]].\n**Erfinden** — Zahle 1 [[icon:nahrung]] und deaktiviere 1 Flotte. Erhalte 1 Basis- oder Fortschrittliche Technologie und/oder entferne 1 [[icon:verderbnis]].\n**Erholen** — Wirf 1 Ruhmplättchen ab. Setze 1 Flotte ein und/oder sammle deine Flotten und/oder wirf 1 Ökonomische oder Allgemeine Krise ab.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 40
+    },
+    {
+      "id": "fokus-heroische-fuehrung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Heroische Führung",
+      "image": "/images/voidfall/fokusse/fokus_heroische_fuehrung.webp",
+      "summary": "⚠ Diese Karte gilt als beliebiger Fokustyp für das Ausspielen von Agenden und das Bestehen von Krisen. Sie ist nie bevorzugter Fokus.\n\n**Aufsteigen** — Zahle 4 beliebige Ressourcen. Errichte oder erweitere 1 Zuflucht (lege dazu 1 inaktive Flotte darauf) oder erhalte dem Wert deiner Ruhmplättchen entsprechend viele Einflusspunkte.\n**Beanspruchen** — Wirf 1 Ruhmplättchen ab. Entferne 1 [[icon:verderbnis]] und/oder nutze 1 Aktion von einem deiner bevorzugten Fokusse von der Hand oder dem Abwurfstapel (zahle dazu ihre Kosten).\n**Vertreiben** — Zahle 1 Ressource. Entferne 1 Vorboten oder wirf 1 Krise ab.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 41
+    },
+    {
+      "id": "fokus-heroische-innovation",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Heroische Innovation",
+      "image": "/images/voidfall/fokusse/fokus_heroische_innovation.webp",
+      "summary": "⚠ Im 1. Zyklus wird dieser Fokus abgeworfen.\n\n**Beweisen** — Zahle 4 beliebige Ressourcen. Erhalte 1 Basistechnologie und/oder produziere [[icon:wissen]] und [[icon:credits]].\n**Testen** — kostenlos Erhalte 1 Fortschrittliche Technologie und/oder entferne 1 Flotte der Leere aus einem benachbarten Sektor. War dies die letzte Flotte der Leere dort, ist der Sektor verlassen (siehe Anleitung S. 24).\n**Festlegen** — Zahle 2 beliebige Ressourcen. Erhalte 1 Agenda und/oder wirf 1 Krise ab.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 42
+    },
+    {
+      "id": "fokus-heroische-politik",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Heroische Politik",
+      "image": "/images/voidfall/fokusse/fokus_heroische_politik.webp",
+      "summary": "**Inspirieren** — Zahle 2 [[icon:credits]] und 1 [[icon:wissen]]. Schreite auf der Staatsführungsleiste voran und/oder erhalte 1 Handelsplättchen.\n**Herrschen** — Zahle 2 [[icon:energie]] und 1 [[icon:wissen]]. Entferne 1 Flotte der Leere aus einem benachbarten Sektor und/oder dringe in 1 Sektor ein. Entfernst du die letzte Flotte der Leere dort, ist der Sektor verlassen (siehe Anleitung S. 24).\n**Stürzen** — Zerstöre 1 Stützpunkt (nicht in Heimatsektoren). Entferne 1 [[icon:verderbnis]] aus einem Sektor und/oder 1 Vorboten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 43
+    },
+    {
+      "id": "fokus-heroische-produktion",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Heroische Produktion",
+      "image": "/images/voidfall/fokusse/fokus_heroische_produktion.webp",
+      "summary": "**Gedeihen** — Lege 1 Handelsplättchen zurück. Erhalte 3 Einflusspunkte pro eigener reiner Gilde und/oder entferne 1 Vorboten.\n**Bevorraten** — kostenlos Produziere [[icon:nahrung]], [[icon:energie]] und [[icon:material]] oder vermehre 2-mal 1 reine Bevölkerung (im selben oder unterschiedlichen Sektoren).\n**Fördern** — Rufe 1 Flotte zurück. Entferne 1 [[icon:verderbnis]] und/oder schreite auf der Gesellschaftsleiste voran.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 44
+    },
+    {
+      "id": "fokus-heroische-verstaerkung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Heroische Verstärkung",
+      "image": "/images/voidfall/fokusse/fokus_heroische_verstaerkung.webp",
+      "summary": "**Vorantreiben** — Zahle 4 beliebige Ressourcen. Sammle deine Flotten und/oder erhalte 4 beliebige Ressourcen und/oder schreite auf 1 deiner niedrigsten Zivilisationsleisteen voran.\n**Einberufen** — Zahle 4 [[icon:material]]. Aktiviere 1 Flotte und/oder setze in jedem deiner Sektoren pro darin befindlicher Werft 1 Flotte ein.\n**Standhalten** — Erhalte 1 [[icon:verderbnis]]. Errichte max. 2 Stützpunkte (im selben oder unterschiedlichen Sektoren) oder wirf 1 Militärische oder Allgemeine Krise ab.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 45
+    },
+    {
+      "id": "fokus-heroische-versuchung",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Heroische Versuchung",
+      "image": "/images/voidfall/fokusse/fokus_heroische_versuchung.webp",
+      "summary": "**Verwerten** — Zahle 4 beliebige Ressourcen. Nutze 1 Aktion von einem deiner bevorzugten Fokusse von der Hand oder dem Abwurfstapel (zahle dazu ihre Kosten) und/oder erhalte 4 beliebige Ressourcen.\n**Verpflichten** — Erhalte 1 [[icon:verderbnis]] auf der Zivilisationsleiste. Schreite (ohne Belohnung) auf der Zivilisationsleiste voran, auf die du die [[icon:verderbnis]] gelegt hast, und/oder schreite auf 1 Zivilisationsleiste voran.\n**Auslaugen** — Wirf 1 (nicht Start-)Agenda vom Haustableau ab. Aktiviere 1 Flotte und/oder setze 1 Flotte in deinem Heimatsektor ein und/oder produziere 2 verschiedene Ressourcentypen.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 46
+    },
+    {
+      "id": "fokus-heroischer-wohlstand",
+      "type": "reference",
+      "category": "fokusse",
+      "name": "Heroischer Wohlstand",
+      "image": "/images/voidfall/fokusse/fokus_heroischer_wohlstand.webp",
+      "summary": "**Vermehren** — Zahle 2 beliebige Ressourcen. Schreite auf der Wirtschaftsleiste voran und/oder erhalte 4 beliebige Ressourcen.\n**Auflehnen** — Zerstöre 1 Gilde (nicht in Heimatsektoren). Erhalte 1 Handelsplättchen und/oder entferne 1 Vorboten.\n**Einteilen** — kostenlos Erhalte 1 Agenda oder errichte 1 Stützpunkt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "fokusse"
+      ],
+      "warnings": [],
+      "sort_order": 47
+    }
+  ]
+}

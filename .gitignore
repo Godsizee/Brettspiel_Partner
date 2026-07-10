@@ -1,0 +1,91 @@
+# Dependencies
+node_modules/
+
+# Build-Output (Vite/SvelteKit)
+/public/
+/dist/
+.svelte-kit/
+
+# Test-Output
+playwright-report/
+test-results/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Game Cover- & Sheet-Bilder im Root-Verzeichnis ignorieren (sind in static/ und PocketBase Cloud)
+/*_cover.webp
+/*_cover.jpg
+/*_cover.png
+/*_sheet.webp
+/*_sheet.jpg
+/*_sheet.png
+
+# IDE / Tools
+.agent/
+.opencode
+.vscode/
+.idea/
+zusammenfassung.ps1
+code_parts/
+
+# Logs
+*.log
+*.bak
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Nicht für Coolify Build benötigt
+/brain/
+/email_templates/
+/migrations/
+/scripts/
+/tests/
+/icons/
+/build.ps1
+/build.sh
+/docker-compose.yml
+/collections.json
+/gdpr-data-export-*.json
+/85_wiki_items_records.json
+/seed_pocketbase.js
+/sync_games_pb.js
+/insert_*.js
+/vitest.config.js
+
+# Model / AI context & custom plans
+.agents/
+.rtk/
+.claude/
+.mcp.json
+CLAUDE.md
+GEMINI.md
+IMPLEMENTATION_PLAN.md
+Vorschlaege.md
+Wiki_Refaktorierung.md
+
+# Build logs and cache
+*.log
+tsc_output.txt
+__pycache__/
+
+# Python extraction/data scripts
+crop_*.py
+extract_*.py
+process_*.py
+generate_*.py
+generate_fokusse_master.py
+
+# Raw images / test cards
+astoran_test.png
+astoran_test2.png
+page_6_ziv_preview.png
+page_9_startagenden_preview.png
+page_10_startagenden_preview.png
+kradmor_*.png
+valnis_*.png

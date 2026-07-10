@@ -1,0 +1,499 @@
+{
+  "entries": [
+    {
+      "id": "ereignis_z1_a",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "1. Zyklus · A – Beginn der Technologie",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z1_a.webp",
+      "summary": "**4 Runden**\n\n**Alle:** Platziert 1 **Verteidigungsanlage** und 1 **Forschungsgilde** in 1 benachbarten leereberührten Sektor.\n\n**UND**\n\n**Alle:** Wählt optional 1 der folgenden Optionen:\n\n- Zahlt 1 **Forschung** für 1 **Basistechnologie**\n- Erhaltet 3 **Credits**.\n\n**Bestimmungen**\n\nHast du mind. 2 **Forschungsgilden** in eigenen reinen Sektoren: Aktiviere 1 **Flotte** und/oder erhalte 2 **Beuten**.\n\n**ODER**\n\nHast du insgesamt mind. 3 **Technologien** erforscht: Produziere 1 Ressourcentyp und/oder erhalte 1 **Credit**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 100
+    },
+    {
+      "id": "ereignis_z1_b",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "1. Zyklus · B – Drohendes Schicksal",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z1_b.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Platziert 1 **Hinterlassenschaft** und 1 **Verteidigungsanlage** in 1 benachbarten leereberührten Sektor.\n\n**UND**\n\nLege 1 **Verderbnis** auf die Agendaauslage **Dominanz**.\n\n**UND**\n\n**Optional für alle:** Aktiviert 1 **Flotte** oder setzt 1 **Flotte** in eurem Heimatsektor ein.\n\n**Bestimmungen**\n\nHast du mind. 1 reine (nicht Start-)**Agenda**: Errichte 1 **Stützpunkt**.\n\n**ODER**\n\nHast du insgesamt mind. 5 **Gilden** in eigenen reinen Sektoren: Erhalte 1 **Agenda**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 110
+    },
+    {
+      "id": "ereignis_z1_c",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "1. Zyklus · C – Trümmer des Domineums",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z1_c.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Platziert 1 **Beute** im benachbarten leereberührten Sektor mit der kleinsten **Bevölkerung**. Platziert 1 **Hinterlassenschaft** und 1 **Verteidigungsanlage** im benachbarten leereberührten Sektor mit der größten **Bevölkerung**. Habt ihr nur 1 benachbarten leereberührten Sektor, müsst ihr alle Plättchen darin platzieren.\n\n**UND**\n\n**Optional für alle:** Gründet 1 **Gilde** oder errichtet 1 **Stützpunkt**.\n\n**Bestimmungen**\n\nHast du insgesamt mind. 5 **Flotten** in deinen Sektoren: Entferne 1 **Verderbnis** und versetze 1 **Verderbnis**.\n\n**ODER**\n\nIst mind. 1 deiner **Zivilisationsleisten** rein und auf mind. Stufe I: Erhalte 2 **Credits** oder 1 **Handelsplättchen**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 120
+    },
+    {
+      "id": "ereignis_z1_d",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "1. Zyklus · D – Wir sind der Widerstand",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z1_d.webp",
+      "summary": "**4 Runden**\n\n**Alle:** Platziert 1 **Flotte** der Leere und 1 **Ruhmplättchen** mit Wert „1“ in 1 benachbarten leereberührten Sektor.\n\n**UND**\n\n**Optional für alle:** Aktiviert 1 **Flotte** oder vermehrt 1 reine **Bevölkerung** oder gründet 1 **Kreditgilde**.\n\n**Bestimmungen**\n\nHast du eine reine **Gesamtbevölkerung** von mind. 10: Gründe 1 **Gilde** und/oder errichte 1 **Stützpunkt**.\n\n**ODER**\n\nHast du mind. 3 **Kreditgilden** in eigenen reinen Sektoren: Schreite auf 1 **Zivilisationsleiste** voran.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 130
+    },
+    {
+      "id": "ereignis_z1_e",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "1. Zyklus · E – Wiedergeborene Zivilisation",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z1_e.webp",
+      "summary": "**4 Runden**\n\n**Alle:** Platziert 1 **Kreditgilde** und 1 **Flotte** der Leere in 1 benachbarten leereberührten Sektor.\n\n**UND**\n\n**Optional für alle:** Schreitet auf 1 eurer **Zivilisationsleisten** voran.\n\n**Bestimmungen**\n\nHast du mind. 3 eigene reine Sektoren mit **Kreditgilde**(n): Erforsche 1 Basis- oder **Fortschrittliche Technologie**.\n\n**ODER**\n\nHast du insgesamt max. 2 freie **Gildenfelder**: Produziere max. 2 Ressourcentypen. Kolonieschiffe erschaffen keine **Gildenfelder** in deinen Sektoren.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 140
+    },
+    {
+      "id": "ereignis_z1_f",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "1. Zyklus · F – Zeit der Abrechnung",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z1_f.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Platziert 1 **Gilde** und 1 **Flotte** der Leere im benachbarten leereberührten Sektor mit der kleinsten **Bevölkerung**. ODER: Platziert 1 **Ruhmplättchen** mit Wert „2“ und 1 **Verteidigungsanlage** im benachbarten leereberührten Sektor mit der größten **Bevölkerung**.\n\n**UND**\n\n**Optional für alle:** Setzt 1 **Flotte** im Heimatsektor ein oder wertet 1 **Ruhmplättchen** auf.\n\n**Bestimmungen**\n\nHast du **Wartungskosten** von mind. 3 durch Sektoren: Vermehre 1 reine **Bevölkerung**.\n\n**ODER**\n\nHast du mind. 3 **Ruhmplättchen**: Erhalte 2 **Beuten**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 150
+    },
+    {
+      "id": "ereignis_z1_g",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "1. Zyklus · G – Im Angesicht des Bösen",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z1_g.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Erhaltet 1 **Verderbnis** für eine eurer **Agenden** oder **Zivilisationsleisten**. Wählt ihr eine **Zivilisationsleiste**, müsst ihr danach auf dieser voranschreiten (und die Belohnung ignorieren).\n\n**UND**\n\n**Während 1. Zyklus:** Entfernt ihr eine **Verderbnis**: Sammelt sie jeweils neben eurem Haustableau und legt sie nicht in den allgemeinen Vorrat zurück.\n\n**Bestimmungen**\n\nErhalte 2 **Nahrung** und/oder 1 Einflusspunkt pro gesammelter **Verderbnis**. Lege danach alle angesammelte **Verderbnis** in den allgemeinen Vorrat zurück.\n\n**ODER**\n\nVermehre die **Bevölkerung** von max. 3 eigenen reinen Sektoren mit **Forschungsgilde**(n).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 160
+    },
+    {
+      "id": "ereignis_z1_h",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "1. Zyklus · H – Direkt in die Hölle",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z1_h.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Wählt 1 der folgenden Optionen:\n\n- Erhaltet 1 **Verderbnis** und 1 **Ruhmplättchen** mit Wert „1“\n- Ruft 1 **Flotte** zurück.\n\n**UND**\n\n**Während 1. Zyklus:** Setzt ihr mind. 1 **Flotte** ein: Erhaltet 1 **Verderbnis** (1-mal pro Fokus) oder zahlt 1 **Material** pro eingesetzter **Flotte** (zusätzlich zu Materialkosten von Schlächtern).\n\n**Bestimmungen**\n\nHast du keine **Verderbnis** auf deinem Haustableau: Erhalte 1 **Ruhmplättchen** mit Wert „2“ oder werte 1 **Ruhmplättchen** auf.\n\n**ODER**\n\nHast du mind. 2 reine Sektoren mit jeweils mind. 2 **Flotten**: Erforsche 1 Basis- oder **Fortschrittliche Technologie**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 170
+    },
+    {
+      "id": "ereignis_z1_i",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "1. Zyklus · I – Glorreicher Aufstieg",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z1_i.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Platziert 1 **Hinterlassenschaft** und 1 **Verteidigungsanlage** in 1 benachbarten leereberührten Sektor.\n\n**UND**\n\n**Alle:** Wählt je 1 der folgenden Optionen:\n\n- Wertet 1 **Ruhmplättchen** auf\n- Aktiviert 1 **Flotte** oder schreitet auf 1 eurer **Zivilisationsleiste** voran.\n\n**Bestimmungen**\n\nIst mind. 1 deiner reinen **Zivilisationsleisten** auf mind. Stufe I: Aktiviere 1 **Flotte** pro eigener reiner **Zivilisationsleiste**.\n\n**ODER**\n\nHast du mind. 1 **Ruhmplättchen** mit einem Wert von mind. 4: Entferne 1 **Verderbnis** aus einem deiner Sektoren.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 180
+    },
+    {
+      "id": "ereignis_z1_j",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "1. Zyklus · J – Den Feind kennen (Koop/Solo)",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z1_j.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Platziert 1 **Flotte** der Leere in 1 benachbarten leereberührten Sektor.\n\n**UND**\n\n**Optional:** Erhaltet als Gruppe insgesamt 2 **Verderbnismarker** (und verteilt sie nach Belieben), um 1 **Vorboten** aus einem Sektor zu entfernen.\n\n**Bestimmungen**\n\nHast du mind. 4 Sektoren: Erhalte 1 **Ruhmplättchen** mit Wert „3“.\n\n**ODER**\n\nHast du mind. 10 Ressourcen desselben Typs in deinem Vorrat: Schreite auf 1 deiner **Zivilisationsleisten** voran.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 190
+    },
+    {
+      "id": "ereignis_z1_t",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "1. Zyklus · T – Aus der Asche (Tutorial)",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z1_t.webp",
+      "summary": "**3 Runden**\n\n**Alle:** Werft eure **Eroberungs**-, **Politik**-, **Fortschritts**-, **Wohlstands**- und **Versuchungsfokusse** ab. Euren Innovationsfokus solltet ihr bereits abgeworfen haben. Ihr nutzt diese Karten in diesem Zyklus nicht.\n\n**UND**\n\n**Alle:** Versetzt die **Verderbnis** von eurem Haustableau in euren Außenposten (neben eurem Heimatsektor).\n\n**Bestimmungen**\n\nHast du insgesamt mind. 5 **Flotten** in deinen Sektoren: Vermehre 1 reine **Bevölkerung** und/oder erhalte 1 **Credit** und 1 **Wissen**.\n\n**ODER**\n\nHast du mind. 5 **Gilden** in eigenen reinen Sektoren: Setze 1 **Flotte** ein und/oder erhalte 2 **Nahrung**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 200
+    },
+    {
+      "id": "ereignis_z2_a",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "2. Zyklus · A – Finstere Zeiten",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z2_a.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Platziert 1 **Hinterlassenschaft** und 1 **Flotte** der Leere in 1 benachbarten leereberührten Sektor.\n\n**UND**\n\nLege 1 **Verderbnis** auf die Agendaauslage **Macht**.\n\n**UND**\n\n**Optional für alle:** Tauscht jeweils max. 6 **Wissen** gegen entsprechend viele **Credits**.\n\n**Bestimmungen**\n\nBetragen deine **Wartungskosten** mind. 8 und bezahlst du sie (egal wie) vollständig: Erhalte 1 **Agenda**.\n\n**ODER**\n\nHast du mind. 8 **Stützpunkte** in eigenen reinen Sektoren: Erhalte 8 Einflusspunkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 210
+    },
+    {
+      "id": "ereignis_z2_b",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "2. Zyklus · B – Zahlenmäßig überlegen",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z2_b.webp",
+      "summary": "**4 Runden**\n\n**Alle:** Platziert 1 **Flotte** der Leere und 1 **Kreditgilde** in 1 benachbarten leereberührten Sektor.\n\n**UND**\n\nLege 1 **Verderbnis** auf die Agendaauslage **Unterstützung**.\n\n**UND**\n\n**Optional für alle:** Aktiviert 2 **Flotten** oder setzt 2 **Flotten** ein.\n\n**Bestimmungen**\n\nHast du mind. 5 **Verteidigungsanlagen**/**Sternenbasen** in eigenen reinen Sektoren: Erhalte 1 **Handelsplättchen**.\n\n**ODER**\n\nBetragen deine **Wartungskosten** max. 4: Erhalte 4 Einflusspunkte und/oder entferne 1 **Verderbnis**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 220
+    },
+    {
+      "id": "ereignis_z2_c",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "2. Zyklus · C – Vollständige Bewaffnung",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z2_c.webp",
+      "summary": "**5 Runden**\n\nLege je 1 **Beute** und 1 **Ruhmplättchen** mit Wert „1“ in alle leereberührten Sektoren mit mind. 1 **Verteidigungsanlage**.\n\n**UND**\n\nLege 1 **Verderbnis** auf die Agendaauslage **Reichtum**.\n\n**UND**\n\n**Optional für alle:** Senkt 1 reine **Bevölkerung** eurer (nicht Heimat-)Sektoren, um 1 **Stützpunkt** zu errichten und 2 **Flotten** im selben Sektor einzusetzen.\n\n**Bestimmungen**\n\nHast du mind. 3 Sektoren mit je mind. 2 Nahrungs-, Konstruktions- und/oder Bergbaugilden, wähle 2-mal: Entferne 1 **Verderbnis** oder aktiviere 1 **Flotte**.\n\n**ODER**\n\nErhalte 2 Einflusspunkte pro **Stützpunkt** in eigenen reinen Sektoren.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 230
+    },
+    {
+      "id": "ereignis_z2_d",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "2. Zyklus · D – Aufstieg der Menschheit",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z2_d.webp",
+      "summary": "**5 Runden**\n\nPlatziere je 1 **Hinterlassenschaft**, 1 **Beute** und 2 **Flotten** der Leere in alle leereberührten Sektoren mit einem **Bevölkerungswert** von mind. 4.\n\n**UND**\n\n**Alle:** Erhaltet 1 **Verderbnis**. Legt diese falls möglich auf 1 eurer **Zivilisationsleisten**.\n\n**UND**\n\n**Optional für alle:** Erhaltet 3 **Wissen** oder schreitet auf 1 eurer **Zivilisationsleisten** voran.\n\n**Bestimmungen**\n\nIst dein **Produktionsertrag** von **Credits** mind. 3: Produziere **Nahrung**, **Energie** und **Material**.\n\n**ODER**\n\nHast du mind. 5 **Technologien** erforscht: Erhalte 10 Einflusspunkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 240
+    },
+    {
+      "id": "ereignis_z2_e",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "2. Zyklus · E – Gildenversammlung",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z2_e.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Erhaltet 1 **Verderbnis**. Legt diese falls möglich in 1 eurer Sektoren.\n\n**UND**\n\n**Alle:** Platziert 1 **Hinterlassenschaft** und 1 **Verteidigungsanlage** in 1 benachbarten leereberührten Sektor.\n\n**UND**\n\n**Alle:** Ihr dürft 1 **Handelsplättchen** erhalten, falls ihr mind. 6 **Gilden** in eigenen reinen Sektoren habt. Ansonsten dürft ihr 1 **Beute** erhalten.\n\n**Bestimmungen**\n\nIst keiner deiner bevorzugten Fokusse in deinem Abwurfstapel: Schreite auf 1 deiner **Zivilisationsleisten** voran.\n\n**ODER**\n\nHast du max. 1 **Verderbnis**: Erhalte 8 Einflusspunkte. Zähle **Verderbnis** auf **Dekontaminationskammern** nicht dazu.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 250
+    },
+    {
+      "id": "ereignis_z2_f",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "2. Zyklus · F – Verbrannte Erde",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z2_f.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Platziert 1 **Flotte** der Leere in 1 benachbarten leereberührten Sektor.\n\n**UND**\n\n**Alle 2-mal:** Zerstört 1 **Gilde** (nicht in einem Heimatsektor) oder 1 **Stützpunkt** (nicht in einem Heimatsektor).\n\n**UND**\n\n**Während 2. Zyklus:** Überspringt die Gefechte (kompetitiv) oder das Krisentableau (kooperativ/solo).\n\n**Bestimmungen**\n\nHast du mind. 2 reine Sektoren mit einem **Bevölkerungswert** von mind. 5: Schreite auf 1 deiner **Zivilisationsleisten** voran.\n\n**ODER**\n\nErhalte 5 Einflusspunkte pro Ressourcentyp, von dem du mind. 8 Einheiten im Vorrat hast.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 260
+    },
+    {
+      "id": "ereignis_z2_g",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "2. Zyklus · G – Störung im Innern",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z2_g.webp",
+      "summary": "**4 Runden**\n\n**Alle:** Vermehrt 1 **Bevölkerung** eines reinen (nicht Heimat-)Sektors.\n\nLegt danach 1 **Verderbnis** in diesen Sektor. Konntet ihr keine **Bevölkerung** vermehren, entfällt auch die **Verderbnis**.\n\n**UND**\n\n**Während 2. Zyklus:** Habt ihr max. 40 Einflusspunkte, kann niemand in eure Sektoren eindringen (auch nicht die Leere). Werft Gefechte in kooperativen/Solopartien ab, falls ihr sie als aktuelle Krise zieht und ignoriert all ihre Effekte.\n\n**Bestimmungen**\n\nHast du exakt 4 **Ruhmplättchen**: Erhalte 1 **Beute** und/oder 1 **Basistechnologie**.\n\n**ODER**\n\nHast du eine reine **Gesamtbevölkerung** von mind. 16: Erhalte 12 Einflusspunkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 270
+    },
+    {
+      "id": "ereignis_z2_h",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "2. Zyklus · H – Finsternis annehmen",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z2_h.webp",
+      "summary": "**5 Runden**\n\n**Optional für alle:** Produziert 2 verschiedene Ressourcentypen.\n\n**UND**\n\n**Während 2. Zyklus:** Pro erforschter **Fortschrittlicher Technologie** erhält die Leere in allen Gefechten gegen euch je 1 **Salvenabsorption**.\n\n**Bestimmungen**\n\nBeträgt der Wert deiner **Ruhmplättchen** mind. 8: Entferne 1 **Verderbnis** oder erhalte 1 **Agenda**.\n\n**ODER**\n\nErhalte 3 Einflusspunkte pro **Flotte** in deiner Einsatzzone.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 280
+    },
+    {
+      "id": "ereignis_z2_i",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "2. Zyklus · I – Über alles triumphieren",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z2_i.webp",
+      "summary": "**4 Runden**\n\n**Alle:** Wählt je 1 der folgenden Optionen:\n\n- Erhaltet 1 **Basistechnologie**\n- Aktiviert 1 **Flotte** und erhaltet 1 **Handelsplättchen**.\n\n**UND**\n\n**Während 2. Zyklus:** Wertet **Ruhmplättchen** auf, sobald ihr sie erhaltet. Dies gilt nicht als Erhalt eines weiteren Ruhmplättchens.\n\n**Bestimmungen**\n\nProduziere je 1 anderen Ressourcentyp pro **Ruhmplättchen** mit Wert „5“.\n\n**ODER**\n\nBetragen deine **Wartungskosten** mind. 10 und bezahlst du sie (egal wie) vollständig: Erhalte 10 Einflusspunkte oder schreite auf der **Staatsführungsleiste** voran.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 290
+    },
+    {
+      "id": "ereignis_z2_j",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "2. Zyklus · J – Wachsende Bedrohung (Koop/Solo)",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z2_j.webp",
+      "summary": "**6 Runden**\n\nPlatziert 1 **Vorboten** auf jedem **Riss**.\n\n**UND**\n\nLegt 1 **Hinterlassenschaft** in jeden zu einem **Riss** benachbarten leereberührten Sektor.\n\n**UND**\n\n1 Haus darf mit 1 anderen Haus 4 Ressourcen handeln.\n\n**UND**\n\n**Während 2. Zyklus:** Legt vor dem 1. Schritt der Auswertungsphase je 1 **Flotte** der Leere in jeden leereberührten Sektor mit **Vorboten**.\n\n**Bestimmungen**\n\nErhalte 1 **Beute** pro eigener **Hinterlassenschaft**.\n\n**UND**\n\nSind keine **Katastrophen** auf dem Krisentableau: Entferne 1 **Verderbnis**. Handelt diese Bestimmung jeweils ab.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 300
+    },
+    {
+      "id": "ereignis_z2_t",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "2. Zyklus · T – Durch Erleuchtung (Tutorial)",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z2_t.webp",
+      "summary": "**4 Runden**\n\n**Alle:** Werft eure **Produktions**-, **Fortschritts**-, **Verstärkungs**- und **Versuchungsfokusse** ab.\n\n**UND**\n\n**Optional für alle:** Aktiviert 1 **Flotte** und/oder erhaltet 1 **Basistechnologie**.\n\n**Bestimmungen**\n\nHast du eine **Gesamtbevölkerung** von mind. 9: Aktiviere 1 **Flotte** und/oder erhalte 1 **Basistechnologie**.\n\n**ODER**\n\nHast du mind. 3 **Technologien** erforscht: Aktiviere 1 **Flotte** und/oder vermehre 1 reine **Bevölkerung**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 310
+    },
+    {
+      "id": "ereignis_z3_a",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "3. Zyklus · A – Rache der Novarchen",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z3_a.webp",
+      "summary": "**6 Runden**\n\nPlatziere 1 **Verteidigungsanlage** in jedem leereberührten Sektor mit max. 2 **Flotten** der Leere.\n\n**UND**\n\n**Alle:** Zerstört 1 eurer **Gilden** in (nicht Heimat-)Sektoren.\n\n**UND**\n\n**Optional für alle:** Versetzt beliebig viel **Verderbnis**.\n\n**Bestimmungen**\n\nErhalte 3/6/9/12 Einflusspunkte pro eigener reiner **Zivilisationsleiste** auf Stufe I/II/III/IV.\n\n**ODER**\n\nErhalte 1 Einflusspunkte pro **Flotte** in deiner Einsatzzone. Erhalte 2 Einflusspunkte pro **Flotte** in eigenen reinen Sektoren.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 320
+    },
+    {
+      "id": "ereignis_z3_b",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "3. Zyklus · B – Totaler Krieg",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z3_b.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Platziert 1 **Flotte** der Leere, 1 **Ruhmplättchen** mit Wert „3“ und 1 **Verteidigungsanlage** in 1 benachbarten leereberührten Sektor.\n\n**UND**\n\n**Optional für alle:** Wertet 1 eurer reinen (nicht Start-)**Agenden** und/oder setzt 1 **Flotte** in einem Sektor mit Werft ein.\n\n**Bestimmungen**\n\nErhalte dem Wert deiner **Ruhmplättchen** entsprechend viele Einflusspunkte.\n\n**ODER**\n\nErhalte 5 Einflusspunkte pro eigenem reinen Sektor mit mind. 3 **Flotten**. Erhalte 3 Einflusspunkte pro eigenem (reinen oder verderbten) Sektor mit **Wartungskosten** von mind. 2.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 330
+    },
+    {
+      "id": "ereignis_z3_c",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "3. Zyklus · C – Wissen ist Macht",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z3_c.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Platziert 1 **Beute** und 1 **Verteidigungsanlage** im benachbarten leereberührten Sektor mit der größten **Bevölkerung**.\n\nAlle mit mind. 1 Fortschrittlichen **Technologie**: Erhaltet 1 **Verderbnis**. Legt diese falls möglich auf 1 eurer **Zivilisationsleisten**.\n\n**UND**\n\n**Optional für alle:** Erhaltet 3 **Wissen**, falls ihr 1 **Handelsplättchen** habt. Zahlt ansonsten 1 **Wissen**, um 1 **Handelsplättchen** zu erhalten.\n\n**Bestimmungen**\n\nErhalte 1 Einflusspunkt pro 2 beliebigen Ressourcen in deinem Vorrat.\n\n**ODER**\n\nErhalte 2 Einflusspunkte pro **Stützpunkt** in eigenen reinen Sektoren.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 340
+    },
+    {
+      "id": "ereignis_z3_d",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "3. Zyklus · D – Letzter Widerstand",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z3_d.webp",
+      "summary": "**6 Runden**\n\n**Alle:** Erhaltet 2 **Verderbnismarker**. Legt diese falls möglich auf eure **Agenden**.\n\n**UND**\n\n**Alle:** Platziert 1 **Ruhmplättchen** mit Wert „3“ in leereberührten Sektoren oder Sektoren Gefallener Häuser.\n\n**UND**\n\n**Optional für alle:** Setzt 1 **Flotte** ein und/oder gründet 1 **Gilde**.\n\n**Bestimmungen**\n\nWerte 1 deiner reinen (nicht Start-)**Agenden**.\n\n**ODER**\n\nErhalte 3 Einflusspunkte pro **Verderbnis** auf deinem Haustableau. Zähle **Verderbnis** auf **Dekontaminationskammern** nicht dazu.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 350
+    },
+    {
+      "id": "ereignis_z3_e",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "3. Zyklus · E – Leuchtfeuer der Hoffnung",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z3_e.webp",
+      "summary": "**6 Runden**\n\n**Alle:** Platziert 1 **Kreditgilde**, 1 **Flotte** der Leere und 1 **Verteidigungsanlage** in 1 benachbarten leereberührten Sektor.\n\n**Alle:** Erhaltet 1 **Verderbnis**. Legt diese falls möglich auf euer Haustableau.\n\n**UND**\n\n**Optional für alle:** Ruft 1 **Flotte** zurück, um 1 **Verderbnis** aus demselben oder einem dazu benachbarten Sektor zu entfernen und erhaltet dafür 6 Einflusspunkte.\n\n**Bestimmungen**\n\nErhalte 5 Einflusspunkte pro eigenem reinen Sektor mit **Kreditgilde**(n).\n\n**ODER**\n\nErhalte deiner reinen **Gesamtbevölkerung** entsprechend viele Einflusspunkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 360
+    },
+    {
+      "id": "ereignis_z3_f",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "3. Zyklus · F – Schatten der Leere",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z3_f.webp",
+      "summary": "**6 Runden**\n\nPlatziert je 1 **Verderbnis** auf allen reinen Agendentypen der Agendaauslage.\n\n**UND**\n\nPlatziert je 1 **Flotte** der Leere in allen leereberührten Sektoren mit einem **Bevölkerungswert** von mind. 4.\n\n**UND**\n\n**Optional für alle:** Entfernt 1 **Verderbnis** oder erhaltet 1 **Verderbnis** für eure **Agenden**, um auf 1 eurer **Zivilisationsleisten** voranzuschreiten. Diese **Verderbnis** könnt ihr nicht auf **Dekontaminationskammern** legen.\n\n**Bestimmungen**\n\nErhalte deinem höchsten **Produktionsertrag** entsprechend viele Einflusspunkte und erhalte deinem niedrigsten **Produktionsertrag** von **Nahrung**, **Energie** oder **Material** entsprechend viele Einflusspunkte.\n\n**ODER**\n\nErhalte 20 Einflusspunkte, falls du keine **Verderbnis** auf deinem Haustableau und mind. 5 **Technologien** erforscht hast. Zähle **Verderbnis** auf **Dekontaminationskammern** nicht dazu.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 370
+    },
+    {
+      "id": "ereignis_z3_g",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "3. Zyklus · G – Böe der Vernichtung",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z3_g.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Erhaltet 1 **Verderbnis**. Legt diese falls möglich auf euer Haustableau.\n\n**UND**\n\n**VerzÖgert:** Führt am Ende eurer jeweiligen Züge ein Gefecht mit 1 zusätzlichen **Flotte** der Leere durch. In kooperativen/Solopartien finden diese Gefechte **nach** dem Anwachsen der Leere statt.\n\n**UND**\n\n**Alle:** Wählt optional eine der folgenden Optionen:\n\n- Schreitet auf 1 eurer **Zivilisationsleisten** voran und Vermehrt 1 reine **Bevölkerung**\n- Setzt max. 3 **Flotten** ein.\n\n**Bestimmungen**\n\nErhalte 1 Einflusspunkt pro eigenem reinen Sektor mit **Bevölkerungswert** 4. Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit **Bevölkerungswert** 5. Erhalte 6 Einflusspunkte pro eigenem reinen Sektor mit **Bevölkerungswert** 6.\n\n**ODER**\n\nErhalte 5 Einflusspunkte pro eigenem reinen Sektor. (Ignoriere 4 Sektoren beim Zählen.)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 380
+    },
+    {
+      "id": "ereignis_z3_h",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "3. Zyklus · H – Anpassung und Überwindung",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z3_h.webp",
+      "summary": "**6 Runden**\n\n**Alle:** Erhaltet 1 **Verderbnis**. Legt diese falls möglich auf euer Haustableau.\n\n**UND**\n\n**Alle:** Platziert 1 **Hinterlassenschaft** in 1 benachbarten leereberührten Sektor.\n\n**UND**\n\n**Während 3. Zyklus:** Alle Aktionen eurer bevorzugten Fokusse kosten zusätzlich 1 **Energie**.\n\n**Bestimmungen**\n\nErhalte 2 Einflusspunkte pro eigenem reinen Sektor mit Nahrungs-, Konstruktions- oder Bergbaugilde(n).\n\n**UND**\n\nErhalte 6 Einflusspunkte pro eigener reiner **Zivilisationsleiste** auf mind. Stufe I.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 390
+    },
+    {
+      "id": "ereignis_z3_i",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "3. Zyklus · I – Strahlende Zukunft",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z3_i.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Zahlt 1 **Credit**, um 1 **Ruhmplättchen** aufzuwerten oder werft 1 **Ruhmplättchen** ab, um 3 **Credits** zu erhalten.\n\n**UND**\n\n**Während 3. Zyklus:** Alle Aktionen eurer bevorzugten Fokusse kosten exakt je 1 **Credit**. Ignoriert ihre eigentlichen Kosten und auch, ob sie kostenlos waren.\n\n**Bestimmungen**\n\nErhalte 2-mal dem Wert von 3 verschiedener deiner **Ruhmplättchen** entsprechend viele Einflusspunkte. Hast du weniger als 3 **Ruhmplättchen**, darfst du trotzdem nicht den Wert eines Plättchens mehrfach zählen.\n\n**ODER**\n\nErhalte 1 Einflusspunkt pro **Credit** in deinem Vorrat. Erhalte 2 Einflusspunkte pro eigener reiner **Kreditgilde**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 400
+    },
+    {
+      "id": "ereignis_z3_j",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "3. Zyklus · J – Letzter Atemzug (Koop/Solo)",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z3_j.webp",
+      "summary": "**6 Runden**\n\n**Alle:** Wählt je 1 der folgenden Optionen:\n\n- Wirf 1 andauernde Krise ab, lege dafür 1 **Katastrophe** auf das Krisentableau und erhalte 1 **Verderbnis**. Erinnerung: Beim Auslegen einer **Katastrophe** dürft ihr alle jeweils sofort 1 **Verderbnis** entfernen oder 5 beliebige Ressourcen erhalten.\n- Platziere 1 **Vorboten** in einem leereberührten Sektor.\n- Erhalte 1 **Verderbnis** für dein Haustableau.\n\n**Bestimmungen**\n\nWerte 1 deiner reinen (nicht Start-)**Agenden**.\n\n**ODER**\n\nErhalte deiner reinen **Gesamtbevölkerung** entsprechend viele Einflusspunkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 410
+    },
+    {
+      "id": "ereignis_z3_t",
+      "type": "reference",
+      "category": "galaktische_ereignisse",
+      "name": "3. Zyklus · T – Erlösung wartet (Tutorial)",
+      "image": "/images/voidfall/galaktische_ereignisse/ereignis_z3_t.webp",
+      "summary": "**5 Runden**\n\n**Alle:** Werft eure **Versuchungsfokusse** ab.\n\n**UND**\n\n**Optional für alle:** Erhaltet 1 **Agenda** oder schreitet auf 1 euer **Zivilisationsleisten** voran.\n\n**Bestimmungen**\n\nHast du mind. 8 **Gilden** in eigenen reinen Sektoren: Erhalte 15 Einflusspunkte.\n\n**ODER**\n\nErhalte 15 Einflusspunkte, falls mind. 1 deiner **Zivilisationsleisten** rein und auf mind. Stufe II ist.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "galaktische_ereignisse"
+      ],
+      "warnings": [],
+      "sort_order": 420
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "entries": [
+    {
+      "id": "rundenwertung-01",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Rundenwertung 1",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/Rundenwertung1.webp",
+      "summary": "Immer wenn du eine Werkstatt baust, erhältst du 2 Punkte. Ende der Spielrunde: Für je 3 Stufen in Wissen über Recht (blau) erhältst du 1 Gelehrten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "rundenwertung-02",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Rundenwertung 2",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/Rundenwertung2.webp",
+      "summary": "Immer wenn du eine Werkstatt baust, erhältst du 2 Punkte. Ende der Spielrunde: Für je 3 Stufen in Wissen über Bankwesen (gelb) erhältst du 4 Macht.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "rundenwertung-03",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Rundenwertung 3",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/Rundenwertung3.webp",
+      "summary": "Immer wenn du eine Gilde baust, erhältst du 3 Punkte. Ende der Spielrunde: Für je 3 Stufen in Wissen über Recht (blau) erhältst du 1 Buch deiner Wahl.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "rundenwertung-04",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Rundenwertung 4",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/Rundenwertung4.webp",
+      "summary": "Immer wenn du eine Gilde baust, erhältst du 3 Punkte. Ende der Spielrunde: Für je 4 Stufen in Wissen über Medizin (weiß) darfst du sofort 1 Spaten einsetzen (erhalten mehrere von euch Spaten, setzt sie in der Spielreihenfolge der nächsten Runde ein. Ihr dürft in dieser Phase keine Werkstatt bauen).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "rundenwertung-05",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Rundenwertung 5",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/Rundenwertung5.webp",
+      "summary": "Immer wenn du eine Schule baust, erhältst du 4 Punkte. Ende der Spielrunde: Für je 1 Stufe in Wissen über Bankwesen (gelb) erhältst du 1 Geld.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "rundenwertung-06",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Rundenwertung 6",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/Rundenwertung6.webp",
+      "summary": "Immer wenn du 1 Palast oder 1 Universität baust, erhältst du 5 Punkte. Ende der Spielrunde: Für je 2 Stufen in Wissen über Medizin (weiß) erhältst du 1 Werkzeug.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "rundenwertung-07",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Rundenwertung 7",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/Rundenwertung7.webp",
+      "summary": "Immer wenn du 1 Palast oder 1 Universität baust, erhältst du 5 Punkte. Ende der Spielrunde: Für je 2 Stufen in Wissen über Bankwesen (gelb) erhältst du 1 Werkzeug.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "rundenwertung-08",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Rundenwertung 8",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/Rundenwertung8.webp",
+      "summary": "Aufbau: Dieses Plättchen darf nicht auf dem Platz für Runde 5 oder 6 liegen. Immer wenn du 1 Spaten nutzt, egal woher du ihn bekommst, erhältst du 2 Punkte. Nutzt du mehrere Spaten in einer Aktion, erhältst du auch mehrfach diese Punkte. Ende der Spielrunde: Für je 1 Stufe in Wissen über Ingenieurskunst (braun) erhältst du 1 Geld.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "rundenwertung-09",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Rundenwertung 9",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/Rundenwertung9.webp",
+      "summary": "Immer wenn du in einer Wissensdisziplin aufsteigst, erhältst du 1 Punkt. Steigst du in einer Aktion mehrere Stufen auf, erhältst du auch mehrfach diese Punkte. Ende der Spielrunde: Für je 3 Stufen in Wissen über Medizin (weiß) erhältst du 1 Buch deiner Wahl.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "rundenwertung-10",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Rundenwertung 10",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/Rundenwertung10.webp",
+      "summary": "Immer wenn du 1 Stadtmarker erhältst, erhältst du 5 Punkte. Ende der Spielrunde: Für je 4 Stufen in Wissen über Ingenieurskunst (braun) darfst du sofort 1 Spaten einsetzen (erhalten mehrere von euch Spaten, setzt sie in der Spielreihenfolge der nächsten Runde ein. Ihr dürft in dieser Phase keine Werkstatt bauen).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "rundenwertung-11",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Rundenwertung 11",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/Rundenwertung11.webp",
+      "summary": "Immer wenn du 1 Fortschritt bei der Schifffahrt oder bei der Umwandlung erhältst, erhältst du 3 Punkte. Ende der Spielrunde: Für je 3 Stufen in Wissen über Ingenieurskunst (braun) erhältst du 1 Gelehrten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "rundenwertung-12",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Rundenwertung 12",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/Rundenwertung12.webp",
+      "summary": "Immer wenn du eine Erfindung machst, erhältst du 5 Punkte. Ende der Spielrunde: Für je 2 Stufen in Wissen über Recht (blau) erhältst du 3 Macht.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "zusatzwertung-01",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Zusatzwertung 1",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/zusatzwertung 1.webp",
+      "summary": "**Aktionsphase:** Der hier abgebildete Bonus gibt dir immer, wenn du in der Aktionsphase eine Werkstatt am Rand des Spielplans baust, 3 Punkte. Randfelder haben mind. 1 gestrichelte Seite.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "zusatzwertung-02",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Zusatzwertung 2",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/zusatzwertung2.webp",
+      "summary": "**Aktionsphase:** Immer wenn du eine Gilde baust, erhältst du 3 Punkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "zusatzwertung-03",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Zusatzwertung 3",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/zusatzwertung3.webp",
+      "summary": "**Aktionsphase:** Immer wenn du eine Werkstatt baust, erhältst du 2 Punkte.1",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "zusatzwertung-04",
+      "type": "card",
+      "category": "Rundenwertung",
+      "name": "Zusatzwertung 4",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Rundenwertung/zusatzwertung4.webp",
+      "summary": "**Aktionsphase:** Immer wenn du eine Schule baust, erhältst du 4 Punkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "rundenwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    }
+  ]
+}

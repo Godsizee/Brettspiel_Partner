@@ -1,0 +1,112 @@
+{
+  "entries": [
+    {
+      "id": "biochemist",
+      "type": "card",
+      "category": "Wissenschaftler",
+      "name": "Der Biochemiker",
+      "image": "/images/on_mars/Wissenschaftler/Der Biochemiker.webp",
+      "summary": "Kosten: 2 Wasser\r\nArbeitsort: Aufgewertetes Gewächshaus (Greenhouse)\r\nErlaubt die kostenlose Nutzung der Sonderaktion des Gewächshauses.",
+      "description": "Spielende: Bringt 3 GP für jeden aufgewerteten Sauerstoffkondensator auf dem Mars.",
+      "timing": [],
+      "tags": [
+        "scientists"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "rd_engineer",
+      "type": "card",
+      "category": "Wissenschaftler",
+      "name": "Der F&E Ingenieur",
+      "image": "/images/on_mars/Wissenschaftler/Der F&E Ingenieur.webp",
+      "summary": "Kosten: 2 Mineralien\r\nArbeitsort: Aufgewerteter Generator (Generator)\r\nErlaubt die kostenlose Nutzung der Sonderaktion des Generators.",
+      "description": "Spielende: Bringt 3 GP für jeden aufgewerteten Wasserextraktor auf dem Mars.",
+      "timing": [],
+      "tags": [
+        "scientists"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "geochemist",
+      "type": "card",
+      "category": "Wissenschaftler",
+      "name": "Der Geochemiker",
+      "image": "/images/on_mars/Wissenschaftler/Der Geochemiker.webp",
+      "summary": "Kosten: 2 Pflanzen\r\nArbeitsort: Aufgewerteter Sauerstoffkondensator (Oxygen Condenser)\r\nErlaubt die kostenlose Nutzung der Sonderaktion des Sauerstoffkondensators.",
+      "description": "Spielende: Bringt 3 GP für jede aufgewertete Unterkunft auf dem Mars.",
+      "timing": [],
+      "tags": [
+        "scientists"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "geologist",
+      "type": "card",
+      "category": "Wissenschaftler",
+      "name": "Der Geologe",
+      "image": "/images/on_mars/Wissenschaftler/Der Geologe.webp",
+      "summary": "Kosten: Stelle 2 Kolonisten aus deinem Wohnbereich in deinen Arbeitsbereich.\r\nArbeitsort: Aufgewertete Mine (Mine)\r\nErlaubt die kostenlose Nutzung der Sonderaktion der Mine.",
+      "description": "Spielende: Bringt 3 GP für jeden aufgewerteten Generator auf dem Mars.",
+      "timing": [],
+      "tags": [
+        "scientists"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "hydrologist",
+      "type": "card",
+      "category": "Wissenschaftler",
+      "name": "Der Hydrologe",
+      "image": "/images/on_mars/Wissenschaftler/Der Hydrologe.webp",
+      "summary": "Kosten: 2 Batterien\r\nArbeitsort: Aufgewerteter Wasserextraktor (Water Extractor)\r\nErlaubt die kostenlose Nutzung der Sonderaktion des Wasserextraktors.",
+      "description": "Spielende: Bringt 3 GP für jedes aufgewertete Gewächshaus auf dem Mars.",
+      "timing": [],
+      "tags": [
+        "scientists"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "systems_engineer",
+      "type": "card",
+      "category": "Wissenschaftler",
+      "name": "Der Systemingenieur",
+      "image": "/images/on_mars/Wissenschaftler/Der Systemingenieur.webp",
+      "summary": "Kosten: 2 Sauerstoff\r\nArbeitsort: Aufgewertete Unterkunft (Shelter)\r\nErlaubt die kostenlose Nutzung der Sonderaktion der Unterkunft.",
+      "description": "Spielende: Bringt 3 GP für jede aufgewertete Mine auf dem Mars.",
+      "timing": [],
+      "tags": [
+        "scientists"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    }
+  ]
+}

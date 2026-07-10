@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "id": "aktionsuebersicht",
+      "type": "card",
+      "category": "Aktionsübersicht",
+      "name": "Aktionsübersicht",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Aktionsübersicht_1.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "uebersicht"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "x-marker",
+      "type": "card",
+      "category": "Aktionsübersicht",
+      "name": "X-Marker",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/X-Marker.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "uebersicht"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    }
+  ]
+}

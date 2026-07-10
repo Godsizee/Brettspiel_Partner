@@ -1,0 +1,436 @@
+{
+  "entries": [
+    {
+      "id": "blueprint_01",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "01. Bauhof (Level 1)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 1/Bauhof.webp",
+      "summary": "Wertet eine Mine auf.\r\nNach Erhalt: Nimm 1 Mineral.\r\nGebäude-Aktion: Werte 1 Gebäude nach den normalen Regeln auf (Tech kann verwendet werden). Für jeden Kolonisten, den du in deinen Arbeitsbereich schickst, führst du 1 zusätzliche Aufwertung durch.",
+      "description": "Passender Wissenschaftler: Geologe.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_02",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "02. Metallvorkommen (Level 1)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 1/Metallvorkommen.webp",
+      "summary": "Wertet eine Mine auf.\r\nNach Erhalt: Nimm 1 Mineral.\r\nGebäude-Aktion: Baue eine Mine nach den normalen Regeln. Für das Bilden oder Vergrößern eines Komplexes ist Tech nötig. Jeder Kolonist, den du in deinen Arbeitsbereich schickst, zählt als 1 Techlevel.",
+      "description": "Passender Wissenschaftler: Geologe.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_03",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "03. Automatisierte Produktion (Level 1)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 1/Automatisierte Produktion.webp",
+      "summary": "Wertet einen Generator auf.\r\nNach Erhalt: Nimm 1 Batterie.\r\nGebäude-Aktion: Jede(s) deiner Minen/Fortschrittlichen Gebäude produziert 1 passende Ressource (Unterkunft 1 Kristall). Für jeden Kolonist, den du in deinen Arbeitsbereich schickst, produziert ein Gebäude nochmal.",
+      "description": "Passender Wissenschaftler: F&E Ingenieur.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_04",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "04. Windturbinen (Level 1)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 1/Windturbinen.webp",
+      "summary": "Wertet einen Generator auf.\r\nNach Erhalt: Nimm 1 Batterie.\r\nGebäude-Aktion: Baue einen Generator nach den normalen Regeln. Für das Bilden oder Vergrößern eines Komplexes ist Tech nötig. Jeder Kolonist, den du in deinen Arbeitsbereich schickst, zählt als 1 Techlevel.",
+      "description": "Passender Wissenschaftler: F&E Ingenieur.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_05",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "05. Privatschiff (Level 1)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 1/Privatschiff.webp",
+      "summary": "Wertet einen Wasserextraktor auf.\r\nNach Erhalt: Nimm 1 Wasser.\r\nGebäude-Aktion: Empfange 1 Schiff. Kostet 1 Pflanze und 1 Wasser. Bringt dir 2 Kolonisten und 1 Bot ODER 3 Kolonisten. Für jeden Kolonist in den Arbeitsbereich empfängst du 1 zusätzliches Schiff.",
+      "description": "Passender Wissenschaftler: Hydrologe.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_06",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "06. Feuchtigkeitsvaporator (Level 1)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 1/Feuchtigkeitsvaporator.webp",
+      "summary": "Wertet einen Wasserextraktor auf.\r\nNach Erhalt: Nimm 1 Wasser.\r\nGebäude-Aktion: Baue einen Wasserextraktor nach den normalen Regeln. Für das Bilden oder Vergrößern eines Komplexes ist Tech nötig. Jeder Kolonist, den du in deinen Arbeitsbereich schickst, zählt als 1 Techlevel.",
+      "description": "Passender Wissenschaftler: Hydrologe.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_07",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "07. Biomarkt (Level 1)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 1/Biomarkt.webp",
+      "summary": "Wertet ein Gewächshaus auf.\r\nNach Erhalt: Nimm 1 Pflanze.\r\nGebäude-Aktion: Nimm 1 Kristall oder 1 Ressource aus dem Warenlager. Für jeden Kolonist, den du in deinen Arbeitsbereich schickst, erhältst du 1 zusätzliche Ressource oder Kristall.",
+      "description": "Passender Wissenschaftler: Biochemiker.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_08",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "08. Hydroponische Farm (Level 1)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 1/Hydroponische Farm.webp",
+      "summary": "Wertet ein Gewächshaus auf.\r\nNach Erhalt: Nimm 1 Pflanze.\r\nGebäude-Aktion: Baue ein Gewächshaus nach den normalen Regeln. Für das Bilden oder Vergrößern eines Komplexes ist Tech nötig. Jeder Kolonist, den du in deinen Arbeitsbereich schickst, zählt als 1 Techlevel.",
+      "description": "Passender Wissenschaftler: Biochemiker.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_09",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "09. Sauerstofftank (Level 1)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 1/Sauerstofftank.webp",
+      "summary": "Wertet einen Sauerstoffkondensator auf.\r\nNach Erhalt: Nimm 1 Sauerstoff.\r\nGebäude-Aktion: Nimm 1 Techplättchen aus dem Techbereich nach den normalen Regeln. Für jeden Kolonist, den du in deinen Arbeitsbereich schickst, nimm 1 zusätzliches Techplättchen.",
+      "description": "Passender Wissenschaftler: Geochemiker.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_10",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "10. Konzentrator (Level 1)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 1/Konzentrator.webp",
+      "summary": "Wertet einen Sauerstoffkondensator auf.\r\nNach Erhalt: Nimm 1 Sauerstoff.\r\nGebäude-Aktion: Baue einen Sauerstoffkondensator nach den normalen Regeln. Für das Bilden oder Vergrößern eines Komplexes ist Tech nötig. Jeder Kolonist, den du in deinen Arbeitsbereich schickst, zählt als 1 Techlevel.",
+      "description": "Passender Wissenschaftler: Geochemiker.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_11",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "11. Casino (Level 1)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 1/Casino.webp",
+      "summary": "Wertet eine Unterkunft auf.\r\nNach Erhalt: Nimm 1 Kristall.\r\nGebäude-Aktion: Nimm 2 Kristalle. Für jeden Kolonist, den du in deinen Arbeitsbereich schickst, erhältst du 1 zusätzlichen Kristall.",
+      "description": "Passender Wissenschaftler: Systemingenieur.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_12",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "12. Turnhalle (Level 1)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 1/Turnhalle.webp",
+      "summary": "Wertet eine Unterkunft auf.\r\nNach Erhalt: Nimm 1 Kristall.\r\nGebäude-Aktion: Baue eine Unterkunft nach den normalen Regeln. Das Bilden/Bauen eines Komplexes erfordert Tech. Jeder Kolonist, den du in deinen Arbeitsbereich schickst, zählt als 1 Techlevel.",
+      "description": "Passender Wissenschaftler: Systemingenieur.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_13",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "13. Mineralienmine (Level 3)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 3/Mineralienmine.webp",
+      "summary": "Wertet eine Mine auf (in einem Komplex mit Mindestgröße 3).\r\nNach Erhalt: Nimm 1 Mineral.\r\nGebäude-Aktion: Erhalte 2 GP (Gewinnpunkte).",
+      "description": "Passender Wissenschaftler: Geologe.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_14",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "14. Biolabor (Level 3)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 3/Biolabor.webp",
+      "summary": "Wertet eine Mine auf (in einem Komplex mit Mindestgröße 3).\r\nNach Erhalt: Nimm 1 Mineral.\r\nGebäude-Aktion: Nimm 1 Erdenvertrag aus der Auslage und bezahle die normalen Kosten.",
+      "description": "Passender Wissenschaftler: Geologe.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_15",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "15. Radar (Level 3)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 3/radar.webp",
+      "summary": "Wertet einen Generator auf (in einem Komplex mit Mindestgröße 3).\r\nNach Erhalt: Nimm 1 Batterie.\r\nGebäude-Aktion: Lege eines der Entdeckungsplättchen vom Forschungsfeld auf diese Karte (ersetze das Plättchen durch ein neues). Erhalte den Bonus des Plättchens. Für den Rest des Spiels ist die Aktion dieser Karte, den Bonus des Entdeckungsplättchens zu erhalten.",
+      "description": "Passender Wissenschaftler: F&E Ingenieur.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_16",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "16. Baudrohne AI600 (Level 3)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 3/Baudrohne AI600.webp",
+      "summary": "Wertet einen Generator auf (in einem Komplex mit Mindestgröße 3).\r\nNach Erhalt: Nimm 1 Batterie.\r\nGebäude-Aktion: Werte ein Gebäude irgendwo auf dem Spielplan auf (der Baubereich deiner Bots ist für diese Aktion unbegrenzt).",
+      "description": "Passender Wissenschaftler: F&E Ingenieur.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_17",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "17. Forschungslabor (Level 3)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 3/Forschungslabor.webp",
+      "summary": "Wertet einen Wasserextraktor auf (in einem Komplex mit Mindestgröße 3).\r\nNach Erhalt: Nimm 1 Wasser.\r\nGebäude-Aktion: Entwickle 1 deiner Techplättchen bis zu 2 Mal oder 2 Techplättchen je 1x und zahle die normalen Kosten. Für jeden Kolonist, den du in deinen Arbeitsbereich schickst, entwickle eine Tech nochmal und zahle die normalen Kosten.",
+      "description": "Passender Wissenschaftler: Hydrologe.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_18",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "18. Aquädukt (Level 3)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 3/Aquädukt.webp",
+      "summary": "Wertet einen Wasserextraktor auf (in einem Komplex mit Mindestgröße 3).\r\nNach Erhalt: Nimm 1 Wasser.\r\nGebäude-Aktion: Stelle bis zu 2 Kolonisten aus deinem Arbeitsbereich in deinen Wohnbereich zurück.",
+      "description": "Passender Wissenschaftler: Hydrologe.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_19",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "19. Ökoresort (Level 3)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 3/Ökoresort.webp",
+      "summary": "Wertet ein Gewächshaus auf (in einem Komplex mit Mindestgröße 3).\r\nNach Erhalt: Nimm 1 Pflanze.\r\nGebäude-Aktion: Stelle einige oder alle Kolonisten von den Aktionsfeldern im Orbit und/oder der Kolonie in deinen Wohnbereich zurück.",
+      "description": "Passender Wissenschaftler: Biochemiker.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_20",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "20. Handelsmarkt (Level 3)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 3/Handelsmarkt.webp",
+      "summary": "Wertet ein Gewächshaus auf (in einem Komplex mit Mindestgröße 3).\r\nNach Erhalt: Nimm 1 Pflanze.\r\nGebäude-Aktion: Zahle 1 Ressource aus deinem Lager und nimm 2 Nicht-Mineralien Ressourcen aus dem allgemeinen Vorrat. Für jeden Kolonist, den du in deinen Arbeitsbereich schickst, erhältst du 1 zusätzliche Ressource.",
+      "description": "Passender Wissenschaftler: Biochemiker.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_21",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "21. Recycling-Bots (Level 3)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 3/Recycling Bots.webp",
+      "summary": "Wertet einen Sauerstoffkondensator auf (in einem Komplex mit Mindestgröße 3).\r\nNach Erhalt: Nimm 1 Sauerstoff.\r\nGebäude-Aktion: Nutze bis zu 2 BP, um deine Bots zu bewegen (Kristalle für Zusatzbewegung möglich). In dieser Bewegung funktionieren deine Bots wie Rover (sie können Kristalle und Forschungs-/Entdeckungsplättchen sammeln).",
+      "description": "Passender Wissenschaftler: Geochemiker.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_22",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "22. Raumaufzug (Level 3)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 3/Raumaufzug.webp",
+      "summary": "Wertet einen Sauerstoffkondensator auf (in einem Komplex mit Mindestgröße 3).\r\nNach Erhalt: Nimm 1 Sauerstoff.\r\nGebäude-Aktion: Reise ins Orbit, indem du die normalen Schritte der Reise durchführst. Machst du das vor deiner Hauptaktion, führe deine Hauptaktion im Orbit durch.",
+      "description": "Passender Wissenschaftler: Geochemiker.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_23",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "23. Bücherei (Level 3)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 3/Bücherei.webp",
+      "summary": "Wertet eine Unterkunft auf (in einem Komplex mit Mindestgröße 3).\r\nNach Erhalt: Nimm 1 Kristall.\r\nGebäude-Aktion: Nimm 1 Bauplan. Nimm einen zusätzlichen für jeden Kolonist, den du in deinen Arbeitsbereich schickst.",
+      "description": "Passender Wissenschaftler: Systemingenieur.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "blueprint_24",
+      "type": "card",
+      "category": "Baupläne",
+      "name": "24. Kommandozentrale (Level 3)",
+      "image": "/images/on_mars/Baupläne/Baupläne Level 3/Kommandozentrale.webp",
+      "summary": "Wertet eine Unterkunft auf (in einem Komplex mit Mindestgröße 3).\r\nNach Erhalt: Nimm 1 Kristall.\r\nGebäude-Aktion: Bewege deinen Rover maximal bis zur Anzahl an Feldern, die dem Level der Rover-Tech mit dem höchsten Level im Spiel entspricht. Für jeden bezahlten Kristall kannst du ihn 1 weiteres Feld bewegen.",
+      "description": "Passender Wissenschaftler: Systemingenieur.",
+      "timing": [],
+      "tags": [
+        "blueprints"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    }
+  ]
+}

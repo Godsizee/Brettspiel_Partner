@@ -1,0 +1,214 @@
+{
+  "entries": [
+    {
+      "id": "startagenda_dunlork",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Dunlork",
+      "image": "/images/voidfall/startagenden/startagenda_dunlork.webp",
+      "summary": "**H3-A**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor.\n- Erhalte 1 Einflusspunkt pro eigenem reinen Sektor mit Verteidigungsanlage(n).\n- Erhalte 2 Einflusspunkte pro eigenem reinen Sektor mit Werft(en).\n- [[icon:plus]] Deine Produktionsstufe für Material ist\n- um 1 erhöht.\n\n**H3-B**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 5.\n- Erhalte 6 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 6.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Kreditgilde.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Gilde (auch Kredit).\n- [[icon:plus]] Deine Produktionsstufe für Nahrung\n- ist um 1 erhöht.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 100
+    },
+    {
+      "id": "startagenda_astoran",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Astoran",
+      "image": "/images/voidfall/startagenden/startagenda_astoran.webp",
+      "summary": "**H10-A**\n- Erhalte 4 Einflusspunkte pro eigenem reinen Sektor mit Werft(en).\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Konstruktionsgilde.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Bergbaugilde.\n- Verliere 1 Einflusspunkt pro Verderbnis auf deinem Haustableau.\n- Zähle Verderbnis auf Dekontaminations- kammern nicht dazu.\n- [[icon:plus]] Deine Produktionsstufe für Material ist\n- um 1 erhöht.\n\n**H10-B**\n- Erhalte deiner reinen Gesamtbevölkerung entsprechend viele Einflusspunkte.\n- Erhalte 2 Einflusspunkte pro eigenem reinen Sektor mit Wächterflotte(n).\n- Erhalte 1 Einflusspunkt pro eigenem reinen Sektor mit Verteidigungsanlage(n).\n- Verliere 2 Einflusspunkte pro Verderbnis auf deinem Haustableau.\n- Zähle Verderbnis auf Dekontaminations- kammern nicht dazu.\n- [[icon:plus]] Deine Produktionsstufe für Nahrung\n- ist um 1 erhöht.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 110
+    },
+    {
+      "id": "startagenda_valnis",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Valnis",
+      "image": "/images/voidfall/startagenden/startagenda_valnis.webp",
+      "summary": "**H1-A**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor.\n- Erhalte 1 Einflusspunkt pro eigenem reinen Sektor mit Verteidigungsanlage(n).\n- Erhalte 2 Einflusspunkte pro eigenem reinen Sektor mit Werft(en).\n- [[icon:plus]] Deine Produktionsstufe für Energie ist\n- um 1 erhöht.\n\n**H1-B**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 5.\n- Erhalte 6 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 6.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Kreditgilde.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Gilde (auch Kredit).\n- [[icon:plus]] Deine Produktionsstufe für Nahrung\n- ist um 1 erhöht.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 120
+    },
+    {
+      "id": "startagenda_kradmor",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Kradmor",
+      "image": "/images/voidfall/startagenden/startagenda_kradmor.webp",
+      "summary": "**H12-A**\n- Erhalte 2 Einflusspunkte pro eigener\n- Wartungskosten.\n- Erhalte 1 Einflusspunkt pro eigenem reinen Sektor mit Stützpunkt(en).\n\n**H12-B**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 5.\n- Erhalte 6 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 6.\n- Erhalte 3/6/9/12 Einflusspunkte, falls deine Wirtschaftsleiste rein und auf\n- Stufe I/II/III/IV ist.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 130
+    },
+    {
+      "id": "startagenda_shiveus",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Shiveus",
+      "image": "/images/voidfall/startagenden/startagenda_shiveus.webp",
+      "summary": "**H7-A**\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Bevölkerung von 2 (addiere deine reine\n- Gesamtbevölkerung und teile durch\n- 2 – abgerundet).\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit Werft(en).\n\n**H7-B**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Gilde.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 140
+    },
+    {
+      "id": "startagenda_marqualos",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Marqualos",
+      "image": "/images/voidfall/startagenden/startagenda_marqualos.webp",
+      "summary": "**H13-A**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor.\n- Erhalte 1 Einflusspunkt pro eigenem reinen Sektor mit Verteidigungsanlage(n).\n- Erhalte 2 Einflusspunkte pro eigenem reinen Sektor mit Werft(en).\n- [[icon:plus]] Deine Produktionsstufe für Material ist\n- um 1 erhöht.\n\n**H13-XA Zusatzagenda nach Herkunft A**\n- Erhalte 1 Einflusspunkt pro eigener Beute.\n- Erhalte 1 Einflusspunkt pro Flotte in eigenen reinen Sektoren.\n\n**H13-B**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 5.\n- Erhalte 6 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 6.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Kreditgilde.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Gilde (auch Kredit).\n- [[icon:plus]] Deine Produktionsstufe für Nahrung\n- ist um 1 erhöht.\n\n**H13-XB Zusatzagenda nach Herkunft B**\n- Erhalte 1 Einflusspunkt pro Ressource in deinem Vorrat mit den wenigsten\n- Einheiten. Zähle bei Gleichstand nur\n- 1 Ressourcentyp.\n- Erhalte 2 Einflusspunkte pro eigenem\n- Handelsplättchen.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 150
+    },
+    {
+      "id": "startagenda_yarvek",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Yarvek",
+      "image": "/images/voidfall/startagenden/startagenda_yarvek.webp",
+      "summary": "**H8-A**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Konstruktionsgilde.\n- Erhalte 1 Einflusspunkt pro eigener\n- Hinterlassenschaft.\n- Erhalte 1 Einflusspunkt pro eigenen\n- 2 Beuten.\n\n**H8-B**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit mind. 2 Flotten.\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert von mind. 4.\n- Erhalte 1 Einflusspunkt pro eigener\n- Hinterlassenschaft.\n- Erhalte 1 Einflusspunkt pro eigenen\n- 2 Beuten.\n- Handelsplättchen.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 160
+    },
+    {
+      "id": "startagenda_cortozaar",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Cortozaar",
+      "image": "/images/voidfall/startagenden/startagenda_cortozaar.webp",
+      "summary": "**H4-A**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor.\n- Erhalte 1 Einflusspunkt pro eigenem reinen Sektor mit Verteidigungsanlage(n).\n- Erhalte 2 Einflusspunkte pro eigenem reinen Sektor mit Werft(en).\n- [[icon:plus]] Deine Produktionsstufe für Energie ist\n- um 1 erhöht.\n\n**H4-B**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 5.\n- Erhalte 6 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 6.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Kreditgilde.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Gilde (auch Kredit).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 170
+    },
+    {
+      "id": "startagenda_zenor",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Zenor",
+      "image": "/images/voidfall/startagenden/startagenda_zenor.webp",
+      "summary": "**H5-A**\n- Erhalte 1 Einflusspunkt pro von dir erforschter Basistechnologie.\n- Erhalte 3 Einflusspunkte pro von dir erforschter Fortschrittlicher Technologie.\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor.\n\n**H5-B**\n- Erhalte 2 Einflusspunkte pro von dir erforschter Basistechnologie.\n- Erhalte 4 Einflusspunkte pro von dir erforschter Fortschrittlicher Technologie.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Gilde.\n- [[icon:plus]] Deine Produktionsstufe für Nahrung\n- ist um 1 erhöht.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 180
+    },
+    {
+      "id": "startagenda_nervo",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Nervo",
+      "image": "/images/voidfall/startagenden/startagenda_nervo.webp",
+      "summary": "**H9-A**\n- Erhalte 4 Einflusspunkte pro eigenem reinen Sektor ohne freies Gildenfeld.\n- Erhalte 2 Einflusspunkte pro eigenem reinen Sektor mit mind. 3 Stützpunkten.\n- Erhalte 2/4/6/8 Einflusspunkte pro eigener reiner Zivilisationsleiste der Stufe I/II/III/\n- IV.\n\n**H9-B**\n- Erhalte 3 Einflusspunkte pro Ressourcen- typ mit mind. 8 Einheiten im eigenen\n- Vorrat.\n- Erhalte 5 Einflusspunkte pro eigenem reinen\n- Sektor mit mind. 3 Gilden. Mind. 3 der\n- Gilden müssen unterschiedlich sein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 190
+    },
+    {
+      "id": "startagenda_belitan",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Belitan",
+      "image": "/images/voidfall/startagenden/startagenda_belitan.webp",
+      "summary": "**H2-A**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor.\n- Erhalte 1 Einflusspunkt pro eigenem reinen Sektor mit Verteidigungsanlage(n).\n- Erhalte 2 Einflusspunkte pro eigenem reinen Sektor mit Werft(en).\n- [[icon:plus]] Deine Produktionsstufe für Energie ist\n- um 1 erhöht.\n\n**H2-B**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 5.\n- Erhalte 6 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert 6.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Kreditgilde.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Gilde (auch Kredit).\n- [[icon:plus]] Deine Produktionsstufe für Nahrung\n- und Credits ist um 1 erhöht.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 200
+    },
+    {
+      "id": "startagenda_fenrax",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Fenrax",
+      "image": "/images/voidfall/startagenden/startagenda_fenrax.webp",
+      "summary": "**H11-A**\n- Erhalte 2 Einflusspunkte pro Ressource in deinem Vorrat mit den wenigsten\n- Einheiten. Zähle bei Gleichstand nur\n- 1 Ressourcentyp.\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit Trägerflotte(n).\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Gilde.\n- [[icon:plus]] Deine Produktionsstufe für Credits ist\n- um 1 erhöht.\n\n**H11-B**\n- Erhalte dem Wert deiner Ruhmplättchen entsprechend viele Einflusspunkte.\n- Erhalte 2 Einflusspunkte pro eigenem reinen Sektor mit Werft(en) oder Sternen- basis/-en.\n- Erhalte 1 Einflusspunkt pro 3 Flotten in eigenen reinen Sektoren (addiere all deine reinen Flotten und teile durch 3).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 210
+    },
+    {
+      "id": "startagenda_novaris",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Novaris",
+      "image": "/images/voidfall/startagenden/startagenda_novaris.webp",
+      "summary": "**H14-A**\n- Erhalte 4 Einflusspunkte pro eigenem reinen Sektor mit mind. 2 Flotten.\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit Werft(en).\n- Verliere 2 Einflusspunkte pro Verderbnis auf deinem Haustableau.\n- Zähle Verderbnis auf Dekontaminations- kammern nicht dazu.\n\n**H14-B**\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit Bevölkerungswert von mind. 4.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Nahrungs-, Konstruktions- und/oder\n- Bergbaugilde.\n- Verliere 1 Einflusspunkt pro Verderbnis auf deinem Haustableau.\n- Zähle Verderbnis auf Dekontaminations- kammern nicht dazu.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 220
+    },
+    {
+      "id": "startagenda_thegwyn",
+      "type": "reference",
+      "category": "startagenden",
+      "name": "Startagenden – Haus Thegwyn",
+      "image": "/images/voidfall/startagenden/startagenda_thegwyn.webp",
+      "summary": "**H6-A**\n- Erhalte 2 Einflusspunkte pro eigenem reinen Sektor.\n- Erhalte 2 Einflusspunkte pro eigener reiner\n- Nahrungsgilde.\n\n**H6-B**\n- Erhalte 3 Einflusspunkte pro Ressourcen- typ mit mind. 8 Einheiten im eigenen\n- Vorrat.\n- Erhalte 3/6/9/12 Einflusspunkte, falls deine Staatsführungsleiste rein und auf\n- Stufe I/II/III/IV ist.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Kreditgilde.\n- Erhalte 1 Einflusspunkt pro eigener reiner\n- Forschungsgilde.\n- [[icon:plus]] Deine Produktionsstufe für Energie\n- und Material ist um 1 erhöht.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "startagenden"
+      ],
+      "warnings": [],
+      "sort_order": 230
+    }
+  ]
+}

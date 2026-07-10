@@ -1,0 +1,130 @@
+{
+  "entries": [
+    {
+      "id": "pt-acker",
+      "type": "card",
+      "category": "Planungstableau",
+      "name": "Planungstableau Acker",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Planungstableau/Planungstableau_Acker.webp",
+      "summary": "Der Fortschritt auf der Umwandlungsleiste ist für dich günstiger. Er kostet dich 1 Geld (statt 5 Geld), 1 Werkzeug und 1 Gelehrten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "planungstableau"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "pt-gebirge",
+      "type": "card",
+      "category": "Planungstableau",
+      "name": "Planungstableau Gebirge",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Planungstableau/Planungstableau_Gebirge.webp",
+      "summary": "Du hast ein zusätzliches Einkommen von 2 Geld. Dein erstes Handelshaus gibt als Einkommen 3 Geld (anstatt 2).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "planungstableau"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "pt-oednis",
+      "type": "card",
+      "category": "Planungstableau",
+      "name": "Planungstableau Ödnis",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Planungstableau/Planungstableau_Oednis.webp",
+      "summary": "Zu Spielbeginn erhältst du zusätzlich 1 Buch und ein viertes Werkzeug. Für deine zweite Erfindung entfallen die Zusatzkosten (in Höhe von 1 Buch).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "planungstableau"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "pt-see",
+      "type": "card",
+      "category": "Planungstableau",
+      "name": "Planungstableau See",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Planungstableau/Planungstableau_See.webp",
+      "summary": "Du startest das Spiel mit Schifffahrt 1.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "planungstableau"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "pt-sumpf",
+      "type": "card",
+      "category": "Planungstableau",
+      "name": "Planungstableau Sumpf",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Planungstableau/Planungstableau_Sumpf.webp",
+      "summary": "Zu Spielbeginn erhältst du zusätzlich 1 Gelehrten. Beginne das Spiel mit 9 Machtsteinen in Schale II und 3 in Schale I (statt 7 und 5).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "planungstableau"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "pt-wald",
+      "type": "card",
+      "category": "Planungstableau",
+      "name": "Planungstableau Wald",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Planungstableau/Planungstableau_Wald.webp",
+      "summary": "Zu Spielbeginn erhältst du in jeder Wissensdisziplin 1 Schritt zusätzlich. Beginne das Spiel mit 8 Machtsteinen in Schale II und 4 in Schale I (statt 7 und 5).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "planungstableau"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "pt-wueste",
+      "type": "card",
+      "category": "Planungstableau",
+      "name": "Planungstableau Wüste",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Planungstableau/Planungstableau_Wueste.webp",
+      "summary": "Zu Spielbeginn, nachdem alle Startgebäude platziert worden sind, erhältst du einen Spaten. (Erhalten zu diesem Zeitpunkt mehrere von euch Spaten, setzt sie in der Spielreihenfolge ein. Zu diesem Zeitpunkt darf keine Werkstatt gebaut werden.)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "planungstableau"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    }
+  ]
+}

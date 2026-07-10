@@ -1,0 +1,424 @@
+{
+  "entries": [
+    {
+      "id": "technologie_autonome_drohnen",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Autonome Drohnen",
+      "image": "/images/voidfall/technologien/technologie_autonome_drohnen.webp",
+      "summary": "**Haus:** Marqualos\n**Basis (#25)**\n**Permanente Eigenschaft:** Lege beim Eindringen in einen Sektor 1 **Handelsplättchen** zurück, um 1 Annäherungsabsorption und 1 Salvenabsorption zu erhalten. Lege in Gefechten in der Auswertungsphase 1 **Handelsplättchen** zurück, um dich sofort erfolgreich zu verteidigen. Auch das löst Effekte aus, die durch erfolgreiche Gefechtsverteidigung ausgelöst werden.\n**Sofortiger Effekt:** Erhalte 1 **Handelsplättchen** und/oder setze 1 **Flotte** ein.\n**Fortschrittlich (#25+)**\n**Permanente Eigenschaft:** Lege beim Eindringen in einen Sektor 1 **Handelsplättchen** zurück, um 1 Annäherungsabsorption und 2 Salvenabsorption zu erhalten. Bei Gefechten in der Auswertungsphase verteidigst du dich ohne Kampf immer erfolgreich.\n**Sofortiger Effekt:** Erhalte 1 **Handelsplättchen**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 100
+    },
+    {
+      "id": "technologie_bergungsscanner",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Bergungsscanner",
+      "image": "/images/voidfall/technologien/technologie_bergungsscanner.webp",
+      "summary": "**Haus:** Kradmor\n**Basis (#23)**\n**Permanente Eigenschaft:** Lege 1 **Hinterlassenschaft** in den Kampfsektor, bevor du in einen leereberührten Sektor eindringst.\n**Sofortiger Effekt:** Aktiviere 1 **Flotte** oder setze 1 **Flotte** ein.\n**Fortschrittlich (#23+)**\n**Permanente Eigenschaft:** Lege 1 **Hinterlassenschaft** in den Kampfsektor, bevor du in einen verderbten/leereberührten Sektor eindringst. Entferne nach erfolgreicher Übernahme eines verderbten Sektors die **Verderbnis** daraus.\n**Sofortiger Effekt:** Kein Effekt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 110
+    },
+    {
+      "id": "technologie_datenraffinerie",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Datenraffinerie",
+      "image": "/images/voidfall/technologien/technologie_datenraffinerie.webp",
+      "summary": "**Haus:** Belitan\n**Basis (#4)**\n**Permanente Eigenschaft:** All deine Kreditgilden erhöhen deine Wissensproduktion um jeweils 2 (unabhängig von der Bevölkerung in ihren Sektoren).\n**Sofortiger Effekt:** Erhalte 2 **Credits** und 2 **Wissen**.\n**Fortschrittlich (#4+)**\n**Permanente Eigenschaft:** Du darfst deine Wartungskosten mit **Credits** bezahlen – 1 **Credit** pro 2 Wartungspunkten.\n**Sofortiger Effekt:** Gründe 1 Gilde und/oder errichte 1 Stützpunkt und/oder produziere 1 Ressourcentyp.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 120
+    },
+    {
+      "id": "technologie_dekontaminationskammern",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Dekontaminationskammern",
+      "image": "/images/voidfall/technologien/technologie_dekontaminationskammern.webp",
+      "summary": "**Haus:** Shiveus\n**Basis (#14)**\n**Permanente Eigenschaft:** Wann immer du **Verderbnis** erhältst oder bewegst, darfst du sie hier ablegen, bis 2 **Verderbnis** hier liegen. Erhältst du (durch ein Galaktisches Ereignis oder eine Krise) **Verderbnis** und musst sie spezifisch auf dein Haustableau oder eine Agendaauslage legen, kannst du sie nicht stattdessen hierhin legen. Zu Beginn der Auswertungsphase darfst du 1 **Verderbnis** von den Dekontaminationskammern entfernen. Ignoriere in Gefechten, beim Erfüllen von Agendazielen und am Ende der Partie von kooperativen/Solopartien **Verderbnis** auf Dekontaminationskammern.\n**Sofortiger Effekt:** Versetze 1 **Verderbnis**.\n**Fortschrittlich (#14+)**\n**Permanente Eigenschaft:** Du darfst max. 3 **Verderbnismarker** hier ablegen. Entfernst du 1 **Verderbnis** von irgendwo anders, entferne auch 1 **Verderbnis** von den Dekontaminationskammern.\n**Sofortiger Effekt:** Entferne 1 **Verderbnis**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 130
+    },
+    {
+      "id": "technologie_energiezellen",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Energiezellen",
+      "image": "/images/voidfall/technologien/technologie_energiezellen.webp",
+      "summary": "**Haus:** Dunlork\n**Basis (#6)**\n**Permanente Eigenschaft:** Füge +1 Annäherungsschaden zu, falls du mind. 1 Annäherungsschaden als Defensive zufügst.\n**Sofortiger Effekt:** Zahle 2/5 **Energie**, um 2/3 **Flotten** zu aktivieren.\n**Fortschrittlich (#6+)**\n**Permanente Eigenschaft:** Ignoriere die Wartungskosten deiner Sektoren. Wartungskosten deiner Agenden musst du trotzdem zahlen.\n**Sofortiger Effekt:** Errichte max. 2 Verteidigungsanlagen (im selben oder unterschiedlichen Sektoren) oder sammle deine **Flotten**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 140
+    },
+    {
+      "id": "technologie_handelsnexus",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Handelsnexus",
+      "image": "/images/voidfall/technologien/technologie_handelsnexus.webp",
+      "summary": "**Haus:** Marqualos\n**Basis (#26)**\n**Permanente Eigenschaft:** Erhalte beim Zurücklegen von **Handelsplättchen** den Handelsbonus vom Ablagefeld oder von 1 der Felder darunter.\n**Sofortiger Effekt:** Erhalte 2 **Nahrung** und/oder 1 **Handelsplättchen**.\n**Fortschrittlich (#26+)**\n**Permanente Eigenschaft:** Erhalte bei der ersten Überproduktion in deinem Zug entweder 3 zusätzliche **Einflusspunkte** oder 1 **Handelsplättchen** (ohne Handelsbonus). Betrachte im Falle von Überproduktion diese beiden Phasen als eigene Züge.\n**Sofortiger Effekt:** Erhalte 1 **Handelsplättchen** oder 1 Agenda.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 150
+    },
+    {
+      "id": "technologie_hyperantrieb",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Hyperantrieb",
+      "image": "/images/voidfall/technologien/technologie_hyperantrieb.webp",
+      "summary": "**Haus:** Yarvek\n**Basis (#15)**\n**Permanente Eigenschaft:** Sammle deine **Flotten** vor dem Eindringen in einen Sektor. Spielst du einen Eroberungsfokus aus, darfst du **Energie** produzieren.\n**Sofortiger Effekt:** Erhalte 3 **Beuten**.\n**Fortschrittlich (#15+)**\n**Permanente Eigenschaft:** Ignoriere Leerenstürme beim Eindringen in Sektoren oder dringe aus einer Entfernung von 2 Sektoren ein. Ignoriere dabei, wem die Sektoren gehören.\n**Sofortiger Effekt:** Gründe 1 Konstruktionsgilde.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 160
+    },
+    {
+      "id": "technologie_kampfreplikatoren",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Kampfreplikatoren",
+      "image": "/images/voidfall/technologien/technologie_kampfreplikatoren.webp",
+      "summary": "**Haus:** Novaris\n**Basis (#27)**\n**Permanente Eigenschaft:** Erhalte nach der erfolgreichen Übernahme eines Sektors 1 **Beute**. Du darfst entscheiden, alle Stützpunkte im Kampfsektor zu lassen. Füge jedoch keine Verteidigungsanlagen hinzu, falls du ein Gefallenes Haus mit Verteidigungsanlagen aus dem Kampfsektor entfernst. Auch, falls du die Technologie Sternenbasen nicht erlangt hast, darfst du Sternenbasen in übernommenen Sektoren behalten.\n**Sofortiger Effekt:** Aktiviere 1 **Flotte**.\n**Fortschrittlich (#27+)**\n**Permanente Eigenschaft:** Setze als Offensive nach Sieg oder Gleichstand in einem Kampf 1 **Flotte** im Kampfsektor ein. Tust du das nach einem Gleichstand, gewinnst du den Kampf.\n**Sofortiger Effekt:** Kein Effekt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 170
+    },
+    {
+      "id": "technologie_klonen",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Klonen",
+      "image": "/images/voidfall/technologien/technologie_klonen.webp",
+      "summary": "**Haus:** Zenor\n**Basis (#10)**\n**Permanente Eigenschaft:** Erhalte beim Vermehren einer reinen Bevölkerung 1 **Credit** oder aktiviere 1 **Flotte**.\n**Sofortiger Effekt:** Erhalte 1 **Credit** oder aktiviere 1 **Flotte**.\n**Fortschrittlich (#10+)**\n**Permanente Eigenschaft:** Ignoriere beim Erreichen von Stufe III/IV einer Zivilisationsleiste die Kosten (deaktiviere keine **Flotten**).\n**Sofortiger Effekt:** Schreite auf 1 deiner niedrigsten Zivilisationsleisten voran. Schreite danach noch einmal auf 1 deiner nun niedrigsten Zivilisationsleisten voran.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 180
+    },
+    {
+      "id": "technologie_kolonieschiffe",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Kolonieschiffe",
+      "image": "/images/voidfall/technologien/technologie_kolonieschiffe.webp",
+      "summary": "**Haus:** Nervo\n**Basis (#18)**\n**Permanente Eigenschaft:** Dein Heimatsektor darf max. 2 zusätzliche Gilden enthalten. Sie gelten für alle Belange (außer der Wartung) als in diesem Sektor. Sobald du diese Technologie erforschst, darfst du die Gilden in deinem Heimatsektor arrangieren (und so das Gildenfeld mit Wartungskosten freihalten).\n**Sofortiger Effekt:** Gründe 1 Gilde und/oder vermehre 1 reine Bevölkerung.\n**Fortschrittlich (#18+)**\n**Permanente Eigenschaft:** Dein Heimatsektor darf max. 4 zusätzliche Gilden enthalten. Vermehre beim Ausspielen eines Verstärkungsfokus die reine Bevölkerung deines Heimatsektors.\n**Sofortiger Effekt:** Vermehre 1 reine Bevölkerung und/oder gründe 1 Gilde.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 190
+    },
+    {
+      "id": "technologie_kybernetik",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Kybernetik",
+      "image": "/images/voidfall/technologien/technologie_kybernetik.webp",
+      "summary": "**Haus:** Novaris\n**Basis (#28)**\n**Permanente Eigenschaft:** Erhalte bei Gründung einer Gilde 2 ihrer jeweiligen Ressourcen (**Nahrung**/**Energie**/**Material**/**Credits**/**Wissen** von Nahrungs-/Konstruktions-/Bergbau-/Kredit-/Forschungsgilde).\n**Sofortiger Effekt:** Gründe 1 Gilde.\n**Fortschrittlich (#28+)**\n**Permanente Eigenschaft:** Erhalte bei Vermehrung einer reinen Bevölkerung je 2 den Gilden im selben Sektor entsprechende Ressourcen. Erhalte bei mehreren Gilden jeweils 2 zu ihnen passende Ressourcen.\n**Sofortiger Effekt:** Gründe 1 Gilde oder vermehre 1 reine Bevölkerung.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 200
+    },
+    {
+      "id": "technologie_laeuterer",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Läuterer",
+      "image": "/images/voidfall/technologien/technologie_laeuterer.webp",
+      "summary": "**Haus:** Kradmor\n**Basis (#24)**\n**Permanente Eigenschaft:** Zahle beim Ausspielen eines Versuchungsfokus 1 **Wissen**, um 1 **Verderbnis** zu entfernen.\n**Sofortiger Effekt:** Entferne 1 **Verderbnis** und/oder setze 1 **Flotte** ein. Diese **Verderbnis** kann auch vom Ausspielen eines Versuchungsfokusses kommen.\n**Fortschrittlich (#24+)**\n**Permanente Eigenschaft:** Zahle max. 2-mal beim Ausspielen eines Versuchungsfokus 1 **Wissen**, um 1 **Verderbnis** zu entfernen. Anstatt **Flotten** einzusetzen, darfst du pro **Flotte** 1 **Verderbnis** aus dem Sektor entfernen, in dem du sie eingesetzt hättest.\n**Sofortiger Effekt:** Entferne 1 **Verderbnis** und/oder setze 1 **Flotte** ein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 210
+    },
+    {
+      "id": "technologie_neuralmatrix",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Neuralmatrix",
+      "image": "/images/voidfall/technologien/technologie_neuralmatrix.webp",
+      "summary": "**Haus:** Thegwyn\n**Basis (#12)**\n**Permanente Eigenschaft:** Erhalte vor der Creditproduktion 2 **Credits**.\n**Sofortiger Effekt:** Gründe 1 Kreditgilde.\n**Fortschrittlich (#12+)**\n**Permanente Eigenschaft:** Produziere beim Ausspielen eines Produktionsfokus **Credits**. Erhalte beim Ausspielen eines Innovationsfokus 1 **Einflusspunkt** pro Kreditgilde in deinen reinen Sektoren.\n**Sofortiger Effekt:** Produziere **Credits**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 220
+    },
+    {
+      "id": "technologie_orbitale_haefen",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Orbitale Häfen",
+      "image": "/images/voidfall/technologien/technologie_orbitale_haefen.webp",
+      "summary": "**Haus:** Dunlork\n**Basis (#5)**\n**Permanente Eigenschaft:** Beim Einsetzen von **Flotten** pro darin befindlicher Werft gelten deine Sektoren mit mind. 1 Werft als Sektoren mit 1 zusätzlichen Werft. **Trägerflotten**, Sternenbasen (falls du ihre Technologie erforscht hast) und die Nahrungsgilden von Haus Thegwyn gelten dafür auch als Werften.\n**Sofortiger Effekt:** Errichte 1 Werft und/oder aktiviere 1 **Flotte**.\n**Fortschrittlich (#5+)**\n**Permanente Eigenschaft:** All deine Werften erhöhen deine Creditproduktion um je 2 (unabhängig von der Bevölkerung in ihren Sektoren).\n**Sofortiger Effekt:** Aktiviere 2 **Flotten** und/oder setze in jedem deiner Sektoren pro darin befindlicher Werft 1 **Flotte** ein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 230
+    },
+    {
+      "id": "technologie_rettungskapseln",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Rettungskapseln",
+      "image": "/images/voidfall/technologien/technologie_rettungskapseln.webp",
+      "summary": "**Haus:** Valnis\n**Basis (#2)**\n**Permanente Eigenschaft:** 1-mal pro Kampf darfst du 1 **Flotte**, die du zurückrufen musst, in deinen Heimatsektor fliegen. Der Flottentyp bleibt derselbe. Du darfst 1 zusätzliches **Handelsplättchen** besitzen (und hier ablegen).\n**Sofortiger Effekt:** Erhalte 1 **Handelsplättchen** und/oder aktiviere 1 **Flotte**.\n**Fortschrittlich (#2+)**\n**Permanente Eigenschaft:** Im Kampf darfst du jede **Flotte**, die du zurückrufen musst, in deinen Heimatsektor fliegen. Der Flottentyp bleibt derselbe.\n**Sofortiger Effekt:** Erhalte 1 **Handelsplättchen** und/oder aktiviere 1 **Flotte**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 240
+    },
+    {
+      "id": "technologie_robotik",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Robotik",
+      "image": "/images/voidfall/technologien/technologie_robotik.webp",
+      "summary": "**Haus:** Nervo\n**Basis (#17)**\n**Permanente Eigenschaft:** Verdopple beim Ausspielen eines Entwicklungsfokus sowohl Kosten als auch Effekt von 1 seiner Aktionen. Zahle zunächst die doppelten Kosten und führe den Effekt danach 2-mal separat nacheinander aus.\n**Sofortiger Effekt:** Erhalte 2 **Material**.\n**Fortschrittlich (#17+)**\n**Permanente Eigenschaft:** Verdopple beim Ausspielen eines bevorzugten Fokus sowohl Kosten als auch Effekt von 1 seiner Aktionen. Du kannst die Aktionen von Entwicklungsfokussen dadurch nicht verdreifachen oder vervierfachen.\n**Sofortiger Effekt:** Kein Effekt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 250
+    },
+    {
+      "id": "technologie_schilde",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Schilde",
+      "image": "/images/voidfall/technologien/technologie_schilde.webp",
+      "summary": "**Haus:** Valnis\n**Basis (#1)**\n**Permanente Eigenschaft:** Erhalte in Kämpfen mit mind. 1 eigenen **Korvettenflotte** 1 Salvenabsorption.\n**Sofortiger Effekt:** Setze 1 **Korvettenflotte** in deinem Heimatsektor ein.\n**Fortschrittlich (#1+)**\n**Permanente Eigenschaft:** Erhalte in Kämpfen mit mind. 1 eigenen Korvette 1 Annäherungsabsorption und 1 Salvenabsorption. Verlierst du all deine **Korvettenflotten** bei der Annäherung, verfällt ihre zusätzliche Salvenabsorption.\n**Sofortiger Effekt:** Kein Effekt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 260
+    },
+    {
+      "id": "technologie_schlaechter",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Schlächter",
+      "image": "/images/voidfall/technologien/technologie_schlaechter.webp",
+      "summary": "**Haus:** Shiveus\n**Basis (#13)**\n**Permanente Eigenschaft:** Du darfst **Schlächterflotten** für 1 **Material** pro **Flotte** einsetzen. Schlächterflottenverbände können max. 1 **Schlächterflotte** enthalten.\n**Sofortiger Effekt:** Setze 1 **Schlächterflotte** (für 1 **Material**) in deinem Heimatsektor ein.\n**Fortschrittlich (#13+)**\n**Permanente Eigenschaft:** Schlächterflottenverbände können max. 3 **Schlächterflotten** enthalten.\n**Sofortiger Effekt:** Aktiviere 1 **Flotte** und/oder setze 1 **Schlächterflotte** (für 1 **Material**) ein.\n*Ausführliche Kampfeigenschaften: siehe Anleitung, S. 35–37.*",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 270
+    },
+    {
+      "id": "technologie_sternenbasen",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Sternenbasen",
+      "image": "/images/voidfall/technologien/technologie_sternenbasen.webp",
+      "summary": "**Haus:** Cortozaar\n**Basis (#8)**\n**Permanente Eigenschaft:** Als Defensive im Kampf: Jede deiner Sternenbasen fügt 1 Annäherungsschaden zu (siehe Sternenbasen-Kampfplättchen). Es ist möglich, dass du Sektoren mit Sternenbasen, aber nicht die Technologie Sternenbasen hast. In diesem Fall kannst du die Eigenschaften der Technologie nicht nutzen, aber du darfst die Sternenbasen entsprechend ihrem Kampfplättchen im Kampf einsetzen. Deine Sektoren dürfen max. 1 Sternenbasis enthalten. Beim Einsetzen gelten Sternenbasen als Werften. Vermehre die Bevölkerung eines reinen Sektors, sobald du dort eine Sternenbasis errichtest. Die Effekte von Orbitalen Häfen gelten auch für Sektoren mit Sternenbasen, die keine Werften haben.\n**Sofortiger Effekt:** Errichte 1 Sternenbasis.\n**Fortschrittlich (#8+)**\n**Permanente Eigenschaft:** Deine Sektoren dürfen jeweils max. 2 Sternenbasen enthalten. Entferne die **Verderbnis** aus einem verderbten Sektor, sobald du dort eine Sternenbasis errichtest, anstatt die Bevölkerung zu vermehren.\n**Sofortiger Effekt:** Errichte 1 Sternenbasis.\n*Ausführliche Kampfeigenschaften: siehe Anleitung, S. 35–37.*",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 280
+    },
+    {
+      "id": "technologie_taktische_transporte",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Taktische Transporte",
+      "image": "/images/voidfall/technologien/technologie_taktische_transporte.webp",
+      "summary": "**Haus:** Yarvek\n**Basis (#16)**\n**Permanente Eigenschaft:** Rufe beim Ausspielen eines Wohlstandsfokus 1 **Flotte** zurück, um die Bevölkerung eines reinen Sektors zu vermehren. Senke beim Ausspielen eines Eroberungsfokus die Bevölkerung eines reinen (nicht Heimat-)Sektors um 1, um in diesem 1 **Flotte** einzusetzen.\n**Sofortiger Effekt:** Vermehre 1 reine Bevölkerung oder setze 1 **Flotte** ein.\n**Fortschrittlich (#16+)**\n**Permanente Eigenschaft:** Nutze beim Ausspielen eines bevorzugten Fokus 1 der beiden permanenten Eigenschaften der Taktischen Transporte. Du kannst nicht beide Aktionen und auch keine Aktion 2-mal nutzen, falls dein bevorzugter Fokus Wohlstand oder Eroberung ist.\n**Sofortiger Effekt:** Vermehre 1 reine Bevölkerung oder setze max. 2 **Flotten** ein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 290
+    },
+    {
+      "id": "technologie_terraformen",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Terraformen",
+      "image": "/images/voidfall/technologien/technologie_terraformen.webp",
+      "summary": "**Haus:** Thegwyn\n**Basis (#11)**\n**Permanente Eigenschaft:** Zahle beim Ausspielen eines Entwicklungs- oder Wohlstandsfokus 1 **Material**, um 1 reine Bevölkerung zu vermehren.\n**Sofortiger Effekt:** Vermehre 1 reine Bevölkerung oder erhalte 2 **Material**.\n**Fortschrittlich (#11+)**\n**Permanente Eigenschaft:** Vermehre beim Ausspielen eines Entwicklungs-, Wohlstands- oder Innovationsfokus 1 reine Bevölkerung.\n**Sofortiger Effekt:** Schreite auf der Wirtschaftsleiste voran.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 300
+    },
+    {
+      "id": "technologie_torpedos",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Torpedos",
+      "image": "/images/voidfall/technologien/technologie_torpedos.webp",
+      "summary": "**Haus:** Cortozaar\n**Basis (#7)**\n**Permanente Eigenschaft:** Füge in Kämpfen bei der 1. Salve +1 Salvenschaden zu, falls mind. 1 deiner **Korvettenflotten** im Kampfsektor ist. Verlierst du all deine **Korvettenflotten** bei der Annäherung, verfällt ihr zusätzlicher Salvenschaden.\n**Sofortiger Effekt:** Erhalte 2 **Material** und/oder setze 1 **Korvettenflotte** in deinem Heimatsektor ein.\n**Fortschrittlich (#7+)**\n**Permanente Eigenschaft:** Füge in Kämpfen bei allen Salven +1 Salvenschaden zu, falls mind. 1 deiner **Korvettenflotten** im Kampfsektor ist. Verlierst du all deine **Korvettenflotten** im Kampf, verfällt ihr zusätzlicher Salvenschaden.\n**Sofortiger Effekt:** Erhalte 1 **Ruhmplättchen** mit Wert „3“ und/oder setze in jedem deiner Sektoren pro darin befindlicher Werft 1 **Korvettenflotte** ein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 310
+    },
+    {
+      "id": "technologie_traeger",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Träger",
+      "image": "/images/voidfall/technologien/technologie_traeger.webp",
+      "summary": "**Haus:** Fenrax\n**Basis (#21)**\n**Permanente Eigenschaft:** Du darfst **Trägerflotten** für 1 **Nahrung** pro **Flotte** einsetzen. Nach dem Einsetzen gilt jede **Trägerflotte** jeweils als 1 Werft. Die Effekte von Orbitalen Häfen gelten auch für Sektoren mit **Trägerflotten**, die keine Werften haben. Trägerflottenverbände können max. 1 **Trägerflotte** enthalten.\n**Sofortiger Effekt:** Aktiviere 1 **Flotte** und/oder setze 1 **Trägerflotte** (für 1 **Nahrung**) in deinem Heimatsektor ein.\n**Fortschrittlich (#21+)**\n**Permanente Eigenschaft:** Trägerflottenverbände können max. 3 **Trägerflotten** enthalten.\n**Sofortiger Effekt:** Aktiviere 1 **Flotte** und/oder setze 1 **Trägerflotte** (für 1 **Nahrung**) ein.\n*Ausführliche Kampfeigenschaften: siehe Anleitung, S. 35–37.*",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 320
+    },
+    {
+      "id": "technologie_weltraumgeschosse",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Weltraumgeschosse",
+      "image": "/images/voidfall/technologien/technologie_weltraumgeschosse.webp",
+      "summary": "**Haus:** Astoran\n**Basis (#19)**\n**Permanente Eigenschaft:** Zahle beim Eindringen in einen Sektor, der zu mind. 1 deiner Werften oder Sternenbasen benachbart ist, 1 **Energie**, um +1 Annäherungsschaden zuzufügen. Zahle optional beim Ausspielen eines Wohlstandsfokus 1 **Material**, um 1 Werft zu errichten.\n**Sofortiger Effekt:** Erhalte 2 **Energie** und/oder errichte 1 Werft.\n**Fortschrittlich (#19+)**\n**Permanente Eigenschaft:** Füge pro benachbartem eigenen Sektor mit Werft oder Sternenbasis in Kämpfen je +1 (max. +2) Annäherungsschaden zu.\n**Sofortiger Effekt:** Errichte 1 Werft oder sammle deine **Flotten**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 330
+    },
+    {
+      "id": "technologie_waechter",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Wächter",
+      "image": "/images/voidfall/technologien/technologie_waechter.webp",
+      "summary": "**Haus:** Astoran\n**Basis (#20)**\n**Permanente Eigenschaft:** Du darfst **Wächterflotten** einsetzen. Anstatt Stützpunkte zu errichten, darfst du pro nicht errichtetem Stützpunkt 1 **Wächterflotte** in einem Wächterflottenverband im selben Sektor einsetzen. Du musst Sektoren wählen, in denen du Stützpunkte errichten könntest.\n**Sofortiger Effekt:** Errichte 1 Verteidigungsanlage und/oder setze 1 **Wächterflotte** in deinem Heimatsektor ein.\n**Fortschrittlich (#20+)**\n**Permanente Eigenschaft:** Setze beim Errichten eines Stützpunktes 1 **Wächterflotte** in einem Wächterflottenverband im selben Sektor ein. Auch beim Ignorieren des Errichtens darfst du die **Wächterflotte** einsetzen. Du musst einen Sektor wählen, in dem du Stützpunkte errichten könntest.\n**Sofortiger Effekt:** Errichte 1 Verteidigungsanlage und/oder aktiviere 1 **Flotte**.\n*Ausführliche Kampfeigenschaften: siehe Anleitung, S. 35–37.*",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 340
+    },
+    {
+      "id": "technologie_zentrale_ueberwachung",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Zentrale Überwachung",
+      "image": "/images/voidfall/technologien/technologie_zentrale_ueberwachung.webp",
+      "summary": "**Haus:** Fenrax\n**Basis (#22)**\n**Permanente Eigenschaft:** Senke beim Ausspielen eines Politikfokus 1 reine Bevölkerung (nicht im Heimatsektor), um 1 Agenda zu erhalten und/oder 1 **Ruhmplättchen** aufzuwerten.\n**Sofortiger Effekt:** Werte 1 **Ruhmplättchen** auf.\n**Fortschrittlich (#22+)**\n**Permanente Eigenschaft:** Du darfst 1 zusätzliche (5.) Agenda an deinem Haustableau anlegen. Diese gilt wie alle anderen daran angelegten Agenden als im Spiel, du kannst jedoch keine **Verderbnis** darauf legen. Auch diese zusätzliche Agenda muss von einer anderen Art sein als deine anderen (Startagenda + 4 verschiedene Agendaarten).\n**Sofortiger Effekt:** Zahle 2 **Energie**, um 1 Agenda zu erhalten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 350
+    },
+    {
+      "id": "technologie_zerstoerer",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Zerstörer",
+      "image": "/images/voidfall/technologien/technologie_zerstoerer.webp",
+      "summary": "**Haus:** Zenor\n**Basis (#9)**\n**Permanente Eigenschaft:** Du darfst Zerstörerflotten einsetzen. Du darfst nur die Eigenschaften im oberen Teil des Zerstörer-Kampfplättchen nutzen.\n**Sofortiger Effekt:** Setze 1 Zerstörerflotte in deinem Heimatsektor ein.\n**Fortschrittlich (#9+)**\n**Permanente Eigenschaft:** Du darfst alle Eigenschaften des Zerstörer-Kampfplättchens nutzen.\n**Sofortiger Effekt:** Aktiviere 1 **Flotte**.\n*Ausführliche Kampfeigenschaften: siehe Anleitung, S. 35–37.*",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 360
+    },
+    {
+      "id": "technologie_zielerfassung",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Technologie – Zielerfassung",
+      "image": "/images/voidfall/technologien/technologie_zielerfassung.webp",
+      "summary": "**Haus:** Belitan\n**Basis (#3)**\n**Permanente Eigenschaft:** Erhalte in Kämpfen mit mind. 1 eigenen **Korvettenflotte** +5 Initiative.\n**Sofortiger Effekt:** Erhalte 2 **Energie** und/oder setze 1 **Korvettenflotte** in deinem Heimatsektor ein.\n**Fortschrittlich (#3+)**\n**Permanente Eigenschaft:** In Kämpfen fügst du als 1. Schaden zu. Dazu muss keine **Korvettenflotte** im Kampfsektor sein. Wenn du allerdings als Defensive nur Wächter hast, hast du eine Initiative von 0 und kannst keinen Schaden zufügen.\n**Sofortiger Effekt:** Erhalte 1 Dominanzagenda und/oder sammle deine **Flotten**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "technologien"
+      ],
+      "warnings": [],
+      "sort_order": 370
+    }
+  ]
+}

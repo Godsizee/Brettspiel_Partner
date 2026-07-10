@@ -1,0 +1,14 @@
+Anmerkung für die KI: Grün im Dateinamen bezieht sich auf die Farbe der Rückseite der Karte
+
+Für Alle Verträge gilt: Besitze(und es reicht sie zu besitzen) am Spielende mindestens 3 Baupläne der entsprechenden Art
+
+Auflistung der Arten:
+01 Luft
+02 Wasser
+03 Pflanzen
+04 Batterie
+05 Mineral
+06 Wohngebäude
+
+
+Egal Welcher Vertrag: Erfüllt am Spielende gibt 9 Punkte Nicht Erfüllt gibt 4 Minuspunkte

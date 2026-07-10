@@ -1,0 +1,544 @@
+{
+  "entries": [
+    {
+      "id": "agenda_aktion_dominanz",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaaktion – Dominanz",
+      "image": "/images/voidfall/agenden/agenda_dominanz.webp",
+      "summary": "Fokussiere dich für sie auf **Versuchung** oder **Innovation**.\n\n**Dringe in 1 Sektor ein.**",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 100
+    },
+    {
+      "id": "agenda_d1",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel D1 – Elite",
+      "image": "/images/voidfall/agenden/agenda_dominanz.webp",
+      "summary": "**Dominanz-Agenda · D1**\n\n- Erhalte 5 Einflusspunkte, falls du mind. 1 reinen Sektor mit **Bevölkerungswert** 6 hast.\n- Erhalte 4/8/12/16 Einflusspunkte, falls deine **Gesellschaftsleiste** rein und auf Stufe I/II/III/IV ist.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 110
+    },
+    {
+      "id": "agenda_d2",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel D2 – Kommerzielles Syndikat",
+      "image": "/images/voidfall/agenden/agenda_dominanz.webp",
+      "summary": "**Dominanz-Agenda · D2**\n\n- Erhalte 5 Einflusspunkte, falls du mind. 4 reine Sektoren mit **Bevölkerungswert** von mind. 3 hast.\n- Erhalte 4/8/12/16 Einflusspunkte, falls deine **Wirtschaftsleiste** rein und auf Stufe I/II/III/IV ist.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 120
+    },
+    {
+      "id": "agenda_d3",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel D3 – Föderale Autorität",
+      "image": "/images/voidfall/agenden/agenda_dominanz.webp",
+      "summary": "**Dominanz-Agenda · D3**\n\n- Erhalte 4 Einflusspunkte, falls du mind. 2 reine Sektoren mit **Bevölkerungswert** von mind. 5 hast.\n- Erhalte 4/8/12/16 Einflusspunkte, falls deine **Staatsführungsleiste** rein und auf Stufe I/II/III/IV ist.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 130
+    },
+    {
+      "id": "agenda_d4",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel D4 – Handelsregierung",
+      "image": "/images/voidfall/agenden/agenda_dominanz.webp",
+      "summary": "**Dominanz-Agenda · D4**\n\n- Erhalte 5 Einflusspunkte, falls deine **Staatsführungsleiste** rein und auf mind. Stufe II ist.\n- Erhalte 1 Einflusspunkt pro 2 **Nahrung**/**Energie**/**Material** in deinem Vorrat (addiere all diese Ressourcen und teile durch 2).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 140
+    },
+    {
+      "id": "agenda_d5",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel D5 – Nachhaltiger Luxus",
+      "image": "/images/voidfall/agenden/agenda_dominanz.webp",
+      "summary": "**Dominanz-Agenda · D5**\n\n- Erhalte 5 Einflusspunkte, falls deine **Gesellschaftsleiste** rein und auf mind. Stufe II ist.\n- Erhalte 5 Einflusspunkte pro eigenem reinen Sektor, dessen **Wartungskosten** mind. 2 beträgt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 150
+    },
+    {
+      "id": "agenda_d6",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel D6 – Progressive Wohlfahrt",
+      "image": "/images/voidfall/agenden/agenda_dominanz.webp",
+      "summary": "**Dominanz-Agenda · D6**\n\n- Erhalte 5 Einflusspunkte, falls deine **Wirtschaftsleiste** rein und auf mind. Stufe II ist.\n- Erhalte 4 Einflusspunkte pro eigenem reinen Sektor mit **Bevölkerungswert** von mind. 4.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 160
+    },
+    {
+      "id": "agenda_d7",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel D7 – Erleuchtete Nation",
+      "image": "/images/voidfall/agenden/agenda_dominanz.webp",
+      "summary": "**Dominanz-Agenda · D7**\n\n- Erhalte 4 Einflusspunkte, falls mind. 1 deiner **Zivilisationsleisten** rein und auf Stufe III oder IV ist.\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit **Bevölkerungswert** von mind. 3.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 170
+    },
+    {
+      "id": "agenda_d8",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel D8 – Interplanetare Kolonisation",
+      "image": "/images/voidfall/agenden/agenda_dominanz.webp",
+      "summary": "**Dominanz-Agenda · D8**\n\n- Erhalte 4 Einflusspunkte, falls du eine reine **Gesamtbevölkerung** von mind. 10 hast.\n- Erhalte 2/4/6/6 Einflusspunkte pro eigener reiner **Zivilisationsleiste** auf Stufe I/II/III/IV.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 180
+    },
+    {
+      "id": "agenda_aktion_macht",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaaktion – Macht",
+      "image": "/images/voidfall/agenden/agenda_macht.webp",
+      "summary": "Fokussiere dich für sie auf **Wohlstand** oder **Fortschritt**.\n\n**Schreite auf 1 deiner niedrigsten Zivilisationsleisten voran und/oder erhalte 1 Handelsplättchen.**",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 190
+    },
+    {
+      "id": "agenda_m1",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel M1 – Bergbaukonsortium",
+      "image": "/images/voidfall/agenden/agenda_macht.webp",
+      "summary": "**Macht-Agenda · M1**\n\n- Erhalte 5 Einflusspunkte, falls dein **Produktionsertrag** von **Material** mind. 8 ist.\n- Erhalte 5 Einflusspunkte pro eigenem reinen Sektor mit mind. 2 **Flotten**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 200
+    },
+    {
+      "id": "agenda_m2",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel M2 – Gebündelte Energiequellen",
+      "image": "/images/voidfall/agenden/agenda_macht.webp",
+      "summary": "**Macht-Agenda · M2**\n\n- Erhalte 5 Einflusspunkte, falls dein **Produktionsertrag** von **Energie** mind. 8 ist.\n- Erhalte 2 Einflusspunkte pro **Flotte** in eigenen reinen Sektoren.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 210
+    },
+    {
+      "id": "agenda_m3",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel M3 – Konzentrierte Kriegsführung",
+      "image": "/images/voidfall/agenden/agenda_macht.webp",
+      "summary": "**Macht-Agenda · M3**\n\n- Erhalte 6 Einflusspunkte, falls du mind. 3 **Werften**/**Sternenbasen** in eigenen reinen Sektoren hast.\n- Erhalte 7 Einflusspunkte pro eigenem reinen Sektor mit mind. 3 **Flotten**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 220
+    },
+    {
+      "id": "agenda_m4",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel M4 – Zentrales Währungssystem",
+      "image": "/images/voidfall/agenden/agenda_macht.webp",
+      "summary": "**Macht-Agenda · M4**\n\n- Erhalte 7 Einflusspunkte, falls dein **Produktionsertrag** von **Credits** mind. 4 ist.\n- Erhalte 2 Einflusspunkte pro eigenem reinen Sektor mit mind. 1 **Werft**/**Sternenbasis**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 230
+    },
+    {
+      "id": "agenda_m5",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel M5 – Sicherheitspolitik",
+      "image": "/images/voidfall/agenden/agenda_macht.webp",
+      "summary": "**Macht-Agenda · M5**\n\n- Erhalte 5 Einflusspunkte, falls du mind. 3 **Verteidigungsanlagen**/**Sternenbasen** in eigenen reinen Sektoren hast.\n- Erhalte 2 Einflusspunkte pro **Flotte** in eigenen reinen Sektoren.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 240
+    },
+    {
+      "id": "agenda_m6",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel M6 – Industrialisierte Ernährung",
+      "image": "/images/voidfall/agenden/agenda_macht.webp",
+      "summary": "**Macht-Agenda · M6**\n\n- Erhalte 7 Einflusspunkte, falls dein **Produktionsertrag** von **Nahrung** mind. 8 ist.\n- Erhalte 2 Einflusspunkte pro **Werft**/**Sternenbasis** in eigenen reinen Sektoren.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 250
+    },
+    {
+      "id": "agenda_m7",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel M7 – Forschungsarchive",
+      "image": "/images/voidfall/agenden/agenda_macht.webp",
+      "summary": "**Macht-Agenda · M7**\n\n- Erhalte 7 Einflusspunkte, falls du mind. 8 **Wissen** in deinem Vorrat hast.\n- Erhalte 6 Einflusspunkte pro eigenem reinen Sektor mit mind. 3 **Stützpunkten**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 260
+    },
+    {
+      "id": "agenda_m8",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel M8 – Umfassende Bildung",
+      "image": "/images/voidfall/agenden/agenda_macht.webp",
+      "summary": "**Macht-Agenda · M8**\n\n- Erhalte 5 Einflusspunkte, falls dein **Produktionsertrag** von **Wissen** mind. 8 ist.\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit mind. 1 **Verteidigungsanlage**/**Sternenbasis**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 270
+    },
+    {
+      "id": "agenda_aktion_unterstuetzung",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaaktion – Unterstützung",
+      "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
+      "summary": "Fokussiere dich für sie auf **Eroberung** oder **Verstärkung**.\n\n**Aktiviere 1 Flotte und/oder errichte 1 Stützpunkt.**",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 280
+    },
+    {
+      "id": "agenda_u1",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel U1 – Das Erlösungsprojekt",
+      "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
+      "summary": "**Unterstützung-Agenda · U1**\n\n- Erhalte 7 Einflusspunkte, falls all deine Sektoren rein sind.\n- Erhalte 4 Einflusspunkte pro eigenem reinen Sektor ohne freies Gildenfeld. Kolonieschiffe erschaffen keine Gildenfelder in deinen Sektoren.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 290
+    },
+    {
+      "id": "agenda_u2",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel U2 – Industriekonglomerat",
+      "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
+      "summary": "**Unterstützung-Agenda · U2**\n\n- Erhalte 6 Einflusspunkte, falls deine **Wartungskosten** mind. 10 betragen.\n- Erhalte 5 Einflusspunkte pro eigenem reinen Sektor mit mind. 3 **Gilden**. Mind. 3 der **Gilden** müssen unterschiedlich sein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 300
+    },
+    {
+      "id": "agenda_u3",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel U3 – Agrarwirtschaftliche Union",
+      "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
+      "summary": "**Unterstützung-Agenda · U3**\n\n- Erhalte 7 Einflusspunkte, falls du mind. 3 **Nahrungsgilden** in eigenen reinen Sektoren hast.\n- Erhalte 4 Einflusspunkte pro eigenem reinen Sektor mit **Forschungsgilde**(n).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 310
+    },
+    {
+      "id": "agenda_u4",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel U4 – Institut für Risikokontrolle",
+      "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
+      "summary": "**Unterstützung-Agenda · U4**\n\n- Erhalte 7 Einflusspunkte, falls mind. 1 deiner Agenden verderbt ist.\n- Erhalte 4 Einflusspunkte pro eigenem reinen Sektor mit mind. 3 **Gilden**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 320
+    },
+    {
+      "id": "agenda_u5",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel U5 – Schwerindustrie",
+      "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
+      "summary": "**Unterstützung-Agenda · U5**\n\n- Erhalte 6 Einflusspunkte, falls du mind. 2 Konstruktions- und mind. 2 **Bergbaugilden** in eigenen reinen Sektoren hast.\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit **Kreditgilde**(n).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 330
+    },
+    {
+      "id": "agenda_u6",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel U6 – Umweltverwertung",
+      "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
+      "summary": "**Unterstützung-Agenda · U6**\n\n- Erhalte 7 Einflusspunkte, falls mind. 1 deiner **Zivilisationsleisten** verderbt ist.\n- Erhalte 5 Einflusspunkte pro 2 **Bergbaugilden** in eigenen reinen Sektoren (addiere alle und teile durch 2).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 340
+    },
+    {
+      "id": "agenda_u7",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel U7 – Die Quelleninitiative",
+      "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
+      "summary": "**Unterstützung-Agenda · U7**\n\n- Erhalte 6 Einflusspunkte, falls du max. 1 **Verderbnis** auf deinem Haustableau / in deinen Sektoren hast. Zähle **Verderbnis** auf Dekontaminationskammern nicht dazu.\n- Erhalte 5 Einflusspunkte pro 2 **Nahrungsgilden** in eigenen reinen Sektoren (addiere alle und teile durch 2).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 350
+    },
+    {
+      "id": "agenda_u8",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel U8 – Optimale Energieversorgung",
+      "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
+      "summary": "**Unterstützung-Agenda · U8**\n\n- Erhalte 5 Einflusspunkte, falls deine Gesamtwartungskosten max. 6 betragen.\n- Erhalte 5 Einflusspunkte pro 2 **Konstruktionsgilden** in eigenen reinen Sektoren (addiere alle und teile durch 2). REICHTUM",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 360
+    },
+    {
+      "id": "agenda_aktion_reichtum",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaaktion – Reichtum",
+      "image": "/images/voidfall/agenden/agenda_reichtum.webp",
+      "summary": "Fokussiere dich für sie auf **Entwicklung** oder **Produktion**.\n\n**Gründe 1 Gilde und/oder produziere 1 Ressourcentyp. Wählst du beides, muss der Ressourcentyp der Gilde entsprechen.**",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 370
+    },
+    {
+      "id": "agenda_r1",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel R1 – Gewaltige Armada",
+      "image": "/images/voidfall/agenden/agenda_reichtum.webp",
+      "summary": "**Reichtum-Agenda · R1**\n\n- Erhalte 4 Einflusspunkte, falls du mind. 2 verschiedene **Flottentypen** in eigenen reinen Sektoren eingesetzt hast. Sie dürfen im selben oder in unterschiedlichen Sektoren sein.\n- Erhalte 2 Einflusspunkte pro eigener **Hinterlassenschaft**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 380
+    },
+    {
+      "id": "agenda_r2",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel R2 – Quantensprung",
+      "image": "/images/voidfall/agenden/agenda_reichtum.webp",
+      "summary": "**Reichtum-Agenda · R2**\n\n- Erhalte 4 Einflusspunkte, falls du mind. 2 **Fortschrittliche Technologien** erforscht hast.\n- Erhalte 3 Einflusspunkte pro eigenen 2 **Beuten**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 390
+    },
+    {
+      "id": "agenda_r3",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel R3 – Technologische Singularität",
+      "image": "/images/voidfall/agenden/agenda_reichtum.webp",
+      "summary": "**Reichtum-Agenda · R3**\n\n- Erhalte 4 Einflusspunkte, falls du insgesamt mind. 4 **Technologien** erforscht hast.\n- Erhalte 5 Einflusspunkte pro 2 eigenen reinen Sektoren.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 400
+    },
+    {
+      "id": "agenda_r4",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel R4 – Handelsmonopol",
+      "image": "/images/voidfall/agenden/agenda_reichtum.webp",
+      "summary": "**Reichtum-Agenda · R4**\n\n- Erhalte 3 Einflusspunkte, falls du mind. 2 **Handelsplättchen** hast.\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor ohne **Wartungskosten**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 410
+    },
+    {
+      "id": "agenda_r5",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel R5 – Die Tilgungsdirektive",
+      "image": "/images/voidfall/agenden/agenda_reichtum.webp",
+      "summary": "**Reichtum-Agenda · R5**\n\n- Erhalte 4 Einflusspunkte, falls du mind. 2 **Hinterlassenschaften** hast.\n- Erhalte dem Wert deiner **Ruhmplättchen** entsprechend viele Einflusspunkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 420
+    },
+    {
+      "id": "agenda_r6",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel R6 – Autarke Kampagne",
+      "image": "/images/voidfall/agenden/agenda_reichtum.webp",
+      "summary": "**Reichtum-Agenda · R6**\n\n- Erhalte 4 Einflusspunkte, falls du mind. 3 **Ruhmplättchen** hast.\n- Erhalte 4 Einflusspunkte pro 3 **Credits** in deinem Vorrat.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 430
+    },
+    {
+      "id": "agenda_r7",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel R7 – Der neueste Stand",
+      "image": "/images/voidfall/agenden/agenda_reichtum.webp",
+      "summary": "**Reichtum-Agenda · R7**\n\n- Erhalte 6 Einflusspunkte, falls du mind. 1 **Ruhmplättchen** mit Wert „5“ hast.\n- Erhalte 4 Einflusspunkte pro erforschter **Fortschrittlicher Technologie**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 440
+    },
+    {
+      "id": "agenda_r8",
+      "type": "reference",
+      "category": "agenden",
+      "name": "Agendaziel R8 – Intellektuelle Vormacht",
+      "image": "/images/voidfall/agenden/agenda_reichtum.webp",
+      "summary": "**Reichtum-Agenda · R8**\n\n- Erhalte 4 Einflusspunkte, falls du mind. 4 eigene reine Sektoren hast.\n- Erhalte 2/3 Einflusspunkte pro erforschter Basis-/**Fortschrittlicher Technologie**.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "agenden"
+      ],
+      "warnings": [],
+      "sort_order": 450
+    }
+  ]
+}

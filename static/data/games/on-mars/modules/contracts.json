@@ -1,0 +1,436 @@
+{
+  "entries": [
+    {
+      "id": "contract_blue_01",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Liefervertrag 01 (Blau)",
+      "image": "/images/on_mars/Erdenverträge/Blau/01 Blau.webp",
+      "summary": "Bedingung: Gib am Spielende 3 Luft und 2 Mineralien in den allgemeinen Vorrat ab.\r\nErfüllt am Spielende: +9 GP\r\nNicht erfüllt am Spielende: -4 GP",
+      "description": "Ressourcen können während des Spiels auf der Karte gelagert werden und belegen keinen Platz im Depot.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_blue_02",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Liefervertrag 02 (Blau)",
+      "image": "/images/on_mars/Erdenverträge/Blau/02 Blau.webp",
+      "summary": "Bedingung: Gib am Spielende 3 Wasser und 2 Mineralien in den allgemeinen Vorrat ab.\r\nErfüllt am Spielende: +9 GP\r\nNicht erfüllt am Spielende: -4 GP",
+      "description": "Ressourcen können während des Spiels auf der Karte gelagert werden und belegen keinen Platz im Depot.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_blue_03",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Liefervertrag 03 (Blau)",
+      "image": "/images/on_mars/Erdenverträge/Blau/03 Blau.webp",
+      "summary": "Bedingung: Gib am Spielende 3 Pflanzen und 2 Mineralien in den allgemeinen Vorrat ab.\r\nErfüllt am Spielende: +9 GP\r\nNicht erfüllt am Spielende: -4 GP",
+      "description": "Ressourcen können während des Spiels auf der Karte gelagert werden und belegen keinen Platz im Depot.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_blue_04",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Liefervertrag 04 (Blau)",
+      "image": "/images/on_mars/Erdenverträge/Blau/04 Blau.webp",
+      "summary": "Bedingung: Gib am Spielende 3 Batterien und 2 Mineralien in den allgemeinen Vorrat ab.\r\nErfüllt am Spielende: +9 GP\r\nNicht erfüllt am Spielende: -4 GP",
+      "description": "Ressourcen können während des Spiels auf der Karte gelagert werden und belegen keinen Platz im Depot.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_blue_05",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Liefervertrag 05 (Blau)",
+      "image": "/images/on_mars/Erdenverträge/Blau/05 Blau.webp",
+      "summary": "Bedingung: Gib am Spielende 4 Mineralien in den allgemeinen Vorrat ab.\r\nErfüllt am Spielende: +9 GP\r\nNicht erfüllt am Spielende: -4 GP",
+      "description": "Ressourcen können während des Spiels auf der Karte gelagert werden und belegen keinen Platz im Depot.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_blue_06",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Liefervertrag 06 (Blau)",
+      "image": "/images/on_mars/Erdenverträge/Blau/06 Blau.webp",
+      "summary": "Bedingung: Gib am Spielende 3 Kristalle und 2 Mineralien in den allgemeinen Vorrat ab.\r\nErfüllt am Spielende: +9 GP\r\nNicht erfüllt am Spielende: -4 GP",
+      "description": "Ressourcen können während des Spiels auf der Karte gelagert werden und belegen keinen Platz im Depot.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_green_01",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Besitzvertrag 01 (Grün)",
+      "image": "/images/on_mars/Erdenverträge/Grün/01 Grün.webp",
+      "summary": "Bedingung: Besitze am Spielende mindestens 3 Luft-Baupläne.\r\nErfüllt am Spielende: +9 GP\r\nNicht erfüllt am Spielende: -4 GP",
+      "description": "Die Baupläne müssen sich nur in deinem Besitz befinden. Sie müssen für diesen Vertrag nicht gebaut worden sein.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_green_02",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Besitzvertrag 02 (Grün)",
+      "image": "/images/on_mars/Erdenverträge/Grün/02 Grün.webp",
+      "summary": "Bedingung: Besitze am Spielende mindestens 3 Wasser-Baupläne.\r\nErfüllt am Spielende: +9 GP\r\nNicht erfüllt am Spielende: -4 GP",
+      "description": "Die Baupläne müssen sich nur in deinem Besitz befinden. Sie müssen für diesen Vertrag nicht gebaut worden sein.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_green_03",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Besitzvertrag 03 (Grün)",
+      "image": "/images/on_mars/Erdenverträge/Grün/03 Grün.webp",
+      "summary": "Bedingung: Besitze am Spielende mindestens 3 Pflanzen-Baupläne.\r\nErfüllt am Spielende: +9 GP\r\nNicht erfüllt am Spielende: -4 GP",
+      "description": "Die Baupläne müssen sich nur in deinem Besitz befinden. Sie müssen für diesen Vertrag nicht gebaut worden sein.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_green_04",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Besitzvertrag 04 (Grün)",
+      "image": "/images/on_mars/Erdenverträge/Grün/04 Grün.webp",
+      "summary": "Bedingung: Besitze am Spielende mindestens 3 Batterie-Baupläne.\r\nErfüllt am Spielende: +9 GP\r\nNicht erfüllt am Spielende: -4 GP",
+      "description": "Die Baupläne müssen sich nur in deinem Besitz befinden. Sie müssen für diesen Vertrag nicht gebaut worden sein.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_green_05",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Besitzvertrag 05 (Grün)",
+      "image": "/images/on_mars/Erdenverträge/Grün/05 Grün.webp",
+      "summary": "Bedingung: Besitze am Spielende mindestens 3 Mineral-Baupläne.\r\nErfüllt am Spielende: +9 GP\r\nNicht erfüllt am Spielende: -4 GP",
+      "description": "Die Baupläne müssen sich nur in deinem Besitz befinden. Sie müssen für diesen Vertrag nicht gebaut worden sein.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_green_06",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Besitzvertrag 06 (Grün)",
+      "image": "/images/on_mars/Erdenverträge/Grün/06 Grün.webp",
+      "summary": "Bedingung: Besitze am Spielende mindestens 3 Wohngebäude-Baupläne.\r\nErfüllt am Spielende: +9 GP\r\nNicht erfüllt am Spielende: -4 GP",
+      "description": "Die Baupläne müssen sich nur in deinem Besitz befinden. Sie müssen für diesen Vertrag nicht gebaut worden sein.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_orange_01",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Ausbauvertrag 01 (Orange)",
+      "image": "/images/on_mars/Erdenverträge/Orange/01 Orange.webp",
+      "summary": "Bedingung: Besitze bei Spielende 2 eigene Gebäudefortschritt-Marker (aufgewertete Gebäude) auf einem Luft-Komplex der Mindestgröße 3.\r\nErfüllt am Spielende: +12 GP\r\nNicht erfüllt am Spielende: -6 GP",
+      "description": "Sehr lukrativ, erfordert jedoch eine starke Präsenz in einem großen Luft-Komplex.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_orange_02",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Ausbauvertrag 02 (Orange)",
+      "image": "/images/on_mars/Erdenverträge/Orange/02 Orange.webp",
+      "summary": "Bedingung: Besitze bei Spielende 2 eigene Gebäudefortschritt-Marker (aufgewertete Gebäude) auf einem Wasser-Komplex der Mindestgröße 3.\r\nErfüllt am Spielende: +12 GP\r\nNicht erfüllt am Spielende: -6 GP",
+      "description": "Sehr lukrativ, erfordert jedoch eine starke Präsenz in einem großen Wasser-Komplex.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_orange_03",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Ausbauvertrag 03 (Orange)",
+      "image": "/images/on_mars/Erdenverträge/Orange/03 Orange.webp",
+      "summary": "Bedingung: Besitze bei Spielende 2 eigene Gebäudefortschritt-Marker (aufgewertete Gebäude) auf einem Pflanzen-Komplex der Mindestgröße 3.\r\nErfüllt am Spielende: +12 GP\r\nNicht erfüllt am Spielende: -6 GP",
+      "description": "Sehr lukrativ, erfordert jedoch eine starke Präsenz in einem großen Pflanzen-Komplex.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_orange_04",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Ausbauvertrag 04 (Orange)",
+      "image": "/images/on_mars/Erdenverträge/Orange/04 Orange.webp",
+      "summary": "Bedingung: Besitze bei Spielende 2 eigene Gebäudefortschritt-Marker (aufgewertete Gebäude) auf einem Batterie-Komplex der Mindestgröße 3.\r\nErfüllt am Spielende: +12 GP\r\nNicht erfüllt am Spielende: -6 GP",
+      "description": "Sehr lukrativ, erfordert jedoch eine starke Präsenz in einem großen Batterie-Komplex.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_orange_05",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Ausbauvertrag 05 (Orange)",
+      "image": "/images/on_mars/Erdenverträge/Orange/05 Orange.webp",
+      "summary": "Bedingung: Besitze bei Spielende 2 eigene Gebäudefortschritt-Marker (aufgewertete Gebäude) auf einem Mineral-Komplex der Mindestgröße 3.\r\nErfüllt am Spielende: +12 GP\r\nNicht erfüllt am Spielende: -6 GP",
+      "description": "Sehr lukrativ, erfordert jedoch eine starke Präsenz in einem großen Mineral-Komplex.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_orange_06",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Ausbauvertrag 06 (Orange)",
+      "image": "/images/on_mars/Erdenverträge/Orange/06 Orange.webp",
+      "summary": "Bedingung: Besitze bei Spielende 2 eigene Gebäudefortschritt-Marker (aufgewertete Gebäude) auf einem Wohngebäude-Komplex der Mindestgröße 3.\r\nErfüllt am Spielende: +12 GP\r\nNicht erfüllt am Spielende: -6 GP",
+      "description": "Sehr lukrativ, erfordert jedoch eine starke Präsenz in einem großen Wohngebäude-Komplex.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_turquoise_01",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Großkomplexvertrag 01 (Türkis)",
+      "image": "/images/on_mars/Erdenverträge/Türkis/01 Türkis.webp",
+      "summary": "Bedingung: Besitze bei Spielende 1 eigenen Gebäudefortschritt-Marker auf einem Luft-Komplex der Mindestgröße 4.\r\nErfüllt am Spielende: +12 GP\r\nNicht erfüllt am Spielende: -6 GP",
+      "description": "Die Mindestgröße 4 bezieht sich auf die Anzahl der Plättchen im zusammenhängenden Luft-Komplex.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_turquoise_02",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Großkomplexvertrag 02 (Türkis)",
+      "image": "/images/on_mars/Erdenverträge/Türkis/02 Türkis.webp",
+      "summary": "Bedingung: Besitze bei Spielende 1 eigenen Gebäudefortschritt-Marker auf einem Wasser-Komplex der Mindestgröße 4.\r\nErfüllt am Spielende: +12 GP\r\nNicht erfüllt am Spielende: -6 GP",
+      "description": "Die Mindestgröße 4 bezieht sich auf die Anzahl der Plättchen im zusammenhängenden Wasser-Komplex.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_turquoise_03",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Großkomplexvertrag 03 (Türkis)",
+      "image": "/images/on_mars/Erdenverträge/Türkis/03 Türkis.webp",
+      "summary": "Bedingung: Besitze bei Spielende 1 eigenen Gebäudefortschritt-Marker auf einem Pflanzen-Komplex der Mindestgröße 4.\r\nErfüllt am Spielende: +12 GP\r\nNicht erfüllt am Spielende: -6 GP",
+      "description": "Die Mindestgröße 4 bezieht sich auf die Anzahl der Plättchen im zusammenhängenden Pflanzen-Komplex.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_turquoise_04",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Großkomplexvertrag 04 (Türkis)",
+      "image": "/images/on_mars/Erdenverträge/Türkis/04 Türkis.webp",
+      "summary": "Bedingung: Besitze bei Spielende 1 eigenen Gebäudefortschritt-Marker auf einem Batterie-Komplex der Mindestgröße 4.\r\nErfüllt am Spielende: +12 GP\r\nNicht erfüllt am Spielende: -6 GP",
+      "description": "Die Mindestgröße 4 bezieht sich auf die Anzahl der Plättchen im zusammenhängenden Batterie-Komplex.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_turquoise_05",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Großkomplexvertrag 05 (Türkis)",
+      "image": "/images/on_mars/Erdenverträge/Türkis/05 Türkis.webp",
+      "summary": "Bedingung: Besitze bei Spielende 1 eigenen Gebäudefortschritt-Marker auf einem Mineral-Komplex der Mindestgröße 4.\r\nErfüllt am Spielende: +12 GP\r\nNicht erfüllt am Spielende: -6 GP",
+      "description": "Die Mindestgröße 4 bezieht sich auf die Anzahl der Plättchen im zusammenhängenden Mineral-Komplex.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "contract_turquoise_06",
+      "type": "card",
+      "category": "Erdenverträge",
+      "name": "Großkomplexvertrag 06 (Türkis)",
+      "image": "/images/on_mars/Erdenverträge/Türkis/06 Türkis.webp",
+      "summary": "Bedingung: Besitze bei Spielende 1 eigenen Gebäudefortschritt-Marker auf einem Wohngebäude-Komplex der Mindestgröße 4.\r\nErfüllt am Spielende: +12 GP\r\nNicht erfüllt am Spielende: -6 GP",
+      "description": "Die Mindestgröße 4 bezieht sich auf die Anzahl der Plättchen im zusammenhängenden Wohngebäude-Komplex.",
+      "timing": [],
+      "tags": [
+        "contracts"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    }
+  ]
+}

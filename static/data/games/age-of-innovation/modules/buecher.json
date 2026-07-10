@@ -1,0 +1,76 @@
+{
+  "entries": [
+    {
+      "id": "buch-blau",
+      "type": "card",
+      "category": "Bücher",
+      "name": "Buch Blau",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Bücher/Buch_blau.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "buecher"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "buch-braun",
+      "type": "card",
+      "category": "Bücher",
+      "name": "Buch Braun",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Bücher/Buch_braun.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "buecher"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "buch-gelb",
+      "type": "card",
+      "category": "Bücher",
+      "name": "Buch Gelb",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Bücher/Buch_gelb.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "buecher"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "buch-weiss",
+      "type": "card",
+      "category": "Bücher",
+      "name": "Buch Weiß",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Bücher/Buch_weiss.webp",
+      "summary": "",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "buecher"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    }
+  ]
+}

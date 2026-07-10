@@ -1,0 +1,112 @@
+{
+  "entries": [
+    {
+      "id": "buchaktion-01",
+      "type": "card",
+      "category": "Buchaktionen",
+      "name": "Buchaktion 01",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Buchaktionen/Buchaktion 01.webp",
+      "summary": "Wenn du 1 Buch einer beliebigen Disziplin abgibst, erhältst du 5 Macht.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "buchaktionen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "buchaktion-02",
+      "type": "card",
+      "category": "Buchaktionen",
+      "name": "Buchaktion 02",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Buchaktionen/Buchaktion 02.webp",
+      "summary": "Wenn du 1 Buch einer beliebigen Disziplin abgibst, darfst du in einer Disziplin deiner Wahl auf dem Wissenstableau um 2 Stufen aufsteigen.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "buchaktionen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "buchaktion-03",
+      "type": "card",
+      "category": "Buchaktionen",
+      "name": "Buchaktion 03",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Buchaktionen/Buchaktion 03.webp",
+      "summary": "Wenn du 2 Bücher beliebiger Disziplinen abgibst, erhältst du 6 Geld.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "buchaktionen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "buchaktion-04",
+      "type": "card",
+      "category": "Buchaktionen",
+      "name": "Buchaktion 04",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Buchaktionen/Buchaktion 04.webp",
+      "summary": "Wenn du 2 Bücher beliebiger Disziplinen abgibst, darfst du kostenlos eine Werkstatt in eine Gilde aufwerten. Dies gilt als Bau einer Gilde, gibt also eventuell Punkte und löst Machtgewinn für andere aus.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "buchaktionen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "buchaktion-05",
+      "type": "card",
+      "category": "Buchaktionen",
+      "name": "Buchaktion 05",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Buchaktionen/Buchaktion 05.webp",
+      "summary": "Wenn du 2 Bücher beliebiger Disziplinen abgibst, erhältst du 2 Punkte für jede deiner Gilden auf dem Spielplan.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "buchaktionen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "buchaktion-06",
+      "type": "card",
+      "category": "Buchaktionen",
+      "name": "Buchaktion 06",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Buchaktionen/Buchaktion 06.webp",
+      "summary": "Wenn du 3 Bücher beliebiger Disziplinen abgibst, darfst du sofort eine Aktion Umwandeln und Bauen mit 3 kostenlosen Spaten ausführen.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "buchaktionen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    }
+  ]
+}

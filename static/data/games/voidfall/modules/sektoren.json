@@ -1,0 +1,259 @@
+{
+  "entries": [
+    {
+      "id": "sektor_gewoehnlich",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Gewöhnlicher Sektor",
+      "image": "/images/voidfall/sektoren/sektor_gewoehnlich.webp",
+      "summary": "- **Variable Bevölkerung:** Violetter Bevölkerungswürfel.\n- Er repräsentiert **Außenposten**, **leereberührte Sektoren** und **Sektoren Gefallener Häuser.**\n\n**Außenposten**\n\nGewöhnlicher Sektor mit besonderer Vorbereitung: Du legst (von deinem Haus und deiner Herkunft abhängig) Flotten, Gilden und Stützpunkte darauf.\n\n**Leereberührter Sektor**\n\nGewöhnlicher Sektor mit besonderer Vorbereitung: In allen Szenarien legt ihr Flotten der Leere darauf.\n\n**Sektor eines Gefallenen Hauses**\n\nGewöhnlicher Sektor mit besonderer Vorbereitung: In allen Szenarien mit solchen Sektoren legt ihr 1 Gefallenes Haus darauf.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 100
+    },
+    {
+      "id": "sektor_genesis",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Genesissektor",
+      "image": "/images/voidfall/sektoren/sektor_genesis.webp",
+      "summary": "- **Variable Bevölkerung:** Violetter Bevölkerungswürfel.\n\n**Besondere Eigenschaften**\n\n- Versetze bei der Übernahme die darin befindliche Verderbnis, falls vorhanden.\n- Vermehre bei Reinheit seine Bevölkerung bei Gründung von Nahrungs-, Bergbau- und Konstruktionsgilden.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 110
+    },
+    {
+      "id": "sektor_asteroidenguertel",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Asteroidengürtel",
+      "image": "/images/voidfall/sektoren/sektor_asteroidenguertel.webp",
+      "summary": "- Enthält bereits 1 **Werft** und 1 **Verteidigungsanlage**.\n- **Keine Bevölkerung:** Ohne Bevölkerungswürfel.\n- Kann nicht verderbt werden.\n\n**Besondere Eigenschaften**\n\n- Erhöht deine Produktionsstufe von Energie und Material um jeweils 1.\n- Setze beim Ausspielen von **Entwicklungsfokus** 2 Flotten in diesem Sektor ein.\n- **Leereresistent:** Verlässt du diesen Sektor, kann die Leere ihn nicht übernehmen. Er verbleibt ohne Flotten. Er kann kein Ziel von Gefechten sein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 120
+    },
+    {
+      "id": "sektor_wurmloch",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Wurmloch (A und B)",
+      "image": "/images/voidfall/sektoren/sektor_wurmloch.webp",
+      "summary": "- **Keine Bevölkerung:** Ohne Bevölkerungswürfel.\n- Kann keine Flotten enthalten. Weder ihr noch die Leere kann eindringen oder Flotten dort sammeln.\n- Kann nicht verderbt werden.\n\n**Besondere Eigenschaften**\n\n- Zu Wurmlöchern benachbarte Sektoren sind zu allen Sektoren benachbart, die zu Wurmlöchern derselben Farbe benachbart sind (und den Wurmlöchern selbst).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 130
+    },
+    {
+      "id": "sektor_heimat_gewoehnlich",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Heimatsektor (Gewöhnlich)",
+      "image": "/images/voidfall/sektoren/sektor_heimat_gewoehnlich.webp",
+      "summary": "- Enthält bereits 1 **Werft**.\n- **Du** nutzt ihn. **Haus Thegwyn**, **Haus Astoran**, **Haus Marqualos** und **Haus Novaris** nutzen andere!\n- **Variable Bevölkerung:** Dein farbiger Bevölkerungswürfel.\n- Kann nicht verderbt werden.\n\n**Besondere Eigenschaften**\n\n- Keine Übernahme durch andere möglich.\n- Kann kein Ziel von Gefechten sein.\n- Bleibt auch ohne Flottenpräsenz unter deiner Kontrolle.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 140
+    },
+    {
+      "id": "sektor_heimat_thegwyn",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Heimatsektor (Thegwyn)",
+      "image": "/images/voidfall/sektoren/sektor_heimat_thegwyn.webp",
+      "summary": "- Enthält bereits 1 **Nahrungsgilde**.\n- Nur von **Haus Thegwyn** nutzbar.\n- **Variable Bevölkerung:** Dein farbiger Bevölkerungswürfel.\n- Kann nicht verderbt werden.\n\n**Besondere Eigenschaften**\n\n- Keine Übernahme durch andere möglich.\n- Bleibt auch ohne Flottenpräsenz unter deiner Kontrolle.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 150
+    },
+    {
+      "id": "sektor_heimat_astoran",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Heimatsektor (Astoran)",
+      "image": "/images/voidfall/sektoren/sektor_heimat_astoran.webp",
+      "summary": "- Enthält bereits 1 **Werft**.\n- Nur von **Haus Astoran** nutzbar.\n- **Variable Bevölkerung:** Dein farbiger Bevölkerungswürfel.\n- Kann nicht verderbt werden.\n\n**Besondere Eigenschaften**\n\n- Keine Übernahme durch andere möglich.\n- Kann kein Ziel von Gefechten sein.\n- Bleibt auch ohne Flottenpräsenz unter deiner Kontrolle.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 160
+    },
+    {
+      "id": "sektor_heimat_marqualos",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Heimatsektor (Marqualos)",
+      "image": "/images/voidfall/sektoren/sektor_heimat_marqualos.webp",
+      "summary": "- Enthält bereits 1 **Werft** und 1 **Kreditgilde**.\n- Nur von **Haus Marqualos** nutzbar.\n- **Variable Bevölkerung:** Dein farbiger Bevölkerungswürfel.\n- **Kann verderbt** werden (im Gegensatz zu anderen Heimatsektoren).\n\n**Besondere Eigenschaften**\n\n- Keine Übernahme durch andere möglich.\n- Kann kein Ziel von Gefechten sein.\n- Bleibt auch ohne Flottenpräsenz unter deiner Kontrolle.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 170
+    },
+    {
+      "id": "sektor_heimat_novaris",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Heimatsektor (Novaris)",
+      "image": "/images/voidfall/sektoren/sektor_heimat_novaris.webp",
+      "summary": "- Enthält bereits 2 **Werften**.\n- Nur von **Haus Novaris** nutzbar.\n- Erhöht deine **Wartungskosten** um 1.\n- **Variable Bevölkerung:** Farbiger Bevölkerungswürfel.\n- **Kann verderbt** werden (im Gegensatz zu anderen Heimatsektoren).\n\n**Besondere Eigenschaften**\n\n- Keine Übernahme durch andere möglich.\n- Kann kein Ziel von Gefechten sein.\n- Bleibt auch ohne Flottenpräsenz unter deiner Kontrolle.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 180
+    },
+    {
+      "id": "sektor_forschungskomplex",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Forschungskomplex",
+      "image": "/images/voidfall/sektoren/sektor_forschungskomplex.webp",
+      "summary": "- Enthält bereits 1 **Sternenbasis** und 1 **Konstruktionsgilde**. Erinnerung: Selbst falls, wer diesen Sektor kontrolliert, die Technologie **Sternenbasen** nicht erforscht hat, fügt die Sternenbasis in Kämpfen der Offensive 1 Annäherungsschaden zu.\n- **Konstante Bevölkerung:** Schwarzer Bevölkerungswürfel mit **Wert 4.**\n\n**Besondere Eigenschaften**\n\n- Tausche (außerhalb der Wartung) Energie 1:1 gegen Wissen (und umgekehrt) aus.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 190
+    },
+    {
+      "id": "sektor_kommunikationsrelais",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Kommunikationsrelais",
+      "image": "/images/voidfall/sektoren/sektor_kommunikationsrelais.webp",
+      "summary": "- Enthält bereits 2 **Verteidigungsanlagen**.\n- Erhöht deine **Wartungskosten** um 1.\n- **Konstante Bevölkerung:** Schwarzer Bevölkerungswürfel mit **Wert 3.**\n\n**Besondere Eigenschaften**\n\n- Zahle nach dem Ausspielen von **Eroberungs**-, **Entwicklungs**-, **Verstärkungs**- und **Politikfokus** 1 Energie, um die 3. Aktion des aktuellen Fokus nutzen zu können. Tue dies beim Agieren, nicht beim Auswählen. Übernimmst du den Sektor mit Hilfe eines **Eroberungs**- oder **Politikfokus** darfst du dies im selben Zug nutzen.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 200
+    },
+    {
+      "id": "sektor_novarchon_palast",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Novarchon-Palast",
+      "image": "/images/voidfall/sektoren/sektor_novarchon_palast.webp",
+      "summary": "- Enthält bereits 1 **Verteidigungsanlage**.\n- Erhöht deine **Wartungskosten** um 1.\n- **Variable Bevölkerung:** Violetter Bevölkerungswürfel.\n\n**Besondere Eigenschaften**\n\n- Erhalte bei Übernahme 2 Beuten.\n- Zahle nach dem Voranschreiten auf einer Zivilisationsleiste (1-mal pro Fokus) 1 Credit, um zusätzlich auf 1 deiner niedrigsten Zivilisationsleisten voranzuschreiten.\n- Kann max. 2 Flottenverbände der Leere (mit max. 6 Flotten) enthalten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 210
+    },
+    {
+      "id": "sektor_paradies",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Paradies",
+      "image": "/images/voidfall/sektoren/sektor_paradies.webp",
+      "summary": "- **Variable Bevölkerung:** Violetter Bevölkerungswürfel.\n- Kann nicht verderbt werden.\n\n**Besondere Eigenschaften**\n\n- Erhöht deine Produktionsstufe von Nahrung, Energie, Material, Credits und Wissen um jeweils 2.\n- Kann max. 2 Flottenverbände der Leere (mit max. 6 Flotten) enthalten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 220
+    },
+    {
+      "id": "sektor_megalopolis",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Megalopolis",
+      "image": "/images/voidfall/sektoren/sektor_megalopolis.webp",
+      "summary": "- Enthält bereits 2 **Kreditgilden**.\n- Erhöht deine **Wartungskosten** um 1.\n- **Konstante Bevölkerung:** Schwarzer Bevölkerungswürfel mit **Wert 6.**\n\n**Besondere Eigenschaften**\n\n- Kann max. 2 Flottenverbände der Leere (mit max. 6 Flotten) enthalten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 230
+    },
+    {
+      "id": "sektor_kolonie",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Kolonie mit Überlebenden",
+      "image": "/images/voidfall/sektoren/sektor_kolonie.webp",
+      "summary": "- Enthält bereits 1 **Verteidigungsanlage** und 1 **Nahrungsgilde**.\n- **Variable Bevölkerung:** Violetter Bevölkerungswürfel.\n\n**Besondere Eigenschaften**\n\n- Erhalte bei Übernahme 2 Nahrung und/oder aktiviere 1 Flotte.\n- Leereresistent: Verlässt du diesen Sektor, kann die Leere ihn nicht übernehmen. Er verbleibt ohne Flotten.\n- Kann kein Ziel von Gefechten sein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 240
+    },
+    {
+      "id": "sektor_antike_ruinen",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Antike Ruinen",
+      "image": "/images/voidfall/sektoren/sektor_antike_ruinen.webp",
+      "summary": "- Enthält bereits 1 **Verteidigungsanlage**.\n- Erhöht deine **Wartungskosten** um 2.\n- **Keine Bevölkerung:** Ohne Bevölkerungswürfel.\n- Kann nicht verderbt werden.\n\n**Besondere Eigenschaften**\n\n- Erforsche bei Übernahme 1 Technologie.\n- Zahle nach dem Ausspielen von **Fortschritts**- und **Innovationsfokussen** 1 Wissen, um die 3. Aktion des aktuellen Fokus nutzen zu können. Tue dies beim Agieren, nicht beim Auswählen. Übernimmst du den Sektor mit Hilfe eines **Innovationsfokus** darfst du dies im selben Zug nutzen.\n- Erhöht dein Maximum Fortschrittlicher Technologien um 1. Bei Verlust dieses Sektors verlierst du keine überzählige Fortschrittliche Technologie.\n- Kann max. 2 Flottenverbände der Leere (mit max. 6 Flotten) enthalten.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 250
+    },
+    {
+      "id": "sektor_riss",
+      "type": "reference",
+      "category": "sektoren",
+      "name": "Riss",
+      "image": "/images/voidfall/sektoren/sektor_riss.webp",
+      "summary": "- Enthält bereits 1 **Verteidigungsanlage**.\n- **Keine Bevölkerung:** Ohne Bevölkerungswürfel.\n- Kann nicht verderbt werden.\n\n**Besondere Eigenschaften**\n\n- Kann max. 3 Flottenverbände der Leere (mit max. 9 Flotten) enthalten.\n- Entfernt bei Übernahme **alle** je 1 Verderbnis oder erhaltet je 5 beliebige Ressourcen. **Ersetze** danach diesen Sektor durch einen reinen Gewöhnlichen Sektor mit Bevölkerungswert 1. (Drehe das Sektorteil um und nutze einen violetten Bevölkerungswürfel.)\n- Erinnerung: Platziere bei Eindringen mit Gleichstand in diesem Sektor 2 Flotten der Leere und 1 Beute.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sektoren"
+      ],
+      "warnings": [],
+      "sort_order": 260
+    }
+  ]
+}

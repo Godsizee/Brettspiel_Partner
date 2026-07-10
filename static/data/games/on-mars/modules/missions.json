@@ -1,0 +1,166 @@
+{
+  "entries": [
+    {
+      "id": "mission_01",
+      "type": "card",
+      "category": "Missionskarten",
+      "name": "Missionskarte 1",
+      "image": "/images/on_mars/Missionskarten/01.webp",
+      "summary": "Ziel: 5 / 5 / 7 Forschungsplättchen wurden vom Spielplan genommen (2/3/4 Spieler).\r\nBelohnung pro Beitrag: Erhalte 2 Kristalle.",
+      "description": "Forschungsplättchen werden bei Spielaufbau platziert und vom Rover aufgesammelt.",
+      "timing": [],
+      "tags": [
+        "missions"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "mission_02",
+      "type": "card",
+      "category": "Missionskarten",
+      "name": "Missionskarte 2",
+      "image": "/images/on_mars/Missionskarten/06.webp",
+      "summary": "Ziel: 10 / 10 / 13 Baupläne wurden aus der Auslage genommen (2/3/4 Spieler).\r\nBelohnung pro Beitrag: Erhalte 1 Kristall.",
+      "description": "Baupläne werden in der Kolonie oder im Orbit über Sonderaktionen/Aktionen erworben.",
+      "timing": [],
+      "tags": [
+        "missions"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "mission_03",
+      "type": "card",
+      "category": "Missionskarten",
+      "name": "Missionskarte 3",
+      "image": "/images/on_mars/Missionskarten/02.webp",
+      "summary": "Ziel: 8 / 8 / 10 Fortschrittliche Gebäude befinden sich auf dem Spielplan (2/3/4 Spieler).\r\nBelohnung pro Beitrag: Erhalte 1 Kristall.",
+      "description": "Entsteht durch das Aufwerten bestehender Gebäude mittels Bauplänen.",
+      "timing": [],
+      "tags": [
+        "missions"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "mission_04",
+      "type": "card",
+      "category": "Missionskarten",
+      "name": "Missionskarte 4",
+      "image": "/images/on_mars/Missionskarten/07.webp",
+      "summary": "Ziel: 3 / 4 / 5 Bots befinden sich auf dem Spielplan (die Bots vom Spielanfang zählen nicht mit) (2/3/4 Spieler).\r\nBelohnung pro Beitrag: Erhalte 2 Kristalle.",
+      "description": "Bots werden über die Aktion 'Bots bauen' im Labor erzeugt.",
+      "timing": [],
+      "tags": [
+        "missions"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "mission_05",
+      "type": "card",
+      "category": "Missionskarten",
+      "name": "Missionskarte 5",
+      "image": "/images/on_mars/Missionskarten/03215.webp",
+      "summary": "Ziel: 5 / 7 / 9 Entdeckungsplättchen wurden von Rovern eingesammelt (2/3/4 Spieler).\r\nBelohnung pro Beitrag: Erhalte 1 Kristall.",
+      "description": "Rover sammeln Entdeckungsplättchen ein, wenn sie ihre Bewegung auf deren Feld beenden.",
+      "timing": [],
+      "tags": [
+        "missions"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "mission_06",
+      "type": "card",
+      "category": "Missionskarten",
+      "name": "Missionskarte 6",
+      "image": "/images/on_mars/Missionskarten/08.webp",
+      "summary": "Ziel: 7 / 11 / 12 Techs wurden aus der Auslage genommen (2/3/4 Spieler).\r\nBelohnung pro Beitrag: Erhalte 1 Kristall.",
+      "description": "Techs können im Labor erworben und weiterentwickelt werden.",
+      "timing": [],
+      "tags": [
+        "missions"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "mission_07",
+      "type": "card",
+      "category": "Missionskarten",
+      "name": "Missionskarte 7",
+      "image": "/images/on_mars/Missionskarten/04.webp",
+      "summary": "Ziel: 8 / 11 / 14 Würfel wurden in den Fortschrittsbereich gelegt (2/3/4 Spieler).\r\nBelohnung pro Beitrag: Erhalte 1 Kristall.",
+      "description": "Erfolgt durch Aktionen im Labor und Erhöhen der LSS-Level.",
+      "timing": [],
+      "tags": [
+        "missions"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "mission_08",
+      "type": "card",
+      "category": "Missionskarten",
+      "name": "Missionskarte 8",
+      "image": "/images/on_mars/Missionskarten/09.webp",
+      "summary": "Ziel: 4 / 4 / 5 Wissenschaftler wurden aus der Auslage genommen (2/3/4 Spieler).\r\nBelohnung pro Beitrag: Erhalte 2 Kristalle.",
+      "description": "Wissenschaftler sind stark limitiert und bieten exzellente Endwertungsboni.",
+      "timing": [],
+      "tags": [
+        "missions"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    },
+    {
+      "id": "mission_09",
+      "type": "card",
+      "category": "Missionskarten",
+      "name": "Missionskarte 9",
+      "image": "/images/on_mars/Missionskarten/058.webp",
+      "summary": "Ziel: 2 / 2 / 3 Erdenverträge wurden erfüllt (2/3/4 Spieler).\r\nBelohnung pro Beitrag: Erhalte 2 Kristalle.",
+      "description": "Erfüllte Erdenverträge bringen bei Spielende wertvolle Pluspunkte (+9/+12 GP).",
+      "timing": [],
+      "tags": [
+        "missions"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Referenzhandbuch",
+        "page": null
+      }
+    }
+  ]
+}

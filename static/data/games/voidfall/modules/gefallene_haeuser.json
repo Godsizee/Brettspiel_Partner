@@ -1,0 +1,214 @@
+{
+  "entries": [
+    {
+      "id": "gefallenes_haus_astoran",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Astoran",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_astoran.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 2\n\nErrichte bei Übernahme 1 **Stützpunkt** in diesem Sektor.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Wächter\n- Weltraumgeschosse\n\n*Dieses Gefallene Haus hat gebrochenes Glas.*",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 100
+    },
+    {
+      "id": "gefallenes_haus_belitan",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Belitan",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_belitan.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 2\n\nGründe bei Übernahme 1 **Kreditgilde** in diesem Sektor.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Datenraffinerie\n- Zielerfassung",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 110
+    },
+    {
+      "id": "gefallenes_haus_cortozaar",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Cortozaar",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_cortozaar.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 3\n\nSetze bei Übernahme 1 **Flotte** in diesem Sektor ein.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Sternenbasen\n- Torpedos",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 120
+    },
+    {
+      "id": "gefallenes_haus_dunlork",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Dunlork",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_dunlork.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 3\n\nGründe bei Übernahme 1 **Konstruktionsgilde** in diesem Sektor.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Energiezellen\n- Orbitale Häfen\n\n*Dieses Gefallene Haus hat gebrochenes Glas.*",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 130
+    },
+    {
+      "id": "gefallenes_haus_fenrax",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Fenrax",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_fenrax.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 2\n\nLege bei Übernahme 1 **Hinterlassenschaft** aus dem allgemeinen Vorrat in diesen Sektor und handle sie sofort ab.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Träger\n- Zentrale Überwachung",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 140
+    },
+    {
+      "id": "gefallenes_haus_kradmor",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Kradmor",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_kradmor.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 1\n\nEntferne bei Übernahme 1 **Verderbnis** und/oder werte 1 **Ruhmplättchen** auf.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Läuterer\n- Bergungsscanner",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 150
+    },
+    {
+      "id": "gefallenes_haus_marqualos",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Marqualos",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_marqualos.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 1\n\nErhalte bei Übernahme 2 **Nahrung** und 2 **Credits**.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Handelsnexus\n- Autonome Drohnen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 160
+    },
+    {
+      "id": "gefallenes_haus_nervo",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Nervo",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_nervo.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 3\n\nGründe bei Übernahme 1 **Bergbaugilde** in diesem Sektor.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Kolonieschiffe\n- Robotik",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 170
+    },
+    {
+      "id": "gefallenes_haus_novaris",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Novaris",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_novaris.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 3\n\nSetze bei Übernahme 1 **Flotte** in diesem Sektor ein.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Kybernetik\n- Kampfreplikatoren",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 180
+    },
+    {
+      "id": "gefallenes_haus_shiveus",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Shiveus",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_shiveus.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 1\n\nEntferne bei Übernahme 1 **Verderbnis** und/oder gründe 1 **Forschungsgilde** in diesem Sektor.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Schlächter\n- Dekontaminationskammern\n\n*Dieses Gefallene Haus hat gebrochenes Glas.*",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 190
+    },
+    {
+      "id": "gefallenes_haus_thegwyn",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Thegwyn",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_thegwyn.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 3\n\nZahle bei Übernahme 1 **Material**, um 1 **Nahrungsgilde** in diesem Sektor zu gründen.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Neuralmatrix\n- Terraformen",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 200
+    },
+    {
+      "id": "gefallenes_haus_valnis",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Valnis",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_valnis.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 2\n\nLege bei Übernahme 1 **Hinterlassenschaft** aus dem allgemeinen Vorrat in diesen Sektor und handle sie sofort ab.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Rettungskapseln\n- Schilde",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 210
+    },
+    {
+      "id": "gefallenes_haus_yarvek",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Yarvek",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_yarvek.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 2\n\nErhalte bei Übernahme 1 **Beute** und/oder errichte 1 **Werft** in diesem Sektor.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Hyperantrieb\n- Taktische Transporte\n\n*Dieses Gefallene Haus hat gebrochenes Glas.*",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 220
+    },
+    {
+      "id": "gefallenes_haus_zenor",
+      "type": "reference",
+      "category": "gefallene_haeuser",
+      "name": "Gefallenes Haus – Haus Zenor",
+      "image": "/images/voidfall/gefallene_haeuser/gefallenes_haus_zenor.webp",
+      "summary": "**Verteidigungsanlagen:** 2 · **Bevölkerung:** 2\n\nZahle bei Übernahme 1 **Wissen**, um auf 1 deiner niedrigsten **Zivilisationsleisten** voranzuschreiten.\n\n**Erhalte 1 dieser Basistechnologien:**\n- Klonen\n- Zerstörer\n\n*Dieses Gefallene Haus hat gebrochenes Glas.*",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "gefallene_haeuser"
+      ],
+      "warnings": [],
+      "sort_order": 230
+    }
+  ]
+}

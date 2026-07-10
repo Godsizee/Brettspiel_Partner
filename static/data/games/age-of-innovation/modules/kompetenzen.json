@@ -1,0 +1,220 @@
+{
+  "entries": [
+    {
+      "id": "kompetenz-01",
+      "type": "card",
+      "category": "Kompetenzen",
+      "name": "Kompetenz 01",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Kompetenz/Kompetenz01.webp",
+      "summary": "In Phase I erhältst du 1 Werkzeug und darfst kostenlos in einer Disziplin deiner Wahl um eine Stufe aufsteigen (erreichst du Stufe 9, erhältst du das entsprechende Einkommen direkt im Anschluss).",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "kompetenzen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "kompetenz-02",
+      "type": "card",
+      "category": "Kompetenzen",
+      "name": "Kompetenz 02",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Kompetenz/Kompetenz02.webp",
+      "summary": "Du erhältst sofort und einmalig eine Aktion *Umwandeln und Bauen* inklusive zweier kostenloser Spaten. (Eventuell fehlende Spaten für die Umwandlung in deine Heimatlandschaft darfst du durch Abgabe von Werkzeugen dazu erwerben.)",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "kompetenzen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "kompetenz-03",
+      "type": "card",
+      "category": "Kompetenzen",
+      "name": "Kompetenz 03",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Kompetenz/Kompetenz03.webp",
+      "summary": "Immer wenn du in Phase II einen Gelehrten entsendest, erhältst du 2 Punkte. Dies gilt auch, wenn du mit dem Gelehrten nur 1 Wissensschritt machst und den Gelehrten wieder in den Vorrat legst.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "kompetenzen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "kompetenz-04",
+      "type": "card",
+      "category": "Kompetenzen",
+      "name": "Kompetenz 04",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Kompetenz/Kompetenz04.webp",
+      "summary": "Immer wenn du in Phase II eine Werkstatt auf einem Randfeld des Spielplans baust, erhältst du 3 Punkte. Randfelder haben mind. 1 gestrichelte Seite.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "kompetenzen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "kompetenz-05",
+      "type": "card",
+      "category": "Kompetenzen",
+      "name": "Kompetenz 05",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Kompetenz/Kompetenz05.webp",
+      "summary": "In Phase I erhältst du 3 Punkte und 2 Geld.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "kompetenzen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "kompetenz-06",
+      "type": "card",
+      "category": "Kompetenzen",
+      "name": "Kompetenz 06",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Kompetenz/Kompetenz06.webp",
+      "summary": "Du erhältst 2 neutrale Anbauten. Als Aktion in Phase II darfst du 1 dieser Anbauten an eines deiner Gebäude legen (gilt nicht als Bau), das noch keinen Anbau hat (gilt auch für deine neutralen Gebäude). Der Anbau erhöht den Machtwert des Gebäudes um 1 (für Stadtgründungen und Machtgewinn). Außerdem zählt das Gebäude für die Stadtgründung als 2 Gebäude (für die benötigte Anzahl von normalerweise 4 Gebäuden). Ein Anbau gilt in allen anderen Belangen nicht als Gebäude.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "kompetenzen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "kompetenz-07",
+      "type": "card",
+      "category": "Kompetenzen",
+      "name": "Kompetenz 07",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Kompetenz/Kompetenz07.webp",
+      "summary": "Du erhältst einen neutralen Turm, welchen du sofort platzierst. Dies gilt als Bau eines Gebäudes, löst also Machtgewinn für andere aus. Es gelten die üblichen Regeln für den Bau eines neutralen Gebäudes (siehe *Neutrale Gebäude* auf S. 9). Der Turm hat einen Machtwert von 2. In Phase I erhältst du 2 Geld und 2 Macht.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "kompetenzen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "kompetenz-08",
+      "type": "card",
+      "category": "Kompetenzen",
+      "name": "Kompetenz 08",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Kompetenz/Kompetenz08.webp",
+      "summary": "In Phase I erhältst du 1 Buch deiner Wahl und 1 Macht.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "kompetenzen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "kompetenz-09",
+      "type": "card",
+      "category": "Kompetenzen",
+      "name": "Kompetenz 09",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Kompetenz/Kompetenz09.webp",
+      "summary": "Du erhältst sofort und einmalig 1 Werkzeug, 5 Punkte und 2 Geld.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "kompetenzen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "kompetenz-10",
+      "type": "card",
+      "category": "Kompetenzen",
+      "name": "Kompetenz 10",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Kompetenz/Kompetenz10.webp",
+      "summary": "Du hast in Phase II eine Sonderaktion, mit der du 4 Macht erhältst. Die getätigte Sonderaktion deckst du mit einem X-Marker ab.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "kompetenzen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "kompetenz-11",
+      "type": "card",
+      "category": "Kompetenzen",
+      "name": "Kompetenz 11",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Kompetenz/Kompetenz11.webp",
+      "summary": "Beim Passen erhältst du für jeden deiner Stadtmarker 2 Punkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "kompetenzen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "kompetenz-12",
+      "type": "card",
+      "category": "Kompetenzen",
+      "name": "Kompetenz 12",
+      "image": "/Wiki/Age of Innovation/Plättchen AoI/Kompetenz/Kompetenz12.webp",
+      "summary": "Beim Passen erhältst du abhängig von deinem Fortschritt auf dem Wissenstableau Punkte. Für jede Stufe Fortschritt in der Disziplin, in der du am wenigsten weit aufgestiegen bist, erhältst du 1 Punkt. *Beispiel:* Deine Marker stehen auf Stufe 9, zweimal auf Stufe 7 und auf Stufe 5. Du erhältst dafür 5 Punkte.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "kompetenzen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    }
+  ]
+}
