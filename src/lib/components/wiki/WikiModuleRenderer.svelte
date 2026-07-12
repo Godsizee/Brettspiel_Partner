@@ -8,7 +8,7 @@
   import ScoringRenderer from './renderers/ScoringRenderer.svelte';
   import ArticleRenderer from './renderers/ArticleRenderer.svelte';
   import TipsRenderer from './renderers/TipsRenderer.svelte';
-  import VoidfallFokusRenderer from './renderers/voidfall/VoidfallFokusRenderer.svelte';
+  import VoidfallGroupedRenderer from './renderers/voidfall/VoidfallGroupedRenderer.svelte';
   import VoidfallIconLexikonRenderer from './renderers/voidfall/VoidfallIconLexikonRenderer.svelte';
   import VoidfallLeisteRenderer from './renderers/voidfall/VoidfallLeisteRenderer.svelte';
 
@@ -32,7 +32,7 @@
   };
 
   const LAYOUT_MAP = {
-    'voidfall-fokus': VoidfallFokusRenderer,
+    'voidfall-grouped': VoidfallGroupedRenderer,
     'voidfall-icons': VoidfallIconLexikonRenderer,
     'voidfall-leiste': VoidfallLeisteRenderer
   };

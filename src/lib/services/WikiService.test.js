@@ -75,8 +75,8 @@ function jsonResponse(body, ok = true, status = 200) {
   };
 }
 
-/** @type {(pbItems?: any[], pbOk?: boolean) => void} */
-function installFetch(pbItems = [], pbOk = true) {
+/** @type {(pbItems?: any[], pbOk?: boolean, categoryItems?: any[]) => void} */
+function installFetch(pbItems = [], pbOk = true, categoryItems = []) {
   vi.stubGlobal('fetch', vi.fn(async (url) => {
     const u = String(url);
     if (u.includes('/data/wiki/games.json')) return jsonResponse(CATALOG);
@@ -85,6 +85,9 @@ function installFetch(pbItems = [], pbOk = true) {
     if (u.includes('/data/games/voidfall/modules/aufbau.json')) return jsonResponse({ items: [{ text: 'Karten mischen' }] });
     if (u.includes('/api/collections/wiki_items/')) {
       return pbOk ? jsonResponse({ items: pbItems }) : jsonResponse({}, false, 500);
+    }
+    if (u.includes('/api/collections/wiki_categories/')) {
+      return pbOk ? jsonResponse({ items: categoryItems }) : jsonResponse({}, false, 500);
     }
     if (u.includes('/api/collections/wiki_tips/')) {
       return pbOk ? jsonResponse({ items: [] }) : jsonResponse({}, false, 500);
@@ -139,6 +142,14 @@ describe('getGameModule', () => {
     // Keine Pseudo-Quelle mehr (P2.2)
     expect(first.source).toBeUndefined();
     expect(mod.offlineFallback).toBe(false);
+  });
+
+  it('reichert PB-Module um groups aus wiki_categories an', async () => {
+    installFetch(PB_ITEMS, true, [
+      { category_id: 'fokusse', groups: [{ id: 'haus', title: 'Hausfokusse', order: 1 }] }
+    ]);
+    const mod = await getGameModule('voidfall', 'fokusse');
+    expect(mod.data.groups).toEqual([{ id: 'haus', title: 'Hausfokusse', order: 1 }]);
   });
 
   it('fällt auf die statische JSON-Quelle zurück, wenn PocketBase nichts liefert', async () => {

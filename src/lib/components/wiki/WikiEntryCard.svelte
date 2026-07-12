@@ -34,6 +34,10 @@
   const isVoidfall = $derived($currentRoute?.params?.game === 'voidfall');
   const isLarge = $derived(isVoidfall && !(entry.tags?.includes('icons') || entry.category?.toLowerCase() === 'icons'));
 
+  // Erkennt Namens-Suffixe wie "(Koop/Solo)"/"(Tutorial)" rein präsentational —
+  // die Daten selbst tragen kein eigenes Feld dafür (Struktur-Plan: Galaktische Ereignisse).
+  const nameBadge = $derived(entry.name?.match(/\((Koop\/Solo|Tutorial)\)\s*$/)?.[1] ?? null);
+
   let meta = $derived([entry.moduleTitle || entry.category, ...(entry.timing || [])].filter(Boolean).join(' · '));
   let nameParts = $derived(splitByTerms(entry.name ?? '', highlight));
   let summaryParts = $derived(splitByTerms(stripPreviewMarkup(entry.summary ?? ''), highlight));
@@ -61,6 +65,11 @@
       {#if entry.kind && entry.kind !== 'reference'}
         <span class="px-1.5 py-0.5 rounded text-[10px] font-bold tracking-wide uppercase bg-[var(--wiki-accent-soft)] text-[var(--color-primary)] shrink-0">
           {KIND_LABELS[entry.kind] ?? entry.kind}
+        </span>
+      {/if}
+      {#if nameBadge}
+        <span class="px-1.5 py-0.5 rounded text-[10px] font-bold tracking-wide uppercase bg-[var(--wiki-accent-soft)] text-[var(--color-primary)] shrink-0">
+          {nameBadge}
         </span>
       {/if}
     </div>

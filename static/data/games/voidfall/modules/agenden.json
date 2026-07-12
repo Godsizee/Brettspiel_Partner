@@ -8,6 +8,7 @@
       "image": "/images/voidfall/agenden/agenda_dominanz.webp",
       "summary": "Fokussiere dich für sie auf **Versuchung** oder **Innovation**.\n\n**Dringe in 1 Sektor ein.**",
       "description": "",
+      "group": "dominanz",
       "timing": [],
       "tags": [
         "agenden"
@@ -23,6 +24,7 @@
       "image": "/images/voidfall/agenden/agenda_dominanz.webp",
       "summary": "**Dominanz-Agenda · D1**\n\n- Erhalte 5 Einflusspunkte, falls du mind. 1 reinen Sektor mit **Bevölkerungswert** 6 hast.\n- Erhalte 4/8/12/16 Einflusspunkte, falls deine **Gesellschaftsleiste** rein und auf Stufe I/II/III/IV ist.",
       "description": "",
+      "group": "dominanz",
       "timing": [],
       "tags": [
         "agenden"
@@ -38,6 +40,7 @@
       "image": "/images/voidfall/agenden/agenda_dominanz.webp",
       "summary": "**Dominanz-Agenda · D2**\n\n- Erhalte 5 Einflusspunkte, falls du mind. 4 reine Sektoren mit **Bevölkerungswert** von mind. 3 hast.\n- Erhalte 4/8/12/16 Einflusspunkte, falls deine **Wirtschaftsleiste** rein und auf Stufe I/II/III/IV ist.",
       "description": "",
+      "group": "dominanz",
       "timing": [],
       "tags": [
         "agenden"
@@ -53,6 +56,7 @@
       "image": "/images/voidfall/agenden/agenda_dominanz.webp",
       "summary": "**Dominanz-Agenda · D3**\n\n- Erhalte 4 Einflusspunkte, falls du mind. 2 reine Sektoren mit **Bevölkerungswert** von mind. 5 hast.\n- Erhalte 4/8/12/16 Einflusspunkte, falls deine **Staatsführungsleiste** rein und auf Stufe I/II/III/IV ist.",
       "description": "",
+      "group": "dominanz",
       "timing": [],
       "tags": [
         "agenden"
@@ -68,6 +72,7 @@
       "image": "/images/voidfall/agenden/agenda_dominanz.webp",
       "summary": "**Dominanz-Agenda · D4**\n\n- Erhalte 5 Einflusspunkte, falls deine **Staatsführungsleiste** rein und auf mind. Stufe II ist.\n- Erhalte 1 Einflusspunkt pro 2 **Nahrung**/**Energie**/**Material** in deinem Vorrat (addiere all diese Ressourcen und teile durch 2).",
       "description": "",
+      "group": "dominanz",
       "timing": [],
       "tags": [
         "agenden"
@@ -83,6 +88,7 @@
       "image": "/images/voidfall/agenden/agenda_dominanz.webp",
       "summary": "**Dominanz-Agenda · D5**\n\n- Erhalte 5 Einflusspunkte, falls deine **Gesellschaftsleiste** rein und auf mind. Stufe II ist.\n- Erhalte 5 Einflusspunkte pro eigenem reinen Sektor, dessen **Wartungskosten** mind. 2 beträgt.",
       "description": "",
+      "group": "dominanz",
       "timing": [],
       "tags": [
         "agenden"
@@ -98,6 +104,7 @@
       "image": "/images/voidfall/agenden/agenda_dominanz.webp",
       "summary": "**Dominanz-Agenda · D6**\n\n- Erhalte 5 Einflusspunkte, falls deine **Wirtschaftsleiste** rein und auf mind. Stufe II ist.\n- Erhalte 4 Einflusspunkte pro eigenem reinen Sektor mit **Bevölkerungswert** von mind. 4.",
       "description": "",
+      "group": "dominanz",
       "timing": [],
       "tags": [
         "agenden"
@@ -113,6 +120,7 @@
       "image": "/images/voidfall/agenden/agenda_dominanz.webp",
       "summary": "**Dominanz-Agenda · D7**\n\n- Erhalte 4 Einflusspunkte, falls mind. 1 deiner **Zivilisationsleisten** rein und auf Stufe III oder IV ist.\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit **Bevölkerungswert** von mind. 3.",
       "description": "",
+      "group": "dominanz",
       "timing": [],
       "tags": [
         "agenden"
@@ -128,6 +136,7 @@
       "image": "/images/voidfall/agenden/agenda_dominanz.webp",
       "summary": "**Dominanz-Agenda · D8**\n\n- Erhalte 4 Einflusspunkte, falls du eine reine **Gesamtbevölkerung** von mind. 10 hast.\n- Erhalte 2/4/6/6 Einflusspunkte pro eigener reiner **Zivilisationsleiste** auf Stufe I/II/III/IV.",
       "description": "",
+      "group": "dominanz",
       "timing": [],
       "tags": [
         "agenden"
@@ -143,6 +152,7 @@
       "image": "/images/voidfall/agenden/agenda_macht.webp",
       "summary": "Fokussiere dich für sie auf **Wohlstand** oder **Fortschritt**.\n\n**Schreite auf 1 deiner niedrigsten Zivilisationsleisten voran und/oder erhalte 1 Handelsplättchen.**",
       "description": "",
+      "group": "macht",
       "timing": [],
       "tags": [
         "agenden"
@@ -158,6 +168,7 @@
       "image": "/images/voidfall/agenden/agenda_macht.webp",
       "summary": "**Macht-Agenda · M1**\n\n- Erhalte 5 Einflusspunkte, falls dein **Produktionsertrag** von **Material** mind. 8 ist.\n- Erhalte 5 Einflusspunkte pro eigenem reinen Sektor mit mind. 2 **Flotten**.",
       "description": "",
+      "group": "macht",
       "timing": [],
       "tags": [
         "agenden"
@@ -173,6 +184,7 @@
       "image": "/images/voidfall/agenden/agenda_macht.webp",
       "summary": "**Macht-Agenda · M2**\n\n- Erhalte 5 Einflusspunkte, falls dein **Produktionsertrag** von **Energie** mind. 8 ist.\n- Erhalte 2 Einflusspunkte pro **Flotte** in eigenen reinen Sektoren.",
       "description": "",
+      "group": "macht",
       "timing": [],
       "tags": [
         "agenden"
@@ -188,6 +200,7 @@
       "image": "/images/voidfall/agenden/agenda_macht.webp",
       "summary": "**Macht-Agenda · M3**\n\n- Erhalte 6 Einflusspunkte, falls du mind. 3 **Werften**/**Sternenbasen** in eigenen reinen Sektoren hast.\n- Erhalte 7 Einflusspunkte pro eigenem reinen Sektor mit mind. 3 **Flotten**.",
       "description": "",
+      "group": "macht",
       "timing": [],
       "tags": [
         "agenden"
@@ -203,6 +216,7 @@
       "image": "/images/voidfall/agenden/agenda_macht.webp",
       "summary": "**Macht-Agenda · M4**\n\n- Erhalte 7 Einflusspunkte, falls dein **Produktionsertrag** von **Credits** mind. 4 ist.\n- Erhalte 2 Einflusspunkte pro eigenem reinen Sektor mit mind. 1 **Werft**/**Sternenbasis**.",
       "description": "",
+      "group": "macht",
       "timing": [],
       "tags": [
         "agenden"
@@ -218,6 +232,7 @@
       "image": "/images/voidfall/agenden/agenda_macht.webp",
       "summary": "**Macht-Agenda · M5**\n\n- Erhalte 5 Einflusspunkte, falls du mind. 3 **Verteidigungsanlagen**/**Sternenbasen** in eigenen reinen Sektoren hast.\n- Erhalte 2 Einflusspunkte pro **Flotte** in eigenen reinen Sektoren.",
       "description": "",
+      "group": "macht",
       "timing": [],
       "tags": [
         "agenden"
@@ -233,6 +248,7 @@
       "image": "/images/voidfall/agenden/agenda_macht.webp",
       "summary": "**Macht-Agenda · M6**\n\n- Erhalte 7 Einflusspunkte, falls dein **Produktionsertrag** von **Nahrung** mind. 8 ist.\n- Erhalte 2 Einflusspunkte pro **Werft**/**Sternenbasis** in eigenen reinen Sektoren.",
       "description": "",
+      "group": "macht",
       "timing": [],
       "tags": [
         "agenden"
@@ -248,6 +264,7 @@
       "image": "/images/voidfall/agenden/agenda_macht.webp",
       "summary": "**Macht-Agenda · M7**\n\n- Erhalte 7 Einflusspunkte, falls du mind. 8 **Wissen** in deinem Vorrat hast.\n- Erhalte 6 Einflusspunkte pro eigenem reinen Sektor mit mind. 3 **Stützpunkten**.",
       "description": "",
+      "group": "macht",
       "timing": [],
       "tags": [
         "agenden"
@@ -263,6 +280,7 @@
       "image": "/images/voidfall/agenden/agenda_macht.webp",
       "summary": "**Macht-Agenda · M8**\n\n- Erhalte 5 Einflusspunkte, falls dein **Produktionsertrag** von **Wissen** mind. 8 ist.\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit mind. 1 **Verteidigungsanlage**/**Sternenbasis**.",
       "description": "",
+      "group": "macht",
       "timing": [],
       "tags": [
         "agenden"
@@ -278,6 +296,7 @@
       "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
       "summary": "Fokussiere dich für sie auf **Eroberung** oder **Verstärkung**.\n\n**Aktiviere 1 Flotte und/oder errichte 1 Stützpunkt.**",
       "description": "",
+      "group": "unterstuetzung",
       "timing": [],
       "tags": [
         "agenden"
@@ -293,6 +312,7 @@
       "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
       "summary": "**Unterstützung-Agenda · U1**\n\n- Erhalte 7 Einflusspunkte, falls all deine Sektoren rein sind.\n- Erhalte 4 Einflusspunkte pro eigenem reinen Sektor ohne freies Gildenfeld. Kolonieschiffe erschaffen keine Gildenfelder in deinen Sektoren.",
       "description": "",
+      "group": "unterstuetzung",
       "timing": [],
       "tags": [
         "agenden"
@@ -308,6 +328,7 @@
       "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
       "summary": "**Unterstützung-Agenda · U2**\n\n- Erhalte 6 Einflusspunkte, falls deine **Wartungskosten** mind. 10 betragen.\n- Erhalte 5 Einflusspunkte pro eigenem reinen Sektor mit mind. 3 **Gilden**. Mind. 3 der **Gilden** müssen unterschiedlich sein.",
       "description": "",
+      "group": "unterstuetzung",
       "timing": [],
       "tags": [
         "agenden"
@@ -323,6 +344,7 @@
       "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
       "summary": "**Unterstützung-Agenda · U3**\n\n- Erhalte 7 Einflusspunkte, falls du mind. 3 **Nahrungsgilden** in eigenen reinen Sektoren hast.\n- Erhalte 4 Einflusspunkte pro eigenem reinen Sektor mit **Forschungsgilde**(n).",
       "description": "",
+      "group": "unterstuetzung",
       "timing": [],
       "tags": [
         "agenden"
@@ -338,6 +360,7 @@
       "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
       "summary": "**Unterstützung-Agenda · U4**\n\n- Erhalte 7 Einflusspunkte, falls mind. 1 deiner Agenden verderbt ist.\n- Erhalte 4 Einflusspunkte pro eigenem reinen Sektor mit mind. 3 **Gilden**.",
       "description": "",
+      "group": "unterstuetzung",
       "timing": [],
       "tags": [
         "agenden"
@@ -353,6 +376,7 @@
       "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
       "summary": "**Unterstützung-Agenda · U5**\n\n- Erhalte 6 Einflusspunkte, falls du mind. 2 Konstruktions- und mind. 2 **Bergbaugilden** in eigenen reinen Sektoren hast.\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor mit **Kreditgilde**(n).",
       "description": "",
+      "group": "unterstuetzung",
       "timing": [],
       "tags": [
         "agenden"
@@ -368,6 +392,7 @@
       "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
       "summary": "**Unterstützung-Agenda · U6**\n\n- Erhalte 7 Einflusspunkte, falls mind. 1 deiner **Zivilisationsleisten** verderbt ist.\n- Erhalte 5 Einflusspunkte pro 2 **Bergbaugilden** in eigenen reinen Sektoren (addiere alle und teile durch 2).",
       "description": "",
+      "group": "unterstuetzung",
       "timing": [],
       "tags": [
         "agenden"
@@ -383,6 +408,7 @@
       "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
       "summary": "**Unterstützung-Agenda · U7**\n\n- Erhalte 6 Einflusspunkte, falls du max. 1 **Verderbnis** auf deinem Haustableau / in deinen Sektoren hast. Zähle **Verderbnis** auf Dekontaminationskammern nicht dazu.\n- Erhalte 5 Einflusspunkte pro 2 **Nahrungsgilden** in eigenen reinen Sektoren (addiere alle und teile durch 2).",
       "description": "",
+      "group": "unterstuetzung",
       "timing": [],
       "tags": [
         "agenden"
@@ -398,6 +424,7 @@
       "image": "/images/voidfall/agenden/agenda_unterstuetzung.webp",
       "summary": "**Unterstützung-Agenda · U8**\n\n- Erhalte 5 Einflusspunkte, falls deine Gesamtwartungskosten max. 6 betragen.\n- Erhalte 5 Einflusspunkte pro 2 **Konstruktionsgilden** in eigenen reinen Sektoren (addiere alle und teile durch 2). REICHTUM",
       "description": "",
+      "group": "unterstuetzung",
       "timing": [],
       "tags": [
         "agenden"
@@ -413,6 +440,7 @@
       "image": "/images/voidfall/agenden/agenda_reichtum.webp",
       "summary": "Fokussiere dich für sie auf **Entwicklung** oder **Produktion**.\n\n**Gründe 1 Gilde und/oder produziere 1 Ressourcentyp. Wählst du beides, muss der Ressourcentyp der Gilde entsprechen.**",
       "description": "",
+      "group": "reichtum",
       "timing": [],
       "tags": [
         "agenden"
@@ -428,6 +456,7 @@
       "image": "/images/voidfall/agenden/agenda_reichtum.webp",
       "summary": "**Reichtum-Agenda · R1**\n\n- Erhalte 4 Einflusspunkte, falls du mind. 2 verschiedene **Flottentypen** in eigenen reinen Sektoren eingesetzt hast. Sie dürfen im selben oder in unterschiedlichen Sektoren sein.\n- Erhalte 2 Einflusspunkte pro eigener **Hinterlassenschaft**.",
       "description": "",
+      "group": "reichtum",
       "timing": [],
       "tags": [
         "agenden"
@@ -443,6 +472,7 @@
       "image": "/images/voidfall/agenden/agenda_reichtum.webp",
       "summary": "**Reichtum-Agenda · R2**\n\n- Erhalte 4 Einflusspunkte, falls du mind. 2 **Fortschrittliche Technologien** erforscht hast.\n- Erhalte 3 Einflusspunkte pro eigenen 2 **Beuten**.",
       "description": "",
+      "group": "reichtum",
       "timing": [],
       "tags": [
         "agenden"
@@ -458,6 +488,7 @@
       "image": "/images/voidfall/agenden/agenda_reichtum.webp",
       "summary": "**Reichtum-Agenda · R3**\n\n- Erhalte 4 Einflusspunkte, falls du insgesamt mind. 4 **Technologien** erforscht hast.\n- Erhalte 5 Einflusspunkte pro 2 eigenen reinen Sektoren.",
       "description": "",
+      "group": "reichtum",
       "timing": [],
       "tags": [
         "agenden"
@@ -473,6 +504,7 @@
       "image": "/images/voidfall/agenden/agenda_reichtum.webp",
       "summary": "**Reichtum-Agenda · R4**\n\n- Erhalte 3 Einflusspunkte, falls du mind. 2 **Handelsplättchen** hast.\n- Erhalte 3 Einflusspunkte pro eigenem reinen Sektor ohne **Wartungskosten**.",
       "description": "",
+      "group": "reichtum",
       "timing": [],
       "tags": [
         "agenden"
@@ -488,6 +520,7 @@
       "image": "/images/voidfall/agenden/agenda_reichtum.webp",
       "summary": "**Reichtum-Agenda · R5**\n\n- Erhalte 4 Einflusspunkte, falls du mind. 2 **Hinterlassenschaften** hast.\n- Erhalte dem Wert deiner **Ruhmplättchen** entsprechend viele Einflusspunkte.",
       "description": "",
+      "group": "reichtum",
       "timing": [],
       "tags": [
         "agenden"
@@ -503,6 +536,7 @@
       "image": "/images/voidfall/agenden/agenda_reichtum.webp",
       "summary": "**Reichtum-Agenda · R6**\n\n- Erhalte 4 Einflusspunkte, falls du mind. 3 **Ruhmplättchen** hast.\n- Erhalte 4 Einflusspunkte pro 3 **Credits** in deinem Vorrat.",
       "description": "",
+      "group": "reichtum",
       "timing": [],
       "tags": [
         "agenden"
@@ -518,6 +552,7 @@
       "image": "/images/voidfall/agenden/agenda_reichtum.webp",
       "summary": "**Reichtum-Agenda · R7**\n\n- Erhalte 6 Einflusspunkte, falls du mind. 1 **Ruhmplättchen** mit Wert „5“ hast.\n- Erhalte 4 Einflusspunkte pro erforschter **Fortschrittlicher Technologie**.",
       "description": "",
+      "group": "reichtum",
       "timing": [],
       "tags": [
         "agenden"
@@ -533,12 +568,55 @@
       "image": "/images/voidfall/agenden/agenda_reichtum.webp",
       "summary": "**Reichtum-Agenda · R8**\n\n- Erhalte 4 Einflusspunkte, falls du mind. 4 eigene reine Sektoren hast.\n- Erhalte 2/3 Einflusspunkte pro erforschter Basis-/**Fortschrittlicher Technologie**.",
       "description": "",
+      "group": "reichtum",
       "timing": [],
       "tags": [
         "agenden"
       ],
       "warnings": [],
       "sort_order": 450
+    }
+  ],
+  "groups": [
+    {
+      "id": "dominanz",
+      "title": "Dominanz",
+      "order": 1,
+      "description": "Dominanz-Agenden bewerten Bevölkerung und den Ausbau der Zivilisationsleisten (Gesellschaft, Wirtschaft, Staatsführung). Punkte gibt es für große, reine Sektoren mit hohem Bevölkerungswert und weit fortgeschrittene Leisten.",
+      "source": {
+        "document": "Agendaziel-Karten D1–D8 (Kartentexte)",
+        "page": null
+      }
+    },
+    {
+      "id": "macht",
+      "title": "Macht",
+      "order": 2,
+      "description": "Macht-Agenden bewerten Produktionsstärke und militärisch-industrielle Infrastruktur. Punkte gibt es für hohe Produktionserträge (Material, Energie, Nahrung, Credits, Wissen) sowie für Flotten, Werften/Sternenbasen und Verteidigungsanlagen in eigenen Sektoren.",
+      "source": {
+        "document": "Agendaziel-Karten M1–M8 (Kartentexte)",
+        "page": null
+      }
+    },
+    {
+      "id": "unterstuetzung",
+      "title": "Unterstützung",
+      "order": 3,
+      "description": "Unterstützung-Agenden bewerten den Ausbau von Gilden sowie den Umgang mit Wartungskosten und Verderbnis. Punkte gibt es für viele — insbesondere gleichartige — Gilden in reinen Sektoren sowie für hohe Wartungskosten oder wenig Verderbnis.",
+      "source": {
+        "document": "Agendaziel-Karten U1–U8 (Kartentexte)",
+        "page": null
+      }
+    },
+    {
+      "id": "reichtum",
+      "title": "Reichtum",
+      "order": 4,
+      "description": "Reichtum-Agenden bewerten technologischen Fortschritt und Prestige. Punkte gibt es für erforschte (insbesondere Fortschrittliche) Technologien sowie für Ruhmplättchen, Hinterlassenschaften und Handelsplättchen.",
+      "source": {
+        "document": "Agendaziel-Karten R1–R8 (Kartentexte)",
+        "page": null
+      }
     }
   ]
 }

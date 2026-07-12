@@ -28,12 +28,38 @@ const _moduleCache = new Map();
 /** @type {Map<string, Promise<{items: any[], offline: boolean}>>} */
 const _pbItemsCache = new Map();
 /** @type {Map<string, Promise<{items: any[], offline: boolean}>>} */
+const _categoryMetaCache = new Map();
+/** @type {Map<string, Promise<{items: any[], offline: boolean}>>} */
 const _tipsCache = new Map();
 /** @type {Map<string, Promise<any[]>>} */
 const _searchPoolCache = new Map();
 
 function pbHost() {
   return get(pocketbaseHost) || DEFAULT_POCKETBASE_HOST;
+}
+
+/**
+ * Holt eine PocketBase-Listen-URL vollständig über alle Seiten. Ein einzelner
+ * Fetch liefert nur bis zu `perPage` Treffer über ALLE Kategorien eines Spiels
+ * hinweg (nicht pro Kategorie gefiltert) — bei Spielen mit mehr Items als
+ * `perPage` (Voidfall: 423) würden sonst, je nach DB-Reihenfolge, ganze
+ * Kategorien (z. B. Icons) still abgeschnitten.
+ * @param {string} url
+ * @returns {Promise<any[]>}
+ */
+async function fetchAllPbPages(url) {
+  const first = await fetch(url);
+  if (!first.ok) throw new Error(`PocketBase-Fetch fehlgeschlagen (${first.status})`);
+  const firstRes = await first.json();
+  const items = Array.isArray(firstRes.items) ? firstRes.items : [];
+  const totalPages = firstRes.totalPages || 1;
+  for (let page = 2; page <= totalPages; page++) {
+    const res = await fetch(`${url}&page=${page}`);
+    if (!res.ok) break;
+    const data = await res.json();
+    if (Array.isArray(data.items)) items.push(...data.items);
+  }
+  return items;
 }
 
 /**
@@ -50,17 +76,13 @@ function pbHost() {
 async function fetchPbWithCache(url, cacheKey, legacyLocalStorageKey) {
   if (get(isOnline)) {
     try {
-      const response = await fetch(url);
-      if (response.ok) {
-        const res = await response.json();
-        const items = Array.isArray(res.items) ? res.items : [];
-        if (items.length > 0) {
-          try {
-            await db.set(cacheKey, { ts: Date.now(), items });
-          } catch (_) { /* Cache-Schreibfehler sind nicht kritisch */ }
-        }
-        return { items, offline: false };
+      const items = await fetchAllPbPages(url);
+      if (items.length > 0) {
+        try {
+          await db.set(cacheKey, { ts: Date.now(), items });
+        } catch (_) { /* Cache-Schreibfehler sind nicht kritisch */ }
       }
+      return { items, offline: false };
     } catch (_) { /* Netzfehler → Cache-Fallback unten */ }
   }
 
@@ -101,6 +123,24 @@ function getPbItems(slug) {
     promise = fetchPbWithCache(url, `wiki_cache_items_${slug}`);
     _pbItemsCache.set(slug, promise);
     promise.catch(() => _pbItemsCache.delete(slug));
+  }
+  return promise;
+}
+
+/**
+ * Holt `wiki_categories` (Modul-Metadaten inkl. optionalem `groups`-Feld) mit
+ * IndexedDB-Fallback, analog zu getPbItems(). Wird von buildGameModule() genutzt,
+ * um Referenz-Module um ihre Gruppen-Definitionen zu ergänzen.
+ * @param {string} slug
+ */
+function getCategoryMeta(slug) {
+  let promise = _categoryMetaCache.get(slug);
+  if (!promise) {
+    const filter = encodeURIComponent(`game_key='${slug}' || game_key='${toAppKey(slug)}'`);
+    const url = `${pbHost()}/api/collections/wiki_categories/records?filter=${filter}&perPage=250`;
+    promise = fetchPbWithCache(url, `wiki_cache_categories_${slug}`);
+    _categoryMetaCache.set(slug, promise);
+    promise.catch(() => _categoryMetaCache.delete(slug));
   }
   return promise;
 }
@@ -212,6 +252,7 @@ function mapPbItem(item, moduleDef) {
       : null,
     summary: item.effect || '',
     description: item.tip || '',
+    group: item.group || undefined,
     timing: Array.isArray(item.timing) ? item.timing : [],
     tags: Array.isArray(item.tags) && item.tags.length ? item.tags : [moduleDef.id],
     warnings: Array.isArray(item.warnings) ? item.warnings : [],
@@ -278,10 +319,12 @@ async function buildGameModule(slug, moduleId) {
     }
 
     if (validatedEntries.length > 0) {
+      const { items: categories } = await getCategoryMeta(slug);
+      const categoryMeta = categories.find((/** @type {any} */ c) => c.category_id === moduleDef.id);
       return {
         ...moduleDef,
         sourcePath: `pocketbase://wiki_items?game_key=${slug}&category_id=${moduleDef.id}`,
-        data: { entries: validatedEntries },
+        data: { entries: validatedEntries, groups: categoryMeta?.groups ?? [] },
         offlineFallback: offline
       };
     }
@@ -442,6 +485,7 @@ export function invalidateWikiCache(slug) {
   if (slug) {
     _overviewCache.delete(slug);
     _pbItemsCache.delete(slug);
+    _categoryMetaCache.delete(slug);
     _tipsCache.delete(slug);
     _searchPoolCache.delete(slug);
     for (const key of _moduleCache.keys()) {
@@ -452,6 +496,7 @@ export function invalidateWikiCache(slug) {
     _overviewCache.clear();
     _moduleCache.clear();
     _pbItemsCache.clear();
+    _categoryMetaCache.clear();
     _tipsCache.clear();
     _searchPoolCache.clear();
   }

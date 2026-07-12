@@ -8,6 +8,7 @@
       "image": "/images/voidfall/icons/icon-einfluss.png",
       "summary": "Einfluss(-punkt)",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -23,6 +24,7 @@
       "image": "/images/voidfall/icons/icon-haustableau.png",
       "summary": "Haustableau",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -38,6 +40,7 @@
       "image": "/images/voidfall/icons/icon-galaktisches-ereignis.png",
       "summary": "Galaktisches Ereignis",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -53,6 +56,7 @@
       "image": "/images/voidfall/icons/icon-siehe.png",
       "summary": "Siehe",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -68,6 +72,7 @@
       "image": "/images/voidfall/icons/icon-lege-das-galaktische-ereignis-unter-den-stapel.png",
       "summary": "Lege das Galaktische Ereignis unter den Stapel",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -83,6 +88,7 @@
       "image": "/images/voidfall/icons/icon-wartungskosten.png",
       "summary": "Wartungskosten",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -98,6 +104,7 @@
       "image": "/images/voidfall/icons/icon-bezahlte-wartungskosten.png",
       "summary": "Bezahlte Wartungskosten",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -113,6 +120,7 @@
       "image": "/images/voidfall/icons/icon-invasion-eindringen-in-sektor.png",
       "summary": "Invasion/Eindringen in Sektor",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -128,6 +136,7 @@
       "image": "/images/voidfall/icons/icon-invasion-von-verderbtem-sektor.png",
       "summary": "Invasion von verderbtem Sektor",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -143,6 +152,7 @@
       "image": "/images/voidfall/icons/icon-gefecht.png",
       "summary": "Gefecht",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -158,6 +168,7 @@
       "image": "/images/voidfall/icons/icon-gefechtsverteidigung.png",
       "summary": "Gefechtsverteidigung",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -173,6 +184,7 @@
       "image": "/images/voidfall/icons/icon-erhalt-von-x.png",
       "summary": "Erhalt von X",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -188,6 +200,7 @@
       "image": "/images/voidfall/icons/icon-kosten-von-x.png",
       "summary": "Kosten von X",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -203,6 +216,7 @@
       "image": "/images/voidfall/icons/icon-mit-hoechstem-wert.png",
       "summary": "Mit höchstem Wert",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -218,6 +232,7 @@
       "image": "/images/voidfall/icons/icon-mit-geringstem-wert.png",
       "summary": "Mit geringstem Wert",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -233,6 +248,7 @@
       "image": "/images/voidfall/icons/icon-umtausch-einer-ressource.png",
       "summary": "Umtausch einer Ressource",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -248,6 +264,7 @@
       "image": "/images/voidfall/icons/icon-austausch-einer-ressource.png",
       "summary": "Austausch einer Ressource",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -263,6 +280,7 @@
       "image": "/images/voidfall/icons/icon-gefallenes-haus.png",
       "summary": "Gefallenes Haus",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -278,6 +296,7 @@
       "image": "/images/voidfall/icons/icon-zusaetzliches-technologiefeld-durch-umdrehen-des-gefallenen-hauses.png",
       "summary": "Zusätzliches Technologiefeld (durch Umdrehen des Gefallenen Hauses)",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -293,6 +312,7 @@
       "image": "/images/voidfall/icons/icon-errichtung-oder-erweiterung-einer-zuflucht.png",
       "summary": "Errichtung oder Erweiterung einer Zuflucht",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -308,6 +328,7 @@
       "image": "/images/voidfall/icons/icon-ressourcenhandel.png",
       "summary": "Ressourcenhandel",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -323,6 +344,7 @@
       "image": "/images/voidfall/icons/icon-tutorialmaterial.png",
       "summary": "Tutorialmaterial",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -338,6 +360,7 @@
       "image": "/images/voidfall/icons/icon-diese-regeln-im-tutorial-ueberspringen.png",
       "summary": "Diese Regeln im Tutorial überspringen",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -353,6 +376,7 @@
       "image": "/images/voidfall/icons/icon-tutorial-diese-regel-vor-dem-2-zyklus-lesen.png",
       "summary": "Tutorial: Diese Regel vor dem 2. Zyklus lesen",
       "description": "",
+      "group": "allgemein",
       "timing": [],
       "tags": [
         "icons"
@@ -368,6 +392,7 @@
       "image": "/images/voidfall/icons/icon-verderbnis.png",
       "summary": "Verderbnis",
       "description": "",
+      "group": "verderbnis",
       "timing": [],
       "tags": [
         "icons"
@@ -383,6 +408,7 @@
       "image": "/images/voidfall/icons/icon-platzieren-erhalt-von-verderbnis.png",
       "summary": "Platzieren/Erhalt von Verderbnis",
       "description": "",
+      "group": "verderbnis",
       "timing": [],
       "tags": [
         "icons"
@@ -398,6 +424,7 @@
       "image": "/images/voidfall/icons/icon-entfernen-von-verderbnis.png",
       "summary": "Entfernen von Verderbnis",
       "description": "",
+      "group": "verderbnis",
       "timing": [],
       "tags": [
         "icons"
@@ -413,6 +440,7 @@
       "image": "/images/voidfall/icons/icon-versetzen-von-verderbnis.png",
       "summary": "Versetzen von Verderbnis",
       "description": "",
+      "group": "verderbnis",
       "timing": [],
       "tags": [
         "icons"
@@ -428,6 +456,7 @@
       "image": "/images/voidfall/icons/icon-rein.png",
       "summary": "Rein",
       "description": "",
+      "group": "verderbnis",
       "timing": [],
       "tags": [
         "icons"
@@ -443,6 +472,7 @@
       "image": "/images/voidfall/icons/icon-verderbnisresistent-keine-verderbnis.png",
       "summary": "Verderbnisresistent (keine Verderbnis)",
       "description": "",
+      "group": "verderbnis",
       "timing": [],
       "tags": [
         "icons"
@@ -458,6 +488,7 @@
       "image": "/images/voidfall/icons/icon-verderbnis-in-sektor.png",
       "summary": "Verderbnis in Sektor",
       "description": "",
+      "group": "verderbnis",
       "timing": [],
       "tags": [
         "icons"
@@ -473,6 +504,7 @@
       "image": "/images/voidfall/icons/icon-verderbnis-auf-haustableau.png",
       "summary": "Verderbnis auf Haustableau",
       "description": "",
+      "group": "verderbnis",
       "timing": [],
       "tags": [
         "icons"
@@ -488,6 +520,7 @@
       "image": "/images/voidfall/icons/icon-verderbnis-auf-zivilisationsleiste.png",
       "summary": "Verderbnis auf Zivilisationsleiste",
       "description": "",
+      "group": "verderbnis",
       "timing": [],
       "tags": [
         "icons"
@@ -503,6 +536,7 @@
       "image": "/images/voidfall/icons/icon-verderbnis-auf-agenda.png",
       "summary": "Verderbnis auf Agenda",
       "description": "",
+      "group": "verderbnis",
       "timing": [],
       "tags": [
         "icons"
@@ -518,6 +552,7 @@
       "image": "/images/voidfall/icons/icon-verderbnis-auf-agendaauslage.png",
       "summary": "Verderbnis auf Agendaauslage",
       "description": "",
+      "group": "verderbnis",
       "timing": [],
       "tags": [
         "icons"
@@ -533,6 +568,7 @@
       "image": "/images/voidfall/icons/icon-zivilisationsleiste.png",
       "summary": "Zivilisationsleiste",
       "description": "",
+      "group": "zivilisationsleiste",
       "timing": [],
       "tags": [
         "icons"
@@ -548,6 +584,7 @@
       "image": "/images/voidfall/icons/icon-gesellschaftsleiste.png",
       "summary": "Gesellschaftsleiste",
       "description": "",
+      "group": "zivilisationsleiste",
       "timing": [],
       "tags": [
         "icons"
@@ -563,6 +600,7 @@
       "image": "/images/voidfall/icons/icon-wirtschaftsleiste.png",
       "summary": "Wirtschaftsleiste",
       "description": "",
+      "group": "zivilisationsleiste",
       "timing": [],
       "tags": [
         "icons"
@@ -578,6 +616,7 @@
       "image": "/images/voidfall/icons/icon-staatsfuehrungsleiste.png",
       "summary": "Staatsführungsleiste",
       "description": "",
+      "group": "zivilisationsleiste",
       "timing": [],
       "tags": [
         "icons"
@@ -593,6 +632,7 @@
       "image": "/images/voidfall/icons/icon-voranschreiten-auf-zivilisationsleiste.png",
       "summary": "Voranschreiten auf Zivilisationsleiste",
       "description": "",
+      "group": "zivilisationsleiste",
       "timing": [],
       "tags": [
         "icons"
@@ -608,6 +648,7 @@
       "image": "/images/voidfall/icons/icon-voranschreiten-auf-niedrigster-zivilisationsleiste.png",
       "summary": "Voranschreiten auf niedrigster Zivilisationsleiste",
       "description": "",
+      "group": "zivilisationsleiste",
       "timing": [],
       "tags": [
         "icons"
@@ -623,6 +664,7 @@
       "image": "/images/voidfall/icons/icon-stufe-x-einer-zivilisationsleiste.png",
       "summary": "Stufe X einer Zivilisationsleiste",
       "description": "",
+      "group": "zivilisationsleiste",
       "timing": [],
       "tags": [
         "icons"
@@ -638,6 +680,7 @@
       "image": "/images/voidfall/icons/icon-reine-zivilisationsleiste.png",
       "summary": "Reine Zivilisationsleiste",
       "description": "",
+      "group": "zivilisationsleiste",
       "timing": [],
       "tags": [
         "icons"
@@ -653,6 +696,7 @@
       "image": "/images/voidfall/icons/icon-fokus.png",
       "summary": "Fokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -668,6 +712,7 @@
       "image": "/images/voidfall/icons/icon-eroberungsfokus.png",
       "summary": "Eroberungsfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -683,6 +728,7 @@
       "image": "/images/voidfall/icons/icon-entwicklungsfokus.png",
       "summary": "Entwicklungsfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -698,6 +744,7 @@
       "image": "/images/voidfall/icons/icon-innovationsfokus.png",
       "summary": "Innovationsfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -713,6 +760,7 @@
       "image": "/images/voidfall/icons/icon-politikfokus.png",
       "summary": "Politikfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -728,6 +776,7 @@
       "image": "/images/voidfall/icons/icon-produktionsfokus.png",
       "summary": "Produktionsfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -743,6 +792,7 @@
       "image": "/images/voidfall/icons/icon-fortschrittsfokus.png",
       "summary": "Fortschrittsfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -758,6 +808,7 @@
       "image": "/images/voidfall/icons/icon-wohlstandsfokus.png",
       "summary": "Wohlstandsfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -773,6 +824,7 @@
       "image": "/images/voidfall/icons/icon-verstaerkungsfokus.png",
       "summary": "Verstärkungsfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -788,6 +840,7 @@
       "image": "/images/voidfall/icons/icon-versuchungsfokus.png",
       "summary": "Versuchungsfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -803,6 +856,7 @@
       "image": "/images/voidfall/icons/icon-kreuzzugsfokus.png",
       "summary": "Kreuzzugsfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -818,6 +872,7 @@
       "image": "/images/voidfall/icons/icon-verbreitungsfokus.png",
       "summary": "Verbreitungsfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -833,6 +888,7 @@
       "image": "/images/voidfall/icons/icon-raubzugsfokus.png",
       "summary": "Raubzugsfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -848,6 +904,7 @@
       "image": "/images/voidfall/icons/icon-komplottfokus.png",
       "summary": "Komplottfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -863,6 +920,7 @@
       "image": "/images/voidfall/icons/icon-erhebungsfokus.png",
       "summary": "Erhebungsfokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -878,6 +936,7 @@
       "image": "/images/voidfall/icons/icon-bevorzugter-fokus.png",
       "summary": "Bevorzugter Fokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -893,6 +952,7 @@
       "image": "/images/voidfall/icons/icon-nutzung-von-fokusaktion.png",
       "summary": "Nutzung von Fokusaktion",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -908,6 +968,7 @@
       "image": "/images/voidfall/icons/icon-kopieren-1-aktion-des-bevorzugten-fokus.png",
       "summary": "Kopieren 1 Aktion des bevorzugten Fokus",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -923,6 +984,7 @@
       "image": "/images/voidfall/icons/icon-nutzung-1-weiteren-anderen-aktion.png",
       "summary": "Nutzung 1 weiteren anderen Aktion",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -938,6 +1000,7 @@
       "image": "/images/voidfall/icons/icon-nutzung-von-2-weiteren-verschiedenen-aktionen.png",
       "summary": "Nutzung von 2 weiteren verschiedenen Aktionen",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -953,6 +1016,7 @@
       "image": "/images/voidfall/icons/icon-alle-bevorzugten-fokusse-auf-der-hand.png",
       "summary": "Alle bevorzugten Fokusse auf der Hand",
       "description": "",
+      "group": "fokusse",
       "timing": [],
       "tags": [
         "icons"
@@ -968,6 +1032,7 @@
       "image": "/images/voidfall/icons/icon-basistechnologie.png",
       "summary": "Basistechnologie",
       "description": "",
+      "group": "technologien",
       "timing": [],
       "tags": [
         "icons"
@@ -983,6 +1048,7 @@
       "image": "/images/voidfall/icons/icon-fortschrittliche-technologie.png",
       "summary": "Fortschrittliche Technologie",
       "description": "",
+      "group": "technologien",
       "timing": [],
       "tags": [
         "icons"
@@ -998,6 +1064,7 @@
       "image": "/images/voidfall/icons/icon-erforschung-von-technologie.png",
       "summary": "Erforschung von Technologie",
       "description": "",
+      "group": "technologien",
       "timing": [],
       "tags": [
         "icons"
@@ -1013,6 +1080,7 @@
       "image": "/images/voidfall/icons/icon-technologie-auf-haustableau.png",
       "summary": "Technologie auf Haustableau",
       "description": "",
+      "group": "technologien",
       "timing": [],
       "tags": [
         "icons"
@@ -1028,6 +1096,7 @@
       "image": "/images/voidfall/icons/icon-blockiertes-feld-fuer-fortschrittliche-technologie.png",
       "summary": "Blockiertes Feld für Fortschrittliche Technologie",
       "description": "",
+      "group": "technologien",
       "timing": [],
       "tags": [
         "icons"
@@ -1043,6 +1112,7 @@
       "image": "/images/voidfall/icons/icon-freies-feld-fuer-fortschrittliche-technologie.png",
       "summary": "Freies Feld für Fortschrittliche Technologie",
       "description": "",
+      "group": "technologien",
       "timing": [],
       "tags": [
         "icons"
@@ -1058,6 +1128,7 @@
       "image": "/images/voidfall/icons/icon-startagenda.png",
       "summary": "Startagenda",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1073,6 +1144,7 @@
       "image": "/images/voidfall/icons/icon-nicht-start-agenda.png",
       "summary": "(nicht Start-)Agenda",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1088,6 +1160,7 @@
       "image": "/images/voidfall/icons/icon-dominanzagenda.png",
       "summary": "Dominanzagenda",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1103,6 +1176,7 @@
       "image": "/images/voidfall/icons/icon-machtagenda.png",
       "summary": "Machtagenda",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1118,6 +1192,7 @@
       "image": "/images/voidfall/icons/icon-unterstuetzungsagenda.png",
       "summary": "Unterstützungsagenda",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1133,6 +1208,7 @@
       "image": "/images/voidfall/icons/icon-reichtumsagenda.png",
       "summary": "Reichtumsagenda",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1148,6 +1224,7 @@
       "image": "/images/voidfall/icons/icon-erhalt-von-agenda.png",
       "summary": "Erhalt von Agenda",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1163,6 +1240,7 @@
       "image": "/images/voidfall/icons/icon-abwerfen-von-agenda.png",
       "summary": "Abwerfen von Agenda",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1178,6 +1256,7 @@
       "image": "/images/voidfall/icons/icon-agenda-auf-der-hand.png",
       "summary": "Agenda auf der Hand",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1193,6 +1272,7 @@
       "image": "/images/voidfall/icons/icon-ausspielen-von-agenda.png",
       "summary": "Ausspielen von Agenda",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1208,6 +1288,7 @@
       "image": "/images/voidfall/icons/icon-nicht-start-agenda-am-haustableau.png",
       "summary": "(nicht Start-)Agenda am Haustableau",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1223,6 +1304,7 @@
       "image": "/images/voidfall/icons/icon-startagenda-am-haustableau.png",
       "summary": "Startagenda am Haustableau",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1238,6 +1320,7 @@
       "image": "/images/voidfall/icons/icon-reine-nicht-start-agenda-am-haustableau.png",
       "summary": "Reine (nicht Start-)Agenda am Haustableau",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1253,6 +1336,7 @@
       "image": "/images/voidfall/icons/icon-abwerfen-von-nicht-start-agenda.png",
       "summary": "Abwerfen von (nicht Start-)Agenda",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1268,6 +1352,7 @@
       "image": "/images/voidfall/icons/icon-wertung-von-reiner-nicht-start-agenda.png",
       "summary": "Wertung von reiner (nicht Start-)Agenda",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1283,6 +1368,7 @@
       "image": "/images/voidfall/icons/icon-wertung-von-reiner-agenda.png",
       "summary": "Wertung von reiner Agenda",
       "description": "",
+      "group": "agenden",
       "timing": [],
       "tags": [
         "icons"
@@ -1298,6 +1384,7 @@
       "image": "/images/voidfall/icons/icon-sektor.png",
       "summary": "Sektor",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1313,6 +1400,7 @@
       "image": "/images/voidfall/icons/icon-reiner-sektor.png",
       "summary": "Reiner Sektor",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1328,6 +1416,7 @@
       "image": "/images/voidfall/icons/icon-reiner-nicht-heimat-sektor.png",
       "summary": "Reiner (nicht Heimat-)Sektor",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1343,6 +1432,7 @@
       "image": "/images/voidfall/icons/icon-leereberuehrter-sektor.png",
       "summary": "Leereberührter Sektor",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1358,6 +1448,7 @@
       "image": "/images/voidfall/icons/icon-sektor-mit-x-flottentyp-en.png",
       "summary": "Sektor mit X Flottentyp(en)",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1373,6 +1464,7 @@
       "image": "/images/voidfall/icons/icon-sektor-mit-x-flotte-n.png",
       "summary": "Sektor mit X Flotte(n)",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1388,6 +1480,7 @@
       "image": "/images/voidfall/icons/icon-sektor-mit-x-gilde-n.png",
       "summary": "Sektor mit X Gilde(n)",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1403,6 +1496,7 @@
       "image": "/images/voidfall/icons/icon-sektor-mit-x-verschiedenen-gilden.png",
       "summary": "Sektor mit X verschiedenen Gilden",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1418,6 +1512,7 @@
       "image": "/images/voidfall/icons/icon-sektor-ohne-gildenfelder.png",
       "summary": "Sektor ohne Gildenfelder",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1433,6 +1528,7 @@
       "image": "/images/voidfall/icons/icon-sektor-mit-x-stuetzpunkt-en.png",
       "summary": "Sektor mit X Stützpunkt(en)",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1448,6 +1544,7 @@
       "image": "/images/voidfall/icons/icon-sektor-mit-wartungskosten-von-x.png",
       "summary": "Sektor mit Wartungskosten von X",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1463,6 +1560,7 @@
       "image": "/images/voidfall/icons/icon-sektor-mit-konstanter-bevoelkerung-x.png",
       "summary": "Sektor mit konstanter Bevölkerung X",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1478,6 +1576,7 @@
       "image": "/images/voidfall/icons/icon-sektor-mit-bevoelkerungswert-von-mind-x.png",
       "summary": "Sektor mit Bevölkerungswert von mind. X",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1493,6 +1592,7 @@
       "image": "/images/voidfall/icons/icon-keine-4-sektoren.png",
       "summary": "Keine 4 Sektoren",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1508,6 +1608,7 @@
       "image": "/images/voidfall/icons/icon-nach-erfolgreicher-uebernahme.png",
       "summary": "Nach erfolgreicher Übernahme",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1523,6 +1624,7 @@
       "image": "/images/voidfall/icons/icon-auch-ohne-flotten-unter-eurer-kontrolle.png",
       "summary": "Auch ohne Flotten unter eurer Kontrolle",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1538,6 +1640,7 @@
       "image": "/images/voidfall/icons/icon-keine-invasion-moeglich.png",
       "summary": "Keine Invasion möglich",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1553,6 +1656,7 @@
       "image": "/images/voidfall/icons/icon-im-selben-sektor.png",
       "summary": "Im selben Sektor",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1568,6 +1672,7 @@
       "image": "/images/voidfall/icons/icon-leereresistent-keine-flotten-der-leere.png",
       "summary": "Leereresistent (keine Flotten der Leere)",
       "description": "",
+      "group": "sektoren",
       "timing": [],
       "tags": [
         "icons"
@@ -1583,6 +1688,7 @@
       "image": "/images/voidfall/icons/icon-bevoelkerung.png",
       "summary": "Bevölkerung",
       "description": "",
+      "group": "bevoelkerung",
       "timing": [],
       "tags": [
         "icons"
@@ -1598,6 +1704,7 @@
       "image": "/images/voidfall/icons/icon-bevoelkerungswert-x.png",
       "summary": "Bevölkerungswert X",
       "description": "",
+      "group": "bevoelkerung",
       "timing": [],
       "tags": [
         "icons"
@@ -1613,6 +1720,7 @@
       "image": "/images/voidfall/icons/icon-vermehrung-von-bevoelkerung.png",
       "summary": "Vermehrung von Bevölkerung",
       "description": "",
+      "group": "bevoelkerung",
       "timing": [],
       "tags": [
         "icons"
@@ -1628,6 +1736,7 @@
       "image": "/images/voidfall/icons/icon-senkung-von-bevoelkerung.png",
       "summary": "Senkung von Bevölkerung",
       "description": "",
+      "group": "bevoelkerung",
       "timing": [],
       "tags": [
         "icons"
@@ -1643,6 +1752,7 @@
       "image": "/images/voidfall/icons/icon-reine-bevoelkerung.png",
       "summary": "Reine Bevölkerung",
       "description": "",
+      "group": "bevoelkerung",
       "timing": [],
       "tags": [
         "icons"
@@ -1658,6 +1768,7 @@
       "image": "/images/voidfall/icons/icon-bevoelkerung-im-heimatsektor.png",
       "summary": "Bevölkerung im Heimatsektor",
       "description": "",
+      "group": "bevoelkerung",
       "timing": [],
       "tags": [
         "icons"
@@ -1673,6 +1784,7 @@
       "image": "/images/voidfall/icons/icon-bevoelkerung-im-nicht-heimat-sektor.png",
       "summary": "Bevölkerung im (nicht Heimat-)Sektor",
       "description": "",
+      "group": "bevoelkerung",
       "timing": [],
       "tags": [
         "icons"
@@ -1688,6 +1800,7 @@
       "image": "/images/voidfall/icons/icon-wertung-der-gesamtbevoelkerung.png",
       "summary": "Wertung der Gesamtbevölkerung",
       "description": "",
+      "group": "bevoelkerung",
       "timing": [],
       "tags": [
         "icons"
@@ -1703,6 +1816,7 @@
       "image": "/images/voidfall/icons/icon-flotte-der-leere.png",
       "summary": "Flotte der Leere",
       "description": "",
+      "group": "flotten-der-leere",
       "timing": [],
       "tags": [
         "icons"
@@ -1718,6 +1832,7 @@
       "image": "/images/voidfall/icons/icon-platzieren-von-flotte-der-leere.png",
       "summary": "Platzieren von Flotte der Leere",
       "description": "",
+      "group": "flotten-der-leere",
       "timing": [],
       "tags": [
         "icons"
@@ -1733,6 +1848,7 @@
       "image": "/images/voidfall/icons/icon-platzieren-von-flotte-der-leere-in-leereberuehrtem-sektor.png",
       "summary": "Platzieren von Flotte der Leere in leereberührtem Sektor",
       "description": "",
+      "group": "flotten-der-leere",
       "timing": [],
       "tags": [
         "icons"
@@ -1748,6 +1864,7 @@
       "image": "/images/voidfall/icons/icon-platzieren-von-flotte-der-leere-in-benachbartem-leereberuehrten-sektor.png",
       "summary": "Platzieren von Flotte der Leere in benachbartem leereberührten Sektor",
       "description": "",
+      "group": "flotten-der-leere",
       "timing": [],
       "tags": [
         "icons"
@@ -1763,6 +1880,7 @@
       "image": "/images/voidfall/icons/icon-entfernen-von-flotte-der-leere.png",
       "summary": "Entfernen von Flotte der Leere",
       "description": "",
+      "group": "flotten-der-leere",
       "timing": [],
       "tags": [
         "icons"
@@ -1778,6 +1896,7 @@
       "image": "/images/voidfall/icons/icon-entfernen-von-flotte-der-leere-aus-benachbartem-leereberuehrten-sektor.png",
       "summary": "Entfernen von Flotte der Leere aus benachbartem leereberührten Sektor",
       "description": "",
+      "group": "flotten-der-leere",
       "timing": [],
       "tags": [
         "icons"
@@ -1793,6 +1912,7 @@
       "image": "/images/voidfall/icons/icon-flottenverbandlimit-der-leere-von-2.png",
       "summary": "Flottenverbandlimit der Leere von 2",
       "description": "",
+      "group": "flotten-der-leere",
       "timing": [],
       "tags": [
         "icons"
@@ -1808,6 +1928,7 @@
       "image": "/images/voidfall/icons/icon-flottenverbandlimit-der-leere-von-3.png",
       "summary": "Flottenverbandlimit der Leere von 3",
       "description": "",
+      "group": "flotten-der-leere",
       "timing": [],
       "tags": [
         "icons"
@@ -1823,6 +1944,7 @@
       "image": "/images/voidfall/icons/icon-platzieren-von-flotte-der-leere-in-allen-rissen.png",
       "summary": "Platzieren von Flotte der Leere in allen Rissen",
       "description": "",
+      "group": "flotten-der-leere",
       "timing": [],
       "tags": [
         "icons"
@@ -1838,6 +1960,7 @@
       "image": "/images/voidfall/icons/icon-beute.png",
       "summary": "Beute",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -1853,6 +1976,7 @@
       "image": "/images/voidfall/icons/icon-erhalt-von-beute.png",
       "summary": "Erhalt von Beute",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -1868,6 +1992,7 @@
       "image": "/images/voidfall/icons/icon-platzieren-von-beute-in-sektor.png",
       "summary": "Platzieren von Beute in Sektor",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -1883,6 +2008,7 @@
       "image": "/images/voidfall/icons/icon-abwerfen-von-beute.png",
       "summary": "Abwerfen von Beute",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -1898,6 +2024,7 @@
       "image": "/images/voidfall/icons/icon-hinterlassenschaft.png",
       "summary": "Hinterlassenschaft",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -1913,6 +2040,7 @@
       "image": "/images/voidfall/icons/icon-erhalt-von-hinterlassenschaft.png",
       "summary": "Erhalt von Hinterlassenschaft",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -1928,6 +2056,7 @@
       "image": "/images/voidfall/icons/icon-platzieren-von-hinterlassenschaft-in-sektor.png",
       "summary": "Platzieren von Hinterlassenschaft in Sektor",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -1943,6 +2072,7 @@
       "image": "/images/voidfall/icons/icon-abwerfen-von-hinterlassenschaft.png",
       "summary": "Abwerfen von Hinterlassenschaft",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -1958,6 +2088,7 @@
       "image": "/images/voidfall/icons/icon-handelsplaettchen.png",
       "summary": "Handelsplättchen",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -1973,6 +2104,7 @@
       "image": "/images/voidfall/icons/icon-erhalt-von-handelsplaettchen.png",
       "summary": "Erhalt von Handelsplättchen",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -1988,6 +2120,7 @@
       "image": "/images/voidfall/icons/icon-abwerfen-von-handelsplaettchen.png",
       "summary": "Abwerfen von Handelsplättchen",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -2003,6 +2136,7 @@
       "image": "/images/voidfall/icons/icon-ruhmplaettchen-beliebigen-werts.png",
       "summary": "Ruhmplättchen (beliebigen Werts)",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -2018,6 +2152,7 @@
       "image": "/images/voidfall/icons/icon-erhalt-von-ruhmplaettchen-beliebigen-werts.png",
       "summary": "Erhalt von Ruhmplättchen (beliebigen Werts)",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -2033,6 +2168,7 @@
       "image": "/images/voidfall/icons/icon-aufwertung-von-ruhmplaettchen.png",
       "summary": "Aufwertung von Ruhmplättchen",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -2048,6 +2184,7 @@
       "image": "/images/voidfall/icons/icon-abwerfen-von-ruhmplaettchen-beliebigen-werts.png",
       "summary": "Abwerfen von Ruhmplättchen (beliebigen Werts)",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -2063,6 +2200,7 @@
       "image": "/images/voidfall/icons/icon-platzieren-von-ruhmplaettchen-mit-wert-x-in-sektor.png",
       "summary": "Platzieren von Ruhmplättchen mit Wert X in Sektor",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -2078,6 +2216,7 @@
       "image": "/images/voidfall/icons/icon-alle-ruhmplaettchen.png",
       "summary": "Alle Ruhmplättchen",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -2093,6 +2232,7 @@
       "image": "/images/voidfall/icons/icon-erhalt-vom-gesamtwert-der-ruhmplaettchen.png",
       "summary": "Erhalt vom Gesamtwert der Ruhmplättchen",
       "description": "",
+      "group": "plaettchen",
       "timing": [],
       "tags": [
         "icons"
@@ -2108,6 +2248,7 @@
       "image": "/images/voidfall/icons/icon-offensive.png",
       "summary": "Offensive",
       "description": "",
+      "group": "kampf",
       "timing": [],
       "tags": [
         "icons"
@@ -2123,6 +2264,7 @@
       "image": "/images/voidfall/icons/icon-defensive.png",
       "summary": "Defensive",
       "description": "",
+      "group": "kampf",
       "timing": [],
       "tags": [
         "icons"
@@ -2138,6 +2280,7 @@
       "image": "/images/voidfall/icons/icon-initiative.png",
       "summary": "Initiative",
       "description": "",
+      "group": "kampf",
       "timing": [],
       "tags": [
         "icons"
@@ -2153,6 +2296,7 @@
       "image": "/images/voidfall/icons/icon-annaeherungsschaden.png",
       "summary": "Annäherungsschaden",
       "description": "",
+      "group": "kampf",
       "timing": [],
       "tags": [
         "icons"
@@ -2168,6 +2312,7 @@
       "image": "/images/voidfall/icons/icon-salvenschaden.png",
       "summary": "Salvenschaden",
       "description": "",
+      "group": "kampf",
       "timing": [],
       "tags": [
         "icons"
@@ -2183,6 +2328,7 @@
       "image": "/images/voidfall/icons/icon-annaeherungsabsorption.png",
       "summary": "Annäherungsabsorption",
       "description": "",
+      "group": "kampf",
       "timing": [],
       "tags": [
         "icons"
@@ -2198,6 +2344,7 @@
       "image": "/images/voidfall/icons/icon-salvenabsorption.png",
       "summary": "Salvenabsorption",
       "description": "",
+      "group": "kampf",
       "timing": [],
       "tags": [
         "icons"
@@ -2213,6 +2360,7 @@
       "image": "/images/voidfall/icons/icon-erfolgreiche-defensive-im-kampf.png",
       "summary": "Erfolgreiche Defensive im Kampf",
       "description": "",
+      "group": "kampf",
       "timing": [],
       "tags": [
         "icons"
@@ -2228,6 +2376,7 @@
       "image": "/images/voidfall/icons/icon-abhandlung-des-krisentableaus.png",
       "summary": "Abhandlung des Krisentableaus",
       "description": "",
+      "group": "krisen",
       "timing": [],
       "tags": [
         "icons"
@@ -2243,6 +2392,7 @@
       "image": "/images/voidfall/icons/icon-auslegen-von-militaerischer-startkrise.png",
       "summary": "Auslegen von Militärischer Startkrise",
       "description": "",
+      "group": "krisen",
       "timing": [],
       "tags": [
         "icons"
@@ -2258,6 +2408,7 @@
       "image": "/images/voidfall/icons/icon-auslegen-von-oekonomischer-startkrise.png",
       "summary": "Auslegen von Ökonomischer Startkrise",
       "description": "",
+      "group": "krisen",
       "timing": [],
       "tags": [
         "icons"
@@ -2273,6 +2424,7 @@
       "image": "/images/voidfall/icons/icon-abwerfen-von-krise.png",
       "summary": "Abwerfen von Krise",
       "description": "",
+      "group": "krisen",
       "timing": [],
       "tags": [
         "icons"
@@ -2288,6 +2440,7 @@
       "image": "/images/voidfall/icons/icon-abwerfen-von-oekonomischer-oder-allgemeiner-krise.png",
       "summary": "Abwerfen von Ökonomischer oder Allgemeiner Krise",
       "description": "",
+      "group": "krisen",
       "timing": [],
       "tags": [
         "icons"
@@ -2303,6 +2456,7 @@
       "image": "/images/voidfall/icons/icon-abwerfen-von-allgemeiner-krise.png",
       "summary": "Abwerfen von Allgemeiner Krise",
       "description": "",
+      "group": "krisen",
       "timing": [],
       "tags": [
         "icons"
@@ -2318,6 +2472,7 @@
       "image": "/images/voidfall/icons/icon-abwerfen-von-militaerischer-oder-allgemeiner-krise.png",
       "summary": "Abwerfen von Militärischer oder Allgemeiner Krise",
       "description": "",
+      "group": "krisen",
       "timing": [],
       "tags": [
         "icons"
@@ -2333,6 +2488,7 @@
       "image": "/images/voidfall/icons/icon-ausloeschen-von-technologie.png",
       "summary": "Auslöschen von Technologie",
       "description": "",
+      "group": "krisen",
       "timing": [],
       "tags": [
         "icons"
@@ -2348,6 +2504,7 @@
       "image": "/images/voidfall/icons/icon-katastrophe.png",
       "summary": "Katastrophe",
       "description": "",
+      "group": "krisen",
       "timing": [],
       "tags": [
         "icons"
@@ -2363,6 +2520,7 @@
       "image": "/images/voidfall/icons/icon-platzieren-einer-katastrophe-auf-das-krisentableau.png",
       "summary": "Platzieren einer Katastrophe auf das Krisentableau",
       "description": "",
+      "group": "krisen",
       "timing": [],
       "tags": [
         "icons"
@@ -2378,6 +2536,7 @@
       "image": "/images/voidfall/icons/icon-gilde.png",
       "summary": "Beliebige Gilde",
       "description": "",
+      "group": "gilden",
       "timing": [],
       "tags": [
         "icons"
@@ -2393,6 +2552,7 @@
       "image": "/images/voidfall/icons/icon-kreditgilde.png",
       "summary": "Kreditgilde",
       "description": "",
+      "group": "gilden",
       "timing": [],
       "tags": [
         "icons"
@@ -2408,6 +2568,7 @@
       "image": "/images/voidfall/icons/icon-konstruktionsgilde.png",
       "summary": "Konstruktionsgilde",
       "description": "",
+      "group": "gilden",
       "timing": [],
       "tags": [
         "icons"
@@ -2423,6 +2584,7 @@
       "image": "/images/voidfall/icons/icon-nahrungsgilde.png",
       "summary": "Nahrungsgilde",
       "description": "",
+      "group": "gilden",
       "timing": [],
       "tags": [
         "icons"
@@ -2438,6 +2600,7 @@
       "image": "/images/voidfall/icons/icon-bergbaugilde.png",
       "summary": "Bergbaugilde",
       "description": "",
+      "group": "gilden",
       "timing": [],
       "tags": [
         "icons"
@@ -2453,6 +2616,7 @@
       "image": "/images/voidfall/icons/icon-forschungsgilde.png",
       "summary": "Forschungsgilde",
       "description": "",
+      "group": "gilden",
       "timing": [],
       "tags": [
         "icons"
@@ -2468,6 +2632,7 @@
       "image": "/images/voidfall/icons/icon-konstruktions-nahrungs-bergbaugilde.png",
       "summary": "Konstruktions-/Nahrungs-/Bergbaugilde",
       "description": "",
+      "group": "gilden",
       "timing": [],
       "tags": [
         "icons"
@@ -2483,6 +2648,7 @@
       "image": "/images/voidfall/icons/icon-gilde-in-reinem-sektor.png",
       "summary": "Gilde in reinem Sektor",
       "description": "",
+      "group": "gilden",
       "timing": [],
       "tags": [
         "icons"
@@ -2498,6 +2664,7 @@
       "image": "/images/voidfall/icons/icon-gruendung-von-gilde.png",
       "summary": "Gründung von Gilde",
       "description": "",
+      "group": "gilden",
       "timing": [],
       "tags": [
         "icons"
@@ -2513,6 +2680,7 @@
       "image": "/images/voidfall/icons/icon-entfernen-von-gilde-aus-nicht-heimat-sektor.png",
       "summary": "Entfernen von Gilde aus (nicht Heimat-)Sektor",
       "description": "",
+      "group": "gilden",
       "timing": [],
       "tags": [
         "icons"
@@ -2528,6 +2696,7 @@
       "image": "/images/voidfall/icons/icon-freies-gildenfeld.png",
       "summary": "Freies Gildenfeld",
       "description": "",
+      "group": "gilden",
       "timing": [],
       "tags": [
         "icons"
@@ -2543,6 +2712,7 @@
       "image": "/images/voidfall/icons/icon-freies-gildenfeld-in-reinem-sektor.png",
       "summary": "Freies Gildenfeld in reinem Sektor",
       "description": "",
+      "group": "gilden",
       "timing": [],
       "tags": [
         "icons"
@@ -2558,6 +2728,7 @@
       "image": "/images/voidfall/icons/icon-stuetzpunkt.png",
       "summary": "Stützpunkt",
       "description": "",
+      "group": "stuetzpunkte",
       "timing": [],
       "tags": [
         "icons"
@@ -2573,6 +2744,7 @@
       "image": "/images/voidfall/icons/icon-verteidigungsanlage.png",
       "summary": "Verteidigungsanlage",
       "description": "",
+      "group": "stuetzpunkte",
       "timing": [],
       "tags": [
         "icons"
@@ -2588,6 +2760,7 @@
       "image": "/images/voidfall/icons/icon-werft.png",
       "summary": "Werft",
       "description": "",
+      "group": "stuetzpunkte",
       "timing": [],
       "tags": [
         "icons"
@@ -2603,6 +2776,7 @@
       "image": "/images/voidfall/icons/icon-sternenbasis.png",
       "summary": "Sternenbasis",
       "description": "",
+      "group": "stuetzpunkte",
       "timing": [],
       "tags": [
         "icons"
@@ -2618,6 +2792,7 @@
       "image": "/images/voidfall/icons/icon-errichtung-von-stuetzpunkt.png",
       "summary": "Errichtung von Stützpunkt",
       "description": "",
+      "group": "stuetzpunkte",
       "timing": [],
       "tags": [
         "icons"
@@ -2633,6 +2808,7 @@
       "image": "/images/voidfall/icons/icon-entfernen-von-stuetzpunkt-aus-nicht-heimat-sektor.png",
       "summary": "Entfernen von Stützpunkt aus (nicht Heimat-)Sektor",
       "description": "",
+      "group": "stuetzpunkte",
       "timing": [],
       "tags": [
         "icons"
@@ -2648,6 +2824,7 @@
       "image": "/images/voidfall/icons/icon-stuetzpunkt-in-reinem-sektor.png",
       "summary": "Stützpunkt in reinem Sektor",
       "description": "",
+      "group": "stuetzpunkte",
       "timing": [],
       "tags": [
         "icons"
@@ -2663,6 +2840,7 @@
       "image": "/images/voidfall/icons/icon-errichtung-von-stuetzpunkt-in-leereberuehrtem-sektor.png",
       "summary": "Errichtung von Stützpunkt in leereberührtem Sektor",
       "description": "",
+      "group": "stuetzpunkte",
       "timing": [],
       "tags": [
         "icons"
@@ -2678,6 +2856,7 @@
       "image": "/images/voidfall/icons/icon-errichtung-von-stuetzpunkt-in-benachbartem-leereberuehrten-sektor.png",
       "summary": "Errichtung von Stützpunkt in benachbartem leereberührten Sektor",
       "description": "",
+      "group": "stuetzpunkte",
       "timing": [],
       "tags": [
         "icons"
@@ -2693,6 +2872,7 @@
       "image": "/images/voidfall/icons/icon-vorrat-beliebige-ressource.png",
       "summary": "Vorrat/beliebige Ressource",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2708,6 +2888,7 @@
       "image": "/images/voidfall/icons/icon-nahrung.png",
       "summary": "Nahrung",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2723,6 +2904,7 @@
       "image": "/images/voidfall/icons/icon-energie.png",
       "summary": "Energie",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2738,6 +2920,7 @@
       "image": "/images/voidfall/icons/icon-material.png",
       "summary": "Material",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2753,6 +2936,7 @@
       "image": "/images/voidfall/icons/icon-wissen.png",
       "summary": "Wissen",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2768,6 +2952,7 @@
       "image": "/images/voidfall/icons/icon-credits.png",
       "summary": "Credits",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2783,6 +2968,7 @@
       "image": "/images/voidfall/icons/icon-nahrung-energie-material.png",
       "summary": "Nahrung/Energie/Material",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2798,6 +2984,7 @@
       "image": "/images/voidfall/icons/icon-selber-vorrat.png",
       "summary": "Selber Vorrat",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2813,6 +3000,7 @@
       "image": "/images/voidfall/icons/icon-verschiedene-vorraete.png",
       "summary": "Verschiedene Vorräte",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2828,6 +3016,7 @@
       "image": "/images/voidfall/icons/icon-produktionsstufe.png",
       "summary": "Produktionsstufe",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2843,6 +3032,7 @@
       "image": "/images/voidfall/icons/icon-produktionsertrag.png",
       "summary": "Produktionsertrag",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2858,6 +3048,7 @@
       "image": "/images/voidfall/icons/icon-produktion-von-1-ressourcentyp.png",
       "summary": "Produktion von 1 Ressourcentyp",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2873,6 +3064,7 @@
       "image": "/images/voidfall/icons/icon-ueberproduktion.png",
       "summary": "Überproduktion",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2888,6 +3080,7 @@
       "image": "/images/voidfall/icons/icon-ueberproduktion-ohne-einflussbonus.png",
       "summary": "Überproduktion ohne Einflussbonus",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2903,6 +3096,7 @@
       "image": "/images/voidfall/icons/icon-produktion-desselben-ressourcentyps.png",
       "summary": "Produktion desselben Ressourcentyps",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2918,6 +3112,7 @@
       "image": "/images/voidfall/icons/icon-produktion-verschiedener-ressourcentypen.png",
       "summary": "Produktion verschiedener Ressourcentypen",
       "description": "",
+      "group": "produktion",
       "timing": [],
       "tags": [
         "icons"
@@ -2933,6 +3128,7 @@
       "image": "/images/voidfall/icons/icon-eingesetzte-flotte.png",
       "summary": "Eingesetzte Flotte",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -2948,6 +3144,7 @@
       "image": "/images/voidfall/icons/icon-aktive-flotte.png",
       "summary": "Aktive Flotte",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -2963,6 +3160,7 @@
       "image": "/images/voidfall/icons/icon-inaktive-flotte.png",
       "summary": "Inaktive Flotte",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -2978,6 +3176,7 @@
       "image": "/images/voidfall/icons/icon-korvette.png",
       "summary": "Korvette",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -2993,6 +3192,7 @@
       "image": "/images/voidfall/icons/icon-traeger.png",
       "summary": "Träger",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3008,6 +3208,7 @@
       "image": "/images/voidfall/icons/icon-zerstoerer.png",
       "summary": "Zerstörer",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3023,6 +3224,7 @@
       "image": "/images/voidfall/icons/icon-schlaechter.png",
       "summary": "Schlächter",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3038,6 +3240,7 @@
       "image": "/images/voidfall/icons/icon-waechter.png",
       "summary": "Wächter",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3053,6 +3256,7 @@
       "image": "/images/voidfall/icons/icon-einsetzen-von-flotte-aus-einsatzzone-in-sektor.png",
       "summary": "Einsetzen von Flotte (aus Einsatzzone in Sektor)",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3068,6 +3272,7 @@
       "image": "/images/voidfall/icons/icon-einsetzen-von-flotte-im-heimatsektor.png",
       "summary": "Einsetzen von Flotte im Heimatsektor",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3083,6 +3288,7 @@
       "image": "/images/voidfall/icons/icon-rueckruf-von-flotte-aus-sektor-in-einsatzzone.png",
       "summary": "Rückruf von Flotte (aus Sektor in Einsatzzone)",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3098,6 +3304,7 @@
       "image": "/images/voidfall/icons/icon-einsatzzone.png",
       "summary": "Einsatzzone",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3113,6 +3320,7 @@
       "image": "/images/voidfall/icons/icon-ruhezone.png",
       "summary": "Ruhezone",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3128,6 +3336,7 @@
       "image": "/images/voidfall/icons/icon-aktivierung-von-flotte-aus-ruhezone-in-einsatzzone.png",
       "summary": "Aktivierung von Flotte (aus Ruhezone in Einsatzzone)",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3143,6 +3352,7 @@
       "image": "/images/voidfall/icons/icon-deaktivierung-von-flotte-aus-einsatzzone-in-ruhezone.png",
       "summary": "Deaktivierung von Flotte (aus Einsatzzone in Ruhezone)",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3158,6 +3368,7 @@
       "image": "/images/voidfall/icons/icon-selber-flottentyp.png",
       "summary": "Selber Flottentyp",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3173,6 +3384,7 @@
       "image": "/images/voidfall/icons/icon-verschiedene-flottentypen.png",
       "summary": "Verschiedene Flottentypen",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
@@ -3188,12 +3400,95 @@
       "image": "/images/voidfall/icons/icon-sammeln-aus-sektor-in-sektor.png",
       "summary": "Sammeln (aus Sektor in Sektor)",
       "description": "",
+      "group": "flotten",
       "timing": [],
       "tags": [
         "icons"
       ],
       "warnings": [],
       "sort_order": 2120
+    }
+  ],
+  "groups": [
+    {
+      "id": "allgemein",
+      "title": "Allgemein",
+      "order": 1
+    },
+    {
+      "id": "verderbnis",
+      "title": "Verderbnis",
+      "order": 2
+    },
+    {
+      "id": "zivilisationsleiste",
+      "title": "Zivilisationsleiste",
+      "order": 3
+    },
+    {
+      "id": "fokusse",
+      "title": "Fokusse",
+      "order": 4
+    },
+    {
+      "id": "technologien",
+      "title": "Technologien",
+      "order": 5
+    },
+    {
+      "id": "agenden",
+      "title": "Agenden",
+      "order": 6
+    },
+    {
+      "id": "sektoren",
+      "title": "Sektoren",
+      "order": 7
+    },
+    {
+      "id": "bevoelkerung",
+      "title": "Bevölkerung",
+      "order": 8
+    },
+    {
+      "id": "flotten-der-leere",
+      "title": "Flotten der Leere",
+      "order": 9
+    },
+    {
+      "id": "plaettchen",
+      "title": "Plättchen",
+      "order": 10
+    },
+    {
+      "id": "kampf",
+      "title": "Kampf",
+      "order": 11
+    },
+    {
+      "id": "krisen",
+      "title": "Krisen",
+      "order": 12
+    },
+    {
+      "id": "gilden",
+      "title": "Gilden",
+      "order": 13
+    },
+    {
+      "id": "stuetzpunkte",
+      "title": "Stützpunkte",
+      "order": 14
+    },
+    {
+      "id": "produktion",
+      "title": "Produktion",
+      "order": 15
+    },
+    {
+      "id": "flotten",
+      "title": "Flotten",
+      "order": 16
     }
   ]
 }

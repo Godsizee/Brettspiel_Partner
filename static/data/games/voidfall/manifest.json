@@ -12,7 +12,7 @@
     {
       "id": "fokusse",
       "type": "reference",
-      "layout": "voidfall-fokus",
+      "layout": "voidfall-grouped",
       "title": "Fokusse",
       "icon": "book-open",
       "source": "modules/fokusse.json",
@@ -62,6 +62,7 @@
     {
       "id": "agenden",
       "type": "reference",
+      "layout": "voidfall-grouped",
       "title": "Agenden",
       "icon": "target",
       "source": "modules/agenden.json",
@@ -70,6 +71,7 @@
     {
       "id": "galaktische_ereignisse",
       "type": "reference",
+      "layout": "voidfall-grouped",
       "title": "Galaktische Ereignisse",
       "icon": "globe",
       "source": "modules/galaktische_ereignisse.json",
