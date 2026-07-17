@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.1.0-alpha",
+  "game": {
+    "key": "scythe",
+    "name": "Scythe",
+    "publisher": "Stonemaier Games / Feuerland",
+    "edition": "base",
+    "defaultLanguage": "de"
+  },
+  "modules": [
+    {
+      "id": "aktionen",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Aktionen",
+      "icon": "zap",
+      "source": "modules/aktionen.json",
+      "featured": true
+    },
+    {
+      "id": "nationen",
+      "type": "reference",
+      "title": "Nationen",
+      "icon": "flag",
+      "source": "modules/nationen.json",
+      "featured": true
+    },
+    {
+      "id": "gebaeude",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Gebäude",
+      "icon": "home",
+      "source": "modules/gebaeude.json",
+      "featured": false
+    },
+    {
+      "id": "sterne",
+      "type": "reference",
+      "title": "Sterne",
+      "icon": "star",
+      "source": "modules/sterne.json",
+      "featured": false
+    },
+    {
+      "id": "regeln",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Regeln",
+      "icon": "book-open",
+      "source": "modules/regeln.json",
+      "featured": true
+    },
+    {
+      "id": "icons",
+      "type": "reference",
+      "layout": "icon-grid",
+      "title": "Icons",
+      "icon": "help-circle",
+      "source": "modules/icons.json",
+      "featured": true
+    }
+  ]
+}

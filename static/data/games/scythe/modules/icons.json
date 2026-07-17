@@ -1,0 +1,404 @@
+{
+  "entries": [
+    {
+      "id": "icon-holz",
+      "type": "reference",
+      "category": "icons",
+      "name": "Holz",
+      "image": "/images/scythe/icons/icon-holz.png",
+      "summary": "Grundressource, produziert im Wald; benötigt für die Aktion „Bauen“.",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 1
+    },
+    {
+      "id": "icon-nahrung",
+      "type": "reference",
+      "category": "icons",
+      "name": "Nahrung",
+      "image": "/images/scythe/icons/icon-nahrung.png",
+      "summary": "Grundressource, produziert im Gehöft; benötigt für die Aktion „Rekrutieren“.",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 2
+    },
+    {
+      "id": "icon-metall",
+      "type": "reference",
+      "category": "icons",
+      "name": "Metall",
+      "image": "/images/scythe/icons/icon-metall.png",
+      "summary": "Grundressource, produziert in den Bergen; benötigt für die Aktion „Einsetzen“ (Mechs).",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 3
+    },
+    {
+      "id": "icon-oel",
+      "type": "reference",
+      "category": "icons",
+      "name": "Öl",
+      "image": "/images/scythe/icons/icon-oel.png",
+      "summary": "Grundressource, produziert in der Tundra; benötigt für die Aktion „Entwickeln“.",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 4
+    },
+    {
+      "id": "icon-gehoeft",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gehöft",
+      "image": "/images/scythe/icons/icon-gehoeft.png",
+      "summary": "Primärregion, produziert Nahrung.",
+      "description": "",
+      "group": "gelaende",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 10
+    },
+    {
+      "id": "icon-wald",
+      "type": "reference",
+      "category": "icons",
+      "name": "Wald",
+      "image": "/images/scythe/icons/icon-wald.png",
+      "summary": "Primärregion, produziert Holz.",
+      "description": "",
+      "group": "gelaende",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 11
+    },
+    {
+      "id": "icon-berge",
+      "type": "reference",
+      "category": "icons",
+      "name": "Berge (Gebirge)",
+      "image": "/images/scythe/icons/icon-berge.png",
+      "summary": "Primärregion, produziert Metall.",
+      "description": "",
+      "group": "gelaende",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 12
+    },
+    {
+      "id": "icon-tundra",
+      "type": "reference",
+      "category": "icons",
+      "name": "Tundra",
+      "image": "/images/scythe/icons/icon-tundra.png",
+      "summary": "Primärregion, produziert Öl.",
+      "description": "",
+      "group": "gelaende",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 13
+    },
+    {
+      "id": "icon-dorf",
+      "type": "reference",
+      "category": "icons",
+      "name": "Dorf",
+      "image": "/images/scythe/icons/icon-dorf.png",
+      "summary": "Primärregion, produziert Arbeiter statt Ressourcen.",
+      "description": "",
+      "group": "gelaende",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 14
+    },
+    {
+      "id": "icon-see",
+      "type": "reference",
+      "category": "icons",
+      "name": "See",
+      "image": "/images/scythe/icons/icon-see.png",
+      "summary": "Wasserfeld, produziert nichts; nur mit Seetüchtig/Untertauchen befahrbar, kein Bauen/Einsetzen.",
+      "description": "",
+      "group": "gelaende",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 15
+    },
+    {
+      "id": "icon-fabrik",
+      "type": "reference",
+      "category": "icons",
+      "name": "Die Fabrik",
+      "image": "/images/scythe/icons/icon-fabrik.png",
+      "summary": "Mittelpunkt des Spielbretts, zählt bei der Schlusswertung wie 3 Regionen.",
+      "description": "",
+      "group": "gelaende",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 16
+    },
+    {
+      "id": "icon-muenze",
+      "type": "reference",
+      "category": "icons",
+      "name": "Münze ($)",
+      "image": "/images/scythe/icons/icon-muenze.png",
+      "summary": "Vermögen; bestimmt am Spielende zusammen mit der Schlusswertung den Sieger.",
+      "description": "",
+      "group": "werte",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 20
+    },
+    {
+      "id": "icon-ansehen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Ansehen",
+      "image": "/images/scythe/icons/icon-ansehen.png",
+      "summary": "Popularitäts-Skala (Herz); beeinflusst den Geldertrag bei der Schlusswertung.",
+      "description": "",
+      "group": "werte",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 21
+    },
+    {
+      "id": "icon-staerke",
+      "type": "reference",
+      "category": "icons",
+      "name": "Stärke",
+      "image": "/images/scythe/icons/icon-staerke.png",
+      "summary": "„Währung“ für Kämpfe, auf der Stärkeskala getrackt.",
+      "description": "",
+      "group": "werte",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 22
+    },
+    {
+      "id": "icon-stern",
+      "type": "reference",
+      "category": "icons",
+      "name": "Stern",
+      "image": "/images/scythe/icons/icon-stern.png",
+      "summary": "Erfolgsmarker auf der Erfolgsleiste; das Spiel endet beim 6. Stern eines Spielers.",
+      "description": "",
+      "group": "werte",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 23
+    },
+    {
+      "id": "icon-kampfkarte",
+      "type": "reference",
+      "category": "icons",
+      "name": "Kampfkarte",
+      "image": "/images/scythe/icons/icon-kampfkarte.png",
+      "summary": "Erhöht optional den Stärkeeinsatz im Kampf; Ertrag der Aktion „Aufrüsten“.",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 30
+    },
+    {
+      "id": "icon-zielkarte",
+      "type": "reference",
+      "category": "icons",
+      "name": "Zielkarte",
+      "image": "/images/scythe/icons/icon-zielkarte.png",
+      "summary": "Persönliches Geheimziel; gibt bei Erfüllung 1 Stern.",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 31
+    },
+    {
+      "id": "icon-begegnung",
+      "type": "reference",
+      "category": "icons",
+      "name": "Begegnungsplättchen / -karte",
+      "image": "/images/scythe/icons/icon-begegnung.png",
+      "summary": "Löst eine Begegnung aus, wenn der Anführer die markierte Region betritt.",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 32
+    },
+    {
+      "id": "icon-rekrut",
+      "type": "reference",
+      "category": "icons",
+      "name": "Rekrutenmarker",
+      "image": "/images/scythe/icons/icon-rekrut.png",
+      "summary": "Wird bei „Rekrutieren“ auf ein Bonusfeld gesetzt (einmaliger + dauerhafter Bonus).",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 33
+    },
+    {
+      "id": "icon-tunnel",
+      "type": "reference",
+      "category": "icons",
+      "name": "Tunnel",
+      "image": "/images/scythe/icons/icon-tunnel.png",
+      "summary": "Felder mit Tunnelsymbol gelten für alle Einheiten als aneinander angrenzend.",
+      "description": "",
+      "group": "bewegung",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 40
+    },
+    {
+      "id": "icon-waten",
+      "type": "reference",
+      "category": "icons",
+      "name": "Waten (Mech-Fähigkeit)",
+      "image": "/images/scythe/icons/icon-waten.png",
+      "summary": "Erlaubt Anführer/Mechs Flussüberquerungen zu 2 bestimmten Geländearten (je Nation verschieden).",
+      "description": "",
+      "group": "bewegung",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 41
+    },
+    {
+      "id": "icon-eile",
+      "type": "reference",
+      "category": "icons",
+      "name": "Eile (Mech-Fähigkeit)",
+      "image": "/images/scythe/icons/icon-eile.png",
+      "summary": "+1 Bewegungsfeld pro Bewegungsaktion für Anführer/Mechs.",
+      "description": "",
+      "group": "bewegung",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 42
+    },
+    {
+      "id": "icon-arbeiter",
+      "type": "reference",
+      "category": "icons",
+      "name": "Arbeiter",
+      "image": "/images/scythe/icons/icon-arbeiter.png",
+      "summary": "Produziert Ressourcen/Arbeiter, setzt Mechs ein, baut Gebäude.",
+      "description": "",
+      "group": "einheiten",
+      "timing": [],
+      "tags": [
+        "icons"
+      ],
+      "warnings": [],
+      "sort_order": 50
+    }
+  ],
+  "groups": [
+    {
+      "id": "ressourcen",
+      "title": "Ressourcen",
+      "order": 1
+    },
+    {
+      "id": "gelaende",
+      "title": "Gelände",
+      "order": 2
+    },
+    {
+      "id": "werte",
+      "title": "Werte",
+      "order": 3
+    },
+    {
+      "id": "karten",
+      "title": "Karten & Plättchen",
+      "order": 4
+    },
+    {
+      "id": "bewegung",
+      "title": "Bewegung",
+      "order": 5
+    },
+    {
+      "id": "einheiten",
+      "title": "Einheiten",
+      "order": 6
+    }
+  ]
+}

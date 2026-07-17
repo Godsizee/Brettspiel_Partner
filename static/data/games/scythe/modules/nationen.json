@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "id": "nation-rusviet",
+      "type": "reference",
+      "category": "nationen",
+      "name": "Rusviet-Union",
+      "image": null,
+      "summary": "**Farbe**: Rot · **Anführer**: Olga Romanova & Changa (sibirischer Tiger)\n**Nationalfähigkeit — Unermüdlich**: Du darfst den gleichen Bereich des Spielertableaus wiederholt nacheinander nutzen (auch für Aktionen auf Fabrikkarten).\n\n**Mech-Fähigkeiten** (werden mit „Einsetzen“ freigeschaltet, gelten für Anführer + alle Mechs):\n**Waten** — Über Flüsse zu Gehöften und Dörfern gehen.\n**Bezirksverwaltung** — Für Bewegungen gelten alle von dir beherrschten Dörfer sowie die Fabrikregion als benachbart.\n**Volksarmee** — Hast du im Kampf mindestens 1 Arbeiter in der Region, darfst du 1 zusätzliche [[icon:scythe:kampfkarte]] spielen (mindestens 1 Anführer/Mech muss ebenfalls am Kampf teilnehmen).\n**Eile** — +1 Feld pro Bewegung.",
+      "description": "Die Rusviets treiben ihre Leute Tag für Tag an, um das große Ziel zu erreichen: Während andere den einzelnen Bereichen ihrer Wirtschaft Pausen gönnen, darf der Rusviet-Spieler in jedem Zug jede beliebige Aktion nutzen, auch die im vorigen Zug benutzte.",
+      "timing": [],
+      "tags": [
+        "nationen"
+      ],
+      "warnings": [],
+      "sort_order": 1
+    },
+    {
+      "id": "nation-nordische-koenigreiche",
+      "type": "reference",
+      "category": "nationen",
+      "name": "Nordische Königreiche",
+      "image": null,
+      "summary": "**Farbe**: Blau · **Anführer**: Björn & Mox (Moschusochse)\n**Nationalfähigkeit — Schwimmen**: Deine Arbeiter dürfen sich über Flüsse hinweg bewegen (gilt nur für Arbeiter, nicht für Anführer und Mechs).\n\n**Mech-Fähigkeiten**:\n**Waten** — Über Flüsse zu Wäldern und Bergen gehen.\n**Seetüchtig** — Anführer und Mechs dürfen sich auf [[icon:scythe:see]]-Feldern bewegen und von dort zurückziehen (ein Rückzug ins Heimatgebiet bleibt weiterhin möglich) sowie von Seen auf Landregionen ziehen. Keine Arbeiter/Ressourcen auf Seen absetzbar; ein Arbeiter auf einem See kann diesen nicht ohne Hilfe eines Mechs verlassen. Auf Seen kein Bauen/Einsetzen.\n**Artillerie** — Vor einem Kampf darfst du 1 Stärkepunkt bezahlen, damit dein Gegner 2 Stärkepunkte verliert (1× pro Kampf).\n**Eile** — +1 Feld pro Bewegung.",
+      "description": "Die Arbeiter des Nordens sind gute Schwimmer, die selbst vor eiskaltem Wasser nicht zurückschrecken.",
+      "timing": [],
+      "tags": [
+        "nationen"
+      ],
+      "warnings": [],
+      "sort_order": 2
+    },
+    {
+      "id": "nation-khanat-der-krim",
+      "type": "reference",
+      "category": "nationen",
+      "name": "Khanat der Krim",
+      "image": null,
+      "summary": "**Farbe**: Gelb · **Anführer**: Zehra & Kar (Adler)\n**Nationalfähigkeit — Erzwingen**: Einmal pro Zug darfst du 1 [[icon:scythe:kampfkarte]] verwenden, als ob sie 1 beliebige Ressource wäre (unabhängig vom Zahlenwert der Karte). Am Ende des Spiels sind Kampfkarten auf der Krim nichts mehr wert.\n\n**Mech-Fähigkeiten**:\n**Waten** — Über Flüsse zu Gehöften und Tundra gehen.\n**Reisen** — Von jeder Region oder einem Heimatgebiet zum eigenen oder einem unbenutzten Heimatgebiet ziehen (Ausnahme von der Regel, dass Heimatgebiete nicht betreten werden dürfen).\n**Erkundung** — Vor einem Kampf darfst du dem Gegner 1 zufällige Kampfkarte stehlen und auf die Hand nehmen (1× pro Kampf).\n**Eile** — +1 Feld pro Bewegung.",
+      "description": "Das Krim-Khanat hat Informationen schon immer an den Meistbietenden verkauft.",
+      "timing": [],
+      "tags": [
+        "nationen"
+      ],
+      "warnings": [],
+      "sort_order": 3
+    },
+    {
+      "id": "nation-republik-polania",
+      "type": "reference",
+      "category": "nationen",
+      "name": "Republik Polania",
+      "image": null,
+      "summary": "**Farbe**: Weiß · **Anführer**: Anna & Wojtek (Bär)\n**Nationalfähigkeit — Wendig**: Du darfst von jeder Begegnungskarte 2 Optionen wählen (du ziehst weiterhin nur 1 Begegnungskarte, darfst die 2 Optionen aber in beliebiger Reihenfolge ausführen; der Ertrag der ersten Option kann benutzt werden, um die zweite zu bezahlen).\n\n**Mech-Fähigkeiten**:\n**Waten** — Über Flüsse zu Dörfern und Bergen gehen.\n**Untertauchen** — Anführer und Mechs dürfen sich auf Seen bewegen, von dort in Landregionen ziehen und sich direkt von einem See zu jedem anderen See bewegen (wie eine Tunnelbewegung). Gleiche Seen-Einschränkungen wie bei Seetüchtig.\n**Solidarität** — Du verlierst kein Ansehen, wenn du als siegreicher Angreifer mit Anführer oder Mechs gegnerische Arbeiter durch einen Kampf zum Rückzug zwingst.\n**Eile** — +1 Feld pro Bewegung.",
+      "description": "Dank Annas charismatischem Gefährten, dem Bären Wojtek, werden für die beiden aus kurzen Begegnungen oft längere Abenteuer.",
+      "timing": [],
+      "tags": [
+        "nationen"
+      ],
+      "warnings": [],
+      "sort_order": 4
+    },
+    {
+      "id": "nation-saechsisches-reich",
+      "type": "reference",
+      "category": "nationen",
+      "name": "Sächsisches Reich",
+      "image": null,
+      "summary": "**Farbe**: Schwarz · **Anführer**: Gunther von Duisburg mit Nacht & Tag (Wölfe)\n**Nationalfähigkeit — Unterwerfen**: Für Zielerreichung und Siege im Kampf darfst du unbegrenzt viele [[icon:scythe:stern]] erzielen (keine 2-Sterne-Obergrenze bei Kampfsiegen). Du darfst zudem beide Zielkarten erfüllen (du behältst die zweite, wenn die erste erfüllt ist).\n\n**Mech-Fähigkeiten**:\n**Waten** — Über Flüsse zu Wäldern und Bergen gehen.\n**Durchtunneln** — Für Bewegungen gelten von dir beherrschte Berge und alle Tunnel (inkl. eigenem Stollen) als aneinander angrenzend.\n**Entwaffnen** — Vor dem Kampf in einer Region mit [[icon:scythe:tunnel]] oder deinem Stollen verliert der Gegner 2 Stärkepunkte (1× pro Kampf, nicht 1× pro Einheit).\n**Eile** — +1 Feld pro Bewegung.",
+      "description": "Sollte das Sächsische Reich nach einem gewonnenen Kampf noch verfügbare Sterne haben, muss der Spieler einen Stern einsetzen — Ausnahme von der sonstigen 2-Sterne-Kampf-Obergrenze und der 1-Zielkarte-Regel gelten hier nicht.",
+      "timing": [],
+      "tags": [
+        "nationen"
+      ],
+      "warnings": [],
+      "sort_order": 5
+    }
+  ]
+}

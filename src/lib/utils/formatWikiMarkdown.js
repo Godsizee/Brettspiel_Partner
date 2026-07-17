@@ -8,10 +8,21 @@ const PURIFY_CONFIG = {
   ALLOW_DATA_ATTR: false,
 };
 
-// Hook to ensure img tags only load from the internal icons path
+// Vite resolves import.meta.env.BASE_URL at build time (e.g. '/files/Brettspiel_Partner/').
+// Root-absolute '/images/...' paths 404 once the app is served under a non-root
+// base — same fix already used elsewhere (GenericScoreSheet.js, GamesCatalogService.js).
+const BASE_URL = import.meta.env.BASE_URL || '/';
+const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+// Hook to ensure img tags only load from a whitelisted game's icons path.
+// [[icon:slug]] (no namespace) stays Voidfall-only for backwards compatibility;
+// [[icon:<game>:slug]] resolves per-game, gated by ICON_GAME_WHITELIST below.
+const ICON_GAME_WHITELIST = ['voidfall', 'scythe'];
+const ICON_SRC_PATTERN = new RegExp(`^${escapeRegExp(BASE_URL)}images/(?:${ICON_GAME_WHITELIST.join('|')})/icons/icon-[a-z0-9-]+\\.png$`);
+
 DOMPurify.addHook('uponSanitizeAttribute', function (node, data) {
   if (data.attrName === 'src' && node.nodeName === 'IMG') {
-    if (!data.attrValue.match(/^\/images\/voidfall\/icons\/icon-[a-z0-9-]+\.png$/)) {
+    if (!data.attrValue.match(ICON_SRC_PATTERN)) {
       data.keepAttr = false;
     }
   }
@@ -39,8 +50,14 @@ export function formatWikiMarkdown(md) {
   // Italic: *text* → <em>text</em>
   html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
 
-  // Inline Icons: [[icon:slug]] → <img class="wiki-inline-icon" src="/images/voidfall/icons/icon-slug.png" alt="slug">
-  html = html.replace(/\[\[icon:([a-z0-9-]+)\]\]/g, '<img class="wiki-inline-icon" src="/images/voidfall/icons/icon-$1.png" alt="$1">');
+  // Inline Icons:
+  // [[icon:<game>:slug]] → game-spezifischer Pfad (nur whitelisted Spiele, siehe oben)
+  // [[icon:slug]] (kein Namespace) → Voidfall, unverändertes Altverhalten
+  html = html.replace(/\[\[icon:([a-z0-9-]+):([a-z0-9-]+)\]\]/g, (match, game, slug) => {
+    if (!ICON_GAME_WHITELIST.includes(game)) return match;
+    return `<img class="wiki-inline-icon" src="${BASE_URL}images/${game}/icons/icon-${slug}.png" alt="${slug}">`;
+  });
+  html = html.replace(/\[\[icon:([a-z0-9-]+)\]\]/g, (_match, slug) => `<img class="wiki-inline-icon" src="${BASE_URL}images/voidfall/icons/icon-${slug}.png" alt="${slug}">`);
 
   const lines = html.split('\n');
   const output = [];

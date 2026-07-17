@@ -32,6 +32,13 @@
   };
 
   const LAYOUT_MAP = {
+    // Neutrale, spielunabhängige Keys — die Renderer selbst enthalten keinerlei
+    // Voidfall-Bezug (datengetrieben über groups[]), nur Name/Ordner suggerieren
+    // Bespoke. Neue Manifeste (z. B. Scythe) sollen nur noch diese Keys nutzen.
+    grouped: VoidfallGroupedRenderer,
+    'icon-grid': VoidfallIconLexikonRenderer,
+    // Alte Voidfall-Keys bleiben als Alias erhalten (Rückwärtskompatibilität,
+    // bestehendes Voidfall-Manifest ändert sich nicht).
     'voidfall-grouped': VoidfallGroupedRenderer,
     'voidfall-icons': VoidfallIconLexikonRenderer,
     'voidfall-leiste': VoidfallLeisteRenderer

@@ -130,5 +130,15 @@
       "enabled": true,
       "manifest": "/data/games/voidfall/manifest.json"
     }
+  },
+  {
+    "key": "scythe",
+    "name": "Scythe",
+    "publisher": "Stonemaier Games / Feuerland",
+    "players": "1–5 Spieler",
+    "wiki": {
+      "enabled": true,
+      "manifest": "/data/games/scythe/manifest.json"
+    }
   }
 ]

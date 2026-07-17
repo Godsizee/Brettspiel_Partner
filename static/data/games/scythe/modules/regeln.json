@@ -1,0 +1,308 @@
+{
+  "entries": [
+    {
+      "id": "regel-region-beherrschen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Region & Beherrschen",
+      "image": null,
+      "summary": "Eine Region ist ein Sechseck auf dem Spielbrett mit einer Geländemarkierung ([[icon:scythe:gehoeft]], [[icon:scythe:wald]], [[icon:scythe:berge]], [[icon:scythe:tundra]], [[icon:scythe:dorf]], [[icon:scythe:see]] oder [[icon:scythe:fabrik]]). Du **beherrschst** eine Region, wenn du dort mindestens 1 Einheit (Anführer, Arbeiter oder Mech) hast ODER wenn du dort ein Gebäude besitzt und sich kein gegnerischer Anführer, Arbeiter oder Mech dort befindet. Eine Region kann nur von einem Spieler beherrscht werden.\n\n**Heimatgebiet**: Start- und Rückzugsort deiner Nation. Das Heimatgebiet ist **keine** Region — du kannst dort grundsätzlich keine Einheiten hinbewegen (auch nicht ins eigene), keine Gebäude errichten und keine Mechs einsetzen.",
+      "description": "Es gibt 2 zusätzliche Heimatgebiete auf dem Spielbrett ohne passende Spielsteine — Platzhalter für Erweiterungen.",
+      "group": "grundlagen",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 1
+    },
+    {
+      "id": "regel-ressourcen-kontrolle",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Ressourcen & Kontrolle",
+      "image": null,
+      "summary": "Ressourcenmarker ([[icon:scythe:holz]], [[icon:scythe:nahrung]], [[icon:scythe:metall]], [[icon:scythe:oel]]) verbleiben auf dem Spielbrett, sobald sie produziert wurden. Du kannst nur Ressourcen von Regionen ausgeben, die du gerade beherrschst — dabei darfst du Ressourcen aus **jeder** deiner beherrschten Regionen für eine Aktion einsetzen, die sich auf eine beliebige andere Region bezieht (z. B. Metall aus mehreren beherrschten Regionen für 1 Mech-Einsatz in einer anderen Region, sofern dort ein eigener Arbeiter ist).\n\nAusgegebene Ressourcen kommen zurück in den allgemeinen Vorrat; produzierte/gekaufte Ressourcen kommen aus dem Vorrat in die produzierende/erhaltende Region. Ressourcenmarker sind unbegrenzt (Multiplikatorplättchen bei Bedarf). Arbeiter sind **keine** Ressourcen.",
+      "description": "",
+      "group": "grundlagen",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 2
+    },
+    {
+      "id": "regel-die-einheiten",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Die Einheiten (Anführer, Mechs, Arbeiter)",
+      "image": null,
+      "summary": "Alle 3 Einheitentypen können sich über das Spielbrett bewegen (grundsätzlich nicht über Flüsse/Seen) und beliebig viele Ressourcen transportieren.\n\n**Anführer** — kann kämpfen, Begegnungen erleben und (einmal pro Spiel) eine Fabrikkarte erhalten, sofern seine Bewegung in der Fabrik endet.\n**Mechs** — können kämpfen und beliebig viele [[icon:scythe:arbeiter]] transportieren (nicht den Anführer).\n**Arbeiter** — können Ressourcen und weitere Arbeiter produzieren, Mechs einsetzen und Gebäude errichten.\n\nVisueller Hinweis: kampffähige Einheiten (Anführer, Mechs) sind aus Plastik, alle anderen (Arbeiter, Ressourcen, Gebäude) aus Holz.",
+      "description": "Zwingt eine deiner Kampfeinheiten in deinem Zug gegnerische Arbeiter zum Rückzug, verlierst du pro Arbeiter 1 [[icon:scythe:ansehen]]. Kämpfe gewinnt bei Gleichstand der Angreifer; der Verlierer bekommt 1 [[icon:scythe:kampfkarte]], falls er mindestens 1 Stärke eingesetzt hat.",
+      "group": "grundlagen",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 3
+    },
+    {
+      "id": "regel-bewegung-grundregeln",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Bewegung: Grundregeln",
+      "image": null,
+      "summary": "Mit der Aktion „Bewegen“ bewegst du bis zu 2 Einheiten je 1 Region weit. Bewegt ein Mech Arbeiter, zählt das nicht als Bewegungsaktion für diese Arbeiter — sie dürfen sich anschließend noch einmal alleine weiterbewegen. Ressourcen und Arbeiter dürfen während einer Bewegung aufgenommen oder abgesetzt werden.",
+      "description": "Du musst verschiedene Einheiten bewegen (nicht zweimal dieselbe); willst du nur 1 Einheit bewegen, darfst du den Rest der Aktion verfallen lassen.",
+      "group": "bewegung",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 4
+    },
+    {
+      "id": "regel-fluesse-seen-tunnel",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Flüsse, Seen & Tunnel",
+      "image": null,
+      "summary": "**Fluss** — Wasserlauf zwischen zwei Landregionen; Einheiten können normalerweise nicht über Flüsse ziehen (Ausnahme: Mech-Fähigkeit „Waten“, je Nation zu 2 unterschiedlichen Geländearten).\n**See** ([[icon:scythe:see]]) — Wasser, das ein ganzes Sechseckfeld ausfüllt. Nur mit „Seetüchtig“/„Untertauchen“ befahrbar; ein Spieler mit dieser Fähigkeit kann sich von jeder angrenzenden Region auf den See begeben.\n**Tunnel** ([[icon:scythe:tunnel]]) — Felder mit Tunnelsymbol gelten für Bewegungen aller Einheiten als aneinander angrenzend, unabhängig von der tatsächlichen Position auf dem Spielbrett.",
+      "description": "",
+      "group": "bewegung",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 5
+    },
+    {
+      "id": "regel-bewegung-gegnerische-regionen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Bewegung in gegnerisch beherrschte Regionen",
+      "image": null,
+      "summary": "**Nur gegnerische Arbeiter dort**: Deine Bewegung endet trotzdem dort; die gegnerischen Arbeiter ziehen sich sofort kostenlos ins Heimatgebiet zurück (ohne Ressourcen) — du verlierst 1 [[icon:scythe:ansehen]] pro verdrängtem Arbeiter (auch bei 0 Ansehen). Deine Arbeiter können sich nicht alleine in eine solche Region bewegen.\n**Nur ein gegnerisches Gebäude dort**: Jede Einheit darf hinein — der Besitzer der Einheit beherrscht danach die Region.\n**Gegnerischer Anführer/Mech dort**: Deine Bewegung endet dort (auch mit Fähigkeiten, die sonst Weiterbewegung erlauben würden); befindet sich nach Abschluss aller Bewegungen eine deiner Einheiten mit einer gegnerischen zusammen in der Region, kommt es zum Kampf.",
+      "description": "Die Bewegungsaktion darf nie genutzt werden, um Einheiten in ein Heimatgebiet zu bewegen (auch nicht ins eigene).",
+      "group": "bewegung",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 6
+    },
+    {
+      "id": "regel-kampfablauf-staerkeeinsatz",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Kampfablauf & Stärkeeinsatz",
+      "image": null,
+      "summary": "Nach Abschluss aller Bewegungen eines Spielers (vor der unteren Aktion) kommt es zum Kampf, wenn Anführer/Mechs zweier Spieler in derselben Region stehen. Ein Kampf betrifft nur diese 2 Spieler; der Sieger kann 1 [[icon:scythe:stern]] gewinnen.\n\nBeide Spieler stellen gleichzeitig und geheim auf der Stärkescheibe ein, wie viel Stärke sie einsetzen (max. 7, nicht mehr als vorhandene Stärke).",
+      "description": "Ein Kampf darf auch bei 0 Stärke/0 Ansehen ausgelöst werden. Bei Gleichstand gewinnt immer der Angreifer.",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 7
+    },
+    {
+      "id": "regel-kampfkarten",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Kampfkarten einsetzen",
+      "image": null,
+      "summary": "Pro Anführer/Mech in der Kampfregion darfst du 1 [[icon:scythe:kampfkarte]] einsetzen (auch bei 0 auf der Stärkescheibe). Die Gesamtzahl deiner Kampfkarten ist öffentlich, wie viele du einsetzt bleibt geheim. Aufdecken: beide Seiten zeigen Stärkescheibe + eingesetzte Karten gleichzeitig; der Stärkewert der Karten addiert sich zum Stärkeeinsatz.",
+      "description": "Verlierst du den Kampf und hattest mindestens 1 Stärke eingesetzt (Scheibe oder Karten), ziehst du danach 1 neue Kampfkarte vom Stapel.",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 8
+    },
+    {
+      "id": "regel-sieg-niederlage",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Sieg & Niederlage im Kampf",
+      "image": null,
+      "summary": "**Sieg**: Du behältst/übernimmst die Herrschaft über die Region und setzt 1 [[icon:scythe:stern]] ein (falls noch nicht 2 Sterne für Kampfsiege eingesetzt — Ausnahme Sächsisches Reich). Als Angreifer verlierst du 1 [[icon:scythe:ansehen]] pro zum Rückzug gezwungenem Arbeiter. Liegt in der Region ein Begegnungsmarker, führst du die Begegnung jetzt aus (falls dein Anführer dort ist).\n**Niederlage**: Alle deine Einheiten in der Region ziehen sich ins Heimatgebiet zurück; mitgeführte Ressourcen bleiben in der Region unter Kontrolle des Siegers. Hattest du mindestens 1 Stärke eingesetzt, ziehst du 1 Kampfkarte.",
+      "description": "Setzt ein Spieler seinen 6. Stern, während noch Kämpfe offen sind, finden diese nicht mehr statt — betroffene Einheiten kehren in ihre Ausgangsregionen zurück.",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 9
+    },
+    {
+      "id": "regel-buendnisse-bestechung",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Bündnisse & Bestechung",
+      "image": null,
+      "summary": "Spieler dürfen informelle, unverbindliche Abkommen treffen. Das einzige konkrete Gut, das dabei ausgetauscht werden darf, ist Geld (in Turnierspielen nicht einmal das). Sobald ein Kampf begonnen hat, sind keine Verhandlungen mehr möglich — einem drohenden Kampf kannst du nicht durch Geld oder Versprechen ausweichen.",
+      "description": "Abmachungen jeder Art zwischen Spielern sind in keiner Weise bindend.",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 10
+    },
+    {
+      "id": "regel-begegnungen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Begegnungen",
+      "image": null,
+      "summary": "Bewegt sich der Anführer in eine Region mit [[icon:scythe:begegnung]]-Plättchen, endet seine Bewegung. Nach Abschluss aller Bewegungen und eventueller Kämpfe (nur wenn der Anführer den Kampf gewonnen hat) wird der Marker entfernt und 1 Begegnungskarte gezogen. Nur Anführer lösen Begegnungen aus. Die Karte bietet 3 Optionen; du musst 1 wählen und ggf. bezahlen, den Erlös darfst du ganz oder teilweise ablehnen. Alle Ergebnisse (Ressourcen, Einheiten, Gebäude) werden in der Begegnungsregion platziert.",
+      "description": "Dauerhafte Rekrutierungsvorteile werden durch Begegnungen nicht ausgelöst — nur die auf der Karte genannten Kosten/Erlöse zählen.",
+      "group": "begegnungen-fabrik",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 11
+    },
+    {
+      "id": "regel-fabrik-fabrikkarten",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Die Fabrik & Fabrikkarten",
+      "image": null,
+      "summary": "Die [[icon:scythe:fabrik]] produziert keine Ressourcen, zählt bei der Schlusswertung aber wie 3 Regionen. Endet die Bewegung deines Anführers zum ersten Mal dort, erhältst du 1 Fabrikkarte (aus mehreren zur Auswahl, einmalig pro Spiel) — sie wird zu einem 5. Bereich deines Spielertableaus (mit oberer und unterer Aktion), liefert aber keine Boni vom Spielertableau (Rekrutierung/Gebäude/Münzen).",
+      "description": "Die untere Aktion jeder Fabrikkarte ist eine Bewegung: eine einzelne Einheit darf bis zu 2× bewegt werden (3× mit Eile).",
+      "group": "begegnungen-fabrik",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 12
+    },
+    {
+      "id": "regel-ansehen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Ansehen (Popularität)",
+      "image": null,
+      "summary": "[[icon:scythe:ansehen]] wird u. a. durch „Handeln“, den Rekrutierungsbonus und das Denkmal erhöht, sinkt durch erzwungenen Rückzug gegnerischer Arbeiter als Angreifer. Es bestimmt bei der Schlusswertung, wie viel Geld du pro Stern, Region und Ressourcenpaar bekommst — je höher dein Ansehen, desto mehr Geld.",
+      "description": "Erreichst du ein Ansehen von 18, setzt du dafür einen Stern ein (einmalig, bleibt auch bei späterem Absinken).",
+      "group": "ansehen-staerke",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 13
+    },
+    {
+      "id": "regel-staerke",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Stärke",
+      "image": null,
+      "summary": "[[icon:scythe:staerke]] ist die „Währung“, die im Kampf über die Stärkescheibe eingesetzt wird (max. 7 pro Kampf). Erhöht wird sie u. a. durch „Aufrüsten“, den Rekrutierungsbonus und das Arsenal (bei Handel). Beim Kampf wird die eingesetzte Stärke unabhängig von Sieg/Niederlage von der Stärkeskala abgezogen.",
+      "description": "Erreichst du eine Stärke von 16, setzt du dafür einen Stern ein.",
+      "group": "ansehen-staerke",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 14
+    },
+    {
+      "id": "regel-ziele",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Ziele",
+      "image": null,
+      "summary": "Jeder Spieler beginnt mit 2 geheimen [[icon:scythe:zielkarte]]. Erfüllst du die Bedingung, darfst du in deinem Zug (vor oder nach einer Aktion) die Karte aufdecken, 1 Stern einsetzen und beide Zielkarten abwerfen — pro Spiel kann so nur 1 Ziel erfüllt werden.",
+      "description": "Sonderfall Sächsisches Reich: darf beide Zielkarten erfüllen und behält dafür die zweite, statt sie abzuwerfen.",
+      "group": "ziele-spielende",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 15
+    },
+    {
+      "id": "regel-spielende-grenzfaelle",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Spielende & Grenzfälle",
+      "image": null,
+      "summary": "Das Spiel endet augenblicklich, sobald ein Spieler seinen 6. [[icon:scythe:stern]] einsetzt — weder Zug noch laufende Aktion werden zu Ende geführt (außer bei Grenzfällen).\n\n**Grenzfälle**: Gewinnst du den 6. Stern mit einer unteren Aktion, erhältst du zuerst noch deren Haupterlös (Geld + dauerhafter Rekrutierungsbonus). Hast du durch eine Bewegungsaktion noch Einheiten in einer feindlich beherrschten Region, ziehst du sie zurück, ohne dass der Kampf stattfindet.",
+      "description": "Sterne aus Ansehen/Stärke, die während eines gegnerischen Zuges durch einen Rekrutierungsvorteil entstehen, werden reihum im Uhrzeigersinn vergeben, nachdem der Gegner seine Aktion beendet hat.",
+      "group": "ziele-spielende",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 16
+    },
+    {
+      "id": "regel-schlusswertung",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Schlusswertung",
+      "image": null,
+      "summary": "Sieger ist, wer am meisten Geld hat (laufender Kassenbestand + Schlusswertung). Pro Ansehensstufe liest man 3 Beträge ab: **Sterne** (pro eingesetztem Stern), **beherrschte Regionen** (die Fabrik zählt als 3), **Ressourcenbesitz** (pro 2 Ressourcen in beherrschten Regionen). Dazu kommt der Gebäudebonus (gilt auch bei fremd beherrschten Gebäude-Regionen).\n\n**Gleichstand-Reihenfolge**: 1) Gesamtzahl Arbeiter+Mechs+Gebäude, 2) Stärke/Ansehen (gleichrangig), 3) Ressourcenbesitz, 4) Anzahl beherrschter Regionen, 5) Anzahl eingesetzter Sterne.",
+      "description": "Beispiel: Bei Ansehen 10 gibt es $4/Stern, $3/Region, $2 je 2 Ressourcen.",
+      "group": "ziele-spielende",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 17
+    }
+  ],
+  "groups": [
+    {
+      "id": "grundlagen",
+      "title": "Grundlagen",
+      "order": 1
+    },
+    {
+      "id": "bewegung",
+      "title": "Bewegung",
+      "order": 2
+    },
+    {
+      "id": "kampf",
+      "title": "Kampf",
+      "order": 3
+    },
+    {
+      "id": "begegnungen-fabrik",
+      "title": "Begegnungen & Fabrik",
+      "order": 4
+    },
+    {
+      "id": "ansehen-staerke",
+      "title": "Ansehen & Stärke",
+      "order": 5
+    },
+    {
+      "id": "ziele-spielende",
+      "title": "Ziele & Spielende",
+      "order": 6
+    }
+  ]
+}

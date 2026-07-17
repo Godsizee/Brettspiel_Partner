@@ -1,0 +1,139 @@
+{
+  "entries": [
+    {
+      "id": "stern-entwicklungen",
+      "type": "reference",
+      "category": "sterne",
+      "name": "Führe alle 6 Entwicklungen ein",
+      "image": null,
+      "summary": "Setze alle 6 Entwicklungswürfel von den grünen auf die roten Felder deines Spielertableaus, dann setze 1 [[icon:scythe:stern]] auf der Erfolgsleiste ein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sterne"
+      ],
+      "warnings": [],
+      "sort_order": 1
+    },
+    {
+      "id": "stern-mechs",
+      "type": "reference",
+      "category": "sterne",
+      "name": "Setze alle 4 Mechs ein",
+      "image": null,
+      "summary": "Setze alle 4 deiner Mech-Miniaturen mit der Aktion „Einsetzen“ ein, dann setze 1 [[icon:scythe:stern]] ein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sterne"
+      ],
+      "warnings": [],
+      "sort_order": 2
+    },
+    {
+      "id": "stern-gebaeude",
+      "type": "reference",
+      "category": "sterne",
+      "name": "Errichte alle 4 Gebäude",
+      "image": null,
+      "summary": "Baue Denkmal, Mühle, Stollen und Arsenal, dann setze 1 [[icon:scythe:stern]] ein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sterne"
+      ],
+      "warnings": [],
+      "sort_order": 3
+    },
+    {
+      "id": "stern-rekruten",
+      "type": "reference",
+      "category": "sterne",
+      "name": "Wirb alle 4 Rekruten an",
+      "image": null,
+      "summary": "Belege alle 4 Bonusfelder der Rekrutieren-Aktion mit Rekrutenmarkern, dann setze 1 [[icon:scythe:stern]] ein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sterne"
+      ],
+      "warnings": [],
+      "sort_order": 4
+    },
+    {
+      "id": "stern-arbeiter",
+      "type": "reference",
+      "category": "sterne",
+      "name": "Bringe alle 8 Arbeiter aufs Spielbrett",
+      "image": null,
+      "summary": "Setze alle 8 Arbeiter deiner Nation auf dem Spielbrett ein (Produktion in einem Dorf oder Startaufstellung), dann setze 1 [[icon:scythe:stern]] ein.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "sterne"
+      ],
+      "warnings": [],
+      "sort_order": 5
+    },
+    {
+      "id": "stern-ziel",
+      "type": "reference",
+      "category": "sterne",
+      "name": "Erfülle 1 Zielkarte",
+      "image": null,
+      "summary": "Decke eine erfüllte [[icon:scythe:zielkarte]] auf (vor oder nach einer oberen/unteren Aktion in deinem Zug) und setze 1 [[icon:scythe:stern]] ein. Beide Zielkarten werden danach abgeworfen.",
+      "description": "Sonderfall Sächsisches Reich: darf beide Zielkarten erfüllen und dafür 2 Sterne bekommen (behält die zweite Karte, wenn die erste erfüllt ist) — bei allen anderen Nationen zählt nur 1 Ziel pro Spiel.",
+      "timing": [],
+      "tags": [
+        "sterne"
+      ],
+      "warnings": [],
+      "sort_order": 6
+    },
+    {
+      "id": "stern-siegreicher-kampf",
+      "type": "reference",
+      "category": "sterne",
+      "name": "Siegreicher Kampf",
+      "image": null,
+      "summary": "Gewinne einen Kampf und setze 1 [[icon:scythe:stern]] ein — bis zu 2 Mal im Spiel erreichbar.",
+      "description": "Sonderfall Sächsisches Reich: keine 2-Sterne-Obergrenze — darf für beliebig viele siegreiche Kämpfe Sterne einsetzen (muss sogar einen Stern setzen, wenn nach einem Sieg noch verfügbare Sterne vorhanden sind).",
+      "timing": [],
+      "tags": [
+        "sterne"
+      ],
+      "warnings": [],
+      "sort_order": 7
+    },
+    {
+      "id": "stern-ansehen-18",
+      "type": "reference",
+      "category": "sterne",
+      "name": "Erreiche ein Ansehen von 18",
+      "image": null,
+      "summary": "Erreiche Stufe 18 auf der Ansehensskala und setze 1 [[icon:scythe:stern]] ein.",
+      "description": "Einmal eingesetzte Sterne können nicht verloren gehen oder entfernt werden — fällt dein Ansehen später wieder unter 18, behältst du den Stern.",
+      "timing": [],
+      "tags": [
+        "sterne"
+      ],
+      "warnings": [],
+      "sort_order": 8
+    },
+    {
+      "id": "stern-staerke-16",
+      "type": "reference",
+      "category": "sterne",
+      "name": "Erreiche eine Stärke von 16",
+      "image": null,
+      "summary": "Erreiche Stufe 16 auf der Stärkeskala und setze 1 [[icon:scythe:stern]] ein.",
+      "description": "Einmal eingesetzte Sterne können nicht verloren gehen oder entfernt werden.",
+      "timing": [],
+      "tags": [
+        "sterne"
+      ],
+      "warnings": [],
+      "sort_order": 9
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "entries": [
+    {
+      "id": "gebaeude-denkmal",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Denkmal",
+      "image": null,
+      "summary": "Die Aktion „Aufrüsten“ liefert dir zusätzlich 1 [[icon:scythe:ansehen]].",
+      "description": "Dauerhafter Vorteil, sobald das Denkmal gebaut ist — siehe allgemeine Bauen-Regeln (Herr im Haus, Herr der Region).",
+      "group": "gebaeude",
+      "timing": [],
+      "tags": [
+        "gebaeude"
+      ],
+      "warnings": [],
+      "sort_order": 1
+    },
+    {
+      "id": "gebaeude-muehle",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Mühle",
+      "image": null,
+      "summary": "Immer wenn du die Aktion „Produzieren“ nutzt, zählt die Mühle als eine zusätzliche (Bonus-)Region. Die Mühle produziert 1 Ressource, als wäre sie ein Arbeiter. Befinden sich zu diesem Zeitpunkt Arbeiter in der gleichen Region wie die Mühle, dürfen sie ebenfalls Ressourcen produzieren.",
+      "description": "Ausnahme von „Herr im Haus“: Du kannst mit der Mühle nicht produzieren, wenn du die Region nicht beherrschst.",
+      "group": "gebaeude",
+      "timing": [],
+      "tags": [
+        "gebaeude"
+      ],
+      "warnings": [],
+      "sort_order": 2
+    },
+    {
+      "id": "gebaeude-stollen",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Stollen",
+      "image": null,
+      "summary": "Der Stollen wirkt wie ein [[icon:scythe:tunnel]]-Symbol in seiner Region. Deine Einheiten dürfen den Stollen wie einen Tunnel nutzen — selbst wenn die Region von einem Gegner beherrscht wird. Dieser Bonus gilt bei allen deinen Bewegungen.",
+      "description": "",
+      "group": "gebaeude",
+      "timing": [],
+      "tags": [
+        "gebaeude"
+      ],
+      "warnings": [],
+      "sort_order": 3
+    },
+    {
+      "id": "gebaeude-arsenal",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Arsenal",
+      "image": null,
+      "summary": "Die Aktion „Handel“ liefert dir zusätzlich 1 [[icon:scythe:staerke]].",
+      "description": "",
+      "group": "gebaeude",
+      "timing": [],
+      "tags": [
+        "gebaeude"
+      ],
+      "warnings": [],
+      "sort_order": 4
+    },
+    {
+      "id": "gebaeudebonus-tunnelregionen-benachbart",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Gebäudebonus: Tunnelregionen benachbart",
+      "image": null,
+      "summary": "Schlusswertungs-Bonus nach Anzahl der [[icon:scythe:tunnel]]-Regionen, die benachbart zu deinen Gebäuden sind (jeder Tunnel zählt nur einmal, ein Stollen zählt hier nicht als Tunnel, ein Fluss verhindert die Nachbarschaft nicht): 1 → $2, 2–3 → $4, 4–5 → $6, 6 → $9.",
+      "description": "Eine von 6 zufällig gezogenen Gebäudebonus-Karten (zu Spielbeginn 1 offen ausgelegt) — gilt unabhängig davon, ob du die Gebäuderegion beherrschst.",
+      "group": "gebaeudebonus-plaettchen",
+      "timing": [],
+      "tags": [
+        "gebaeude"
+      ],
+      "warnings": [],
+      "sort_order": 5
+    },
+    {
+      "id": "gebaeudebonus-seen-benachbart",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Gebäudebonus: Seen benachbart",
+      "image": null,
+      "summary": "Schlusswertungs-Bonus nach Anzahl der [[icon:scythe:see]]-Felder, die benachbart zu deinen Gebäuden sind (jeder See zählt nur einmal, ein Fluss verhindert die Nachbarschaft nicht): 1 → $2, 2–3 → $4, 4–5 → $6, 6–7 → $9.",
+      "description": "",
+      "group": "gebaeudebonus-plaettchen",
+      "timing": [],
+      "tags": [
+        "gebaeude"
+      ],
+      "warnings": [],
+      "sort_order": 6
+    },
+    {
+      "id": "gebaeudebonus-begegnungsregionen-benachbart",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Gebäudebonus: Begegnungsregionen benachbart",
+      "image": null,
+      "summary": "Schlusswertungs-Bonus nach Anzahl der Regionen mit Begegnungssymbol (mit oder ohne [[icon:scythe:begegnung]]-Plättchen), die benachbart zu deinen Gebäuden sind (jede Begegnungsregion zählt nur einmal, ein Fluss verhindert die Nachbarschaft nicht): 1 → $2, 2–3 → $4, 4–5 → $6, 6–7 → $9.",
+      "description": "",
+      "group": "gebaeudebonus-plaettchen",
+      "timing": [],
+      "tags": [
+        "gebaeude"
+      ],
+      "warnings": [],
+      "sort_order": 7
+    },
+    {
+      "id": "gebaeudebonus-tunnelregionen-mit-gebaeude",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Gebäudebonus: Tunnelregionen mit eigenem Gebäude",
+      "image": null,
+      "summary": "Schlusswertungs-Bonus nach Anzahl der [[icon:scythe:tunnel]]-Regionen, auf denen deine Gebäude stehen (ein Stollen zählt hier nicht als Tunnel): 1 → $2, 2 → $4, 3–4 → $6.",
+      "description": "",
+      "group": "gebaeudebonus-plaettchen",
+      "timing": [],
+      "tags": [
+        "gebaeude"
+      ],
+      "warnings": [],
+      "sort_order": 8
+    },
+    {
+      "id": "gebaeudebonus-gebaeudereihe",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Gebäudebonus: Ununterbrochene Gebäudereihe",
+      "image": null,
+      "summary": "Schlusswertungs-Bonus nach Anzahl deiner Gebäude in einer ununterbrochenen Reihe (Ausrichtung egal, nur die längste Reihe zählt, ein Fluss unterbricht die Reihe nicht): 1 → $2, 2 → $4, 3 → $6, 4 → $9.",
+      "description": "",
+      "group": "gebaeudebonus-plaettchen",
+      "timing": [],
+      "tags": [
+        "gebaeude"
+      ],
+      "warnings": [],
+      "sort_order": 9
+    },
+    {
+      "id": "gebaeudebonus-gehoeft-tundra-mit-gebaeude",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Gebäudebonus: Gehöfte & Tundraregionen mit eigenem Gebäude",
+      "image": null,
+      "summary": "Schlusswertungs-Bonus nach Anzahl der [[icon:scythe:gehoeft]]- und [[icon:scythe:tundra]]-Regionen, auf denen deine Gebäude stehen: 1 → $2, 2 → $4, 3 → $6, 4 → $9.",
+      "description": "",
+      "group": "gebaeudebonus-plaettchen",
+      "timing": [],
+      "tags": [
+        "gebaeude"
+      ],
+      "warnings": [],
+      "sort_order": 10
+    }
+  ],
+  "groups": [
+    {
+      "id": "gebaeude",
+      "title": "Gebäude",
+      "order": 1
+    },
+    {
+      "id": "gebaeudebonus-plaettchen",
+      "title": "Gebäudebonus-Plättchen",
+      "order": 2
+    }
+  ]
+}

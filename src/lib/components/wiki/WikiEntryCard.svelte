@@ -26,6 +26,9 @@
   // werden, sonst sieht man literale ** und eckige Klammern.
   function stripPreviewMarkup(text) {
     return text
+      // Namespaced form [[icon:<game>:slug]] (z. B. Scythe) vor der Basisform prüfen,
+      // sonst würde deren erste Gruppe (der Game-Key) fälschlich als Slug gezeigt.
+      .replace(/\[\[icon:[a-z0-9-]+:([a-z0-9-]+)\]\]/g, (_match, slug) => slug.replace(/-/g, ' '))
       .replace(/\[\[icon:([a-z0-9-]+)\]\]/g, (_match, slug) => slug.replace(/-/g, ' '))
       .replace(/\*\*(.*?)\*\*/g, '$1')
       .replace(/\*(.*?)\*/g, '$1');
