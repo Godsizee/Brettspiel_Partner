@@ -2,9 +2,19 @@
   import WikiSourceNotice from '$lib/components/wiki/WikiSourceNotice.svelte';
   import { openLightbox } from '$lib/components/wiki/wikiLightboxStore.svelte.js';
   import { formatWikiMarkdown, sanitizeWikiHtml } from '$lib/utils/formatWikiMarkdown.js';
+  import ScytheNationStatBlock from '$lib/components/wiki/renderers/scythe/ScytheNationStatBlock.svelte';
+  import { currentRoute } from '$lib/router/router.js';
 
   // Reiner Inhalt – die Kopfzeile (Meta + Titel) liefert die umgebende WikiEntryPage.
   let { entry = null } = $props();
+
+  // Bespoke Stat-Block statt Fließtext, nur für Scythe-Nationen (v2-Individualisierung).
+  // Über die Route (nicht entry.category) erkannt, weil category online (PocketBase,
+  // moduleDef.title = "Nationen") und offline (statisches JSON, "nationen") unterschiedlich
+  // geschrieben wird, moduleId aus der Route aber in beiden Fällen "nationen" ist.
+  const isScytheNation = $derived(
+    $currentRoute?.params?.game === 'scythe' && $currentRoute?.params?.module === 'nationen'
+  );
 </script>
 
 {#if entry}
@@ -20,7 +30,9 @@
       </div>
     {/if}
 
-    {#if entry.summary}
+    {#if isScytheNation}
+      <ScytheNationStatBlock {entry} />
+    {:else if entry.summary}
       <div class="flex flex-col gap-1.5">
         <span class="wiki-eyebrow">Kurz erklärt</span>
         <div class="wiki-prose text-sm text-text-primary leading-relaxed">
