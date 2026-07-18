@@ -93,6 +93,15 @@
       "icon": "help-circle",
       "source": "modules/icons.json",
       "featured": true
+    },
+    {
+      "id": "szenarien",
+      "type": "reference",
+      "layout": "voidfall-szenarien",
+      "title": "Szenarien",
+      "icon": "swords",
+      "source": "modules/szenarien.json",
+      "featured": true
     }
   ]
 }

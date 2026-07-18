@@ -11,6 +11,7 @@
   import VoidfallGroupedRenderer from './renderers/voidfall/VoidfallGroupedRenderer.svelte';
   import VoidfallIconLexikonRenderer from './renderers/voidfall/VoidfallIconLexikonRenderer.svelte';
   import VoidfallLeisteRenderer from './renderers/voidfall/VoidfallLeisteRenderer.svelte';
+  import VoidfallSzenarienRenderer from './renderers/voidfall/VoidfallSzenarienRenderer.svelte';
 
   /**
    * @type {{
@@ -41,7 +42,8 @@
     // bestehendes Voidfall-Manifest ändert sich nicht).
     'voidfall-grouped': VoidfallGroupedRenderer,
     'voidfall-icons': VoidfallIconLexikonRenderer,
-    'voidfall-leiste': VoidfallLeisteRenderer
+    'voidfall-leiste': VoidfallLeisteRenderer,
+    'voidfall-szenarien': VoidfallSzenarienRenderer
   };
 
   const Renderer = $derived(

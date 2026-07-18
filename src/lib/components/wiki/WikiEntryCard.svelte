@@ -2,6 +2,9 @@
   // @ts-check
   import { splitByTerms } from '$lib/components/wiki/utils/wikiHighlight.js';
   import { currentRoute } from '$lib/router/router.js';
+  import { ensureHouseIcons, houseIconUrl } from '$lib/components/wiki/voidfallHouseIcons.svelte.js';
+
+  ensureHouseIcons();
 
   /**
    * Eintragskarte als echter Link auf die Eintragsseite (P1.1) —
@@ -41,6 +44,15 @@
   // die Daten selbst tragen kein eigenes Feld dafür (Struktur-Plan: Galaktische Ereignisse).
   const nameBadge = $derived(entry.name?.match(/\((Koop\/Solo|Tutorial)\)\s*$/)?.[1] ?? null);
 
+  // Tintbares Haus-Wappen (nur fuer Voidfall-Haus-Eintraege; Slug aus der id abgeleitet).
+  const houseIcon = $derived.by(() => {
+    const id = entry?.id ?? '';
+    let slug = null;
+    if (id.startsWith('hauseigenschaft_')) slug = id.slice('hauseigenschaft_'.length);
+    else if (id.startsWith('gefallenes_haus_')) slug = id.slice('gefallenes_haus_'.length);
+    return slug ? houseIconUrl(slug) : null;
+  });
+
   let meta = $derived([entry.moduleTitle || entry.category, ...(entry.timing || [])].filter(Boolean).join(' · '));
   let nameParts = $derived(splitByTerms(entry.name ?? '', highlight));
   let summaryParts = $derived(splitByTerms(stripPreviewMarkup(entry.summary ?? ''), highlight));
@@ -77,7 +89,7 @@
       {/if}
     </div>
     <span class="wiki-entry-title font-heading font-semibold text-text-primary leading-snug group-hover:text-primary transition-colors {isLarge ? 'text-base sm:text-lg font-bold' : 'text-[0.95rem]'}">
-      {@render highlighted(nameParts)}
+      {#if houseIcon}<span class="haus-icon-inline" style="--haus-icon:url('{houseIcon}')" aria-hidden="true"></span>{/if}{@render highlighted(nameParts)}
     </span>
     {#if entry.summary && !isVoidfall}
       <span class="text-sm text-text-secondary leading-relaxed line-clamp-2">{@render highlighted(summaryParts)}</span>
@@ -104,6 +116,17 @@
   }
   .wiki-entry-title {
     overflow-wrap: anywhere;
+  }
+  /* Tintbares Haus-Wappen vor dem Titel (CSS-Maske -> currentColor, theme-adaptiv). */
+  .haus-icon-inline {
+    display: inline-block;
+    width: 1.05em;
+    height: 1.05em;
+    margin-right: 0.4em;
+    vertical-align: -0.18em;
+    background-color: currentColor;
+    -webkit-mask: var(--haus-icon) center / contain no-repeat;
+    mask: var(--haus-icon) center / contain no-repeat;
   }
   @media (max-width: 479px) {
     .wiki-entry-card { padding: 0.7rem; gap: 0.8rem; }

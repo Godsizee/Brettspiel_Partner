@@ -23,6 +23,36 @@ test-results/
 /*_sheet.jpg
 /*_sheet.png
 
+# Wiki-Referenzbilder je Spiel-Kategorie (Icons, Gebäude, Karten, Plättchen ...),
+# die bereits vollständig als Datei-Feld in PocketBase (wiki_items) liegen.
+# Lokale Kopien entstehen nur als Zwischenstand beim Erzeugen/Hochladen
+# (siehe Upload-Skript-Pattern à la upload_voidfall_cover.js) und werden nach
+# dem Upload nicht mehr gebraucht — Stand geprüft 2026-07-18 (100% Bildabdeckung
+# in PB für alle Kategorien unten außer voidfall/szenarien, siehe Ausnahme).
+static/images/scythe/categories/
+static/images/scythe/icons/
+static/images/voidfall/icons/
+static/images/voidfall/fokusse/
+static/images/voidfall/zivilisationsleisten/
+static/images/voidfall/startagenden/
+static/images/voidfall/hauseigenschaften/
+static/images/voidfall/gefallene_haeuser/
+static/images/voidfall/technologien/
+static/images/voidfall/agenden/
+static/images/voidfall/galaktische_ereignisse/
+static/images/voidfall/sektoren/
+static/images/on_mars/
+# Ausnahme: static/images/voidfall/szenarien/ bewusst NICHT ignoriert — dafür
+# existiert (noch) keine PocketBase-Kategorie, im Repo aktuell einzige Quelle.
+
+# Zwischenstand aus PDF-/Bild-Extraktion, der versehentlich im Repo-Root statt
+# im Scratchpad landet (Vorschau-, Test- und Kontrollbilder aus Crop-Skripten)
+/page_*.png
+/*_preview.png
+/*_test.png
+/*_test?.png
+/check_*.png
+
 # IDE / Tools
 .agent/
 .opencode

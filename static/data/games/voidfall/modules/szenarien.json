@@ -1,0 +1,6032 @@
+{
+  "entries": [
+    {
+      "id": "szenario_x012",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Zweite Genesis",
+      "summary": "Obwohl die Verderbnis die Verteidigung der inneren Welten durchbrach und den äußeren Rand erreichte, gelang es euren verbliebenen Häusern schließlich, die Streitkräfte der Leere im Herzen des Domineums zu belagern. Um einen dauerhaften Sieg zu erringen, braucht die Menschheit ein neues Zuhause, um neu anzufangen. Und so ist es euer Hauptziel, die Genesis-Welten zurückzuerobern, die einzigen Planet",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 100
+    },
+    {
+      "id": "szenario_x022",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Für Frieden und Wohlstand",
+      "summary": "Irgendwo tief in den Reichen des einst glorreichen Domineums blühte ein utopisches Sternensystem voller üppiger Planeten auf, die von den Kräften der Natur beherrscht wurden. Im Krieg gegen die Leere wurden die meisten davon zerstört und ihre Trümmer im Weltraum verstreut. Die Überreste bildeten einen Asteroidengürtel um das letzte Paradies und verschaffen euch einen taktischen Vorteil bei eurem B",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 110
+    },
+    {
+      "id": "szenario_x032",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Grundlagen der Zukunft",
+      "summary": "Das Kronjuwel des Domineums, in dem ein Großteil des Wissens und Reichtums des Imperiums war, ist jetzt das Schlachtfeld eurer Häuser und der tobenden Streitkräfte der Leere. Sein Zentrum, die Megalopolis, dient immer noch als Knotenpunkt für die Kriegsanstrengungen, aber die meisten wissenschaftlichen Aufzeichnungen werden in Forschungskomplexen am Rande der Galaxie aufbewahrt. Diese Dokumentatio",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 120
+    },
+    {
+      "id": "szenario_x042",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Vermächtnis der Novarchen",
+      "summary": "Der alte Palast des Hauses Novarchon war einst das Zentrum des Imperiums, in dem die Kolonisierung der Galaxie begann. Jetzt dienen die Ruinen als Epizentrum des Einflusses der Leere. Obwohl nur ein Bruchteil der Menschheit den Sturz durch die Leere und seine Folgen überlebt hat, wirkt der Sieg greifbar. Das Haus, das den Novarchon-Palast säubert und seine Geheimnisse enthüllt, kann die Zukunft al",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 130
+    },
+    {
+      "id": "szenario_x052",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Kriegskunst",
+      "summary": "Die Bühne für den letzten Akt des galaktischen Krieges ist der Novarchon-Palast und seine benachbarten Galaxien. Einst war er die Wiege der Menschheit. Nun ist er ein verderbtes Grab und umgeben von Trümmern der zerstörten Planeten, kosmischen Vortexen und Leerenstürmen, die euch im Wege stehen. An strategischen Punkten platzierte Kommunikationsrelais unterstützen euren letzten Versuch, der Quelle",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 140
+    },
+    {
+      "id": "szenario_x062",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Schicksalsstrudel",
+      "summary": "Im Laufe der Jahrzehnte hat die Präsenz der Verderbnis tobende Leerenstürme und Wurmlöcher zwischen den vom Krieg zerrütteten Galaxien geschaffen. Obwohl diese kosmischen Störungen die Menschheit von der Flucht aus der zerfallenden Megalopolis abhielt und sie zwang, sich in nahegelegenen Sektoren niederzulassen, könnten sie euch beim Streben nach Vorherrschaft und einer neuen Zukunft für Domineum ",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 150
+    },
+    {
+      "id": "szenario_x072",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Durch die veränderten Weiten",
+      "summary": "Nach Jahren verzweifelter Kriege schlossen die verbündeten überlebenden Häuser schließlich die Risse und durchtrennten die Verbindungen der Leere mit der Dimension des Domineums. An ihrer Stelle erschien eine kosmische Anomalie, die den Raum im Zentrum der Galaxie in einem beispiellosen Ausmaß verzerrte. Ihr könnt dieses gewaltige und unerklärliche Phänomen nutzen, um die fernen Überreste des Impe",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 160
+    },
+    {
+      "id": "szenario_x082",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Echos der Vergangenheit",
+      "summary": "Als der Krieg zwischen euren Häusern und der Leere das Domineum verwüstete, brachten die letzten Streitkräfte die Überreste der Menschheit an den Rand der bekannten Galaxie. Als ihr damit begannt, eure letzten Kolonien auf den unbekannten Planeten zu errichten, entdecktet ihr uralte Ruinen und verlassene Forschungskomplexe. Das dort gefundene uralte Wissen könnte nun von großem Vorteil für eure Hä",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 170
+    },
+    {
+      "id": "szenario_x092",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Bastion des Widerstands",
+      "summary": "Obwohl die Risse unter großen Kosten geschlossen wurden, blieben nur eure wenigen Häuser übrig. Sie waren die einzigen, die der Verderbnis standhalten konnten. Jahrzehntelang habt ihr mit wenig Erfolg versucht, die Galaxie zu säubern. Aber jetzt wurden Millionen von Überlebenden in einem von einem Asteroidengürtel geschützten entfernten Sektor der Galaxie gefunden. Mit ihrer Hilfe könntet ihr die ",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 180
+    },
+    {
+      "id": "szenario_x102",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Aufstieg des Königreichs",
+      "summary": "Am äußersten Rand des euch bekannten Alls, weit entfernt von den Machtkämpfen des früheren Domineums, lebten die Bewohner einiger Galaxien ein Leben in Frieden und im Einklang mit der Natur. Diese Planeten, die Jahrhunderte lang als Ergebnis einer freundlichen und genügsamen Gesellschaft gediehen waren, sind als Himmlisches Königreich bekannt. Aber der Krieg hat schließlich auch diese Gebiete erre",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 190
+    },
+    {
+      "id": "szenario_x112",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Frakturen im All",
+      "summary": "Als ob der Sturz durch die Leere selbst und die folgenden Jahrzehnte des Krieges nicht ausreichten, führte das Schließen der Risse zu einer kosmischen Explosion, die das Gewebe der Realität auseinanderriss und galaxiengroße Löcher im All hinterließ. Während diese Anomalien völlig undurchdringlich sind, erleichtern euch die Wurmlöcher, die als Nebeneffekt entstanden sind, die Navigation. Mit ihrer ",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 200
+    },
+    {
+      "id": "szenario_x013",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Zweite Genesis",
+      "summary": "Obwohl die Verderbnis die Verteidigung der inneren Welten durchbrach und den äußeren Rand erreichte, gelang es euren verbliebenen Häusern schließlich, die Streitkräfte der Leere im Herzen des Domineums zu belagern. Um einen dauerhaften Sieg zu erringen, braucht die Menschheit ein neues Zuhause, um neu anzufangen. Und so ist es euer Hauptziel, die Genesis-Welten zurückzuerobern, die einzigen Planet",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 210
+    },
+    {
+      "id": "szenario_x023",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Für Frieden und Wohlstand",
+      "summary": "Irgendwo tief in den Reichen des einst glorreichen Domineums blühte ein utopisches Sternensystem voller üppiger Planeten auf, die von den Kräften der Natur beherrscht wurden. Im Krieg gegen die Leere wurden die meisten davon zerstört und ihre Trümmer im Weltraum verstreut. Die Überreste bildeten einen Asteroidengürtel um das letzte Paradies und verschaffen euch einen taktischen Vorteil bei eurem B",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 220
+    },
+    {
+      "id": "szenario_x033",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Grundlagen der Zukunft",
+      "summary": "Das Kronjuwel des Domineums, in dem ein Großteil des Wissens und Reichtums des Imperiums war, ist jetzt das Schlachtfeld eurer Häuser und der tobenden Streitkräfte der Leere. Sein Zentrum, die Megalopolis, dient immer noch als Knotenpunkt für die Kriegsanstrengungen, aber die meisten wissenschaftlichen Aufzeichnungen werden in Forschungskomplexen am Rande der Galaxie aufbewahrt. Diese Dokumentatio",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 230
+    },
+    {
+      "id": "szenario_x043",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Vermächtnis der Novarchen",
+      "summary": "Der alte Palast des Hauses Novarchon war einst das Zentrum des Imperiums, in dem die Kolonisierung der Galaxie begann. Jetzt dienen die Ruinen als Epizentrum des Einflusses der Leere. Obwohl nur ein Bruchteil der Menschheit den Sturz durch die Leere und seine Folgen überlebt hat, wirkt der Sieg greifbar. Das Haus, das den Novarchon-Palast säubert und seine Geheimnisse enthüllt, kann die Zukunft al",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 240
+    },
+    {
+      "id": "szenario_x053",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Kriegskunst",
+      "summary": "Die Bühne für den letzten Akt des galaktischen Krieges ist der Novarchon-Palast und seine benachbarten Galaxien. Einst war er die Wiege der Menschheit. Nun ist er ein verderbtes Grab und umgeben von Trümmern der zerstörten Planeten, kosmischen Vortexen und Leerenstürmen, die euch im Wege stehen. An strategischen Punkten platzierte Kommunikationsrelais unterstützen euren letzten Versuch, der Quelle",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 250
+    },
+    {
+      "id": "szenario_x063",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Schicksalsstrudel",
+      "summary": "Im Laufe der Jahrzehnte hat die Präsenz der Verderbnis tobende Leerenstürme und Wurmlöcher zwischen den vom Krieg zerrütteten Galaxien geschaffen. Obwohl diese kosmischen Störungen die Menschheit von der Flucht aus der zerfallenden Megalopolis abhielt und sie zwang, sich in nahegelegenen Sektoren niederzulassen, könnten sie euch beim Streben nach Vorherrschaft und einer neuen Zukunft für Domineum ",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 260
+    },
+    {
+      "id": "szenario_x073",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Durch die veränderten Weiten",
+      "summary": "Nach Jahren verzweifelter Kriege schlossen die verbündeten überlebenden Häuser schließlich die Risse und durchtrennten die Verbindungen der Leere mit der Dimension des Domineums. An ihrer Stelle erschien eine kosmische Anomalie, die den Raum im Zentrum der Galaxie in einem beispiellosen Ausmaß verzerrte. Ihr könnt dieses gewaltige und unerklärliche Phänomen nutzen, um die fernen Überreste des Impe",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 270
+    },
+    {
+      "id": "szenario_x083",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Echos der Vergangenheit",
+      "summary": "Als der Krieg zwischen euren Häusern und der Leere das Domineum verwüstete, brachten die letzten Streitkräfte die Überreste der Menschheit an den Rand der bekannten Galaxie. Als ihr damit begannt, eure letzten Kolonien auf den unbekannten Planeten zu errichten, entdecktet ihr uralte Ruinen und verlassene Forschungskomplexe. Das dort gefundene uralte Wissen könnte nun von großem Vorteil für eure Hä",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 280
+    },
+    {
+      "id": "szenario_x093",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Bastion des Widerstands",
+      "summary": "Obwohl die Risse unter großen Kosten geschlossen wurden, blieben nur eure wenigen Häuser übrig. Sie waren die einzigen, die der Verderbnis standhalten konnten. Jahrzehntelang habt ihr mit wenig Erfolg versucht, die Galaxie zu säubern. Aber jetzt wurden Millionen von Überlebenden in einem von einem Asteroidengürtel geschützten entfernten Sektor der Galaxie gefunden. Mit ihrer Hilfe könntet ihr die ",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 290
+    },
+    {
+      "id": "szenario_x103",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Aufstieg des Königreichs",
+      "summary": "Am äußersten Rand des euch bekannten Alls, weit entfernt von den Machtkämpfen des früheren Domineums, lebten die Bewohner einiger Galaxien ein Leben in Frieden und im Einklang mit der Natur. Diese Planeten, die Jahrhunderte lang als Ergebnis einer freundlichen und genügsamen Gesellschaft gediehen waren, sind als Himmlisches Königreich bekannt. Aber der Krieg hat schließlich auch diese Gebiete erre",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 300
+    },
+    {
+      "id": "szenario_x113",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Frakturen im All",
+      "summary": "Als ob der Sturz durch die Leere selbst und die folgenden Jahrzehnte des Krieges nicht ausreichten, führte das Schließen der Risse zu einer kosmischen Explosion, die das Gewebe der Realität auseinanderriss und galaxiengroße Löcher im All hinterließ. Während diese Anomalien völlig undurchdringlich sind, erleichtern euch die Wurmlöcher, die als Nebeneffekt entstanden sind, die Navigation. Mit ihrer ",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 310
+    },
+    {
+      "id": "szenario_x014",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Zweite Genesis",
+      "summary": "Obwohl die Verderbnis die Verteidigung der inneren Welten durchbrach und den äußeren Rand erreichte, gelang es euren verbliebenen Häusern schließlich, die Streitkräfte der Leere im Herzen des Domineums zu belagern. Um einen dauerhaften Sieg zu erringen, braucht die Menschheit ein neues Zuhause, um neu anzufangen. Und so ist es euer Hauptziel, die Genesis-Welten zurückzuerobern, die einzigen Planet",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 320
+    },
+    {
+      "id": "szenario_x024",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Für Frieden und Wohlstand",
+      "summary": "Irgendwo tief in den Reichen des einst glorreichen Domineums blühte ein utopisches Sternensystem voller üppiger Planeten auf, die von den Kräften der Natur beherrscht wurden. Im Krieg gegen die Leere wurden die meisten davon zerstört und ihre Trümmer im Weltraum verstreut. Die Überreste bildeten einen Asteroidengürtel um das letzte Paradies und verschaffen euch einen taktischen Vorteil bei eurem B",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 330
+    },
+    {
+      "id": "szenario_x034",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Grundlagen der Zukunft",
+      "summary": "Das Kronjuwel des Domineums, in dem ein Großteil des Wissens und Reichtums des Imperiums war, ist jetzt das Schlachtfeld eurer Häuser und der tobenden Streitkräfte der Leere. Sein Zentrum, die Megalopolis, dient immer noch als Knotenpunkt für die Kriegsanstrengungen, aber die meisten wissenschaftlichen Aufzeichnungen werden in Forschungskomplexen am Rande der Galaxie aufbewahrt. Diese Dokumentatio",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 340
+    },
+    {
+      "id": "szenario_x044",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Vermächtnis der Novarchen",
+      "summary": "Der alte Palast des Hauses Novarchon war einst das Zentrum des Imperiums, in dem die Kolonisierung der Galaxie begann. Jetzt dienen die Ruinen als Epizentrum des Einflusses der Leere. Obwohl nur ein Bruchteil der Menschheit den Sturz durch die Leere und seine Folgen überlebt hat, wirkt der Sieg greifbar. Das Haus, das den Novarchon-Palast säubert und seine Geheimnisse enthüllt, kann die Zukunft al",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 350
+    },
+    {
+      "id": "szenario_x054",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Kriegskunst",
+      "summary": "Die Bühne für den letzten Akt des galaktischen Krieges ist der Novarchon-Palast und seine benachbarten Galaxien. Einst war er die Wiege der Menschheit. Nun ist er ein verderbtes Grab und umgeben von Trümmern der zerstörten Planeten, kosmischen Vortexen und Leerenstürmen, die euch im Wege stehen. An strategischen Punkten platzierte Kommunikationsrelais unterstützen euren letzten Versuch, der Quelle",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 360
+    },
+    {
+      "id": "szenario_x064",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Schicksalsstrudel",
+      "summary": "Im Laufe der Jahrzehnte hat die Präsenz der Verderbnis tobende Leerenstürme und Wurmlöcher zwischen den vom Krieg zerrütteten Galaxien geschaffen. Obwohl diese kosmischen Störungen die Menschheit von der Flucht aus der zerfallenden Megalopolis abhielt und sie zwang, sich in nahegelegenen Sektoren niederzulassen, könnten sie euch beim Streben nach Vorherrschaft und einer neuen Zukunft für Domineum ",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 370
+    },
+    {
+      "id": "szenario_x074",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Durch die veränderten Weiten",
+      "summary": "Nach Jahren verzweifelter Kriege schlossen die verbündeten überlebenden Häuser schließlich die Risse und durchtrennten die Verbindungen der Leere mit der Dimension des Domineums. An ihrer Stelle erschien eine kosmische Anomalie, die den Raum im Zentrum der Galaxie in einem beispiellosen Ausmaß verzerrte. Ihr könnt dieses gewaltige und unerklärliche Phänomen nutzen, um die fernen Überreste des Impe",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 380
+    },
+    {
+      "id": "szenario_x084",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Echos der Vergangenheit",
+      "summary": "Als der Krieg zwischen euren Häusern und der Leere das Domineum verwüstete, brachten die letzten Streitkräfte die Überreste der Menschheit an den Rand der bekannten Galaxie. Als ihr damit begannt, eure letzten Kolonien auf den unbekannten Planeten zu errichten, entdecktet ihr uralte Ruinen und verlassene Forschungskomplexe. Das dort gefundene uralte Wissen könnte nun von großem Vorteil für eure Hä",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 390
+    },
+    {
+      "id": "szenario_x094",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Bastion des Widerstands",
+      "summary": "Obwohl die Risse unter großen Kosten geschlossen wurden, blieben nur eure wenigen Häuser übrig. Sie waren die einzigen, die der Verderbnis standhalten konnten. Jahrzehntelang habt ihr mit wenig Erfolg versucht, die Galaxie zu säubern. Aber jetzt wurden Millionen von Überlebenden in einem von einem Asteroidengürtel geschützten entfernten Sektor der Galaxie gefunden. Mit ihrer Hilfe könntet ihr die ",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 400
+    },
+    {
+      "id": "szenario_x104",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Aufstieg des Königreichs",
+      "summary": "Am äußersten Rand des euch bekannten Alls, weit entfernt von den Machtkämpfen des früheren Domineums, lebten die Bewohner einiger Galaxien ein Leben in Frieden und im Einklang mit der Natur. Diese Planeten, die Jahrhunderte lang als Ergebnis einer freundlichen und genügsamen Gesellschaft gediehen waren, sind als Himmlisches Königreich bekannt. Aber der Krieg hat schließlich auch diese Gebiete erre",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 410
+    },
+    {
+      "id": "szenario_x114",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Frakturen im All",
+      "summary": "Als ob der Sturz durch die Leere selbst und die folgenden Jahrzehnte des Krieges nicht ausreichten, führte das Schließen der Risse zu einer kosmischen Explosion, die das Gewebe der Realität auseinanderriss und galaxiengroße Löcher im All hinterließ. Während diese Anomalien völlig undurchdringlich sind, erleichtern euch die Wurmlöcher, die als Nebeneffekt entstanden sind, die Navigation. Mit ihrer ",
+      "group": "kompetitiv",
+      "tags": [
+        "szenario",
+        "kompetitiv"
+      ],
+      "sort_order": 420
+    },
+    {
+      "id": "szenario_c011",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Erste Instanz",
+      "summary": "Alle, die nicht an die dunklen Prophezeiungen der Novarchen glaubten, waren überrascht von der plötzlichen Öffnung der Risse und der Ankunft der Leere. Viele der Großen Häuser kapitulierten vor den verderbten Marionetten der Leere. Aber die Streitkräfte deines Hauses schafften es, die Ausbreitung der Verderbnis zu stoppen und das Böse zurück in die Risse zu treiben. Es ist an der Zeit, ihre Verbin",
+      "group": "solo",
+      "tags": [
+        "szenario",
+        "solo"
+      ],
+      "sort_order": 100
+    },
+    {
+      "id": "szenario_c021",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Eines für alle",
+      "summary": "Dein Haus steht immer noch und bereitet sich auf den finalen Schlag gegen die verderbten Flotten vor. Da deine Reserven zur Neige gehen, könnten die wertvollen Genesis-Welten, die Planeten, die von den Gefallenen Häusern zurückgelassen wurden, dir dabei helfen, deine Versorgung zu sichern. Andere Überlebende haben einen starken Widerstand in der Nähe der Risse aufgebaut, um dein Haus zusätzlich zu",
+      "group": "solo",
+      "tags": [
+        "szenario",
+        "solo"
+      ],
+      "sort_order": 110
+    },
+    {
+      "id": "szenario_c031",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Dunkelste Stunde",
+      "summary": "Die Wiege des Domineums, der Palast des Hauses Novarchon und die umliegenden Gebiete waren die ersten, die der Leere zum Opfer fielen. Die Leere übernahm in Schwärmen die Kontrolle über die inneren Welten und alles, was einst menschlich war. Aber jetzt, da sich dein Haus als letztes nach so vielen verlorenen Schlachten neu formiert hat, hast du einen verzweifelten letzten Angriff organisiert, der ",
+      "group": "solo",
+      "tags": [
+        "szenario",
+        "solo"
+      ],
+      "sort_order": 120
+    },
+    {
+      "id": "szenario_c041",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Antike Geheimnisse",
+      "summary": "Vor dem Sturz durch die Leere wurden die Grenzen der bekannten Galaxien erkundet und Spuren einer unbekannten Zivilisation entdeckt. Zur Analyse der Funde wurde in dem Sektor ein Forschungskomplex errichtet, der das neue Wissen an die inneren Welten übertrug. In dem vom Sturz durch die Leere verursachten Chaos sind jedoch sowohl die alten Ruinen als auch der Komplex der Leere zum Opfer gefallen. D",
+      "group": "solo",
+      "tags": [
+        "szenario",
+        "solo"
+      ],
+      "sort_order": 130
+    },
+    {
+      "id": "szenario_c051",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Teufelsdreieck",
+      "summary": "Die Ankunft der Leere öffnete nicht nur Risse im Gefüge der Dimensionen, sondern verzerrte auch die Realität in den Galaxien, die die Risse umgeben. In diesen Bereichen führt die Menschheit einen aussichtslosen Krieg, da ihre Kommunikationstechnologien in der Verzerrung nicht funktionieren. Aber jetzt, mit Hilfe der während des Krieges entwickelten Kommunikationsrelais, bekommt dein Haus endlich d",
+      "group": "solo",
+      "tags": [
+        "szenario",
+        "solo"
+      ],
+      "sort_order": 140
+    },
+    {
+      "id": "szenario_c061",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Verblassende Finsternis",
+      "summary": "Der Krieg gegen die Leere ist der Kampf um die bloße Existenz der Menschheit. Aber dein immer noch kämpfendes Haus muss auch an Zeiten danach denken. Es reicht nicht aus, die extradimensionale Invasion zu überleben und die Risse zu schließen. Du musst auch die Zukunft eines neuen Domineums sichern. Dafür musst du das Paradies, das Kronjuwel des Imperiums retten. Dieses kann der planetengroßen Stad",
+      "group": "solo",
+      "tags": [
+        "szenario",
+        "solo"
+      ],
+      "sort_order": 150
+    },
+    {
+      "id": "szenario_c071",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Noch nicht heute",
+      "summary": "Der Krieg ist fast vorbei. Nur ein Bruchteil der einst glorreichen Großen Häuser steht erschöpft da und stellt sich mit dir eurem unerbittlichen Feind aus unbekannten Dimensionen. Ihr wisst, dass ein Tag kommen kann, an dem der Mut der Menschen versagt, an dem sie ihre Freunde verlassen und alle Bande der Gemeinschaft brechen – eine Stunde der Verderbnis, in der das Zeitalter der Menschen endet. A",
+      "group": "solo",
+      "tags": [
+        "szenario",
+        "solo"
+      ],
+      "sort_order": 160
+    },
+    {
+      "id": "szenario_c081",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Niedergang der Zivilisation",
+      "summary": "Das Zeitalter des Domineums ist vorbei. Die Galaxie liegt in Trümmern. Nur wenige bewohnte Sternensysteme konnten gerettet werden. Aber noch ist nicht alles verloren. Dein Haus steht trotzig da und bereitet sich auf einen letzten verzweifelten Angriff vor. Entweder verliert ihr und alles, was menschlich war, wird für immer ausgelöscht, oder ihr habt Erfolg, schließt den Riss und erobert das letzte",
+      "group": "solo",
+      "tags": [
+        "szenario",
+        "solo"
+      ],
+      "sort_order": 170
+    }
+  ],
+  "groups": [
+    {
+      "id": "solo",
+      "title": "Solo-Szenarien",
+      "order": 1
+    },
+    {
+      "id": "kompetitiv",
+      "title": "Kompetitive Szenarien",
+      "order": 2
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "szenario_x012",
+      "code": "X012",
+      "name": "Zweite Genesis",
+      "mode": "kompetitiv",
+      "players": 2,
+      "complexity": 2,
+      "aggression": 4,
+      "fluff": "Obwohl die Verderbnis die Verteidigung der inneren Welten durchbrach und den äußeren Rand erreichte, gelang es euren verbliebenen Häusern schließlich, die Streitkräfte der Leere im Herzen des Domineums zu belagern. Um einen dauerhaften Sieg zu erringen, braucht die Menschheit ein neues Zuhause, um neu anzufangen. Und so ist es euer Hauptziel, die Genesis-Welten zurückzuerobern, die einzigen Planeten in der Galaxie, auf denen sich die Menschen von Domineum endlich niederlassen und wieder entfalten können.",
+      "aufbauImage": "/images/voidfall/szenarien/x012_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 51
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        },
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "A",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_a"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "D",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_d"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_f"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Wächter",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_waechter"
+          }
+        },
+        {
+          "name": "Weltraumgeschosse",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_weltraumgeschosse"
+          }
+        },
+        {
+          "name": "Läuterer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_laeuterer"
+          }
+        },
+        {
+          "name": "Bergungsscanner",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_bergungsscanner"
+          }
+        },
+        {
+          "name": "Dekontaminationskammern",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_dekontaminationskammern"
+          }
+        },
+        {
+          "name": "Schlächter",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schlaechter"
+          }
+        },
+        {
+          "name": "Taktische Transporte",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_taktische_transporte"
+          }
+        },
+        {
+          "name": "Hyperantrieb",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_hyperantrieb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x022",
+      "code": "X022",
+      "name": "Für Frieden und Wohlstand",
+      "mode": "kompetitiv",
+      "players": 2,
+      "complexity": 3,
+      "aggression": 2,
+      "fluff": "Irgendwo tief in den Reichen des einst glorreichen Domineums blühte ein utopisches Sternensystem voller üppiger Planeten auf, die von den Kräften der Natur beherrscht wurden. Im Krieg gegen die Leere wurden die meisten davon zerstört und ihre Trümmer im Weltraum verstreut. Die Überreste bildeten einen Asteroidengürtel um das letzte Paradies und verschaffen euch einen taktischen Vorteil bei eurem Bestreben, den Planeten zurückzuerobern, der noch immer der Verderbnis auf natürliche Weise widersteht.",
+      "aufbauImage": "/images/voidfall/szenarien/x022_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 52
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        },
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "C",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_c"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "D",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_d"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "E",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_e"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Datenraffinerie",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_datenraffinerie"
+          }
+        },
+        {
+          "name": "Zielerfassung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zielerfassung"
+          }
+        },
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Handelsnexus",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_handelsnexus"
+          }
+        },
+        {
+          "name": "Autonome Drohnen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_autonome_drohnen"
+          }
+        },
+        {
+          "name": "Schilde",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schilde"
+          }
+        },
+        {
+          "name": "Rettungskapseln",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_rettungskapseln"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x032",
+      "code": "X032",
+      "name": "Grundlagen der Zukunft",
+      "mode": "kompetitiv",
+      "players": 2,
+      "complexity": 3,
+      "aggression": 3,
+      "fluff": "Das Kronjuwel des Domineums, in dem ein Großteil des Wissens und Reichtums des Imperiums war, ist jetzt das Schlachtfeld eurer Häuser und der tobenden Streitkräfte der Leere. Sein Zentrum, die Megalopolis, dient immer noch als Knotenpunkt für die Kriegsanstrengungen, aber die meisten wissenschaftlichen Aufzeichnungen werden in Forschungskomplexen am Rande der Galaxie aufbewahrt. Diese Dokumentationen könnten den Krieg für euer Haus entscheiden.",
+      "aufbauImage": "/images/voidfall/szenarien/x032_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 53
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "C",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_c"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_f"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_h"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Energiezellen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_energiezellen"
+          }
+        },
+        {
+          "name": "Orbitale Häfen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_orbitale_haefen"
+          }
+        },
+        {
+          "name": "Kolonieschiffe",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kolonieschiffe"
+          }
+        },
+        {
+          "name": "Robotik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_robotik"
+          }
+        },
+        {
+          "name": "Neuralmatrix",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_neuralmatrix"
+          }
+        },
+        {
+          "name": "Terraformen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_terraformen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x042",
+      "code": "X042",
+      "name": "Vermächtnis der Novarchen",
+      "mode": "kompetitiv",
+      "players": 2,
+      "complexity": 3,
+      "aggression": 4,
+      "fluff": "Der alte Palast des Hauses Novarchon war einst das Zentrum des Imperiums, in dem die Kolonisierung der Galaxie begann. Jetzt dienen die Ruinen als Epizentrum des Einflusses der Leere. Obwohl nur ein Bruchteil der Menschheit den Sturz durch die Leere und seine Folgen überlebt hat, wirkt der Sieg greifbar. Das Haus, das den Novarchon-Palast säubert und seine Geheimnisse enthüllt, kann die Zukunft als neues Herrscherhaus von Domineum bestreiten.",
+      "aufbauImage": "/images/voidfall/szenarien/x042_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 54
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "A",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_a"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "E",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_e"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "G",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_g"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Wächter",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_waechter"
+          }
+        },
+        {
+          "name": "Weltraumgeschosse",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_weltraumgeschosse"
+          }
+        },
+        {
+          "name": "Handelsnexus",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_handelsnexus"
+          }
+        },
+        {
+          "name": "Autonome Drohnen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_autonome_drohnen"
+          }
+        },
+        {
+          "name": "Kybernetik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kybernetik"
+          }
+        },
+        {
+          "name": "Kampfreplikatoren",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kampfreplikatoren"
+          }
+        },
+        {
+          "name": "Taktische Transporte",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_taktische_transporte"
+          }
+        },
+        {
+          "name": "Hyperantrieb",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_hyperantrieb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x052",
+      "code": "X052",
+      "name": "Kriegskunst",
+      "mode": "kompetitiv",
+      "players": 2,
+      "complexity": 4,
+      "aggression": 4,
+      "fluff": "Die Bühne für den letzten Akt des galaktischen Krieges ist der Novarchon-Palast und seine benachbarten Galaxien. Einst war er die Wiege der Menschheit. Nun ist er ein verderbtes Grab und umgeben von Trümmern der zerstörten Planeten, kosmischen Vortexen und Leerenstürmen, die euch im Wege stehen. An strategischen Punkten platzierte Kommunikationsrelais unterstützen euren letzten Versuch, der Quelle des Bösen einen finalen Schlag zu versetzen.",
+      "aufbauImage": "/images/voidfall/szenarien/x052_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 55
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "D",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_d"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_h"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "I",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_i"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Läuterer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_laeuterer"
+          }
+        },
+        {
+          "name": "Bergungsscanner",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_bergungsscanner"
+          }
+        },
+        {
+          "name": "Neuralmatrix",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_neuralmatrix"
+          }
+        },
+        {
+          "name": "Terraformen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_terraformen"
+          }
+        },
+        {
+          "name": "Klonen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_klonen"
+          }
+        },
+        {
+          "name": "Zerstörer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zerstoerer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x062",
+      "code": "X062",
+      "name": "Schicksalsstrudel",
+      "mode": "kompetitiv",
+      "players": 2,
+      "complexity": 3,
+      "aggression": 4,
+      "fluff": "Im Laufe der Jahrzehnte hat die Präsenz der Verderbnis tobende Leerenstürme und Wurmlöcher zwischen den vom Krieg zerrütteten Galaxien geschaffen. Obwohl diese kosmischen Störungen die Menschheit von der Flucht aus der zerfallenden Megalopolis abhielt und sie zwang, sich in nahegelegenen Sektoren niederzulassen, könnten sie euch beim Streben nach Vorherrschaft und einer neuen Zukunft für Domineum einen taktischen Vorteil verschaffen.",
+      "aufbauImage": "/images/voidfall/szenarien/x062_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 56
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        },
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "A",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_a"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_f"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "I",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_i"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Neuralmatrix",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_neuralmatrix"
+          }
+        },
+        {
+          "name": "Terraformen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_terraformen"
+          }
+        },
+        {
+          "name": "Zentrale Überwachung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zentrale_ueberwachung"
+          }
+        },
+        {
+          "name": "Träger",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_traeger"
+          }
+        },
+        {
+          "name": "Kybernetik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kybernetik"
+          }
+        },
+        {
+          "name": "Kampfreplikatoren",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kampfreplikatoren"
+          }
+        },
+        {
+          "name": "Schilde",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schilde"
+          }
+        },
+        {
+          "name": "Rettungskapseln",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_rettungskapseln"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x072",
+      "code": "X072",
+      "name": "Durch die veränderten Weiten",
+      "mode": "kompetitiv",
+      "players": 2,
+      "complexity": 4,
+      "aggression": 3,
+      "fluff": "Nach Jahren verzweifelter Kriege schlossen die verbündeten überlebenden Häuser schließlich die Risse und durchtrennten die Verbindungen der Leere mit der Dimension des Domineums. An ihrer Stelle erschien eine kosmische Anomalie, die den Raum im Zentrum der Galaxie in einem beispiellosen Ausmaß verzerrte. Ihr könnt dieses gewaltige und unerklärliche Phänomen nutzen, um die fernen Überreste des Imperiums zu erreichen und es endlich ein für alle Mal von der Verderbnis zu befreien.",
+      "aufbauImage": "/images/voidfall/szenarien/x072_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 57
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "B",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_b"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_f"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "G",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_g"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Datenraffinerie",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_datenraffinerie"
+          }
+        },
+        {
+          "name": "Zielerfassung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zielerfassung"
+          }
+        },
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Zentrale Überwachung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zentrale_ueberwachung"
+          }
+        },
+        {
+          "name": "Träger",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_traeger"
+          }
+        },
+        {
+          "name": "Schilde",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schilde"
+          }
+        },
+        {
+          "name": "Rettungskapseln",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_rettungskapseln"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x082",
+      "code": "X082",
+      "name": "Echos der Vergangenheit",
+      "mode": "kompetitiv",
+      "players": 2,
+      "complexity": 3,
+      "aggression": 2,
+      "fluff": "Als der Krieg zwischen euren Häusern und der Leere das Domineum verwüstete, brachten die letzten Streitkräfte die Überreste der Menschheit an den Rand der bekannten Galaxie. Als ihr damit begannt, eure letzten Kolonien auf den unbekannten Planeten zu errichten, entdecktet ihr uralte Ruinen und verlassene Forschungskomplexe. Das dort gefundene uralte Wissen könnte nun von großem Vorteil für eure Häuser sein und sogar das Blatt des Krieges zu euren Gunsten wenden.",
+      "aufbauImage": "/images/voidfall/szenarien/x082_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 58
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "B",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_b"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_f"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "G",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_g"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Energiezellen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_energiezellen"
+          }
+        },
+        {
+          "name": "Orbitale Häfen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_orbitale_haefen"
+          }
+        },
+        {
+          "name": "Läuterer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_laeuterer"
+          }
+        },
+        {
+          "name": "Bergungsscanner",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_bergungsscanner"
+          }
+        },
+        {
+          "name": "Handelsnexus",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_handelsnexus"
+          }
+        },
+        {
+          "name": "Autonome Drohnen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_autonome_drohnen"
+          }
+        },
+        {
+          "name": "Klonen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_klonen"
+          }
+        },
+        {
+          "name": "Zerstörer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zerstoerer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x092",
+      "code": "X092",
+      "name": "Bastion des Widerstands",
+      "mode": "kompetitiv",
+      "players": 2,
+      "complexity": 3,
+      "aggression": 3,
+      "fluff": "Obwohl die Risse unter großen Kosten geschlossen wurden, blieben nur eure wenigen Häuser übrig. Sie waren die einzigen, die der Verderbnis standhalten konnten. Jahrzehntelang habt ihr mit wenig Erfolg versucht, die Galaxie zu säubern. Aber jetzt wurden Millionen von Überlebenden in einem von einem Asteroidengürtel geschützten entfernten Sektor der Galaxie gefunden. Mit ihrer Hilfe könntet ihr die Verderbnis endlich beseitigen und das Imperium neu errichten.",
+      "aufbauImage": "/images/voidfall/szenarien/x092_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 59
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "C",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_c"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "G",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_g"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_h"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Läuterer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_laeuterer"
+          }
+        },
+        {
+          "name": "Bergungsscanner",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_bergungsscanner"
+          }
+        },
+        {
+          "name": "Kolonieschiffe",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kolonieschiffe"
+          }
+        },
+        {
+          "name": "Robotik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_robotik"
+          }
+        },
+        {
+          "name": "Dekontaminationskammern",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_dekontaminationskammern"
+          }
+        },
+        {
+          "name": "Schlächter",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schlaechter"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x102",
+      "code": "X102",
+      "name": "Aufstieg des Königreichs",
+      "mode": "kompetitiv",
+      "players": 2,
+      "complexity": 2,
+      "aggression": 1,
+      "fluff": "Am äußersten Rand des euch bekannten Alls, weit entfernt von den Machtkämpfen des früheren Domineums, lebten die Bewohner einiger Galaxien ein Leben in Frieden und im Einklang mit der Natur. Diese Planeten, die Jahrhunderte lang als Ergebnis einer freundlichen und genügsamen Gesellschaft gediehen waren, sind als Himmlisches Königreich bekannt. Aber der Krieg hat schließlich auch diese Gebiete erreicht, und wenn ihr diese Welten fallen lasst, wird der Rest der Menschheit sicher folgen.",
+      "aufbauImage": "/images/voidfall/szenarien/x102_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 60
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        },
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "B",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_b"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "E",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_e"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_h"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Zentrale Überwachung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zentrale_ueberwachung"
+          }
+        },
+        {
+          "name": "Träger",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_traeger"
+          }
+        },
+        {
+          "name": "Kolonieschiffe",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kolonieschiffe"
+          }
+        },
+        {
+          "name": "Robotik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_robotik"
+          }
+        },
+        {
+          "name": "Schilde",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schilde"
+          }
+        },
+        {
+          "name": "Rettungskapseln",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_rettungskapseln"
+          }
+        },
+        {
+          "name": "Taktische Transporte",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_taktische_transporte"
+          }
+        },
+        {
+          "name": "Hyperantrieb",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_hyperantrieb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x112",
+      "code": "X112",
+      "name": "Frakturen im All",
+      "mode": "kompetitiv",
+      "players": 2,
+      "complexity": 3,
+      "aggression": 2,
+      "fluff": "Als ob der Sturz durch die Leere selbst und die folgenden Jahrzehnte des Krieges nicht ausreichten, führte das Schließen der Risse zu einer kosmischen Explosion, die das Gewebe der Realität auseinanderriss und galaxiengroße Löcher im All hinterließ. Während diese Anomalien völlig undurchdringlich sind, erleichtern euch die Wurmlöcher, die als Nebeneffekt entstanden sind, die Navigation. Mit ihrer Hilfe könnt ihr die verbliebene Verderbnis ein für alle Mal auslöschen.",
+      "aufbauImage": "/images/voidfall/szenarien/x112_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 61
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        },
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "C",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_c"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "E",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_e"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_h"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Energiezellen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_energiezellen"
+          }
+        },
+        {
+          "name": "Orbitale Häfen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_orbitale_haefen"
+          }
+        },
+        {
+          "name": "Zentrale Überwachung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zentrale_ueberwachung"
+          }
+        },
+        {
+          "name": "Träger",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_traeger"
+          }
+        },
+        {
+          "name": "Kybernetik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kybernetik"
+          }
+        },
+        {
+          "name": "Kampfreplikatoren",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kampfreplikatoren"
+          }
+        },
+        {
+          "name": "Taktische Transporte",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_taktische_transporte"
+          }
+        },
+        {
+          "name": "Hyperantrieb",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_hyperantrieb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x013",
+      "code": "X013",
+      "name": "Zweite Genesis",
+      "mode": "kompetitiv",
+      "players": 3,
+      "complexity": 2,
+      "aggression": 4,
+      "fluff": "Obwohl die Verderbnis die Verteidigung der inneren Welten durchbrach und den äußeren Rand erreichte, gelang es euren verbliebenen Häusern schließlich, die Streitkräfte der Leere im Herzen des Domineums zu belagern. Um einen dauerhaften Sieg zu erringen, braucht die Menschheit ein neues Zuhause, um neu anzufangen. Und so ist es euer Hauptziel, die Genesis-Welten zurückzuerobern, die einzigen Planeten in der Galaxie, auf denen sich die Menschen von Domineum endlich niederlassen und wieder entfalten können.",
+      "aufbauImage": "/images/voidfall/szenarien/x013_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 62
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        },
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "A",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_a"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "D",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_d"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_f"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Wächter",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_waechter"
+          }
+        },
+        {
+          "name": "Weltraumgeschosse",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_weltraumgeschosse"
+          }
+        },
+        {
+          "name": "Läuterer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_laeuterer"
+          }
+        },
+        {
+          "name": "Bergungsscanner",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_bergungsscanner"
+          }
+        },
+        {
+          "name": "Dekontaminationskammern",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_dekontaminationskammern"
+          }
+        },
+        {
+          "name": "Schlächter",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schlaechter"
+          }
+        },
+        {
+          "name": "Taktische Transporte",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_taktische_transporte"
+          }
+        },
+        {
+          "name": "Hyperantrieb",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_hyperantrieb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x023",
+      "code": "X023",
+      "name": "Für Frieden und Wohlstand",
+      "mode": "kompetitiv",
+      "players": 3,
+      "complexity": 3,
+      "aggression": 2,
+      "fluff": "Irgendwo tief in den Reichen des einst glorreichen Domineums blühte ein utopisches Sternensystem voller üppiger Planeten auf, die von den Kräften der Natur beherrscht wurden. Im Krieg gegen die Leere wurden die meisten davon zerstört und ihre Trümmer im Weltraum verstreut. Die Überreste bildeten einen Asteroidengürtel um das letzte Paradies und verschaffen euch einen taktischen Vorteil bei eurem Bestreben, den Planeten zurückzuerobern, der noch immer der Verderbnis auf natürliche Weise widersteht.",
+      "aufbauImage": "/images/voidfall/szenarien/x023_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 63
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        },
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "C",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_c"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "D",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_d"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "E",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_e"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Datenraffinerie",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_datenraffinerie"
+          }
+        },
+        {
+          "name": "Zielerfassung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zielerfassung"
+          }
+        },
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Handelsnexus",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_handelsnexus"
+          }
+        },
+        {
+          "name": "Autonome Drohnen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_autonome_drohnen"
+          }
+        },
+        {
+          "name": "Schilde",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schilde"
+          }
+        },
+        {
+          "name": "Rettungskapseln",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_rettungskapseln"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x033",
+      "code": "X033",
+      "name": "Grundlagen der Zukunft",
+      "mode": "kompetitiv",
+      "players": 3,
+      "complexity": 3,
+      "aggression": 3,
+      "fluff": "Das Kronjuwel des Domineums, in dem ein Großteil des Wissens und Reichtums des Imperiums war, ist jetzt das Schlachtfeld eurer Häuser und der tobenden Streitkräfte der Leere. Sein Zentrum, die Megalopolis, dient immer noch als Knotenpunkt für die Kriegsanstrengungen, aber die meisten wissenschaftlichen Aufzeichnungen werden in Forschungskomplexen am Rande der Galaxie aufbewahrt. Diese Dokumentationen könnten den Krieg für euer Haus entscheiden.",
+      "aufbauImage": "/images/voidfall/szenarien/x033_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 64
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "C",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_c"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_f"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_h"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Energiezellen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_energiezellen"
+          }
+        },
+        {
+          "name": "Orbitale Häfen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_orbitale_haefen"
+          }
+        },
+        {
+          "name": "Kolonieschiffe",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kolonieschiffe"
+          }
+        },
+        {
+          "name": "Robotik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_robotik"
+          }
+        },
+        {
+          "name": "Neuralmatrix",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_neuralmatrix"
+          }
+        },
+        {
+          "name": "Terraformen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_terraformen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x043",
+      "code": "X043",
+      "name": "Vermächtnis der Novarchen",
+      "mode": "kompetitiv",
+      "players": 3,
+      "complexity": 3,
+      "aggression": 4,
+      "fluff": "Der alte Palast des Hauses Novarchon war einst das Zentrum des Imperiums, in dem die Kolonisierung der Galaxie begann. Jetzt dienen die Ruinen als Epizentrum des Einflusses der Leere. Obwohl nur ein Bruchteil der Menschheit den Sturz durch die Leere und seine Folgen überlebt hat, wirkt der Sieg greifbar. Das Haus, das den Novarchon-Palast säubert und seine Geheimnisse enthüllt, kann die Zukunft als neues Herrscherhaus von Domineum bestreiten.",
+      "aufbauImage": "/images/voidfall/szenarien/x043_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 65
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "A",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_a"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "E",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_e"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "G",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_g"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Wächter",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_waechter"
+          }
+        },
+        {
+          "name": "Weltraumgeschosse",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_weltraumgeschosse"
+          }
+        },
+        {
+          "name": "Handelsnexus",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_handelsnexus"
+          }
+        },
+        {
+          "name": "Autonome Drohnen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_autonome_drohnen"
+          }
+        },
+        {
+          "name": "Kybernetik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kybernetik"
+          }
+        },
+        {
+          "name": "Kampfreplikatoren",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kampfreplikatoren"
+          }
+        },
+        {
+          "name": "Taktische Transporte",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_taktische_transporte"
+          }
+        },
+        {
+          "name": "Hyperantrieb",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_hyperantrieb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x053",
+      "code": "X053",
+      "name": "Kriegskunst",
+      "mode": "kompetitiv",
+      "players": 3,
+      "complexity": 4,
+      "aggression": 4,
+      "fluff": "Die Bühne für den letzten Akt des galaktischen Krieges ist der Novarchon-Palast und seine benachbarten Galaxien. Einst war er die Wiege der Menschheit. Nun ist er ein verderbtes Grab und umgeben von Trümmern der zerstörten Planeten, kosmischen Vortexen und Leerenstürmen, die euch im Wege stehen. An strategischen Punkten platzierte Kommunikationsrelais unterstützen euren letzten Versuch, der Quelle des Bösen einen finalen Schlag zu versetzen.",
+      "aufbauImage": "/images/voidfall/szenarien/x053_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 66
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "D",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_d"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_h"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "I",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_i"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Läuterer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_laeuterer"
+          }
+        },
+        {
+          "name": "Bergungsscanner",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_bergungsscanner"
+          }
+        },
+        {
+          "name": "Neuralmatrix",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_neuralmatrix"
+          }
+        },
+        {
+          "name": "Terraformen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_terraformen"
+          }
+        },
+        {
+          "name": "Klonen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_klonen"
+          }
+        },
+        {
+          "name": "Zerstörer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zerstoerer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x063",
+      "code": "X063",
+      "name": "Schicksalsstrudel",
+      "mode": "kompetitiv",
+      "players": 3,
+      "complexity": 3,
+      "aggression": 4,
+      "fluff": "Im Laufe der Jahrzehnte hat die Präsenz der Verderbnis tobende Leerenstürme und Wurmlöcher zwischen den vom Krieg zerrütteten Galaxien geschaffen. Obwohl diese kosmischen Störungen die Menschheit von der Flucht aus der zerfallenden Megalopolis abhielt und sie zwang, sich in nahegelegenen Sektoren niederzulassen, könnten sie euch beim Streben nach Vorherrschaft und einer neuen Zukunft für Domineum einen taktischen Vorteil verschaffen.",
+      "aufbauImage": "/images/voidfall/szenarien/x063_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 67
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        },
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "A",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_a"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_f"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "I",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_i"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Neuralmatrix",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_neuralmatrix"
+          }
+        },
+        {
+          "name": "Terraformen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_terraformen"
+          }
+        },
+        {
+          "name": "Zentrale Überwachung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zentrale_ueberwachung"
+          }
+        },
+        {
+          "name": "Träger",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_traeger"
+          }
+        },
+        {
+          "name": "Kybernetik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kybernetik"
+          }
+        },
+        {
+          "name": "Kampfreplikatoren",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kampfreplikatoren"
+          }
+        },
+        {
+          "name": "Schilde",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schilde"
+          }
+        },
+        {
+          "name": "Rettungskapseln",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_rettungskapseln"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x073",
+      "code": "X073",
+      "name": "Durch die veränderten Weiten",
+      "mode": "kompetitiv",
+      "players": 3,
+      "complexity": 4,
+      "aggression": 3,
+      "fluff": "Nach Jahren verzweifelter Kriege schlossen die verbündeten überlebenden Häuser schließlich die Risse und durchtrennten die Verbindungen der Leere mit der Dimension des Domineums. An ihrer Stelle erschien eine kosmische Anomalie, die den Raum im Zentrum der Galaxie in einem beispiellosen Ausmaß verzerrte. Ihr könnt dieses gewaltige und unerklärliche Phänomen nutzen, um die fernen Überreste des Imperiums zu erreichen und es endlich ein für alle Mal von der Verderbnis zu befreien.",
+      "aufbauImage": "/images/voidfall/szenarien/x073_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 68
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "B",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_b"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_f"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "G",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_g"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Datenraffinerie",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_datenraffinerie"
+          }
+        },
+        {
+          "name": "Zielerfassung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zielerfassung"
+          }
+        },
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Zentrale Überwachung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zentrale_ueberwachung"
+          }
+        },
+        {
+          "name": "Träger",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_traeger"
+          }
+        },
+        {
+          "name": "Schilde",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schilde"
+          }
+        },
+        {
+          "name": "Rettungskapseln",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_rettungskapseln"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x083",
+      "code": "X083",
+      "name": "Echos der Vergangenheit",
+      "mode": "kompetitiv",
+      "players": 3,
+      "complexity": 3,
+      "aggression": 2,
+      "fluff": "Als der Krieg zwischen euren Häusern und der Leere das Domineum verwüstete, brachten die letzten Streitkräfte die Überreste der Menschheit an den Rand der bekannten Galaxie. Als ihr damit begannt, eure letzten Kolonien auf den unbekannten Planeten zu errichten, entdecktet ihr uralte Ruinen und verlassene Forschungskomplexe. Das dort gefundene uralte Wissen könnte nun von großem Vorteil für eure Häuser sein und sogar das Blatt des Krieges zu euren Gunsten wenden.",
+      "aufbauImage": "/images/voidfall/szenarien/x083_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 69
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "B",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_b"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_f"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "G",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_g"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Energiezellen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_energiezellen"
+          }
+        },
+        {
+          "name": "Orbitale Häfen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_orbitale_haefen"
+          }
+        },
+        {
+          "name": "Läuterer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_laeuterer"
+          }
+        },
+        {
+          "name": "Bergungsscanner",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_bergungsscanner"
+          }
+        },
+        {
+          "name": "Handelsnexus",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_handelsnexus"
+          }
+        },
+        {
+          "name": "Autonome Drohnen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_autonome_drohnen"
+          }
+        },
+        {
+          "name": "Klonen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_klonen"
+          }
+        },
+        {
+          "name": "Zerstörer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zerstoerer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x093",
+      "code": "X093",
+      "name": "Bastion des Widerstands",
+      "mode": "kompetitiv",
+      "players": 3,
+      "complexity": 3,
+      "aggression": 3,
+      "fluff": "Obwohl die Risse unter großen Kosten geschlossen wurden, blieben nur eure wenigen Häuser übrig. Sie waren die einzigen, die der Verderbnis standhalten konnten. Jahrzehntelang habt ihr mit wenig Erfolg versucht, die Galaxie zu säubern. Aber jetzt wurden Millionen von Überlebenden in einem von einem Asteroidengürtel geschützten entfernten Sektor der Galaxie gefunden. Mit ihrer Hilfe könntet ihr die Verderbnis endlich beseitigen und das Imperium neu errichten.",
+      "aufbauImage": "/images/voidfall/szenarien/x093_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 70
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "C",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_c"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "G",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_g"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_h"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Läuterer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_laeuterer"
+          }
+        },
+        {
+          "name": "Bergungsscanner",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_bergungsscanner"
+          }
+        },
+        {
+          "name": "Kolonieschiffe",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kolonieschiffe"
+          }
+        },
+        {
+          "name": "Robotik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_robotik"
+          }
+        },
+        {
+          "name": "Dekontaminationskammern",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_dekontaminationskammern"
+          }
+        },
+        {
+          "name": "Schlächter",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schlaechter"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x103",
+      "code": "X103",
+      "name": "Aufstieg des Königreichs",
+      "mode": "kompetitiv",
+      "players": 3,
+      "complexity": 2,
+      "aggression": 1,
+      "fluff": "Am äußersten Rand des euch bekannten Alls, weit entfernt von den Machtkämpfen des früheren Domineums, lebten die Bewohner einiger Galaxien ein Leben in Frieden und im Einklang mit der Natur. Diese Planeten, die Jahrhunderte lang als Ergebnis einer freundlichen und genügsamen Gesellschaft gediehen waren, sind als Himmlisches Königreich bekannt. Aber der Krieg hat schließlich auch diese Gebiete erreicht, und wenn ihr diese Welten fallen lasst, wird der Rest der Menschheit sicher folgen.",
+      "aufbauImage": "/images/voidfall/szenarien/x103_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 71
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        },
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "B",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_b"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "E",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_e"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_h"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Zentrale Überwachung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zentrale_ueberwachung"
+          }
+        },
+        {
+          "name": "Träger",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_traeger"
+          }
+        },
+        {
+          "name": "Kolonieschiffe",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kolonieschiffe"
+          }
+        },
+        {
+          "name": "Robotik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_robotik"
+          }
+        },
+        {
+          "name": "Schilde",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schilde"
+          }
+        },
+        {
+          "name": "Rettungskapseln",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_rettungskapseln"
+          }
+        },
+        {
+          "name": "Taktische Transporte",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_taktische_transporte"
+          }
+        },
+        {
+          "name": "Hyperantrieb",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_hyperantrieb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x113",
+      "code": "X113",
+      "name": "Frakturen im All",
+      "mode": "kompetitiv",
+      "players": 3,
+      "complexity": 3,
+      "aggression": 2,
+      "fluff": "Als ob der Sturz durch die Leere selbst und die folgenden Jahrzehnte des Krieges nicht ausreichten, führte das Schließen der Risse zu einer kosmischen Explosion, die das Gewebe der Realität auseinanderriss und galaxiengroße Löcher im All hinterließ. Während diese Anomalien völlig undurchdringlich sind, erleichtern euch die Wurmlöcher, die als Nebeneffekt entstanden sind, die Navigation. Mit ihrer Hilfe könnt ihr die verbliebene Verderbnis ein für alle Mal auslöschen.",
+      "aufbauImage": "/images/voidfall/szenarien/x113_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 72
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        },
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "C",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_c"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "E",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_e"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_h"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Energiezellen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_energiezellen"
+          }
+        },
+        {
+          "name": "Orbitale Häfen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_orbitale_haefen"
+          }
+        },
+        {
+          "name": "Zentrale Überwachung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zentrale_ueberwachung"
+          }
+        },
+        {
+          "name": "Träger",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_traeger"
+          }
+        },
+        {
+          "name": "Kybernetik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kybernetik"
+          }
+        },
+        {
+          "name": "Kampfreplikatoren",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kampfreplikatoren"
+          }
+        },
+        {
+          "name": "Taktische Transporte",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_taktische_transporte"
+          }
+        },
+        {
+          "name": "Hyperantrieb",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_hyperantrieb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x014",
+      "code": "X014",
+      "name": "Zweite Genesis",
+      "mode": "kompetitiv",
+      "players": 4,
+      "complexity": 2,
+      "aggression": 3,
+      "fluff": "Obwohl die Verderbnis die Verteidigung der inneren Welten durchbrach und den äußeren Rand erreichte, gelang es euren verbliebenen Häusern schließlich, die Streitkräfte der Leere im Herzen des Domineums zu belagern. Um einen dauerhaften Sieg zu erringen, braucht die Menschheit ein neues Zuhause, um neu anzufangen. Und so ist es euer Hauptziel, die Genesis-Welten zurückzuerobern, die einzigen Planeten in der Galaxie, auf denen sich die Menschen von Domineum endlich niederlassen und wieder entfalten können.",
+      "aufbauImage": "/images/voidfall/szenarien/x014_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 73
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        },
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "A",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_a"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "D",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_d"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_f"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Wächter",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_waechter"
+          }
+        },
+        {
+          "name": "Weltraumgeschosse",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_weltraumgeschosse"
+          }
+        },
+        {
+          "name": "Läuterer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_laeuterer"
+          }
+        },
+        {
+          "name": "Bergungsscanner",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_bergungsscanner"
+          }
+        },
+        {
+          "name": "Dekontaminationskammern",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_dekontaminationskammern"
+          }
+        },
+        {
+          "name": "Schlächter",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schlaechter"
+          }
+        },
+        {
+          "name": "Taktische Transporte",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_taktische_transporte"
+          }
+        },
+        {
+          "name": "Hyperantrieb",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_hyperantrieb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x024",
+      "code": "X024",
+      "name": "Für Frieden und Wohlstand",
+      "mode": "kompetitiv",
+      "players": 4,
+      "complexity": 3,
+      "aggression": 2,
+      "fluff": "Irgendwo tief in den Reichen des einst glorreichen Domineums blühte ein utopisches Sternensystem voller üppiger Planeten auf, die von den Kräften der Natur beherrscht wurden. Im Krieg gegen die Leere wurden die meisten davon zerstört und ihre Trümmer im Weltraum verstreut. Die Überreste bildeten einen Asteroidengürtel um das letzte Paradies und verschaffen euch einen taktischen Vorteil bei eurem Bestreben, den Planeten zurückzuerobern, der noch immer der Verderbnis auf natürliche Weise widersteht.",
+      "aufbauImage": "/images/voidfall/szenarien/x024_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 74
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        },
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "C",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_c"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "D",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_d"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "E",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_e"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Datenraffinerie",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_datenraffinerie"
+          }
+        },
+        {
+          "name": "Zielerfassung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zielerfassung"
+          }
+        },
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Handelsnexus",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_handelsnexus"
+          }
+        },
+        {
+          "name": "Autonome Drohnen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_autonome_drohnen"
+          }
+        },
+        {
+          "name": "Schilde",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schilde"
+          }
+        },
+        {
+          "name": "Rettungskapseln",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_rettungskapseln"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x034",
+      "code": "X034",
+      "name": "Grundlagen der Zukunft",
+      "mode": "kompetitiv",
+      "players": 4,
+      "complexity": 3,
+      "aggression": 3,
+      "fluff": "Das Kronjuwel des Domineums, in dem ein Großteil des Wissens und Reichtums des Imperiums war, ist jetzt das Schlachtfeld eurer Häuser und der tobenden Streitkräfte der Leere. Sein Zentrum, die Megalopolis, dient immer noch als Knotenpunkt für die Kriegsanstrengungen, aber die meisten wissenschaftlichen Aufzeichnungen werden in Forschungskomplexen am Rande der Galaxie aufbewahrt. Diese Dokumentationen könnten den Krieg für euer Haus entscheiden.",
+      "aufbauImage": "/images/voidfall/szenarien/x034_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 75
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "C",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_c"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_f"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_h"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Energiezellen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_energiezellen"
+          }
+        },
+        {
+          "name": "Orbitale Häfen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_orbitale_haefen"
+          }
+        },
+        {
+          "name": "Kolonieschiffe",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kolonieschiffe"
+          }
+        },
+        {
+          "name": "Robotik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_robotik"
+          }
+        },
+        {
+          "name": "Neuralmatrix",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_neuralmatrix"
+          }
+        },
+        {
+          "name": "Terraformen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_terraformen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x044",
+      "code": "X044",
+      "name": "Vermächtnis der Novarchen",
+      "mode": "kompetitiv",
+      "players": 4,
+      "complexity": 3,
+      "aggression": 4,
+      "fluff": "Der alte Palast des Hauses Novarchon war einst das Zentrum des Imperiums, in dem die Kolonisierung der Galaxie begann. Jetzt dienen die Ruinen als Epizentrum des Einflusses der Leere. Obwohl nur ein Bruchteil der Menschheit den Sturz durch die Leere und seine Folgen überlebt hat, wirkt der Sieg greifbar. Das Haus, das den Novarchon-Palast säubert und seine Geheimnisse enthüllt, kann die Zukunft als neues Herrscherhaus von Domineum bestreiten.",
+      "aufbauImage": "/images/voidfall/szenarien/x044_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 76
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "A",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_a"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "E",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_e"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "G",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_g"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Wächter",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_waechter"
+          }
+        },
+        {
+          "name": "Weltraumgeschosse",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_weltraumgeschosse"
+          }
+        },
+        {
+          "name": "Handelsnexus",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_handelsnexus"
+          }
+        },
+        {
+          "name": "Autonome Drohnen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_autonome_drohnen"
+          }
+        },
+        {
+          "name": "Kybernetik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kybernetik"
+          }
+        },
+        {
+          "name": "Kampfreplikatoren",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kampfreplikatoren"
+          }
+        },
+        {
+          "name": "Taktische Transporte",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_taktische_transporte"
+          }
+        },
+        {
+          "name": "Hyperantrieb",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_hyperantrieb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x054",
+      "code": "X054",
+      "name": "Kriegskunst",
+      "mode": "kompetitiv",
+      "players": 4,
+      "complexity": 4,
+      "aggression": 4,
+      "fluff": "Die Bühne für den letzten Akt des galaktischen Krieges ist der Novarchon-Palast und seine benachbarten Galaxien. Einst war er die Wiege der Menschheit. Nun ist er ein verderbtes Grab und umgeben von Trümmern der zerstörten Planeten, kosmischen Vortexen und Leerenstürmen, die euch im Wege stehen. An strategischen Punkten platzierte Kommunikationsrelais unterstützen euren letzten Versuch, der Quelle des Bösen einen finalen Schlag zu versetzen.",
+      "aufbauImage": "/images/voidfall/szenarien/x054_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 77
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "D",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_d"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_h"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "I",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_i"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Läuterer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_laeuterer"
+          }
+        },
+        {
+          "name": "Bergungsscanner",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_bergungsscanner"
+          }
+        },
+        {
+          "name": "Neuralmatrix",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_neuralmatrix"
+          }
+        },
+        {
+          "name": "Terraformen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_terraformen"
+          }
+        },
+        {
+          "name": "Klonen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_klonen"
+          }
+        },
+        {
+          "name": "Zerstörer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zerstoerer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x064",
+      "code": "X064",
+      "name": "Schicksalsstrudel",
+      "mode": "kompetitiv",
+      "players": 4,
+      "complexity": 3,
+      "aggression": 4,
+      "fluff": "Im Laufe der Jahrzehnte hat die Präsenz der Verderbnis tobende Leerenstürme und Wurmlöcher zwischen den vom Krieg zerrütteten Galaxien geschaffen. Obwohl diese kosmischen Störungen die Menschheit von der Flucht aus der zerfallenden Megalopolis abhielt und sie zwang, sich in nahegelegenen Sektoren niederzulassen, könnten sie euch beim Streben nach Vorherrschaft und einer neuen Zukunft für Domineum einen taktischen Vorteil verschaffen.",
+      "aufbauImage": "/images/voidfall/szenarien/x064_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 78
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        },
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "A",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_a"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_f"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "I",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_i"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Neuralmatrix",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_neuralmatrix"
+          }
+        },
+        {
+          "name": "Terraformen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_terraformen"
+          }
+        },
+        {
+          "name": "Zentrale Überwachung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zentrale_ueberwachung"
+          }
+        },
+        {
+          "name": "Träger",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_traeger"
+          }
+        },
+        {
+          "name": "Kybernetik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kybernetik"
+          }
+        },
+        {
+          "name": "Kampfreplikatoren",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kampfreplikatoren"
+          }
+        },
+        {
+          "name": "Schilde",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schilde"
+          }
+        },
+        {
+          "name": "Rettungskapseln",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_rettungskapseln"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x074",
+      "code": "X074",
+      "name": "Durch die veränderten Weiten",
+      "mode": "kompetitiv",
+      "players": 4,
+      "complexity": 4,
+      "aggression": 3,
+      "fluff": "Nach Jahren verzweifelter Kriege schlossen die verbündeten überlebenden Häuser schließlich die Risse und durchtrennten die Verbindungen der Leere mit der Dimension des Domineums. An ihrer Stelle erschien eine kosmische Anomalie, die den Raum im Zentrum der Galaxie in einem beispiellosen Ausmaß verzerrte. Ihr könnt dieses gewaltige und unerklärliche Phänomen nutzen, um die fernen Überreste des Imperiums zu erreichen und es endlich ein für alle Mal von der Verderbnis zu befreien.",
+      "aufbauImage": "/images/voidfall/szenarien/x074_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 79
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Astoran",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_astoran"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "B",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_b"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_f"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "G",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_g"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Datenraffinerie",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_datenraffinerie"
+          }
+        },
+        {
+          "name": "Zielerfassung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zielerfassung"
+          }
+        },
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Zentrale Überwachung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zentrale_ueberwachung"
+          }
+        },
+        {
+          "name": "Träger",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_traeger"
+          }
+        },
+        {
+          "name": "Schilde",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schilde"
+          }
+        },
+        {
+          "name": "Rettungskapseln",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_rettungskapseln"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x084",
+      "code": "X084",
+      "name": "Echos der Vergangenheit",
+      "mode": "kompetitiv",
+      "players": 4,
+      "complexity": 3,
+      "aggression": 3,
+      "fluff": "Als der Krieg zwischen euren Häusern und der Leere das Domineum verwüstete, brachten die letzten Streitkräfte die Überreste der Menschheit an den Rand der bekannten Galaxie. Als ihr damit begannt, eure letzten Kolonien auf den unbekannten Planeten zu errichten, entdecktet ihr uralte Ruinen und verlassene Forschungskomplexe. Das dort gefundene uralte Wissen könnte nun von großem Vorteil für eure Häuser sein und sogar das Blatt des Krieges zu euren Gunsten wenden.",
+      "aufbauImage": "/images/voidfall/szenarien/x084_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 80
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Zenor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_zenor"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "B",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_b"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "F",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_f"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "G",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_g"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Energiezellen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_energiezellen"
+          }
+        },
+        {
+          "name": "Orbitale Häfen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_orbitale_haefen"
+          }
+        },
+        {
+          "name": "Läuterer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_laeuterer"
+          }
+        },
+        {
+          "name": "Bergungsscanner",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_bergungsscanner"
+          }
+        },
+        {
+          "name": "Handelsnexus",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_handelsnexus"
+          }
+        },
+        {
+          "name": "Autonome Drohnen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_autonome_drohnen"
+          }
+        },
+        {
+          "name": "Klonen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_klonen"
+          }
+        },
+        {
+          "name": "Zerstörer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zerstoerer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x094",
+      "code": "X094",
+      "name": "Bastion des Widerstands",
+      "mode": "kompetitiv",
+      "players": 4,
+      "complexity": 3,
+      "aggression": 3,
+      "fluff": "Obwohl die Risse unter großen Kosten geschlossen wurden, blieben nur eure wenigen Häuser übrig. Sie waren die einzigen, die der Verderbnis standhalten konnten. Jahrzehntelang habt ihr mit wenig Erfolg versucht, die Galaxie zu säubern. Aber jetzt wurden Millionen von Überlebenden in einem von einem Asteroidengürtel geschützten entfernten Sektor der Galaxie gefunden. Mit ihrer Hilfe könntet ihr die Verderbnis endlich beseitigen und das Imperium neu errichten.",
+      "aufbauImage": "/images/voidfall/szenarien/x094_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 81
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Marqualos",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_marqualos"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Shiveus",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_shiveus"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "C",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_c"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "G",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_g"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_h"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Sternenbasen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_sternenbasen"
+          }
+        },
+        {
+          "name": "Torpedos",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_torpedos"
+          }
+        },
+        {
+          "name": "Läuterer",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_laeuterer"
+          }
+        },
+        {
+          "name": "Bergungsscanner",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_bergungsscanner"
+          }
+        },
+        {
+          "name": "Kolonieschiffe",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kolonieschiffe"
+          }
+        },
+        {
+          "name": "Robotik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_robotik"
+          }
+        },
+        {
+          "name": "Dekontaminationskammern",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_dekontaminationskammern"
+          }
+        },
+        {
+          "name": "Schlächter",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schlaechter"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x104",
+      "code": "X104",
+      "name": "Aufstieg des Königreichs",
+      "mode": "kompetitiv",
+      "players": 4,
+      "complexity": 2,
+      "aggression": 1,
+      "fluff": "Am äußersten Rand des euch bekannten Alls, weit entfernt von den Machtkämpfen des früheren Domineums, lebten die Bewohner einiger Galaxien ein Leben in Frieden und im Einklang mit der Natur. Diese Planeten, die Jahrhunderte lang als Ergebnis einer freundlichen und genügsamen Gesellschaft gediehen waren, sind als Himmlisches Königreich bekannt. Aber der Krieg hat schließlich auch diese Gebiete erreicht, und wenn ihr diese Welten fallen lasst, wird der Rest der Menschheit sicher folgen.",
+      "aufbauImage": "/images/voidfall/szenarien/x104_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 82
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Cortozaar",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_cortozaar"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        },
+        {
+          "name": "Thegwyn",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_thegwyn"
+          }
+        },
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "B",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_b"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "E",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_e"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_h"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Zentrale Überwachung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zentrale_ueberwachung"
+          }
+        },
+        {
+          "name": "Träger",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_traeger"
+          }
+        },
+        {
+          "name": "Kolonieschiffe",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kolonieschiffe"
+          }
+        },
+        {
+          "name": "Robotik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_robotik"
+          }
+        },
+        {
+          "name": "Schilde",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_schilde"
+          }
+        },
+        {
+          "name": "Rettungskapseln",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_rettungskapseln"
+          }
+        },
+        {
+          "name": "Taktische Transporte",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_taktische_transporte"
+          }
+        },
+        {
+          "name": "Hyperantrieb",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_hyperantrieb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_x114",
+      "code": "X114",
+      "name": "Frakturen im All",
+      "mode": "kompetitiv",
+      "players": 4,
+      "complexity": 4,
+      "aggression": 2,
+      "fluff": "Als ob der Sturz durch die Leere selbst und die folgenden Jahrzehnte des Krieges nicht ausreichten, führte das Schließen der Risse zu einer kosmischen Explosion, die das Gewebe der Realität auseinanderriss und galaxiengroße Löcher im All hinterließ. Während diese Anomalien völlig undurchdringlich sind, erleichtern euch die Wurmlöcher, die als Nebeneffekt entstanden sind, die Navigation. Mit ihrer Hilfe könnt ihr die verbliebene Verderbnis ein für alle Mal auslöschen.",
+      "aufbauImage": "/images/voidfall/szenarien/x114_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 83
+      },
+      "refugesImage": null,
+      "specialRules": null,
+      "recommendedHouses": [
+        {
+          "name": "Belitan",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_belitan"
+          }
+        },
+        {
+          "name": "Nervo",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_nervo"
+          }
+        },
+        {
+          "name": "Valnis",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_valnis"
+          }
+        },
+        {
+          "name": "Kradmor",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_kradmor"
+          }
+        }
+      ],
+      "fallenHouses": [
+        {
+          "name": "Dunlork",
+          "ref": {
+            "moduleId": "gefallene_haeuser",
+            "entryId": "gefallenes_haus_dunlork"
+          }
+        },
+        {
+          "name": "Fenrax",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_fenrax"
+          }
+        },
+        {
+          "name": "Novaris",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_novaris"
+          }
+        },
+        {
+          "name": "Yarvek",
+          "ref": {
+            "moduleId": "hauseigenschaften",
+            "entryId": "hauseigenschaft_yarvek"
+          }
+        }
+      ],
+      "galacticEvents": [
+        {
+          "cycle": 1,
+          "letter": "C",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z1_c"
+          }
+        },
+        {
+          "cycle": 2,
+          "letter": "E",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z2_e"
+          }
+        },
+        {
+          "cycle": 3,
+          "letter": "H",
+          "ref": {
+            "moduleId": "galaktische_ereignisse",
+            "entryId": "ereignis_z3_h"
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Energiezellen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_energiezellen"
+          }
+        },
+        {
+          "name": "Orbitale Häfen",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_orbitale_haefen"
+          }
+        },
+        {
+          "name": "Zentrale Überwachung",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_zentrale_ueberwachung"
+          }
+        },
+        {
+          "name": "Träger",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_traeger"
+          }
+        },
+        {
+          "name": "Kybernetik",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kybernetik"
+          }
+        },
+        {
+          "name": "Kampfreplikatoren",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_kampfreplikatoren"
+          }
+        },
+        {
+          "name": "Taktische Transporte",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_taktische_transporte"
+          }
+        },
+        {
+          "name": "Hyperantrieb",
+          "ref": {
+            "moduleId": "technologien",
+            "entryId": "technologie_hyperantrieb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "szenario_c011",
+      "code": "C011",
+      "name": "Erste Instanz",
+      "mode": "solo",
+      "players": 1,
+      "complexity": 1,
+      "aggression": null,
+      "fluff": "Alle, die nicht an die dunklen Prophezeiungen der Novarchen glaubten, waren überrascht von der plötzlichen Öffnung der Risse und der Ankunft der Leere. Viele der Großen Häuser kapitulierten vor den verderbten Marionetten der Leere. Aber die Streitkräfte deines Hauses schafften es, die Ausbreitung der Verderbnis zu stoppen und das Böse zurück in die Risse zu treiben. Es ist an der Zeit, ihre Verbindungen zum Domineum ein für alle Mal abzubrechen.",
+      "aufbauImage": "/images/voidfall/szenarien/c011_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 26
+      },
+      "refugesImage": "/images/voidfall/szenarien/c011_zufluechte.webp",
+      "specialRules": null,
+      "recommendedHouses": [],
+      "fallenHouses": [],
+      "galacticEvents": [],
+      "technologies": []
+    },
+    {
+      "id": "szenario_c021",
+      "code": "C021",
+      "name": "Eines für alle",
+      "mode": "solo",
+      "players": 1,
+      "complexity": 2,
+      "aggression": null,
+      "fluff": "Dein Haus steht immer noch und bereitet sich auf den finalen Schlag gegen die verderbten Flotten vor. Da deine Reserven zur Neige gehen, könnten die wertvollen Genesis-Welten, die Planeten, die von den Gefallenen Häusern zurückgelassen wurden, dir dabei helfen, deine Versorgung zu sichern. Andere Überlebende haben einen starken Widerstand in der Nähe der Risse aufgebaut, um dein Haus zusätzlich zu unterstützen.",
+      "aufbauImage": "/images/voidfall/szenarien/c021_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 27
+      },
+      "refugesImage": "/images/voidfall/szenarien/c021_zufluechte.webp",
+      "specialRules": null,
+      "recommendedHouses": [],
+      "fallenHouses": [],
+      "galacticEvents": [],
+      "technologies": []
+    },
+    {
+      "id": "szenario_c031",
+      "code": "C031",
+      "name": "Dunkelste Stunde",
+      "mode": "solo",
+      "players": 1,
+      "complexity": 2,
+      "aggression": null,
+      "fluff": "Die Wiege des Domineums, der Palast des Hauses Novarchon und die umliegenden Gebiete waren die ersten, die der Leere zum Opfer fielen. Die Leere übernahm in Schwärmen die Kontrolle über die inneren Welten und alles, was einst menschlich war. Aber jetzt, da sich dein Haus als letztes nach so vielen verlorenen Schlachten neu formiert hat, hast du einen verzweifelten letzten Angriff organisiert, der direkt auf das Herz des Bösen zielt, das tief in den Ruinen des königlichen Palastes lauert.",
+      "aufbauImage": "/images/voidfall/szenarien/c031_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 28
+      },
+      "refugesImage": "/images/voidfall/szenarien/c031_zufluechte.webp",
+      "specialRules": null,
+      "recommendedHouses": [],
+      "fallenHouses": [],
+      "galacticEvents": [],
+      "technologies": []
+    },
+    {
+      "id": "szenario_c041",
+      "code": "C041",
+      "name": "Antike Geheimnisse",
+      "mode": "solo",
+      "players": 1,
+      "complexity": 3,
+      "aggression": null,
+      "fluff": "Vor dem Sturz durch die Leere wurden die Grenzen der bekannten Galaxien erkundet und Spuren einer unbekannten Zivilisation entdeckt. Zur Analyse der Funde wurde in dem Sektor ein Forschungskomplex errichtet, der das neue Wissen an die inneren Welten übertrug. In dem vom Sturz durch die Leere verursachten Chaos sind jedoch sowohl die alten Ruinen als auch der Komplex der Leere zum Opfer gefallen. Dein Haus benötigt die Forschungsdokumentationen, um sich im Kampf gegen die Leere einen Vorteil zu verschaffen.",
+      "aufbauImage": "/images/voidfall/szenarien/c041_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 29
+      },
+      "refugesImage": "/images/voidfall/szenarien/c041_zufluechte.webp",
+      "specialRules": "Der Forschungskomplex enthält eine (aufgedruckte) Sternenbasis. Legt das Sternenbasis-Kampfplättchen unter das Haupt-Kampfplättchen.",
+      "recommendedHouses": [],
+      "fallenHouses": [],
+      "galacticEvents": [],
+      "technologies": []
+    },
+    {
+      "id": "szenario_c051",
+      "code": "C051",
+      "name": "Teufelsdreieck",
+      "mode": "solo",
+      "players": 1,
+      "complexity": 3,
+      "aggression": null,
+      "fluff": "Die Ankunft der Leere öffnete nicht nur Risse im Gefüge der Dimensionen, sondern verzerrte auch die Realität in den Galaxien, die die Risse umgeben. In diesen Bereichen führt die Menschheit einen aussichtslosen Krieg, da ihre Kommunikationstechnologien in der Verzerrung nicht funktionieren. Aber jetzt, mit Hilfe der während des Krieges entwickelten Kommunikationsrelais, bekommt dein Haus endlich die Chance, sich das zurückzuholen, was ihm gehört.",
+      "aufbauImage": "/images/voidfall/szenarien/c051_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 30
+      },
+      "refugesImage": "/images/voidfall/szenarien/c051_zufluechte.webp",
+      "specialRules": null,
+      "recommendedHouses": [],
+      "fallenHouses": [],
+      "galacticEvents": [],
+      "technologies": []
+    },
+    {
+      "id": "szenario_c061",
+      "code": "C061",
+      "name": "Verblassende Finsternis",
+      "mode": "solo",
+      "players": 1,
+      "complexity": 3,
+      "aggression": null,
+      "fluff": "Der Krieg gegen die Leere ist der Kampf um die bloße Existenz der Menschheit. Aber dein immer noch kämpfendes Haus muss auch an Zeiten danach denken. Es reicht nicht aus, die extradimensionale Invasion zu überleben und die Risse zu schließen. Du musst auch die Zukunft eines neuen Domineums sichern. Dafür musst du das Paradies, das Kronjuwel des Imperiums retten. Dieses kann der planetengroßen Stadt Megalopolis alles für einen Neuanfang bereitstellen und uns retten.",
+      "aufbauImage": "/images/voidfall/szenarien/c061_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 31
+      },
+      "refugesImage": "/images/voidfall/szenarien/c061_zufluechte.webp",
+      "specialRules": null,
+      "recommendedHouses": [],
+      "fallenHouses": [],
+      "galacticEvents": [],
+      "technologies": []
+    },
+    {
+      "id": "szenario_c071",
+      "code": "C071",
+      "name": "Noch nicht heute",
+      "mode": "solo",
+      "players": 1,
+      "complexity": 4,
+      "aggression": null,
+      "fluff": "Der Krieg ist fast vorbei. Nur ein Bruchteil der einst glorreichen Großen Häuser steht erschöpft da und stellt sich mit dir eurem unerbittlichen Feind aus unbekannten Dimensionen. Ihr wisst, dass ein Tag kommen kann, an dem der Mut der Menschen versagt, an dem sie ihre Freunde verlassen und alle Bande der Gemeinschaft brechen – eine Stunde der Verderbnis, in der das Zeitalter der Menschen endet. Aber dieser Tag ist noch nicht angebrochen. Heute kämpft ihr!",
+      "aufbauImage": "/images/voidfall/szenarien/c071_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 32
+      },
+      "refugesImage": "/images/voidfall/szenarien/c071_zufluechte.webp",
+      "specialRules": "Der Forschungskomplex enthält eine (aufgedruckte) Sternenbasis. Legt das Sternenbasis-Kampfplättchen unter das Haupt-Kampfplättchen.",
+      "recommendedHouses": [],
+      "fallenHouses": [],
+      "galacticEvents": [],
+      "technologies": []
+    },
+    {
+      "id": "szenario_c081",
+      "code": "C081",
+      "name": "Niedergang der Zivilisation",
+      "mode": "solo",
+      "players": 1,
+      "complexity": 4,
+      "aggression": null,
+      "fluff": "Das Zeitalter des Domineums ist vorbei. Die Galaxie liegt in Trümmern. Nur wenige bewohnte Sternensysteme konnten gerettet werden. Aber noch ist nicht alles verloren. Dein Haus steht trotzig da und bereitet sich auf einen letzten verzweifelten Angriff vor. Entweder verliert ihr und alles, was menschlich war, wird für immer ausgelöscht, oder ihr habt Erfolg, schließt den Riss und erobert das letzte Fragment der Zivilisation, die Megalopolis, zurück. Am Ende geht es um alles oder nichts.",
+      "aufbauImage": "/images/voidfall/szenarien/c081_aufbau.webp",
+      "source": {
+        "document": "Kompendium",
+        "page": 33
+      },
+      "refugesImage": "/images/voidfall/szenarien/c081_zufluechte.webp",
+      "specialRules": null,
+      "recommendedHouses": [],
+      "fallenHouses": [],
+      "galacticEvents": [],
+      "technologies": []
+    }
+  ]
+}
