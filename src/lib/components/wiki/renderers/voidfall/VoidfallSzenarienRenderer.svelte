@@ -81,6 +81,8 @@
     return Array.from({ length: max }, (_, i) => i < (value ?? 0));
   }
 
+  // Ereignisse: pro Zyklus liegen dieselben 3 Buchstaben-Karten aus dem jeweiligen
+  // Zyklus-Stapel bereit, aus denen im Spiel 1 zufaellig gezogen wird.
   let eventsByCycle = (scn) => [...(scn?.galacticEvents ?? [])].sort((a, b) => a.cycle - b.cycle);
 </script>
 
@@ -262,12 +264,22 @@
                   </div>
                 </div>
                 <div class="flex flex-col gap-1.5">
-                  <span class="wiki-eyebrow">Galaktische Ereignisse je Zyklus</span>
-                  <div class="flex flex-wrap gap-1.5">
-                    {#each eventsByCycle(scn) as ev}
-                      {@render refChip(`Zyklus ${ev.cycle} · ${ev.letter}`, ev.ref)}
-                    {/each}
-                  </div>
+                  <span class="wiki-eyebrow">Galaktische Ereignisse für jeden Zyklus</span>
+                  <p class="szen-events-hint m-0">
+                    Legt in <strong>jedem</strong> Zyklus die Karten
+                    <strong>{(scn.galacticEventLetters ?? []).join(' · ')}</strong> aus dem Stapel des
+                    Zyklus bereit — davon wird 1 zufällig gezogen.
+                  </p>
+                  {#each eventsByCycle(scn) as cyc}
+                    <div class="szen-cycle-row">
+                      <span class="szen-cycle-label">Zyklus {cyc.cycle}</span>
+                      <div class="flex flex-wrap gap-1.5">
+                        {#each cyc.cards as card}
+                          {@render refChip(card.letter, card.ref)}
+                        {/each}
+                      </div>
+                    </div>
+                  {/each}
                 </div>
                 <div class="flex flex-col gap-1.5">
                   <span class="wiki-eyebrow">Technologien</span>
@@ -382,6 +394,29 @@
     overflow: hidden;
   }
   .szen-refuges-btn img { display: block; width: 100%; height: auto; }
+
+  .szen-events-hint {
+    font-size: 0.75rem;
+    line-height: 1.45;
+    color: var(--color-text-muted);
+  }
+  .szen-events-hint strong { color: var(--color-text-secondary); }
+
+  /* Zyklus-Zeile: schmales Label + die 3 Karten dieses Zyklus. Die Buchstaben sind
+     je Zyklus gleich, die dahinterliegenden Karten aber nicht -> 9 eigene Links. */
+  .szen-cycle-row {
+    display: grid;
+    grid-template-columns: 4.6rem 1fr;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .szen-cycle-label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
 
   .szen-chip { cursor: pointer; }
   .szen-chip-muted {

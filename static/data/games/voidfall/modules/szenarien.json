@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "id": "szenario_x012",
+      "id": "szenario_x01",
       "type": "reference",
       "category": "szenarien",
       "name": "Zweite Genesis",
@@ -9,12 +9,16 @@
       "group": "kompetitiv",
       "tags": [
         "szenario",
-        "kompetitiv"
+        "kompetitiv",
+        "x01",
+        "x012",
+        "x013",
+        "x014"
       ],
       "sort_order": 100
     },
     {
-      "id": "szenario_x022",
+      "id": "szenario_x02",
       "type": "reference",
       "category": "szenarien",
       "name": "Für Frieden und Wohlstand",
@@ -22,12 +26,16 @@
       "group": "kompetitiv",
       "tags": [
         "szenario",
-        "kompetitiv"
+        "kompetitiv",
+        "x02",
+        "x022",
+        "x023",
+        "x024"
       ],
       "sort_order": 110
     },
     {
-      "id": "szenario_x032",
+      "id": "szenario_x03",
       "type": "reference",
       "category": "szenarien",
       "name": "Grundlagen der Zukunft",
@@ -35,12 +43,16 @@
       "group": "kompetitiv",
       "tags": [
         "szenario",
-        "kompetitiv"
+        "kompetitiv",
+        "x03",
+        "x032",
+        "x033",
+        "x034"
       ],
       "sort_order": 120
     },
     {
-      "id": "szenario_x042",
+      "id": "szenario_x04",
       "type": "reference",
       "category": "szenarien",
       "name": "Vermächtnis der Novarchen",
@@ -48,12 +60,16 @@
       "group": "kompetitiv",
       "tags": [
         "szenario",
-        "kompetitiv"
+        "kompetitiv",
+        "x04",
+        "x042",
+        "x043",
+        "x044"
       ],
       "sort_order": 130
     },
     {
-      "id": "szenario_x052",
+      "id": "szenario_x05",
       "type": "reference",
       "category": "szenarien",
       "name": "Kriegskunst",
@@ -61,12 +77,16 @@
       "group": "kompetitiv",
       "tags": [
         "szenario",
-        "kompetitiv"
+        "kompetitiv",
+        "x05",
+        "x052",
+        "x053",
+        "x054"
       ],
       "sort_order": 140
     },
     {
-      "id": "szenario_x062",
+      "id": "szenario_x06",
       "type": "reference",
       "category": "szenarien",
       "name": "Schicksalsstrudel",
@@ -74,12 +94,16 @@
       "group": "kompetitiv",
       "tags": [
         "szenario",
-        "kompetitiv"
+        "kompetitiv",
+        "x06",
+        "x062",
+        "x063",
+        "x064"
       ],
       "sort_order": 150
     },
     {
-      "id": "szenario_x072",
+      "id": "szenario_x07",
       "type": "reference",
       "category": "szenarien",
       "name": "Durch die veränderten Weiten",
@@ -87,12 +111,16 @@
       "group": "kompetitiv",
       "tags": [
         "szenario",
-        "kompetitiv"
+        "kompetitiv",
+        "x07",
+        "x072",
+        "x073",
+        "x074"
       ],
       "sort_order": 160
     },
     {
-      "id": "szenario_x082",
+      "id": "szenario_x08",
       "type": "reference",
       "category": "szenarien",
       "name": "Echos der Vergangenheit",
@@ -100,12 +128,16 @@
       "group": "kompetitiv",
       "tags": [
         "szenario",
-        "kompetitiv"
+        "kompetitiv",
+        "x08",
+        "x082",
+        "x083",
+        "x084"
       ],
       "sort_order": 170
     },
     {
-      "id": "szenario_x092",
+      "id": "szenario_x09",
       "type": "reference",
       "category": "szenarien",
       "name": "Bastion des Widerstands",
@@ -113,12 +145,16 @@
       "group": "kompetitiv",
       "tags": [
         "szenario",
-        "kompetitiv"
+        "kompetitiv",
+        "x09",
+        "x092",
+        "x093",
+        "x094"
       ],
       "sort_order": 180
     },
     {
-      "id": "szenario_x102",
+      "id": "szenario_x10",
       "type": "reference",
       "category": "szenarien",
       "name": "Aufstieg des Königreichs",
@@ -126,12 +162,16 @@
       "group": "kompetitiv",
       "tags": [
         "szenario",
-        "kompetitiv"
+        "kompetitiv",
+        "x10",
+        "x102",
+        "x103",
+        "x104"
       ],
       "sort_order": 190
     },
     {
-      "id": "szenario_x112",
+      "id": "szenario_x11",
       "type": "reference",
       "category": "szenarien",
       "name": "Frakturen im All",
@@ -139,295 +179,13 @@
       "group": "kompetitiv",
       "tags": [
         "szenario",
-        "kompetitiv"
+        "kompetitiv",
+        "x11",
+        "x112",
+        "x113",
+        "x114"
       ],
       "sort_order": 200
-    },
-    {
-      "id": "szenario_x013",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Zweite Genesis",
-      "summary": "Obwohl die Verderbnis die Verteidigung der inneren Welten durchbrach und den äußeren Rand erreichte, gelang es euren verbliebenen Häusern schließlich, die Streitkräfte der Leere im Herzen des Domineums zu belagern. Um einen dauerhaften Sieg zu erringen, braucht die Menschheit ein neues Zuhause, um neu anzufangen. Und so ist es euer Hauptziel, die Genesis-Welten zurückzuerobern, die einzigen Planet",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 210
-    },
-    {
-      "id": "szenario_x023",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Für Frieden und Wohlstand",
-      "summary": "Irgendwo tief in den Reichen des einst glorreichen Domineums blühte ein utopisches Sternensystem voller üppiger Planeten auf, die von den Kräften der Natur beherrscht wurden. Im Krieg gegen die Leere wurden die meisten davon zerstört und ihre Trümmer im Weltraum verstreut. Die Überreste bildeten einen Asteroidengürtel um das letzte Paradies und verschaffen euch einen taktischen Vorteil bei eurem B",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 220
-    },
-    {
-      "id": "szenario_x033",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Grundlagen der Zukunft",
-      "summary": "Das Kronjuwel des Domineums, in dem ein Großteil des Wissens und Reichtums des Imperiums war, ist jetzt das Schlachtfeld eurer Häuser und der tobenden Streitkräfte der Leere. Sein Zentrum, die Megalopolis, dient immer noch als Knotenpunkt für die Kriegsanstrengungen, aber die meisten wissenschaftlichen Aufzeichnungen werden in Forschungskomplexen am Rande der Galaxie aufbewahrt. Diese Dokumentatio",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 230
-    },
-    {
-      "id": "szenario_x043",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Vermächtnis der Novarchen",
-      "summary": "Der alte Palast des Hauses Novarchon war einst das Zentrum des Imperiums, in dem die Kolonisierung der Galaxie begann. Jetzt dienen die Ruinen als Epizentrum des Einflusses der Leere. Obwohl nur ein Bruchteil der Menschheit den Sturz durch die Leere und seine Folgen überlebt hat, wirkt der Sieg greifbar. Das Haus, das den Novarchon-Palast säubert und seine Geheimnisse enthüllt, kann die Zukunft al",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 240
-    },
-    {
-      "id": "szenario_x053",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Kriegskunst",
-      "summary": "Die Bühne für den letzten Akt des galaktischen Krieges ist der Novarchon-Palast und seine benachbarten Galaxien. Einst war er die Wiege der Menschheit. Nun ist er ein verderbtes Grab und umgeben von Trümmern der zerstörten Planeten, kosmischen Vortexen und Leerenstürmen, die euch im Wege stehen. An strategischen Punkten platzierte Kommunikationsrelais unterstützen euren letzten Versuch, der Quelle",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 250
-    },
-    {
-      "id": "szenario_x063",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Schicksalsstrudel",
-      "summary": "Im Laufe der Jahrzehnte hat die Präsenz der Verderbnis tobende Leerenstürme und Wurmlöcher zwischen den vom Krieg zerrütteten Galaxien geschaffen. Obwohl diese kosmischen Störungen die Menschheit von der Flucht aus der zerfallenden Megalopolis abhielt und sie zwang, sich in nahegelegenen Sektoren niederzulassen, könnten sie euch beim Streben nach Vorherrschaft und einer neuen Zukunft für Domineum ",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 260
-    },
-    {
-      "id": "szenario_x073",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Durch die veränderten Weiten",
-      "summary": "Nach Jahren verzweifelter Kriege schlossen die verbündeten überlebenden Häuser schließlich die Risse und durchtrennten die Verbindungen der Leere mit der Dimension des Domineums. An ihrer Stelle erschien eine kosmische Anomalie, die den Raum im Zentrum der Galaxie in einem beispiellosen Ausmaß verzerrte. Ihr könnt dieses gewaltige und unerklärliche Phänomen nutzen, um die fernen Überreste des Impe",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 270
-    },
-    {
-      "id": "szenario_x083",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Echos der Vergangenheit",
-      "summary": "Als der Krieg zwischen euren Häusern und der Leere das Domineum verwüstete, brachten die letzten Streitkräfte die Überreste der Menschheit an den Rand der bekannten Galaxie. Als ihr damit begannt, eure letzten Kolonien auf den unbekannten Planeten zu errichten, entdecktet ihr uralte Ruinen und verlassene Forschungskomplexe. Das dort gefundene uralte Wissen könnte nun von großem Vorteil für eure Hä",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 280
-    },
-    {
-      "id": "szenario_x093",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Bastion des Widerstands",
-      "summary": "Obwohl die Risse unter großen Kosten geschlossen wurden, blieben nur eure wenigen Häuser übrig. Sie waren die einzigen, die der Verderbnis standhalten konnten. Jahrzehntelang habt ihr mit wenig Erfolg versucht, die Galaxie zu säubern. Aber jetzt wurden Millionen von Überlebenden in einem von einem Asteroidengürtel geschützten entfernten Sektor der Galaxie gefunden. Mit ihrer Hilfe könntet ihr die ",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 290
-    },
-    {
-      "id": "szenario_x103",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Aufstieg des Königreichs",
-      "summary": "Am äußersten Rand des euch bekannten Alls, weit entfernt von den Machtkämpfen des früheren Domineums, lebten die Bewohner einiger Galaxien ein Leben in Frieden und im Einklang mit der Natur. Diese Planeten, die Jahrhunderte lang als Ergebnis einer freundlichen und genügsamen Gesellschaft gediehen waren, sind als Himmlisches Königreich bekannt. Aber der Krieg hat schließlich auch diese Gebiete erre",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 300
-    },
-    {
-      "id": "szenario_x113",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Frakturen im All",
-      "summary": "Als ob der Sturz durch die Leere selbst und die folgenden Jahrzehnte des Krieges nicht ausreichten, führte das Schließen der Risse zu einer kosmischen Explosion, die das Gewebe der Realität auseinanderriss und galaxiengroße Löcher im All hinterließ. Während diese Anomalien völlig undurchdringlich sind, erleichtern euch die Wurmlöcher, die als Nebeneffekt entstanden sind, die Navigation. Mit ihrer ",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 310
-    },
-    {
-      "id": "szenario_x014",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Zweite Genesis",
-      "summary": "Obwohl die Verderbnis die Verteidigung der inneren Welten durchbrach und den äußeren Rand erreichte, gelang es euren verbliebenen Häusern schließlich, die Streitkräfte der Leere im Herzen des Domineums zu belagern. Um einen dauerhaften Sieg zu erringen, braucht die Menschheit ein neues Zuhause, um neu anzufangen. Und so ist es euer Hauptziel, die Genesis-Welten zurückzuerobern, die einzigen Planet",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 320
-    },
-    {
-      "id": "szenario_x024",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Für Frieden und Wohlstand",
-      "summary": "Irgendwo tief in den Reichen des einst glorreichen Domineums blühte ein utopisches Sternensystem voller üppiger Planeten auf, die von den Kräften der Natur beherrscht wurden. Im Krieg gegen die Leere wurden die meisten davon zerstört und ihre Trümmer im Weltraum verstreut. Die Überreste bildeten einen Asteroidengürtel um das letzte Paradies und verschaffen euch einen taktischen Vorteil bei eurem B",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 330
-    },
-    {
-      "id": "szenario_x034",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Grundlagen der Zukunft",
-      "summary": "Das Kronjuwel des Domineums, in dem ein Großteil des Wissens und Reichtums des Imperiums war, ist jetzt das Schlachtfeld eurer Häuser und der tobenden Streitkräfte der Leere. Sein Zentrum, die Megalopolis, dient immer noch als Knotenpunkt für die Kriegsanstrengungen, aber die meisten wissenschaftlichen Aufzeichnungen werden in Forschungskomplexen am Rande der Galaxie aufbewahrt. Diese Dokumentatio",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 340
-    },
-    {
-      "id": "szenario_x044",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Vermächtnis der Novarchen",
-      "summary": "Der alte Palast des Hauses Novarchon war einst das Zentrum des Imperiums, in dem die Kolonisierung der Galaxie begann. Jetzt dienen die Ruinen als Epizentrum des Einflusses der Leere. Obwohl nur ein Bruchteil der Menschheit den Sturz durch die Leere und seine Folgen überlebt hat, wirkt der Sieg greifbar. Das Haus, das den Novarchon-Palast säubert und seine Geheimnisse enthüllt, kann die Zukunft al",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 350
-    },
-    {
-      "id": "szenario_x054",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Kriegskunst",
-      "summary": "Die Bühne für den letzten Akt des galaktischen Krieges ist der Novarchon-Palast und seine benachbarten Galaxien. Einst war er die Wiege der Menschheit. Nun ist er ein verderbtes Grab und umgeben von Trümmern der zerstörten Planeten, kosmischen Vortexen und Leerenstürmen, die euch im Wege stehen. An strategischen Punkten platzierte Kommunikationsrelais unterstützen euren letzten Versuch, der Quelle",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 360
-    },
-    {
-      "id": "szenario_x064",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Schicksalsstrudel",
-      "summary": "Im Laufe der Jahrzehnte hat die Präsenz der Verderbnis tobende Leerenstürme und Wurmlöcher zwischen den vom Krieg zerrütteten Galaxien geschaffen. Obwohl diese kosmischen Störungen die Menschheit von der Flucht aus der zerfallenden Megalopolis abhielt und sie zwang, sich in nahegelegenen Sektoren niederzulassen, könnten sie euch beim Streben nach Vorherrschaft und einer neuen Zukunft für Domineum ",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 370
-    },
-    {
-      "id": "szenario_x074",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Durch die veränderten Weiten",
-      "summary": "Nach Jahren verzweifelter Kriege schlossen die verbündeten überlebenden Häuser schließlich die Risse und durchtrennten die Verbindungen der Leere mit der Dimension des Domineums. An ihrer Stelle erschien eine kosmische Anomalie, die den Raum im Zentrum der Galaxie in einem beispiellosen Ausmaß verzerrte. Ihr könnt dieses gewaltige und unerklärliche Phänomen nutzen, um die fernen Überreste des Impe",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 380
-    },
-    {
-      "id": "szenario_x084",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Echos der Vergangenheit",
-      "summary": "Als der Krieg zwischen euren Häusern und der Leere das Domineum verwüstete, brachten die letzten Streitkräfte die Überreste der Menschheit an den Rand der bekannten Galaxie. Als ihr damit begannt, eure letzten Kolonien auf den unbekannten Planeten zu errichten, entdecktet ihr uralte Ruinen und verlassene Forschungskomplexe. Das dort gefundene uralte Wissen könnte nun von großem Vorteil für eure Hä",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 390
-    },
-    {
-      "id": "szenario_x094",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Bastion des Widerstands",
-      "summary": "Obwohl die Risse unter großen Kosten geschlossen wurden, blieben nur eure wenigen Häuser übrig. Sie waren die einzigen, die der Verderbnis standhalten konnten. Jahrzehntelang habt ihr mit wenig Erfolg versucht, die Galaxie zu säubern. Aber jetzt wurden Millionen von Überlebenden in einem von einem Asteroidengürtel geschützten entfernten Sektor der Galaxie gefunden. Mit ihrer Hilfe könntet ihr die ",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 400
-    },
-    {
-      "id": "szenario_x104",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Aufstieg des Königreichs",
-      "summary": "Am äußersten Rand des euch bekannten Alls, weit entfernt von den Machtkämpfen des früheren Domineums, lebten die Bewohner einiger Galaxien ein Leben in Frieden und im Einklang mit der Natur. Diese Planeten, die Jahrhunderte lang als Ergebnis einer freundlichen und genügsamen Gesellschaft gediehen waren, sind als Himmlisches Königreich bekannt. Aber der Krieg hat schließlich auch diese Gebiete erre",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 410
-    },
-    {
-      "id": "szenario_x114",
-      "type": "reference",
-      "category": "szenarien",
-      "name": "Frakturen im All",
-      "summary": "Als ob der Sturz durch die Leere selbst und die folgenden Jahrzehnte des Krieges nicht ausreichten, führte das Schließen der Risse zu einer kosmischen Explosion, die das Gewebe der Realität auseinanderriss und galaxiengroße Löcher im All hinterließ. Während diese Anomalien völlig undurchdringlich sind, erleichtern euch die Wurmlöcher, die als Nebeneffekt entstanden sind, die Navigation. Mit ihrer ",
-      "group": "kompetitiv",
-      "tags": [
-        "szenario",
-        "kompetitiv"
-      ],
-      "sort_order": 420
     },
     {
       "id": "szenario_c011",
@@ -438,7 +196,8 @@
       "group": "solo",
       "tags": [
         "szenario",
-        "solo"
+        "solo",
+        "c011"
       ],
       "sort_order": 100
     },
@@ -451,7 +210,8 @@
       "group": "solo",
       "tags": [
         "szenario",
-        "solo"
+        "solo",
+        "c021"
       ],
       "sort_order": 110
     },
@@ -464,7 +224,8 @@
       "group": "solo",
       "tags": [
         "szenario",
-        "solo"
+        "solo",
+        "c031"
       ],
       "sort_order": 120
     },
@@ -477,7 +238,8 @@
       "group": "solo",
       "tags": [
         "szenario",
-        "solo"
+        "solo",
+        "c041"
       ],
       "sort_order": 130
     },
@@ -490,7 +252,8 @@
       "group": "solo",
       "tags": [
         "szenario",
-        "solo"
+        "solo",
+        "c051"
       ],
       "sort_order": 140
     },
@@ -503,7 +266,8 @@
       "group": "solo",
       "tags": [
         "szenario",
-        "solo"
+        "solo",
+        "c061"
       ],
       "sort_order": 150
     },
@@ -516,7 +280,8 @@
       "group": "solo",
       "tags": [
         "szenario",
-        "solo"
+        "solo",
+        "c071"
       ],
       "sort_order": 160
     },
@@ -529,7 +294,8 @@
       "group": "solo",
       "tags": [
         "szenario",
-        "solo"
+        "solo",
+        "c081"
       ],
       "sort_order": 170
     }
@@ -623,30 +389,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "A",
+        "D",
+        "F"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "A",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_a"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_a"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_d"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "D",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_d"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_a"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_d"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_f"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_a"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_d"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -784,30 +609,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "C",
+        "D",
+        "E"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "C",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_c"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_c"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_d"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_e"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "D",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_d"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_c"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_d"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_e"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "E",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_e"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_c"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_d"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_e"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -945,30 +829,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "C",
+        "F",
+        "H"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "C",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_c"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_c"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_f"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_c"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_h"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_c"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -1106,30 +1049,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "A",
+        "E",
+        "G"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "A",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_a"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_a"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_e"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "E",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_e"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_a"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_e"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "G",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_g"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_a"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_e"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_g"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -1267,30 +1269,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "D",
+        "H",
+        "I"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "D",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_d"
-          }
+          "cards": [
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_d"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_i"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_h"
-          }
+          "cards": [
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_d"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_i"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "I",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_i"
-          }
+          "cards": [
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_d"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_i"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -1428,30 +1489,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "A",
+        "F",
+        "I"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "A",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_a"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_a"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_i"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_f"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_a"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_i"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "I",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_i"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_a"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_i"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -1589,30 +1709,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "B",
+        "F",
+        "G"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "B",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_b"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_f"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "G",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_g"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_g"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -1750,30 +1929,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "B",
+        "F",
+        "G"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "B",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_b"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_f"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "G",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_g"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_g"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -1911,30 +2149,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "C",
+        "G",
+        "H"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "C",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_c"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_c"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_g"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "G",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_g"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_c"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_g"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_h"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_c"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_g"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -2072,30 +2369,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "B",
+        "E",
+        "H"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "B",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_b"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_b"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "E",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_e"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_b"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_h"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_b"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -2233,30 +2589,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "C",
+        "E",
+        "H"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "C",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_c"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_c"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "E",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_e"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_c"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_h"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_c"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -2394,30 +2809,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "A",
+        "D",
+        "F"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "A",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_a"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_a"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_d"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "D",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_d"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_a"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_d"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_f"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_a"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_d"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -2555,30 +3029,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "C",
+        "D",
+        "E"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "C",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_c"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_c"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_d"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_e"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "D",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_d"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_c"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_d"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_e"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "E",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_e"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_c"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_d"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_e"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -2716,30 +3249,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "C",
+        "F",
+        "H"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "C",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_c"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_c"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_f"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_c"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_h"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_c"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -2877,30 +3469,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "A",
+        "E",
+        "G"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "A",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_a"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_a"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_e"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "E",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_e"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_a"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_e"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "G",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_g"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_a"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_e"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_g"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -3038,30 +3689,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "D",
+        "H",
+        "I"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "D",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_d"
-          }
+          "cards": [
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_d"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_i"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_h"
-          }
+          "cards": [
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_d"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_i"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "I",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_i"
-          }
+          "cards": [
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_d"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_i"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -3199,30 +3909,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "A",
+        "F",
+        "I"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "A",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_a"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_a"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_i"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_f"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_a"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_i"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "I",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_i"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_a"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_i"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -3360,30 +4129,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "B",
+        "F",
+        "G"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "B",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_b"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_f"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "G",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_g"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_g"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -3521,30 +4349,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "B",
+        "F",
+        "G"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "B",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_b"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_f"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "G",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_g"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_g"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -3682,30 +4569,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "C",
+        "G",
+        "H"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "C",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_c"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_c"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_g"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "G",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_g"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_c"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_g"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_h"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_c"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_g"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -3843,30 +4789,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "B",
+        "E",
+        "H"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "B",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_b"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_b"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "E",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_e"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_b"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_h"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_b"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -4004,30 +5009,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "C",
+        "E",
+        "H"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "C",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_c"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_c"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "E",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_e"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_c"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_h"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_c"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -4165,30 +5229,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "A",
+        "D",
+        "F"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "A",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_a"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_a"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_d"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "D",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_d"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_a"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_d"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_f"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_a"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_d"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -4326,30 +5449,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "C",
+        "D",
+        "E"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "C",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_c"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_c"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_d"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_e"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "D",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_d"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_c"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_d"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_e"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "E",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_e"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_c"
+              }
+            },
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_d"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_e"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -4487,30 +5669,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "C",
+        "F",
+        "H"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "C",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_c"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_c"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_f"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_c"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_h"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_c"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -4648,30 +5889,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "A",
+        "E",
+        "G"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "A",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_a"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_a"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_e"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "E",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_e"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_a"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_e"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "G",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_g"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_a"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_e"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_g"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -4809,30 +6109,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "D",
+        "H",
+        "I"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "D",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_d"
-          }
+          "cards": [
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_d"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_i"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_h"
-          }
+          "cards": [
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_d"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_i"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "I",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_i"
-          }
+          "cards": [
+            {
+              "letter": "D",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_d"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_i"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -4970,30 +6329,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "A",
+        "F",
+        "I"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "A",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_a"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_a"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_i"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_f"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_a"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_i"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "I",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_i"
-          }
+          "cards": [
+            {
+              "letter": "A",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_a"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            },
+            {
+              "letter": "I",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_i"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -5131,30 +6549,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "B",
+        "F",
+        "G"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "B",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_b"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_f"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "G",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_g"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_g"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -5292,30 +6769,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "B",
+        "F",
+        "G"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "B",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_b"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "F",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_f"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_g"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "G",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_g"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_b"
+              }
+            },
+            {
+              "letter": "F",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_f"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_g"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -5453,30 +6989,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "C",
+        "G",
+        "H"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "C",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_c"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_c"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_g"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "G",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_g"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_c"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_g"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_h"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_c"
+              }
+            },
+            {
+              "letter": "G",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_g"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -5614,30 +7209,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "B",
+        "E",
+        "H"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "B",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_b"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_b"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "E",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_e"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_b"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_h"
-          }
+          "cards": [
+            {
+              "letter": "B",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_b"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -5775,30 +7429,89 @@
           }
         }
       ],
+      "galacticEventLetters": [
+        "C",
+        "E",
+        "H"
+      ],
       "galacticEvents": [
         {
           "cycle": 1,
-          "letter": "C",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z1_c"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_c"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z1_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 2,
-          "letter": "E",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z2_e"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_c"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z2_h"
+              }
+            }
+          ]
         },
         {
           "cycle": 3,
-          "letter": "H",
-          "ref": {
-            "moduleId": "galaktische_ereignisse",
-            "entryId": "ereignis_z3_h"
-          }
+          "cards": [
+            {
+              "letter": "C",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_c"
+              }
+            },
+            {
+              "letter": "E",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_e"
+              }
+            },
+            {
+              "letter": "H",
+              "ref": {
+                "moduleId": "galaktische_ereignisse",
+                "entryId": "ereignis_z3_h"
+              }
+            }
+          ]
         }
       ],
       "technologies": [
@@ -5878,6 +7591,7 @@
       "specialRules": null,
       "recommendedHouses": [],
       "fallenHouses": [],
+      "galacticEventLetters": [],
       "galacticEvents": [],
       "technologies": []
     },
@@ -5899,6 +7613,7 @@
       "specialRules": null,
       "recommendedHouses": [],
       "fallenHouses": [],
+      "galacticEventLetters": [],
       "galacticEvents": [],
       "technologies": []
     },
@@ -5920,6 +7635,7 @@
       "specialRules": null,
       "recommendedHouses": [],
       "fallenHouses": [],
+      "galacticEventLetters": [],
       "galacticEvents": [],
       "technologies": []
     },
@@ -5941,6 +7657,7 @@
       "specialRules": "Der Forschungskomplex enthält eine (aufgedruckte) Sternenbasis. Legt das Sternenbasis-Kampfplättchen unter das Haupt-Kampfplättchen.",
       "recommendedHouses": [],
       "fallenHouses": [],
+      "galacticEventLetters": [],
       "galacticEvents": [],
       "technologies": []
     },
@@ -5962,6 +7679,7 @@
       "specialRules": null,
       "recommendedHouses": [],
       "fallenHouses": [],
+      "galacticEventLetters": [],
       "galacticEvents": [],
       "technologies": []
     },
@@ -5983,6 +7701,7 @@
       "specialRules": null,
       "recommendedHouses": [],
       "fallenHouses": [],
+      "galacticEventLetters": [],
       "galacticEvents": [],
       "technologies": []
     },
@@ -6004,6 +7723,7 @@
       "specialRules": "Der Forschungskomplex enthält eine (aufgedruckte) Sternenbasis. Legt das Sternenbasis-Kampfplättchen unter das Haupt-Kampfplättchen.",
       "recommendedHouses": [],
       "fallenHouses": [],
+      "galacticEventLetters": [],
       "galacticEvents": [],
       "technologies": []
     },
@@ -6025,6 +7745,7 @@
       "specialRules": null,
       "recommendedHouses": [],
       "fallenHouses": [],
+      "galacticEventLetters": [],
       "galacticEvents": [],
       "technologies": []
     }
