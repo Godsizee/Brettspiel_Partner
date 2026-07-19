@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "id": "regel-zugablauf",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Zugablauf (Spielablauf)",
+      "image": null,
+      "summary": "**Grundprinzip**: Scythe hat keine festen Runden — die Spieler wählen reihum fortlaufend Aktionen. Jeder Spieler zieht nach dem anderen im Uhrzeigersinn, bis ein Spieler seinen 6. [[icon:scythe:stern]] legt und das Spiel damit sofort endet.\n\n**Die 3 Schritte deines Spielzugs** (immer in dieser Reihenfolge):\n- **Aktionsmarker versetzen** — Stelle deinen Aktionsmarker auf einen anderen Bereich deines Spielertableaus als im Zug zuvor.\n- **Obere Aktion** — Führe die obere Aktion dieses Bereichs genau einmal aus (optional).\n- **Untere Aktion** — Führe die untere Aktion dieses Bereichs genau einmal aus (optional).\n\n**Pflicht & Wahlfreiheit**: Du darfst nur eine der beiden Aktionen, beide (immer von oben nach unten) oder gar keine ausführen — deinen Aktionsmarker musst du aber in jedem Fall bewegen. Dieselbe Aktion darfst du innerhalb eines Zuges nur genau einmal nutzen, nicht mehrfach.\n\n**Kosten & Erlös**: Die Anzahl der aufgedeckten Kästchen bestimmt die Kosten (rote Felder) und den Ertrag (grüne Felder). Bezahle zuerst die Kosten, nimm dann so viel vom Ertrag, wie du möchtest. Ressourcen, die du mit der oberen Aktion erhalten hast, darfst du direkt zum Bezahlen der unteren Aktion einsetzen.\n\n**Zielkarte**: Während deines Zuges — vor oder nach einer Aktion — darfst du eine erfüllte [[icon:scythe:zielkarte]] aufdecken.\n\n**5. Bereich**: Sobald du eine Fabrikkarte besitzt, hast du einen zusätzlichen, fünften Bereich zur Auswahl.\n\n**Zugende**: Danach ist der nächste Spieler im Uhrzeigersinn an der Reihe. Spielzüge dürfen sich überschneiden — der nächste Spieler darf bereits beginnen, während du deine untere Aktion abschließt, da sie nicht interaktiv ist.",
+      "description": "Ausnahme Rusviet: Die Nationalfähigkeit „Unermüdlich“ erlaubt, denselben Bereich mehrmals hintereinander zu nutzen. Und selbst wenn eine untere Aktion „abgeschlossen“ ist (z. B. keine Entwicklung mehr möglich), darfst du weiterhin ihre Kosten bezahlen, um die Münzen und den Rekrutierungsbonus zu erhalten.",
+      "group": "grundlagen",
+      "timing": [],
+      "tags": [
+        "regeln"
+      ],
+      "warnings": [],
+      "sort_order": 1
+    },
+    {
       "id": "regel-region-beherrschen",
       "type": "reference",
       "category": "regeln",
@@ -14,7 +30,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 1
+      "sort_order": 2
     },
     {
       "id": "regel-ressourcen-kontrolle",
@@ -30,7 +46,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 2
+      "sort_order": 3
     },
     {
       "id": "regel-die-einheiten",
@@ -46,7 +62,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 3
+      "sort_order": 4
     },
     {
       "id": "regel-bewegung-grundregeln",
@@ -62,7 +78,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 4
+      "sort_order": 5
     },
     {
       "id": "regel-fluesse-seen-tunnel",
@@ -78,7 +94,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 5
+      "sort_order": 6
     },
     {
       "id": "regel-bewegung-gegnerische-regionen",
@@ -94,7 +110,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 6
+      "sort_order": 7
     },
     {
       "id": "regel-kampfablauf-staerkeeinsatz",
@@ -110,7 +126,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 7
+      "sort_order": 8
     },
     {
       "id": "regel-kampfkarten",
@@ -126,7 +142,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 8
+      "sort_order": 9
     },
     {
       "id": "regel-sieg-niederlage",
@@ -142,7 +158,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 9
+      "sort_order": 10
     },
     {
       "id": "regel-buendnisse-bestechung",
@@ -158,7 +174,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 10
+      "sort_order": 11
     },
     {
       "id": "regel-begegnungen",
@@ -174,7 +190,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 11
+      "sort_order": 12
     },
     {
       "id": "regel-fabrik-fabrikkarten",
@@ -190,7 +206,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 12
+      "sort_order": 13
     },
     {
       "id": "regel-ansehen",
@@ -206,7 +222,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 13
+      "sort_order": 14
     },
     {
       "id": "regel-staerke",
@@ -222,7 +238,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 14
+      "sort_order": 15
     },
     {
       "id": "regel-ziele",
@@ -238,7 +254,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 15
+      "sort_order": 16
     },
     {
       "id": "regel-spielende-grenzfaelle",
@@ -254,7 +270,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 16
+      "sort_order": 17
     },
     {
       "id": "regel-schlusswertung",
@@ -270,7 +286,7 @@
         "regeln"
       ],
       "warnings": [],
-      "sort_order": 17
+      "sort_order": 18
     }
   ],
   "groups": [
