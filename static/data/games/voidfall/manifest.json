@@ -10,6 +10,24 @@
   },
   "modules": [
     {
+      "id": "regeln_solo",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Solo-Regeln",
+      "icon": "user",
+      "source": "modules/regeln_solo.json",
+      "featured": true
+    },
+    {
+      "id": "regeln_kompetitiv",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Kompetitive Regeln",
+      "icon": "trophy",
+      "source": "modules/regeln_kompetitiv.json",
+      "featured": true
+    },
+    {
       "id": "fokusse",
       "type": "reference",
       "layout": "voidfall-grouped",

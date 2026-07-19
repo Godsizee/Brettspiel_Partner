@@ -48,7 +48,13 @@
     {#if entry.description || entry.details}
       <div class="flex flex-col gap-1.5 border-t border-border-glass pt-4">
         <span class="wiki-eyebrow">Regeln &amp; Details</span>
-        <p class="text-sm text-text-secondary leading-relaxed m-0 whitespace-pre-line">{entry.description || entry.details}</p>
+        <div class="wiki-prose text-sm text-text-secondary leading-relaxed">
+          {#if entry.isHtml}
+            {@html sanitizeWikiHtml(entry.description || entry.details)}
+          {:else}
+            {@html formatWikiMarkdown(entry.description || entry.details)}
+          {/if}
+        </div>
       </div>
     {/if}
 

@@ -1,0 +1,2010 @@
+{
+  "groups": [
+    {
+      "id": "einfuehrung",
+      "title": "Einführung & Grundkonzepte",
+      "description": "Grundlegende Konzepte, das Material für Koop & Solo, und wie ihr die Hefte nutzt.",
+      "order": 10
+    },
+    {
+      "id": "spielaufbau",
+      "title": "Spielaufbau & Vorbereitung",
+      "description": "Aufbau des Spiels, Szenariovorbereitung und Hausvorbereitung.",
+      "order": 15
+    },
+    {
+      "id": "vorbereitung",
+      "title": "Zyklus A – Vorbereitungsphase",
+      "description": "Die erste der 3 Phasen jedes Zyklus – Auslagen erneuern, Zugreihenfolge festlegen, Galaktisches Ereignis aufdecken.",
+      "order": 20
+    },
+    {
+      "id": "fokusphase",
+      "title": "Zyklus B – Fokusphase",
+      "description": "Die zweite Phase jedes Zyklus – hier spielt ihr eure Fokuskarten aus und handelt Runde für Runde eure Aktionen ab.",
+      "order": 30
+    },
+    {
+      "id": "auswertung-ende",
+      "title": "Zyklus C – Auswertungsphase & Spielende",
+      "description": "Am Ende jedes Zyklus werden Bestimmungen erfüllt, Wartungskosten bezahlt und Agenden gewertet. Nach dem 3. Zyklus endet die Partie.",
+      "order": 50
+    },
+    {
+      "id": "wirtschaft",
+      "title": "Detaillierte Regeln – Wirtschaft, Sektoren & Bevölkerung",
+      "order": 60
+    },
+    {
+      "id": "flotten",
+      "title": "Detaillierte Regeln – Flotten und Flottenverbände",
+      "order": 70
+    },
+    {
+      "id": "kampf",
+      "title": "Detaillierte Regeln – Kampf",
+      "order": 80
+    },
+    {
+      "id": "fortschritt",
+      "title": "Detaillierte Regeln – Fortschritt, Technologien & Agenden",
+      "order": 90
+    }
+  ],
+  "entries": [
+    {
+      "id": "materialbegrenzung",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Materialbegrenzung",
+      "image": null,
+      "summary": "Gilden, Stützpunkte, Flottenverbände, Flotten der Leere, Verderbnismarker und Ruhmplättchen sind **unlimitiert**. Gehen euch die vorhandenen aus, nutzt geeigneten Ersatz.\n\nEure Flotten, Agendakarten, Beute, Hinterlassenschaften, Handels- und Vorbotenplättchen sind jedoch **begrenzt**. Ignoriert Effekte, durch die ihr welche davon erhaltet oder ins Spiel bringt, sobald keine mehr vorhanden sind.",
+      "description": "",
+      "group": "einfuehrung",
+      "timing": [],
+      "tags": [
+        "Material",
+        "Grundlagen",
+        "Anleitung S. 5"
+      ],
+      "warnings": [],
+      "sort_order": 10010,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 5
+      }
+    },
+    {
+      "id": "nutzung-der-hefte",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Die drei Hefte",
+      "image": null,
+      "summary": "Voidfall besteht aus 3 Heften:\n\n- **Anleitung** (dieses Heft) — Auflistung des Materials, die Spielstruktur (Ablauf von Zyklen) und alle detaillierten Spielregeln.\n- **Kompendium** — enthält alle Informationen, die ihr für eine neue Partie braucht: eine Übersicht der Welt, des Materials und die komplette Vorbereitung für jedes Szenario, inklusive Tutorial.\n- **Glossar** — enthält eine detaillierte Beschreibung aller unbeschriebenen Spielelemente und ihrer Symbole. Auch die komplexeren Häuser werden hier konkret beschrieben. Solltet ihr während der Partie stets bereithalten.",
+      "description": "",
+      "group": "einfuehrung",
+      "timing": [],
+      "tags": [
+        "Grundlagen",
+        "Anleitung S. 6"
+      ],
+      "warnings": [],
+      "sort_order": 10030,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 6
+      }
+    },
+    {
+      "id": "verschiedene-modi",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Kompetitiv, Kooperativ oder Solo",
+      "image": null,
+      "summary": "Voidfall könnt ihr kompetitiv, kooperativ oder allein spielen.\n\nIm kooperativen und Solomodus nutzt ihr dieselben Regeln. Spielt ihr gemeinsam, habt ihr mehr Optionen und müsst euch größeren Herausforderungen stellen. Manche Regeln gelten nur für den kooperativen und Solomodus, andere nur für den kompetitiven Modus — alles Übrige gilt für alle Spielmodi.",
+      "description": "",
+      "group": "einfuehrung",
+      "timing": [],
+      "tags": [
+        "Grundlagen",
+        "Spielmodi",
+        "Anleitung S. 6"
+      ],
+      "warnings": [],
+      "sort_order": 10040,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 6
+      }
+    },
+    {
+      "id": "erste-partie-tutorial",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Erste Partie & Tutorial",
+      "image": null,
+      "summary": "Spielt ihr Voidfall zum 1. Mal, bereitet das Kompendium ein **Tutorial**-Szenario vor, das euch Schritt für Schritt die grundlegenden Konzepte beibringt. Das Tutorial gibt es in 4 Versionen, je nachdem zu wieviert ihr spielt (1–4 Spieler); alle Versionen sind für alle Spielmodi geeignet.",
+      "description": "Wollt ihr nach dem Tutorial kompetitiv spielen, bringt euch das Tutorial bereits alles dafür bei — spielt danach ein beliebiges kompetitives Szenario.\n\nWollt ihr Voidfall kooperativ oder allein spielen, spielt trotzdem zunächst das Tutorial mit den kompetitiven Regeln und ignoriert vorerst die Solo-/Koop-Regeln. Euer Ziel dabei: jeweils 120 [[icon:einfluss]] erreichen, ohne dabei ineinander einzudringen. Sobald ihr damit fertig seid, macht euch als Nächstes mit den kooperativen bzw. Soloregeln vertraut und spielt das Szenario „Erste Instanz\" bei Schwierigkeit Leicht.",
+      "group": "einfuehrung",
+      "timing": [],
+      "tags": [
+        "Grundlagen",
+        "Tutorial",
+        "Anleitung S. 6"
+      ],
+      "warnings": [],
+      "sort_order": 10050,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 6
+      }
+    },
+    {
+      "id": "allgemeine-vorbereitung",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Allgemeine Vorbereitung",
+      "image": null,
+      "summary": "Führt folgende Schritte für die **Allgemeine Vorbereitung** aus:\n1. Legt das **Galaxietableau** aus (kompetitiv mit der Seite ohne Koop-Symbol, kooperativ mit der Seite mit Koop-Symbol). Bildet eure Handelsplättchenstapel (Solo: 1 pro Feld; Zu zweit: 1 pro Feld; Zu dritt: 2 pro Feld; Zu viert: 2 pro Feld).\n2. Legt die **Agendaauslage** aus. Sortiert die Agendakarten nach Rückseiten (Stufen 1–4) und legt die 4 Stapel verdeckt an. Deckt jeweils die oberste Karte rechts daneben auf.\n3. Legt das **Haupt-Kampfplättchen** oberhalb des Spielbereichs aus.\n4. Bereitet den **allgemeinen Vorrat** vor:\n   - Mischt Beute und Hinterlassenschaften verdeckt in 2 Haufen.\n   - Legt Ruhmplättchen bereit.\n   - Sortiert Flottenverbände nach Typen.\n   - Bildet Haufen für Gilden, Stützpunkte, Flotten der Leere, Bevölkerungswürfel und Verderbnismarker.\n5. Nehmt euch die **Komponenten eurer Farbe**: 1 Einflusstableau (auf Wert 10), 9 Fokuskarten auf die Hand, Innovationsfokusse auf eigenen Abwurfstapel, 1 generisches Ressourcentableau (alle Werte auf 0), 14 Flotten, 1 Ruhmplättchen (Wert 2).\n6. Bestimmt zufällig die **Zugreihenfolge**. Wer beginnt, legt sein Reihenfolgeplättchen ganz links auf die Leiste des Galaxietableaus, die anderen folgen auf die nächsten freien Felder.",
+      "description": "",
+      "group": "spielaufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Vorbereitung",
+        "Kompendium S. 10"
+      ],
+      "warnings": [],
+      "sort_order": 15010,
+      "source": {
+        "document": "VOIDFALL-Kompendium-DE",
+        "page": 10
+      }
+    },
+    {
+      "id": "szenariovorbereitung-all",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Szenariovorbereitung – Das All",
+      "image": null,
+      "summary": "Führt nun die Vorbereitung des Szenarios durch:\n1. Nehmt alle 30 Sektorenteile. (Hinweis: Heimatsektoren haben ein besonderes Wappen/Fahne auf der Rückseite, die anderen sind gewöhnliche).\n2. Wählt ein **Szenario** aus dem Kompendium (abhängig von der Spieleranzahl).\n3. Legt das All aus: Legt alle Sektorenteile wie in der Szenariovorlage gezeigt aneinander. Die Ausrichtung ist egal, aber Leerenstürme (rot) liegen immer zwischen Sektoren.\n   - Sektoren mit vorgegebenem Bevölkerungswert erhalten einen violetten Bevölkerungswürfel.\n   - Sektoren mit Verderbnismarker erhalten diesen unter dem Würfel.\n   - Manchmal steht ein Flaggensymbol statt eines Werts: Dies wird erst bei der Hausvorbereitung befüllt.\n4. Legt die abgebildeten **Komponenten** in die Sektoren (Flottenverbände der Leere mit X Flotten, Verteidigungsanlagen, Ruhmplättchen).\n   - In der Szenariovorlage sind Zufällige Beute und Zufällige Hinterlassenschaften gekennzeichnet. Legt diese verdeckt dorthin. Vorboten laut Vorlage.\n5. Die restlichen Sektorenteile kommen in die Schachtel.",
+      "description": "",
+      "group": "spielaufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Szenario",
+        "All",
+        "Sektor",
+        "Kompendium S. 13"
+      ],
+      "warnings": [],
+      "sort_order": 15030,
+      "source": {
+        "document": "VOIDFALL-Kompendium-DE",
+        "page": 13
+      }
+    },
+    {
+      "id": "szenariovorbereitung-ereignisse",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Szenariovorbereitung – Ereignisse & Gefallene Häuser",
+      "image": null,
+      "summary": "Führt die weiteren Schritte der Szenariovorbereitung aus:\n6. Sucht die **Galaktischen Ereignisse** des Szenarios (Ereigniscode im Kompendium). Sortiert sie nach Zyklus, mischt die Zyklen separat und legt sie verdeckt unter das Galaxietableau. (Im Tutorial überspringt ihr diesen Schritt und legt feste Ereignisse bereit).\n7. Sucht die **4 Gefallenen Häuser** eures Szenarios. In kompetitiven Partien sind diese vorgegeben. In kooperativen/Solopartien wählt ihr zufällig 4 aus.\n8. Prüft das **Gebrochene Glas**: Zieht solange neu, bis ihr genau 1 Haus mit gebrochenem Glas (und max. 3) in der Auslage habt (koop/solo). Alternativ wählt ihr sie direkt.\n9. Legt je 1 Gefallenes Haus auf die markierten Sektoren Gefallener Häuser. Setzt den Bevölkerungswürfel und 1 Verderbnismarker darauf. (Gibt es keine Sektoren für Gefallene Häuser im Szenario, in die Schachtel zurücklegen).",
+      "description": "",
+      "group": "spielaufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Szenario",
+        "Ereignisse",
+        "Gefallenes Haus",
+        "Kompendium S. 16"
+      ],
+      "warnings": [],
+      "sort_order": 15040,
+      "source": {
+        "document": "VOIDFALL-Kompendium-DE",
+        "page": 16
+      }
+    },
+    {
+      "id": "technologieauslage",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Technologieauslage",
+      "image": null,
+      "summary": "Zu jedem Szenario gehören 8 vorgegebene **Technologien** (jeweils mit 2 Basis- und 1 Fortschrittliche Version).\n1. Legt die **Basisversion mit Einflusspunkten** dieser 8 Technologien als Technologieauslage aus.\n   - Spielt ihr allein, wählt zufällig 3 aus 8.\n   - Kooperativ zu zweit: 2 aus 8.\n   - Legt die entsprechenden Technologien zurück in die Schachtel und legt auch die untere Basisversion der anderen Technologien zurück.\n2. Legt die 8 dazu passenden **Fortschrittlichen Technologien** verdeckt neben das Galaxietableau (falls Auslage Wächter/Zerstörer/Schlächter/Träger/Sternenbasen enthält, legt die zugehörigen Kampfplättchen bereit).\n3. Zieht 4 Fortschrittliche Technologien und legt sie offen auf das Galaxietableau.\n4. Legt die **Fortschrittsbarriere** auf sie, sodass sie noch nicht zur Verfügung stehen.",
+      "description": "",
+      "group": "spielaufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Technologie",
+        "Kompendium S. 17"
+      ],
+      "warnings": [],
+      "sort_order": 15050,
+      "source": {
+        "document": "VOIDFALL-Kompendium-DE",
+        "page": 17
+      }
+    },
+    {
+      "id": "hausvorbereitung",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Hausvorbereitung",
+      "image": null,
+      "summary": "Jeder führt die **Hausvorbereitung** einzeln für sich aus (wählt gemeinsam oder per Zufall, welches Haus ihr spielt):\n1. Nehmt das **Haustableau** eures Hauses.\n2. Tauscht eure Start-Fokuskarten aus, falls euer Haus besondere **Hausfokuskarten** nutzt.\n3. Legt 1 Verderbnismarker auf das Agendafeld ganz rechts. Legt 3 Zivilisationsleistenmarker auf die am weitesten links liegenden Felder der 3 Leisten.\n4. Wählt heimlich/gleichzeitig 1 der beiden **Herkunftskarten** eures Hauses.\n5. Legt die Herkunft vor euch.\n6. Nehmt die **3 Technologiekarten** eurer Herkunft:\n   - Legt die Basisversion mit Einflusspunkten auf ein Technologiefeld eures Haustableaus.\n   - Die Fortschrittliche Version liegt daneben.\n   - Die zweite Basisversion geht als Technologieauslage aus (oder in die Schachtel, bei Solo/Zu zweit).\n   - Legt ggf. das zugehörige Kampfplättchen bereit.\n7. Wählt reihum euren **nächsten Heimatsektor** im All (erkennbar an Symbolen) und einen benachbarten gewöhnlichen Sektor (euren **Außenposten**). Legt gemäß eurer Herkunft Bevölkerung, Flotten, Gilden und Stützpunkte in diese beiden Sektoren. Verderbnis laut Herkunft ebenfalls unter den Bevölkerungswürfel.\n8. Stellt die Ressourcenräder eures Ressourcentableaus laut Herkunft ein (Produktion links, Vorrat rechts).\n9. Setzt die restlichen Flotten in die Einsatzzone und die Ruhezone eures Haustableaus. Insgesamt hat jeder 14 Flotten. Führt ggf. **Besondere Herkunftsvorgaben** aus und dreht dann die Herkunftskarte um (Startagenda).",
+      "description": "",
+      "group": "spielaufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Haus",
+        "Kompendium S. 18"
+      ],
+      "warnings": [],
+      "sort_order": 15060,
+      "source": {
+        "document": "VOIDFALL-Kompendium-DE",
+        "page": 18
+      }
+    },
+    {
+      "id": "aufbau-varianten",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Vorbereitungsvarianten",
+      "image": null,
+      "summary": "Für erfahrene Gruppen gibt es kompetitive Varianten:\n- Wählt zufällig 4 Gefallene Häuser für die Auslage (nach Koop-Regeln S. 16).\n- **Haus-Bieten:** Zieht zufällig (Spielerzahl + 1) Häuser. Gebt reihum (Start bei letztem in Zugreihenfolge) Gebote an Einflusspunkten für die Häuser ab, verdeckt bieten und aufdecken. Wer am meisten bietet, bekommt das Haus (und zieht diese Einflusspunkte am Ende der Partie ab). Das übrige Haus geht in die Schachtel.",
+      "description": "",
+      "group": "spielaufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Variante",
+        "Kompetitiv",
+        "Bieten",
+        "Kompendium S. 23",
+        "Kompetitiv"
+      ],
+      "warnings": [],
+      "sort_order": 15070,
+      "source": {
+        "document": "VOIDFALL-Kompendium-DE",
+        "page": 23
+      }
+    },
+    {
+      "id": "zyklen-und-phasen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Zyklen und Phasen",
+      "image": null,
+      "summary": "Alle Partien von Voidfall bestehen aus 3 Zyklen. Führt in jedem Zyklus folgende 3 Phasen durch:\n\n- **A – Vorbereitungsphase**\n- **B – Fokusphase**\n- **C – Auswertungsphase**\n\nDie Schritte der Vorbereitungsphase sind links oben auf dem Galaxietableau zusammengefasst (mit blauen Ziffern).",
+      "description": "Wichtig: Überspringt die Schritte 0, 1, 2 und 3 im 1. Zyklus und beginnt stattdessen mit Schritt 4.\n\nDie konkrete Vorbereitung für eure Partie (Aufbau) findet ihr im Kompendium.",
+      "group": "vorbereitung",
+      "timing": [],
+      "tags": [
+        "Grundlagen",
+        "Zyklus",
+        "Anleitung S. 7"
+      ],
+      "warnings": [],
+      "sort_order": 20010,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 7
+      }
+    },
+    {
+      "id": "handel-und-technologie-erneuern",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Handelsplättchen & Fortschrittliche Technologien erneuern",
+      "image": null,
+      "summary": "**Schritt 1** — Legt das unterste Handelsplättchen des Galaxietableaus in die Schachtel.\n\n**Schritt 2** — Erneuert die Auslage der Fortschrittlichen Technologien:\n- Im 2. Zyklus: Entfernt die Fortschrittsbarriere und macht die 4 Fortschrittlichen Technologien verfügbar.\n- Im 3. Zyklus: Legt alle übrigen Fortschrittlichen Technologien aus der Auslage in die Schachtel und ersetzt sie durch 4 neue Fortschrittliche Technologien.",
+      "description": "",
+      "group": "vorbereitung",
+      "timing": [],
+      "tags": [
+        "Handel",
+        "Technologie",
+        "Zyklus",
+        "Anleitung S. 8"
+      ],
+      "warnings": [],
+      "sort_order": 20040,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 8
+      }
+    },
+    {
+      "id": "zugreihenfolge-ermitteln",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Zugreihenfolge ermitteln",
+      "image": null,
+      "summary": "**Schritt 3** — Ermittelt eure Zugreihenfolge für diesen Zyklus: Sie entspricht euren Reihenfolgeplättchen auf dem Galaxietableau von links nach rechts.",
+      "description": "",
+      "group": "vorbereitung",
+      "timing": [],
+      "tags": [
+        "Zugreihenfolge",
+        "Zyklus",
+        "Anleitung S. 8"
+      ],
+      "warnings": [],
+      "sort_order": 20050,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 8
+      }
+    },
+    {
+      "id": "zugreihenfolge-modus",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Zugreihenfolge festlegen (Kompetitiv)",
+      "image": null,
+      "summary": "In kompetitiven Partien wählt ihr in aufsteigender Reihenfolge eures Einflusses eure Position auf der Reihenfolgeleiste. Bei Gleichstand wählt zuerst, wer im letzten Zyklus später dran war. Zu zweit/dritt nutzt ihr nur die 2/3 linken Felder der Reihenfolgeleiste.",
+      "description": "Hinweis: Meist ist es besser, früher dran zu sein. Für manche Strategien kann es jedoch von Vorteil sein, später am Zug zu sein.",
+      "group": "vorbereitung",
+      "timing": [],
+      "tags": [
+        "Zugreihenfolge",
+        "Zyklus",
+        "Anleitung S. 8",
+        "Kompetitiv"
+      ],
+      "warnings": [],
+      "sort_order": 20051,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 8
+      }
+    },
+    {
+      "id": "galaktisches-ereignis-aufdecken",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Galaktisches Ereignis aufdecken",
+      "image": null,
+      "summary": "**Schritt 4** — Deckt das oberste Galaktische Ereignis auf und legt es auf das Galaxietableau (gegebenenfalls auf die Karte des letzten Zyklus). Legt alle übrigen Galaktischen Ereignisse des aktuellen Zyklus in die Schachtel zurück.",
+      "description": "",
+      "group": "vorbereitung",
+      "timing": [],
+      "tags": [
+        "Galaktisches Ereignis",
+        "Zyklus",
+        "Anleitung S. 8"
+      ],
+      "warnings": [],
+      "sort_order": 20060,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 8
+      }
+    },
+    {
+      "id": "galaktisches-ereignis-lesen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Textboxen Galaktischer Ereignisse befolgen",
+      "image": null,
+      "summary": "**Schritt 5** — Auf der linken Seite der Galaktischen Ereignisse stehen mehrere Textboxen. Befolgt sie alle von oben nach unten in dieser Reihenfolge:\n\n- **Durchgehend umrandet** — ihr müsst alle Anweisungen komplett befolgen. Könnt ihr sie nicht vollständig befolgen, müsst ihr die gesamte Textbox überspringen.\n- **Durchbrochen grau umrandet** — ihr dürft die Anweisungen befolgen, dürft sie aber auch überspringen.",
+      "description": "**Symbol oben links einer Textbox:**\n- Zugreihenfolge-Symbol — führt es jeweils in Zugreihenfolge aus und fahrt dann mit der nächsten Textbox fort.\n- Gruppen-Symbol — führt es gemeinsam als Gruppe 1-mal aus.\n- **Permanente** Ereignisse (∞-Symbol) betreffen euch den ganzen Zyklus lang, inklusive all eurer Züge und der Auswertungsphase.\n- **Verzögerte** Ereignisse (Uhr-Symbol) treten erst nach eurem jeweiligen 1. Zug ein. Vergesst ihren Effekt nicht.\n\n**Leereberührte Sektoren als Ziel:** Benachbarte Sektoren müssen an einen eurer Sektoren angrenzen. Ist das Ziel 1 Sektor, müsst ihr alle in Zugreihenfolge jeweils 1 zulässigen Sektor finden und in diesem **alle** vorgegebenen Anweisungen der Textbox ausführen. Findet ihr keinen zulässigen Sektor, müsst ihr **alle** Anweisungen der Textbox ignorieren.\n\nMögliche Effekte:\n- Nehmt 1 [[icon:beute]] / [[icon:hinterlassenschaft]] / [[icon:ruhmplaettchen-beliebigen-werts]] aus dem allgemeinen Vorrat und legt es verdeckt (Ruhmplättchen offen) in die Mitte des Sektors. Es gibt kein Limit für diese Plättchen in Sektoren.\n- Nehmt 1 [[icon:verteidigungsanlage]] oder [[icon:gilde]] aus dem allgemeinen Vorrat und legt sie auf das am weitesten links liegende freie passende Feld des Sektors.\n- Nehmt 1 [[icon:flotte-der-leere]] aus dem allgemeinen Vorrat und legt sie auf den Flottenverband der Leere in diesem Sektor. Das Standardlimit für Flottenverbände beträgt 1 (also 3 Flotten) pro Sektor. Einige besondere Sektoren haben besondere Limits. Ihr könnt keine Flotten der Leere platzieren, falls ihr damit das Limit überschreiten würdet.\n- Erhaltet 1 [[icon:verderbnis]].\n- Nehmt 1 Verderbnismarker aus dem allgemeinen Vorrat und platziert ihn auf dem Agendatableau zwischen dem vorgegebenen Agendastapel und der offenen Agenda. Ignoriert diese Anweisung, falls dort bereits ein Verderbnismarker liegt.\n\nWeitere Erläuterungen zu den Symbolen findet ihr im Glossar bei den entsprechenden Galaktischen Ereignissen.",
+      "group": "vorbereitung",
+      "timing": [],
+      "tags": [
+        "Galaktisches Ereignis",
+        "Symbole",
+        "Anleitung S. 8"
+      ],
+      "warnings": [],
+      "sort_order": 20070,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 8
+      }
+    },
+    {
+      "id": "fokusphase-ueberblick",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Ablauf der Fokusphase",
+      "image": null,
+      "summary": "Die Schritte dieser Phase sind unten auf dem Galaxietableau zusammengefasst (mit gelben Ziffern).\n\nDiese Phase besteht aus so vielen Runden, wie die Zahl oben rechts auf dem aktuellen Galaktischen Ereignis vorgibt.\n\nFührt in Zugreihenfolge jeweils alle folgenden Schritte nacheinander aus.",
+      "description": "",
+      "group": "fokusphase",
+      "timing": [],
+      "tags": [
+        "Grundlagen",
+        "Fokusphase",
+        "Anleitung S. 9"
+      ],
+      "warnings": [],
+      "sort_order": 30010,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 9
+      }
+    },
+    {
+      "id": "rundenablauf",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Rundenablauf (Kompetitiv)",
+      "image": null,
+      "summary": "Pro Zug führt ihr 3 Schritte aus: **Auswählen**, **Agieren** und **Aufräumen**.",
+      "description": "",
+      "group": "fokusphase",
+      "timing": [],
+      "tags": [
+        "Grundlagen",
+        "Fokusphase",
+        "Zug",
+        "Anleitung S. 9",
+        "Kompetitiv"
+      ],
+      "warnings": [],
+      "sort_order": 30015,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 9
+      }
+    },
+    {
+      "id": "fokus-auswaehlen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Fokus auswählen",
+      "image": null,
+      "summary": "Ihr müsst 1 eurer Fokuskarten (von der Hand) auswählen und ausspielen.\n\nZusätzlich dürft ihr:\n- 1 eurer Handelsplättchen umdrehen und auf eure ausgespielte Fokuskarte legen.\n\nund/oder\n\n- 1 Agendakarte von eurer Hand ausspielen und neben eure Fokuskarte legen. Dazu muss mind. 1 Fokussymbol der Agenda eurer ausgewählten Fokuskarte entsprechen.",
+      "description": "Im Kapitel „Detaillierte Regeln\" findet ihr eine Beschreibung aller Symbole von Fokuskarten. Eine Liste aller Fokuskarten ist im Glossar zu finden.\n\nHinweis: Lasst euch beim Auswählen Zeit. Ihr dürft Fokus, Handelsplättchen und Agenda so lange zurücknehmen und neu wählen, bis eine weitere Information aufgedeckt wird. Sobald dies geschieht, müsst ihr mit eurem Zug fortfahren.\n\nBeispiel: Ihr wählt die Produktion als Fokus von eurer Hand. Ihr dreht danach 1 Handelsplättchen um und legt es darauf. Zusätzlich spielt ihr als Agenda Reichtum aus und legt sie an — das Symbol stimmt mit der Produktion überein.",
+      "group": "fokusphase",
+      "timing": [],
+      "tags": [
+        "Fokus",
+        "Agenda",
+        "Handel",
+        "Fokusphase",
+        "Anleitung S. 9"
+      ],
+      "warnings": [],
+      "sort_order": 30030,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 9
+      }
+    },
+    {
+      "id": "agieren",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Agieren – Fokusaktionen ausführen",
+      "image": null,
+      "summary": "Nutzt euren Fokus: Wählt **max. 2 der Fokusaktionen** und führt sie in beliebiger Reihenfolge aus. Habt ihr beim Auswählen ein Handelsplättchen umgedreht, dürft ihr sogar alle 3 ausführen. Ihr könnt jede Aktion nur 1-mal pro Zug nutzen.\n\nErfüllt eure Agenda (falls ausgewählt): Ihr dürft die Agendaaktion vor oder nach einer eurer Fokusaktionen ausführen.",
+      "description": "Ihr könnt beim Agieren keine Agendakarte ausspielen — dies müsst ihr beim Auswählen tun. Ihr könnt beim Auswählen nur Agendakarten ausspielen und Handelsplättchen umdrehen, die ihr bereits vor dem Zug hattet. Aber ihr dürft neue Handelsplättchen ausgeben.\n\nUm eine Aktion zu nutzen, müsst ihr zuerst ihre Kosten zahlen (falls vorhanden). Führt dann ihre(n) Effekt(e) aus. Könnt ihr die Kosten nicht vollständig bezahlen, ignoriert die Aktion.\n\nEs gibt viele verschiedene Symbole für Kosten und Effekte in Voidfall. Alle Symbole und ihre Erläuterung findet ihr im Kapitel „Detaillierte Regeln\".\n\nDie komplexeren Häuser haben besondere Fokuskarten mit einzigartigen Aktionskosten und Effekten. Spielt ihr mit einem solchen Haus, findet ihr im Glossar alle Erläuterungen dazu.\n\nHat eine Aktion mehrere Effekte, dürft ihr sie in beliebiger Reihenfolge ausführen. Ist zwischen ihnen eine grüne Linie mit „+\"-Symbol, dürft ihr beliebig viele der Effekte ausführen. Sind sie durch eine rote Linie mit „÷\"-Symbol getrennt, könnt ihr nur 1 Effekt ausführen. Ihr dürft beliebig viele Effekte ignorieren.",
+      "group": "fokusphase",
+      "timing": [],
+      "tags": [
+        "Fokus",
+        "Aktion",
+        "Agenda",
+        "Fokusphase",
+        "Anleitung S. 10"
+      ],
+      "warnings": [],
+      "sort_order": 30040,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 10
+      }
+    },
+    {
+      "id": "technologie-aktionen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Auswirkungen und Aktionen von Technologien",
+      "image": null,
+      "summary": "Technologien haben permanente Auswirkungen, die eure Aktionseffekte beeinflussen können oder andere Effekte auslösen. Im Glossar findet ihr alle permanenten Auswirkungen von Technologien.\n\nEinige Technologien enthalten Fokusse, die euch Technologieaktionen gewähren. Habt ihr den entsprechenden Fokus gewählt, dürft ihr diese Aktion vor oder nach einer eurer Fokus- oder Agendaaktionen nutzen. Falls die Aktion Kosten hat, sind diese konkret aufgeführt und ihr müsst sie zahlen, um den Effekt zu erhalten. Spielt ihr die Technologie im selben Zug wie den darauf angegebenen Fokus, dürft ihr die entsprechende Technologieaktion nutzen, sobald die Aktion abgeschlossen ist, die euch diese Technologie gewährt.",
+      "description": "Beispiele aus der Anleitung: Die Technologie „Neuralmatrix\" gewährt „Erhalte 2 [[icon:credits]], bevor du Credits produzierst\". Die Technologie „Schlächter\" erlaubt: „Du darfst Schlächterflotten für 1 [[icon:wissen]] pro Flotte einsetzen\", sobald ihr Schlächterflotten einsetzt. Spielt ihr „Entwicklung\" oder „Wohlstand\" als Fokus aus, gestattet euch die Technologie „Terraformen\", 1 Material auszugeben, um reine Bevölkerung zu vermehren.",
+      "group": "fokusphase",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fokus",
+        "Fokusphase",
+        "Anleitung S. 10"
+      ],
+      "warnings": [],
+      "sort_order": 30050,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 10
+      }
+    },
+    {
+      "id": "ausgeloeste-effekte",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Ausgelöste Effekte",
+      "image": null,
+      "summary": "Löst ein Effekt einen sofortigen anderen Effekt aus (wie bei „Neuralmatrix\"), dürft ihr die Reihenfolge der Effekte bestimmen und müsst sie innerhalb der aktuellen Aktion abhandeln. Das Abhandeln von Effekten ist optional (soweit nicht anders angegeben) und ihr dürft ausgelöste Effekte ignorieren. Ihr könnt erst mit der nächsten Aktion fortfahren, sobald ihr alle Effekte abgehandelt oder explizit ignoriert habt.",
+      "description": "Besondere Sektoren und Hauseigenschaften können ebenfalls eure Aktionseffekte auslösen oder beeinflussen. Durch einige könnt ihr sogar die 3. Fokusaktion nutzen, ohne ein Handelsplättchen umgedreht zu haben. Besondere Sektoren können euch auch eine zusätzliche Aktion gewähren (wie Technologien). Lest im Glossar mehr darüber.",
+      "group": "fokusphase",
+      "timing": [],
+      "tags": [
+        "Aktion",
+        "Fokusphase",
+        "Anleitung S. 10"
+      ],
+      "warnings": [],
+      "sort_order": 30060,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 10
+      }
+    },
+    {
+      "id": "aufraeumen-flotten",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Aufräumen – Flottenverbände zurückrufen",
+      "image": null,
+      "summary": "Sobald ihr all eure Aktionen abgeschlossen habt: Von allen Sektoren mit mind. 3 Flottenverbänden müsst ihr so viele Flotten zurückrufen, dass die übrigen auf 2 Flottenverbände passen.",
+      "description": "Beispiel: Ihr habt beim Aufräumen 3 Korvetten-Flottenverbände in einem eurer Sektoren. 2 von ihnen haben 3 Flotten und sind voll. Der letzte hat nur 1 Flotte. Ihr entfernt den 3. Flottenverband und ruft die Flotte darauf in die Einsatzzone eures Haustableaus zurück.",
+      "group": "fokusphase",
+      "timing": [],
+      "tags": [
+        "Flotte",
+        "Aufräumen",
+        "Fokusphase",
+        "Anleitung S. 12"
+      ],
+      "warnings": [],
+      "sort_order": 30100,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 12
+      }
+    },
+    {
+      "id": "aufraeumen-ruhmplaettchen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Aufräumen – Ruhmplättchen-Limit",
+      "image": null,
+      "summary": "Ihr könnt max. 4 [[icon:ruhmplaettchen-beliebigen-werts]] besitzen und müsst überzählige abwerfen. Legt sie in den allgemeinen Vorrat zurück.",
+      "description": "Beispiel: Ihr habt 5 Ruhmplättchen neben eurem Haustableau. Ihr legt das Ruhmplättchen mit Wert „1\" in den allgemeinen Vorrat zurück.",
+      "group": "fokusphase",
+      "timing": [],
+      "tags": [
+        "Ruhmplättchen",
+        "Aufräumen",
+        "Fokusphase",
+        "Anleitung S. 12"
+      ],
+      "warnings": [],
+      "sort_order": 30110,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 12
+      }
+    },
+    {
+      "id": "aufraeumen-agenden",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Aufräumen – Ausgespielte Agenda anlegen",
+      "image": null,
+      "summary": "Habt ihr in diesem Zug eine Agendakarte ausgespielt, müsst ihr 1 der folgenden Optionen wählen:\n\n- Legt sie an ein leeres Agendafeld (nicht Start) eures Haustableaus. Die Agenda ist nun im Spiel. Ihr könnt diese Option nicht wählen, falls ihr bereits eine Agendakarte derselben Art an einem eurer Agendafelder habt.\n- Entfernt 1 eurer Agendakarten (nicht Start) von eurem Haustableau und ersetzt sie durch die neue Agenda. (War dort ein Handelsplättchen, bleibt es dort.) Die neue Agenda ist nun im Spiel. Legt die abgeworfene Agenda verdeckt unter den entsprechenden Agendenstapel. Ihr könnt diese Option nicht wählen, falls ihr dadurch 2 Agenden derselben Art an eurem Haustableau haben würdet.\n- Werft sie ab und legt sie verdeckt unter den entsprechenden Agendenstapel.",
+      "description": "Wichtig: Nur beim Aufräumen legt ihr Agendakarten an euer Haustableau an. Vorher sind sie **nicht** im Spiel. Dies ist anders als bei Technologien.\n\nBeispiel: Ihr habt in diesem Zug eine Unterstützungsagenda ausgespielt und euren Fokus auf Verstärkung gelegt. An eurem Haustableau liegen 3 Agenden an: eine Startagenda, eine Unterstützungsagenda und eine Reichtumsagenda. Ihr habt noch ein verderbtes leeres Agendafeld. Die Verderbnis ist kein Hindernis, jedoch könnt ihr nicht 2 Unterstützungsagenden haben. Ihr werft die alte Unterstützungsagenda ab (und legt sie verdeckt unter den passenden Stapel). An ihr Feld legt ihr die neue Agenda an.",
+      "group": "fokusphase",
+      "timing": [],
+      "tags": [
+        "Agenda",
+        "Aufräumen",
+        "Fokusphase",
+        "Anleitung S. 12"
+      ],
+      "warnings": [],
+      "sort_order": 30120,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 12
+      }
+    },
+    {
+      "id": "aufraeumen-handelsplaettchen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Aufräumen – Handelsplättchen platzieren",
+      "image": null,
+      "summary": "Zählt zuerst all eure Handelsplättchen. Habt ihr beim Auswählen Handelsplättchen umgedreht, legt ihr diese nun auf das Galaxietableau zurück. Ihr müsst alle übrigen Handelsplättchen platzieren und habt dafür 2 Optionen:\n\n- Legt es in die untere rechte Ecke von einer eurer Agenden am Haustableau, falls dort noch keines liegt.\n- Legt es auf das Galaxietableau zurück.",
+      "description": "Beispiel: Ihr habt 1 ungenutztes Handelsplättchen übrig. Ihr dürft es auf eine beliebige eurer 3 Agenden legen. Die Verderbnis spielt dafür keine Rolle.",
+      "group": "fokusphase",
+      "timing": [],
+      "tags": [
+        "Handel",
+        "Aufräumen",
+        "Fokusphase",
+        "Anleitung S. 12"
+      ],
+      "warnings": [],
+      "sort_order": 30130,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 12
+      }
+    },
+    {
+      "id": "aufraeumen-fokuskarte-abwerfen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Aufräumen – Fokuskarte abwerfen (Kompetitiv)",
+      "image": null,
+      "summary": "Werft eure ausgewählte Fokuskarte offen ab. Bildet euren eigenen Abwurfstapel.",
+      "description": "",
+      "group": "fokusphase",
+      "timing": [],
+      "tags": [
+        "Fokus",
+        "Aufräumen",
+        "Fokusphase",
+        "Anleitung S. 12",
+        "Kompetitiv"
+      ],
+      "warnings": [],
+      "sort_order": 30140,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 12
+      }
+    },
+    {
+      "id": "rundenfortsetzung",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Rundenfortsetzung",
+      "image": null,
+      "summary": "Hast du deinen Zug vollständig durchgeführt, beginnt der nächste Zug im Uhrzeigersinn. Sind alle an der Reihe gewesen, ist die aktuelle Runde beendet. Beginnt danach eine neue Runde. Sind alle Runden des aktuellen Zyklus gespielt, endet die Fokusphase und die Auswertungsphase beginnt.",
+      "description": "",
+      "group": "fokusphase",
+      "timing": [],
+      "tags": [
+        "Zug",
+        "Runde",
+        "Fokusphase",
+        "Anleitung S. 14"
+      ],
+      "warnings": [],
+      "sort_order": 30150,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 14
+      }
+    },
+    {
+      "id": "auswertungsphase-ueberblick",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Ablauf der Auswertungsphase",
+      "image": null,
+      "summary": "Die Schritte dieser Phase sind rechts auf dem Galaxietableau zusammengefasst (mit roten Ziffern).\n\nUm einen Zyklus abzuschließen, führt ihr in Zugreihenfolge jeweils alle Schritte der Auswertungsphase durch. Einige davon könnt ihr parallel ausführen, falls eure Entscheidungen keine Auswirkung auf die anderen haben.",
+      "description": "",
+      "group": "auswertung-ende",
+      "timing": [],
+      "tags": [
+        "Auswertungsphase",
+        "Zyklus",
+        "Anleitung S. 15"
+      ],
+      "warnings": [],
+      "sort_order": 50010,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 15
+      }
+    },
+    {
+      "id": "galaktische-bestimmungen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "1. Galaktische Bestimmungen",
+      "image": null,
+      "summary": "Überprüfe die Bestimmungen auf der rechten Seite des aktuellen Galaktischen Ereignisses. Erfüllst du die Bedingung einer Bestimmung, darfst du dir die Belohnung dafür nehmen. Es gibt 2 Arten von Bestimmungen:\n\n- **Blau hinterlegt (und umrahmt):** Könnt ihr nur 1-mal erfüllen.\n- **Gelb hinterlegt (und umrahmt):** Dürft ihr mehrmals erfüllen. Ihr erhaltet die Belohnung so oft, wie ihr die Voraussetzungen erfüllt.\n\nTeilt eine **rote Linie** die Bestimmungen, kannst du nur 1 davon auswählen und erfüllen. Sind sie durch eine **grüne Linie** getrennt, darfst du beide erfüllen.",
+      "description": "Oberhalb des Pfeil-Symbols stehen die Voraussetzungen und unterhalb die Belohnung für ihr Erfüllen.\n\nEine Bestimmung zu erfüllen kann im Koop/Solo-Modus zum Bestehen einer andauernden Krise führen.",
+      "group": "auswertung-ende",
+      "timing": [],
+      "tags": [
+        "Auswertungsphase",
+        "Ereignis",
+        "Bestimmung",
+        "Anleitung S. 15"
+      ],
+      "warnings": [],
+      "sort_order": 50020,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 15
+      }
+    },
+    {
+      "id": "wartung",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "2. Wartung",
+      "image": null,
+      "summary": "Zuerst errechnest du deine Wartungskosten:\n- **Agenden:** Alle Agenden unterhalb deines Haustableaus zeigen 2 Wartungssymbole. Zähle diese, falls sie nicht von einem Handelsplättchen verdeckt sind.\n- **Besetzte Felder:** Die meisten Sektoren haben Stützpunkt- und Gildenfelder mit Wartungssymbolen (meist 1). Solche besetzten Felder erhöhen deine Wartungskosten.\n- **Sektoren-Bonus:** Einige Sektoren haben 1–2 freie Wartungssymbole. Kontrollierst du solch einen Sektor, erhöhen sich deine Wartungskosten entsprechend.\n\nDanach musst du deine Wartungskosten decken:\nZahle pro Wartungspunkt entweder **1 Nahrung** oder **2 Ressourcen** (aus Material und/oder Energie). Für die Wartungskosten kannst du keine Credits oder Wissen nutzen (außer eine Technologie erlaubt es explizit).\n\nKannst du Wartungskosten nicht decken, verlierst du **3 Einflusspunkte pro nicht gedecktem Punkt**.",
+      "description": "**Wichtig:** Du kannst nicht auswählen, statt Ressourcen freiwillig Einflusspunkte zu verlieren. Du musst zahlen, wenn du kannst.",
+      "group": "auswertung-ende",
+      "timing": [],
+      "tags": [
+        "Auswertungsphase",
+        "Wartung",
+        "Anleitung S. 15"
+      ],
+      "warnings": [],
+      "sort_order": 50030,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 15
+      }
+    },
+    {
+      "id": "agendaziele",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "4. Agendaziele (bzw. 3. im Kompetitiv)",
+      "image": null,
+      "summary": "Überprüfe die Ziele deiner Agenden unterhalb deines Haustableaus, die **nicht verderbt** sind (reine Agenden). Jede Agenda zeigt verschiedene Bereiche, die du einzeln und separat überprüfst. \n\nAuch Agendaziele könnt ihr entweder 1-mal oder mehrmals erfüllen. Bei Agenden ist die Belohnung **immer Einfluss**.",
+      "description": "Wichtig: Du kannst fast nie Einflusspunkte durch verderbte Sektoren erhalten oder für die Plättchen auf ihnen. Das ist auch auf den Zielen angegeben.",
+      "group": "auswertung-ende",
+      "timing": [],
+      "tags": [
+        "Auswertungsphase",
+        "Agenda",
+        "Einfluss",
+        "Anleitung S. 16"
+      ],
+      "warnings": [],
+      "sort_order": 50050,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 16
+      }
+    },
+    {
+      "id": "fokuskarten-zuruecknehmen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Fokuskarten zurücknehmen",
+      "image": null,
+      "summary": "Nimm all deine abgeworfenen Fokuskarten auf die Hand zurück. Ist dies das Ende vom 1. Zyklus, nimm auch deinen **Innovationsfokus** auf die Hand, da du diesen ab dem 2. Zyklus verwenden darfst.\n\nBeginnt nach der Auswertungsphase erneut mit der Vorbereitungsphase, falls ihr den 1. oder 2. Zyklus abgeschlossen habt. Nach der Auswertungsphase des 3. Zyklus fahrt ihr stattdessen mit dem Ende der Partie fort.",
+      "description": "",
+      "group": "auswertung-ende",
+      "timing": [],
+      "tags": [
+        "Auswertungsphase",
+        "Fokus",
+        "Zyklus",
+        "Anleitung S. 16"
+      ],
+      "warnings": [],
+      "sort_order": 50060,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 16
+      }
+    },
+    {
+      "id": "ende-der-partie",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Ende der Partie (Kompetitiv)",
+      "image": null,
+      "summary": "Nach der Auswertungsphase des 3. Zyklus endet die Partie. Wer die meisten Einflusspunkte hat, gewinnt. \n\nBei Gleichstand gewinnt, wer weniger Verderbnismarker auf seinem Haustableau und in seinen Sektoren hat. Herrscht weiterhin Gleichstand, teilt ihr euch den Sieg.",
+      "description": "",
+      "group": "auswertung-ende",
+      "timing": [],
+      "tags": [
+        "Spielende",
+        "Sieg",
+        "Einfluss",
+        "Anleitung S. 16",
+        "Kompetitiv"
+      ],
+      "warnings": [],
+      "sort_order": 50070,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 16
+      }
+    },
+    {
+      "id": "ziele-fuer-aktionen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Ziele für Aktionen, Effekte und Aufgaben",
+      "image": null,
+      "summary": "Falls nichts anderes angegeben ist, bist du (deine Sektoren, dein Haustableau und dein Spielbereich) das Ziel von Aktionen, ihren Kosten und all ihrer Effekte. Zahlst du Kosten oder handelst du Effekte ab, interagierst du mit dem allgemeinen Vorrat, dem Galaxietableau und den Auslagen, aber niemals mit den Objekten der anderen. Invasionen visieren benachbarte Sektoren an. Dies sind immer Sektoren, die an mind. 1 deiner Sektoren angrenzen.\n\nErfüllst du eine Galaktische Bestimmung oder das Ziel einer Agenda, berücksichtige nur deinen Spielbereich, deine Sektoren und dein Haustableau. Objekte oder Sektoren der anderen, allgemeine Auslagen und das Galaxietableau können nicht zu deiner Erfüllung beitragen.\n\nGalaktische Ereignisse haben besondere Instruktionen, die leereberührte Sektoren und Agenden anvisieren, die niemandem gehören. Auf ihnen ist ihr Ziel explizit angegeben.",
+      "description": "",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Ziel",
+        "Aktion",
+        "Effekt",
+        "Anleitung S. 17"
+      ],
+      "warnings": [],
+      "sort_order": 60010,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 17
+      }
+    },
+    {
+      "id": "erhalten-und-ausgeben",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Erhalten und Ausgeben",
+      "image": null,
+      "summary": "Symbole in Voidfall repräsentieren fast immer Objekte des Spiels – Ressourcen und Güter – im All, auf eurer Hand oder euren Tableaus.\n\n- Steht vor einem Symbol ein **+** (und oftmals eine Ziffer), erhaltet ihr diese Menge der entsprechenden Komponente.\n- Steht vor einem Symbol ein **-** (und oftmals eine Ziffer), verliert ihr diese Menge der entsprechenden Komponente.",
+      "description": "",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Symbol",
+        "Ressourcen",
+        "Anleitung S. 17"
+      ],
+      "warnings": [],
+      "sort_order": 60020,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 17
+      }
+    },
+    {
+      "id": "einfluss",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Einfluss",
+      "image": null,
+      "summary": "Einfluss hat nur einen Zweck: Ihr braucht ihn, um die Partie zu gewinnen. Erhaltet oder verliert ihr Einfluss, müsst ihr die Scheiben eures Einflusstableaus entsprechend anpassen.\n\nEinfluss verliert ihr nur selten (meist durch Wartung). Solltet ihr jemals mehr Einfluss verlieren, als ihr habt, ignoriert den überschüssigen Verlust.",
+      "description": "",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Einfluss",
+        "Anleitung S. 17"
+      ],
+      "warnings": [],
+      "sort_order": 60030,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 17
+      }
+    },
+    {
+      "id": "ressourcenvorraete",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Ressourcenvorräte",
+      "image": null,
+      "summary": "Meist zahlt ihr Kosten mit Ressourcen: Nahrung, Energie, Material, Credits oder Wissen.\nManchmal dürft ihr sie in Kombinationen (aus Nahrung/Energie/Material oder aus allen 5) beliebiger Mengen zahlen.\n\nCredits dürft ihr beim Zahlen von Kosten gegen Nahrung, Energie oder Material **1:1 austauschen**. Ihr könnt mit Credits **kein** Wissen oder Nichtressourcen ersetzen. Für die Zahlung eurer **Wartungskosten** in der Auswertungsphase könnt ihr diesen Austausch nicht nutzen.\n\nVerfolgt eure Ressourcen mit den Scheiben rechts an euren Ressourcentableaus. Passt die jeweiligen Werte immer an, sobald ihr Ressourcen erhaltet oder verliert. Ihr könnt niemals weniger als 0 Ressourcen jeder Art haben und keine Aktionen auswählen, die euch mehr kosten als ihr habt. Eurer jeweiliges **Ressourcenlimit beträgt 15**. Erhaltet ihr überschüssige Ressourcen, verfallen diese.",
+      "description": "Die besonderen Eigenschaften einiger Sektoren und Häuser gestatten euch den Austausch bestimmter Ressourcen. Ihr könnt dies jederzeit **außerhalb** der Wartung nutzen.",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Ressourcen",
+        "Credits",
+        "Vorrat",
+        "Anleitung S. 17"
+      ],
+      "warnings": [],
+      "sort_order": 60040,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 17
+      }
+    },
+    {
+      "id": "sektoren-nachbarschaft",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Sektoren, Nachbarschaft und Leerenstürme",
+      "image": null,
+      "summary": "Das All ist in mehrere Sektoren eingeteilt.\n\n2 Sektoren sind zueinander benachbart, falls sie eine gemeinsame Kante haben. **Leerenstürme** verhindern jedoch die Nachbarschaft und kein Effekt kann sie im All platzieren, versetzen oder entfernen.",
+      "description": "Einige Aktionen geben euch vor, dass ihr Kosten zahlen und die Effekte im **selben Sektor** ausführen müsst.",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Sektor",
+        "Nachbarschaft",
+        "Leerensturm",
+        "Anleitung S. 18"
+      ],
+      "warnings": [],
+      "sort_order": 60050,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 18
+      }
+    },
+    {
+      "id": "sektoren-kontrolle",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Kontrolle von Sektoren",
+      "image": null,
+      "summary": "Ein Sektor kann sich in 1 von 3 Stadien befinden. Dies hängt davon ab, wer ihn kontrolliert.\n\n- **Leereberührte Sektoren:** enthalten mind. 1 Flotte der Leere und fast immer auch 1 Verderbnis.\n- **Eure Sektoren:** enthalten mind. 1 Flotte in der Farbe von 1 von euch. Eure **Heimatsektoren** bleiben stets unter eurer Kontrolle – egal, ob Flotten präsent sind. Sie können nicht von anderen oder der Leere erobert werden. Alle eure anderen Sektoren sind keine Heimatsektoren.\n- **Sektoren ohne Flotten:** werden weder von euch noch der Leere kontrolliert. Sie werden durch mind. 1 Verteidigungsanlage geschützt. Typischerweise sind das Sektoren gefallener Häuser, deren einzigartige Aspekte durch Karten repräsentiert werden.",
+      "description": "Alle Effekte, die direkt Gilden oder Stützpunkte anvisieren, können nicht eure Heimatsektoren anvisieren.",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Sektor",
+        "Kontrolle",
+        "Leere",
+        "Anleitung S. 18"
+      ],
+      "warnings": [],
+      "sort_order": 60060,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 18
+      }
+    },
+    {
+      "id": "sektoreigenschaften",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Sektoreigenschaften",
+      "image": null,
+      "summary": "Besondere Sektoren haben aufgedruckte Eigenschaften. Diese betreffen euch, sobald ihr diese Sektoren kontrolliert. Gelingt euch eine Eroberung des Sektors, gilt die Eigenschaft auch schon für das Ende der Invasion.",
+      "description": "Einige Eigenschaften wirken nur 1-mal – sofort nach der Eroberung des Sektors. Diese Effekte müsst ihr bei der Auswertung des Invasionsausgangs berücksichtigen.",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Sektor",
+        "Eigenschaft",
+        "Anleitung S. 18"
+      ],
+      "warnings": [],
+      "sort_order": 60070,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 18
+      }
+    },
+    {
+      "id": "reine-und-verderbte-sektoren",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Reine und verderbte Sektoren",
+      "image": null,
+      "summary": "Bezüglich der Verderbnis sind Sektoren in 1 von 2 möglichen Stadien:\n\n- **Verderbte Sektoren** enthalten einen Verderbnismarker unter dem Bevölkerungswürfel. Fast alle Sektoren (auch eure) können verderbt sein.\n- **Reine Sektoren** sind frei von jeglicher Verderbnis. Einige Sektoren bleiben stets rein. Dazu gehören eure Heimatsektoren.",
+      "description": "",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Sektor",
+        "Verderbnis",
+        "Rein",
+        "Anleitung S. 18"
+      ],
+      "warnings": [],
+      "sort_order": 60080,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 18
+      }
+    },
+    {
+      "id": "gilden-und-stuetzpunkte",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Gilden und Stützpunkte",
+      "image": null,
+      "summary": "Es gibt 2 Hauptkategorien von Infrastruktur, die ihr in euren Sektoren entwickeln könnt: Zivile **Gilden** und Militärische **Stützpunkte**.\n\nEs gibt 5 verschiedene Gilden, die jeweils die Produktion ihrer **entsprechenden** Ressource steigern:\n- Die **Nahrungsgilde** steigert die Produktion von Nahrung.\n- Die **Konstruktionsgilde** steigert die Produktion von Energie.\n- Die **Bergbaugilde** steigert die Produktion von Material.\n- Die **Kreditgilde** steigert die Produktion von Credits.\n- Die **Forschungsgilde** steigert die Produktion von Wissen.\n\nEs gibt 3 Arten von Stützpunkten mit verschiedenen Funktionen:\n- **Werften** sind am effektivsten zur Entwicklung der Flotten.\n- **Verteidigungsanlagen** kommen im Kampf zum Einsatz. Sie fügen bei der Verteidigung 1 Annäherungsschaden zu.\n- **Sternenbasen** benötigen Technologie, damit ihr sie bauen könnt. Hast du die Technologie Sternenbasen erlangt, dienen dir Sternenbasen **als Werften** beim Einsetzen von Flotten und fügen wie Verteidigungsanlagen bei der Verteidigung 1 Annäherungsschaden zu.",
+      "description": "",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Gilde",
+        "Stützpunkt",
+        "Infrastruktur",
+        "Anleitung S. 18"
+      ],
+      "warnings": [],
+      "sort_order": 60090,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 18
+      }
+    },
+    {
+      "id": "bau-und-baureihenfolge",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Bau und Baureihenfolge",
+      "image": null,
+      "summary": "Nimm dir das entsprechende Plättchen, sobald du einen Stützpunkt errichtest oder eine Gilde gründest. Lege es auf ein freies Feld in deinem Zielsektor. Du **darfst** auch in **verderbten** Sektoren Stützpunkte errichten und Gilden gründen. \n\nAlle Sektoren haben nur eine begrenzte Anzahl an Feldern für Stützpunkte und Gilden (meist 3/3). Ihr könnt Gilden nicht auf Stützpunktfeldern gründen und umgekehrt. Außerdem müsst ihr neue Stützpunkte/Gilden auf das jeweils 1. freie Feld von links legen und so **das Feld mit Wartungskosten immer als letztes abdecken**.\n\nHast du keine freien Stützpunkt-/Gildenfelder im Zielsektor mehr, kannst du dementsprechend nichts errichten/gründen.\n\nDu kannst bestehende Stützpunkte und Gilden nicht mutwillig zerstören, versetzen oder überbauen.",
+      "description": "Einige Effekte (Aktionskosten, Galaktische Ereignisse oder Krisen) weisen dich an, Stützpunkte oder Gilden zu zerstören (niemals in Heimatsektoren). In diesem Fall darfst du wählen, welche(n) du zerstörst und schiebst danach alle Plättchen rechts davon nach links.\n\nAufgedruckte Stützpunkte und Gilden sind permanent und gelten als gleichwertig zu ihren jeweiligen Plättchen. Sie können jedoch nie versetzt oder entfernt werden.",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Bauen",
+        "Gilde",
+        "Stützpunkt",
+        "Anleitung S. 19"
+      ],
+      "warnings": [],
+      "sort_order": 60100,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 19
+      }
+    },
+    {
+      "id": "reine-gilden-stuetzpunkte",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Reine Gilden und Stützpunkte",
+      "image": null,
+      "summary": "Gilden und Stützpunkte in reinen Sektoren sind eigenständige **reine Gilden** und **reine Stützpunkte**.",
+      "description": "",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Gilde",
+        "Stützpunkt",
+        "Rein",
+        "Anleitung S. 19"
+      ],
+      "warnings": [],
+      "sort_order": 60110,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 19
+      }
+    },
+    {
+      "id": "bevoelkerung",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Bevölkerung",
+      "image": null,
+      "summary": "Die meisten Sektoren haben eine **Bevölkerung** von 1–6, die durch einen Würfel angezeigt wird. Die Bevölkerung deines Heimatsektors hat einen Würfel in deiner Farbe. Die Bevölkerung beeinflusst die Ressourcenproduktion.\n\nEin reiner Sektor hat eine **reine Bevölkerung**. Ihr könnt eine reine Bevölkerung verändern, jedoch **keine** Bevölkerung von **verderbten** Sektoren.\n\n- **Vermehren:** Füge einem Bevölkerungswürfel deiner Sektoren jeweils 1 hinzu, um eine reine Bevölkerung bis zu einem Maximalwert von 6 zu vermehren.\n- **Dezimieren:** Senke einen Bevölkerungswürfel deiner Sektoren um jeweils 1, um eine reine Bevölkerung bis zu einem Minimalwert von 1 zu dezimieren. Du kannst keine Bevölkerung in Heimatsektoren dezimieren.",
+      "description": "Einige besondere Sektoren haben eine **konstante** Bevölkerung. Diese ist als schwarzer Würfel auf ihnen abgebildet. Die Bevölkerung dieser Sektoren kann nie modifiziert werden.\n\nAndere besondere Sektoren haben überhaupt **keine** Bevölkerung. Diese können nie verderbt werden.",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Bevölkerung",
+        "Rein",
+        "Anleitung S. 19"
+      ],
+      "warnings": [],
+      "sort_order": 60120,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 19
+      }
+    },
+    {
+      "id": "ressourcenproduktion",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Ressourcenproduktion",
+      "image": null,
+      "summary": "Alle von euch haben 5 **Produktionsscheiben**, die jeweils 1 Ressource auf der linken Seite eures Ressourcentableaus entsprechen. Auf jeder Scheibe sind 2 Ziffern. Die linke Ziffer gibt die **Produktionsstufe** an. Die rechte Ziffer gibt den **Produktionsertrag** an.\n\nDie **Produktionsstufe** wird durch deine der Ressource **entsprechenden** Gilden bestimmt. Alle Gilden tragen so viel dazu bei, wie der Bevölkerungswert im selben Sektor beträgt:\n- +1, falls der Bevölkerungswert 1 ist.\n- +2, falls der Bevölkerungswert 2 ist, usw.\n\nGilden in **reinen und verderbten** Sektoren erhöhen die Produktionsstufe. Das Produktionslimit liegt pro Ressource bei 13. Du darfst jedoch unabhängig vom Produktionslimit weiterhin Gilden gründen oder Sektoren erobern, die welche beinhalten. Der Wert steigt nur nicht weiter an. Passe deine Produktionsstufe an, sobald du Gilden gründest oder zerstörst, deine Bevölkerung erhöhst oder verringerst oder Sektoren eroberst oder verlierst.\n\nDeine Startagenda kann ebenfalls zur Produktionsstufe beitragen, falls sie das entsprechende Symbol zeigt. Dann erhöht sie deine Produktionsstufe permanent um 1.\n\nDer **Produktionsertrag** einer Ressource steigt in einem anderen Maß als die Produktionsstufe. Der Produktionsertrag von Credits ist noch geringer als der anderer Ressourcen. Ihr findet alle aufeinander abgestimmten Stufen und Erträge im Glossar.",
+      "description": "",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Produktion",
+        "Ressource",
+        "Anleitung S. 19"
+      ],
+      "warnings": [],
+      "sort_order": 60130,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 19
+      }
+    },
+    {
+      "id": "produzieren-und-ueberproduktion",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Produzieren und Überproduktion",
+      "image": null,
+      "summary": "Produzierst du mind. 1 deiner **Ressourcentypen**, erhalte so viele Ressourcen des Typs für deinen Vorrat wie dein entsprechender Produktionsertrag vorgibt (nicht die Stufe).\n\n- Es gibt Symbole für: Produziere Nahrung, Energie, Material, Credits oder Wissen.\n- **Produziere 1 beliebige Ressource:** Wähle 1 Typ aus den 5 Ressourcen und produziere davon.\n- **Produziere 2 unterschiedliche Ressourcen:** Wähle 2 der 5 Typen aus und produziere von ihnen.\n\nProduzierst du mehr von einer Ressource als in deinen Vorrat passt (max. 15 pro Ressource), **verfallen überschüssige** Ressourcen. Jedoch erhältst du für die **Überproduktion 3 Einflusspunkte** (unabhängig von der verfallenen Menge). Überproduzierst du in deinem Zug mehrere Male (verschiedene oder gleiche Ressourcen), erhältst du pro Überproduktion 3 Einflusspunkte. \n\nFalls du auf einem anderen Weg als durch Produktion Ressourcen erhältst und sie nicht alle in deinen Vorrat passen, gilt dies nicht als Überproduktion.",
+      "description": "Auch die Technologien Neuralmatrix und Fortschrittliche Orbitale Häfen beeinflussen deine Produktion.\n\nEinige besondere Sektoren (Asteroidengürtel und Paradieswelt) fügen ebenfalls Produktionsstufen hinzu.",
+      "group": "wirtschaft",
+      "timing": [],
+      "tags": [
+        "Produktion",
+        "Überproduktion",
+        "Anleitung S. 20"
+      ],
+      "warnings": [],
+      "sort_order": 60140,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 20
+      }
+    },
+    {
+      "id": "flottenverbaende",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Flotten und Flottenverbände",
+      "image": null,
+      "summary": "Ein Flottenverband besteht aus vielen Schiffen und wird durch 1 Flottenverbandplättchen des entsprechenden Flottentyps repräsentiert. Auf ihm liegen 1–3 Flottenmarker, die sowohl die Anzahl der Flotten als auch die Flottenstärke repräsentieren. Es gibt 5 verschiedene spielbare Flottentypen in Voidfall: Korvette, Wächter, Zerstörer, Schlächter, Träger.\n\nAlle von euch besitzen jeweils nur 14 Flotten. Neben den Bevölkerungswürfeln sind dies die einzigen euch farblich zugeordneten Komponenten im All und sie **zeigen eure Kontrolle über die Sektoren an**.",
+      "description": "",
+      "group": "flotten",
+      "timing": [],
+      "tags": [
+        "Flotte",
+        "Flottenverband",
+        "Anleitung S. 21"
+      ],
+      "warnings": [],
+      "sort_order": 70010,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 21
+      }
+    },
+    {
+      "id": "flotten-zustaende",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Zustände der Flotten",
+      "image": null,
+      "summary": "Flotten können 3 Zustände haben:\n- **Inaktiv** auf der Ruhezone deines Haustableaus.\n- **Aktiv** auf der Einsatzzone deines Haustableaus.\n- **Eingesetzt** in einem deiner Sektoren auf einem Flottenverband.",
+      "description": "",
+      "group": "flotten",
+      "timing": [],
+      "tags": [
+        "Flotte",
+        "Inaktiv",
+        "Aktiv",
+        "Eingesetzt",
+        "Anleitung S. 21"
+      ],
+      "warnings": [],
+      "sort_order": 70020,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 21
+      }
+    },
+    {
+      "id": "flotten-verbinden-trennen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Verbinden und Trennen",
+      "image": null,
+      "summary": "Ihr dürft eure Flotten im selben Sektor jederzeit verbinden oder trennen. Habt ihr 1 Flottenverband mit mind. 2 Flotten darauf, dürft ihr einen weiteren Flottenverband in denselben Sektor legen und 1 Flotte dorthin versetzen, um 1 neuen Flottenverband zu bilden. Umgekehrt dürft ihr 2 Flottenverbände mit insgesamt max. 3 Flotten auch zu 1 Flottenverband verbinden, indem ihr alle Flotten auf 1 Flottenverband legt und den anderen entfernt. \n\nIhr könnt **keine** Flotten zwischen Flottenverbänden verschiedener Flottentypen austauschen. Legt Flottenverbände ohne Flotten immer sofort in den allgemeinen Vorrat zurück.",
+      "description": "",
+      "group": "flotten",
+      "timing": [],
+      "tags": [
+        "Flotte",
+        "Verbinden",
+        "Trennen",
+        "Anleitung S. 21"
+      ],
+      "warnings": [],
+      "sort_order": 70030,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 21
+      }
+    },
+    {
+      "id": "flotten-einsetzen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Flotten einsetzen",
+      "image": null,
+      "summary": "Ihr **setzt 1 Flotte ein**, indem ihr 1 Flottenmarker aus eurer Einsatzzone in einen Sektor legt. Beim Einsetzen müsst ihr den Flottentyp auswählen (und gegebenenfalls einen neuen Flottenverband auslegen). Für Korvetten benötigt ihr keine Technologie. Alle anderen Schiffstypen könnt ihr erst einsetzen, nachdem ihr die entsprechende Technologie (mit demselben Namen) erforscht habt.\n\nHabt ihr keine aktiven Flotten, könnt ihr keine einsetzen. Ihr könnt ohne Aufforderung keine Flotten aus dem All zurückrufen, um sie woanders einzusetzen.\n\nSetzt ihr Flotten bestimmter Schiffstypen ein, müsst ihr zunächst die auf der entsprechenden Technologie angegebenen Kosten zahlen. Könnt ihr diese Kosten nicht zahlen, könnt ihr keine Flotten dieses Typs einsetzen.",
+      "description": "Manchmal könnt ihr nur beschränkt einsetzen:\n- Einsatz nur in deinem Heimatsektor\n- Einsatz auf Flottentyp beschränkt\n- Einsatz 1 Flotte pro Werft in deinem jeweiligen Sektor mit Werft",
+      "group": "flotten",
+      "timing": [],
+      "tags": [
+        "Flotte",
+        "Einsetzen",
+        "Anleitung S. 21"
+      ],
+      "warnings": [],
+      "sort_order": 70040,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 21
+      }
+    },
+    {
+      "id": "flotten-zurueckrufen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Flotten zurückrufen",
+      "image": null,
+      "summary": "Die Kosten einiger Aktionen fordern euch zum **Rückruf 1 Flotte** aus dem All zurück **in die Einsatzzone** auf. Erleiden Flottenverbände **im Kampf Schaden**, müsst ihr ebenfalls 1 Flotte in die Einsatzzone zurückrufen. Entfernt Flottenverbände, sobald keine Flotten mehr auf ihnen liegen, und legt sie in den allgemeinen Vorrat zurück.\n\nRuft ihr die letzte Flotte aus einem Sektor zurück, der nicht euer Heimatsektor ist, müsst ihr 1 beliebiges Ruhmplättchen abwerfen. Der Sektor ist dann verlassen (siehe S. 24).",
+      "description": "Einige Aktionen fordern euch dazu auf, einen Effekt in dem Sektor auszuführen, aus dem ihr die Flotte zurückrufen musstet.",
+      "group": "flotten",
+      "timing": [],
+      "tags": [
+        "Flotte",
+        "Zurückrufen",
+        "Anleitung S. 21"
+      ],
+      "warnings": [],
+      "sort_order": 70050,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 21
+      }
+    },
+    {
+      "id": "flotten-aktivieren-deaktivieren",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Flotten aktivieren und deaktivieren",
+      "image": null,
+      "summary": "**Aktiviert ihr 1 Flotte**, legt ihr sie von eurer Ruhezone in die Einsatzzone eures Haustableaus. Habt ihr keine inaktive Flotte, könnt ihr diesen Effekt nicht nutzen.\n\nDie Kosten einiger Aktionen fordern euch zum **Deaktivieren 1 Flotte** auf. Legt dazu 1 Flotte von eurer Einsatzzone in die Ruhezone eures Haustableaus. Habt ihr keine aktive Flotte und müsst 1 deaktivieren, müsst ihr 1 Flotte zurückrufen und sie dann deaktivieren.",
+      "description": "",
+      "group": "flotten",
+      "timing": [],
+      "tags": [
+        "Flotte",
+        "Aktivieren",
+        "Deaktivieren",
+        "Anleitung S. 22"
+      ],
+      "warnings": [],
+      "sort_order": 70060,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 22
+      }
+    },
+    {
+      "id": "flottenverbandlimit",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Flottenverbandlimit",
+      "image": null,
+      "summary": "**Wichtig:** Am Ende von jedem eurer Züge (beim Aufräumen) in der Fokusphase könnt ihr **max. 2 Flottenverbände** in jedem eurer Sektoren haben. Sind in einem Sektor mehr, müsst ihr so viele beliebige Flotten desselben Typs verbinden und zurückrufen (in eure Einsatzzone legen), dass ihr das Limit von 2 Flottenverbänden nicht mehr überschreitet.",
+      "description": "",
+      "group": "flotten",
+      "timing": [],
+      "tags": [
+        "Flotte",
+        "Limit",
+        "Anleitung S. 22"
+      ],
+      "warnings": [],
+      "sort_order": 70070,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 22
+      }
+    },
+    {
+      "id": "flotten-der-leere",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Flotten der Leere",
+      "image": null,
+      "summary": "Flotten der Leere funktionieren wie Korvettenflotten. Flottenverbände der Leere können 1–3 Flotten der Leere enthalten. Im Kampf verhalten sie sich ebenfalls wie Korvettenflotten.\n\nIn jedem leereberührten Sektor **kann max. 1 Flottenverband der Leere** (mit max. 3 Flotten) sein.",
+      "description": "Einige besondere Sektoren können jedoch 2 oder 3 Flottenverbände der Leere (und dementsprechend max. 6 oder 9 Flotten) enthalten, was durch entsprechende Symbole angegeben wird.\n\nSolltet ihr je mehr Flotten der Leere platzieren sollen, als das Sektorlimit beträgt, füllt lediglich die Flottenverbände der Leere bis zum Maximum auf. Habt ihr mehrere Möglichkeiten zum Platzieren der Flotten der Leere, müsst ihr möglichst den Sektor auswählen, in dem ihr alle (oder so viel wie möglich) platzieren könnt.",
+      "group": "flotten",
+      "timing": [],
+      "tags": [
+        "Flotte",
+        "Leere",
+        "Anleitung S. 22"
+      ],
+      "warnings": [],
+      "sort_order": 70080,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 22
+      }
+    },
+    {
+      "id": "flottenbewegung-sammeln",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Flottenbewegung: Sammeln",
+      "image": null,
+      "summary": "Es gibt 2 Arten von Flottenbewegung: **Sammeln** und **Eindringen**.\n\nBeim **Sammeln** dürft ihr **max. 5 Flüge** mit euren Flotten zu jeweils benachbarten Sektoren **unter eurer eigenen Kontrolle** ausführen. Von euch bewegte Flotten müssen nicht im selben Sektor abfliegen oder landen. Ihr dürft dieselbe Flotte auch mehrere Flüge absolvieren lassen. Versetzt, ergänzt oder entfernt Flottenverbände je nach Bedarf.\n\n**Wichtig:** Ihr könnt beim Sammeln nicht die letzte Flotte aus einem Sektor bewegen, der nicht euer Heimatsektor ist.",
+      "description": "",
+      "group": "flotten",
+      "timing": [],
+      "tags": [
+        "Flotte",
+        "Bewegung",
+        "Sammeln",
+        "Anleitung S. 23"
+      ],
+      "warnings": [],
+      "sort_order": 70090,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 23
+      }
+    },
+    {
+      "id": "eindringen-und-invasion",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Flottenbewegung: Eindringen und Invasion",
+      "image": null,
+      "summary": "Um in einen Sektor **einzudringen**, müsst ihr 1 auswählen, den ihr **nicht kontrolliert**. Gültige Ziele hängen von eurem Spielmodus ab:\n- Leereberührte Sektoren\n- Verlassene Sektoren (ohne Flotten)\n\nFührt die aus 3 Schritten bestehende **Invasion** des ausgewählten Sektors durch:\n1. **Flottenbewegung:** Wählt **beliebig viele** eurer zum Zielsektor **benachbarten** eigenen Flotten (auch aus mehreren Sektoren) und fliegt mit ihnen zum Zielsektor. Versetzt, ergänzt oder entfernt Flottenverbände je nach Bedarf.\n2. **Kampf**\n3. **Invasionsausgang:** Der Invasionsausgang ist abhängig davon, wer angreift (ihr oder die Leere), wer verteidigt und wie der Kampf ausgeht.",
+      "description": "Einige Effekte lassen euch nur verderbte Sektoren angreifen. In diesem Fall könnt ihr keine reinen Sektoren für die Invasion auswählen.\n\nDurch Invasionen könnt ihr auch die letzten Flotten aus euren Sektoren versetzen und sie so zu **verlassenen** Sektoren machen. Tut ihr das, müsst ihr jedoch (falls möglich) **1 beliebiges eurer Ruhmplättchen pro Sektor abwerfen**, den ihr verlasst. Danach dringt die Leere in die verlassenen Sektoren ein (siehe S. 24).",
+      "group": "flotten",
+      "timing": [],
+      "tags": [
+        "Flotte",
+        "Eindringen",
+        "Invasion",
+        "Anleitung S. 23"
+      ],
+      "warnings": [],
+      "sort_order": 70100,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 23
+      }
+    },
+    {
+      "id": "eindringen-kompetitiv",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Eindringen (Kompetitiv)",
+      "image": null,
+      "summary": "In kompetitiven Partien sind auch **Sektoren der anderen (keine Heimatsektoren)** gültige Ziele für das Eindringen.",
+      "description": "",
+      "group": "flotten",
+      "timing": [],
+      "tags": [
+        "Eindringen",
+        "Kompetitiv",
+        "Anleitung S. 23",
+        "Kompetitiv"
+      ],
+      "warnings": [],
+      "sort_order": 70101,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 23
+      }
+    },
+    {
+      "id": "verlassene-sektoren",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Verlassene Sektoren und Eindringen der Leere",
+      "image": null,
+      "summary": "Sobald ihr die letzte Flotte aus einem Sektor entfernt (kein Heimatsektor), ist dieser **sofort verlassen**. Dies kann durch Gleichstand nach einem Kampf geschehen, durch Verlieren in einem Gefecht gegen die Leere (siehe S. 33), durch den Rückruf eurer letzten Flotte (Kosten/Effekte) oder falls ihr mit ihr bei einer Invasion eines anderen Sektors davonfliegt.\n\nUnabhängig vom Grund dringt die Leere sofort in den gerade verlassenen Sektor ein. Führt dazu folgende Schritte aus:\n1. Entfernt alle Stützpunkte im Sektor (keine Gilden).\n2. Platziert (falls möglich) 1 Verderbnismarker unter dem Bevölkerungswürfel.\n3. Legt 1 Flottenverband der Leere mit 2 Flotten und 1 verdecktes Beuteplättchen in den Sektor.\n\nDieser Sektor ist nun ein **leereberührter Sektor**.",
+      "description": "Einige besondere Sektoren sind partiell gegen die Leere resistent.\n- Sektoren mit dem Verderbnis-resistent-Symbol oder ohne Bevölkerung: Verlasst ihr diese Sektoren, müsst ihr beim Eindringen der Leere Schritt 2 überspringen.\n- Sektoren mit dem Leere-resistent-Symbol: Verlasst ihr diese Sektoren, müsst ihr beim Eindringen der Leere Schritt 3 überspringen. In diese kommen niemals Flotten(-verbände) der Leere.",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Verlassen",
+        "Leere",
+        "Sektor",
+        "Anleitung S. 24"
+      ],
+      "warnings": [],
+      "sort_order": 80010,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 24
+      }
+    },
+    {
+      "id": "kampf-einfuehrung",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Kampf Einführung",
+      "image": null,
+      "summary": "Dringt ihr in einen Sektor durch Invasion ein oder beginnt die Leere ein Gefecht mit euch, findet ein Kampf statt. Der betroffene Sektor ist der **Kampfsektor**.\n\nKämpfe in Voidfall sind vollkommen plan- und nachvollziehbar, da sie keine zufälligen oder geheimen Elemente enthalten. Wer die Invasion beginnt, kämpft als **Offensive** gegen die **Defensive**. Beide Seiten dürfen ihre Flotten in den Kampf schicken. Nur die Defensive kann Verteidigungsanlagen und Sternenbasen nutzen.",
+      "description": "Leereberührte Sektoren haben Flotten der Leere in sich, die im Kampf dieselben Eigenschaften wie Korvetten haben. Gibt es im Kampfsektor Verteidigungsanlagen, nutzt die Leere als Defensive diese auch.\n\nSektoren ohne Flotten haben stattdessen Verteidigungsanlagen oder Sternenbasen in sich. Auf **Gefallenen Häusern** aufgedruckte Verteidigungsanlagen sind solange im Sektor, bis ihr die Gefallenen Häuser aus dem Sektor entfernt.\n\nDer Kampf besteht aus 2 Teilen: **Annäherung** und mind. 1 **Salve**.",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Kampf",
+        "Offensive",
+        "Defensive",
+        "Anleitung S. 24"
+      ],
+      "warnings": [],
+      "sort_order": 80020,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 24
+      }
+    },
+    {
+      "id": "schaden-und-absorption",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Schaden und Absorption",
+      "image": null,
+      "summary": "Offensive und Defensive fügen sich gegenseitig **Schaden** zu. Erleidet ihr 1 Schaden, müsst ihr **1 beliebige** eurer Flotten aus dem Kampfsektor **zurückrufen**. Stützpunkte, Gilden, Verteidigungsanlagen und Sternenbasen erleiden keinen Schaden.\n\nEinige Flottentypen und Technologien gewähren euch **Absorption**, die den Schaden um 1 verringert. Schaden oder Absorption gelten **entweder** für die Annäherung **oder** die Salve und haben unterschiedliche Symbole.\n- **Annäherungsschaden** und **-absorption** wirken nur bei Annäherung.\n- **Salvenschaden** und **-absorption** wirken nur bei Salven.\n\nAnnäherungsabsorption verhindert keinen Salvenschaden und umgekehrt.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Schaden",
+        "Absorption",
+        "Kampf",
+        "Anleitung S. 24"
+      ],
+      "warnings": [],
+      "sort_order": 80030,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 24
+      }
+    },
+    {
+      "id": "kampfablauf",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Grundlegender Kampfablauf",
+      "image": null,
+      "summary": "Bei der **Annäherung** fügt die Defensive mit allen **Verteidigungsanlagen** und **Sternenbasen** je 1 Schaden zu.\n\nDie anschließende(n) **Salve(n)** bestehen aus:\n1. Ermittelt die **Initiative** beider Seiten, die von der Anzahl eurer eigenen Flotten aller Flottentypen im Kampfsektor abhängt. (Technologien und andere Flottentypen können den Wert beeinflussen).\n2. Wer die höhere Initiative hat, fügt der anderen Seite **1 Schaden** zu – unabhängig von der Differenz.\n3. Wer die niedrigere Initiative hat, muss die Initiative (falls der Schaden nicht absorbiert wurde) erneut ermitteln und fügt, falls die Initiative nun mind. 1 beträgt, der anderen Seite ebenfalls **1 Schaden** zu. Ansonsten wird kein Schaden zugefügt.\n4. Herrscht bei der Initiative Gleichstand, fügen sich beide Seiten gegenseitig gleichzeitig je 1 Schaden zu.\n\nFührt weitere Salven durch, bis mind. 1 Seite keine Flotten mehr im Kampfsektor hat. Fahrt dann mit dem **Invasionsausgang** fort.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Kampf",
+        "Ablauf",
+        "Initiative",
+        "Anleitung S. 25"
+      ],
+      "warnings": [],
+      "sort_order": 80040,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 25
+      }
+    },
+    {
+      "id": "invasionsausgang-verteidigung",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Erfolgreiche Verteidigung",
+      "image": null,
+      "summary": "Hat nach einer Kampfsequenz nur die Defensive mind. 1 Flotte im Kampfsektor, gewinnt sie den Kampf. Die Verteidigung war erfolgreich. Jedoch erhält sie nichts dafür.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Invasion",
+        "Verteidigung",
+        "Anleitung S. 26"
+      ],
+      "warnings": [],
+      "sort_order": 80050,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 26
+      }
+    },
+    {
+      "id": "invasionsausgang-invasion",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Erfolgreiche Invasion durch euch",
+      "image": null,
+      "summary": "Hast nur du als Offensive nach einer Kampfsequenz mind. 1 Flotte im Kampfsektor, gewinnst du den Kampf. Die Invasion war erfolgreich. Belasse all deine Flotten, die am Kampf beteiligt waren, im Kampfsektor. Leereberührte Sektoren behalten ihre Verderbnis. Dies ist nun dein Sektor und du musst die Übernahme durchführen.\n\nDie Übernahme besteht aus den folgenden Punkten, die du in beliebiger Reihenfolge ausführen musst.\n- **A)** Entferne alle **Stützpunkte** im Sektor (keine Gilden).\n- **B)** Erhalte alle **Beute** aus dem Sektor.\n- **C)** Eigne dir alle **Hinterlassenschaften** aus dem Sektor an.\n- **D)** Erhalte alle **Ruhmplättchen** aus dem Sektor und lege sie neben dein Haustableau.\n- **H)** Besondere Sektoren haben Effekte, die ihr 1-mal nach ihrer erfolgreichen Invasion ausführt.\n- **I)** Stand der Sektor unter Kontrolle eines Gefallenen Hauses:\n  - Du darfst ab sofort **max. 6 Technologien statt 5 erforschen**.\n  - Wähle **1 der beiden** Technologien des Gefallenen Hauses. Hast du mind. 1 freies Technologiefeld, nimm sie dir (kostenlos) und erforsche die Basistechnologie.\n  - Führe die unteren Effekte des Gefallenen Hauses aus. Du musst die Gilden, Stützpunkte oder Flotten in diesem Sektor gründen, errichten, bzw. einsetzen.\n  - War dies das 1. Gefallene Haus, das du erobert hast, drehe es nun um und lege es als 6. Technologiefeld an dein Haustableau an. Wirf es ansonsten ab.",
+      "description": "*(Hinweis: Die Schritte E, F und G der Übernahme sind modusabhängig und finden sich in den entsprechenden Abschnitten).*",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Invasion",
+        "Übernahme",
+        "Sektor",
+        "Anleitung S. 26"
+      ],
+      "warnings": [],
+      "sort_order": 80060,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 26
+      }
+    },
+    {
+      "id": "uebernahme-kompetitiv",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Übernahme eines feindlichen Sektors (Kompetitiv)",
+      "image": null,
+      "summary": "Schritt **E** der Übernahme: Hast du einen Sektor von jemandem übernommen, erhalte den Wert von **dessen** Ruhmplättchen in dem Sektor entsprechend viele Einflusspunkte. **Wer verloren hat, muss danach 1 beliebiges eigenes Ruhmplättchen abwerfen.** Du erhältst keine Ruhmplättchen (es wechseln keine Plättchen den Besitzer).",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Invasion",
+        "Übernahme",
+        "Kompetitiv",
+        "Anleitung S. 26",
+        "Kompetitiv"
+      ],
+      "warnings": [],
+      "sort_order": 80070,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 26
+      }
+    },
+    {
+      "id": "erfolgreiche-invasion-leere",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Erfolgreiche Invasion durch die Leere",
+      "image": null,
+      "summary": "Hast du in einem Gefecht (siehe S. 33) keine Flotten mehr im Kampfsektor, gewinnt die Leere den Kampf. Führe in diesem Fall folgende Schritte aus:\n1. Wirf 1 beliebiges deiner Ruhmplättchen ab.\n2. Entferne alle Stützpunkte aus dem Sektor (keine Gilden).\n3. Platziere (falls möglich) 1 Verderbnismarker unter dem Bevölkerungswürfel.\n4. Entferne Flotten der Leere aus dem Sektor oder füge welche hinzu, bis exakt 1 Flottenverband der Leere mit 2 Flotten dort ist. Lege 1 verdecktes Beuteplättchen in den Sektor.\n\nEs ist egal, mit wie vielen Flotten die Leere das Gefecht übersteht. Verlierst du, verbleibt sie immer mit 1 Flottenverband der Leere samt 2 Flotten.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Invasion",
+        "Leere",
+        "Gefecht",
+        "Anleitung S. 27"
+      ],
+      "warnings": [],
+      "sort_order": 80090,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 27
+      }
+    },
+    {
+      "id": "gleichstand-kampf",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Gleichstand im Kampf",
+      "image": null,
+      "summary": "Haben in einem Kampf beide Seiten nach einer Kampfsequenz keine Flotten mehr übrig, kommt es zum Gleichstand. Die **Defensive muss** (falls möglich) **1 beliebiges eigenes Ruhmplättchen abwerfen**. Der Sektor ist danach **verlassen** und die Leere dringt wie üblich in ihn ein (siehe S. 24).\n\nDringt ihr in Sektoren ein, in denen keine Flotten sind (z.B. mit Gefallenem Haus), hat die Defensive nur Verteidigungsanlagen und Sternenbasen. Habt ihr nach der Annäherung keine Flotten übrig, ist dies ein Sieg der Defensive.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Kampf",
+        "Gleichstand",
+        "Anleitung S. 27"
+      ],
+      "warnings": [],
+      "sort_order": 80100,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 27
+      }
+    },
+    {
+      "id": "beute-und-hinterlassenschaften",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Beute und Hinterlassenschaften",
+      "image": null,
+      "summary": "Beute und Hinterlassenschaften verteilt ihr bei der Vorbereitung in Sektoren, die niemand kontrolliert. Nehmt ihr einen Sektor erfolgreich ein, erhaltet ihr Beute und übernehmt Hinterlassenschaften. Dreht sie dazu um, erhaltet (falls gewünscht) die abgebildete Belohnung und legt sie neben euer Haustableau.\n\nErhaltet ihr Einflusspunkte oder Ressourcen, nehmt euch die entsprechende Anzahl davon. Flotten, Gilden und Stützpunkte der **Hinterlassenschaften** müsst ihr in dem gerade übernommenen Sektor einsetzen/gründen/errichten. Ihr dürft wie üblich die Belohnung ignorieren.\n\nSammelt Beute und Hinterlassenschaften neben eurem Haustableau, da einige Agenden Bezug auf ihre Anzahl nehmen und es Effekte gibt, die sie euch abwerfen lassen. Der auf ihnen abgebildete Vorteil ist nicht weiter von Belang. Ihr bekommt ihn nur bei Erhalt.\n\nMischt von euch abgeworfene Beute oder Hinterlassenschaften verdeckt in ihre entsprechenden Stapel im allgemeinen Vorrat zurück. Sollten Beute oder Hinterlassenschaften des allgemeinen Vorrats leer sein und ihr welche nehmen müssen, erhaltet ihr stattdessen 1 Einflusspunkt oder 1 beliebige Ressource.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Beute",
+        "Hinterlassenschaft",
+        "Anleitung S. 27"
+      ],
+      "warnings": [],
+      "sort_order": 80110,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 27
+      }
+    },
+    {
+      "id": "ruhmplaettchen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Ruhmplättchen",
+      "image": null,
+      "summary": "Bei der Vorbereitung erhaltet ihr Ruhmplättchen. Weitere verteilt ihr dem Szenario entsprechend auf Sektoren. Ihr könnt durch die Effekte von Galaktischen Ereignissen ebenfalls welche erhalten oder verteilen. Ruhmplättchen sind beidseitig mit denselben Werten von 1–5 bedruckt.\n\nRuhmplättchen nehmt ihr aus dem allgemeinen Vorrat und werft sie dorthin ab. Sammelt eure Ruhmplättchen links neben eurem Haustableau. Ruhmplättchen sind unlimitiert. Gibt es keine mehr, nehmt passenden Ersatz.\n\nVerlasst ihr einen Sektor, müsst ihr falls möglich 1 beliebiges Ruhmplättchen abwerfen.\n\nIhr könnt beim Aufräumen **max. 4 Ruhmplättchen** besitzen und müsst überzählige abwerfen. Legt sie in den allgemeinen Vorrat zurück.\n\nIhr könnt Ruhmplättchen aufwerten. Dazu werft ihr zunächst das betreffende Ruhmplättchen ab und nehmt euch 1 Ruhmplättchen mit dem entsprechend um 1 höheren Wert. Der Maximalwert von Ruhmplättchen beträgt 5.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Ruhmplättchen",
+        "Anleitung S. 27"
+      ],
+      "warnings": [],
+      "sort_order": 80120,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 27
+      }
+    },
+    {
+      "id": "kaempfe-im-detail",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Kämpfe im Detail – Annäherung",
+      "image": null,
+      "summary": "Hier erfahrt ihr den detaillierten Kampfablauf mit allen kampfrelevanten Effekten der Technologien und Flotten. Der Kampf selbst besteht aus 2 Teilen: **Annäherung** und **Salve(n)**. Alle Salven folgen demselben Ablauf, doch einige Effekte treten nur in der 1. Salve auf.\n\nBevor ihr Schaden zufügt, darf die Offensive alle eigenen Trägerflotten im Kampfsektor dazu nutzen, um dort je 1 Korvettenflotte einzusetzen. Diese Korvettenflotten nehmen sofort am Kampf und der Annäherung teil. Die Korvettenflotten verbleiben im Kampfsektor, auch falls ihr die Träger bei der Annäherung zurückruft.\n\nOffensive und Defensive fügen **gleichzeitig** Annäherungsschaden zu.\nAls **Defensive** kannst du **Annäherungsschaden** zufügen:\n- Füge pro präsenter, eigener **Verteidigungsanlage** und **Sternenbasis** je 1 Schaden zu.\n- Füge pro präsenter eigener **Wächterflotte** je 1 Schaden zu.\n- Hast du **Fortschrittliche Weltraumgeschosse** erforscht und 1 oder mind. 2 zum Kampfsektor benachbarte Sektoren mit **Werft** oder **Sternenbasis**, füge entsprechend 1 oder 2 Schaden zu.\n- Hast du die **Basistechnologie** oder **Fortschrittliche Energiezellen** erforscht, füge 1 zusätzlichen Schaden zu, falls du in dieser Annäherung zuvor Schaden zugefügt hast (auch bei Absorption dessen).\n\nGefallene Häuser haben 2 Verteidigungsanlagen. Dringt ihr in einen Sektor Gefallener Häuser ein, fügen sie bei der Annäherung wie üblich Schaden zu. Überlebst du diese als Offensive mit mind. 1 Flotte, kapituliert das Gefallene Haus. Es schließt sich dir dankbar an und gewährt dir Vorteile (siehe S. 26).",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Kampf",
+        "Detail",
+        "Annäherung",
+        "Schaden",
+        "Anleitung S. 35"
+      ],
+      "warnings": [],
+      "sort_order": 80130,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 35
+      }
+    },
+    {
+      "id": "kaempfe-im-detail-annaherung-offensive",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Annäherungsschaden als Offensive",
+      "image": null,
+      "summary": "Als **Offensive** kannst du **Annäherungsschaden** zufügen:\n- Hast du die **Fortschrittliche Schlächter** erforscht und ist mind. 1 deiner **Schlächterflotten** präsent, füge 1 Schaden zu.\n- Hast du die **Basistechnologie Weltraumgeschosse** erforscht, einen zum Kampfsektor benachbarten Sektor mit **Werft** oder **Sternenbasis** und zahlst **1 Energie**, füge 1 Schaden zu.\n- Hast du **Fortschrittliche Weltraumgeschosse** erforscht und 1 oder mind. 2 zum Kampfsektor benachbarte Sektoren mit **Werft** oder **Sternenbasis**, füge entsprechend 1 oder 2 Schaden zu.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Kampf",
+        "Detail",
+        "Annäherung",
+        "Offensive",
+        "Schaden",
+        "Anleitung S. 36"
+      ],
+      "warnings": [],
+      "sort_order": 80140,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 36
+      }
+    },
+    {
+      "id": "kaempfe-im-detail-annaherungsabsorption",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Annäherungsabsorption",
+      "image": null,
+      "summary": "Als **Defensive** kannst du **Annäherungsabsorption** erhalten:\n- Hast du **Fortschrittliche Schilde** erforscht und ist mind. 1 deiner **Korvettenflotten** präsent, erhalte 1 Absorption.\n\nAls **Offensive** kannst du **Annäherungsabsorption** erhalten:\n- Hast du **Fortschrittliche Schilde** erforscht und ist mind. 1 deiner **Korvettenflotten** präsent, erhalte 1 Absorption.\n- Erhalte pro präsenter, eigener **Schlächterflotte** 1 Absorption.\n- Hast du die **Basistechnologie oder Fortschrittliche Autonome Drohnen** erforscht und wirfst 1 **Handelsplättchen** ab, erhalte 1 Absorption.\n- Nutzt du die Aktion **Bombardieren** deines **Erhebungsfokus**, erhalte 1 Absorption pro **3 Material**, das du dafür zahlst.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Kampf",
+        "Detail",
+        "Annäherung",
+        "Absorption",
+        "Anleitung S. 36"
+      ],
+      "warnings": [],
+      "sort_order": 80150,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 36
+      }
+    },
+    {
+      "id": "kaempfe-im-detail-salven-initiative",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Salven – Initiative ermitteln",
+      "image": null,
+      "summary": "Ermittelt zu Beginn jeder Salve die **Initiative** beider Seiten:\n\n- Hat eine Seite **Fortschrittliche Zielerfassung** erforscht und ist mind. 1 eigene Flotte präsent, hat diese Seite **immer die höhere Initiative** (Garantierter Erstschuss unabhängig vom vorhandenen Flottentypen).\n- Erhöht pro präsenter, eigener **Korvetten-, Zerstörer-, Schlächter-** und **Trägerflotte** eure Initiative um je 1.\n- Erhöht eure Initiative um 1, falls mind. 1 eurer **Schlächterflotten** präsent ist.\n- Erhöhe als **Offensive** deine Initiative um 1, falls mind. 1 deiner **Zerstörerflotten** präsent ist.\n- Erhöhe als **Offensive** pro präsenter, eigener **Wächterflotte** deine Initiative um 1.\n- Habt ihr die **Basistechnologie Zielerfassung** erforscht, erhöht eure Initiative um 5, falls mind. 1 eurer **Korvettenflotten** präsent ist.\n- **Flotten der Leere** erhöhen (wie Korvettenflotten) die Initiative der Leere jeweils um 1.\n\nWer die **höhere Initiative** hat, fügt der anderen Seite **zuerst 1 Schaden** zu, falls diese noch eine Initiative von mind. 1 hat. Hat die Seite mit **niedrigerer Initiative danach** noch eine Initiative von mind. 1, fügt sie der anderen Seite **1 Schaden** zu. Haben beide Seiten die gleiche Initiative, fügt ihr **gleichzeitig 1 Schaden** zu.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Kampf",
+        "Detail",
+        "Salve",
+        "Initiative",
+        "Anleitung S. 36"
+      ],
+      "warnings": [],
+      "sort_order": 80160,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 36
+      }
+    },
+    {
+      "id": "kaempfe-im-detail-salvenschaden",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Zusätzlicher Salvenschaden",
+      "image": null,
+      "summary": "Als **Defensive** kannst du zusätzlichen **Salvenschaden** zufügen:\n- Hast du die **Basistechnologie Torpedos** erforscht und ist mind. 1 deiner **Korvettenflotten** präsent, füge in der **1. Salve** +1 Schaden zu.\n- Hast du **Fortschrittliche Torpedos** erforscht und ist mind. 1 deiner **Korvettenflotten** präsent, füge in **jeder Salve** +1 Schaden zu.\n\nAls **Offensive** kannst du zusätzlichen **Salvenschaden** zufügen:\n- Hast du die **Basistechnologie Torpedos** erforscht und ist mind. 1 deiner **Korvettenflotten** präsent, füge in der **1. Salve** +1 Schaden zu.\n- Hast du **Fortschrittliche Torpedos** erforscht und ist mind. 1 deiner **Korvettenflotten** präsent, füge in **jeder Salve** +1 Schaden zu.\n- Füge pro präsenter, eigener **Zerstörerflotte** in **einer Salve** +1 Schaden zu.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Kampf",
+        "Detail",
+        "Salve",
+        "Schaden",
+        "Anleitung S. 36"
+      ],
+      "warnings": [],
+      "sort_order": 80170,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 36
+      }
+    },
+    {
+      "id": "kaempfe-im-detail-salvenabsorption",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Salvenabsorption",
+      "image": null,
+      "summary": "Als **Defensive** kannst du **Salvenabsorption** erhalten (und im aktuellen Kampf je 1 Mal benutzen):\n- Hast du die **Basistechnologie oder Fortschrittliche Schilde** erforscht und ist mind. 1 deiner **Korvettenflotten** präsent, erhalte 1 Absorption.\n- Erhalte pro präsenter, eigener **Schlächterflotte** 1 Absorption.\n- Erhalte pro präsenter, eigener **Trägerflotte** 1 Absorption.\n\nAls **Offensive** kannst du **Salvenabsorption** erhalten (und im aktuellen Kampf je 1 Mal benutzen):\n- Hast du die **Basistechnologie oder Fortschrittliche Schilde** erforscht, erhalte 1 Absorption.\n- Hast du die **Basistechnologie Autonome Drohnen** erforscht und wirfst **1 Handelsplättchen** ab, erhalte 1 Absorption.\n- Hast du **Fortschrittliche Autonome Drohnen** erforscht und wirfst **1 Handelsplättchen** ab, erhalte 2 Absorption. Diese darfst du auf **mehrere Salven** verteilen.\n- Nutzt du die Aktion **Bombardieren** deines **Erhebungsfokus**, erhalte 1 Absorption pro **3 Material**, das du dafür zahlst.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Kampf",
+        "Detail",
+        "Salve",
+        "Absorption",
+        "Anleitung S. 36"
+      ],
+      "warnings": [],
+      "sort_order": 80180,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 36
+      }
+    },
+    {
+      "id": "flottentypen-uebersicht",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Flottentypen – Übersicht",
+      "image": null,
+      "summary": "Alle Flottentypen haben eigene Plättchen. Um andere Flotten als Korvetten einzusetzen, müsst ihr zunächst deren gleichnamige Technologien erforschen. Die fortschrittliche Version jeder Technologie macht die Flotten und ihre Eigenschaften effizienter.\n\n- **Korvette**: Salve: 1 Initiative pro Flotte. Limit: 3 Flotten pro Verband.\n- **Wächter**: Annäherung (Defensive): 1 Schaden pro Flotte. Salve (Offensive): 1 Initiative pro Flotte. Salve (Defensive): 0 Initiative. Limit: 3 Flotten pro Verband.\n- **Zerstörer**: Salve: 1 Initiative pro Flotte. Zusätzlich (Offensive): +1 Initiative (nicht pro Flotte). Limit: 3 Flotten pro Verband.\n- **Fortschrittlicher Zerstörer**: Annäherung (Offensive): 1 Schaden (nicht pro Flotte). Salve: 1 Initiative pro Flotte. Zusätzlich (Offensive): +1 Initiative (nicht pro Flotte) und (Einmal im Kampf) +1 Schaden pro Flotte. Limit: 3 Flotten pro Verband.\n- **Schlächter**: Salve: 1 Initiative pro Flotte. Zusätzlich: +1 Initiative (nicht pro Flotte). Limit: **1 Flotte** pro Verband.\n- **Fortschrittlicher Schlächter**: Annäherung (Offensive): 1 Absorption pro Flotte. Salve: 1 Initiative pro Flotte. Zusätzlich: +1 Initiative (nicht pro Flotte). Zusätzlich (Defensive): (Einmal im Kampf) +1 Absorption pro Flotte. Limit: 3 Flotten pro Verband.\n- **Träger**: Annäherung (Offensive): Setze 1 Korvettenflotte pro Trägerflotte zu Beginn der Annäherung ein. Salve: 1 Initiative pro Flotte. Limit: **1 Flotte** pro Verband.\n- **Fortschrittlicher Träger**: Annäherung (Offensive): Setze 1 Korvettenflotte pro Trägerflotte zu Beginn der Annäherung ein. Salve: 1 Initiative pro Flotte. Zusätzlich (Defensive): (Einmal im Kampf) +1 Absorption pro Flotte. Limit: 3 Flotten pro Verband.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Flotten",
+        "Typen",
+        "Werte",
+        "Anleitung S. 36"
+      ],
+      "warnings": [],
+      "sort_order": 80190,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 36
+      }
+    },
+    {
+      "id": "korvettenaufwertungen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Korvettenaufwertungen",
+      "image": null,
+      "summary": "Einige Technologien betreffen Kämpfe und werden hier aufgeführt. Es handelt sich um die Korvettenaufwertungen – **Zielerfassung**, **Schilde** und **Torpedos**. Ihre Effekte treten **1-mal** pro Korvettenflottenverband auf – unabhängig von der Flottenanzahl – und (bis auf **Fortschrittliche Zielerfassung**) nur, falls **mind. 1 Korvettenflottenverband** auf deiner Seite und präsent ist.\n\n- **Basistechnologie Zielerfassung**: Salve +5 Initiative.\n- **Fortschrittliche Zielerfassung**: Salve: Garantierter Erstschuss (unabhängig vom vorhandenen Flottentypen).\n- **Basistechnologie Schilde**: Salve 1 Absorption.\n- **Fortschrittliche Schilde**: Annäherung 1 Absorption. Salve 1 Absorption.\n- **Basistechnologie Torpedos**: Salve 1 Zusatzschaden bei der 1. Salve.\n- **Fortschrittliche Torpedos**: Salve 1 Zusatzschaden bei jeder Salve.",
+      "description": "",
+      "group": "kampf",
+      "timing": [],
+      "tags": [
+        "Korvetten",
+        "Aufwertung",
+        "Technologie",
+        "Anleitung S. 38"
+      ],
+      "warnings": [],
+      "sort_order": 80200,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 38
+      }
+    },
+    {
+      "id": "zivilisationsleisten",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Zivilisationsleisten und -stufen",
+      "image": null,
+      "summary": "Ihr habt 3 Zivilisationsleisten auf euren Haustableaus: **Gesellschaft, Staatsführung** und **Wirtschaft**.\n\nSchreitet ihr auf einer dieser Leisten voran, müsst ihr den entsprechenden Marker um 1 Feld nach rechts versetzen. Dann erhaltet ihr sofort die auf dem neuen Feld abgebildete Belohnung. Jedes Haus hat einzigartige Zivilisationsleistenbelohnungen. Die meisten gleichen den Effekten eurer Fokuskartenaktionen.\n\nJede Leiste hat **5 Stufen**. Euer Marker gibt eure aktuelle Stufe der entsprechenden Leiste an. Die ersten 3 Felder entsprechen Stufe 0, die nächsten 2 Felder Stufe I und die letzten 3 Felder jeweils der Stufe II, III und IV.\n\nDie Stufen jeder einzelnen Leiste sind unabhängig voneinander. Um bestimmte Stufen zu erreichen, müsst ihr bestimmte Voraussetzungen erfüllen und sie gewähren euch individuelle Vorteile.\n- Erreicht ihr **Stufe I** und **II**, könnt ihr mehr Fortschrittliche Technologien erforschen. Pro Zivilisationsleiste mit mind. Stufe I je 1 mehr. Pro Zivilisationsleiste mit mind. Stufe II stattdessen 2.\n- Um zu **Stufe III** und **IV** voranzuschreiten, müsst ihr zunächst die angegebene Anzahl (1 bzw. 2) an Flotten **deaktivieren**. Könnt ihr diese Kosten **vor** dem Voranschreiten nicht zahlen, könnt ihr **nicht** voranschreiten.\n\nHabt ihr mit einem Marker Stufe IV einer Zivilisationsleiste erreicht, könnt ihr auf dieser Leiste nicht weiter voranschreiten.",
+      "description": "",
+      "group": "fortschritt",
+      "timing": [],
+      "tags": [
+        "Zivilisationsleiste",
+        "Stufe",
+        "Anleitung S. 28"
+      ],
+      "warnings": [],
+      "sort_order": 90010,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 28
+      }
+    },
+    {
+      "id": "zivilisationsleisten-symbole",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Zivilisationsleisten-Symbole und Verderbnis",
+      "image": null,
+      "summary": "Schreitet ihr auf ein Feld mit einem Pfeil-Symbol (>>>>) voran, dürft ihr den Marker sofort um 1 weiteres Feld nach rechts versetzen und erhaltet auch dessen Belohnung. Ihr müsst trotzdem die Kosten von Stufe III und IV zahlen, falls ihr auf diese voranschreiten wollt.\n\nZivilisationsleisten ohne Verderbnismarker sind **rein**.\nZivilisationsleisten mit Verderbnismarker sind **verderbt**. Ihr könnt auf diesen wie üblich voranschreiten, aber erhaltet **keine ihrer Belohnungen mehr** (auch das Überspringen von Feldern). Trotzdem dürft ihr ab Stufe I und II wie üblich mehr Fortschrittliche Technologien erforschen. Um Stufe III und IV zu erreichen, müsst ihr wie üblich 1 bzw. 2 Flotten deaktivieren.",
+      "description": "",
+      "group": "fortschritt",
+      "timing": [],
+      "tags": [
+        "Zivilisationsleiste",
+        "Verderbnis",
+        "Anleitung S. 29"
+      ],
+      "warnings": [],
+      "sort_order": 90030,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 29
+      }
+    },
+    {
+      "id": "verderbnis",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Verderbnis",
+      "image": null,
+      "summary": "Verderbnis schadet euch auf mehrere Arten. Ihr könnt nur reine Bevölkerung verändern, erhaltet keine Belohnungen von verderbten Zivilisationsleisten, könnt keine Ziele von verderbten Agenden erfüllen und die meisten Agendaziele erfordern reine Objekte von euch.\n\nEinige Aktionen haben den Erhalt von Verderbnis als Kosten. Einige Effekte gestatten es euch, Verderbnis zu versetzen oder zu entfernen.\n\n**Erhältst** du 1 Verderbnis, nimm 1 aus dem allgemeinen Vorrat und platziere sie bei einer der folgenden Optionen:\n- **A)** Platziere sie in einem deiner reinen (nicht verderbnisresistenten) **Sektoren** (z.B. sind Heimatsektoren verderbnisresistent). Alle Sektoren können max. 1 Verderbnis enthalten.\n- **B)** Platziere sie oberhalb von einem der 3 rechten **Agendafelder**. Du kannst allen Agendafeldern (außer der Startagenda) max. 1 Verderbnis zuordnen.\n- **C)** Platziere sie auf einem deiner 3 **Zivilisationsleistenmarker**. Alle Zivilisationsleisten können jeweils max. 1 Verderbnis enthalten.\n- **D)** Hast du die Technologie **Dekontaminationskammern** erforscht, darfst du sie darauf platzieren. Die Technologie selbst wird dadurch nicht verderbt. Als Basistechnologie gewährt sie dir 2 Verderbnisfelder, als Fortschrittliche Technologie 3 Verderbnisfelder.",
+      "description": "Kannst du keine zulässige Option verderben, kannst du die Kosten nicht zahlen. Die erfolgreiche Übernahme eines leereberührten Sektors gilt nicht als Erhalt von Verderbnis. Die Verderbnis verbleibt nur in dem Sektor.",
+      "group": "fortschritt",
+      "timing": [],
+      "tags": [
+        "Verderbnis",
+        "Anleitung S. 29"
+      ],
+      "warnings": [],
+      "sort_order": 90040,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 29
+      }
+    },
+    {
+      "id": "verderbnis-versetzen-entfernen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Verderbnis versetzen und entfernen",
+      "image": null,
+      "summary": "Um 1 Verderbnis zu **versetzen**, musst du sie von einer dieser Optionen nehmen und auf einer anderen zulässigen Option platzieren. Hast du keine Verderbnis, kannst du dies nicht tun.\n\nUm 1 Verderbnis zu **entfernen**, musst du sie von einer dieser Optionen nehmen und in den allgemeinen Vorrat zurücklegen. Hast du keine Verderbnis, kannst du dies nicht tun.",
+      "description": "Es gibt besondere Effekte von Galaktischen Ereignissen, die euch dazu auffordern, Verderbnis bei bestimmten Optionen zu platzieren. Ihr könnt die Verderbnis stattdessen nicht irgendwo anders platzieren (nicht einmal auf die Technologie Dekontaminationskammern). Befindet sich dort schon Verderbnis, ignoriere den Effekt.",
+      "group": "fortschritt",
+      "timing": [],
+      "tags": [
+        "Verderbnis",
+        "Versetzen",
+        "Entfernen",
+        "Anleitung S. 30"
+      ],
+      "warnings": [],
+      "sort_order": 90050,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 30
+      }
+    },
+    {
+      "id": "handelsplaettchen",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Handelsplättchen",
+      "image": null,
+      "summary": "Erhaltet ihr 1 Handelsplättchen, nehmt das unterste vom Galaxietableau. Erhaltet außerdem die Belohnung rechts vom entsprechenden Feld oder 1 der Felder **darunter**. Dieser Handelsbonus repräsentiert die Folgen des gesteigerten Handels zwischen den Menschen, die nicht unter dem Einfluss der Leere stehen. Beim Aufräumen am Ende eures Zugs müsst ihr das Handelsplättchen entweder auf ein freies Handelsfeld eurer Agenden oder zurück auf das Galaxietableau legen. Zu diesem Zeitpunkt dürft ihr eure Handelsplättchen beliebig zwischen zulässigen Feldern austauschen oder verschieben.\n\nHandelsplättchen sind limitiert. Sind keine auf dem Galaxietableau, könnt ihr keine Handelsplättchen oder -boni erhalten.",
+      "description": "Beim Auswählen in der Fokusphase nutzt ihr Handelsplättchen vor allem dazu, sie bei der Wahl eines Fokus umzudrehen, um alle 3 Aktionen auf ihm beim Agieren zu nutzen. Umgedrehte Handelsplättchen legt ihr beim Aufräumen auf das Galaxietableau zurück. Dreht sie dabei wieder auf die Rückseite. Beim Agieren in der Aktionsphase könnt ihr Handelsplättchen **nicht** umdrehen (z.B. in diesem Zug erhaltene). Falls ihr wegen Kosten 1 Handelsplättchen abgeben müsst, müsst ihr 1 auswählen, das nicht umgedreht ist und es sofort auf das Galaxietableau zurücklegen.\n\nBeim Zurücklegen von Handelsplättchen auf das Galaxietableau gelten folgende Regeln:\n- **Spielt ihr allein oder zu zweit:** Legt es auf das oberste freie Feld.\n- **Spielt ihr zu dritt oder zu viert:** Legt es auf das unterste vorhandene Handelsplättchen, falls dieses einzeln liegt. Legt es ansonsten auf das oberste freie Feld.",
+      "group": "fortschritt",
+      "timing": [],
+      "tags": [
+        "Handelsplättchen",
+        "Anleitung S. 30"
+      ],
+      "warnings": [],
+      "sort_order": 90060,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 30
+      }
+    },
+    {
+      "id": "technologien",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Technologien",
+      "image": null,
+      "summary": "Alle Technologien enthalten folgende Informationen: Name, Symbol (Basis oder Fortschrittlich), Einflussbonus, sofortiger Effekt, permanente Eigenschaft.\n\nDie Eigenschaft einer Fortschrittlichen Technologie ist immer besser als die der Basistechnologie.",
+      "description": "Wie bei Fokuskarten und Galaktischen Ereignissen dürft ihr auch die Vorteile von Technologien (partiell) ignorieren. Trotzdem müsst ihr ihre Kosten zahlen, um auch nur Teileffekte von ihnen zu nutzen.\n\n**Erforscht ihr eine Basistechnologie**, nehmt die oberste verfügbare Karte dieser Technologie aus der Technologieauslage. Führt ihren sofortigen Effekt aus und erhaltet die angegebenen Einflusspunkte (0 oder 4). Legt Technologien auf ein freies Feld oberhalb eures Haustableaus an. Ihr könnt keine Technologie erforschen, die ihr bereits erforscht habt. Ihr könnt im Verlauf der Partie jedoch bereits erforschte Basistechnologien verbessern.\n\nEuer **Technologielimit beträgt 5** (samt der Starttechnologie). Sobald ihr 5 Technologien habt, könnt ihr vorerst keine weiteren erforschen. Das Technologielimit steigt auf 6, falls ihr erfolgreich den Sektor eines Gefallenen Hauses übernehmt.\n\n**Erforscht du eine Fortschrittliche Technologie**, musst du darauf achten, dass sie verfügbar ist, du die entsprechende Basistechnologie erforscht und noch nicht das Limit Fortschrittlicher Technologien erreicht hast. Eine Fortschrittliche Technologie ist verfügbar, falls die entsprechende Karte entweder deine Starttechnologie ist oder ohne Fortschrittsbarriere auf dem Galaxietableau ausliegt.\n\n**Wichtig:** Im 1. Zyklus werden die Fortschrittlichen Technologien von der Fortschrittsbarriere blockiert. Erst ab dem 2. Zyklus könnt ihr diese erforschen. Im 1. Zyklus stehen euch nur die zur Verfügung, die neben eurem Haustableau ausliegen.\n\nZu Beginn einer Partie beträgt euer **Limit** für Fortschrittliche Technologien **0. Jede** Zivilisationsleiste mit mind. Stufe I fügt 1 hinzu. **Jede** Zivilisationsleiste mit mind. Stufe II **noch 1 mehr**.\n\nHabt ihr euer Limit noch nicht erreicht, nehmt euch die verfügbare Fortschrittliche Technologie und ersetzt mit ihr die entsprechende Basistechnologie. Legt die Basistechnologie in die Schachtel zurück und erhaltet 6 Einflusspunkte. Führt dann den sofortigen Effekt aus (falls vorhanden).",
+      "group": "fortschritt",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Basistechnologie",
+        "Fortschrittlich",
+        "Anleitung S. 31"
+      ],
+      "warnings": [],
+      "sort_order": 90070,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 31
+      }
+    },
+    {
+      "id": "agenden",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Agenden",
+      "image": null,
+      "summary": "**Erhaltet ihr eine Agenda**, tut Folgendes:\n1. Wählt 1 der 4 Agendaarten aus: **Dominanz, Reichtum, Macht** oder **Unterstützung**.\n2. Wählt 1 von 2 Optionen:\n   - **A)** Nimm 1 der Agenden der entsprechenden Art aus der Auslage auf die Hand. Fülle danach die Auslage mit 1 Agenda derselben Art vom Stapel wieder auf.\n   - **B)** Ziehe die 2 obersten Agenden vom passenden Stapel, wähle 1 davon aus und nimm diese **auf die Hand**. Lege die andere unter den Stapel zurück.",
+      "description": "Die Symbole rechts auf dem Agendatableau weisen euch darauf hin, was Agendaziele dieser Art typischerweise erfordern. Sollte der Stapel und die Auslage einer Agendaart leer sein, könnt ihr keine Agenden dieser Art mehr erhalten. Ihr dürft beliebig viele Agenden auf der Hand haben.\n\nEine Agenda auf eurer Hand legt ihr **nicht** sofort an eure Haustableaus an (anders als Technologien). Ihr spielt sie stattdessen beim Auswählen in der folgenden Fokusphase aus (siehe S. 9) und könnt dann die Agendaaktion nutzen.\n\nHabt ihr beim Auswählen eine Agenda ausgespielt, dürft ihr beim Aufräumen die ausgespielte Agenda an eines der 3 rechten Agendafelder eures Haustableaus anlegen. **Ganz links** liegt immer eure **Startagenda**. Dort könnt ihr nie eine andere Agenda anlegen. Außerdem können Agenden der gleichen Art nie auf unterschiedlichen Feldern liegen.\n\nAgenden an eurem Haustableau gelten als **im Spiel**.\n- Agenden sind **rein**, solange keine Verderbnis auf ihnen liegt.\n- Sobald eine Verderbnis auf ihnen liegt, sind sie **verderbt**. Deine Startagenda kann nicht verderbt werden. Verderbte Agenden bringen dir **keine** Einflusspunkte ein.\n\nJede der Agendauslagen kann ebenfalls verderbt sein. Nehmt ihr eine Agenda von einer verderbten Auslage, erhaltet ihr **auch** die Verderbnis und müsst sie zu einer euch zur Verfügung stehenden Option eurer Wahl legen. Danach ist die Auslage wieder rein.",
+      "group": "fortschritt",
+      "timing": [],
+      "tags": [
+        "Agenda",
+        "Anleitung S. 32"
+      ],
+      "warnings": [],
+      "sort_order": 90080,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 32
+      }
+    },
+    {
+      "id": "bevorzugte-fokusse",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Bevorzugte Fokusse",
+      "image": null,
+      "summary": "Einige Effekte gewähren euch **1 Aktion** von einem eurer **bevorzugten** Fokusse. Diese müsst ihr nicht auf der Hand haben. Eure bevorzugten Fokusse findet ihr auf der rechten Seite eures Haustableaus. Die Kosten dieser Aktion müsst ihr wie üblich zahlen.\n\nSolch eine Fokusaktion zu nutzen, gilt **nicht** als Ausführen des Fokus. Dadurch löst ihr keine Eigenschaften aus, die das Ausführen bestimmter Fokusse erfordert. Das führt auch **nicht** dazu, dass ihr dieser Fokusaktion entsprechende Agenden ausspielen könnt. Ihr könnt auch **nicht** die zusätzliche Aktion von umgedrehten Handelsplättchen dabei nutzen.\n\nAuch eure bevorzugten Fokusse werden durch die Änderungen **eurer Hausfokuskarten** beeinflusst. Nutzt sie, wie auf diesen angegeben und nicht wie üblich.",
+      "description": "",
+      "group": "fortschritt",
+      "timing": [],
+      "tags": [
+        "Fokus",
+        "Bevorzugt",
+        "Anleitung S. 32"
+      ],
+      "warnings": [],
+      "sort_order": 90090,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 32
+      }
+    }
+  ]
+}
