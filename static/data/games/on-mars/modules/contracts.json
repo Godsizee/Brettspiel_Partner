@@ -16,7 +16,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "blau"
     },
     {
       "id": "contract_blue_02",
@@ -34,7 +35,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "blau"
     },
     {
       "id": "contract_blue_03",
@@ -52,7 +54,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "blau"
     },
     {
       "id": "contract_blue_04",
@@ -70,7 +73,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "blau"
     },
     {
       "id": "contract_blue_05",
@@ -88,7 +92,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "blau"
     },
     {
       "id": "contract_blue_06",
@@ -106,7 +111,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "blau"
     },
     {
       "id": "contract_green_01",
@@ -124,7 +130,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "gruen"
     },
     {
       "id": "contract_green_02",
@@ -142,7 +149,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "gruen"
     },
     {
       "id": "contract_green_03",
@@ -160,7 +168,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "gruen"
     },
     {
       "id": "contract_green_04",
@@ -178,7 +187,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "gruen"
     },
     {
       "id": "contract_green_05",
@@ -196,7 +206,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "gruen"
     },
     {
       "id": "contract_green_06",
@@ -214,7 +225,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "gruen"
     },
     {
       "id": "contract_orange_01",
@@ -232,7 +244,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "orange"
     },
     {
       "id": "contract_orange_02",
@@ -250,7 +263,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "orange"
     },
     {
       "id": "contract_orange_03",
@@ -268,7 +282,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "orange"
     },
     {
       "id": "contract_orange_04",
@@ -286,7 +301,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "orange"
     },
     {
       "id": "contract_orange_05",
@@ -304,7 +320,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "orange"
     },
     {
       "id": "contract_orange_06",
@@ -322,7 +339,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "orange"
     },
     {
       "id": "contract_turquoise_01",
@@ -340,7 +358,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "tuerkis"
     },
     {
       "id": "contract_turquoise_02",
@@ -358,7 +377,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "tuerkis"
     },
     {
       "id": "contract_turquoise_03",
@@ -376,7 +396,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "tuerkis"
     },
     {
       "id": "contract_turquoise_04",
@@ -394,7 +415,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "tuerkis"
     },
     {
       "id": "contract_turquoise_05",
@@ -412,7 +434,8 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "tuerkis"
     },
     {
       "id": "contract_turquoise_06",
@@ -430,7 +453,30 @@
       "source": {
         "document": "Referenzhandbuch",
         "page": null
-      }
+      },
+      "group": "tuerkis"
+    }
+  ],
+  "groups": [
+    {
+      "id": "blau",
+      "title": "Blau",
+      "order": 10
+    },
+    {
+      "id": "gruen",
+      "title": "Grün",
+      "order": 20
+    },
+    {
+      "id": "orange",
+      "title": "Orange",
+      "order": 30
+    },
+    {
+      "id": "tuerkis",
+      "title": "Türkis",
+      "order": 40
     }
   ]
 }

@@ -1,0 +1,438 @@
+{
+  "groups": [
+    { "id": "ueberblick", "title": "Überblick & Spielziel", "description": "Worum es in **On Mars** geht: eine autarke Kolonie aufbauen, im ständigen Wechsel zwischen Orbitalstation und Marsoberfläche.", "order": 10 },
+    { "id": "aufbau", "title": "Spielaufbau", "description": "Aufbau von Orbitseite, Kolonieseite und LSS sowie die Spielervorbereitung.", "order": 20 },
+    { "id": "spielertableau", "title": "Spielertableau & LSS", "description": "Die Bereiche deines Tableaus (Lager, Labor, Wohnbereich, Arbeitsbereich, Depot, Hangar) und das Lebenserhaltungssystem der Kolonie.", "order": 30 },
+    { "id": "ablauf", "title": "Rundenablauf", "description": "Eine Runde besteht aus **Kolonisierungsphase** (jeder Spieler macht einen Zug) und **Shuttlephase** (Reise zwischen Orbit und Oberfläche).", "order": 40 },
+    { "id": "orbit_aktionen", "title": "Aktionen der Orbitalstation", "description": "Diese Hauptaktionen stehen dir zur Verfügung, solange dein Spielermarker auf der **Orbitseite** steht.", "order": 50 },
+    { "id": "kolonie_aktionen", "title": "Aktionen der Kolonie", "description": "Diese Hauptaktionen stehen dir zur Verfügung, solange dein Spielermarker auf der **Kolonieseite** steht.", "order": 60 },
+    { "id": "erlaeuterungen", "title": "Wichtige Erläuterungen", "description": "Querschnittsregeln: Vorrat, Komplexe, Kristalle, Verdrängung, Sonderaktionen, Verträge, Missionen und Privatziele.", "order": 70 },
+    { "id": "spielende", "title": "Spielende", "description": "Wann das Spiel endet und wie gewertet wird (Details im Modul **Wertung**).", "order": 80 },
+    { "id": "varianten", "title": "Varianten", "description": "2-Spieler-Anpassungen, Erste-Kolonisten-Variante und Space-Oddity-Variante.", "order": 90 }
+  ],
+  "entries": [
+    {
+      "id": "regel-spielziel",
+      "name": "Spielziel & Sieg",
+      "summary": "Baue an der ersten autarken Marskolonie mit und sammle dabei Gelegenheitspunkte (GP) – wer am Ende die meisten GP hat, gewinnt.",
+      "description": "Als Chefastronaut eines privaten Forschungsunternehmens hilfst du beim Aufbau der ersten Kolonie auf dem Mars. Deinen Beitrag misst das Spiel in **Gelegenheitspunkten (GP)**.\n\nWährend der Partie versuchen alle Spieler gemeinsam, Missionen zu erfüllen. Sobald insgesamt drei Missionen erfüllt wurden (bei hohem Kolonielevel auch weniger), wird das Spielende eingeleitet. Der Spieler mit den meisten GP gewinnt.",
+      "group": "ueberblick",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-zwei-welten",
+      "name": "Zwei Spielbereiche: Orbit & Kolonie",
+      "summary": "Im Orbit besorgst du Baupläne, Technologien und Nachschub – auf der Oberfläche baust du Gebäude, wertest sie auf und erforschst den Planeten.",
+      "description": "Der Spielplan ist zweigeteilt: Links liegt die **Raumstation im Orbit**, der Rest zeigt die **Kolonie** auf der Planetenoberfläche.\n\nWelche Aktionen dir zur Verfügung stehen, hängt davon ab, auf welcher Seite sich dein Spielermarker gerade befindet:\n\n- **Orbit:** Baupläne nehmen, Technologien kaufen und entwickeln, Vorräte aus dem Warenlager holen.\n- **Kolonie:** Mit Bots Gebäude bauen, Gebäude mit Bauplänen aufwerten, Wissenschaftler und Verträge nehmen, Schiffe empfangen, mit dem Rover die Oberfläche erforschen.\n\nIn der Shuttlephase kannst du die Seite wechseln.",
+      "group": "ueberblick",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-abhaengigkeitskette",
+      "name": "Die Abhängigkeitskette der Kolonie",
+      "summary": "Unterkünfte brauchen Sauerstoff, Sauerstoff braucht Pflanzen, Pflanzen brauchen Wasser, Wasser braucht Energie, Energie braucht Mineralien – und Mineralien brauchen Kolonisten.",
+      "description": "Alle Gebäude auf dem Mars hängen voneinander ab:\n\n**Kolonisten → Mineralien (Minen) → Energie (Generatoren) → Wasser (Wasserextraktoren) → Pflanzen (Gewächshäuser) → Sauerstoff (Sauerstoffkondensatoren) → Unterkünfte**\n\nDiese Kette spiegelt sich auf deinem Spielertableau: Die Ressource links von einem Pfeil ist nötig, um das Gebäude rechts vom Pfeil zu bauen. Die Fähigkeit der Kolonie, diese Materialien zu produzieren, entscheidet über ihr Wachstum – und liefert dir laufend Punkte und Boni.",
+      "group": "ueberblick",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-aufbau-orbit",
+      "name": "Orbitseite aufbauen",
+      "summary": "Entdeckungsplättchen, Warenlager, Techbereich und Bauplan-Auslage werden vorbereitet.",
+      "description": "1. **Entdeckungsplättchen** mischen, verdeckt stapeln; die 2 obersten offen auf das Erkundungsfeld legen.\n2. **Warenlager** befüllen: je 3 Kristalle, Batterien, Wasser, Pflanzen und Sauerstoff (im 2-Spieler-Spiel je 2).\n3. **Techplättchen:** Die Unterkunfts-Plättchen beiseitelegen. Die übrigen nach Rückseitenfarbe in zwei Sätze trennen, einen Satz mischen und je ein Plättchen offen in die Felder des Techbereichs legen; die restlichen 8 als zwei verdeckte Stapel bereitlegen (2-Spieler: nur ein Satz, der zweite kommt aus dem Spiel).\n4. **Baupläne** nach Level trennen (Level 1 blau, Level 3 orange), einzeln mischen und als einen Stapel bereitlegen (Level 1 oben). Die obersten 6 Karten offen als Auslage auslegen.",
+      "group": "aufbau",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-aufbau-kolonie",
+      "name": "Kolonieseite aufbauen",
+      "summary": "Wissenschaftler, Erdenverträge, Startgebäude, Forschungsplättchen und Missionen kommen auf bzw. neben den Plan.",
+      "description": "1. **Wissenschaftlertableau** bereitlegen; die 6 Wissenschaftlerkarten in fester Reihenfolge (Geologe, F&E-Ingenieur, Hydrologe, Biochemiker, Geochemiker, Systemingenieur) auf die Felder legen, Marker darauf.\n2. **Erdenverträge** als verdeckten Stapel daneben legen (nicht mischen nötig).\n3. **Startmine** (S auf der Rückseite) auf das markierte Zentrumsfeld, die übrigen Startgebäude zufällig auf die markierten Hexfelder – alle gleich ausgerichtet.\n4. **Gebäudeplättchenhalter** befüllen: restliche Gebäude nach Typ sortiert, gemischt, Bild nach unten.\n5. **Forschungsplättchen** nach Typ sortiert offen auf die markierten Hexfelder legen.\n6. **Missionskarten:** je nach kurzem/langem Spiel 2 kurze + 1 lange bzw. 1 kurze + 2 lange zufällig bestimmen, offen auslegen; Missionsmarker zur zugehörigen Aktion, Missionsanzeigewürfel auf das Feld der Spieleranzahl, Verbleibende-Missionen-Marker auf Feld 3.\n7. Kristalle und Ressourcen als **allgemeinen Vorrat** bereitlegen.",
+      "group": "aufbau",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-aufbau-lss",
+      "name": "LSS aufbauen",
+      "summary": "Kolonielevelmarker auf Reihe 2, LSS-Anzeigemarker in Reihe 1, vier zufällige LSS-Belohnungsplättchen oben auflegen.",
+      "description": "1. Den **Kolonielevelmarker** ganz links in die zweite Reihe legen (Kolonielevel 1).\n2. Die 4 **LSS-Anzeigemarker** in die entsprechenden Felder der untersten Reihe legen.\n3. Die **LSS-Belohnungsplättchen** mischen und 4 zufällige offen in die oberen Felder legen; der Rest kommt zurück in die Schachtel.",
+      "group": "aufbau",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-spielervorbereitung",
+      "name": "Spielervorbereitung",
+      "summary": "Jeder Spieler erhält Tableau, Marker, Startressourcen, Schiffe, Unterkünfte, Bots, Kolonisten, Rover, Fortschrittswürfel und 3 Privatziele.",
+      "description": "Jeder Spieler wählt eine Farbe und erhält:\n\n- 1 **Spielertableau**, 1 Spielermarker, 1 GP-Marker (auf Feld 0).\n- Je 1 **Ressource** jeden Typs ins Lager, 1 **Kristall** ins Depot.\n- 1 **Unterkunfts-Techplättchen** auf das mittlere Feld der zweiten Laborspalte.\n- 5 **Schiffe** auf die oberen 5 Depotfelder.\n- 5 **Unterkünfte**: 4 aufs Tableau, 1 auf eine Startposition auf dem Plan (abhängig von der Spieleranzahl).\n- 4 **Bots**: 3 neben das Tableau, 1 auf die eigene Unterkunft auf dem Plan.\n- 8 **Gebäudefortschritt-Marker** und 12 **Kolonisten** (3 in den Wohnbereich, 9 daneben) sowie 1 **Rover** neben das Tableau.\n- 5 **Fortschrittswürfel**, je einer unter jede Ressource.\n- 3 **Privatzielkarten** (geheim halten; Rest zurück in die Schachtel).\n\nDanach stellt jeder Spieler reihum seinen Spielermarker auf ein freies Feld der **Reihenfolgeleiste** und erhält sofort den Bonus des Feldes. Der Spieler auf dem höchstnummerierten Feld stellt das Shuttle auf eines der roten Reisefelder (Orbit- oder Kolonieseite, freie Wahl).",
+      "group": "aufbau",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-tableau-lager",
+      "name": "A. Lager",
+      "summary": "Hier lagern deine Ressourcen; die Kapazität pro Typ ist die Anzahl deiner Unterkünfte auf dem Plan plus eins.",
+      "description": "Im Lager liegen deine fünf Ressourcen: **Mineralien, Batterien (Energie), Wasser, Pflanzen und Sauerstoff**.\n\n- Kapazität pro Ressourcentyp = Anzahl deiner Unterkunftsplättchen auf dem Spielplan **+ 1**.\n- Die Reihenfolge auf dem Tableau ist wichtig: Die Ressource links eines Pfeils wird benötigt, um das Gebäude rechts des Pfeils zu bauen (z. B. Energie für den Wasserextraktor, Wasser für das Gewächshaus).\n\n**Mineralien** sind besonders flexibel: Sie können anstelle jeder anderen Ressource (außer Kristallen) eingesetzt werden – nur nicht beim Erfüllen von Erdenverträgen.",
+      "group": "spielertableau",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-tableau-labor",
+      "name": "B. Labor",
+      "summary": "Hier platzierst und entwickelst du deine Techplättchen.",
+      "description": "Im Labor liegen deine erlernten **Techplättchen**. Durch die Aktion *Forschung & Entwicklung* schiebst du sie spaltenweise nach rechts – je weiter rechts, desto höher der Technologielevel und desto mehr GP am Spielende (Zahl unter der Spalte).",
+      "group": "spielertableau",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-tableau-wohnbereich",
+      "name": "C. Wohnbereich",
+      "summary": "Heimat deiner Kolonisten – zu Beginn 4 Plätze, +2 je gebauter Unterkunft.",
+      "description": "Hierhin kommen deine Kolonisten. Zu Spielbeginn hast du Platz für 4 Kolonisten (3 Felder belegt). Für jede gebaute Unterkunft erhältst du 2 zusätzliche Felder.\n\nKolonisten, die wegen Platzmangels nicht in den Wohnbereich passen, kommen neben dein Spielertableau in deinen persönlichen Vorrat.",
+      "group": "spielertableau",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-tableau-arbeitsbereich",
+      "name": "D. Arbeitsbereich",
+      "summary": "Hierhin schickst du Kolonisten, um Aktionen zu verbessern – ohne Platzbegrenzung.",
+      "description": "In den Arbeitsbereich versetzt du Kolonisten, um bestimmte Aktionen zu **verbessern** (petrolfarbenes Kolonistensymbol) oder Zusatzkosten zu bezahlen. Es gibt keine Obergrenze für Kolonisten im Arbeitsbereich. Beim Reisen kehren sie in den Wohnbereich zurück.",
+      "group": "spielertableau",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-tableau-depot-hangar",
+      "name": "E. Depot & F. Hangar",
+      "summary": "Das Depot lagert Kristalle (anfangs nur 3 Plätze frei), der Hangar sammelt empfangene Privatschiffe.",
+      "description": "**Depot:** 8 Felder für Kristalle – zu Beginn blockieren deine 5 Schiffe aber 5 davon, du kannst also nur 3 Kristalle lagern. Neben den Depotfeldern sind deine **Sonderaktionen** abgebildet: Eine Aktion ist verfügbar, sobald kein Schiff mehr auf ihrem Feld steht.\n\n**Hangar:** Hierhin versetzt du mit der Aktion *Ein Schiff empfangen* deine Privatschiffe. Jedes Schiff im Hangar bringt am Spielende 3 GP, kann aber in der Shuttlephase abgegeben werden, um außerplanmäßig zu reisen.",
+      "group": "spielertableau",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-lss-kolonielevel",
+      "name": "LSS & Kolonielevel",
+      "summary": "Das LSS zählt die gebauten Gebäude je Typ und bestimmt den Kolonielevel – wer den aktuellen Bedarf deckt, bekommt Boni.",
+      "description": "Das **Lebenserhaltungssystem (LSS)** zeigt je Spalte, wie viele Gebäude eines Typs auf dem Plan stehen. Bei jedem gebauten Gebäudeplättchen wandert der Marker seiner Spalte ein Feld nach oben.\n\n- **Erstes Gebäude eines Typs** (Marker verlässt die unterste Reihe): Der Bauherr erhält 2 GP.\n- Stand der Marker vorher **unterhalb des Kolonielevelmarkers**, gibt es zusätzlich die GP des LSS-Belohnungsplättchens der Spalte und einen der oben links abgebildeten Boni.\n- Den Marker **über** den Kolonielevelmarker hinaus zu schieben bringt keinen Bonus – die Kolonie braucht diesen Gebäudetyp gerade nicht.\n\nDie Reihe des Kolonielevelmarkers ist der aktuelle **Kolonielevel**. Er bestimmt u. a., wie oft das Shuttle reist, wie viele Schiffe du empfangen darfst und wann sich das Spielende nähert. Sind alle Marker auf Höhe des Kolonielevelmarkers (oder höher), wird am Zugende der **Koloniestatus angepasst** (siehe Kolonie-Aktionen).",
+      "group": "spielertableau",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-rundenstruktur",
+      "name": "Rundenstruktur",
+      "summary": "Jede Runde: erst Kolonisierungsphase (alle Spieler ziehen in Reihenfolge), dann Shuttlephase (Reisen).",
+      "description": "Jede Runde besteht aus zwei Phasen:\n\n1. **Kolonisierungsphase:** In Spielerreihenfolge (Position der Marker auf der Reihenfolgeleiste, von Feld 1 bis Feld 8) macht jeder Spieler einen Zug: **1 Hauptaktion** plus optional **1 Sonderaktion** (vor oder nach der Hauptaktion). Danach legst du deinen Spielermarker hin.\n2. **Shuttlephase:** Das Shuttle rückt Richtung Spielplanmitte vor oder reist; anschließend entscheiden alle Spieler in Reihenfolge, ob sie mitreisen.\n\nTrägst du in deinem Zug etwas zu einer Missionskarte bei, erhältst du sofort die abgebildeten Kristalle.",
+      "group": "ablauf",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-roter-kolonist",
+      "name": "Roter Kolonist (Aktionsfelder)",
+      "summary": "Aktionen mit rotem Kolonistensymbol erfordern das Einsetzen eines Kolonisten; fremde Farben auf der Aktion kosten je 1 Kristall oder 1 Kolonisten.",
+      "description": "Das rote Kolonistensymbol oben auf einer Aktion bedeutet: Du musst einen Kolonisten aus deinem Wohnbereich auf ein Feld dieser Aktion stellen.\n\n- Stehen dort keine Kolonisten **anderer** Spieler, ist das kostenlos.\n- Sonst zahlst du **pro fremder Farbe** (nicht pro Figur!) 1 Kristall **oder** versetzt 1 Kolonisten aus deinem Wohnbereich in deinen Arbeitsbereich – beliebig kombinierbar.\n- Sind **alle Felder belegt**, entferne zuerst alle Kolonisten des Spielers mit den meisten Figuren dort (zurück in dessen Arbeitsbereich; das können deine eigenen sein), zahle dann die Kosten für die verbleibenden fremden Farben.\n\n**2-Spieler-Spiel:** Die Zusatzkosten betragen 1 Kristall/Kolonist für **jeden** bereits stehenden Kolonisten (eigene und fremde).\n\nAktionen ohne dieses Symbol führst du einfach ohne Einsetzen durch.",
+      "group": "ablauf",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-petrol-kolonist",
+      "name": "Petrolfarbener Kolonist (Aktion verbessern)",
+      "summary": "Mit diesem Symbol kannst du Kolonisten in den Arbeitsbereich schicken, um die Wirkung der Aktion zu verstärken.",
+      "description": "Das petrolfarbene Kolonistensymbol unten auf einer Aktion zeigt an, dass du einen oder mehrere Kolonisten in deinen **Arbeitsbereich** stellen darfst, um die Aktion zu verbessern (z. B. zusätzliche Waren beim Nachschub, zusätzliche Baupläne oder Entwicklungen).\n\nDie Kolonisten kehren erst zurück, wenn du reist. Details stehen bei den jeweiligen Aktionen.",
+      "group": "ablauf",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-kristall-symbol",
+      "name": "Kristall-Symbol an Aktionen",
+      "summary": "Aktionen mit Kristallsymbol lassen sich durch Bezahlen von Kristallen verstärken.",
+      "description": "Befindet sich ein Kristallsymbol unten an einer Aktion, kannst du die Aktion durch das Bezahlen von Kristallen verbessern – etwa zusätzliche Bewegungspunkte im Kontrollzentrum. Details stehen bei der jeweiligen Aktion.",
+      "group": "ablauf",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-shuttlephase",
+      "name": "Shuttlephase",
+      "summary": "Das Shuttle rückt vor oder reist; wer auf der Startseite steht, fliegt gratis mit – sonst kostet die Reise ein Schiff aus dem Hangar.",
+      "description": "Zu Beginn der Phase zieht das **Shuttle** entlang der Pfeile Richtung Spielplanmitte. Steht es bereits auf dem innersten roten Reisefeld (1), **reist** es stattdessen auf die gegenüberliegende Seite – auf das Reisefeld, das dem aktuellen Kolonielevel entspricht. Je autarker die Kolonie, desto seltener reist das Shuttle.\n\nDanach entscheiden alle Spieler in Reihenfolge, ob sie reisen:\n\n- Reist das Shuttle und dein Marker steht auf der Startseite, reist du **kostenlos** mit.\n- Andernfalls kannst du trotzdem reisen, musst dafür aber ein **Schiff aus deinem Hangar** abgeben (zurück in die Schachtel).\n- Reist du nicht, stelle deinen Marker wieder auf – ohne den Feldbonus erneut zu erhalten.",
+      "group": "ablauf",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-zur-kolonie-reisen",
+      "name": "Zur Kolonie reisen",
+      "summary": "Entdeckungsplättchen legen, Kolonisten zurückholen, dann ein Feld der Reihenfolgeleiste auf der Kolonieseite wählen.",
+      "description": "1. **Erkundung:** Lege 1 offenes Entdeckungsplättchen vom Erkundungsfeld auf ein leeres Feld genau 3 Felder von deinem Rover entfernt (ist der Rover noch nicht auf dem Plan, gilt die Startmine als Standort). Decke danach ein neues Plättchen auf. Gibt es kein gültiges Feld, entfällt beides.\n2. **Kolonisten zurückholen:** Alle deine Kolonisten von den Aktionsfeldern der Kolonieseite und aus deinem Arbeitsbereich kommen zurück in den Wohnbereich (Überschuss in den persönlichen Vorrat).\n3. **Reihenfolgeleiste:** Stelle deinen Spielermarker auf ein leeres Feld der Kolonieseite und erhalte ggf. den abgebildeten Bonus (Kosten müssen bezahlt werden, Boni können weitere Boni bringen).",
+      "group": "ablauf",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-in-den-orbit-reisen",
+      "name": "In den Orbit reisen (Produktion!)",
+      "summary": "Beim Reisen in den Orbit produzieren deine Fortschrittlichen Gebäude und Minen – dann Kolonisten zurückholen und Orbit-Feld wählen.",
+      "description": "1. **Produktion:** Jedes deiner Fortschrittlichen Gebäude produziert 1 Ressource seines Typs. Fortschrittliche Gebäude auf Unterkünften produzieren 1 Kristall, jeder Kolonist bzw. jedes Fortschrittliche Gebäude auf einer Mine 1 Mineral.\n2. **Kolonisten zurückholen:** Alle deine Kolonisten von der Orbitseite und aus dem Arbeitsbereich kommen in den Wohnbereich zurück (Überschuss in den persönlichen Vorrat).\n3. **Reihenfolgeleiste:** Stelle deinen Marker auf ein leeres Feld der Orbitseite und nutze ggf. den Feldbonus.",
+      "group": "ablauf",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-orbit-landungskapsel",
+      "name": "Landungskapsel (zur Kolonie reisen)",
+      "summary": "Reise außer der Reihe zur Kolonie – wie in der Shuttlephase, aber ohne Entdeckungsplättchen.",
+      "description": "Mit dieser Hauptaktion reist du sofort zur Kolonie. Befolge die Schritte von *Zur Kolonie reisen*, lasse aber Schritt 1 (Entdeckungsplättchen legen) weg. Nach der Wahl deines Feldes auf der Kolonieseite legst du deinen Spielermarker hin – dein Zug für diese Runde ist gemacht. Reist das Shuttle später in dieser Runde zur Oberfläche, kannst du normal darin mitreisen.\n\n*Landungen mit Kapseln sind langsam, gefährlich und einsam – aber manchmal deine beste Option.*",
+      "group": "orbit_aktionen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-orbit-tech-lernen",
+      "name": "Neue Technologie lernen",
+      "summary": "Nimm ein Techplättchen aus dem Techbereich in die linke Laborspalte; Kosten je nach Position (gratis / 1 Batterie / 1 Batterie + 1 Ressource).",
+      "description": "Nimm 1 Techplättchen aus dem Techbereich und lege es auf eines der beiden Felder der **linken Laborspalte** (sind beide belegt, ist die Aktion nicht möglich).\n\n**Kosten nach Position im Techbereich:**\n- Untere Felder: gratis\n- Mittlere Felder: 1 Batterie\n- Obere Felder: 1 Batterie + 1 Ressource deiner Wahl\n\nDu erhältst sofort den Bonus des Laborfeldes, auf das du das Plättchen legst. Techplättchen werden erst beim Erhöhen des Kolonielevels nachgefüllt.\n\n**Verbesserte Aktion:** Für 1 Kolonisten in den Arbeitsbereich darfst du ein zweites Plättchen nehmen (gleiche Regeln).\n\n*Hinweis: Jeder Spieler kann nur 1 Techplättchen jedes Typs besitzen.*",
+      "group": "orbit_aktionen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-orbit-bauplan",
+      "name": "Bauplan erwerben",
+      "summary": "Nimm eine Bauplankarte aus der Auslage, lege einen Gebäudefortschritt-Marker darauf und erhalte die abgebildete Ressource.",
+      "description": "Nimm 1 der offenen Bauplankarten aus der Auslage. Baupläne brauchst du später, um Gebäude aufzuwerten.\n\n- Lege die Karte offen vor dir ab und stelle einen deiner **Gebäudefortschritt-Marker** darauf. Ohne freien Marker kannst du keinen Bauplan nehmen.\n- Nimm die unten rechts abgebildete Ressource bzw. den Kristall.\n- Solange der Marker auf der Karte liegt, kann ihre Sonderaktion nicht genutzt werden – er wandert erst beim Aufwerten aufs Gebäude.\n\n**Verbesserte Aktion:** Für jeden Kolonisten, den du in den Arbeitsbereich versetzt, darfst du einen zusätzlichen Bauplan nehmen.",
+      "group": "orbit_aktionen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-orbit-fue",
+      "name": "Forschung und Entwicklung (F&E)",
+      "summary": "Entwickle Techplättchen im Labor nach rechts – ein Plättchen zweimal oder zwei Plättchen je einmal.",
+      "description": "Verschiebe Techplättchen in deinem Labor nach rechts, um sie zu entwickeln: entweder **1 Plättchen zweimal** oder **2 Plättchen je einmal** (jede Bewegung einzeln abhandeln).\n\n- Ziel ist ein angrenzendes, leeres Feld rechts der aktuellen Position; zahle die über der Zielspalte angegebenen Kosten.\n- Landet das Plättchen auf einem Feld mit Abbildung, erhältst du sofort den Bonus – erhaltene Ressourcen dürfen die zweite Entwicklung bezahlen.\n- Die Zahl über der Spalte ist der **Technologielevel**, die Zahl darunter der GP-Wert am Spielende.\n\n**Verbesserte Aktion:** Je Kolonist im Arbeitsbereich eine zusätzliche Entwicklung (auch mehrfach dasselbe Plättchen).",
+      "group": "orbit_aktionen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-orbit-tech-nutzen",
+      "name": "Techplättchen nutzen",
+      "summary": "Nutze eigene oder fremde Techplättchen; der Besitzer fremder Tech erhält 1 Sauerstoff oder eine Gratis-Entwicklung.",
+      "description": "An vielen Stellen im Spiel verstärkt ein passendes Techplättchen eine Aktion oder einen Bonus – je höher sein Level, desto größer der Effekt.\n\nDu darfst **jedes** Techplättchen nutzen, auch das eines Mitspielers. Nutzt du fremde Tech:\n\n- Der Besitzer erhält 1 **Sauerstoff** aus dem allgemeinen Vorrat (legt ihn oben auf sein Tableau).\n- Am Ende deines Zuges darf er stattdessen das genutzte Plättchen **gratis einmal entwickeln** (inklusive Feldbonus); dann gibt er den Sauerstoff zurück.",
+      "group": "orbit_aktionen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-orbit-nachschub",
+      "name": "Nachschub",
+      "summary": "Nimm 1 Ressource oder 1 Kristall aus dem Warenlager – pro eingesetztem Kolonisten 1 zusätzlich.",
+      "description": "Nimm 1 Ressource oder 1 Kristall aus dem **Warenlager** in dein Lager/Depot.\n\n**Verbesserte Aktion:** Für jeden Kolonisten, den du in den Arbeitsbereich stellst, nimmst du 1 zusätzliche Ware.\n\n*Erinnerung:* Deine Lagerkapazität (Ressourcen: Unterkünfte + 1 je Typ; Kristalle: freie Depotfelder) ist begrenzt – du kannst nichts nehmen, wofür du keinen Platz hast.",
+      "group": "orbit_aktionen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-kolonie-kontrollzentrum",
+      "name": "Kontrollzentrum (Bots & Rover)",
+      "summary": "2 Bewegungspunkte für Bots + 2 für den Rover; Kristalle kaufen Extrabewegung, der Rover sammelt Kristalle und Plättchen ein.",
+      "description": "Du erhältst **2 Bewegungspunkte für deine Bots** und **2 für deinen Rover**, frei kombinierbar in beliebiger Reihenfolge. Jeder Kristall aus deinem Depot kauft 1 zusätzlichen Bewegungspunkt; auch dein Rover-Techplättchen liefert Extrapunkte in Höhe seines Levels.\n\n- Bots und Rover dürfen belegte Felder **durchqueren**, aber nicht darauf enden.\n- **Bots:** Ihr Feld plus alle angrenzenden Felder bilden ihren **Baubereich**. Endet ein Bot auf einem Entdeckungs-/Forschungsplättchen, wird es zerstört; endet er auf einem Kristall, kommt dieser in den Vorrat.\n- **Rover:** Sammelt alle überquerten Kristalle ein (sie kommen unter dein Depot). Endet er auf einem Entdeckungs- oder Forschungsplättchen, darfst du es nehmen, wenn du kein gleiches Forschungsplättchen besitzt, alle Kosten zahlst und mindestens einen Teil des Bonus nutzen kannst.\n- Zu Spielbeginn gilt die **Startmine** als Standort deines Rovers.",
+      "group": "kolonie_aktionen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-kolonie-bauen",
+      "name": "Ein Gebäude bauen",
+      "summary": "Baue im Baubereich eines Bots: angrenzend an gleichen Typ (Tech nötig, Komplex) oder genau 2 Felder entfernt (ohne Tech).",
+      "description": "Platziere ein neues Gebäude **im Baubereich eines deiner Bots**:\n\n- **Angrenzend** an ein Gebäude gleichen Typs → bildet/vergrößert einen Komplex und erfordert ein passendes **Techplättchen**, dessen Level ≥ Gesamtzahl der verbundenen Gebäude ist (der ganze Komplex zählt, auch indirekt verbundene Gebäude).\n- **Genau 2 Hexfelder entfernt** von einem Gebäude gleichen Typs (und nicht angrenzend) → keine Tech nötig, kein Komplex.\n\n**Ablauf:** 1. Gebäude wählen (Vorratsplättchen oder unterste Unterkunft deines Tableaus). 2. Kosten laut Bauübersicht zahlen (Unterkunft: 1 Sauerstoff). 3. Plättchen ausgerichtet legen. 4. Zeigen Pfeile auf leere Nachbarfelder, dort je 1 Kristall aus dem Vorrat ablegen; dann Plättchen aufdecken. 5. Ressourcen des Gebäudetyps in Höhe der **neuen Komplexgröße** erhalten (alleinstehend: 1; Unterkunft: Kristalle statt Ressourcen).\n\n**Zusätzlich:** Beim ersten Bilden/Vergrößern eines Komplexes je Gebäudetyp versetzt du deinen **Fortschrittswürfel** in den Fortschrittsbereich (nicht bei alleinstehenden Gebäuden, nicht bei Unterkunfts-Komplexen). Nach dem Bau eines LSS-Gebäudes den passenden **LSS-Marker** hochziehen (ggf. LSS-Belohnungen).",
+      "group": "kolonie_aktionen",
+      "tags": ["regeln", "gebaeude"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-kolonie-minen",
+      "name": "Minen",
+      "summary": "Minen kosten keine Ressourcen, sondern einen Kolonisten als Minenarbeiter – er produziert bei jeder Orbitreise 1 Mineral.",
+      "description": "Minen sind **nicht** Teil des LSS und ihre Mineralien gibt es nicht im Warenlager. Sie werden wie andere Gebäude gebaut, aber statt Ressourcen zu zahlen, stellst du **1 Kolonisten aus deinem Wohnbereich** auf die neue Mine – ohne verfügbaren Kolonisten kein Minenbau.\n\n- Der Kolonist ist nun **Minenarbeiter** und produziert 1 Mineral, wann immer du in den Orbit reist.\n- Minen-Komplexe erlauben wie üblich das Versetzen eines Fortschrittswürfels.\n- Eine Mine gehört keinem Spieler: Jeder darf eine Mine aufwerten, auch mit fremdem Kolonisten darauf.",
+      "group": "kolonie_aktionen",
+      "tags": ["regeln", "gebaeude", "mine"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-kolonie-aufwerten",
+      "name": "Ein Gebäude aufwerten",
+      "summary": "Nutze einen Bauplan + 1 Mineral, um ein Gebäude im Baubereich eines Bots zum Fortschrittlichen Gebäude zu machen.",
+      "description": "Werte mit einem zuvor erworbenen **Bauplan** ein Gebäude im Baubereich eines deiner Bots zum **Fortschrittlichen Gebäude** auf.\n\n- Jedes Gebäude nur einmal aufwertbar, jeder Bauplan nur einmal nutzbar.\n- **Level-1-Bauplan:** jedes passende Gebäude. **Level-3-Bauplan:** nur Gebäude in einem Komplex der Größe ≥ 3.\n- Unterkünfte: nur deine eigenen.\n\n**Ablauf:** 1. Bauplan + passendes Gebäude wählen. 2. **1 Mineral** zahlen. 3. Gebäudefortschritt-Marker vom Bauplan auf das Gebäudeplättchen versetzen (Bots/Rover werden verdrängt, Kolonisten kehren zum Besitzer zurück).\n\nMit einem passenden entwickelten **Techplättchen** (auch fremdem) darfst du den Vorgang zusätzlich so oft wiederholen, wie das Tech-Level angibt.\n\nFortschrittliche Gebäude **produzieren** beim Reisen in den Orbit und schalten eine **Sonderaktion** frei.",
+      "group": "kolonie_aktionen",
+      "tags": ["regeln", "gebaeude"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-kolonie-koloniestatus",
+      "name": "Koloniestatus anpassen",
+      "summary": "Sind alle LSS-Marker auf Kolonielevel-Höhe, steigt der Level: neue Baupläne, Techs und Waren – und der Fortschrittsbereich wird gewertet.",
+      "description": "Sobald alle LSS-Marker in der Reihe des Kolonielevelmarkers (oder höher) liegen, wird am Ende des Zuges der Koloniestatus angepasst:\n\n1. Kolonielevelmarker eine Reihe nach oben.\n2. **Bauplan-Auslage erneuern:** Bei Level 2 die restliche Auslage entfernen und 12 Karten auslegen; bei Level 3 die Level-1-Karten entfernen und die letzten 6 Level-3-Karten auslegen.\n3. **Techbereich auffüllen** (entfällt im 2-Spieler-Spiel).\n4. **Warenlager auffüllen** auf je 3 (2-Spieler: je 2).\n5. Bei den **ersten beiden** Anpassungen: 1/2/4/7/11 GP für 1/2/3/4/5 eigene Würfel im Fortschrittsbereich.\n6. Ab Kolonielevel 3: Verbleibende-Missionen-Marker ein Feld nach rechts – stand er schon auf 1, wird das **Spielende eingeleitet**.",
+      "group": "kolonie_aktionen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-kolonie-wissenschaftler-vertrag",
+      "name": "Wissenschaftler oder Erdenvertrag nehmen",
+      "summary": "Nimm eine Karte aus der Auslage (nur 1 Aktionsfeld pro Spieler); genommene Wissenschaftler werden durch Verträge ersetzt.",
+      "description": "Zu Spielbeginn liegen die 6 **Wissenschaftler** aus; genommene werden durch **Vertragskarten** ersetzt.\n\n- Diese Aktion hat nur **1 Feld pro Spieler** – steht dein Kolonist schon dort, kannst du sie nicht wählen. Zusatzkosten für fremde Farben gelten wie üblich.\n- Die Felder werden **nicht** geleert, wenn sie voll sind – Kolonisten kommen nur durchs Reisen zurück.\n\n**Ablauf:** 1. Karte wählen und die angegebenen Kosten zahlen (Geologe: 2 Kolonisten vom Wohn- in den Arbeitsbereich; Verträge: 1 Kristall). 2. Karte offen ablegen; bei Wissenschaftlern auch den Marker nehmen. 3. Am Zugende das leere Feld mit einer **frei wählbaren** Vertragskarte auffüllen.",
+      "group": "kolonie_aktionen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-kolonie-schiff",
+      "name": "Ein Schiff empfangen",
+      "summary": "Versetze für 1 Wasser + 1 Pflanze ein Schiff vom Depot in den Hangar; erhalte 1 Kolonist + 1 Bot oder 2 Kolonisten.",
+      "description": "Versetze 1 Privatschiff vom Depot in deinen **Hangar** (Kosten: 1 Wasser + 1 Pflanze). Du erhältst wahlweise **1 Kolonisten + 1 Bot** oder **2 Kolonisten**.\n\n- Neue Kolonisten in freie Wohnbereichsfelder; ein neuer Bot auf eine leere eigene Unterkunft (sonst auf das nächste freie Feld daneben).\n- Die Gesamtzahl der aus dem Depot entfernten Schiffe darf den aktuellen **Kolonielevel** nie überschreiten.\n- Jedes freigeräumte Depotfeld schaltet zudem eine **Sonderaktion** frei und erhöht deine Kristallkapazität.\n\n**Verbesserte Aktion:** Je Kolonist im Arbeitsbereich 1 weiteres Schiff (je 1 Wasser oder 1 Pflanze zahlen, Boni wie üblich) – nicht mit gerade erst erhaltenen Kolonisten.\n\nSchiffe im Hangar bringen am Spielende 3 GP oder können zum Reisen abgegeben werden.",
+      "group": "kolonie_aktionen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-vorrat-und-lagern",
+      "name": "Vorrat, Erhalten & Bezahlen",
+      "summary": "Alles kommt aus dem allgemeinen Vorrat (außer bei Warenlager-Symbol) und geht beim Bezahlen dorthin zurück.",
+      "description": "- Erhältst du etwas, nimm es aus dem **allgemeinen Vorrat** – nur bei explizitem Warenlager-Symbol aus dem Warenlager.\n- Ressourcen kommen ins Lager (bis zum Maximum), Kolonisten in den Wohnbereich (Überschuss in den persönlichen Vorrat).\n- Bezahlte Ressourcen/Kristalle gehen zurück in den allgemeinen Vorrat.\n- **Spielerreihenfolge** = Reihenfolge der Marker auf der Reihenfolgeleiste (1 zuerst, 8 zuletzt).\n- Auf keinem Feld darf am Zugende mehr als **ein Teil** stehen (Bots, Rover, Kolonisten, Gebäudefortschritt-Marker).",
+      "group": "erlaeuterungen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-komplex",
+      "name": "Gebäudekomplexe",
+      "summary": "Verbundene Gebäude gleichen Typs bilden einen Komplex; ein einzelnes Gebäude ist keiner.",
+      "description": "Eine Gruppe **verbundener Gebäude gleichen Typs** heißt Gebäudekomplex; die Anzahl der Gebäude ist seine Größe. Ein einzelnes, unverbundenes Gebäude ist **kein** Komplex.\n\nUnterkünfte verschiedener Spieler gelten als unterschiedliche Gebäudetypen. Komplexe sind zentral für Fortschrittswürfel, Level-3-Baupläne, Aufwertungsverträge und die Ressourcenausbeute beim Bauen.",
+      "group": "erlaeuterungen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-kristalle-erhalten",
+      "name": "Kristalle erhalten (Marsinum)",
+      "summary": "Neue Kristalle kommen unter dein Depot und sind erst ab deinem nächsten Zug verfügbar.",
+      "description": "Alle erhaltenen Kristalle legst du zunächst **unter dein Depot** – du kannst sie in der Runde, in der du sie erhältst, nicht ausgeben. Zu Beginn deines nächsten Zuges versetzt du sie ins Depot; ist dort kein Platz, geht der Überschuss in den allgemeinen Vorrat zurück.\n\nKristalle sind die Währung für **Sonderaktionen**; deine Depotkapazität wächst mit jedem empfangenen Schiff.",
+      "group": "erlaeuterungen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-verdraengung",
+      "name": "Verdrängungsregel",
+      "summary": "Bauen/Aufwerten auf belegten Feldern: Kristalle und Plättchen kommen in den Vorrat, Bots und Rover weichen aufs nächste freie Feld.",
+      "description": "Baust du ein Gebäude oder wertest eines auf einem belegten Feld auf:\n\n- **Kristall** darauf → zurück in den allgemeinen Vorrat.\n- **Entdeckungs-/Forschungsplättchen** darauf → zurück in den Vorrat.\n- **Bot oder Rover** darauf → der Besitzer versetzt die Figur auf das nächste verfügbare Feld (leeres Feld oder unbesetztes Gebäude).",
+      "group": "erlaeuterungen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-sonderaktionen",
+      "name": "Sonderaktionen",
+      "summary": "Einmal pro Zug, vor oder nach der Hauptaktion – freigeschaltet durch entfernte Schiffe, bezahlt mit Kristallen.",
+      "description": "Einmal pro Zug darfst du **vor oder nach** deiner Hauptaktion eine Sonderaktion ausführen.\n\n- Deine Sonderaktionen stehen neben den Depotfeldern; verfügbar ist eine Aktion, sobald **kein Schiff** mehr auf ihrem Feld liegt (zu Beginn nur die untersten 3).\n- Jede Aktion kostet die angegebene Anzahl **Kristalle**.\n- Auch das Nutzen eines Fortschrittlichen Gebäudes (2 Kristalle) ist eine Sonderaktion – mit passendem Wissenschaftler sogar gratis.",
+      "group": "erlaeuterungen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-wissenschaftler-gebaeude",
+      "name": "Wissenschaftler & Fortschrittliche Gebäude",
+      "summary": "Ein Wissenschaftler arbeitet in einem passenden Fortschrittlichen Gebäude – Besitzer von Karte und Gebäude nutzen dessen Aktion gratis.",
+      "description": "Hast du einen **Wissenschaftler**, kannst du ihn in einem Fortschrittlichen Gebäude seiner Spezialisierung arbeiten lassen – auch in dem eines Mitspielers. Versetze dazu seinen Marker auf die entsprechende Bauplankarte, bevor du die Sonderaktion ausführst.\n\n- Solange er dort arbeitet, führen **sowohl du als auch der Gebäudebesitzer** die Sonderaktion des Gebäudes kostenlos aus.\n- Ein Wissenschaftler bleibt, bis er in ein anderes Gebäude versetzt wird.\n- Am Spielende bringt jeder Wissenschaftler 3 GP pro Fortschrittlichem Gebäude seines Typs auf dem Mars – egal, wem es gehört.\n\n**Tech temporär verbessern:** Bei Gebäude-Aktionen mit petrolfarbenem Symbol darfst du Kolonisten in den Arbeitsbereich schicken, um den Tech-Level für diese Aktion vorübergehend zu erhöhen.",
+      "group": "erlaeuterungen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-erdenvertraege",
+      "name": "Erdenverträge",
+      "summary": "Lieferverträge (Waren am Spielende auf der Karte) und Aufwertungsverträge (Marker auf Gebäude in 4er-Komplex) – erfüllt +GP, sonst −GP.",
+      "description": "Verträge kosten 1 Kristall und werden am Spielende gewertet: **erfüllt** bringen sie die abgebildeten GP, **nicht erfüllt** ziehen sie sie ab.\n\n- **Lieferverträge:** Du kannst jederzeit Kristalle/Ressourcen von deinem Tableau auf den Vertrag legen; auch frisch Erhaltenes darf direkt auf die Karte (unabhängig von der Lagerkapazität). Erfüllt, wenn am Spielende alles Geforderte auf der Karte liegt. **Mineralien zählen hier nicht als Ersatz für andere Ressourcen.**\n- **Aufwertungsverträge:** Erfüllt, wenn du am Spielende einen Gebäudefortschritt-Marker auf einem Gebäude des abgebildeten Typs hast, das Teil eines Komplexes mit Mindestgröße **4** ist.",
+      "group": "erlaeuterungen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-missionen",
+      "name": "Missionen",
+      "summary": "Beiträge zu den 3 ausliegenden Missionen bringen sofort Kristalle; erfüllte Missionen treiben das Spielende voran.",
+      "description": "Beim Aufbau liegen 3 **Missionskarten** aus, jede mit einem Ziel für die Kolonie. Trägst du in deinem Zug etwas dazu bei, nimm dir die abgebildeten Kristalle (unter dein Depot) und ziehe den Missionsanzeigewürfel ein Feld nach unten.\n\nErreicht der Würfel das Häkchen, ist die Mission erfüllt: Karte aus dem Spiel, Verbleibende-Missionen-Marker ein Feld nach rechts. Sobald genug Missionen erfüllt sind (3, bzw. weniger bei hohem Kolonielevel), wird das **Spielende ausgelöst**.",
+      "group": "erlaeuterungen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-privatziele",
+      "name": "Privatziele",
+      "summary": "Du startest mit 3 geheimen Zielen, darfst aber nur eines pro Partie erfüllen – überzählige lassen sich als Kristall-Ersatz abwerfen.",
+      "description": "Du beginnst mit 3 **Privatzielkarten**. Erreichst du die Anforderungen einer Karte in einem deiner Züge der Kolonisierungsphase, darfst du sie erfüllen: Karte offen ablegen und eine der abgebildeten Belohnungen nehmen.\n\n- **Nur ein Privatziel pro Partie und Spieler.**\n- In deinem Zug darfst du außerdem ein Privatziel von der Hand abwerfen und **wie einen Kristall** einsetzen (die Karte ersetzt den Kristall – du erhältst keinen).",
+      "group": "erlaeuterungen",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-spielende-ausloesen",
+      "name": "Spielende auslösen",
+      "summary": "3 erfüllte Missionen (weniger bei hohem Kolonielevel) lösen das Ende aus: aktuelle Runde zu Ende, dann eine letzte Runde ohne Shuttlephase.",
+      "description": "Das Spielende wird ausgelöst, wenn am Ende der Kolonisierungsphase genug Missionen erfüllt sind:\n\n| Kolonielevel | benötigte Missionen |\n|---|---|\n| bis 2 | 3 |\n| 3 | 2 |\n| 4 | 1 |\n| 5 | 0 (sofort) |\n\nSpielt die aktuelle Runde zu Ende und danach **eine weitere, letzte Runde ohne Shuttlephase**. Kristalle werden auch in der letzten Runde wie üblich ins Depot gelegt. Danach folgt die Schlusswertung – alle Wertungsquellen im Detail zeigt das Modul **Wertung**.",
+      "group": "spielende",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-schlusswertung",
+      "name": "Schlusswertung (Kurzfassung)",
+      "summary": "Fortschrittswürfel, Schiffe, Kolonisten, Techs, Fortschrittliche Gebäude, Wissenschaftler und Verträge bringen GP – Details im Modul Wertung.",
+      "description": "Am Spielende zählst du zu deinen im Spiel erzielten GP:\n\n1. **Fortschrittswürfel:** 1/2/4/7/11 GP für 1–5 Würfel im Fortschrittsbereich.\n2. **Schiffe:** 3 GP je Schiff im Hangar.\n3. **Kolonisten:** GP-Zahl neben dem obersten Kolonisten im aufgefüllten Wohnbereich.\n4. **Techplättchen:** GP laut Spaltenwert im Labor.\n5. **Fortschrittliche Gebäude:** +3/+5 GP je genutztem Level-1/Level-3-Bauplan; −3/−5 GP je ungenutztem.\n6. **Wissenschaftler:** 3 GP je passendem Fortschrittlichem Gebäude auf dem Mars.\n7. **Erdenverträge:** ±GP je nach Erfüllung.\n\nBei Gleichstand entscheiden nacheinander: meiste Kristalle, meiste Fortschrittliche Gebäude, meiste Würfel im Fortschrittsbereich – sonst geteilter Sieg.",
+      "group": "spielende",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-variante-2spieler",
+      "name": "2-Spieler-Spiel",
+      "summary": "Weniger Waren und Techs, angepasste Zusatzkosten auf Aktionsfeldern und reduziertes Auffüllen.",
+      "description": "Anpassungen für 2 Spieler:\n\n1. Beim Aufbau nur je 2 Kristalle und 2 je Ressource ins Warenlager.\n2. Die 8 übrigen Techplättchen kommen zurück in die Schachtel.\n3. Unterkünfte auf die 2-Spieler-Startpositionen.\n4. Zusatzkosten beim Einsetzen entsprechen der **Gesamtzahl** bereits stehender Kolonisten auf der Aktion (eigene und fremde).\n5. Kein Auffüllen des Techbereichs bei Kolonielevel-Erhöhung.\n6. Warenlager nur auf je 2 auffüllen.",
+      "group": "varianten",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-variante-erste-kolonisten",
+      "name": "Erste-Kolonisten-Variante (Einstieg)",
+      "summary": "Empfohlener Einstieg: feste Missionsauswahl, zufällige Startpositionen per Plättchen und persönliche A/B-Aufgabenkarten.",
+      "description": "Für die erste Partie empfohlen:\n\n1. Die drei vorgegebenen **Missionskarten** verwenden; Missionsmarker auf *Einen Bauplan erwerben*, *Einen Wissenschaftler nehmen* und *Kontrollzentrum*.\n2. **Erste-Kolonisten-Plättchen:** Statt die Startposition zu wählen, erhält jeder Spieler ein zufälliges Plättchen, stellt seinen Marker auf das angegebene Feld der Reihenfolgeleiste und nimmt den Feldbonus.\n3. **Erste-Kolonisten-Karten:** Jeder erhält geheim eine A-Karte mit 4 Gebäudetypen. Baust du eines davon, deckst du sie auf und ziehst 2 B-Karten mit Aufgaben. Erfüllte Aufgaben bringen die angegebene Belohnung – maximal eine Aufgabe pro Runde.",
+      "group": "varianten",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "regel-variante-space-oddity",
+      "name": "Space-Oddity-Variante",
+      "summary": "Kürzeres Ende: Nach dem Auslösen wird nur die aktuelle Kolonisierungsphase zu Ende gespielt.",
+      "description": "In dieser Variante wird nach dem Auslösen des Spielendes nur noch **bis zum Ende der aktuellen Kolonisierungsphase** gespielt – die zusätzliche letzte Runde entfällt. Löst der Spieler das Ende aus, der in der Kolonisierungsphase als Letzter zieht, endet das Spiel sofort nach seinem Zug.",
+      "group": "varianten",
+      "tags": ["regeln"],
+      "source": { "document": "Spielanleitung", "page": null }
+    }
+  ]
+}

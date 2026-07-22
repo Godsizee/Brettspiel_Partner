@@ -1,0 +1,284 @@
+{
+  "entries": [
+    {
+      "id": "tip-01",
+      "name": "Zur richtigen Zeit bauen",
+      "title": "Zur richtigen Zeit bauen",
+      "content": "<p>Baue LSS-Gebäude (Lebenserhaltungssystem) nur dann, wenn die Kolonie sie gerade benötigt. Das erkennst du daran, dass der <strong>LSS-Marker noch unterhalb der Koloniestufen-Marke</strong> liegt. Nur dann erhältst du den wertvollen LSS-Bonus plus Extrapunkte. Zu frühe oder falsch gewählte Gebäude bringen keine Bonuspunkte.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Allgemeine Strategie"]
+    },
+    {
+      "id": "tip-02",
+      "name": "Fortschrittsmarker priorisieren",
+      "title": "Fortschrittsmarker priorisieren",
+      "content": "<p>Verbundene Gebäude gleichen Typs bilden einen <strong>Komplex</strong>. Nur der erste Komplex-Aufbau oder jede Vergrößerung eines Komplexes bringt einen Fortschrittsmarker ins Fortschrittsfeld. Diese Marker werden bei jeder Kolonieaufwertung und am Spielende gewertet. Je mehr Marker du im Fortschrittsfeld hast, desto mehr Punkte erzielst du.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Allgemeine Strategie"]
+    },
+    {
+      "id": "tip-03",
+      "name": "Technologie-Kacheln frühzeitig entwickeln",
+      "title": "Technologie-Kacheln frühzeitig entwickeln",
+      "content": "<p>Technologie-Kacheln sind notwendig, um Gebäude in Komplexen zu bauen und aufzuwerten. Außerdem bringen sie am Spielende Siegpunkte. <strong>Frühe Investitionen in Technologie zahlen sich über die gesamte Partie aus.</strong> Höherstufige Kacheln sind kräftiger und liefern mehr Punkte.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Allgemeine Strategie"]
+    },
+    {
+      "id": "tip-04",
+      "name": "Baupläne gezielt nehmen",
+      "title": "Baupläne gezielt nehmen",
+      "content": "<p>Baupläne (Blueprints) sind Voraussetzung für Gebäude-Aufwertungen. Nur aufgewertete Gebäude geben dir Executive-Aktionen und produzieren Ressourcen, wenn du in die Umlaufbahn reist. Wichtig: <strong>Jeder ungenutzte Bauplan kostet am Spielende Punkte!</strong> Nimm daher nur Baupläne, die du auch wirklich einsetzen kannst oder wirst.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Allgemeine Strategie"]
+    },
+    {
+      "id": "tip-05",
+      "name": "Kristall-Vorrat klug verwalten",
+      "title": "Kristall-Vorrat klug verwalten",
+      "content": "<p>Kristalle sind die „Währung“ für Executive-Aktionen. Halte stets einen kleinen Vorrat bereit. Beachte: <strong>Neu gewonnene Kristalle wandern unter dein Depot</strong> und können erst in der nächsten Runde ausgegeben werden. Plane entsprechend voraus.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Allgemeine Strategie"]
+    },
+    {
+      "id": "tip-06",
+      "name": "LSS-Reihenfolge antizipieren",
+      "title": "LSS-Reihenfolge antizipieren",
+      "content": "<p>Das LSS-System folgt einem strengen Kreislauf (oft Wasser → Pflanzen → Sauerstoff → Energie). Schau dir an, was als Nächstes gebraucht wird. Wenn du weißt, dass bald Pflanzen gefordert sind, bereite deinen Zug so vor, dass du <strong>im exakt richtigen Moment</strong> das Gewächshaus baust, um den Bonus abzustauben.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Allgemeine Strategie"]
+    },
+    {
+      "id": "tip-07",
+      "name": "Startseite klug wählen",
+      "title": "Startseite klug wählen",
+      "content": "<p>Die Wahl der Startseite (Orbitalstation oder Kolonie) ist eine der wichtigsten Entscheidungen des Spiels. Wer im <strong>Orbit</strong> beginnt, kann sofort Baupläne und Technologien sichern. Wer auf der <strong>Kolonie</strong> startet, kann direkt mit dem Bauen loslegen. Beobachte, was die Mitspieler planen, und passe deine Wahl an.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Bewegung, Shuttle & Positionierung"]
+    },
+    {
+      "id": "tip-08",
+      "name": "Per Anhalter reisen / Shuttle-Timing",
+      "title": "Per Anhalter reisen / Shuttle-Timing",
+      "content": "<p>Du musst die Reise-Aktion nicht immer selbst aktivieren. Wenn das Shuttle durch einen Mitspieler oder die Phasen-Bewegung reist, kannst du oft einfach <strong>mitfliegen</strong>. Wer das Mitreisen meistert, spart wertvolle Hauptaktionen und ist den Gegnern immer einen Schritt voraus.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Bewegung, Shuttle & Positionierung"]
+    },
+    {
+      "id": "tip-09",
+      "name": "Bots strategisch platzieren",
+      "title": "Bots strategisch platzieren",
+      "content": "<p>Jeder Bot deckt eine <strong>Bauzone</strong> ab: das eigene Feld sowie alle angrenzenden Felder. Positioniere deine Bots so, dass sie möglichst viele geplante Bauplätze gleichzeitig abdecken. Ein gut platzierter Bot eröffnet dir mehrere Bau-Optionen pro Runde.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Bewegung, Shuttle & Positionierung"]
+    },
+    {
+      "id": "tip-10",
+      "name": "Rover für Kristalle und Entdeckungen einsetzen",
+      "title": "Rover für Kristalle und Entdeckungen einsetzen",
+      "content": "<p>Der Rover sammelt beim Durchfahren automatisch Kristalle ein. Plane seine Route so, dass er möglichst viele Kristalle und wertvolle Entdeckungs-/Forschungsplättchen aufsammelt. Denke daran: <strong>Der Rover beginnt offiziell an der Start-Mine</strong>, auch wenn die Figur zunächst neben deinem Tableau steht.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Bewegung, Shuttle & Positionierung"]
+    },
+    {
+      "id": "tip-11",
+      "name": "Feindliche Bots blockieren",
+      "title": "Feindliche Bots blockieren",
+      "content": "<p>Du kannst deine Bots und deinen Rover nutzen, um lukrative Bauplätze oder die besten Entdeckungsplättchen für deine Mitspieler zu <strong>blockieren</strong>. Besonders im 3- oder 4-Spieler-Spiel wird der Platz in der Kolonie schnell eng.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Bewegung, Shuttle & Positionierung"]
+    },
+    {
+      "id": "tip-12",
+      "name": "Kolonisten aktiv verwalten",
+      "title": "Kolonisten aktiv verwalten",
+      "content": "<p>Kolonisten werden für Action-Slots, für Minen und zum Verstärken von Aktionen benötigt. Zu wenige Kolonisten schränken deine Möglichkeiten stark ein. <strong>Baue deshalb regelmäßig Unterkünfte (Shelters).</strong></p>",
+      "difficulty": "Allgemein",
+      "tags": ["Ressourcen & Wirtschaft"]
+    },
+    {
+      "id": "tip-13",
+      "name": "Wissenschaftler strategisch einsetzen",
+      "title": "Wissenschaftler strategisch einsetzen",
+      "content": "<p>Wissenschaftler ermöglichen Executive-Aktionen kostenlos – <strong>sogar in Gebäuden anderer Spieler!</strong> Das spart wertvolle Kristalle. Außerdem bringen Wissenschaftler am Spielende Punkte basierend auf der Gesamtanzahl der aufgewerteten Gebäude des entsprechenden Typs auf dem gesamten Plan.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Ressourcen & Wirtschaft"]
+    },
+    {
+      "id": "tip-14",
+      "name": "Monopol auf Wissenschaftler vermeiden",
+      "title": "Monopol auf Wissenschaftler vermeiden",
+      "content": "<p>Es gibt nur <strong>6 Wissenschaftler</strong> im gesamten Spiel. Wenn du einen einstellst, profitierst nicht nur du davon, du nimmst ihn auch den Mitspielern weg. Lass nicht zu, dass ein einzelner Spieler 3 oder mehr Wissenschaftler ansammelt, da dessen Engine sonst unaufhaltsam wird.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Ressourcen & Wirtschaft"]
+    },
+    {
+      "id": "tip-15",
+      "name": "Fremde Technologien nutzen vs. eigene pushen",
+      "title": "Fremde Technologien nutzen vs. eigene pushen",
+      "content": "<p>Wenn du Technologien anderer Spieler nutzt, erhält der Besitzer dieser Technologie als Belohnung <strong>einen Sauerstoff aus dem allgemeinen Vorrat</strong> (es kostet dich als Nutzer keinen eigenen Sauerstoff). Alternativ darf dieser Spieler auf den Sauerstoff verzichten und stattdessen sofort eine seiner Technologien kostenlos aufwerten. Umgekehrt profitierst du massiv, wenn andere deine Technologien nutzen. Werte daher Technologien auf, von denen du weißt, dass die Mitspieler sie dringend brauchen (z.&nbsp;B. Bau- oder Bot-Technologien).</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Ressourcen & Wirtschaft"]
+    },
+    {
+      "id": "tip-16",
+      "name": "Lagerkapazität im Blick behalten",
+      "title": "Lagerkapazität im Blick behalten",
+      "content": "<p>Ressourcen und Kristalle haben <strong>Obergrenzen</strong>. Nimm nie mehr, als du lagern kannst. Baue Unterkünfte und Schiffe, um deine Lagerkapazität im Laufe des Spiels zu erhöhen.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Ressourcen & Wirtschaft"]
+    },
+    {
+      "id": "tip-17",
+      "name": "Pflanzen und Sauerstoff sind Gold wert",
+      "title": "Pflanzen und Sauerstoff sind Gold wert",
+      "content": "<p>Während Mineralien und Batterien anfangs oft relativ gut beschaffbar sind, werden <strong>Pflanzen und Sauerstoff</strong> schnell zum Flaschenhals im Spiel. Verschwende sie nicht für unwichtige Aktionen. Halte sie für Erdenverträge (Earth Contracts) oder kritische LSS-Aufwertungen zurück.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Ressourcen & Wirtschaft"]
+    },
+    {
+      "id": "tip-18",
+      "name": "Schiffe regelmäßig willkommen heißen",
+      "title": "Schiffe regelmäßig willkommen heißen",
+      "content": "<p>Jedes Schiff im Hangar bringt <strong>3 Siegpunkte</strong> am Spielende. Außerdem erweiterst du damit deine Kristall-Kapazität und erhältst neue Executive-Aktionen. Heiße Schiffe so oft willkommen, wie die aktuelle Koloniestufe es erlaubt.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Punkte & Spielende"]
+    },
+    {
+      "id": "tip-19",
+      "name": "Erdenverträge mit Bedacht annehmen",
+      "title": "Erdenverträge mit Bedacht annehmen",
+      "content": "<p><strong>Nicht erfüllte Verträge kosten Punkte!</strong> Nimm nur Verträge an, die du realistisch erfüllen kannst. Ein Pro-Tipp: Ziehe Erdenverträge eher im späten Mid-Game. Dann weißt du bereits, welche Ressourcen du im Überfluss hast und kannst Verträge ziehen, die du im selben Zug sofort erfüllen kannst.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Punkte & Spielende"]
+    },
+    {
+      "id": "tip-20",
+      "name": "Private Ziele rechtzeitig bewerten",
+      "title": "Private Ziele rechtzeitig bewerten",
+      "content": "<p>Du kannst im gesamten Spiel <strong>nur ein einziges privates Ziel</strong> erfüllen. Bewerte frühzeitig, welches deiner drei Ziele am besten passt. Zielkarten, die du nicht erfüllen wirst, kannst du als Kristall-Ersatz abwerfen.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Punkte & Spielende"]
+    },
+    {
+      "id": "tip-21",
+      "name": "Missionsbeiträge aktiv verfolgen",
+      "title": "Missionsbeiträge aktiv verfolgen",
+      "content": "<p>Beiträge zu Missionskarten bringen sofort Kristalle und treiben den Spielfortschritt an. Behalte im Blick, wann Missionen abgeschlossen werden – das kann das <strong>Spielende überraschend schnell einleiten</strong>.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Punkte & Spielende"]
+    },
+    {
+      "id": "tip-22",
+      "name": "Das Spieltempo diktieren",
+      "title": "Das Spieltempo diktieren",
+      "content": "<p>Das Spiel endet, wenn eine bestimmte Koloniestufe erreicht ist oder die letzte Missionskarte erfüllt wurde. Wenn du punktemäßig vorne liegst, <strong>erzwinge das Spielende aktiv</strong> (z.&nbsp;B. durch gezieltes Erfüllen der Missionen). Liegst du hinten, vermeide LSS-Upgrades, um das Spiel künstlich in die Länge zu ziehen und deine Engine öfter nutzen zu können.</p>",
+      "difficulty": "Allgemein",
+      "tags": ["Punkte & Spielende"]
+    },
+    {
+      "id": "tip-23",
+      "name": "Executive-Aktionen maximieren",
+      "title": "Executive-Aktionen maximieren",
+      "content": "<p>Aufgewertete Gebäude und Wissenschaftler geben Zugang zu mächtigen <strong>Executive-Aktionen</strong>. Eine gut aufgestellte Engine aus aufgewerteten Gebäuden kann dir pro Zug mehrere Bonus-Aktionen ermöglichen.</p>",
+      "difficulty": "Fortgeschritten",
+      "tags": ["Fortgeschrittene Taktiken & Engines"]
+    },
+    {
+      "id": "tip-24",
+      "name": "Reise-Timing für Produktion beachten",
+      "title": "Reise-Timing für Produktion beachten",
+      "content": "<p>Der Zeitpunkt deiner Reise in den Orbit ist entscheidend. <strong>Reisen in den Orbit lösen die Produktion aus</strong> (aufgewertete Gebäude und Minen produzieren). Plane die Reise genau dann, wenn deine Lager leer sind und du den Nachschub dringend brauchst.</p>",
+      "difficulty": "Fortgeschritten",
+      "tags": ["Fortgeschrittene Taktiken & Engines"]
+    },
+    {
+      "id": "tip-25",
+      "name": "Kolonisten-Rückkehr beim Reisen",
+      "title": "Kolonisten-Rückkehr beim Reisen",
+      "content": "<p>Denke daran: Nur bei der Reise von der Kolonie in den Orbit (oder andersherum) kehren deine eingesetzten Kolonisten aus den Aktionsfeldern in dein Wohnquartier zurück. <strong>Wer nicht reist, dem gehen unweigerlich die Arbeiter aus.</strong></p>",
+      "difficulty": "Fortgeschritten",
+      "tags": ["Fortgeschrittene Taktiken & Engines"]
+    },
+    {
+      "id": "tip-26",
+      "name": "Zugreihenfolge strategisch nutzen",
+      "title": "Zugreihenfolge strategisch nutzen",
+      "content": "<p>Die Zugreihenfolge wird durch die Platzierung auf den Startreihen-Feldern bestimmt. <strong>Frühzeitige Reisen</strong> ermöglichen dir, gewünschte Felder mit Boni (z.&nbsp;B. Ressourcen oder Extrazüge) zu belegen.</p>",
+      "difficulty": "Fortgeschritten",
+      "tags": ["Fortgeschrittene Taktiken & Engines"]
+    },
+    {
+      "id": "tip-27",
+      "name": "Synergien zwischen Bauplänen und Techs",
+      "title": "Synergien zwischen Bauplänen und Techs",
+      "content": "<p>Ein Bauplan (Blueprint) nutzt dir wenig, wenn niemand am Tisch die entsprechende Technologie gelevelt hat. Achte beim Draften im Orbit genau darauf, dass <strong>Baupläne und verfügbare Technologien ineinandergreifen</strong>.</p>",
+      "difficulty": "Fortgeschritten",
+      "tags": ["Fortgeschrittene Taktiken & Engines"]
+    },
+    {
+      "id": "tip-28",
+      "name": "„Advanced Buildings“ gezielt platzieren",
+      "title": "„Advanced Buildings“ gezielt platzieren",
+      "content": "<p>Wenn du ein aufgewertetes Gebäude (Blueprint) auf dem Plan platzierst, kannst du damit die <strong>Komplexe von Mitspielern abschneiden</strong>. Da große Komplexe am Ende mehr Punkte wert sind, ist aggressives Bauen eine valide Strategie, um Gegner klein zu halten.</p>",
+      "difficulty": "Fortgeschritten",
+      "tags": ["Fortgeschrittene Taktiken & Engines"]
+    },
+    {
+      "id": "tip-29",
+      "name": "Die „Forschungs-Spalte“ im Orbit",
+      "title": "Die „Forschungs-Spalte“ im Orbit",
+      "content": "<p>Unterschätze nicht die Aktionen, bei denen du Forschungskarten ziehen kannst. Forschungsplättchen (Research Tiles) können schwache Spielzüge retten, da sie wie <strong>Joker-Aktionen</strong> funktionieren, die keine Kristalle kosten.</p>",
+      "difficulty": "Fortgeschritten",
+      "tags": ["Fortgeschrittene Taktiken & Engines"]
+    },
+    {
+      "id": "tip-30",
+      "name": "Das Regelwerk verzeiht keine Fehler",
+      "title": "Das Regelwerk verzeiht keine Fehler",
+      "content": "<p>Spiele die erste Partie unbedingt mit der vereinfachten Einstiegsaufstellung (<strong>First-Game Setup</strong>). Verzichte auf die draftbaren Startressourcen und nutze die Standardverteilung, um nicht schon vor Zug 1 einen Fehler zu machen.</p>",
+      "difficulty": "Anfänger",
+      "tags": ["Tipps für Einsteiger"]
+    },
+    {
+      "id": "tip-31",
+      "name": "Mitspieler beobachten",
+      "title": "Mitspieler beobachten",
+      "content": "<p>On Mars ist hochinteraktiv, auch wenn es nicht so wirkt. Wer als Erster ein benötigtes Gebäude baut, kassiert den LSS-Bonus. Wer zu spät kommt, baut für fast denselben Preis, bekommt aber kaum Belohnungen. <strong>Schau auf die Tableaus der anderen!</strong></p>",
+      "difficulty": "Anfänger",
+      "tags": ["Tipps für Einsteiger"]
+    },
+    {
+      "id": "tip-32",
+      "name": "Fokus statt Parallelstrategie",
+      "title": "Fokus statt Parallelstrategie",
+      "content": "<p>Verzettle dich nicht. Konzentriere dich auf <strong>1–2 Gebäudetypen</strong> und vielleicht einen Wissenschaftler. Wer versucht, von jedem Blueprint einen zu bauen und auf allen Tech-Leisten mitzuspielen, wird am Ende gnadenlos Letzter.</p>",
+      "difficulty": "Anfänger",
+      "tags": ["Tipps für Einsteiger"]
+    },
+    {
+      "id": "tip-33",
+      "name": "Kristalle sind wichtiger als Ressourcen",
+      "title": "Kristalle sind wichtiger als Ressourcen",
+      "content": "<p>Ohne Kristalle hast du keine Flexibilität. Wenn du die Wahl zwischen einer Ressource und einem Kristall hast (und die Ressource nicht zwingend im nächsten Zug brauchst), <strong>nimm immer den Kristall</strong>.</p>",
+      "difficulty": "Anfänger",
+      "tags": ["Tipps für Einsteiger"]
+    },
+    {
+      "id": "tip-34",
+      "name": "Erste Züge im Orbit",
+      "title": "Erste Züge im Orbit",
+      "content": "<p>Ein starker Start im Orbit sieht oft so aus: Nimm dir einen <strong>Bauplan, der zu deinem Startbonus passt</strong>. Entwickle danach direkt eine Technologie, die dir das Aufwerten dieses Bauplans erleichtert. Fliege dann zügig auf den Planeten.</p>",
+      "difficulty": "Anfänger",
+      "tags": ["Tipps für Einsteiger"]
+    },
+    {
+      "id": "tip-35",
+      "name": "Erste Züge auf der Kolonie",
+      "title": "Erste Züge auf der Kolonie",
+      "content": "<p>Startest du auf der Kolonie, sollte dein oberstes Ziel sein, einen <strong>Bot geschickt zu positionieren</strong> und sofort eine Mine oder ein dringend benötigtes LSS-Gebäude (oft eine Wasseraufbereitung) zu bauen, bevor es die Orbit-Starter tun.</p>",
+      "difficulty": "Anfänger",
+      "tags": ["Tipps für Einsteiger"]
+    }
+  ]
+}

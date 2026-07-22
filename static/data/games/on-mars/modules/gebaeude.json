@@ -1,0 +1,85 @@
+{
+  "groups": [
+    { "id": "mine", "title": "Mine", "description": "Der Anfang der Kette: Kolonisten bauen Mineralien ab. Minen gehören nicht zum LSS.", "order": 10 },
+    { "id": "generator", "title": "Generator", "description": "Wandelt Mineralien in Energie (Batterien) um – erstes Glied des LSS.", "order": 20 },
+    { "id": "wasserextraktor", "title": "Wasserextraktor", "description": "Gewinnt mit Energie Wasser aus dem Marseis.", "order": 30 },
+    { "id": "gewaechshaus", "title": "Gewächshaus", "description": "Züchtet mit Wasser Pflanzen – die Nahrungsgrundlage der Kolonie.", "order": 40 },
+    { "id": "sauerstoffkondensator", "title": "Sauerstoffkondensator", "description": "Erzeugt aus Pflanzen Sauerstoff zum Atmen.", "order": 50 },
+    { "id": "unterkunft", "title": "Unterkunft", "description": "Das Ende der Kette: Sauerstoff ermöglicht Wohnraum für neue Kolonisten.", "order": 60 },
+    { "id": "lss_leiste", "title": "LSS-Leiste & Kolonielevel", "description": "Wie die Gebäudezählung der Kolonie Boni, Kolonielevel und Spielende steuert.", "order": 70 }
+  ],
+  "entries": [
+    {
+      "id": "gebaeude-mine",
+      "name": "Mine",
+      "summary": "Kostet keine Ressourcen, sondern 1 Kolonisten als Minenarbeiter – produziert 1 Mineral bei jeder Orbitreise.",
+      "description": "**Bauen:** Wie andere Gebäude im Baubereich eines Bots, aber statt Ressourcen zu zahlen, stellst du 1 Kolonisten aus deinem Wohnbereich auf die Mine. Ohne Kolonisten kein Minenbau.\n\n**Funktion:** Der Minenarbeiter produziert 1 Mineral, wann immer du in den Orbit reist. Mineralien sind Joker: Sie ersetzen jede andere Ressource (außer Kristalle und beim Erfüllen von Erdenverträgen).\n\n**Besonderheit:** Minen gehören keinem Spieler – jeder darf eine Mine aufwerten, auch mit fremdem Kolonisten darauf. Minen-Komplexe erlauben wie üblich das Versetzen eines Fortschrittswürfels; die Mine zählt aber **nicht** zum LSS.\n\n**Aufwertung:** Level-1-Bauplan für jede Mine, Level-3-Bauplan nur in einem Komplex ≥ 3. Aufgewertete Minen produzieren beim Orbitflug zusätzlich.\n\n**Wissenschaftler:** Der **Geologe** arbeitet in aufgewerteten Minen (Sonderaktion gratis).",
+      "group": "mine",
+      "tags": ["gebaeude", "mine"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "gebaeude-generator",
+      "name": "Generator",
+      "summary": "Braucht Mineralien zum Bauen und liefert Energie (Batterien) – das erste LSS-Untersystem.",
+      "description": "**Bauen:** Kostet Mineralien (Ressource links vom Generator-Pfeil auf deinem Tableau). Platzierung im Baubereich eines Bots; angrenzend an einen anderen Generator nur mit Generator-Techplättchen (Level ≥ Zahl der verbundenen Gebäude).\n\n**Ertrag:** Batterien in Höhe der neuen Komplexgröße (alleinstehend: 1).\n\n**LSS:** Nach dem Bau den Generator-Marker auf der LSS-Leiste hochziehen – stand er unter dem Kolonielevelmarker, gibt es LSS-Belohnungen.\n\n**Aufwertung:** Mit passendem Bauplan + 1 Mineral; das Fortschrittliche Gebäude produziert 1 Batterie je Orbitreise und schaltet eine Sonderaktion frei.\n\n**Wissenschaftler:** Der **F&E-Ingenieur** arbeitet in aufgewerteten Generatoren.",
+      "group": "generator",
+      "tags": ["gebaeude", "generator"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "gebaeude-wasserextraktor",
+      "name": "Wasserextraktor",
+      "summary": "Braucht Energie zum Bauen und liefert Wasser.",
+      "description": "**Bauen:** Kostet Energie (Batterie). Platzierung im Baubereich eines Bots; Komplexbau erfordert ein Wasser-Techplättchen mit ausreichendem Level.\n\n**Ertrag:** Wasser in Höhe der neuen Komplexgröße (alleinstehend: 1).\n\n**LSS:** Wasser-Marker hochziehen; unterhalb des Kolonielevelmarkers gebaut → LSS-Belohnungen.\n\n**Aufwertung:** Bauplan + 1 Mineral; produziert dann 1 Wasser je Orbitreise plus Sonderaktion.\n\n**Wissenschaftler:** Der **Hydrologe** arbeitet in aufgewerteten Wasserextraktoren.",
+      "group": "wasserextraktor",
+      "tags": ["gebaeude", "wasserextraktor"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "gebaeude-gewaechshaus",
+      "name": "Gewächshaus",
+      "summary": "Braucht Wasser zum Bauen und liefert Pflanzen – oft der Flaschenhals der Kolonie.",
+      "description": "**Bauen:** Kostet Wasser. Platzierung im Baubereich eines Bots; Komplexbau erfordert ein Gewächshaus-Techplättchen mit ausreichendem Level.\n\n**Ertrag:** Pflanzen in Höhe der neuen Komplexgröße (alleinstehend: 1).\n\n**LSS:** Pflanzen-Marker hochziehen; unterhalb des Kolonielevelmarkers gebaut → LSS-Belohnungen.\n\n**Aufwertung:** Bauplan + 1 Mineral; produziert dann 1 Pflanze je Orbitreise plus Sonderaktion. Große Gewächshauskomplexe sind Ziel mehrerer Verträge und des Solo-Überlebensszenarios.\n\n**Wissenschaftler:** Der **Biochemiker** arbeitet in aufgewerteten Gewächshäusern.",
+      "group": "gewaechshaus",
+      "tags": ["gebaeude", "gewaechshaus"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "gebaeude-sauerstoffkondensator",
+      "name": "Sauerstoffkondensator",
+      "summary": "Braucht Pflanzen zum Bauen und liefert Sauerstoff – Voraussetzung für neue Unterkünfte.",
+      "description": "**Bauen:** Kostet Pflanzen. Platzierung im Baubereich eines Bots; Komplexbau erfordert ein Sauerstoff-Techplättchen mit ausreichendem Level.\n\n**Ertrag:** Sauerstoff in Höhe der neuen Komplexgröße (alleinstehend: 1).\n\n**LSS:** Sauerstoff-Marker hochziehen; unterhalb des Kolonielevelmarkers gebaut → LSS-Belohnungen.\n\n**Aufwertung:** Bauplan + 1 Mineral; produziert dann 1 Sauerstoff je Orbitreise plus Sonderaktion.\n\n**Wissenschaftler:** Der **Geochemiker** arbeitet in aufgewerteten Sauerstoffkondensatoren.",
+      "group": "sauerstoffkondensator",
+      "tags": ["gebaeude", "sauerstoffkondensator"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "gebaeude-unterkunft",
+      "name": "Unterkunft",
+      "summary": "Kostet 1 Sauerstoff, kommt vom eigenen Tableau und vergrößert Wohnbereich (+2) und Ressourcenlager (+1 je Typ).",
+      "description": "**Bauen:** Kostet 1 Sauerstoff. Du baust immer die **unterste Unterkunft deines Spielertableaus** im Baubereich eines Bots. Beim Bauen erhältst du **Kristalle** statt Ressourcen (in Höhe der Komplexgröße).\n\n**Funktion:** Jede gebaute Unterkunft gibt dir +2 Wohnbereichsfelder und +1 Lagerkapazität je Ressourcentyp.\n\n**Besonderheiten:** Deine Unterkünfte und die der Mitspieler gelten als **verschiedene Gebäudetypen**. Unterkunfts-Komplexe erlauben **kein** Versetzen eines Fortschrittswürfels. Aufwerten darfst du nur deine eigenen Unterkünfte; das Fortschrittliche Gebäude produziert dann 1 Kristall je Orbitreise.\n\n**Wissenschaftler:** Der **Systemingenieur** arbeitet in aufgewerteten Unterkünften.",
+      "group": "unterkunft",
+      "tags": ["gebaeude", "unterkunft"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "gebaeude-lss-leiste",
+      "name": "LSS-Leiste",
+      "summary": "Zählt je Spalte die gebauten Gebäude eines Typs; Bauen unterhalb des Kolonielevels bringt Belohnungen.",
+      "description": "Jede Spalte des LSS steht für ein Untersystem (Generator, Wasserextraktor, Gewächshaus, Sauerstoffkondensator) und zeigt, wie viele Gebäude des Typs stehen. Jedes gebaute Plättchen zieht den Marker seiner Spalte ein Feld nach oben.\n\n- **Erstes Gebäude eines Typs** (Marker verlässt die unterste Reihe): 2 GP für den Bauherrn.\n- Marker stand **unter dem Kolonielevelmarker**: zusätzlich die GP des LSS-Belohnungsplättchens der Spalte + ein Bonus aus der LSS-Übersicht.\n- Marker **über** dem Kolonielevelmarker: kein Bonus – die Kolonie braucht den Typ gerade nicht.",
+      "group": "lss_leiste",
+      "tags": ["gebaeude", "lss"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "gebaeude-kolonielevel",
+      "name": "Kolonielevel & Koloniestatus",
+      "summary": "Sind alle LSS-Marker auf Levelhöhe, steigt der Kolonielevel – mit Auslage-Erneuerung, Fortschrittswertung und Spielende-Effekt.",
+      "description": "Die Reihe des Kolonielevelmarkers ist der aktuelle **Kolonielevel** (Start: 1). Er bestimmt, wie oft das Shuttle reist, wie viele Schiffe du empfangen darfst und wie viele Missionen das Spielende auslösen.\n\nSobald alle LSS-Marker auf Höhe des Kolonielevelmarkers (oder darüber) liegen, wird am Zugende der **Koloniestatus angepasst**: Level +1, Bauplan-Auslage erneuert, Techbereich und Warenlager aufgefüllt, bei den ersten beiden Anpassungen Wertung des Fortschrittsbereichs (1/2/4/7/11 GP für 1–5 Würfel) – und ab Level 3 rückt der Verbleibende-Missionen-Marker vor.",
+      "group": "lss_leiste",
+      "tags": ["gebaeude", "lss"],
+      "source": { "document": "Spielanleitung", "page": null }
+    }
+  ]
+}

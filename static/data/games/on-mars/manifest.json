@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "1.0.0",
+  "contentVersion": "1.1.0",
   "game": {
     "key": "on-mars",
     "name": "On Mars",
@@ -10,6 +10,59 @@
   },
   "modules": [
     {
+      "id": "regeln_grund",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Grundregeln",
+      "icon": "book-open",
+      "source": "modules/regeln_grund.json",
+      "featured": true
+    },
+    {
+      "id": "regeln_solo",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Solo-Regeln (Lacerda-Bot)",
+      "icon": "user",
+      "source": "modules/regeln_solo.json",
+      "featured": true
+    },
+    {
+      "id": "aktionen",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Aktionsübersicht",
+      "icon": "list",
+      "source": "modules/aktionen.json",
+      "featured": true
+    },
+    {
+      "id": "gebaeude",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Gebäude & LSS",
+      "icon": "home",
+      "source": "modules/gebaeude.json",
+      "featured": true
+    },
+    {
+      "id": "icons",
+      "type": "reference",
+      "layout": "icon-grid",
+      "title": "Symbol-Lexikon",
+      "icon": "help-circle",
+      "source": "modules/icons.json",
+      "featured": true
+    },
+    {
+      "id": "wertung",
+      "type": "scoring",
+      "title": "Wertung",
+      "icon": "trophy",
+      "source": "modules/wertung.json",
+      "featured": true
+    },
+    {
       "id": "scientists",
       "type": "reference",
       "title": "Wissenschaftler",
@@ -18,20 +71,22 @@
       "featured": true
     },
     {
-      "id": "contracts",
-      "type": "reference",
-      "title": "Erdenverträge",
-      "icon": "file-text",
-      "source": "modules/contracts.json",
-      "featured": true
-    },
-    {
       "id": "blueprints",
       "type": "reference",
+      "layout": "grouped",
       "title": "Baupläne",
       "icon": "map",
       "source": "modules/blueprints.json",
       "featured": true
+    },
+    {
+      "id": "contracts",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Erdenverträge",
+      "icon": "file-text",
+      "source": "modules/contracts.json",
+      "featured": false
     },
     {
       "id": "private_goals",
@@ -48,6 +103,14 @@
       "icon": "compass",
       "source": "modules/missions.json",
       "featured": false
+    },
+    {
+      "id": "tipps",
+      "type": "tips",
+      "title": "Tipps & Strategien",
+      "icon": "lightbulb",
+      "source": "modules/tipps.json",
+      "featured": true
     },
     {
       "id": "credits",

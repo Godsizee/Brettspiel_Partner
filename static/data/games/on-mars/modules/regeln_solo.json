@@ -1,0 +1,183 @@
+{
+  "groups": [
+    { "id": "solo_aufbau", "title": "Solo-Aufbau", "description": "Du spielst gegen den Automa **Lacerda** nach den 2-Spieler-Regeln – mit wenigen Ausnahmen beim Aufbau.", "order": 10 },
+    { "id": "lacerda_regeln", "title": "Lacerdas Sonderregeln", "description": "Grundprinzipien des Bots: unbegrenzte Kolonisten, keine Ressourcen, feste Bewegungsmuster.", "order": 20 },
+    { "id": "lacerda_orbit", "title": "Lacerda im Orbit", "description": "Die Solokarte bestimmt per Nummer, welche Orbit-Aktion Lacerda ausführt.", "order": 30 },
+    { "id": "lacerda_kolonie", "title": "Lacerda in der Kolonie", "description": "Auf der Kolonieseite baut Lacerda nach der LSS-Reihenfolge, wertet auf und nimmt Wissenschaftler bzw. Verträge.", "order": 40 },
+    { "id": "solo_ziele", "title": "Solo-Ziele", "description": "Vier Ziellevel mit steigendem Anspruch – gewonnen ist erst, wenn alle Ziele eines Levels erfüllt sind.", "order": 50 },
+    { "id": "entscheidungen", "title": "Entscheidungen treffen", "description": "Wie Gleichstände und Wahlmöglichkeiten des Bots aufgelöst werden.", "order": 60 }
+  ],
+  "entries": [
+    {
+      "id": "solo-grundprinzip",
+      "name": "Grundprinzip des Solospiels",
+      "summary": "Du trittst direkt gegen den Automa Lacerda an – gewonnen hast du erst, wenn alle Ziele eines gewählten Levels erfüllt sind.",
+      "description": "Im Solospiel konkurrierst du direkt mit einem Gegner: **Lacerda**. Gespielt wird nach den normalen 2-Spieler-Regeln mit den auf dieser Seite beschriebenen Ausnahmen.\n\nUm zu gewinnen, genügt es nicht, mehr GP zu haben – du musst **alle Ziele des gewählten Levels** erfüllen (siehe Gruppe *Solo-Ziele*).",
+      "group": "solo_aufbau",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-aufbau",
+      "name": "Aufbau des Solospiels",
+      "summary": "2-Spieler-Aufbau; Lacerda erhält keine Privatziele, sein Bot startet auf dem Minen-Symbol im Fortschrittsbereich.",
+      "description": "Wähle eine Farbe für dich und eine für Lacerdas Unternehmen. Baue beide Tableaus und den Spielplan wie im 2-Spieler-Spiel auf, mit zwei Ausnahmen:\n\n- Lacerda bekommt **keine Privatzielkarten**.\n- Statt seinen Bot auf seine Unterkunft zu stellen, kommt er auf das **Minen-Symbol im Fortschrittsbereich**.\n\nMische außerdem das **Solodeck** und lege es bereit. Mische die Erste-Kolonisten-Plättchen und ziehe zufällig eines – das ist Lacerdas Startfeld auf der Reihenfolgeleiste. Wähle dann selbst ein Feld (oder ziehe zufällig) und nimm wie üblich den Bonus. Das Shuttle startet im roten Feld auf **Lacerdas Seite**.",
+      "group": "solo_aufbau",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-kolonisierungsphase",
+      "name": "Lacerdas Zug (Kolonisierungsphase)",
+      "summary": "Pro Zug wird die oberste Solokarte aufgedeckt und ihre Aktion ausgeführt; ab der zweiten Deck-Runde treibt jede Karte zusätzlich die Missionen voran.",
+      "description": "In Lacerdas Zug deckst du die oberste Karte des Solostapels auf, er führt die angegebene Aktion aus, dann wird die Karte abgeworfen.\n\nIst der Stapel leer, mische den Ablagestapel neu. Ab diesem Zeitpunkt (zweiter Durchlauf des Decks) bewegt **jede** aufgedeckte Karte zusätzlich den Missionsleistenwürfel ein Feld nach unten – für Beiträge zu Missionen erhält Lacerda wie üblich die Kristalle.",
+      "group": "lacerda_regeln",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-shuttlephase",
+      "name": "Lacerdas Shuttlephase",
+      "summary": "Lacerda reist immer mit dem Shuttle (außer die Karte zeigt ein X); sein Zielfeld wird zufällig bestimmt.",
+      "description": "Lacerda reist immer mit dem Shuttle, außer auf der neuesten Solokarte steht ein **X** neben dem Würfel – dann bleibt er.\n\nReist er, bestimme sein Reihenfolgefeld zufällig (z. B. mit den Erste-Kolonisten-Plättchen der passenden Seite). Ausnahmen von der normalen Reise:\n\n- **In den Orbit:** Er überspringt Produktion und Kolonisten-Rückholen.\n- **Entdeckungsplättchen:** Er nimmt immer das ganz links liegende und legt es 3 Felder von seinem Rover entfernt – Richtung nächstes Forschungsplättchen und möglichst weit weg von deinem Rover.\n- **Zur Kolonie:** Nach der Feldwahl baut er sofort ein Gebäude (idealerweise als Komplex) nach den Regeln seiner Bau-Aktion.",
+      "group": "lacerda_regeln",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-sonderregeln",
+      "name": "Sonderregeln für Lacerda",
+      "summary": "Unbegrenzte Kolonisten, keine Ressourcen, keine Sonderaktionen – aber Kristalle, Tech-Nutzung und automatischer Ausbau bei Kolonielevel-Erhöhung.",
+      "description": "- Lacerda hat immer **so viele Kolonisten, wie er braucht**; bei der Schlusswertung gilt sein Wohnbereich als voll.\n- Er führt **keine Sonderaktionen** durch, nimmt und lagert **keine Ressourcen** und zahlt keine Ressourcen für Aktionen.\n- **Kristalle** erhält er wie üblich (begrenzt durch sein Depot).\n- Erhöht sich der Kolonielevel, baut er am Zugende eine **Unterkunft** (möglichst als Komplex) und **empfängt ein Schiff** – seine Schiffe behält er stets für die Wertung.\n- Baut er ein LSS-Gebäude mit eigenem Kolonisten auf dem Feld *Wissenschaftler nehmen*, wählt er die Rückhol-Belohnung, sonst 1 Kristall.\n- Er **nutzt immer verfügbare Tech**; du erhältst dafür wie üblich 1 Sauerstoff.\n- Sein **Bot** wandert stets zum nächsten Feld der LSS-Reihenfolge: Mine → Generator → Wasserextraktor → Gewächshaus → Sauerstoffkondensator → wieder Mine.",
+      "group": "lacerda_regeln",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-reihenfolgeboni",
+      "name": "Reihenfolgeleisten-Boni",
+      "summary": "Feste Ersatzregeln für Lacerdas Feldboni: Meistvorhandenes nehmen, Tech/Bauplan nach seinen Aktionsregeln, Rover statt Kolonisten.",
+      "description": "Landet Lacerda auf einem Bonusfeld der Reihenfolgeleiste:\n\n- **Waren:** Er nimmt das Meistvorhandene (bei Gleichstand das ganz links, Kristalle zuerst); alles Genommene geht in den allgemeinen Vorrat.\n- **Techplättchen:** wie bei seiner Aktion *Neue Technologie lernen*.\n- **Kolonisten-Bonus:** Da er immer genug hat, bewegt er stattdessen seinen Rover.\n- **Bot-Bewegung:** nach seiner LSS-Reihenfolge-Regel.\n- **Bauplan:** wie bei seiner Aktion *Bauplan erwerben*.",
+      "group": "lacerda_regeln",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-ungueltige-zuege",
+      "name": "Kolonisten & ungültige Züge",
+      "summary": "Lacerda setzt immer Kolonisten ein und zahlt Zusatzkosten nur mit Kristallen – geht das nicht, bewegt er stattdessen seinen Rover.",
+      "description": "Lacerda stellt auf Aktionen mit rotem Kolonistensymbol immer einen Kolonisten. Zusatzkosten zahlt er **ausschließlich mit Kristallen**, nie mit Kolonisten.\n\nHat er nicht genug Kristalle oder ist sein Zug aus anderem Grund unmöglich (kein Platz im Labor, keine Baupläne, Wissenschaftlerfeld belegt …), bewegt er stattdessen seinen **Rover**.",
+      "group": "lacerda_regeln",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-rover",
+      "name": "Lacerdas Rover bewegen",
+      "summary": "Sein Rover fährt immer zum nächsten verwertbaren Plättchen und wertet es sofort aus.",
+      "description": "Bewegt Lacerda seinen Rover, fährt dieser zum **nächsten Entdeckungs- oder Forschungsplättchen**, das er einsammeln kann. Plättchen, die nur Ressourcen bringen, ignoriert er (sie nützen ihm nichts). Bei Gleichstand gilt *Entscheidungen treffen*.\n\nEr nutzt sämtliche verfügbare Tech und zahlt nötigenfalls Kristalle. Erreicht er ein Plättchen, wird es sofort ausgewertet.",
+      "group": "lacerda_regeln",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-orbit-aktionen",
+      "name": "Orbit: Aktionen 1–3",
+      "summary": "Aktion 1: Bauplan passend zu seinen Wissenschaftlern; Aktion 2: billigste Tech; Aktion 3: F&E nach festem Muster.",
+      "description": "Die Zahl im Astronautenbild der Solokarte bestimmt Lacerdas Aktion:\n\n**1. Bauplan erwerben:** Er nimmt den Bauplan des Typs, den seine Wissenschaftler werten. Bei Gleichstand die Karte ganz links in der Reihe mit den meisten Karten (bei erneutem Gleichstand die untere).\n\n**2. Neue Technologie lernen:** Er nimmt die billigste Tech (bei mehreren die ganz links) und legt sie in sein Labor, oberes Feld zuerst; den Feldbonus erhält er nach der Warenlager-Priorität.\n\n**3. Forschung & Entwicklung:** Er entwickelt zuerst die höchstentwickelte Tech, die einmal entwickelt werden kann, dann die niedrigstentwickelte. Bei Gleichstand die untere.",
+      "group": "lacerda_orbit",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-orbit-sonstiges",
+      "name": "Orbit: Nachschub & Landungskapsel",
+      "summary": "Nachschub macht Lacerda nur über Reihenfolge-/Laborboni, die Landungskapsel nie.",
+      "description": "**Nachschub:** Lacerda führt diese Aktion nur aus, wenn sein Astronaut in der Shuttlephase auf das Nachschub-Feld der Reihenfolgeleiste kommt oder ein Techplättchen auf ein passendes Laborfeld gelegt wird.\n\n**Landungskapsel:** Diese Aktion führt er **nie** aus.",
+      "group": "lacerda_orbit",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-kolonie-bauen",
+      "name": "Kolonie: Ein Gebäude bauen",
+      "summary": "Lacerda baut das Gebäude unter seinem Bot – aber nur, wenn die Kolonie es laut LSS noch braucht; sonst das nächste in der Reihenfolge.",
+      "description": "Lacerda baut immer das Gebäude, das zum Symbol unter seinem Bot passt – aber **nur**, wenn dessen LSS-Marker unter dem aktuellen Kolonielevel liegt.\n\n- Braucht die Kolonie den Typ nicht, nimmt er das nächste Gebäude der Reihenfolge (mit derselben Prüfung). Eine **Mine** baut er immer, wenn sie an der Reihe ist.\n- Er bildet dabei stets den **größtmöglichen Komplex** unter Einsatz aller verfügbaren Techs; bei mehreren möglichen Standorten gilt *Entscheidungen treffen*.\n- Nach dem Bauen rückt sein Bot auf das nächste Symbol hinter dem gerade gebauten Gebäude vor.",
+      "group": "lacerda_kolonie",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-kolonie-aufwerten",
+      "name": "Kolonie: Ein Gebäude aufwerten",
+      "summary": "Lacerda wertet mit dem Bauplan auf, der ihm über seine Wissenschaftler die meisten GP bringt – mit Aufwerten-Tech mehrfach.",
+      "description": "Lacerda nutzt einen seiner Baupläne und wertet ein Gebäude **irgendwo auf dem Spielplan** auf. Ist die Aufwerten-Tech im Spiel, nutzt er sie, um so viele Gebäude wie möglich aufzuwerten.\n\nStehen mehrere Baupläne zur Wahl, bevorzugt er den, der über seine Wissenschaftler mehr GP bringt.",
+      "group": "lacerda_kolonie",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-kolonie-wissenschaftler",
+      "name": "Kolonie: Wissenschaftler oder Erdenvertrag",
+      "summary": "Erst die GP-stärksten Wissenschaftler (max. 2), danach Verträge – seine Verträge gelten automatisch als erfüllt.",
+      "description": "Lacerda nimmt den Wissenschaftler mit den meisten **potentiellen GP**, gemessen an der Anzahl der Bauplankarten aller Spieler (genutzt oder nicht).\n\nSobald er **zwei Wissenschaftler** hat, nimmt er stattdessen den GP-stärksten Erdenvertrag. Seine Verträge gelten **automatisch als erfüllt**.\n\nNach dem Nehmen mischt er den Vertragsstapel und füllt die Auslage mit der obersten Karte auf.",
+      "group": "lacerda_kolonie",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-kolonielevel",
+      "name": "Das Kolonielevel erhöht sich",
+      "summary": "Lacerda baut eine Unterkunft und erhält einen Bot, der nur auf seinem Tableau zählt.",
+      "description": "Immer wenn sich der Kolonielevel erhöht, platziert Lacerda nach seinen Bauregeln eine **Unterkunft** und nimmt 1 **Bot** auf sein Spielertableau. Dieser Bot kommt nie auf den Spielplan, zählt aber bei LSS-Belohnungen und Missionen.",
+      "group": "lacerda_kolonie",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-ziele-level1",
+      "name": "Level 1 – Erste Kolonisten",
+      "summary": "Kolonielevel 3, 1 Vertrag, 1 Privatziel, ein Level-6-Techplättchen und mehr GP als Lacerda.",
+      "description": "Erfülle **alle** dieser Ziele:\n\n- Erreiche mindestens Kolonielevel 3\n- Erfülle mindestens 1 Vertrag\n- Erfülle 1 Privatzielkarte\n- Besitze ein Techplättchen mit Level 6\n- Erreiche mehr GP als Lacerda",
+      "group": "solo_ziele",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-ziele-level2",
+      "name": "Level 2 – Nächste Generation",
+      "summary": "Zusätzlich 2 Verträge beider Arten, 2 Forschungsplättchen, 4 Unterkünfte und +10 GP Vorsprung.",
+      "description": "Erfülle **alle** dieser Ziele:\n\n- Erreiche mindestens Kolonielevel 3\n- Erfülle mindestens 2 Verträge, 1 von jeder Art\n- Erfülle 1 Privatzielkarte\n- Besitze mindestens 2 Forschungsplättchen\n- Baue mindestens 4 Unterkünfte\n- Schlage Lacerda um 10 oder mehr GP",
+      "group": "solo_ziele",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-ziele-level3",
+      "name": "Level 3 – Alles in Ordnung",
+      "summary": "Kolonielevel 4, Präsenz auf 3 Minen, 5 Fortschrittliche Gebäude und +20 GP Vorsprung.",
+      "description": "Erfülle **alle** dieser Ziele:\n\n- Erreiche mindestens Kolonielevel 4\n- Erfülle mindestens 2 Verträge, 1 von jeder Art\n- Erfülle 1 Privatzielkarte\n- Besitze Kolonisten und/oder Gebäudefortschritt-Marker auf mindestens 3 Minen\n- Besitze mindestens 5 Fortschrittliche Gebäude\n- Schlage Lacerda um 20 oder mehr GP",
+      "group": "solo_ziele",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-ziele-kartoffel",
+      "name": "Überlebensszenario – Eine Marsianische Kartoffel",
+      "summary": "Das Gewächshaus-Szenario: Biochemiker, große Gewächshauskomplexe, Level-6-Gewächshaus-Tech, Ende im Orbit und +30 GP.",
+      "description": "Erfülle **alle** dieser Ziele:\n\n- Erreiche mindestens Kolonielevel 3\n- Erfülle den Größe-4-Gewächshaus-Vertrag\n- Erfülle den Liefervertrag über Pflanzen und Mineralien (#11)\n- Nimm den Biochemiker\n- Besitze mindestens 3 Gewächshäuser mit einem Fortschrittlichen Gebäude\n- Erweitere 1 Gewächshauskomplex auf mindestens Größe 5\n- Besitze mindestens 5 Pflanzen im Lager\n- Nimm mindestens 2 Forschungsplättchen\n- Deine Gewächshaus-Tech hat Level 6\n- Beende das Spiel im Orbit\n- Schlage Lacerda um 30 oder mehr GP",
+      "group": "solo_ziele",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "solo-entscheidungen",
+      "name": "Entscheidungen treffen",
+      "summary": "Im Zweifel wählt Lacerda die für ihn beste Option – sonst entscheidet der Solostapel per Nummernziehen.",
+      "description": "Hat Lacerda mehrere Möglichkeiten, wähle immer die Aktion, die ihm **die meisten Vorteile** bringt.\n\nGibt es keine eindeutig beste Option, gib jeder Möglichkeit eine Nummer und ziehe so lange Karten vom Solostapel, bis eine der Nummern aufgedeckt wird – diese Option gilt. Mische die gezogenen Karten anschließend zurück in den Stapel.",
+      "group": "entscheidungen",
+      "tags": ["solo"],
+      "source": { "document": "Spielanleitung", "page": null }
+    }
+  ]
+}

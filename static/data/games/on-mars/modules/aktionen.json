@@ -1,0 +1,96 @@
+{
+  "groups": [
+    { "id": "orbit", "title": "Aktionen der Orbitalstation", "description": "Verfügbar, wenn dein Spielermarker auf der **Orbitseite** steht. Pro Zug: 1 Hauptaktion + optional 1 Sonderaktion.", "order": 10 },
+    { "id": "kolonie", "title": "Aktionen der Kolonie", "description": "Verfügbar, wenn dein Spielermarker auf der **Kolonieseite** steht. Pro Zug: 1 Hauptaktion + optional 1 Sonderaktion.", "order": 20 }
+  ],
+  "entries": [
+    {
+      "id": "aktion-landungskapsel",
+      "name": "Landungskapsel",
+      "summary": "Keine Kosten → Reise sofort zur Kolonie (wie Shuttlephase, aber ohne Entdeckungsplättchen); dein Zug ist damit beendet.",
+      "group": "orbit",
+      "tags": ["aktionen"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "aktion-tech-lernen",
+      "name": "Neue Technologie lernen",
+      "summary": "Kolonist einsetzen; Plättchen-Position zahlt gratis / 1 Batterie / 1 Batterie + 1 Ressource → 1 Techplättchen in die linke Laborspalte + Feldbonus. Verbessert: +1 Plättchen je Kolonist.",
+      "group": "orbit",
+      "tags": ["aktionen"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "aktion-bauplan",
+      "name": "Bauplan erwerben",
+      "summary": "Kolonist einsetzen, freier Gebäudefortschritt-Marker nötig → 1 Bauplan aus der Auslage + abgebildete Ressource/Kristall. Verbessert: +1 Bauplan je Kolonist.",
+      "group": "orbit",
+      "tags": ["aktionen"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "aktion-fue",
+      "name": "Forschung und Entwicklung (F&E)",
+      "summary": "Kolonist einsetzen; Spaltenkosten zahlen → 1 Techplättchen zweimal oder 2 Plättchen je einmal nach rechts entwickeln (+ Feldboni). Verbessert: +1 Entwicklung je Kolonist.",
+      "group": "orbit",
+      "tags": ["aktionen"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "aktion-nachschub",
+      "name": "Nachschub",
+      "summary": "Lagerplatz nötig → 1 Ressource oder 1 Kristall aus dem Warenlager. Verbessert: +1 Ware je Kolonist.",
+      "group": "orbit",
+      "tags": ["aktionen"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "aktion-kontrollzentrum",
+      "name": "Kontrollzentrum",
+      "summary": "Keine Kosten → 2 Bewegungspunkte für Bots + 2 für den Rover; je 1 Kristall = +1 Punkt, Rover-Tech gibt Extrapunkte. Rover sammelt Kristalle/Plättchen.",
+      "group": "kolonie",
+      "tags": ["aktionen"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "aktion-bauen",
+      "name": "Ein Gebäude bauen",
+      "summary": "Kolonist einsetzen; Baukosten zahlen (Mine: 1 Kolonist aufs Plättchen) → Gebäude im Baubereich eines Bots platzieren; Komplexbau braucht passendes Techplättchen. Ertrag = Komplexgröße.",
+      "group": "kolonie",
+      "tags": ["aktionen"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "aktion-aufwerten",
+      "name": "Ein Gebäude aufwerten",
+      "summary": "Kolonist einsetzen; Bauplan + 1 Mineral → Gebäude im Baubereich eines Bots wird Fortschrittliches Gebäude (Level-3-Plan nur bei Komplex ≥ 3). Mit Tech mehrfach.",
+      "group": "kolonie",
+      "tags": ["aktionen"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "aktion-wissenschaftler-vertrag",
+      "name": "Wissenschaftler / Erdenvertrag nehmen",
+      "summary": "Kolonist einsetzen (nur 1 Feld pro Spieler, wird nicht geleert); Kartenkosten zahlen → Wissenschaftler- oder Vertragskarte; leeres Feld am Zugende mit Wahlvertrag auffüllen.",
+      "group": "kolonie",
+      "tags": ["aktionen"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "aktion-schiff",
+      "name": "Ein Schiff empfangen",
+      "summary": "1 Wasser + 1 Pflanze; Limit = Kolonielevel → Schiff vom Depot in den Hangar; erhalte 1 Kolonist + 1 Bot oder 2 Kolonisten; schaltet Sonderaktion frei. Verbessert: +1 Schiff je Kolonist.",
+      "group": "kolonie",
+      "tags": ["aktionen"],
+      "source": { "document": "Spielanleitung", "page": null }
+    },
+    {
+      "id": "aktion-sonderaktion",
+      "name": "Sonderaktion (beide Seiten)",
+      "summary": "1× pro Zug, vor oder nach der Hauptaktion; Kristallkosten laut Depot → freigeschaltete Sonderaktion nutzen (z. B. Fortschrittliches Gebäude für 2 Kristalle).",
+      "group": "kolonie",
+      "tags": ["aktionen"],
+      "source": { "document": "Spielanleitung", "page": null }
+    }
+  ]
+}

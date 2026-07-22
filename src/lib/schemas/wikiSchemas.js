@@ -23,7 +23,12 @@ export const wikiEntrySchema = z.object({
   source: z.object({
     document: z.string(),
     page: z.number().nullable().optional()
-  }).optional()
+  }).optional(),
+  // Zusatzfelder für den Tips-Renderer (TipsRenderer.svelte):
+  // optional, damit Bestandsmodule unverändert validieren.
+  title: z.string().optional(),
+  content: z.string().optional(),
+  difficulty: z.string().optional()
 });
 
 /**

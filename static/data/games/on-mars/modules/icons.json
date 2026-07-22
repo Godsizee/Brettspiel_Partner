@@ -1,0 +1,61 @@
+{
+  "groups": [
+    { "id": "ressourcen", "title": "Ressourcen", "order": 10 },
+    { "id": "kolonisten", "title": "Kolonisten & Bots", "order": 20 },
+    { "id": "gebaeude_lss", "title": "Gebäude & LSS", "order": 30 },
+    { "id": "tech_forschung", "title": "Technologie & Forschung", "order": 40 },
+    { "id": "fortschritt_wertung", "title": "Fortschritt & Wertung", "order": 50 },
+    { "id": "karten", "title": "Karten", "order": 60 }
+  ],
+  "entries": [
+    {
+      "id": "icon-fortschrittspfeile",
+      "name": "Fortschrittspfeile",
+      "image": "/icons/icons_on_mars/01_fortschrittspfeile_hochaufloesend.webp",
+      "group": "fortschritt_wertung",
+      "tags": ["icons"]
+    },
+    {
+      "id": "icon-rakete",
+      "name": "Rakete / Schiff",
+      "image": "/icons/icons_on_mars/02_rakete_hochaufloesend.webp",
+      "group": "kolonisten",
+      "tags": ["icons"]
+    },
+    {
+      "id": "icon-arbeiter-wohnbereich",
+      "name": "Arbeiter / Wohnbereich",
+      "image": "/icons/icons_on_mars/03_arbeiter wohnbereich.webp",
+      "group": "kolonisten",
+      "tags": ["icons"]
+    },
+    {
+      "id": "icon-techplaettchen",
+      "name": "Techplättchen / Labor",
+      "image": "/icons/icons_on_mars/04_techplaettchen_labor_hochaufloesend.webp",
+      "group": "tech_forschung",
+      "tags": ["icons"]
+    },
+    {
+      "id": "icon-karten",
+      "name": "Karten",
+      "image": "/icons/icons_on_mars/05_karten_hochaufloesend.webp",
+      "group": "karten",
+      "tags": ["icons"]
+    },
+    {
+      "id": "icon-wissenschaftler",
+      "name": "Wissenschaftler",
+      "image": "/icons/icons_on_mars/06_wissenschaftler_hochaufloesend.webp",
+      "group": "karten",
+      "tags": ["icons"]
+    },
+    {
+      "id": "icon-ereignis-globus",
+      "name": "Ereignis / Globus",
+      "image": "/icons/icons_on_mars/07_ereignis_globus_hochaufloesend.webp",
+      "group": "tech_forschung",
+      "tags": ["icons"]
+    }
+  ]
+}

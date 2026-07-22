@@ -1,0 +1,62 @@
+{
+  "sections": [
+    {
+      "title": "Schlusswertung",
+      "timing": "end",
+      "items": [
+        {
+          "name": "Fortschrittswürfel",
+          "description": "1/2/4/7/11 GP für 1/2/3/4/5 eigene Würfel im Fortschrittsbereich – dieselbe Staffel wie bei den Kolonielevel-Erhöhungen.",
+          "max": 11
+        },
+        {
+          "name": "Schiffe im Hangar",
+          "description": "3 GP für jedes Privatschiff, das am Spielende in deinem Hangar liegt. Zum Reisen abgegebene Schiffe zählen nicht."
+        },
+        {
+          "name": "Kolonisten im Wohnbereich",
+          "description": "Stelle alle Kolonisten von der Spielplanseite deines Spielermarkers und aus deinem Arbeitsbereich zurück in den Wohnbereich (von unten nach oben auffüllen). Du erhältst die GP-Zahl neben deinem am weitesten oben liegenden Kolonisten."
+        },
+        {
+          "name": "Techplättchen",
+          "description": "Jedes Techplättchen in deinem Labor bringt so viele GP, wie die Zahl unter seiner Spalte angibt – je weiter entwickelt, desto mehr Punkte."
+        },
+        {
+          "name": "Fortschrittliche Gebäude (Baupläne)",
+          "description": "3 GP für jede zum Aufwerten genutzte Level-1-Bauplankarte, 5 GP für jede genutzte Level-3-Karte. Achtung: −3 GP für jeden nicht gebauten Level-1-Bauplan und −5 GP für jeden nicht gebauten Level-3-Bauplan."
+        },
+        {
+          "name": "Wissenschaftler",
+          "description": "Jeder deiner Wissenschaftler bringt 3 GP pro Fortschrittlichem Gebäude seines Typs auf dem Mars – unabhängig davon, wem das Gebäude gehört."
+        },
+        {
+          "name": "Erdenverträge",
+          "description": "Erfüllte Verträge bringen die abgebildeten GP, nicht erfüllte ziehen die abgebildeten GP ab. Vor der Wertung dürfen noch beliebig viele Ressourcen/Kristalle auf Lieferverträge gelegt werden; Mineralien sind hier kein Ersatz für andere Ressourcen."
+        },
+        {
+          "name": "Gleichstand",
+          "description": "Bei Gleichstand gewinnt der beteiligte Spieler mit den meisten Kristallen, dann mit den meisten Fortschrittlichen Gebäuden, dann mit den meisten Würfeln im Fortschrittsbereich. Besteht der Gleichstand weiterhin, wird der Sieg geteilt."
+        }
+      ]
+    },
+    {
+      "title": "Während des Spiels",
+      "timing": "instant",
+      "items": [
+        {
+          "name": "Erstes LSS-Gebäude eines Typs",
+          "description": "Wer den LSS-Marker eines Typs zum ersten Mal aus der untersten Reihe nach oben zieht, erhält sofort 2 GP."
+        },
+        {
+          "name": "LSS-Belohnungen",
+          "description": "Stand der LSS-Marker vor dem Bauen unterhalb des Kolonielevelmarkers, gibt es zusätzlich die GP des LSS-Belohnungsplättchens der Spalte plus einen der oben links im LSS abgebildeten Boni."
+        },
+        {
+          "name": "Kolonielevel-Erhöhung (Fortschrittsbereich)",
+          "description": "Bei den ersten beiden Anpassungen des Koloniestatus erhält jeder Spieler 1/2/4/7/11 GP für 1/2/3/4/5 eigene Würfel im Fortschrittsbereich.",
+          "max": 11
+        }
+      ]
+    }
+  ]
+}
