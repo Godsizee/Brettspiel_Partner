@@ -17,6 +17,7 @@ export const wikiEntrySchema = z.object({
   image: z.string().nullable().optional(),
   thumb: z.string().nullable().optional(),
   group: z.string().optional(),
+  aliases: z.array(z.string()).optional(),
   timing: z.array(z.string()).optional(),
   tags: z.array(z.string()).optional(),
   warnings: z.array(z.string()).optional(),

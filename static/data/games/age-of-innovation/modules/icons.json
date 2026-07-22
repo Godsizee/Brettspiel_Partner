@@ -1,0 +1,16 @@
+{
+  "groups": [
+    { "id": "ressourcen", "title": "Ressourcen", "order": 10 },
+    { "id": "disziplinen", "title": "Disziplinen & Wissen", "order": 20 },
+    { "id": "gebaeude", "title": "Gebäude", "order": 30 },
+    { "id": "gelaende", "title": "Gelände & Bewegung", "order": 40 },
+    { "id": "marker", "title": "Marker & Sonstiges", "order": 50 }
+  ],
+  "entries": [
+    { "id": "icon-buch-gelb", "name": "Buch: Bankwesen (gelb)", "image": "/Wiki/Age of Innovation/Plättchen AoI/Bücher/Buch_gelb.webp", "group": "disziplinen", "tags": ["icons"] },
+    { "id": "icon-buch-blau", "name": "Buch: Recht (blau)", "image": "/Wiki/Age of Innovation/Plättchen AoI/Bücher/Buch_blau.webp", "group": "disziplinen", "tags": ["icons"] },
+    { "id": "icon-buch-braun", "name": "Buch: Ingenieurskunst (braun)", "image": "/Wiki/Age of Innovation/Plättchen AoI/Bücher/Buch_braun.webp", "group": "disziplinen", "tags": ["icons"] },
+    { "id": "icon-buch-weiss", "name": "Buch: Medizin (weiß)", "image": "/Wiki/Age of Innovation/Plättchen AoI/Bücher/Buch_weiss.webp", "group": "disziplinen", "tags": ["icons"] },
+    { "id": "icon-x-marker", "name": "X-Marker (Aktion genutzt)", "image": "/Wiki/Age of Innovation/Plättchen AoI/X-Marker.webp", "group": "marker", "tags": ["icons"] }
+  ]
+}

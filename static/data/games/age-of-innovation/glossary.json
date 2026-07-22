@@ -1,4 +1,4 @@
-﻿{
+{
   "entries": [
     {
       "id": "glossary-power",
@@ -9,6 +9,246 @@
       "aliases": ["Machtmarker", "Power"],
       "tags": ["macht", "ressource"],
       "source": { "document": "Spielregel", "page": 7 }
+    },
+    {
+      "id": "glossary-machtschalen",
+      "type": "glossary",
+      "category": "Ressource",
+      "name": "Machtschalen I–III",
+      "summary": "Die 3 miteinander verbundenen Schalen auf deinem Planungstableau, durch die deine Machtsteine im Uhrzeigersinn wandern. Ausgeben darfst du Macht nur aus Schale III; jeder Machtgewinn schiebt einen Stein von Schale I nach II bzw. von II nach III.",
+      "aliases": ["Schale I", "Schale II", "Schale III", "Machtschale"],
+      "tags": ["macht", "ressource"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 7 }
+    },
+    {
+      "id": "glossary-machtopfer",
+      "type": "glossary",
+      "category": "Ressource",
+      "name": "Machtopfer",
+      "summary": "Zusatzoption beim Ressourcentausch: Hast du mindestens 2 Machtsteine in Schale II, darfst du 1 davon in den Vorrat zurücklegen, um dafür 1 anderen Machtstein von Schale II nach Schale III zu schieben.",
+      "aliases": [],
+      "tags": ["macht", "ressourcentausch"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 16 }
+    },
+    {
+      "id": "glossary-spaten",
+      "type": "glossary",
+      "category": "Umwandlung",
+      "name": "Spaten",
+      "summary": "Die Einheit, in der die Kosten einer Landschaftsumwandlung gemessen werden. Du erhältst Spaten meist durch Abgabe von Werkzeugen (gemäß deiner Umwandlungsleiste) oder als Bonus durch Aktionen, Wissensboni und Kompetenzen.",
+      "aliases": [],
+      "tags": ["umwandlung"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 11 }
+    },
+    {
+      "id": "glossary-werkzeug",
+      "type": "glossary",
+      "category": "Ressource",
+      "name": "Werkzeug",
+      "summary": "Grundressource, die du vor allem zum Kauf von Spaten (Umwandlung) und für Bau-/Aufwertungskosten benötigst. Der Vorrat ist unbegrenzt.",
+      "aliases": [],
+      "tags": ["ressource"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 10 }
+    },
+    {
+      "id": "glossary-geld",
+      "type": "glossary",
+      "category": "Ressource",
+      "name": "Geld",
+      "summary": "Das Zahlungsmittel des Spiels für Bau- und Aufwertungskosten. Am Spielende zählt übriges Geld direkt zur Ressourcenwertung: 5 Geld = 1 Punkt.",
+      "aliases": [],
+      "tags": ["ressource"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 10 }
+    },
+    {
+      "id": "glossary-gelehrter",
+      "type": "glossary",
+      "category": "Ressource",
+      "name": "Gelehrter",
+      "summary": "Wird auf das Wissenstableau entsendet, um dort dauerhaft einen Wissensfortschritt zu markieren — du erhältst ihn nie zurück. Der Vorrat ist auf 7 Stück begrenzt.",
+      "aliases": [],
+      "tags": ["ressource", "wissenstableau"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 15 }
+    },
+    {
+      "id": "glossary-buch",
+      "type": "glossary",
+      "category": "Ressource",
+      "name": "Buch",
+      "summary": "Ressource in 4 Farben, je eine pro Disziplin. Bücher bezahlst du für Erfindungen (mind. 5, teils disziplingebunden) und für Buchaktionen; ein graues Buch steht für ein beliebiges Buch.",
+      "aliases": [],
+      "tags": ["ressource"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 10 }
+    },
+    {
+      "id": "glossary-disziplin",
+      "type": "glossary",
+      "category": "Wissen",
+      "name": "Disziplin",
+      "summary": "Die vier Wissensbereiche des Wissenstableaus: Bankwesen (gelb), Recht (blau), Ingenieurskunst (braun) und Medizin (weiß). In jeder Disziplin kannst du eigenständig aufsteigen.",
+      "aliases": [],
+      "tags": ["wissenstableau"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 10 }
+    },
+    {
+      "id": "glossary-wissensschritt",
+      "type": "glossary",
+      "category": "Wissen",
+      "name": "Wissensschritt",
+      "summary": "1 Stufe Fortschritt in einer Disziplin auf dem Wissenstableau. Beim Erreichen von Stufe 3, 5, 7 oder 12 erhältst du sofort und einmalig Macht.",
+      "aliases": [],
+      "tags": ["wissenstableau"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 10 }
+    },
+    {
+      "id": "glossary-stadtschluessel",
+      "type": "glossary",
+      "category": "Stadt",
+      "name": "Stadtschlüssel",
+      "summary": "Wird bei jeder Stadtgründung vom gewählten Stadtmarker gewährt. Du benötigst 1 ungenutzten Stadtschlüssel pro Disziplin, um mit deinem Markierungsstein auf Stufe 8 vorzurücken.",
+      "aliases": [],
+      "tags": ["stadt", "wissenstableau"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 9 }
+    },
+    {
+      "id": "glossary-stadt",
+      "type": "glossary",
+      "category": "Stadt",
+      "name": "Stadt",
+      "summary": "Entsteht automatisch, sobald du eine Gruppe aus mindestens 4 benachbarten eigenen Gebäuden mit Machtwert ≥ 7 hast (Universität: 3 Gebäude, Monument: 2 Gebäude). Gibt Punkte, Ressourcen und einen Stadtschlüssel.",
+      "aliases": [],
+      "tags": ["stadt"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 9 }
+    },
+    {
+      "id": "glossary-machtwert",
+      "type": "glossary",
+      "category": "Gebäude",
+      "name": "Machtwert",
+      "summary": "Der Wert, den ein Gebäude für Machterhalt und Stadtgründung beisteuert: Werkstatt 1, Gilde/Schule 2, Palast/Universität 3.",
+      "aliases": [],
+      "tags": ["gebaeude", "macht"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 8 }
+    },
+    {
+      "id": "glossary-machterhalt",
+      "type": "glossary",
+      "category": "Macht",
+      "name": "Machterhalt (Leeching)",
+      "summary": "Wenn eine Gemeinschaft baut oder aufwertet, dürfen benachbarte andere Gemeinschaften dafür Macht erhalten — müssen dafür aber Punkte abgeben (1 weniger, als sie Macht erhalten).",
+      "aliases": ["Leeching"],
+      "tags": ["macht"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 8 }
+    },
+    {
+      "id": "glossary-nachbarschaft",
+      "type": "glossary",
+      "category": "Gelände",
+      "name": "Nachbarschaft",
+      "summary": "Zwei Landschaftsfelder oder Gebäude gelten als benachbart, wenn sie über eine Sechseckseite oder über eine Brücke miteinander verbunden sind.",
+      "aliases": [],
+      "tags": ["gelaende"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 8 }
+    },
+    {
+      "id": "glossary-reichweite",
+      "type": "glossary",
+      "category": "Gelände",
+      "name": "Reichweite",
+      "summary": "Umfasst alle benachbarten Felder/Gebäude sowie alle Felder, die über maximal so viele Flussfelder verbunden sind, wie es deinem Schifffahrtswert entspricht.",
+      "aliases": [],
+      "tags": ["gelaende"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 8 }
+    },
+    {
+      "id": "glossary-heimatlandschaft",
+      "type": "glossary",
+      "category": "Gelände",
+      "name": "Heimatlandschaft",
+      "summary": "Der einzige Landschaftstyp, auf dem eine Gemeinschaft bauen darf — festgelegt durch das eigene Planungstableau und oben im Umwandlungskreis abgebildet.",
+      "aliases": [],
+      "tags": ["gelaende"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 7 }
+    },
+    {
+      "id": "glossary-umwandlung",
+      "type": "glossary",
+      "category": "Gelände",
+      "name": "Umwandlung",
+      "summary": "Ändert den Landschaftstyp eines Feldes in Richtung der eigenen Heimatlandschaft. Die Spatenkosten richten sich nach der Entfernung der beiden Landschaften im Umwandlungskreis des Planungstableaus.",
+      "aliases": ["Terraforming"],
+      "tags": ["gelaende"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 11 }
+    },
+    {
+      "id": "glossary-schifffahrt",
+      "type": "glossary",
+      "category": "Bewegung",
+      "name": "Schifffahrt",
+      "summary": "Leiste auf dem Planungstableau; jeder Fortschritt erhöht deine Reichweite über Flüsse hinweg und bringt einmalig Punkte oder Bücher.",
+      "aliases": [],
+      "tags": ["bewegung"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 14 }
+    },
+    {
+      "id": "glossary-bruecke",
+      "type": "glossary",
+      "category": "Bewegung",
+      "name": "Brücke",
+      "summary": "Verbindet 2 Landschaftsfelder über einen Fluss hinweg und macht sie benachbart. Wird über Machtaktion 1 gebaut (3 Macht, Bedingung: eigenes Gebäude an einem der Felder).",
+      "aliases": [],
+      "tags": ["bewegung"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 8 }
+    },
+    {
+      "id": "glossary-neutrales-gebaeude",
+      "type": "glossary",
+      "category": "Gebäude",
+      "name": "Neutrales Gebäude",
+      "summary": "Farbloses Gebäude, das jede Gemeinschaft über Erfindungen oder Kompetenzen erhalten und sofort auf ein unbebautes Feld in Reichweite setzen kann (bei Bedarf inklusive Umwandlung in die Heimatlandschaft).",
+      "aliases": [],
+      "tags": ["gebaeude"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 9 }
+    },
+    {
+      "id": "glossary-x-marker",
+      "type": "glossary",
+      "category": "Marker",
+      "name": "X-Marker",
+      "summary": "Sperrt eine genutzte Macht-, Buch- oder Sonderaktion für den Rest der Runde. In Phase III werden alle X-Marker zurückgenommen.",
+      "aliases": [],
+      "tags": ["marker"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 15 }
+    },
+    {
+      "id": "glossary-sonderaktion",
+      "type": "glossary",
+      "category": "Aktion",
+      "name": "Sonderaktion",
+      "summary": "Persönliche, kostenlose Aktion auf eigenen Komponenten (Palast, Erfindungen, Kompetenzen), einmal pro Runde nutzbar und mit einem X-Marker abzudecken.",
+      "aliases": [],
+      "tags": ["aktion"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 15 }
+    },
+    {
+      "id": "glossary-rundenbonus",
+      "type": "glossary",
+      "category": "Plättchen",
+      "name": "Rundenbonus",
+      "summary": "Karte, die du beim Passen wechselst; gibt Einkommen oder Boni für die nächste Runde und bestimmt deine neue Position in der Zugreihenfolge.",
+      "aliases": [],
+      "tags": ["plaettchen"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 23 }
+    },
+    {
+      "id": "glossary-kompetenz",
+      "type": "glossary",
+      "category": "Plättchen",
+      "name": "Kompetenz",
+      "summary": "Plättchen, das du beim Bau einer Schule oder Universität erhältst und das dich in einer Disziplin spezialisiert (Wissensschritte und/oder Bücher). 12 verschiedene, du darfst nur unterschiedliche besitzen.",
+      "aliases": [],
+      "tags": ["plaettchen", "wissenstableau"],
+      "source": { "document": "Age of Innovation Regelheft (DE)", "page": 24 }
     }
   ]
 }

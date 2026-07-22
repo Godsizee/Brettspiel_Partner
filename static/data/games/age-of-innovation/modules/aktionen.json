@@ -1,0 +1,291 @@
+{
+  "groups": [
+    {
+      "id": "ablauf",
+      "title": "So läuft Phase II",
+      "order": 10,
+      "description": "Reihum genau 1 Aktion pro Zug, bis alle gepasst haben. Jede Aktion (außer Passen) beliebig oft."
+    },
+    {
+      "id": "umwandeln_bauen",
+      "title": "Umwandeln und Bauen",
+      "order": 20,
+      "description": "Die Kernaktion: Landschaft in die Heimatlandschaft umwandeln und Werkstätten bauen."
+    },
+    {
+      "id": "aufwerten",
+      "title": "Ein Gebäude aufwerten",
+      "order": 30,
+      "description": "Die vier Aufwertungspfade: Werkstatt→Gilde, Gilde→Palast, Gilde→Schule, Schule→Universität."
+    },
+    {
+      "id": "weitere",
+      "title": "Weitere Aktionen",
+      "order": 40,
+      "description": "Schifffahrt, Umwandlungsfortschritt, Erfindungen, Gelehrte, Macht-/Buchaktionen und Sonderaktionen."
+    },
+    {
+      "id": "passen_tausch",
+      "title": "Passen & Ressourcentausch",
+      "order": 50,
+      "description": "Passen (Rundenbonus wechseln, Startspieler-Reihenfolge) und die Zusatzoption Ressourcentausch."
+    }
+  ],
+  "entries": [
+    {
+      "id": "phase-ii-aktionen-uebersicht",
+      "name": "Phase II: Aktionen – Übersicht",
+      "type": "reference",
+      "group": "ablauf",
+      "summary": "Ihr seid in der auf dem Tableau Spielreihenfolge angezeigten Reihenfolge (beginnend oben, gefolgt von den darunterliegenden Markern und dann wieder oben beginnend usw.) immer abwechselnd am Zug und führt genau eine Aktion durch, bis ihr alle die Aktion *Passen* gewählt habt. Dann endet die Phase.",
+      "description": "Ihr seid in der auf dem Tableau Spielreihenfolge angezeigten Reihenfolge (beginnend oben, gefolgt von den darunterliegenden Markern und dann wieder oben beginnend usw.) immer abwechselnd am Zug und führt genau eine Aktion durch, bis ihr alle die Aktion *Passen* gewählt habt. Dann endet die Phase.\n\nMit Ausnahme der Aktion *Passen* kannst du jede Aktion beliebig oft und in beliebiger Reihenfolge (aber nur 1 Aktion pro Zug) ausführen. Die Aktion *Passen* musst du jedoch genau einmal wählen und beendest damit deine Aktivitäten in Phase II der aktuellen Runde. Du wirst danach für den Rest der Phase übersprungen, bis alle gepasst haben.\n\nDes Weiteren kannst du direkt vor oder nach jeder deiner Aktionen noch die Zusatzoption Ressourcentausch ausführen. Diese wird in Phase II – Passen und Ressourcentausch erklärt.\n\nIn jeder Runde gibt es über die Rundenwertungsplättchen für mindestens 1 Aktion Punkte. Immer wenn du tust, was auf der linken Seite des Rundenwertungsplättchens der aktuellen Runde abgebildet ist, erhältst du dafür die abgebildete Anzahl Punkte. Eine Übersicht aller Rundenwertungsplättchen findest du in Anhang IX.\n\n*Beispiel:* Immer wenn du in der Runde mit dem auf Seite 11 gezeigten Rundenwertungsplättchen eine Werkstatt baust, erhältst du 2 Punkte.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 11
+      }
+    },
+    {
+      "id": "phase-ii-umwandeln-und-bauen",
+      "name": "Phase II: Umwandeln und Bauen",
+      "type": "reference",
+      "group": "umwandeln_bauen",
+      "summary": "Mit dieser Aktion darfst du ein Landschaftsfeld in deine Heimatlandschaft umwandeln und dort eine Werkstatt bauen.",
+      "description": "Mit dieser Aktion darfst du ein Landschaftsfeld in deine Heimatlandschaft umwandeln und dort eine Werkstatt bauen.\n\nAlternativ darfst du mit dieser Aktion auch nur eine Werkstatt bauen, ohne eine Landschaft umzuwandeln (wenn das Feld bereits deine Heimatlandschaft hat), oder eine Landschaft umwandeln, ohne eine Werkstatt zu bauen.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 11
+      }
+    },
+    {
+      "id": "das-umwandeln-einer-landschaft",
+      "name": "Das Umwandeln einer Landschaft",
+      "type": "reference",
+      "group": "umwandeln_bauen",
+      "summary": "Damit du Werkstätten bauen kannst, wirst du oftmals im Spiel die Landschaft eines Feldes erst umwandeln müssen.",
+      "description": "Damit du Werkstätten bauen kannst, wirst du oftmals im Spiel die Landschaft eines Feldes erst umwandeln müssen.\n\nUm eine Landschaft umzuwandeln, muss das Landschaftsfeld, welches du umwandeln willst,\n\n- unbebaut sein,\n- sich in Reichweite zu einem deiner Gebäude befinden und\n- einen anderen Landschaftstyp als deine Heimatlandschaft haben.\n\nAußerdem musst du die Kosten für die Umwandlung zahlen.\n\nWie aufwendig diese Umwandlung ist, zeigt dir der Umwandlungskreis auf deinem Planungstableau: Einen Landschaftstyp in einen anderen Landschaftstyp umzuwandeln, der auf dem Umwandlungskreis angrenzend ist, kostet 1 Spaten. Einen Landschaftstyp in einen nicht angrenzenden Landschaftstyp umzuwandeln kostet 2 oder 3 Spaten, je nachdem, wie viele Schritte die Landschaften auf dem Umwandlungskreis voneinander entfernt sind.\n\n*Beispiel:* Die Umwandlung eines Sumpffeldes in ein Wüstenfeld kostet dich 2 Spaten.\n\nDu musst dabei immer über den kürzesten Weg in Richtung deiner Heimatlandschaft auf dem Umwandlungskreis umwandeln. Außerdem darfst du nie über deine Heimatlandschaft hinaus umwandeln.\n\nDie für die Umwandlung benötigte Anzahl von Spaten kannst du auf unterschiedliche Weise erwerben.\n\nDu kannst Werkzeuge abgeben, um Spaten zu erhalten. Die Umwandlungsleiste auf deinem Planungstableau zeigt dir an, wie viele Werkzeuge du für einen Spaten abgeben musst: Zu Spielbeginn musst du gewöhnlich 3 Werkzeuge für einen Spaten bezahlen. Du kannst die Kosten aber im Laufe des Spiels verringern (siehe dazu Phase II – Weitere Aktionen – Fortschritt beim Umwandeln).\n\nDu kannst auf andere Arten, etwa durch Macht-, Buch- und Sonderaktionen, Spaten erhalten bzw. das Recht diese Aktion *Umwandeln und Bauen* auszuführen. Diese Aktionsarten werden später erklärt.\n\nDu darfst die Spaten während dieser Aktion grundsätzlich nur auf ein einziges Landschaftsfeld anwenden.\n\nDabei können 3 Sonderfälle auftreten:\n\n**Fehlende Spaten hinzukaufen**\n\nFalls die Spaten, die du kostenlos erhalten hast, nicht ausreichen, um die gewünschte Landschaft in deine Heimatlandschaft umzuwandeln (und nur dann), darfst du die fehlenden Spaten durch Abgabe von Werkzeugen zukaufen (gemäß den Kosten auf deiner Umwandlungsleiste).\n\n**In Zwischenschritten umwandeln**\n\nDu darfst den Landschaftstyp in einen anderen Landschaftstyp als den deiner Heimatlandschaft umwandeln, allerdings nur in Richtung deiner Heimatlandschaft (auf dem Umwandlungskreis). Es sind also auch Zwischenschritte beim Umwandeln erlaubt. Du darfst dann allerdings keine Werkstatt auf dem Feld bauen, weil es nicht deine Heimatlandschaft ist.\n\n**2 oder 3 Spaten verwenden**\n\nFalls du 2 Spaten auf einmal erhältst, aber nur einen zur Umwandlung in deine Heimatlandschaft benötigst, darfst du den zweiten Spaten auf ein anderes Landschaftsfeld in deiner Reichweite anwenden. Eine Werkstatt darfst du jedoch nur auf dem ersten Landschaftsfeld bauen.\n\nFalls du 3 Spaten auf einmal erhältst, darfst du sogar bis zu 3 Landschaftsfelder umwandeln, solange du immer erst ein Feld in deine Heimatlandschaft umwandelst und dann noch übrige Spaten auf ein anderes Feld anwendest.\n\nIn beiden Szenarien gilt: Du musst alle Spaten nutzen, bevor du eine Werkstatt bauen darfst. Du darfst also nicht ein Feld umwandeln, dann dort bauen und dann die restlichen Spaten für ein Feld nutzen, welches erst durch diese Werkstatt in Reichweite zu deinen Gebäuden gerät.\n\nNachdem du die Spaten bezahlt hast, lege auf das Feld bzw. jeweils auf die Felder ein Landschaftsplättchen mit dem neuen Landschaftstyp.\n\nEs ist nicht möglich, Spaten für künftige Aktionen aufzubewahren. Spaten müssen immer sofort eingesetzt werden.\n\nAuch als Wissensbonus (siehe Phase III – Wissensbonus und Vorbereitungen) kannst du Spaten erhalten. Da diese Spaten außerhalb der Aktionsphase vergeben werden, darfst du nach Einsatz dieser Spaten nicht sofort Werkstätten bauen. Mit dem Bau der Werkstätten musst du auf die Phase II: Aktionen der nächsten Runde warten.\n\nDu musst auf einem Feld, das du umwandelst, nicht zwingend eine Werkstatt bauen. Tust du dies nicht, so bleibt das Feld aber unbebaut und kann somit von anderen Gemeinschaften erneut umgewandelt werden. Ein Landschaftsplättchen ohne Gebäude darauf verhindert also nicht, dass das Feld erneut umgewandelt wird.\n\n*Beispiel:* Die ausführliche bildliche Darstellung zur Nutzung einer Machtaktion mit 2 kostenlosen Spaten findest du auf Seite 12 des Regelhefts.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 11
+      }
+    },
+    {
+      "id": "der-bau-einer-werkstatt",
+      "name": "Der Bau einer Werkstatt",
+      "type": "reference",
+      "group": "umwandeln_bauen",
+      "summary": "Zum Bau einer Werkstatt muss das Landschaftsfeld, auf dem die Werkstatt gebaut werden soll,",
+      "description": "Zum Bau einer Werkstatt muss das Landschaftsfeld, auf dem die Werkstatt gebaut werden soll,\n\n- den Landschaftstyp deiner Heimatlandschaft haben,\n- unbebaut sein und\n- sich in Reichweite zu einem deiner Gebäude befinden.\n\nAußerdem musst du:\n\n- auf deinem Planungstableau noch mindestens 1 Werkstatt verfügbar haben und\n- die dort abgedruckten Baukosten von 1 Werkzeug und 2 Geld für die Werkstatt zahlen.\n\nWenn all diese Voraussetzungen erfüllt sind, nimm von deinem Tableau die am weitesten links befindliche Werkstatt und platziere sie auf dem gewählten Landschaftsfeld.\n\nAndere Gemeinschaften erhalten dadurch ggf. Macht (siehe Allgemeine Spielkonzepte – Machterhalt durch Gebäude), wenn sie Gebäude in Nachbarschaft der neuen Werkstatt haben.\n\n*Beispiel:* Du möchtest „umwandeln und bauen\". Jeder Spaten kostet dich 3 Werkzeuge. Den Berg in Wüste umzuwandeln kostet dich 2 Spaten, demnach also 6 Werkzeuge. Du bezahlst diese und legst ein Wüstenplättchen auf das Feld. Nun bezahlst du noch die Kosten der Werkstatt, 1 Werkzeug und 2 Geld, bevor du die Werkstatt auf das Wüstenplättchen stellst.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 11
+      }
+    },
+    {
+      "id": "phase-ii-ein-gebaeude-aufwerten",
+      "name": "Phase II: Ein Gebäude aufwerten",
+      "type": "reference",
+      "group": "aufwerten",
+      "summary": "Mit dieser Aktion kannst du Gebäude schrittweise aufwerten. Mit 1 Aktion darfst du 1 Gebäude 1 Schritt aufwerten.",
+      "description": "Mit dieser Aktion kannst du Gebäude schrittweise aufwerten. Mit 1 Aktion darfst du 1 Gebäude 1 Schritt aufwerten.\n\nDie Kosten für eine Aufwertung stehen auf deinem Planungstableau links neben den jeweiligen neuen Gebäuden.\n\nDie Aufwertung gilt als Bau des neuen Gebäudes. Das heißt, andere Gemeinschaften erhalten dadurch ggf. Macht (siehe Allgemeine Spielkonzepte – Machterhalt durch Gebäude), wenn sie Gebäude in Nachbarschaft des aufgewerteten Gebäudes haben.\n\nDabei gibt es folgendes zu beachten:\n\n- Hast du kein Gebäude der Art, in die du aufwerten möchtest, dann kannst du nicht aufwerten.\n- Nimm alle Gebäude, die du neu einsetzt, immer von links nach rechts aus der entsprechenden Gebäudezeile von deinem Planungstableau.\n- Wichtig: Bei allen Aufwertungen tauschst du das alte Gebäude gegen das neue Gebäude aus. Nimm das alte Gebäude vom Spielplan und stelle es zurück auf dein Planungstableau, auf das am weitesten rechts gelegene freie Feld der entsprechenden Gebäudezeile. Dadurch verringern sich die Einnahmen des entsprechenden Gebäudetyps. Stell danach das neue Gebäude auf den Spielplan an die Stelle des zuvor entfernten Gebäudes.\n\nInsgesamt sind vier verschiedene Aufwertungen möglich. Die Aufwertung einer Gilde in den Palast ist nur einmal im gesamten Spiel möglich.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 13
+      }
+    },
+    {
+      "id": "werkstatt-zu-gilde",
+      "name": "Werkstatt zu Gilde",
+      "type": "reference",
+      "group": "aufwerten",
+      "summary": "Eine Werkstatt in eine Gilde aufzuwerten, kostet 2 Werkzeuge und 6 Geld. Falls sich dabei mindestens 1 Gebäude einer anderen Gemeinschaft in Nachbarschaft zur aufgewerteten Werkstatt befindet, verringern sich die finanziellen Kosten von 6 auf 3 Geld.",
+      "description": "Eine Werkstatt in eine Gilde aufzuwerten, kostet 2 Werkzeuge und 6 Geld. Falls sich dabei mindestens 1 Gebäude einer anderen Gemeinschaft in Nachbarschaft zur aufgewerteten Werkstatt befindet, verringern sich die finanziellen Kosten von 6 auf 3 Geld.\n\n*Beispiel:* Du spielst rot. Die Aufwertung der linken Werkstatt zur Gilde kostet 2 Werkzeuge und 3 Geld, weil ein Gebäude einer anderen Gemeinschaft daneben steht. Die Aufwertung der rechten Werkstatt kostet 2 Werkzeuge und 6 Geld. Das eigene Bauwerk reduziert die Kosten nicht.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 13
+      }
+    },
+    {
+      "id": "gilde-zu-palast",
+      "name": "Gilde zu Palast",
+      "type": "reference",
+      "group": "aufwerten",
+      "summary": "Eine Gilde in den Palast aufzuwerten, kostet 4 Werkzeuge und 6 Geld. Mit dem Bau des Palastes steht dir eine individuelle Sonderfunktion bzw. Sonderaktion zur Verfügung (siehe Anhang IV – Palasteigenschaften).",
+      "description": "Eine Gilde in den Palast aufzuwerten, kostet 4 Werkzeuge und 6 Geld. Mit dem Bau des Palastes steht dir eine individuelle Sonderfunktion bzw. Sonderaktion zur Verfügung (siehe Anhang IV – Palasteigenschaften). Such dir in dem Moment, in dem du den Palast baust, ein Palastplättchen aus und ersetze den Platzhalter auf deinem Planungstableau mit diesem Plättchen. Zur Auswahl stehen die Palastplättchen, die ihr zu Beginn des Spiels neben dem Spielplan bereitgelegt habt, außer jenen, die bereits von anderen Gemeinschaften gebaut wurden. Je später du also den Palast baust, desto geringer kann deine Auswahl der möglichen Palastplättchen sein.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 13
+      }
+    },
+    {
+      "id": "gilde-zu-schule",
+      "name": "Gilde zu Schule",
+      "type": "reference",
+      "group": "aufwerten",
+      "summary": "Eine Gilde in eine Schule aufzuwerten, kostet 3 Werkzeuge und 5 Geld. Jeder Bau einer Schule erlaubt dir, sofort ein Kompetenzplättchen vom Innovationstableau auszuwählen und offen vor dir abzulegen. Für eine Übersicht aller Kompetenzplättchen siehe Anhang VIII – Kompetenzen.",
+      "description": "Eine Gilde in eine Schule aufzuwerten, kostet 3 Werkzeuge und 5 Geld. Jeder Bau einer Schule erlaubt dir, sofort ein Kompetenzplättchen vom Innovationstableau auszuwählen und offen vor dir abzulegen. Für eine Übersicht aller Kompetenzplättchen siehe Anhang VIII – Kompetenzen.\n\nImmer wenn du ein Kompetenzplättchen erhältst, gelten folgende Detailregeln:\n\n- Du darfst nur unterschiedliche Kompetenzplättchen besitzen.\n- Abhängig von der Position, von der du das Kompetenzplättchen nimmst, erhältst du Wissensschritte in der abgebildeten Disziplin und/oder Bücher der abgebildeten Disziplin (in Summe immer 3).\n\n*Beispiel:* Nimmst du die auf Seite 13 gezeigte blaue Kompetenz, erhältst du 3 Wissensschritte in Recht (blau). Bei der gezeigten braunen Kompetenz erhältst du 2 Wissensschritte in Ingenieurskunst (braun) und 1 braunes Buch aus dem Vorrat. Die Wissensschritte trägst du auf dem Wissenstableau ab.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 13
+      }
+    },
+    {
+      "id": "schule-zu-universitaet",
+      "name": "Schule zu Universität",
+      "type": "reference",
+      "group": "aufwerten",
+      "summary": "Eine Schule in eine Universität aufzuwerten, kostet 5 Werkzeuge und 8 Geld. Auch der Bau der Universität erlaubt dir, sofort ein Kompetenzplättchen auszuwählen und zu nehmen. Es gelten dafür dieselben Regeln wie beim Bau einer Schule.",
+      "description": "Eine Schule in eine Universität aufzuwerten, kostet 5 Werkzeuge und 8 Geld. Auch der Bau der Universität erlaubt dir, sofort ein Kompetenzplättchen auszuwählen und zu nehmen. Es gelten dafür dieselben Regeln wie beim Bau einer Schule.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 13
+      }
+    },
+    {
+      "id": "fortschritt-bei-der-schifffahrt",
+      "name": "Fortschritt bei der Schifffahrt",
+      "type": "reference",
+      "group": "weitere",
+      "summary": "Mit dieser Aktion darfst du den Leistenmarker auf der Schifffahrtsleiste auf deinem Planungstableau um genau 1 Position nach oben schieben, es sei denn, er ist bereits auf dem obersten Feld angekommen.",
+      "description": "Mit dieser Aktion darfst du den Leistenmarker auf der Schifffahrtsleiste auf deinem Planungstableau um genau 1 Position nach oben schieben, es sei denn, er ist bereits auf dem obersten Feld angekommen.\n\nDu steigerst damit die Reichweite deiner Schifffahrt.\n\nDie Kosten für jeden Fortschritt sind unterhalb der Schifffahrtsleiste abgebildet. Als Belohnung erhältst du sofort und einmalig Punkte oder Bücher deiner Wahl.\n\n*Beispiel:* Du zahlst 4 Geld und 1 Gelehrten und steigerst damit die Reichweite deiner Schifffahrt von 1 auf 2. Als Belohnung erhältst du sofort 2 Bücher beliebiger Disziplinen.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "fortschritt-beim-umwandeln",
+      "name": "Fortschritt beim Umwandeln",
+      "type": "reference",
+      "group": "weitere",
+      "summary": "Mit dieser Aktion darfst du den Leistenmarker auf der Umwandlungsleiste auf deinem Planungstableau um genau 1 Position nach oben schieben, es sei denn, er ist bereits auf dem obersten Feld angekommen.",
+      "description": "Mit dieser Aktion darfst du den Leistenmarker auf der Umwandlungsleiste auf deinem Planungstableau um genau 1 Position nach oben schieben, es sei denn, er ist bereits auf dem obersten Feld angekommen.\n\nDu reduzierst damit die Anzahl Werkzeuge, die du für Spaten zum Umwandeln einer Landschaft abgeben musst (siehe Phase II – Umwandeln und Bauen).\n\nDie Kosten für jeden Fortschritt sind unterhalb der Umwandlungsleiste abgebildet. Als Belohnung erhältst du sofort und einmalig Punkte oder Bücher deiner Wahl.\n\n*Beispiel:* Du zahlst 5 Geld, 1 Werkzeug und 1 Gelehrten und reduzierst damit die Werkzeugkosten für einen Spaten von 2 auf 1. Als Belohnung erhältst du sofort 6 Punkte.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "eine-erfindung-machen",
+      "name": "Eine Erfindung machen",
+      "type": "reference",
+      "group": "weitere",
+      "summary": "Mit dieser Aktion darfst du eine Erfindung machen. Dafür musst du immer mindestens 5 Bücher bezahlen, von denen ein Teil zu bestimmten Disziplinen gehören muss. Ein graues Buch steht für ein beliebiges Buch.",
+      "description": "Mit dieser Aktion darfst du eine Erfindung machen. Dafür musst du immer mindestens 5 Bücher bezahlen, von denen ein Teil zu bestimmten Disziplinen gehören muss. Ein graues Buch steht für ein beliebiges Buch.\n\nSo lange du deinen Palast noch nicht gebaut hast, musst du zusätzlich noch 5 Geld bezahlen.\n\nDie zur Wahl stehenden Erfindungen findest du oben auf dem Innovationstableau. Die Erfindungsplättchen sind in Spalten sortiert. Unterhalb der Spalten sind jeweils die Kosten für die Plättchen dieser Spalte abgebildet.\n\n*Beispiel:* Für eine Erfindung aus der auf Seite 14 gezeigten Spalte musst du 2 Bücher der Disziplin Bankwesen (gelb) sowie 3 beliebige Bücher abgeben. Außerdem musst du 5 Geld abgeben, falls du deinen Palast noch nicht gebaut hast.\n\nSpielt ihr zu zweit oder zu viert, so haben die obersten beiden Erfindungen davon abweichende Kosten.\n\n*Beispiel:* Für die Erfindung oberhalb der auf Seite 14 gezeigten Symbole musst du 2 Bücher der Disziplin Bankwesen (gelb), 2 Bücher der Disziplin Recht (blau) sowie 1 beliebiges Buch abgeben, sowie 5 Geld, falls du deinen Palast noch nicht gebaut hast.\n\nLege das Erfindungsplättchen in die unterste freie Aussparung auf der rechten Seite deines Planungstableaus. Du darfst im gesamten Spiel bis zu 3 Erfindungen machen. Wenn alle 3 Aussparungen belegt sind, darfst du keine weitere Erfindung mehr machen.\n\nSind bei der Aussparung noch 1 oder 2 Bücher abgebildet, so erhöhen sich die Kosten für die Erfindung um 1 bzw. 2 beliebige Bücher.\n\nVon den Erfindungen gibt es drei unterschiedliche Arten: Sonderfähigkeiten, sofortige Punkte und zusätzliche Gebäude.\n\nEine Übersicht aller Erfindungen findet ihr in Anhang III – Die Erfindungen.\n\n**Alle 18 Erfindungen im Detail:** Modul „Erfindungen\".",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "einen-gelehrten-entsenden",
+      "name": "Einen Gelehrten entsenden",
+      "type": "reference",
+      "group": "weitere",
+      "summary": "Das Wissenstableau besteht aus 4 Leisten, 1 für jede Disziplin. Unterhalb der Leisten gibt es je 4 Felder, auf denen pro Feld genau 1 Gelehrter eingesetzt werden kann.",
+      "description": "Das Wissenstableau besteht aus 4 Leisten, 1 für jede Disziplin. Unterhalb der Leisten gibt es je 4 Felder, auf denen pro Feld genau 1 Gelehrter eingesetzt werden kann.\n\nMit dieser Aktion darfst du 1 deiner Gelehrten dort auf ein beliebiges freies Feld einsetzen und bewegst danach deinen Markierungsstein auf der zugehörigen Leiste um 3 bzw. 2 Stufen nach oben, je nachdem, welche Zahl auf dem Feld angegeben ist.\n\nDu erhältst Gelehrte, die du auf das Wissenstableau entsendest, niemals zurück. Beachte, dass der Vorrat an Gelehrten auf 7 begrenzt ist.\n\n*Beispiel:* Du entsendest einen deiner Gelehrten in die Disziplin Medizin. Da das 3er-Feld bereits besetzt ist, stellst du ihn auf ein 2er-Feld und setzt dann deinen zugehörigen Markierungsstein 2 Stufen nach oben.\n\nAlternativ darfst du 1 Gelehrten in den Vorrat zurücklegen und dafür in einer Disziplin deiner Wahl um 1 Stufe nach oben steigen.\n\nFür mehr Details zum Wissenstableau siehe Allgemeine Spielkonzepte – Das Wissenstableau.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "macht-und-buchaktionen",
+      "name": "Macht- und Buchaktionen",
+      "type": "reference",
+      "group": "weitere",
+      "summary": "Die Aktionsfelder für Macht- und Buchaktionen befinden sich am unteren Rand des Spielplans, ihr erkennt sie am orangefarbenen Achteck. Die Machtaktionen sind aufgedruckt, die Buchaktionen sind variabel und von Spiel zu Spiel verschieden.",
+      "description": "Die Aktionsfelder für Macht- und Buchaktionen befinden sich am unteren Rand des Spielplans, ihr erkennt sie am orangefarbenen Achteck. Die Machtaktionen sind aufgedruckt, die Buchaktionen sind variabel und von Spiel zu Spiel verschieden.\n\nJede der Aktionen auf dem Spielplan kann nur einmal pro Runde genutzt werden. Immer wenn du eine dieser Aktionen ausführst, legst du anschließend einen X-Marker auf das Achteck mit dem Effekt der Aktion und zeigst damit an, dass diese Aktion in der laufenden Runde nicht mehr (weder von dir noch von Anderen) genutzt werden darf.\n\nFührst du eine Machtaktion aus, bezahle die Kosten, indem du die angegebene Anzahl von Machtsteinen aus deiner Machtschale III in Schale I verschiebst.\n\nFührst du eine Buchaktion aus, bezahle die Kosten, indem du die angegebene Anzahl Bücher in beliebiger Kombination abgibst. Ein graues Buch steht für ein beliebiges Buch.\n\nEine Übersicht aller Macht- und Buchaktionen findet ihr in Anhang VI – Macht- und Buchaktionen.\n\n*Beispiel:* Um die Buchaktion links auf Seite 15 auszuführen, müsstest du 2 beliebige Bücher abgeben. Du darfst dafür sofort eine Werkstatt in eine Gilde aufwerten. Um die Machtaktion rechts auszuführen, müsstest du 3 Machtsteine von deiner Schale III in Schale I bewegen. Du baust dafür sofort 1 Brücke. Du entscheidest dich für die Machtaktion und legst danach einen X-Marker auf das orangefarbene Achteck.\n\n**Alle 12 Aktionen im Detail:** Modul „Macht- & Buchaktionen\".",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "sonderaktionen",
+      "name": "Sonderaktionen",
+      "type": "reference",
+      "group": "weitere",
+      "summary": "Sonderaktionen befinden sich auf diversen anderen Komponenten des Spiels. Sie sind genau wie die Macht- und Buchaktionen an einem orangefarbenen Achteck zu erkennen. Ihr dürft sie ebenfalls nur einmal pro Runde nutzen und deckt sie anschließend mit einem X-Marker ab. Du darfst diese Aktion in der laufenden Runde nicht mehr nutzen.",
+      "description": "Sonderaktionen befinden sich auf diversen anderen Komponenten des Spiels. Sie sind genau wie die Macht- und Buchaktionen an einem orangefarbenen Achteck zu erkennen. Ihr dürft sie ebenfalls nur einmal pro Runde nutzen und deckt sie anschließend mit einem X-Marker ab. Du darfst diese Aktion in der laufenden Runde nicht mehr nutzen.\n\nIm Gegensatz zu den Macht- und Buchaktionen auf dem Spielplan stehen dir die Sonderaktionen persönlich zur Verfügung, das heißt niemand außer dir darf sie nutzen. Außerdem musst du keine Kosten bezahlen, um sie zu nutzen.\n\n*Beispiel:* Du hast die auf Seite 15 gezeigte Erfindung. In deinem Zug nutzt du die Sonderaktion und erhältst dafür kostenlos 1 Gelehrten aus dem Vorrat und 3 Punkte. Danach deckst du die Sonderaktion mit einem X-Marker ab. Du darfst sie erst wieder in der nächsten Runde nutzen.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "passen",
+      "name": "Passen",
+      "type": "reference",
+      "group": "passen_tausch",
+      "summary": "Wenn du am Zug bist und keine andere Aktion mehr ausführen kannst oder willst, passt du und steigst damit aus der laufenden Aktionsphase der aktuellen Runde aus.",
+      "description": "Wenn du am Zug bist und keine andere Aktion mehr ausführen kannst oder willst, passt du und steigst damit aus der laufenden Aktionsphase der aktuellen Runde aus.\n\nFühre die folgenden Schritte aus. In der sechsten und letzten Runde führst du nur Schritt 1 aus. Die anderen Schritte überspringst du.\n\n1. Prüfe, ob sich auf deinem Rundenbonus ein Passen-Symbol befindet. Ist das der Fall, erhältst du sofort und einmalig die entsprechende Belohnung, meist Punkte. Das gleiche gilt für andere Komponenten in deinem Besitz mit dem Passen-Symbol.\n\n   *Beispiel:* Hast du beim Passen die auf Seite 16 gezeigte Bonuskarte, erhältst du je 4 Punkte für jeden Palast und/oder Universität, die von dir auf dem Spielplan stehen. Hast du die gezeigte Erfindung, erhältst du für alle deine Gilden, die auf dem Spielplan stehen, je 2 Punkte.\n\n2. Nimm dir 1 der 3 neben dem Spielplan offen ausliegenden Rundenboni. Dies darf auch ein erst in dieser Runde von einer anderen Person zurückgelegter Rundenbonus sein. Befindet sich auf dem Rundenbonus Geld, so erhältst du dieses ebenfalls. Lege den Rundenbonus, den du neu genommen hast, mit der Rückseite nach oben vor dir ab. Damit zeigst du an, dass du bereits aus der Runde ausgestiegen bist. Du darfst deinen Rundenbonus nie behalten und 2 Runden nacheinander nutzen.\n3. Lege deinen alten Rundenbonus zu den neben dem Spielplan offen ausliegenden, so dass dort wieder 3 Rundenboni liegen.\n4. Bewege deinen Marker auf dem Tableau Spielreihenfolge auf das oberste freie Feld der Spalte, die zur nächsten Runde gehört.\n\nDie linke Spalte des Tableaus zeigt die Spielreihenfolge in den ungeraden Runden, die rechte in den geraden Runden.\n\n*Beispiel:* Es ist Runde I und du passt als Zweites. Daher verschiebst du deinen Marker von der vorherigen Position auf das zweite Feld der rechten Spalte.\n\nSobald ihr alle gepasst habt, endet die Aktionsphase der laufenden Runde und ihr fahrt mit Phase III – Wissensbonus und Vorbereitungen fort.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 16
+      }
+    },
+    {
+      "id": "zusatzoption-ressourcentausch",
+      "name": "Zusatzoption: Ressourcentausch",
+      "type": "reference",
+      "group": "passen_tausch",
+      "summary": "Zusätzlich zu deiner Aktion darfst du außerdem in deinem Zug noch Ressourcen umtauschen.",
+      "description": "Zusätzlich zu deiner Aktion darfst du außerdem in deinem Zug noch Ressourcen umtauschen.\n\nDu darfst dies beliebig oft und vor und/oder nach deiner Aktion machen.\n\nAußerhalb deines Zuges und auf andere Art darfst du keinen Ressourcentausch vornehmen.\n\nDie folgenden Tauschmöglichkeiten gibt es:\n\n**Machtopfer**\n\nHast du mindestens 2 Machtsteine in Schale II, so darfst du 1 davon in den Vorrat zurücklegen, um dafür 1 anderen Machtstein von Schale II in Schale III zu schieben.\n\n**Macht- und Materialtausch**\n\nDu kannst Macht ausgeben, um Ressourcen zu erhalten. Bezahle die Kosten jeweils, indem du die entsprechende Anzahl Machtsteine von Schale III in Schale I schiebst.\n\nOder du kannst die angezeigten Ressourcen für andere Ressourcen abgeben.\n\nDiese Tauschmöglichkeiten gibt es:\n\n- Für 5 Macht erhältst du 1 Gelehrten oder 1 Buch deiner Wahl.\n- Für 3 Macht erhältst du 1 Werkzeug.\n- Für 1 Macht erhältst du 1 Geld.\n- Für 1 Gelehrten erhältst du 1 Werkzeug.\n- Für 1 Werkzeug oder 1 Buch erhältst du 1 Geld.",
+      "tags": [
+        "aktionen"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 16
+      }
+    }
+  ]
+}

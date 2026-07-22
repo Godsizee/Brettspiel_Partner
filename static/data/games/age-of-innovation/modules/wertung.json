@@ -1,0 +1,31 @@
+{
+  "sections": [
+    {
+      "title": "Rundenwertungen (jede Runde)",
+      "timing": "round",
+      "items": [
+        { "name": "Rundenwertungsplättchen", "description": "In jeder der 6 Runden liegt 1 Rundenwertungsplättchen aus. Immer wenn du die links abgebildete Aktion ausführst, erhältst du sofort die abgebildeten Punkte. Die rechte Hälfte zeigt den Wissensbonus für Phase III." },
+        { "name": "Zusatzwertungsplättchen (Runde 6)", "description": "In der letzten Runde punktet zusätzlich eine zweite Aktion: Das Zusatzwertungsplättchen überdeckt den Wissensbonus des obersten Rundenwertungsplättchens — in Runde 6 gibt es daher keinen Wissensbonus mehr." },
+        { "name": "Stadtgründung + Schlüsselsymbol", "description": "Zeigt das aktuelle Rundenwertungsplättchen ein Schlüsselsymbol, bringt jede Stadtgründung in dieser Runde zusätzlich die Punkte des Plättchens." }
+      ]
+    },
+    {
+      "title": "Schlusswertung",
+      "timing": "end",
+      "items": [
+        { "name": "Gebietswertung", "description": "Größte Gruppe eigener Gebäude, die zueinander in Reichweite sind (Nachbarschaft, Brücken, Schifffahrt). Nur die Anzahl zählt: 18 Punkte für die höchste, 12 für die zweithöchste, 6 für die dritthöchste Anzahl. Bei Gleichstand werden die Ränge geteilt (abrunden).", "max": 18 },
+        { "name": "Wissenswertung (je Disziplin)", "description": "Für jede der 4 Disziplinen (Bankwesen, Recht, Ingenieurskunst, Medizin): 8 Punkte für die relativ höchste Stufe, 4 für die zweithöchste, 2 für die dritthöchste. Stufe 0 erhält nie Punkte. Bei Gleichstand Ränge addieren und teilen (abrunden).", "max": 8 },
+        { "name": "Ressourcenwertung", "description": "Wandle übrige Bücher, Gelehrte, Werkzeuge und Macht per Ressourcentausch in Geld um. Je 5 Geld = 1 Punkt." }
+      ]
+    },
+    {
+      "title": "Punkte während des Spiels",
+      "timing": "instant",
+      "items": [
+        { "name": "Städte gründen", "description": "Sofort die Punkte des gewählten Stadtmarkers (+ ggf. Rundenwertungs-Bonus bei Schlüsselsymbol)." },
+        { "name": "Erfindungen", "description": "Viele Erfindungen geben sofortige Punkte (z. B. Architektur 10, Monument 7) oder dauerhafte Punktequellen wie Handelswege." },
+        { "name": "Machterhalt kostet Punkte", "description": "Nimmst du Macht durch Bauten der Nachbarn an, zahlst du 1 Punkt weniger, als du Macht erhältst (für 1/2/3/4 Macht also 0/1/2/3 Punkte)." }
+      ]
+    }
+  ]
+}

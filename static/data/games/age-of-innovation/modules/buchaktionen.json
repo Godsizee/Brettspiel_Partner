@@ -16,7 +16,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "buchaktionen"
     },
     {
       "id": "buchaktion-02",
@@ -34,7 +35,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "buchaktionen"
     },
     {
       "id": "buchaktion-03",
@@ -52,7 +54,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "buchaktionen"
     },
     {
       "id": "buchaktion-04",
@@ -70,7 +73,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "buchaktionen"
     },
     {
       "id": "buchaktion-05",
@@ -88,7 +92,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "buchaktionen"
     },
     {
       "id": "buchaktion-06",
@@ -106,7 +111,134 @@
       "source": {
         "document": "Anhang",
         "page": null
+      },
+      "group": "buchaktionen"
+    },
+    {
+      "id": "machtaktion-01",
+      "type": "card",
+      "category": "Buchaktionen",
+      "name": "Machtaktion 1: Brücke bauen",
+      "image": null,
+      "summary": "Wenn du 3 Macht abgibst, darfst du dafür über den Fluss eine Brücke bauen, um 2 Landschaftsfelder zu verbinden. Bedingung: Auf mindestens einem der beiden Felder steht ein Gebäude von dir, und dort liegt noch keine andere Brücke. Die verbundenen Felder gelten fortan als benachbart. Mögliche Brückenplätze sind auf dem Spielplan durch unfertige Brücken angezeigt.",
+      "description": "",
+      "group": "machtaktionen",
+      "timing": [],
+      "tags": [
+        "buchaktionen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
       }
+    },
+    {
+      "id": "machtaktion-02",
+      "type": "card",
+      "category": "Buchaktionen",
+      "name": "Machtaktion 2: Gelehrter",
+      "image": null,
+      "summary": "Wenn du 3 Macht abgibst, erhältst du 1 Gelehrten.",
+      "description": "",
+      "group": "machtaktionen",
+      "timing": [],
+      "tags": [
+        "buchaktionen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "machtaktion-03",
+      "type": "card",
+      "category": "Buchaktionen",
+      "name": "Machtaktion 3: Werkzeuge",
+      "image": null,
+      "summary": "Wenn du 4 Macht abgibst, erhältst du 2 Werkzeuge.",
+      "description": "",
+      "group": "machtaktionen",
+      "timing": [],
+      "tags": [
+        "buchaktionen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "machtaktion-04",
+      "type": "card",
+      "category": "Buchaktionen",
+      "name": "Machtaktion 4: Geld",
+      "image": null,
+      "summary": "Wenn du 4 Macht abgibst, erhältst du 7 Geld.",
+      "description": "",
+      "group": "machtaktionen",
+      "timing": [],
+      "tags": [
+        "buchaktionen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "machtaktion-05",
+      "type": "card",
+      "category": "Buchaktionen",
+      "name": "Machtaktion 5: 1 Spaten",
+      "image": null,
+      "summary": "Wenn du 4 Macht abgibst, darfst du sofort eine Aktion *Umwandeln und Bauen* mit 1 kostenlosen Spaten ausführen. (Eventuell fehlende Spaten für die Umwandlung in deine Heimatlandschaft darfst du durch Abgabe von Werkzeugen zukaufen.)",
+      "description": "",
+      "group": "machtaktionen",
+      "timing": [],
+      "tags": [
+        "buchaktionen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    },
+    {
+      "id": "machtaktion-06",
+      "type": "card",
+      "category": "Buchaktionen",
+      "name": "Machtaktion 6: 2 Spaten",
+      "image": null,
+      "summary": "Wenn du 6 Macht abgibst, darfst du sofort eine Aktion *Umwandeln und Bauen* mit 2 kostenlosen Spaten ausführen. (Eventuell fehlende Spaten für die Umwandlung in deine Heimatlandschaft darfst du durch Abgabe von Werkzeugen zukaufen.)",
+      "description": "",
+      "group": "machtaktionen",
+      "timing": [],
+      "tags": [
+        "buchaktionen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Anhang",
+        "page": null
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "buchaktionen",
+      "title": "Buchaktionen",
+      "order": 10
+    },
+    {
+      "id": "machtaktionen",
+      "title": "Machtaktionen",
+      "order": 20
     }
   ]
 }

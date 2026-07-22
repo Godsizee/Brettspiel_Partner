@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "1.0.0",
+  "contentVersion": "1.1.0",
   "game": {
     "key": "age-of-innovation",
     "name": "Age of Innovation",
@@ -10,36 +10,38 @@
   },
   "modules": [
     {
+      "id": "regeln_grund",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Grundregeln",
+      "icon": "book-open",
+      "source": "modules/regeln_grund.json",
+      "featured": true
+    },
+    {
+      "id": "aktionen",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Aktionen (Phase II)",
+      "icon": "list",
+      "source": "modules/aktionen.json",
+      "featured": true
+    },
+    {
+      "id": "wertung",
+      "type": "scoring",
+      "title": "Wertung",
+      "icon": "trophy",
+      "source": "modules/wertung.json",
+      "featured": true
+    },
+    {
       "id": "uebersicht",
       "type": "reference",
       "title": "Aktionsübersicht",
       "icon": "layout",
       "source": "modules/uebersicht.json",
-      "featured": true
-    },
-    {
-      "id": "buchaktionen",
-      "type": "reference",
-      "title": "Buchaktionen",
-      "icon": "book-open",
-      "source": "modules/buchaktionen.json",
       "featured": false
-    },
-    {
-      "id": "buecher",
-      "type": "reference",
-      "title": "Bücher",
-      "icon": "book",
-      "source": "modules/buecher.json",
-      "featured": false
-    },
-    {
-      "id": "erfindungen",
-      "type": "reference",
-      "title": "Erfindungen",
-      "icon": "lightbulb",
-      "source": "modules/erfindungen.json",
-      "featured": true
     },
     {
       "id": "gemeinschaften",
@@ -50,19 +52,11 @@
       "featured": true
     },
     {
-      "id": "kompetenzen",
+      "id": "planungstableau",
       "type": "reference",
-      "title": "Kompetenzen",
-      "icon": "award",
-      "source": "modules/kompetenzen.json",
-      "featured": true
-    },
-    {
-      "id": "landschaftsplaettchen",
-      "type": "reference",
-      "title": "Landschaftsplättchen",
-      "icon": "map",
-      "source": "modules/landschaftsplaettchen.json",
+      "title": "Planungstableaus",
+      "icon": "columns",
+      "source": "modules/planungstableau.json",
       "featured": false
     },
     {
@@ -74,12 +68,21 @@
       "featured": true
     },
     {
-      "id": "planungstableau",
+      "id": "erfindungen",
       "type": "reference",
-      "title": "Planungstableau",
-      "icon": "columns",
-      "source": "modules/planungstableau.json",
-      "featured": false
+      "layout": "grouped",
+      "title": "Erfindungen",
+      "icon": "lightbulb",
+      "source": "modules/erfindungen.json",
+      "featured": true
+    },
+    {
+      "id": "kompetenzen",
+      "type": "reference",
+      "title": "Kompetenzen",
+      "icon": "award",
+      "source": "modules/kompetenzen.json",
+      "featured": true
     },
     {
       "id": "rundenbonus",
@@ -92,6 +95,7 @@
     {
       "id": "rundenwertung",
       "type": "reference",
+      "layout": "grouped",
       "title": "Rundenwertung",
       "icon": "refresh-cw",
       "source": "modules/rundenwertung.json",
@@ -104,6 +108,40 @@
       "icon": "building",
       "source": "modules/stadtmarker.json",
       "featured": false
+    },
+    {
+      "id": "buchaktionen",
+      "type": "reference",
+      "layout": "grouped",
+      "title": "Macht- & Buchaktionen",
+      "icon": "zap",
+      "source": "modules/buchaktionen.json",
+      "featured": false
+    },
+    {
+      "id": "buecher",
+      "type": "reference",
+      "title": "Bücher & Disziplinen",
+      "icon": "book",
+      "source": "modules/buecher.json",
+      "featured": false
+    },
+    {
+      "id": "landschaftsplaettchen",
+      "type": "reference",
+      "title": "Landschaftsplättchen",
+      "icon": "map",
+      "source": "modules/landschaftsplaettchen.json",
+      "featured": false
+    },
+    {
+      "id": "icons",
+      "type": "reference",
+      "layout": "icon-grid",
+      "title": "Symbol-Lexikon",
+      "icon": "help-circle",
+      "source": "modules/icons.json",
+      "featured": true
     },
     {
       "id": "glossary",

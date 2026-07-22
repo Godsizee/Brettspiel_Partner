@@ -16,7 +16,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "sofort_boni"
     },
     {
       "id": "architektur",
@@ -34,7 +35,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "sofort_boni"
     },
     {
       "id": "bibliothek",
@@ -52,7 +54,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "sofort_boni"
     },
     {
       "id": "dampfmaschine",
@@ -70,7 +73,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "sofort_boni"
     },
     {
       "id": "deus-ex-machina",
@@ -88,7 +92,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "sonderfaehigkeiten"
     },
     {
       "id": "fernmeldewesen",
@@ -106,7 +111,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "sofort_boni"
     },
     {
       "id": "gilde",
@@ -124,7 +130,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "zusatz_gebaeude"
     },
     {
       "id": "handelswege",
@@ -142,7 +149,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "sonderfaehigkeiten"
     },
     {
       "id": "liga-der-staedte",
@@ -160,7 +168,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "sofort_boni"
     },
     {
       "id": "monument",
@@ -178,7 +187,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "zusatz_gebaeude"
     },
     {
       "id": "palast",
@@ -196,7 +206,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "zusatz_gebaeude"
     },
     {
       "id": "professor",
@@ -214,7 +225,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "sonderfaehigkeiten"
     },
     {
       "id": "schule",
@@ -232,7 +244,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "zusatz_gebaeude"
     },
     {
       "id": "stahl",
@@ -250,7 +263,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "sofort_boni"
     },
     {
       "id": "universitaet",
@@ -268,7 +282,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "zusatz_gebaeude"
     },
     {
       "id": "volkszaehlung",
@@ -286,7 +301,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "sofort_boni"
     },
     {
       "id": "werkstatt",
@@ -304,7 +320,8 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "zusatz_gebaeude"
     },
     {
       "id": "wissenschaft",
@@ -322,7 +339,25 @@
       "source": {
         "document": "Anhang",
         "page": null
-      }
+      },
+      "group": "sofort_boni"
+    }
+  ],
+  "groups": [
+    {
+      "id": "sonderfaehigkeiten",
+      "title": "Sonderfähigkeiten",
+      "order": 10
+    },
+    {
+      "id": "sofort_boni",
+      "title": "Sofortige Punkte & Boni",
+      "order": 20
+    },
+    {
+      "id": "zusatz_gebaeude",
+      "title": "Zusätzliche Gebäude",
+      "order": 30
     }
   ]
 }

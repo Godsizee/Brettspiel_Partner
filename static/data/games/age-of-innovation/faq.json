@@ -3,6 +3,50 @@
     {
       "question": "Löst Palast 01 den Effekt direkt beim Bau aus?",
       "answer": "Nein. Der Effekt wird erst in der nächsten Einkommensphase ausgelöst."
+    },
+    {
+      "question": "Darf ich beim Machterhalt nur einen Teil der Macht annehmen?",
+      "answer": "Nein: ganz oder gar nicht. Ausnahmen: Es passt nicht mehr alles in die Schalen (nimm so viel wie möglich, zahle entsprechend), oder du würdest unter 0 Punkte fallen (nimm Punkte-Stand + 1 Macht)."
+    },
+    {
+      "question": "Zählt der Machtwert des neu gebauten Gebäudes beim Machterhalt mit?",
+      "answer": "Nein, nur die Machtwerte der benachbarten Gebäude der anderen."
+    },
+    {
+      "question": "Wie viele Erfindungen darf ich im Spiel machen?",
+      "answer": "Maximal 3 (drei Aussparungen am Planungstableau); belegte Aussparungen mit Buchsymbolen verteuern spätere Erfindungen um 1–2 Bücher."
+    },
+    {
+      "question": "Bekomme ich entsandte Gelehrte zurück?",
+      "answer": "Nein, niemals. Der Vorrat ist auf 7 begrenzt. Alternativ: 1 Gelehrten in den Vorrat zurücklegen = 1 Stufe in beliebiger Disziplin."
+    },
+    {
+      "question": "Wer darf Stufe 12 einer Disziplin erreichen?",
+      "answer": "Nur genau 1 Person je Disziplin — danach ist Stufe 12 dort für alle anderen gesperrt."
+    },
+    {
+      "question": "Was brauche ich, um auf Stufe 8 einer Disziplin vorzurücken?",
+      "answer": "1 ungenutzten Stadtschlüssel pro Disziplin (umdrehen); ohne Schlüssel verfallen überzählige Schritte."
+    },
+    {
+      "question": "Wie oft können Macht- und Buchaktionen pro Runde genutzt werden?",
+      "answer": "Jedes Aktionsfeld nur 1× pro Runde, global für alle (X-Marker)."
+    },
+    {
+      "question": "Kosten Sonderaktionen etwas?",
+      "answer": "Nein. Sie sind persönlich, kostenlos und 1× pro Runde nutzbar."
+    },
+    {
+      "question": "Wie viele Gebäude braucht eine Stadt?",
+      "answer": "4 verbundene Gebäude mit Machtwert ≥ 7. Mit Universität nur 3 Gebäude, mit Monument nur 2 (Machtwert bleibt 7)."
+    },
+    {
+      "question": "Wann endet das Spiel?",
+      "answer": "Wenn in Runde 6 alle gepasst haben. In Runde 6 gibt es keinen Wissensbonus (Zusatzwertungsplättchen überdeckt ihn)."
+    },
+    {
+      "question": "Was passiert bei Gleichstand in den Schlusswertungen?",
+      "answer": "Die betroffenen Ränge werden addiert und geteilt (abrunden). Bei Punktegleichstand am Ende wird der Sieg geteilt."
     }
   ]
 }

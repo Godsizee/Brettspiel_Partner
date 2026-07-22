@@ -1,0 +1,483 @@
+{
+  "groups": [
+    {
+      "id": "material_ziel",
+      "title": "Spielmaterial & Spielziel",
+      "order": 10,
+      "description": "Was in der Schachtel ist und worum es geht: Breitet euch mit eurer Gemeinschaft aus, sammelt Wissen, macht Erfindungen — wer nach 6 Runden die meisten Punkte hat, gewinnt."
+    },
+    {
+      "id": "vorbereitung",
+      "title": "Spielvorbereitung",
+      "order": 20,
+      "description": "Aufbau des allgemeinen und persönlichen Spielmaterials — inklusive der variablen Auslage aus Rundenwertungen, Buchaktionen, Rundenboni und Innovationstableau."
+    },
+    {
+      "id": "konzepte",
+      "title": "Allgemeine Spielkonzepte",
+      "order": 30,
+      "description": "Die Grundmechaniken, auf denen alles aufbaut: Punkte, der **Kreislauf der Macht**, Heimatlandschaft & Umwandlung, Nachbarschaft, Städte und das Wissenstableau."
+    },
+    {
+      "id": "spielverlauf",
+      "title": "Spielverlauf & Phase I: Einkommen",
+      "order": 40,
+      "description": "6 Runden mit je 3 Phasen: **Phase I** Einkommen, **Phase II** Aktionen, **Phase III** Wissensbonus & Vorbereitung."
+    },
+    {
+      "id": "phase3",
+      "title": "Phase III: Wissensbonus & Vorbereitung",
+      "order": 50,
+      "description": "Die 5 Schritte am Rundenende — in dieser Reihenfolge abhandeln."
+    },
+    {
+      "id": "spielende",
+      "title": "Spielende & Schlusswertung",
+      "order": 60,
+      "description": "Nach Runde 6 folgen drei Schlusswertungen: Gebiet, Wissen, Ressourcen. Details mit allen Punktwerten auch im Modul „Wertung\"."
+    },
+    {
+      "id": "varianten",
+      "title": "Varianten & Spiel zu zweit",
+      "order": 70,
+      "description": "Draft-Variante für den Aufbau und die Sonderregeln für das Spiel zu zweit."
+    }
+  ],
+  "entries": [
+    {
+      "id": "spielmaterial",
+      "name": "Spielmaterial",
+      "type": "reference",
+      "group": "material_ziel",
+      "summary": "- 1 Spielplan\n- 6 verschiedene Buchaktionen (Details auf S.",
+      "description": "- 1 Spielplan\n- 6 verschiedene Buchaktionen (Details auf S. 23)\n- 1 Wissenstableau\n- 2 Anlegeteile für das Innovationstableau (zur Anpassung an die Personenzahl)\n- 1 Basisteil für das Innovationstableau\n- 48 Bücher (je 12 pro Farbe)\n- 56 runde Plättchen (doppelseitig) mit 7 verschiedenen Landschaften\n- 1 Tableau Spielreihenfolge\n- 21 Stadtmarker (7 verschiedene, je 3 Stück) (Details auf S. 23)\n- 12 verschiedene Gemeinschaften (Details auf S. 20)\n- 5 Aktionsübersichten (Vorder- und Rückseite gleich)\n- 7 Planungstableaus (je 1 pro Landschaft) (Details auf S. 19)\n- 7 Planungstableaukarten\n- 10 verschiedene Rundenboni (Details auf S. 23)\n- 4 Gebietswertungsplättchen für das Spiel zu zweit\n- 48 Kompetenzplättchen (12 verschiedene, je 4 Stück) (Details auf S. 24)\n- 12 verschiedene Rundenwertungsplättchen (Details auf S. 24)\n- 4 verschiedene Zusatzwertungsplättchen für die letzte Runde\n- 18 verschiedene Erfindungsplättchen (Details auf S. 21)\n- 17 verschiedene Palastplättchen (Details auf S. 22)\n- 7 Platzhalter für Palastplättchen\n- 7 „100/200 Punkte\"-Marker (Vorderseite/Rückseite)\n- 125 Geldmünzen (64 × 1, 35 × 2, 26 × 5)\n- 20 X-Marker\n\n**Holzteile in neutralen Farben (holzfarben, lila, weiß)**\n\n- 65 Machtsteine\n- 8 Anbauten\n- 65 Werkzeuge (holzfarben)\n- 1 Werkstatt\n- 1 Gilde\n- 1 Schule\n- 1 Universität\n- 1 Palast\n- 5 Türme\n- 1 Monument\n\n**Holzteile in 7 Farben (gelb, rot, schwarz, blau, grün, braun, grau), je Farbe**\n\n- 9 Werkstätten\n- 4 Gilden\n- 1 Palast\n- 3 Schulen\n- 1 Universität\n- 7 Gelehrte\n- 3 Brücken\n- 2 Leistenmarker\n- 5 Markierungssteine\n- 1 Marker für die Spielreihenfolge",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 2
+      }
+    },
+    {
+      "id": "einleitung-und-spielziel",
+      "name": "Einleitung und Spielziel",
+      "type": "reference",
+      "group": "material_ziel",
+      "summary": "Breitet euch mit eurer Gemeinschaft auf dem Spielplan aus. Doch vorher müsst ihr die Landschaft erst für euch bewohnbar machen. Sucht die Nähe der anderen, aber lasst nicht zu, dass sie euch einengen. Sammelt Wissen, macht Erfindungen und erwerbt Kompetenzen. Passt eure Spielweise den variablen Rundenzielen und Fähigkeiten eurer Gemeinschaft an.",
+      "description": "Breitet euch mit eurer Gemeinschaft auf dem Spielplan aus. Doch vorher müsst ihr die Landschaft erst für euch bewohnbar machen. Sucht die Nähe der anderen, aber lasst nicht zu, dass sie euch einengen. Sammelt Wissen, macht Erfindungen und erwerbt Kompetenzen. Passt eure Spielweise den variablen Rundenzielen und Fähigkeiten eurer Gemeinschaft an. Am Ende des Spiels gewinnt, wer die meisten Punkte gesammelt hat.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 2
+      }
+    },
+    {
+      "id": "aufbau-des-allgemeinen-spielmaterials",
+      "name": "Aufbau des allgemeinen Spielmaterials",
+      "type": "reference",
+      "group": "vorbereitung",
+      "summary": "1. Legt den Spielplan in die Mitte eures Tisches, mit der für eure Personenzahl passenden Seite nach oben. Das oben links auf dem Spielplan gezeigte Symbol gibt an, welche Seite ihr verwendet.",
+      "description": "1. Legt den Spielplan in die Mitte eures Tisches, mit der für eure Personenzahl passenden Seite nach oben. Das oben links auf dem Spielplan gezeigte Symbol gibt an, welche Seite ihr verwendet.\n\n   Beachtet:\n   - Im Spiel zu zweit gibt es einen zusätzlichen Aufbau. Diesen findet ihr auf Seite 19 unter *Das Spiel zu zweit*.\n   - Im Spiel zu dritt wählt für die ersten Partien die Spielplanseite für 3-5 Personen. Wenn ihr eine größere Herausforderung wünscht, könnt ihr auch die Seite für 1-3 nutzen.\n\n2. Mischt die 12 Rundenwertungsplättchen verdeckt, dann legt von oben nach unten (von 6. nach 1.) 6 zufällige davon offen auf die entsprechenden Felder auf dem Spielplan. Legt die restlichen Plättchen zurück in die Schachtel. Sie werden in dieser Partie nicht benötigt.\n\n   Auf der linken Hälfte zeigen die Plättchen, wofür ihr in einer Runde Punkte bekommt. Deckt ihr das Plättchen mit dem Spaten als eines der ersten beiden Plättchen auf, so legt es zur Seite, bis ihr die oberen beiden Felder (Runde 5 und 6) belegt habt. Mischt es dann wieder mit den anderen Plättchen zusammen, bevor ihr weitere Plättchen auslegt. Es darf also nicht auf einem der oberen beiden Felder liegen.\n\n   Auf der rechten Hälfte zeigen die Plättchen Wissensboni für euren Fortschritt in den 4 verschiedenen Disziplinen (Farben). Jede Disziplin kommt dreimal vor. Wurden von einer Disziplin alle drei Plättchen aufgedeckt und keines dieser drei liegt auf dem obersten Feld (Runde 6), dann legt das unterste davon stattdessen zur Seite und deckt ein anderes Plättchen auf. Es dürfen also auf den Feldern 1-5 nicht 3 Plättchen der gleichen Disziplin liegen.\n\n3. Mischt anschließend die 4 Zusatzwertungsplättchen für die letzte Runde verdeckt und legt 1 zufälliges davon auf das oberste Rundenwertungsplättchen. Deckt damit die Disziplinenbelohnung auf der rechten Seite des Plättchens ab. Falls das Zusatzwertungsplättchen dieselbe Art von Gebäude zeigt wie das oberste Rundenwertungsplättchen, dann legt das Zusatzwertungsplättchen stattdessen zur Seite und legt ein anderes aus. Legt die restlichen Plättchen zurück in die Schachtel. Sie werden in dieser Partie nicht benötigt.\n\n4. Mischt die 6 Buchaktionsplättchen verdeckt, dann legt 3 zufällige davon offen auf die leeren Felder des Spielplans. Legt die restlichen Plättchen zurück in die Schachtel. Sie werden in dieser Partie nicht benötigt.\n\n5. Legt das Tableau Spielreihenfolge und das Wissenstableau neben den Spielplan.\n\n6. Legt das Basisteil des Innovationstableaus aus und darüber die Anlegeteile für eure Personenzahl (1 oder 2 Teile). Das Symbol auf Vorder- und Rückseite der Anlegeteile zeigt, welche Seite ihr für eure Personenzahl verwendet.\n\n7. Dreht die Kompetenzplättchen auf die Rückseite und sucht die 12 Teile mit der Markierung heraus. Verteilt sie zufällig auf die 12 passenden Ablageplätze unten auf dem Innovationstableau und dreht sie auf die Vorderseite. Legt die restlichen Kompetenzplättchen auf die vorhandenen der gleichen Art, so dass ihr 12 Stapel mit jeweils 4 gleichen Plättchen habt.\n\n8. Mischt die 18 Erfindungsplättchen verdeckt und legt je 1 zufälliges davon offen auf die entsprechenden Felder oben auf dem Innovationstableau. Legt die restlichen Plättchen zurück in die Schachtel. Sie werden in dieser Partie nicht benötigt.\n\n9. Legt die X-Marker, Stadtmarker, Bücher, Machtsteine, Landschaftsplättchen, Werkzeuge und das Geld auf dem Tisch bereit. Immer, wenn ihr Bücher, Machtsteine, Werkzeuge oder Geld erhaltet oder ausgebt, nehmt sie aus diesem bzw. legt sie zurück in diesen Vorrat.\n\n10. Legt die neutralen Gebäude bereit.\n\n11. Sucht das Palastplättchen Nr. 17 mit der rötlichen Rückseite heraus und legt es offen neben dem Spielplan bereit. Mischt die restlichen Palastplättchen verdeckt, dann legt 1 zufälliges Plättchen pro Person sowie 1 weiteres zufälliges Plättchen offen daneben bereit (es liegen also immer 2 Palastplättchen mehr aus, als Personen mitspielen). Legt die restlichen Plättchen zurück in die Schachtel. Sie werden in dieser Partie nicht benötigt.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 4
+      }
+    },
+    {
+      "id": "verteilung-der-planungstableaus-und-gemeinschaften",
+      "name": "Verteilung der Planungstableaus und Gemeinschaften",
+      "type": "reference",
+      "group": "vorbereitung",
+      "summary": "Legt die 7 Planungstableaukarten aus. Legt zu jeder der Karten jeweils 1 zufälligen Rundenbonus und 1 zufällige Gemeinschaft, sodass ihr 7 Sets habt.",
+      "description": "Legt die 7 Planungstableaukarten aus. Legt zu jeder der Karten jeweils 1 zufälligen Rundenbonus und 1 zufällige Gemeinschaft, sodass ihr 7 Sets habt.\n\nLegt die restlichen 3 Rundenboni neben dem Spielplan bereit. Legt auf jeden dieser Rundenboni 1 Geld.\n\nBestimmt per Zufall, wer von euch das Spiel beginnt. Diese Person ist die Startperson.\n\nBeginnend mit der Person rechts der Startperson und dann gegen den Uhrzeigersinn (also in umgekehrter erster Spielreihenfolge) sucht ihr euch jeweils ein Set aus Planungstableaukarte, Gemeinschaft und Rundenbonus aus und legt es vor euch ab. Nimm dir dann das Planungstableau passend zu deiner Karte. Du erkennst das passende Planungstableau daran, dass die Landschaft auf der Planungskarte identisch mit der oberen und größten Landschaft auf dem Planungstableau ist.\n\nDie Besonderheiten der Planungstableaus werden in Anhang I erklärt.\n\n*Beispiel:* Die Planungskarte und das gelbe Planungstableau auf Seite 5 gehören zusammen.\n\nLegt die Planungstableaukarten und die nicht gewählten Planungstableaus, Gemeinschaften und Rundenboni zurück in die Schachtel. Sie werden in dieser Partie nicht mehr benötigt.\n\nWir empfehlen euch diese Art der Verteilung der Planungstableaus und Gemeinschaften für eure ersten Partien. Solltet ihr euch jedoch mehr Entscheidungen und Flexibilität bei der Verteilung wünschen, so beschreiben wir im Abschnitt Variante beim Aufbau – Draften des persönlichen Materials eine alternative Methode in Form eines Drafts.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 4
+      }
+    },
+    {
+      "id": "aufbau-deines-persoenlichen-spielmaterials",
+      "name": "Aufbau deines persönlichen Spielmaterials",
+      "type": "reference",
+      "group": "vorbereitung",
+      "summary": "Nimm dir alles Holzmaterial der Spielfarbe deines Planungstableaus sowie 12 Machtsteine und bau es wie folgt auf.",
+      "description": "Nimm dir alles Holzmaterial der Spielfarbe deines Planungstableaus sowie 12 Machtsteine und bau es wie folgt auf.\n\n1. Stelle die Gebäude auf die dafür vorgesehenen Felder deines Tableaus: Werkstätten, Gilden, Schulen, Universität und Palast.\n2. Lege zu deinem Palast ein Platzhalterplättchen in die Vertiefung, so dass der Palast nicht verrutschen kann.\n3. Stelle je 1 deiner Leistenmarker auf das unterste Feld der Schifffahrts- und Umwandlungsleiste auf deinem Planungstableau.\n4. Stelle 4 deiner Markierungssteine auf die 4 Felder des Wissenstableaus mit Wert 0. Entsprechend den Vorgaben auf deiner Gemeinschaft und deinem Planungstableau schiebst du für jedes dort abgebildete Symbol den entsprechenden Markierungsstein auf dem Wissenstableau 1 Feld nach oben.\n\n   *Beispiel:* Die Moles zeigen 2 Symbole für die Disziplin Ingenieurskunst. Sie beginnen daher auf dem Wissenstableau auf Stufe 2 dieser Disziplin.\n\n5. Auf dem Planungstableau befinden sich unten rechts die drei Schalen der Macht. Verteile deine 12 Machtsteine auf die Schalen I und II wie in den Schalen angegeben.\n6. Leg die 7 Gelehrten und 3 Brücken deiner Farbe griffbereit ab. Dies ist der Vorrat. Immer wenn du Gelehrte erhältst oder ausgibst, nimmst du dir einen eigenen aus bzw. legst ihn zurück in diesen Vorrat. Du musst einen Gelehrten aus dem Vorrat erhalten, bevor du ihn für eine Aktion einsetzen kannst.\n7. Nimm dir die Startressourcen (Werkzeuge, Geld und evtl. weiteres), die oben rechts auf deinem Planungstableau und auf deiner Gemeinschaft angegeben sind.\n8. Stelle deinen letzten Markierungsstein auf das Feld 20 der Punkteleiste auf dem Spielplan.\n9. Lege abschließend deinen Reihenfolgemarker auf das Tableau Spielreihenfolge. Die Startperson legt ihren Marker auf das oberste Feld. Dann folgen die anderen Personen im Uhrzeigersinn um den Tisch herum und legen ihre Marker jeweils auf die Felder darunter.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 4
+      }
+    },
+    {
+      "id": "platzierung-der-ersten-werkstaetten",
+      "name": "Platzierung der ersten Werkstätten",
+      "type": "reference",
+      "group": "vorbereitung",
+      "summary": "Setzt in Spielreihenfolge (auf dem Tableau Spielreihenfolge von oben nach unten) jeweils 1 eurer Werkstätten auf dem Spielplan ein. Setz deine Werkstatt dabei auf ein Landschaftsfeld der Farbe deines Planungstableaus. Setzt anschließend in umgekehrter Spielreihenfolge 1 weitere Werkstatt in selber Weise ein.",
+      "description": "Setzt in Spielreihenfolge (auf dem Tableau Spielreihenfolge von oben nach unten) jeweils 1 eurer Werkstätten auf dem Spielplan ein. Setz deine Werkstatt dabei auf ein Landschaftsfeld der Farbe deines Planungstableaus. Setzt anschließend in umgekehrter Spielreihenfolge 1 weitere Werkstatt in selber Weise ein. Die letzte Person in Spielreihenfolge setzt also 2 Werkstätten direkt hintereinander und die Startperson setzt die erste und die letzte Werkstatt ein.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 4
+      }
+    },
+    {
+      "id": "punkte-erhalten",
+      "name": "Punkte erhalten",
+      "type": "reference",
+      "group": "konzepte",
+      "summary": "Punkte könnt ihr sowohl während des Spiels, als auch am Spielende erhalten. Immer wenn ihr das Punktesymbol seht, erhaltet ihr Punkte. Details zu den nachfolgenden Plättchen findet ihr im Anhang, S. 19ff.",
+      "description": "Punkte könnt ihr sowohl während des Spiels, als auch am Spielende erhalten. Immer wenn ihr das Punktesymbol seht, erhaltet ihr Punkte. Details zu den nachfolgenden Plättchen findet ihr im Anhang, S. 19ff.\n\n- Auf dem Spielplan liegen 6 Rundenwertungsplättchen, für jede Runde des Spiels eines. In jeder Runde erhaltet ihr dadurch beim Ausführen einer bestimmten Aktion Punkte. In der letzten Runde durch das Zusatzwertungsplättchen sogar für 2 verschiedene Aktionen.\n- Während des Spiels könnt ihr Städte gründen, die euch Punkte und Ressourcen geben.\n- Ein Großteil der Erfindungen, die ihr während des Spiels machen könnt, geben euch Punkte.\n- Manche Rundenboni, Paläste und Kompetenzen geben euch während des Spiels Punkte.\n- Am Ende des Spiels gibt es 3 Schlusswertungen:\n  - Eine Mehrheitswertung für die meisten miteinander verbundenen Gebäude.\n  - Eine Wertung eures Fortschritts in jeder der 4 Disziplinen auf dem Wissenstableau.\n  - Eine Wertung für eure restlichen Ressourcen.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 7
+      }
+    },
+    {
+      "id": "der-kreislauf-der-macht",
+      "name": "Der Kreislauf der Macht",
+      "type": "reference",
+      "group": "konzepte",
+      "summary": "Während des Spiels erhaltet ihr immer wieder Macht, die ihr dann für verschiedene Aktionen oder Ressourcen ausgeben könnt. Die Macht wird mit Machtsteinen dargestellt, die durch eure 3 Schalen der Macht wandern.",
+      "description": "Während des Spiels erhaltet ihr immer wieder Macht, die ihr dann für verschiedene Aktionen oder Ressourcen ausgeben könnt. Die Macht wird mit Machtsteinen dargestellt, die durch eure 3 Schalen der Macht wandern.\n\nDiesen Machtkreislauf richtig zu steuern ist ein zentraler Bestandteil und Schlüssel zum Erfolg von *Age of Innovation*.\n\nAuf deinem Planungstableau findest du 3 miteinander verbundene Machtschalen, in denen sich deine Machtsteine bewegen. Zu Beginn des Spiels befinden sich deine Machtsteine in den Schalen I und II, die Schale III ist noch leer. Innerhalb der Schalen bewegen sich die Machtsteine immer im Uhrzeigersinn.\n\nWenn du Macht erhältst, bewege die Machtsteine wie folgt:\n\n- Falls sich mindestens ein Machtstein in Schale I befindet, bewirkt 1 Machtgewinn, dass du einen Machtstein aus Schale I in Schale II schieben darfst.\n- Falls die Schale I leer ist, bewirkt 1 Machtgewinn, dass du einen Machtstein aus Schale II in Schale III schieben darfst.\n- Falls die Schalen I und II leer sind, kannst du keine weitere Macht mehr erhalten.\n\nGibst du Macht aus, dann darfst du dafür nur die Machtsteine in Schale III verwenden. Beim Ausgeben der Macht schiebe entsprechend viele Machtsteine aus Schale III in Schale I.\n\n*Beispiel:* Du erhältst 3 Macht. Zuerst musst du 2 Macht aus Schale I in Schale II schieben. Nun ist Schale I leer. Daher schiebst du noch 1 Macht aus Schale II in Schale III.\n\nEin weißer Pfeil nach rechts über einem Machtstein bedeutet, dass du eine bestimmte Anzahl Macht erhältst.\n\nEin schwarzer Pfeil nach links über einem Machtstein bedeutet, dass du eine bestimmte Anzahl Macht ausgeben, also von Schale III in Schale I schieben, musst.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 7
+      }
+    },
+    {
+      "id": "heimatlandschaft-und-umwandlung",
+      "name": "Heimatlandschaft und Umwandlung",
+      "type": "reference",
+      "group": "konzepte",
+      "summary": "Jede Gemeinschaft ist durch ihr Planungstableau an einen Landschaftstyp gebunden: Nur auf der eigenen Heimatlandschaft kannst du Gebäude errichten.",
+      "description": "Jede Gemeinschaft ist durch ihr Planungstableau an einen Landschaftstyp gebunden: Nur auf der eigenen Heimatlandschaft kannst du Gebäude errichten. Die einzelnen Gemeinschaften leben entweder in Wüsten, an Äckern, in Sümpfen, in Seen, in Wäldern, auf Bergen oder in der Ödnis und sind bestrebt, die Landschaft des Spielplans nach ihren Bedürfnissen umzugestalten.\n\nWie aufwendig diese Umwandlung ist, zeigt dir der Umwandlungskreis auf deinem Planungstableau: Die große Landschaft oben im Kreis ist deine Heimatlandschaft. Je weiter eine andere Landschaft von deiner Heimatlandschaft entfernt ist, desto mehr musst du für die Umwandlung bezahlen.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 7
+      }
+    },
+    {
+      "id": "nachbarschaft-und-reichweite",
+      "name": "Nachbarschaft und Reichweite",
+      "type": "reference",
+      "group": "konzepte",
+      "summary": "Du kannst dich mit deiner Gemeinschaft auf dem Spielplan ausbreiten, indem du Felder umwandelst und bebaust, die direkt neben einem Feld mit einem deiner Gebäude liegen. Du kannst aber auch mit Schifffahrt und Brückenbau Flüsse überqueren bzw. dich an diesen entlang ausbreiten. Aus einer Ansammlung von Gebäuden kann eine Stadt entstehen.",
+      "description": "Du kannst dich mit deiner Gemeinschaft auf dem Spielplan ausbreiten, indem du Felder umwandelst und bebaust, die direkt neben einem Feld mit einem deiner Gebäude liegen. Du kannst aber auch mit Schifffahrt und Brückenbau Flüsse überqueren bzw. dich an diesen entlang ausbreiten. Aus einer Ansammlung von Gebäuden kann eine Stadt entstehen. Der Bau eines deiner Gebäude, der Gilde, wird durch den Handel mit benachbarten Gemeinschaften (anderen Personen) günstiger. Außerdem kannst du durch die Bautätigkeiten anderer Gemeinschaften in deiner Nachbarschaft Macht erhalten.\n\nFür all diese Elemente sind die folgenden beiden Unterscheidungen wichtig:\n\n**Die Nachbarschaft**\n\nBenachbart sind alle Landschaftsfelder und Gebäude, die über eine Sechseckseite miteinander verbunden sind. Als benachbart gelten außerdem Landschaftsfelder und Gebäude, die über einen Fluss hinweg mit einer Brücke verbunden sind (siehe Machtaktion *Eine Brücke bauen* in Anhang VI).\n\n*Beispiel:* Die auf Seite 8 gezeigten Landschaftsfelder sind durch die Brücke benachbart. Sobald das zweite Landschaftsfeld bebaut wird, gelten auch die beiden Gebäude als benachbart.\n\n**Die Reichweite**\n\nAls in Reichweite gelten:\n\n- alle benachbarten Landschaftsfelder und Gebäude\n- alle Landschaftsfelder und Gebäude, die über maximal so viele Flussfelder miteinander verbunden sind, wie es deinem Schifffahrtswert entspricht.\n\n*Beispiel:* Die auf Seite 8 gezeigten Landschaftsfelder Wüste und Acker sind zueinander in Reichweite, wenn die gelbe Gemeinschaft einen Schifffahrtswert von mindestens 2 hat.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 7
+      }
+    },
+    {
+      "id": "machterhalt-durch-gebaeude",
+      "name": "Machterhalt durch Gebäude",
+      "type": "reference",
+      "group": "konzepte",
+      "summary": "Immer wenn du in Nachbarschaft zu einem oder mehreren Gebäuden von anderen Gemeinschaften baust, so dürfen diese dadurch Macht erhalten. Ebenso darfst du Macht erhalten, wenn andere Gemeinschaften in deiner Nachbarschaft bauen.",
+      "description": "Immer wenn du in Nachbarschaft zu einem oder mehreren Gebäuden von anderen Gemeinschaften baust, so dürfen diese dadurch Macht erhalten. Ebenso darfst du Macht erhalten, wenn andere Gemeinschaften in deiner Nachbarschaft bauen. Eine zentrale Herausforderung des Spiels ist daher, die richtige Balance zwischen der Nähe zu den Anderen und Platz zum Ausbreiten zu finden.\n\nWieviel Macht du erhältst, ist abhängig von der Art deiner benachbarten Gebäude. Die Gebäude haben unterschiedliche Machtwerte.\n\n- Die Gebäude in der oberen Reihe deines Planungstableaus (Palast und Universität) haben einen Machtwert von 3.\n- Die Gebäude in der mittleren Reihe deines Planungstableaus (Gilden und Schulen) haben einen Machtwert von 2.\n- Die Gebäude in der unteren Reihe deines Planungstableaus (Werkstätten) haben einen Machtwert von 1.\n\nImmer wenn du ein Gebäude baust oder aufwertest (siehe Aktionen Phase II – Umwandeln und Bauen und Phase II – Ein Gebäude aufwerten), so können andere Gemeinschaften dafür Macht erhalten. Jede andere Gemeinschaft ermittelt die Summe der Machtwerte aller ihrer benachbarten Gebäude zum neu erbauten bzw. aufgewerteten Gebäude. Dann entscheidet diese Gemeinschaft, ob sie genau so viel Macht erhalten möchte. Dafür muss sie jedoch ggf. Punkte abgeben, nämlich 1 weniger als sie Macht erhält.\n\nFür 1/2/3/4 Macht muss die Gemeinschaft also 0/1/2/3 Punkte abgeben. Die Reihe wird entsprechend fortgeführt.\n\n*Beispiel:* Durch den Bau der roten Werkstatt kann die gelbe Gemeinschaft 3 Macht erhalten. Dieser Wert ergibt sich aus dem Machtwert 1 der gelben Werkstatt und Machtwert 2 der gelben Schule. Die gelbe Gilde ist nicht benachbart. Die gelbe Gemeinschaft entscheidet sich für den Erhalt der 3 Macht und muss dafür 2 Punkte abgeben.\n\n**Details**\n\n- Immer wenn du baust oder aufwertest und andere Gemeinschaften dadurch Macht erlangen können, musst du sie auf diese Möglichkeit hinweisen.\n- Der Machtwert des gebauten Gebäudes spielt für den Machtgewinn keine Rolle.\n- Du darfst nicht weniger als 0 Punkte haben.\n- Es ist nicht erlaubt, nur einen Teil der Macht anzunehmen, um die Kosten in Grenzen zu halten. Es gilt: entweder ganz oder gar nicht. Dabei gibt es 2 Ausnahmen:\n  1. Falls du nicht genügend Macht in den Schalen I und II hast, darfst du so viel Macht nehmen, bis alle Machtsteine in Schale III liegen, und die entsprechenden Punktekosten zahlen (also 1 weniger als du Macht erhältst).\n  2. Falls du durch die Kosten in den negativen Punktebereich gelangen würdest, darfst du genau so viele Punkte abgeben, bis du keine mehr hast. Du bekommst dann entsprechend viel Macht (also 1 mehr als du Punkte abgibst).\n- Nur für die Macht, die du durch Aktionen anderer Gemeinschaften erhältst, musst du Punkte abgeben. Für Macht aus anderen Quellen musst du keine Punkte abgeben.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 7
+      }
+    },
+    {
+      "id": "stadtgruendung",
+      "name": "Stadtgründung",
+      "type": "reference",
+      "group": "konzepte",
+      "summary": "Du kannst im Spielverlauf Städte gründen. Zu einer Stadtgründung kommt es automatisch, sobald du eine Gruppe aus",
+      "description": "Du kannst im Spielverlauf Städte gründen. Zu einer Stadtgründung kommt es automatisch, sobald du eine Gruppe aus\n\n- mindestens 4 benachbarten eigenen Gebäuden hast,\n- die noch nicht Teil einer bestehenden Stadt sind und\n- die zusammen einen Machtwert von mindestens 7 haben.\n\nAusnahmen: Eine Stadt mit einer Universität benötigt nur 3 Gebäude und eine Stadt mit dem Monument sogar nur 2.\n\nWähle aus dem Vorrat der Stadtmarker einen beliebigen und lege ihn unter eines der an deiner Stadt beteiligten Gebäude. Für eine Übersicht aller Stadtmarker siehe Anhang VII.\n\nEine Stadt zu gründen gibt dir 3 Belohnungen:\n\n1. Du bekommst sofort Punkte entsprechend des gewählten Stadtmarkers. Falls auf dem aktuellen Rundenwertungsplättchen ein Schlüssel abgebildet ist, bekommst du zusätzlich die Punkte des Rundenwertungsplättchens.\n2. Du erhältst sofort und einmalig die auf dem Stadtmarker abgebildeten Ressourcen oder sonstigen Vorteile.\n3. Jeder Stadtmarker zeigt auch einen Stadtschlüssel. Diese benötigst du, um auf dem Wissenstableau in die höheren Stufen aufzusteigen (siehe Das Wissenstableau).\n\n*Beispiel:* Die auf Seite 9 gezeigten Gebäude bilden zusammen eine Stadt (4 benachbarte Gebäude, Machtwert 7). Du nimmst den gezeigten Stadtmarker und erhältst dafür 8 Punkte sowie 8 Macht.\n\nBeachte: Baust du benachbart zu oder verbindest ein Gebäude mit einer deiner bestehenden Städte, wird das Gebäude Teil dieser Stadt. Du kannst es nicht zur Gründung einer weiteren Stadt nutzen.\n\n**Alle 7 Stadtmarker im Detail:** Modul „Stadtmarker\".",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 7
+      }
+    },
+    {
+      "id": "neutrale-gebaeude",
+      "name": "Neutrale Gebäude",
+      "type": "reference",
+      "group": "konzepte",
+      "summary": "Einige Gebäude im Spiel haben keine Spielfarbe, sondern sind neutral. Sie können von jeder Gemeinschaft gebaut werden und gelten dann als Gebäude dieser Gemeinschaft. Ihr erhaltet sie meist über Erfindungen (siehe Anhang III). Den Turm könnt ihr stattdessen über eine Kompetenz erhalten (siehe Anhang VIII).",
+      "description": "Einige Gebäude im Spiel haben keine Spielfarbe, sondern sind neutral. Sie können von jeder Gemeinschaft gebaut werden und gelten dann als Gebäude dieser Gemeinschaft. Ihr erhaltet sie meist über Erfindungen (siehe Anhang III). Den Turm könnt ihr stattdessen über eine Kompetenz erhalten (siehe Anhang VIII).\n\nAußerdem beginnt die Gemeinschaft der Omar das Spiel mit einem Turm. Sie können über die Kompetenz noch einen zweiten Turm bekommen.\n\nFür die neutralen Gebäude gilt:\n\n- Erhältst du ein neutrales Gebäude, so musst du es sofort auf dem Spielplan platzieren. Setze es auf ein unbebautes Feld in Reichweite. Ist das Feld nicht deine Heimatlandschaft, musst du es zuerst in sie umwandeln (siehe Phase II – Umwandeln und Bauen). Du darfst die benötigten Spaten allerdings nur durch die Abgabe von Werkzeugen erhalten und nicht durch eine andere Aktion, die dir kostenlose Spaten gibt. Kannst du es auf diese Art nicht sofort platzieren, darfst du es gar nicht (auch später nicht) bauen.\n- Das Platzieren des Gebäudes gilt als Bauen. Die Anderen dürfen für eigene benachbarte Gebäude Macht erhalten.\n- Dies ist die einzige Möglichkeit (ausgenommen die Startfähigkeit der Mönche), wie du ein anderes Gebäude als eine Werkstatt direkt auf ein unbebautes Feld bauen darfst.\n- Über die Landschaft, auf der das Gebäude steht, könnt ihr erkennen, zu welcher Gemeinschaft es gehört.\n- Neutrale Gebäude, die es in dieser Form auch in den Spielfarben gibt, haben denselben Machtwert wie die entsprechenden Gebäude in Spielfarbe. Sie gelten auch sonst als Gebäude dieser Form, können jedoch nicht aufgewertet werden. Ihr Einkommen, sofern es eines gibt, wird bestimmt durch das Plättchen, über das du das Gebäude erhalten hast.\n- Bei neutralen Gebäuden, die es nicht auch in Spielfarben gibt, ist der Machtwert des Gebäudes auf dem Plättchen angegeben, über das ihr das Gebäude erhaltet.\n\n*Beispiel:* Der auf Seite 9 gezeigte Turm gehört zur schwarzen Spielfarbe. Ihr erkennt dies daran, dass er auf einem Landschaftsfeld Sumpf steht. Das Monument hat einen Machtwert von 4, der Turm einen Machtwert von 2.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 7
+      }
+    },
+    {
+      "id": "das-wissenstableau",
+      "name": "Das Wissenstableau",
+      "type": "reference",
+      "group": "konzepte",
+      "summary": "Neben der Ausbreitung und Aufwertung von Gebäuden gibt es vier Wissensdisziplinen (Bankwesen, Recht, Ingenieurskunst und Medizin), in denen sich die Gemeinschaften entwickeln können. Der jeweilige Fortschritt wird auf dem Wissenstableau festgehalten. Auch dabei kannst du zusätzlich Macht und andere Belohnungen erhalten.",
+      "description": "Neben der Ausbreitung und Aufwertung von Gebäuden gibt es vier Wissensdisziplinen (Bankwesen, Recht, Ingenieurskunst und Medizin), in denen sich die Gemeinschaften entwickeln können. Der jeweilige Fortschritt wird auf dem Wissenstableau festgehalten. Auch dabei kannst du zusätzlich Macht und andere Belohnungen erhalten.\n\n1. Für jeden Wissensschritt, den du erhältst, bewegst du deinen Markierungsstein in der entsprechenden Disziplin um 1 Schritt nach oben.\n2. Erreicht einer deiner Markierungssteine die Stufe 3, 5, 7 oder 12 einer Disziplin, erhältst du sofort und einmalig die abgebildete Menge Macht (auch schon beim Spielaufbau).\n3. Um mit deinem Markierungsstein auf Stufe 8 einer Disziplin vorzurücken, musst du bereits einen Stadtschlüssel haben. Du benötigst pro Disziplin 1 Stadtschlüssel. Drehe ihn auf die Rückseite, um anzuzeigen, dass du ihn benutzt hast. Willst oder kannst du keinen Schlüssel einsetzen, verfallen alle überzähligen Schritte in einer Disziplin, mit denen du auf oder über Stufe 8 gelangen würdest.\n4. Steht dein Markierungsstein in einer Disziplin auf Stufe 9 oder höher, erhältst du in Phase I (Einkommen) jeder Runde das jeweils abgebildete Einkommen.\n5. In jeder Disziplin kann nur genau 1 Markierungsstein Stufe 12 erreichen. Sobald Stufe 12 einer Disziplin erreicht wurde, kann in derselben Disziplin niemand anderes mehr Stufe 12 erreichen.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 7
+      }
+    },
+    {
+      "id": "der-spielverlauf",
+      "name": "Der Spielverlauf",
+      "type": "reference",
+      "group": "spielverlauf",
+      "summary": "Eine Partie *Age of Innovation* verläuft über 6 Runden.",
+      "description": "Eine Partie *Age of Innovation* verläuft über 6 Runden.\n\nJede der 6 Runden besteht aus folgenden 3 Phasen, die der Reihe nach durchgeführt werden:\n\n1. Phase I: Einkommen\n2. Phase II: Aktionen\n3. Phase III: Wissensbonus und Vorbereitungen zur nächsten Runde",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 10
+      }
+    },
+    {
+      "id": "phase-i-einkommen",
+      "name": "Phase I: Einkommen",
+      "type": "reference",
+      "group": "spielverlauf",
+      "summary": "Diese Phase führt ihr alle gleichzeitig aus.",
+      "description": "Diese Phase führt ihr alle gleichzeitig aus.\n\nZu Beginn jeder Runde (auch der ersten) erhältst du Einkommen in Form von neuen Ressourcen. Einkommen wird durch eine offene Hand symbolisiert. Du erhältst alles, was darüber abgebildet ist. Einkommen erhältst du hauptsächlich über dein Planungstableau. Du erhältst dort allerdings nur das Einkommen, das „sichtbar\" ist. Sichtbar heißt, es wird nicht durch ein Gebäude verdeckt. Außerdem kannst du Einkommen von deinem Rundenbonus, deinen Kompetenzplättchen und Erfindungen sowie dem Wissenstableau erhalten.\n\n*Beispiel:* Von deinem Planungstableau erhältst du über die sichtbaren Symbole 1 Macht, 2 Geld und 3 Werkzeuge als Einkommen.\n\nGelehrte, Geld, Werkzeuge und Bücher erhältst du aus dem Vorrat.\n\nDie Anzahl deiner Gelehrten ist begrenzt. Geld, Werkzeuge und Bücher sind dagegen unbegrenzt. In dem seltenen Fall, dass euch etwas davon ausgeht, benutzt ein geeignetes Ersatzmaterial.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 10
+      }
+    },
+    {
+      "id": "phase-iii-wissensbonus-und-vorbereitungen-zur-naechsten-runde",
+      "name": "Phase III: Wissensbonus und Vorbereitungen zur nächsten Runde",
+      "type": "reference",
+      "group": "phase3",
+      "summary": "Phase III beginnt, wenn ihr in der Aktionsphase alle die Aktion *Passen* ausgeführt habt.",
+      "description": "Phase III beginnt, wenn ihr in der Aktionsphase alle die Aktion *Passen* ausgeführt habt.\n\nIn den Runden 1 bis 5 erhaltet ihr in Phase III ggf. einen Wissensbonus und bereitet zudem die nächste Runde vor. In Runde 6 entfällt diese Phase und das Spiel endet stattdessen. Geht in dem Fall weiter zu Spielende und Wertung.\n\nFührt die folgenden Schritte in der angegebenen Reihenfolge aus:",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 17
+      }
+    },
+    {
+      "id": "wissensbonus-erhalten",
+      "name": "1. Wissensbonus erhalten",
+      "type": "reference",
+      "group": "phase3",
+      "summary": "Der Wissensbonus ist auf der rechten Hälfte jedes Rundenwertungsplättchens abgebildet. Beim Rundenwertungsplättchen in Runde 6 ist er abgedeckt.",
+      "description": "Der Wissensbonus ist auf der rechten Hälfte jedes Rundenwertungsplättchens abgebildet. Beim Rundenwertungsplättchen in Runde 6 ist er abgedeckt.\n\nVergebt den auf dem Wertungsplättchen der noch laufenden Runde angezeigten Wissensbonus an alle, die in der entsprechenden Disziplin mindestens genauso viel Wissen haben wie angezeigt wird. Erfüllst du die Bedingung mehrfach, erhältst du auch mehrfach die Belohnung.\n\n*Beispiel:* Für Stufe 3 in der Disziplin Medizin erhältst du 1 Buch deiner Wahl, für Stufe 8 in der Disziplin Ingenieurskunst 2 Spaten.\n\nFolgende Regeln gilt es beim Wissensbonus „Spaten\" zu beachten:\n\n- Ihr erhaltet eure Boni in der Zugreihenfolge der nächsten Runde.\n- Falls du durch den Wissensbonus Spaten erhältst, darfst du keine weiteren Spaten dazu erwerben.\n- Du darfst Spaten nicht für die nächste Runde aufsparen.\n- Spaten, die du als Wissensbonus erhältst, darfst du auf ein oder auf mehrere Landschaftsfelder in Reichweite anwenden.\n- Du darfst in Phase III keine Werkstatt bauen.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 17
+      }
+    },
+    {
+      "id": "x-marker-zuruecknehmen",
+      "name": "2. X-Marker zurücknehmen",
+      "type": "reference",
+      "group": "phase3",
+      "summary": "Entfernt alle verwendeten X-Marker von den damit abgedeckten Feldern:",
+      "description": "Entfernt alle verwendeten X-Marker von den damit abgedeckten Feldern:\n\n- den Macht- und Buchaktionen auf dem Spielplan\n- den Sonderaktionen auf euren Palast-, Erfindungs- und Kompetenzplättchen\n- den Rundenboni",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 17
+      }
+    },
+    {
+      "id": "geld-auf-rundenboni-legen",
+      "name": "3. Geld auf Rundenboni legen",
+      "type": "reference",
+      "group": "phase3",
+      "summary": "Legt auf die 3 Rundenboni neben dem Spielplan je 1 Geld aus dem Vorrat. Wurde eine Karte in der letzten Runde auch schon von keiner Person genommen, liegen jetzt entsprechend 2 Geld darauf.",
+      "description": "Legt auf die 3 Rundenboni neben dem Spielplan je 1 Geld aus dem Vorrat. Wurde eine Karte in der letzten Runde auch schon von keiner Person genommen, liegen jetzt entsprechend 2 Geld darauf.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 17
+      }
+    },
+    {
+      "id": "rundenboni-aufdecken",
+      "name": "4. Rundenboni aufdecken",
+      "type": "reference",
+      "group": "phase3",
+      "summary": "Dreht eure Rundenboni um, so dass sie mit der Vorderseite nach oben vor euch liegen.",
+      "description": "Dreht eure Rundenboni um, so dass sie mit der Vorderseite nach oben vor euch liegen.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 17
+      }
+    },
+    {
+      "id": "rundenwertungsplaettchen-umdrehen",
+      "name": "5. Rundenwertungsplättchen umdrehen",
+      "type": "reference",
+      "group": "phase3",
+      "summary": "Dreht das soeben ausgewertete Rundenwertungsplättchen auf die Rückseite, so dass nur noch die Rundenwertungsplättchen der zukünftigen Runden zu sehen sind.",
+      "description": "Dreht das soeben ausgewertete Rundenwertungsplättchen auf die Rückseite, so dass nur noch die Rundenwertungsplättchen der zukünftigen Runden zu sehen sind.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 17
+      }
+    },
+    {
+      "id": "spielende-und-wertung",
+      "name": "Spielende und Wertung",
+      "type": "reference",
+      "group": "spielende",
+      "summary": "Das Spiel endet, sobald ihr in der Aktionsphase von Runde 6 alle gepasst habt. Wie durch das Überdecken mit dem Zusatzwertungsplättchen angezeigt, wird in Runde 6 kein Wissensbonus mehr vergeben.",
+      "description": "Das Spiel endet, sobald ihr in der Aktionsphase von Runde 6 alle gepasst habt. Wie durch das Überdecken mit dem Zusatzwertungsplättchen angezeigt, wird in Runde 6 kein Wissensbonus mehr vergeben.\n\nFührt nun noch die folgenden Schlusswertungen (Gebiet, Wissen und Ressourcen) durch. Tragt die Punkte der Schlusswertung auf der Punkteleiste ab. Ihr addiert sie also zu den Punkten, die ihr während des Spiels erlangt habt.\n\nNach den Schlusswertungen gewinnt die Person mit den meisten Punkten. Bei Punktegleichheit wird der Sieg geteilt.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 18
+      }
+    },
+    {
+      "id": "gebietswertung",
+      "name": "Gebietswertung",
+      "type": "reference",
+      "group": "spielende",
+      "summary": "Findet jeweils die größte Gruppe eurer Gebäude auf dem Spielplan, die zueinander alle in Reichweite sind (siehe Allgemeine Spielkonzepte – Nachbarschaft und Reichweite). Das heißt, jedes Gebäude dieser Gruppe ist in Reichweite von mindestens einem anderen Gebäude der Gruppe.",
+      "description": "Findet jeweils die größte Gruppe eurer Gebäude auf dem Spielplan, die zueinander alle in Reichweite sind (siehe Allgemeine Spielkonzepte – Nachbarschaft und Reichweite). Das heißt, jedes Gebäude dieser Gruppe ist in Reichweite von mindestens einem anderen Gebäude der Gruppe. Es zählt nur die Anzahl der Gebäude, die Art oder der Machtwert der Gebäude spielt keine Rolle.\n\n- Wer von allen die höchste Anzahl Gebäude in der eigenen Gruppe hat, erhält 18 Punkte.\n- Wer von allen die zweithöchste Anzahl Gebäude in der eigenen Gruppe hat, erhält 12 Punkte.\n- Wer von allen die dritthöchste Anzahl Gebäude in der eigenen Gruppe hat, erhält 6 Punkte.\n\nDiese Punktzahlen sind auf dem Spielplan oben links abzulesen. Falls mehrere von euch die gleiche Anzahl von Gebäuden in ihren Gruppen haben, teilen sie sich die entsprechenden Punkte. Ggf. wird abgerundet.\n\n*Beispiel:* Eine Person hat 10 verbundene Gebäude, die anderen drei Personen je 9 Gebäude. Die erste Person bekommt 18 Punkte. Die anderen drei Personen teilen 12 + 6 = 18 Punkte unter sich auf: also je 6 Punkte pro Person.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 18
+      }
+    },
+    {
+      "id": "wissenswertung",
+      "name": "Wissenswertung",
+      "type": "reference",
+      "group": "spielende",
+      "summary": "Für jede der 4 Wissensdisziplinen gilt:",
+      "description": "Für jede der 4 Wissensdisziplinen gilt:\n\n- Wer von euch relativ zu den anderen auf der höchsten Stufe steht, erhält 8 Punkte.\n- Wer von euch relativ zu den anderen auf der zweithöchsten Stufe steht, erhält 4 Punkte.\n- Wer von euch relativ zu den anderen auf der dritthöchsten Stufe steht, erhält 2 Punkte.\n\nDiese Punktzahlen könnt ihr auch auf dem Spielplan oben links ablesen. Auf Stufe 0 bekommt ihr keine Punkte, auch nicht wenn ihr nur zu zweit oder dritt spielt. Falls mehrere von euch die gleiche Stufe erreicht haben, teilen sie sich die Punkte der entsprechenden Ränge. Ggf. wird abgerundet.\n\n*Beispiel:* Blau steht in der Disziplin Bankwesen auf einer höheren Stufe als alle anderen und erhält daher 8 Punkte. Gelb und Rot haben die zweithöchste Stufe erreicht. Da sie auf der gleichen Stufe stehen, werden die Punkte für die zweit- und dritthöchste Stufe addiert und geteilt. Beide erhalten je (4 + 2) : 2 = 3 Punkte. Schwarz erhält keine Punkte.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 18
+      }
+    },
+    {
+      "id": "ressourcenwertung",
+      "name": "Ressourcenwertung",
+      "type": "reference",
+      "group": "spielende",
+      "summary": "Wandelt nun eure übrigen Ressourcen (Bücher, Gelehrte, Werkzeuge und Macht) durch die Zusatzoption Ressourcentausch (siehe Phase II – Passen und Ressourcentausch) in Geld um.",
+      "description": "Wandelt nun eure übrigen Ressourcen (Bücher, Gelehrte, Werkzeuge und Macht) durch die Zusatzoption Ressourcentausch (siehe Phase II – Passen und Ressourcentausch) in Geld um.\n\nJe 5 Geld sind 1 Punkt wert.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 18
+      }
+    },
+    {
+      "id": "variante-beim-aufbau-draften-des-persoenlichen-materials",
+      "name": "Variante beim Aufbau: Draften des persönlichen Materials",
+      "type": "reference",
+      "group": "varianten",
+      "summary": "Wenn ihr euch zu Spielbeginn noch mehr Abwechslung bei der Verteilung der Spielkomponenten wünscht, so könnt ihr den Abschnitt *Verteilung der Planungstableaus und Gemeinschaften* auch durch die folgenden Schritte ersetzen:",
+      "description": "Wenn ihr euch zu Spielbeginn noch mehr Abwechslung bei der Verteilung der Spielkomponenten wünscht, so könnt ihr den Abschnitt *Verteilung der Planungstableaus und Gemeinschaften* auch durch die folgenden Schritte ersetzen:\n\n1. Mischt die Planungstableaukarten und legt 6 zufällige davon bereit. 1 Planungstableau steht also nicht zur Wahl.\n2. Legt eure Personenzahl + 1 an zufälligen Gemeinschaften bereit.\n3. Legt eure Personenzahl + 1 an zufälligen Palastplättchen bereit. Nutzt dabei **nicht** das Palastplättchen Nr. 17 mit der roten Rückseite.\n4. Legt eure Personenzahl + 3 an zufälligen Rundenboni bereit.\n5. Legt alles nicht bereitgelegte Material der oben genannten Spielkomponenten in die Schachtel zurück.\n6. Bestimmt per Zufall, wer von euch das Spiel beginnt. Diese Person ist die Startperson.\n7. Beginnend mit der Startperson und dann im Uhrzeigersinn wählt ihr immer, wenn ihr an der Reihe seid, entweder 1 Planungstableau (wähle eine Planungstableaukarte, nimm dir dann das dazugehörige Tableau und lege die Karte zurück in die Schachtel), 1 Gemeinschaft oder 1 Palastplättchen und legt es vor euch ab, bis ihr von jeder dieser Komponenten 1 habt.\n8. Beginnend mit der Person rechts von der Startperson und dann gegen den Uhrzeigersinn (also in umgekehrter Spielreihenfolge) wählt ihr anschließend jeweils 1 Rundenbonus und legt diesen vor euch ab. Legt dann die 3 übrigen Rundenboni neben dem Spielfeld ab und legt jeweils 1 Geld darauf.\n9. Legt alle übrig gebliebenen Karten und Planungstableaus sowie Gemeinschaften und Palastplättchen in die Schachtel zurück.\n10. Legt euer Palastplättchen auf euer Planungstableau. Die Platzhalter für Palastplättchen benötigt ihr nicht. Wenn ihr euren Palast baut, sucht ihr euch nicht mehr 1 Palastplättchen aus, sondern nutzt ab dann das gewählte.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 18
+      }
+    },
+    {
+      "id": "aenderungen-bei-der-spielvorbereitung",
+      "name": "Änderungen bei der Spielvorbereitung",
+      "type": "reference",
+      "group": "varianten",
+      "summary": "1. Nimm die 4 Plättchen für die Gebietswertung, mische sie verdeckt und lege 1 davon verdeckt auf das entsprechende Feld auf dem Spielplan (Seite 1-3 Personen). Lege die anderen drei Plättchen ungesehen zurück in die Schachtel, sie werden in dieser Partie nicht benötigt.\n2.",
+      "description": "1. Nimm die 4 Plättchen für die Gebietswertung, mische sie verdeckt und lege 1 davon verdeckt auf das entsprechende Feld auf dem Spielplan (Seite 1-3 Personen). Lege die anderen drei Plättchen ungesehen zurück in die Schachtel, sie werden in dieser Partie nicht benötigt.\n2. Nimm 4 Gelehrte und 4 Markierungssteine einer nicht am Spiel beteiligten Farbe. Setze sie wie folgt auf dem Wissenstableau ein:\n   - Stelle die Gelehrten in jeder Disziplin jeweils auf ein 2er-Feld.\n   - Stelle die 4 Markierungssteine entsprechend in jeder Disziplin auf Stufe 2. Anschließend bewege für jeden der Wissensboni in den Runden 1 bis 5 (auf der rechten Seite der Rundenwertungsplättchen) den Markierungsstein in der abgebildeten Disziplin um die abgebildete Anzahl Schritte nach oben. Dafür wird kein Schlüssel benötigt.\n\n*Beispiel:* In Runde 1 gibt es einen Wissensbonus für je 1 Stufe in der Disziplin Bankwesen (gelb). Bewege dort entsprechend den neutralen Markierungsstein um 1 Stufe nach oben. In Runde 2 gibt es einen Wissensbonus für je 3 Stufen in der Disziplin Recht (blau). Bewege dort entsprechend den neutralen Markierungsstein um 3 Stufen nach oben. Verfahre genauso für die Wissensboni in den Runden 3 bis 5. In Runde 6 gibt es keinen Wissensbonus, entsprechend werden auch die neutralen Marker nicht weiter bewegt.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 19
+      }
+    },
+    {
+      "id": "aenderungen-beim-spielablauf-und-der-schlusswertung",
+      "name": "Änderungen beim Spielablauf und der Schlusswertung",
+      "type": "reference",
+      "group": "varianten",
+      "summary": "Zu Beginn von Runde 6, drehe das Plättchen für die Gebietswertung um.",
+      "description": "Zu Beginn von Runde 6, drehe das Plättchen für die Gebietswertung um.\n\nWerte am Spielende sowohl die Gebiets- als auch die Wissenswertung, als wäre eine dritte Gemeinschaft im Spiel vertreten. Diese Gemeinschaft erhält selber keine Punkte. Belegt sie aber den ersten oder zweiten Platz in einer Wertung, erhalten die anderen Gemeinschaften entsprechend weniger Punkte. Gleichstände werden wie gewohnt aufgelöst.\n\nBei der Wissenswertung bestimmen die Markierungssteine der nicht am Spiel beteiligten Farbe für jede der 4 Disziplinen die Platzierung der dritten Gemeinschaft.\n\nBei der Gebietswertung gibt die Zahl auf dem Plättchen für die Gebietswertung an, mit wie vielen verbundenen Gebäuden die dritte Gemeinschaft gewertet wird.",
+      "tags": [
+        "regeln"
+      ],
+      "source": {
+        "document": "Age of Innovation Regelheft (DE)",
+        "page": 19
+      }
+    }
+  ]
+}
