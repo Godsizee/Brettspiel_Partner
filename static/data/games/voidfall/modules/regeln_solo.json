@@ -2256,7 +2256,7 @@
       "name": "Annäherungsschaden als Offensive",
       "image": null,
       "summary": "Als **Offensive** kannst du **Annäherungsschaden** zufügen:\n- Hast du die **Fortschrittliche Zerstörer** erforscht und ist mind. 1 deiner **Zerstörerflotten** präsent, füge 1 Schaden zu (einmalig, nicht pro Flotte).\n- Hast du die **Basistechnologie Weltraumgeschosse** erforscht, einen zum Kampfsektor benachbarten Sektor mit **Werft** oder **Sternenbasis** und zahlst **1 Energie**, füge 1 Schaden zu.\n- Hast du **Fortschrittliche Weltraumgeschosse** erforscht und 1 oder mind. 2 zum Kampfsektor benachbarte Sektoren mit **Werft** oder **Sternenbasis**, füge entsprechend 1 oder 2 Schaden zu.",
-      "description": "**Korrektur zur deutschen Anleitung (S. 36):** Dort nennt der 1. Punkt irrtümlich die *Fortschrittlichen Schlächter*. Im englischen Original steht an dieser Stelle „Improved Destroyers“ – gemeint ist der **Fortschrittliche Zerstörer**. Die Flottentypen-Tabelle (S. 37) bestätigt das: Annäherungsschaden gehört zum Fortschrittlichen Zerstörer, das Schlächter-Kampfplättchen gewährt in der Annäherung dagegen **Absorption**.",
+      "description": "**Korrektur zur deutschen Anleitung (S. 36):** Dort nennt der 1. Punkt irrtümlich die **Fortschrittlichen Schlächter**. Im englischen Original steht an dieser Stelle „Improved Destroyers“ – gemeint ist der **Fortschrittliche Zerstörer**. Die Flottentypen-Tabelle (S. 37) bestätigt das: Annäherungsschaden gehört zum Fortschrittlichen Zerstörer, das Schlächter-Kampfplättchen gewährt in der Annäherung dagegen **Absorption**.",
       "group": "kampf",
       "timing": [],
       "tags": [
