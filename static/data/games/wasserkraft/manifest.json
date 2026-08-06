@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.1.0-alpha",
+  "game": {
+    "key": "wasserkraft",
+    "name": "Wasserkraft",
+    "publisher": "Feuerland Verlag / Cranio Creations",
+    "edition": "base",
+    "defaultLanguage": "de"
+  },
+  "modules": [
+    {
+      "id": "regeln_einfuehrung",
+      "title": "Regeln – Einführungsspiel",
+      "type": "reference",
+      "layout": "grouped",
+      "icon": "book-open",
+      "featured": true,
+      "source": "modules/regeln_einfuehrung.json"
+    },
+    {
+      "id": "regeln_komplett",
+      "title": "Regeln – Komplettes Spiel",
+      "type": "reference",
+      "layout": "grouped",
+      "icon": "book",
+      "featured": true,
+      "source": "modules/regeln_komplett.json"
+    },
+    {
+      "id": "icons",
+      "title": "Symbol-Lexikon",
+      "type": "reference",
+      "layout": "icon-grid",
+      "icon": "help-circle",
+      "featured": true,
+      "source": "modules/icons.json"
+    },
+    {
+      "id": "unternehmen",
+      "title": "Unternehmen",
+      "type": "reference",
+      "layout": "grouped",
+      "icon": "building",
+      "featured": true,
+      "source": "modules/unternehmen.json"
+    },
+    {
+      "id": "chefingenieure",
+      "title": "Chefingenieure",
+      "type": "reference",
+      "icon": "users",
+      "featured": true,
+      "source": "modules/chefingenieure.json"
+    },
+    {
+      "id": "technologien",
+      "title": "Technologieplättchen",
+      "type": "reference",
+      "layout": "grouped",
+      "icon": "graduation-cap",
+      "featured": true,
+      "source": "modules/technologien.json"
+    },
+    {
+      "id": "bonusplaettchen",
+      "title": "Bonusplättchen",
+      "type": "reference",
+      "icon": "award",
+      "featured": false,
+      "source": "modules/bonusplaettchen.json"
+    },
+    {
+      "id": "zielplaettchen",
+      "title": "Zielplättchen",
+      "type": "reference",
+      "icon": "target",
+      "featured": false,
+      "source": "modules/zielplaettchen.json"
+    },
+    {
+      "id": "autorentipps",
+      "title": "Tipps der Autoren",
+      "type": "reference",
+      "icon": "lightbulb",
+      "featured": false,
+      "source": "modules/autorentipps.json"
+    }
+  ]
+}

@@ -1,0 +1,1678 @@
+{
+  "groups": [
+    {
+      "id": "ziel-material",
+      "title": "Spielziel & Spielmaterial",
+      "description": "Das grundlegende Thema, das Spielziel, die Wege zum Erzielen von Siegpunkten sowie die Übersicht des allgemeinen und spielerspezifischen Materials.",
+      "order": 10
+    },
+    {
+      "id": "konzepte",
+      "title": "Grundlegende Spielkonzepte",
+      "description": "Die fundamentalen Konzepte von Wasserkraft – Spielplanbereiche, Bauwerke, Wasserfluss, Energieproduktion, Rohrverbindungen, Verträge und Modus-Struktur.",
+      "order": 20
+    },
+    {
+      "id": "aufbau",
+      "title": "Spielaufbau",
+      "description": "Der vollständige Spielaufbau – die 12 Schritte des allgemeinen Aufbaus, die Anpassung für 2 und 3 Spieler sowie der Spieleraufbau (im Einführungsspiel nach fester Tabelle, im kompletten Spiel per Draft).",
+      "order": 30
+    },
+    {
+      "id": "rundenablauf",
+      "title": "Spielablauf & Phase 1: Einkommen und Quellwasser",
+      "description": "Der grundlegende Ablauf einer Partie über 5 Runden mit ihren jeweils 5 Phasen sowie die detaillierten Regeln für Phase 1 (Einkommen & Quellwasser).",
+      "order": 40
+    },
+    {
+      "id": "aktionen",
+      "title": "Phase 2: Aktionen am Unternehmensplan",
+      "description": "Grundregeln für Phase 2 (Aktionen) – Einsetzen von Arbeitern, Extrakosten, Passen – sowie die 5 Schritte der Bauaktion, die Kosten der 4 Bauteilarten und der Umgang mit Maschinen, Geld und Technologieplättchen.",
+      "order": 50
+    },
+    {
+      "id": "managementaktionen",
+      "title": "Phase 2: Aktionen am Managementplan",
+      "description": "Die Kategorien des Managementplans – Kraftwerkssteuerung (Energieproduktion), Wassermanagement, Bank, Werkstatt, Maschinenausstellung, Notariat und (nur im kompletten Spiel) Patentamt.",
+      "order": 60
+    },
+    {
+      "id": "wasserfluss",
+      "title": "Phase 3: Wasserfluss",
+      "description": "Ablauf der 3. Phase, in der das in Phase 1 gesammelte Wasser auf den Quellen ins Tal abfließt.",
+      "order": 70
+    },
+    {
+      "id": "wertung",
+      "title": "Phase 4: Wertung",
+      "description": "Ablauf der 4. Phase (Einkommen aus der Energieleiste, Siegpunkte für die Meistproduzierenden und das Bonusplättchen der Runde).",
+      "order": 80
+    },
+    {
+      "id": "rundenende-spielende",
+      "title": "Phase 5: Ende der Runde & Ende des Spiels",
+      "description": "Neue Spielreihenfolge, Aufräumarbeiten, Patentamt auffrischen und die finale Endwertung nach der 5. Runde.",
+      "order": 90
+    }
+  ],
+  "entries": [
+    {
+      "id": "ziel-spielidee",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Spielziel & Thema",
+      "image": null,
+      "summary": "In **WASSERKRAFT** leitet jeder Spieler ein nationales Energieunternehmen und versucht, die Mitspieler bei der Versorgung des Kontinents mit Energie auszustechen. Ihr erwerbt Technologien und Maschinen, um Staumauern und Turbinenhäuser zu bauen und sie durch Rohrwerke zu verbinden. Dies erlaubt euch, mit aufgestautem Wasser Energie zu erzeugen und damit wertvolle Energievertragsplättchen zu erfüllen. Wer am Ende die meisten Siegpunkte erzielt, gewinnt das Spiel.",
+      "description": "Immer wenn ihr [[icon:wasserkraft:siegpunkte]] Siegpunkte erzielt, bewegt ihr euren Siegpunktmarker auf der Siegpunktleiste voran. Sobald ihr 100 SP erzielt habt, dreht ihr euren Marker auf die 100er-Seite um.",
+      "group": "ziel-material",
+      "timing": [],
+      "tags": [
+        "Spielziel",
+        "Thema",
+        "Anleitung S. 4"
+      ],
+      "aliases": [
+        "Thema",
+        "Übersicht"
+      ],
+      "warnings": [],
+      "sort_order": 10010,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 4
+      }
+    },
+    {
+      "id": "ziel-wege-ueberblick",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Wege zu Siegpunkten (Überblick)",
+      "image": null,
+      "summary": "Siegpunkte [[icon:wasserkraft:siegpunkte]] könnt ihr auf folgende Weisen erzielen:\n- **Am Ende jeder Runde:** durch die Produktion der **meisten** Energieeinheiten in dieser Runde — und durch die Produktion von **genug** Energie (mindestens 6 Einheiten), um an der Wertung des Runden-Bonusplättchens teilzunehmen.\n- **Während jeder Runde:** durch das **Einkommen** auf eurem Unternehmensplan, durch die **Erfüllung von Verträgen** und durch die Benutzung **fortgeschrittener Technologieplättchen**, die als Spezialeffekt SP vergeben.\n- **Am Ende des Spiels:** durch die Erfüllung der Aufgabe auf dem **Zielplättchen** sowie für übrige Maschinen, Geld und das Wasser hinter euren Staumauern.",
+      "description": "",
+      "group": "ziel-material",
+      "timing": [],
+      "tags": [
+        "Spielziel",
+        "Siegpunkte",
+        "Anleitung S. 4"
+      ],
+      "aliases": [
+        "Punkte",
+        "SP",
+        "Gewinnbedingungen"
+      ],
+      "warnings": [],
+      "sort_order": 10020,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 4
+      }
+    },
+    {
+      "id": "ziel-sp-ende-runde",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Siegpunkte am Ende jeder Runde",
+      "image": null,
+      "summary": "Am Ende jeder Runde finden zwei Wertungen statt:\n1. **Meiste Energieeinheiten:** Der Spieler mit der meisten produzierten Energie auf der Energieleiste erhält 6 SP, der Zweitplatzierte erhält 2 SP.\n2. **Bonusplättchen:** Habt ihr mindestens 6 Energieeinheiten in dieser Runde produziert, nehmt ihr an der Wertung des Bonusplättchens dieser Runde teil und erhaltet Punkte für bestimmte Bauteile oder Spielelemente.",
+      "description": "*Beispiel:* Rot liegt auf der Energieleiste vorne und erhält 6 SP, Grün als Zweiter 2 SP. Da Rot die Schwelle von 6 Energieeinheiten überschritten hat, erhält er zusätzlich 4 SP pro eigener Grundmauer (gemäß Bonusplättchen der Runde).",
+      "group": "ziel-material",
+      "timing": [],
+      "tags": [
+        "Siegpunkte",
+        "Rundenwertung",
+        "Anleitung S. 4"
+      ],
+      "aliases": [
+        "Energieleiste",
+        "Bonusplättchen"
+      ],
+      "warnings": [],
+      "sort_order": 10030,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 4
+      }
+    },
+    {
+      "id": "ziel-sp-waehrend-runde",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Siegpunkte während der Runde (Einkommen)",
+      "image": null,
+      "summary": "Ihr steigert euer Runden-Einkommen, indem ihr Bauteile (Grundmauern, Erhöhungen, Rohrwerke) von eurem Unternehmensplan baut. Einige freigelegte Felder gewähren sofortige SP beim Bau und liefern ab dann in jeder Einkommensphase erneut diese SP.",
+      "description": "*Beispiel:* Schwarz baut seine zweite Grundmauer, erzielt sofort 3 SP und erhält von nun an in jeder Einkommensphase 3 SP.",
+      "group": "ziel-material",
+      "timing": [],
+      "tags": [
+        "Siegpunkte",
+        "Einkommen",
+        "Anleitung S. 4"
+      ],
+      "aliases": [
+        "Unternehmensplan"
+      ],
+      "warnings": [],
+      "sort_order": 10040,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 4
+      }
+    },
+    {
+      "id": "ziel-sp-vertraege-technologien",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Siegpunkte durch Verträge & Technologien",
+      "image": null,
+      "summary": "Während des Spiels erzeugt ihr Punkte durch Aktionen:\n- **Verträge:** Erfüllt ihr bei einer Energieproduktion einen Vertrag, gewährt dieser häufig SP als sofortige Belohnung (z. B. 4 SP bei Erfüllung eines 3er-Vertrags).\n- **Fortgeschrittene Technologieplättchen:** Manche Plättchen gewähren beim Einsatz Spezial-SP (z. B. 3 SP pro gebautem Turbinenhaus).",
+      "description": "",
+      "group": "ziel-material",
+      "timing": [],
+      "tags": [
+        "Siegpunkte",
+        "Verträge",
+        "Technologien",
+        "Anleitung S. 4"
+      ],
+      "aliases": [
+        "Aufträge",
+        "Plättchen"
+      ],
+      "warnings": [],
+      "sort_order": 10050,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 4
+      }
+    },
+    {
+      "id": "ziel-sp-ende-spiel",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Siegpunkte bei der Endwertung",
+      "image": null,
+      "summary": "Am Ende des Spiels werden Punkte vergeben für:\n- **Zielplättchen:** Die 3 Spieler, welche die Bedingung des Zielplättchens am besten erfüllen, erhalten **15 SP** (1. Platz), **10 SP** (2. Platz) bzw. **5 SP** (3. Platz).\n- **Maschinen & Geld:** Für jedes Set aus 5 Ressourcen (Bagger, Betonmischer und/oder Hydro) erhaltet ihr **1 SP**.\n- **Gestautes Wasser:** Für jede Wassereinheit, die hinter einer eigenen Staumauer gestaut steht, erhaltet ihr **1 SP**.",
+      "description": "",
+      "group": "ziel-material",
+      "timing": [],
+      "tags": [
+        "Siegpunkte",
+        "Endwertung",
+        "Anleitung S. 4"
+      ],
+      "aliases": [
+        "Zielplättchen",
+        "Schlusswertung"
+      ],
+      "warnings": [],
+      "sort_order": 10060,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 4
+      }
+    },
+    {
+      "id": "material-allgemein",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Allgemeines Spielmaterial",
+      "image": null,
+      "summary": "Das allgemeine Spielmaterial umfasst:\n- **Pläne & Leisten:** 1 doppelseitiger Spielplan, 1 Managementplan, 1 Patentamtsplan, 1 Energieleiste.\n- **Plättchen:** 45 private Vertragsplättchen, 6 staatliche Vertragsplättchen, 4 Startvertragsplättchen, 15 fortgeschrittene Technologieplättchen, 10 Startaufstellungsplättchen, 6 Zielplättchen, 6 Bonusplättchen, 8 Quellenplättchen.\n- **Charaktere:** 7 Chefingenieure + 1 Sondertechnologieplättchen für Anton Krylov.\n- **Bauwerke & Ressourcen:** 3 neutrale Grundmauern, 3 neutrale Erhöhungen, 30 Wassereinheiten (Wassertropfen).\n- **Maschinen:** 34 Bagger (24× Wert 1, 6× Wert 3, 4× Wert 5), 26 Betonmischer (16× Wert 1, 6× Wert 3, 4× Wert 5). Bagger und Betonmischer werden gemeinsam als *Maschinen* bezeichnet.\n- **Währung (Hydro):** 58 Hydro-Münzen (24× Wert 1, 20× Wert 3, 14× Wert 5).",
+      "description": "",
+      "group": "ziel-material",
+      "timing": [],
+      "tags": [
+        "Material",
+        "Komponenten",
+        "Anleitung S. 2"
+      ],
+      "aliases": [
+        "Vorrat",
+        "Komponenten"
+      ],
+      "warnings": [],
+      "sort_order": 10070,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 2
+      }
+    },
+    {
+      "id": "material-spieler",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Spielermaterial (pro Unternehmen)",
+      "image": null,
+      "summary": "Jedes der 4 Unternehmen (Deutschland, USA, Italien, Frankreich) erhält folgendes Material:\n- 1 Unternehmensplan, 1 Bauscheibe, 1 Spielhilfe.\n- **Bauwerke:** 5 Grundmauern, 5 Erhöhungen, 5 Rohrwerke, 4 Turbinenhäuser.\n- **Marker:** 1 Reihenfolgemarker, 1 Energiemarker, 1 Siegpunktmarker.\n- **Figuren & Plättchen:** 12 Arbeiter, 5 einfache Technologieplättchen.",
+      "description": "",
+      "group": "ziel-material",
+      "timing": [],
+      "tags": [
+        "Material",
+        "Spielermaterial",
+        "Anleitung S. 3"
+      ],
+      "aliases": [
+        "Unternehmensmaterial"
+      ],
+      "warnings": [],
+      "sort_order": 10080,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 3
+      }
+    },
+    {
+      "id": "material-automa",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Automa-Material",
+      "image": null,
+      "summary": "Das Spiel enthält 20 Automaplättchen. Die Regeln für das Spiel gegen den Automa befinden sich in einem separaten Automaregelheft.",
+      "description": "",
+      "group": "ziel-material",
+      "timing": [],
+      "tags": [
+        "Material",
+        "Automa",
+        "Solo",
+        "Anleitung S. 3"
+      ],
+      "aliases": [
+        "Solomodus"
+      ],
+      "warnings": [],
+      "sort_order": 10090,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 3
+      }
+    },
+    {
+      "id": "konzepte-spielplan",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Der Spielplan (Geografie & Bereiche)",
+      "image": null,
+      "summary": "Der Spielplan repräsentiert einen Teil der Alpen und ist von oben nach unten in 3 Landschaftsbereiche gegliedert:\n- **Berge:** 4 Täler mit Platz für jeweils 2 Staumauern und 2 Rohrwerke.\n- **Hügel:** 3 Täler mit Platz für jeweils 2 Turbinenhäuser, 2 Staumauern und 2 Rohrwerke.\n- **Vorland (oberer Teil):** 3 Täler mit Platz für jeweils 3 Turbinenhäuser, 2 Staumauern und 2 Rohrwerke.\n- **Vorland (unterer Teil):** 2 Täler mit Platz für jeweils 4 Turbinenhäuser.\n\nJedes Tal verfügt über gekennzeichnete Baufelder für Bauwerke. Die Täler sind durch Flüsse miteinander verbunden; farbige Rohre ermöglichen das Leiten von Wasser zwischen verschiedenen Tälern.",
+      "description": "",
+      "group": "konzepte",
+      "timing": [],
+      "tags": [
+        "Spielplan",
+        "Geografie",
+        "Landschaft",
+        "Anleitung S. 5"
+      ],
+      "aliases": [
+        "Berge",
+        "Hügel",
+        "Vorland",
+        "Täler",
+        "Flüsse"
+      ],
+      "warnings": [],
+      "sort_order": 20010,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 5
+      }
+    },
+    {
+      "id": "konzepte-bauwerke",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Bauwerksarten & Ausbaustufen",
+      "image": null,
+      "summary": "Ihr könnt auf dem Spielplan 3 Arten von Bauwerken errichten:\n- **Staumauern:** Bestehen aus einer Grundmauer und bis zu 2 Erhöhungen. Die Ausbaustufe reicht von 1 (nur Grundmauer) bis 3 (Grundmauer + 2 Erhöhungen).\n  - *Neutrale Staumauern:* Werden zu Spielbeginn platziert und können im Spielverlauf nicht verändert werden.\n  - *Eigene Staumauern:* Gehören immer eurem Unternehmen. Ihr könnt **niemals Erhöhungen auf eine Staumauer eines anderen Unternehmens** bauen.\n- **Rohrwerke:** Bestehen aus einem Bauteil und werden auf freien Rohrwerk-Baufeldern gebaut.\n- **Turbinenhäuser:** Bestehen aus einem Bauteil und werden auf freien Turbinenhaus-Baufeldern gebaut.",
+      "description": "",
+      "group": "konzepte",
+      "timing": [],
+      "tags": [
+        "Bauwerke",
+        "Staumauer",
+        "Rohrwerk",
+        "Turbinenhaus",
+        "Anleitung S. 5"
+      ],
+      "aliases": [
+        "Grundmauer",
+        "Erhöhung",
+        "Baufeld",
+        "Ausbaustufe"
+      ],
+      "warnings": [],
+      "sort_order": 20020,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 5
+      }
+    },
+    {
+      "id": "konzepte-wasser-grundlagen",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Wasser & Wasserstauung",
+      "image": null,
+      "summary": "Wasser ist die zentrale Ressource im Spiel. Es gehört niemandem, kann aber kontrolliert werden:\n- **Wasserquellen:** Wassereinheiten kommen zu Beginn jeder Runde auf den Quellenplättchen am oberen Spielplanrand ins Spiel sowie durch bestimmte Aktionen.\n- **Flusslauf:** Wasser fließt durch die Flüsse bergab. Fließt eine Wassereinheit durch das letzte Tal im unteren Vorland, verlässt sie das Spielbrett.\n- **Stauung:** Staumauern unterbrechen den Flusslauf. Die Ausbaustufe einer Staumauer bestimmt ihre Kapazität (Ausbaustufe 1 = max. 1 Wasser, Ausbaustufe 3 = max. 3 Wasser). Passt mehr Wasser hinein, verbleibt das Wasser dort; überschüssiges Wasser fließt weiter bergab.\n- **Reihenfolge im Tal:** Stehen 2 Staumauern im selben Tal, staut die obere Staumauer das Wasser zuerst. Erst wenn diese vollständig gefüllt ist, fließt Wasser zur unteren Staumauer.\n- **Bewegung:** Gestaute Wassereinheiten können nur durch Produktionsaktionen bewegt werden.",
+      "description": "",
+      "group": "konzepte",
+      "timing": [],
+      "tags": [
+        "Wasser",
+        "Stauung",
+        "Flüsse",
+        "Anleitung S. 5"
+      ],
+      "aliases": [
+        "Wassertropfen",
+        "Stauraum",
+        "Quellwasser"
+      ],
+      "warnings": [],
+      "sort_order": 20030,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 5
+      }
+    },
+    {
+      "id": "konzepte-energieproduktion-voraussetzungen",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Energieproduktion (Voraussetzungen & Bauwerke)",
+      "image": null,
+      "summary": "Um mit einer Produktionsaktion Energie zu erzeugen, benötigt ihr zwingend 3 Komponenten:\n1. **Ein Turbinenhaus:** Muss **euch gehören**.\n2. **Eine Staumauer:** Muss mindestens 1 gestaute Wassereinheit enthalten und muss eine **eigene oder neutrale** Staumauer sein (keine gegnerische Staumauer).\n3. **Ein Rohrwerk:** Muss das Turbinenhaus mit der Staumauer verbinden. Das Rohrwerk kann **einem beliebigen Unternehmen** gehören.",
+      "description": "",
+      "group": "konzepte",
+      "timing": [],
+      "tags": [
+        "Energieproduktion",
+        "Voraussetzungen",
+        "Anleitung S. 6"
+      ],
+      "aliases": [
+        "Produktion",
+        "Turbinenhaus",
+        "Staumauer",
+        "Rohrwerk"
+      ],
+      "warnings": [],
+      "sort_order": 20040,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 6
+      }
+    },
+    {
+      "id": "konzepte-verbindungen-rohrwerke",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Verbindungen & Produktionswert von Rohrwerken",
+      "image": null,
+      "summary": "Verbindungen bestimmen, wohin Wasser geleitet werden kann:\n- **Talverbindungen:** Ein gebautes Rohrwerk aktiviert die farbige Rohrverbindung vom oberen Tal zum unteren Tal und verbindet alle Staumauern des oberen Tals mit allen Turbinenhäusern des unteren Tals.\n- **Dunkle Leitungen:** Zeigen an, dass Staumauern und Rohrwerke im selben Tal miteinander verbunden sind. Eine Staumauer und ein Turbinenhaus am **selben** Tal gelten *nicht* als verbunden.\n- **Produktionswert:** Jedes Rohrwerk besitzt einen gedruckten Produktionswert (z. B. 2 oder 3). Jede durchgeleitete Wassereinheit erzeugt Energie in Höhe dieses Produktionswerts (z. B. 2 Wasser × Rohrwerkswert 3 = 6 Energieeinheiten).\n- **Ablauf nach Produktion:** Das genutzte Wasser fließt ins Tal des Turbinenhauses und bewegt sich von dort weiter flussabwärts.",
+      "description": "",
+      "group": "konzepte",
+      "timing": [],
+      "tags": [
+        "Verbindungen",
+        "Rohrwerke",
+        "Energieproduktion",
+        "Anleitung S. 6"
+      ],
+      "aliases": [
+        "Leitung",
+        "Rohre",
+        "Produktionswert"
+      ],
+      "warnings": [],
+      "sort_order": 20050,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 6
+      }
+    },
+    {
+      "id": "konzepte-rohrwerk-fremde-kosten",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Nutzung fremder Rohrwerke",
+      "image": null,
+      "summary": "Nutzt ihr für eine Produktionsaktion das Rohrwerk eines Mitspielers, müsst ihr an diesen Entschädigung leisten:\n- **Kosten:** Ihr müsst dem Besitzer des Rohrwerks **1 Hydro** pro durchgeleiteter Wassereinheit aus eurem Vorrat zahlen.\n- **Bonus für Besitzer:** Der Besitzer des Rohrwerks erhält zusätzlich **1 SP** pro durchgeleiteter Wassereinheit auf der Siegpunktleiste.\n- **Eigenes Rohrwerk:** Nutzt ihr euer eigenes Rohrwerk, fallen keine zusätzlichen Kosten an.",
+      "description": "",
+      "group": "konzepte",
+      "timing": [],
+      "tags": [
+        "Rohrwerke",
+        "Fremde Nutzung",
+        "Hydro",
+        "Siegpunkte",
+        "Anleitung S. 6"
+      ],
+      "aliases": [
+        "Entschädigung",
+        "Fremdrohr"
+      ],
+      "warnings": [],
+      "sort_order": 20060,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 6
+      }
+    },
+    {
+      "id": "konzepte-energie-nutzen-vertraege",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Energieleiste & Verträge",
+      "image": null,
+      "summary": "Die in einer Produktionsaktion erzeugte Energie erfüllt zwei Zwecke:\n- **Energieleiste:** Rückt euren Energiemarker um die erzeugte Gesamtenergie nach vorne. Der Rundenfortschritt bestimmt am Rundenende Einkommen, Bonuswertung und SP.\n- **Vertrag erfüllen:** Entspricht oder übersteigt die erzeugte Energie dem geforderten Wert eines eurer Verträge, dürft ihr **genau einen Vertrag** [[icon:wasserkraft:energie-mit-vertrag]] erfüllen und erhaltet sofort dessen Belohnung von der rechten Seite des Plättchens. Bei einer Produktionsaktion darf **genau ein** Vertrag erfüllt werden, nicht mehrere — und **jeder Vertrag kann nur einmal pro Spiel** erfüllt werden.\n- **Belohnungen** können sein: Siegpunkte [[icon:wasserkraft:siegpunkte]], Hydro [[icon:wasserkraft:hydro-erhalten]], Bagger [[icon:wasserkraft:bagger-erhalten]], Betonmischer [[icon:wasserkraft:betonmischer-erhalten]], Wasser [[icon:wasserkraft:wasser-platzieren]], Bauscheiben-Drehungen [[icon:wasserkraft:bauscheibe-drehen]], ein Bauteil eurer Wahl [[icon:wasserkraft:bauteil-bauen]], zusätzliche Energieschritte ohne Vertragserfüllung [[icon:wasserkraft:energie-ohne-vertrag]] oder ein kostenloses Rohrwerk mit Produktionswert 2 oder weniger [[icon:wasserkraft:rohrwerk-gratis-bauen]]. Alle Symbole sind im Modul „Symbol-Lexikon“ einzeln erklärt.",
+      "description": "",
+      "group": "konzepte",
+      "timing": [],
+      "tags": [
+        "Energieleiste",
+        "Verträge",
+        "Energieerzeugung",
+        "Anleitung S. 7"
+      ],
+      "aliases": [
+        "Aufträge",
+        "Vertragserfüllung"
+      ],
+      "warnings": [],
+      "sort_order": 20070,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 7
+      }
+    },
+    {
+      "id": "konzepte-regelheft-modus",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Struktur des Regelhefts (Einführung vs. Komplettes Spiel)",
+      "image": null,
+      "summary": "Das Regelwerk von Wasserkraft unterscheidet zwei Spielmodi:\n- **Einführungsspiel:** Vereinfachte Regeln für das erste Spiel, bei denen bestimmte Pläne und fortgeschrittene Elemente weggelassen werden.\n- **Komplettes Spiel:** Beinhaltet alle fortgeschrittenen Regeln. Diese stehen im Regelheft in **violett/magenta umrandeten Boxen** und werden in den fortgeschrittenen Abschnitten erklärt.",
+      "description": "",
+      "group": "konzepte",
+      "timing": [],
+      "tags": [
+        "Regeln",
+        "Modus",
+        "Regelstruktur",
+        "Anleitung S. 7"
+      ],
+      "aliases": [
+        "Einführungsspiel",
+        "Komplettes Spiel",
+        "Violette Boxen"
+      ],
+      "warnings": [],
+      "sort_order": 20080,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 7
+      }
+    },
+    {
+      "id": "aufbau-plaene",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Aufbau 1–2: Spielplan, Energieleiste & Managementplan",
+      "image": null,
+      "summary": "1. Legt den **Spielplan** in die Mitte des Tisches.\n2. Legt die **Energieleiste** und den **Managementplan** neben dem Spielplan aus.",
+      "description": "Der Spielplan ist doppelseitig. Die **Seite ohne Symbole** könnt ihr benutzen, wenn ihr alle das Spiel gut kennt.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Spielplan",
+        "Managementplan",
+        "Energieleiste",
+        "Anleitung S. 8"
+      ],
+      "aliases": [
+        "Vorbereitung",
+        "Pläne auslegen"
+      ],
+      "warnings": [],
+      "sort_order": 30010,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 8
+      }
+    },
+    {
+      "id": "aufbau-vorraete",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Aufbau 3–5: Allgemeine Vorräte",
+      "image": null,
+      "summary": "3. Bildet neben dem Spielplan einen allgemeinen Vorrat an **Maschinen** (Bagger [[icon:wasserkraft:bagger-erhalten]] und Betonmischer [[icon:wasserkraft:betonmischer-erhalten]]).\n4. Bildet neben dem Spielplan einen allgemeinen Vorrat an **Geld** (Hydro [[icon:wasserkraft:hydro-erhalten]]).\n5. Legt die **Wassereinheiten** ebenfalls als allgemeinen Vorrat bereit.",
+      "description": "",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Vorrat",
+        "Maschinen",
+        "Hydro",
+        "Wasser",
+        "Anleitung S. 8"
+      ],
+      "aliases": [
+        "Bagger",
+        "Betonmischer",
+        "Geld",
+        "Wassereinheiten"
+      ],
+      "warnings": [],
+      "sort_order": 30020,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 8
+      }
+    },
+    {
+      "id": "aufbau-quellen",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Aufbau 6: Quellenplättchen",
+      "image": null,
+      "summary": "6. Mischt die **Quellenplättchen** und legt zufällig **4 davon** auf die dafür vorgesehenen Felder oben auf dem Spielplan. Legt die restlichen Plättchen zurück in die Schachtel.",
+      "description": "Jede Quelle gibt für jede der ersten 4 Runden an, wie viele Wassereinheiten [[icon:wasserkraft:wasser-platzieren]] dort zu Rundenbeginn platziert werden.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Quellen",
+        "Anleitung S. 8"
+      ],
+      "aliases": [
+        "Quellenplättchen",
+        "Wasserquellen"
+      ],
+      "warnings": [],
+      "sort_order": 30030,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 8
+      }
+    },
+    {
+      "id": "aufbau-bonusplaettchen",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Aufbau 7: Bonusplättchen (Einführungsspiel)",
+      "image": null,
+      "summary": "7. Legt das im Regelheft **durchgestrichene Bonusplättchen** zurück in die Schachtel. Mischt die anderen und legt sie in zufälliger Reihenfolge offen auf die dafür vorgesehenen Felder der Energieleiste aus.",
+      "description": "",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Bonusplättchen",
+        "Anleitung S. 8",
+        "Nur Einführungsspiel"
+      ],
+      "aliases": [
+        "Bonuskacheln",
+        "Rundenbonus"
+      ],
+      "warnings": [],
+      "sort_order": 30040,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 8
+      }
+    },
+    {
+      "id": "aufbau-zielplaettchen",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Aufbau 8: Zielplättchen",
+      "image": null,
+      "summary": "8. Mischt die **Zielplättchen** und legt **1 zufälliges** Zielplättchen auf das dafür vorgesehene Feld am Ende der Energieleiste. Legt die restlichen Plättchen zurück in die Schachtel.",
+      "description": "",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Zielplättchen",
+        "Endwertung",
+        "Anleitung S. 8"
+      ],
+      "aliases": [
+        "Ziel",
+        "Schlusswertung"
+      ],
+      "warnings": [],
+      "sort_order": 30050,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 8
+      }
+    },
+    {
+      "id": "aufbau-vertraege",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Aufbau 9–10: Staatliche & private Verträge",
+      "image": null,
+      "summary": "9. Mischt die **staatlichen Vertragsplättchen**. Zieht zufällig **1 weniger als die Anzahl der Spieler** und legt diese Verträge offen auf die dafür vorgesehenen Felder des Managementplans. Legt die restlichen zurück in die Schachtel.\n10. Sortiert die **privaten Vertragsplättchen** nach den **Farben ihrer Rückseiten**. Mischt die 3 Stapel und legt sie verdeckt auf die dafür vorgesehenen Felder des Managementplans. Deckt anschließend von **jedem Stapel 2 Vertragsplättchen** daneben auf.",
+      "description": "Es liegen also immer 2 offene private Verträge je Farbe aus. Die Anzahl der staatlichen Verträge hängt an der Spielerzahl: bei 4 Spielern 3 Verträge, bei 3 Spielern 2, bei 2 Spielern 1.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Verträge",
+        "Managementplan",
+        "Anleitung S. 8"
+      ],
+      "aliases": [
+        "Staatliche Verträge",
+        "Private Verträge",
+        "Aufträge"
+      ],
+      "warnings": [],
+      "sort_order": 30060,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 8
+      }
+    },
+    {
+      "id": "aufbau-neutrale-staumauern",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Aufbau 11: Neutrale Staumauern",
+      "image": null,
+      "summary": "11. Sortiert die **Startaufstellungsplättchen** nach ihren Rückseiten und zieht **1 zufälliges Plättchen jeder Art**. Platziert die **neutralen Staumauern** auf den abgebildeten Feldern der jeweiligen Region:\n- **Berge:** 1 Staumauer der **Ausbaustufe 1** (nur Grundmauer)\n- **Hügel:** 1 Staumauer der **Ausbaustufe 2** (Grundmauer + 1 Erhöhung)\n- **Vorland:** 1 Staumauer der **Ausbaustufe 3** (Grundmauer + 2 Erhöhungen)\n\nLegt **1 Wassereinheit hinter jede** dieser Staumauern. Legt alle Startaufstellungsplättchen zurück in die Schachtel.",
+      "description": "Neutrale Staumauern gehören keinem Unternehmen. Sie können während des gesamten Spiels **nicht verändert** werden, aber alle Spieler dürfen das dahinter gestaute Wasser für ihre Energieproduktion nutzen.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Neutrale Staumauern",
+        "Startaufstellung",
+        "Anleitung S. 8"
+      ],
+      "aliases": [
+        "Startaufstellungsplättchen",
+        "Neutrale Bauteile",
+        "Damm"
+      ],
+      "warnings": [],
+      "sort_order": 30070,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 8
+      }
+    },
+    {
+      "id": "aufbau-patentamt",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Aufbau 12: Patentamt (Einführungsspiel)",
+      "image": null,
+      "summary": "12. Lasst den **Patentamtsplan** und alle **fortgeschrittenen Technologieplättchen** in der Schachtel. Für das Einführungsspiel benötigt ihr sie nicht.",
+      "description": "",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Patentamt",
+        "Anleitung S. 8",
+        "Nur Einführungsspiel"
+      ],
+      "aliases": [
+        "Technologieplättchen"
+      ],
+      "warnings": [],
+      "sort_order": 30080,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 8
+      }
+    },
+    {
+      "id": "aufbau-spieleranzahl",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Anpassung für 2 und 3 Spieler",
+      "image": null,
+      "summary": "Der abgebildete Aufbau gilt für eine Partie mit **4 Spielern**. Bei weniger Spielern werden Aktionsfelder mit **Arbeitern eines nicht genutzten Unternehmens** blockiert:\n- **3 Spieler:** Stellt Arbeiter des nicht genutzten Unternehmens auf **alle Aktionsfelder** (links und rechts) einer Spalte mit dem Symbol **„4\"**.\n- **2 Spieler:** Stellt entsprechend ungenutzte Arbeiter auf alle Aktionsfelder einer Spalte mit dem Symbol **„3\"** oder **„4\"**.",
+      "description": "Es gibt in Wasserkraft **keine Abdeckplättchen** — die Sperrung erfolgt ausschließlich über ungenutzte Arbeiter.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Aufbau",
+        "Spieleranzahl",
+        "Anleitung S. 9"
+      ],
+      "aliases": [
+        "2 Spieler",
+        "3 Spieler",
+        "Zu zweit",
+        "Zu dritt"
+      ],
+      "warnings": [],
+      "sort_order": 30090,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 9
+      }
+    },
+    {
+      "id": "aufbau-spielermaterial",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Spieleraufbau: Spielermaterial",
+      "image": null,
+      "summary": "Jeder von euch erhält das gesamte Spielermaterial in der Farbe seines Unternehmens sowie **1 Bauscheibe**, die ihr rechts neben euren Unternehmensplan legt:\n- **A.** 5 Grundmauern [[icon:wasserkraft:grundmauer-bauen]]\n- **B.** 5 Erhöhungen [[icon:wasserkraft:erhoehung-bauen]]\n- **C.** 5 Rohrwerke [[icon:wasserkraft:rohrwerk-bauen]]\n- **D.** 4 Turbinenhäuser [[icon:wasserkraft:turbinenhaus-bauen]]\n- **E.** 5 einfache Technologieplättchen\n- **F.** 1 Bauscheibe\n- **G.** 12 Arbeiter",
+      "description": "**Wohin kommt was?** Platziert alle eure **Bauteile** (Grundmauern, Erhöhungen, Rohrwerke, Turbinenhäuser) auf die dafür vorgesehenen Plätze auf eurem **Unternehmensplan**. Legt euer **Geld und eure Maschinen** auf die dafür vorgesehenen Plätze auf eurem **Chefingenieur**. Legt eure **Arbeiter, Technologieplättchen und euren Startvertrag** daneben bereit. Die Bauscheibe startet **leer**.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spieleraufbau",
+        "Material",
+        "Unternehmensplan",
+        "Anleitung S. 10"
+      ],
+      "aliases": [
+        "Tableau",
+        "Bauscheibe",
+        "Vorrat"
+      ],
+      "warnings": [],
+      "sort_order": 30100,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 10
+      }
+    },
+    {
+      "id": "aufbau-startressourcen",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Spieleraufbau: Startressourcen",
+      "image": null,
+      "summary": "Jeder von euch erhält **6 Hydro** [[icon:wasserkraft:hydro-erhalten]], **6 Bagger** [[icon:wasserkraft:bagger-erhalten]] und **4 Betonmischer** [[icon:wasserkraft:betonmischer-erhalten]].",
+      "description": "Diese Startausstattung ist für **alle Spieler gleich** — sie hängt weder vom gewählten Unternehmen noch vom Chefingenieur ab.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spieleraufbau",
+        "Startausstattung",
+        "Hydro",
+        "Maschinen",
+        "Anleitung S. 10"
+      ],
+      "aliases": [
+        "Startgeld",
+        "Startmaschinen"
+      ],
+      "warnings": [],
+      "sort_order": 30110,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 10
+      }
+    },
+    {
+      "id": "aufbau-spielerauswahl",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Spieleraufbau: Feste Zuordnung (Einführungsspiel)",
+      "image": null,
+      "summary": "Für das Einführungsspiel verteilt ihr Unternehmenspläne und Chefingenieure **fest nach dieser Tabelle**. Legt euren Chefingenieur **links** neben euren Unternehmensplan. Zusätzlich erhält jeder den in der Tabelle angegebenen **Startvertrag**:\n- **Unternehmen 1 – USA** (Marguerite Grant, Rot): Chefingenieur **Wilhelm Adler**, Startvertrag Wert **3**\n- **Unternehmen 2 – Deutschland** (Oberst Dassler, Schwarz): Chefingenieur **Jill McDowell**, Startvertrag Wert **3**\n- **Unternehmen 3 – Italien** (Enrico Olivi, Grün): Chefingenieur **Solomon P. Jordan**, Startvertrag Wert **2**\n- **Unternehmen 4 – Frankreich** (Joseph Fontaine, Weiß): Chefingenieur **Viktor Fiesler**, Startvertrag Wert **4**",
+      "description": "Die Tabelle ordnet nach **Unternehmen**, nicht nach Sitzposition — welcher Spieler welches Unternehmen nimmt, ist frei. Im Einführungsspiel behaltet ihr alle **5** einfachen Technologieplättchen, also inklusive des Jokers „?\" [[icon:wasserkraft:bauteil-bauen]].",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spieleraufbau",
+        "Zuordnungstabelle",
+        "Chefingenieur",
+        "Startvertrag",
+        "Anleitung S. 10",
+        "Nur Einführungsspiel"
+      ],
+      "aliases": [
+        "Startaufstellung",
+        "Einführungsspiel"
+      ],
+      "warnings": [],
+      "sort_order": 30120,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 10
+      }
+    },
+    {
+      "id": "aufbau-marker",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Spieleraufbau: Reihenfolge-, Energie- & Siegpunktmarker",
+      "image": null,
+      "summary": "5. Legt eure **Reihenfolgemarker** auf die dafür vorgesehenen Plätze links auf der Energieleiste. Das ist die **Spielreihenfolge**. Bei weniger als 4 Spielern nutzt ihr nur die Felder 1–2 bzw. 1–3.\n6. Legt eure **Energiemarker** auf das **Startfeld** der Energieleiste, mit der Seite „30\" **nach unten**.\n7. Legt eure **Siegpunktmarker** auf **Feld 10** der Siegpunktleiste, mit der Seite „100\" **nach unten**.",
+      "description": "Ihr startet also mit **10 Siegpunkten**, nicht mit 0. Die Rückseiten „30\" und „100\" braucht ihr erst, wenn ihr die jeweilige Leiste einmal komplett durchlaufen habt.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spieleraufbau",
+        "Marker",
+        "Spielreihenfolge",
+        "Energieleiste",
+        "Siegpunktleiste",
+        "Anleitung S. 11"
+      ],
+      "aliases": [
+        "Startspieler",
+        "Zugreihenfolge"
+      ],
+      "warnings": [],
+      "sort_order": 30130,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 11
+      }
+    },
+    {
+      "id": "rundenablauf-ueberblick",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Runden- und Phasenüberblick",
+      "image": null,
+      "summary": "Ein Spiel verläuft über **5 Runden**. Jede Runde gliedert sich in **5 Phasen**:\n1. **Phase 1: Einkommen und Quellwasser**\n2. **Phase 2: Aktionen**\n3. **Phase 3: Wasserfluss**\n4. **Phase 4: Wertung**\n5. **Phase 5: Ende der Runde**",
+      "description": "",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Ablauf",
+        "Runden",
+        "Phasen",
+        "Anleitung S. 12"
+      ],
+      "aliases": [
+        "Spielstruktur",
+        "Phasenübersicht"
+      ],
+      "warnings": [],
+      "sort_order": 40010,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 12
+      }
+    },
+    {
+      "id": "rundenablauf-phase1-einkommen",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Phase 1: Einkommen erhalten",
+      "image": null,
+      "summary": "Alle Spieler führen diesen Schritt gleichzeitig durch:\n- Jeder Spieler erhält das auf seinem Unternehmensplan freigeschaltete **Einkommen** (gekennzeichnet durch das Ausrufezeichen-Symbol `!`).\n- **Einkommen freischalten:** Einkommen wird freigelegt, indem Bauteile von links nach rechts vom Unternehmensplan auf den Spielplan gebaut werden:\n  - Bau des **2. Bauteils** einer Art (Grundmauer, Erhöhung, Rohrwerk): Schaltet das 1. Einkommen dieser Art frei.\n  - Bau des **4. Bauteils** einer Art: Schaltet das 2. Einkommen dieser Art frei.\n  - Bau des **5. Bauteils** einer Art: Schaltet ein Einkommen von **7 SP** [[icon:wasserkraft:siegpunkte]] frei (bei allen Unternehmen identisch).\n- Die Einkommen beim 2. und 4. Bauteil sind bei **allen Unternehmen unterschiedlich**; das Einkommen beim 5. Bauteil ist bei allen gleich.\n- Gebaute **Turbinenhäuser schalten kein Einkommen frei** — sie geben stattdessen einen dauerhaften Bonus bei der Energieproduktion (siehe *→ Turbinenhaus-Boni*).",
+      "description": "",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Einkommen",
+        "Phase 1",
+        "Unternehmensplan",
+        "Anleitung S. 12"
+      ],
+      "aliases": [
+        "Runden-Einkommen",
+        "Bautabelle"
+      ],
+      "warnings": [],
+      "sort_order": 40020,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 12
+      }
+    },
+    {
+      "id": "rundenablauf-phase1-quellwasser",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Phase 1: Quellwasser platzieren",
+      "image": null,
+      "summary": "In Phase 1 platziert ihr Wassereinheiten [[icon:wasserkraft:wasser-platzieren]] auf den Quellenplättchen am oberen Spielplanrand — **abhängig von der aktuellen Rundenzahl**:\n- Die gedruckten Zahlen auf den Quellenplättchen geben für die **Runden 1 bis 4** an, wie viele Wassereinheiten auf die jeweilige Quelle gelegt werden.\n- In der **5. und letzten Runde** werden in dieser Phase **keine Wassereinheiten** mehr auf die Quellen gelegt.\n- Das platzierte Wasser verbleibt zunächst auf den Quellen und bewegt sich erst in **Phase 3 (Wasserfluss)** flussabwärts.",
+      "description": "",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Quellwasser",
+        "Wasser",
+        "Phase 1",
+        "Anleitung S. 12"
+      ],
+      "aliases": [
+        "Quellen",
+        "Wassertropfen"
+      ],
+      "warnings": [],
+      "sort_order": 40030,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 12
+      }
+    },
+    {
+      "id": "aktionen-grundlagen",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Phase 2: Aktionsphase (Grundregeln)",
+      "image": null,
+      "summary": "In **Phase 2 (Aktionen)** führt ihr in Spielreihenfolge nacheinander jeweils **genau eine Aktion** durch.\n- Wenn ihr am Zug seid, **MÜSST** ihr Arbeiter auf **1 freies Aktionsfeld** einsetzen und die dortige Aktion nutzen.\n- Jedes Aktionsfeld benötigt **1–3 Arbeiter** (dargestellt durch Arbeitersymbole auf dem Feld) und erlaubt euch, 1 bestimmte Aktion durchzuführen.\n- Nehmt die benötigten Arbeiter aus eurem **persönlichen Vorrat**. Habt ihr nicht genügend Arbeiter (oder das zusätzlich nötige Geld), könnt ihr das Aktionsfeld nicht nutzen.\n- Nachdem ihr eure Aktion durchgeführt habt, ist der nächste Spieler an der Reihe.",
+      "description": "Aktionsfelder findet ihr **sowohl auf dem Managementplan als auch auf eurem Unternehmensplan**. Die Felder auf einem Unternehmensplan darf immer nur dessen Besitzer nutzen.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Aktionen",
+        "Arbeiter",
+        "Phase 2",
+        "Anleitung S. 12"
+      ],
+      "aliases": [
+        "Aktionsphase",
+        "Worker Placement",
+        "Zugreihenfolge"
+      ],
+      "warnings": [],
+      "sort_order": 50010,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 12
+      }
+    },
+    {
+      "id": "aktionen-extrakosten",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Aktionsfelder mit Extrakosten (roter Rahmen)",
+      "image": null,
+      "summary": "Um ein Aktionsfeld mit einem **roten Rahmen** zu nutzen, müsst ihr zuerst als Extrakosten **3 Hydro** [[icon:wasserkraft:hydro-zahlen]] zahlen, **bevor** ihr eure Arbeiter einsetzt.",
+      "description": "Ein roter Rahmen um ein **Aktionsfeld** ist etwas anderes als ein roter Rahmen um ein **Baufeld** auf dem Spielplan — beide kosten 3 Hydro, und beide können in derselben Bauaktion zusammentreffen. Dann zahlt ihr **beide** Beträge.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Aktionsfeld",
+        "Extrakosten",
+        "Hydro",
+        "Anleitung S. 12"
+      ],
+      "aliases": [
+        "Roter Rahmen",
+        "Zusatzkosten"
+      ],
+      "warnings": [],
+      "sort_order": 50020,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 12
+      }
+    },
+    {
+      "id": "aktionen-passen",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Reihum-Ablauf & Passen",
+      "image": null,
+      "summary": "Für den Ablauf der Aktionsphase gilt:\n- Es ist **nicht erlaubt**, Arbeiter einzusetzen, ohne die Aktion zu nutzen — weder weil ihr nicht könnt, noch weil ihr nicht wollt.\n- Kommt ihr an die Reihe und habt **keinen Arbeiter mehr** in eurem Vorrat, **passt ihr für den Rest der Phase**.\n- Sobald **alle Spieler gepasst haben**, endet die Aktionsphase.",
+      "description": "",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Aktionsphase",
+        "Passen",
+        "Zugende",
+        "Anleitung S. 12"
+      ],
+      "aliases": [
+        "Rundenende Phase 2",
+        "Aussetzen"
+      ],
+      "warnings": [],
+      "sort_order": 50030,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 12
+      }
+    },
+    {
+      "id": "aktionen-bauaktion-felder",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Die 4 Bau-Aktionsfelder",
+      "image": null,
+      "summary": "Auf eurem Unternehmensplan finden sich **4 Aktionsfelder**, die jeweils mit einer Bauaktion verbunden sind. Mit dieser Aktion dürft ihr jeweils **1 Bauteil** bauen.\n\nJeder Spieler darf nur die Aktionsfelder auf **seinem eigenen** Unternehmensplan nutzen (nicht die auf dem Plan eines Mitspielers). Die Kosten steigen von links nach rechts — je öfter ihr in einer Runde bauen wollt, desto mehr Arbeiter braucht ihr:\n- **1. Bauaktion:** 1 Arbeiter\n- **2. Bauaktion:** 2 Arbeiter\n- **3. Bauaktion:** 3 Arbeiter\n- **4. Bauaktion:** 3 Arbeiter **und** zusätzlich 3 Hydro [[icon:wasserkraft:hydro-zahlen]]",
+      "description": "",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Aktionen",
+        "Bauen",
+        "Unternehmensplan",
+        "Anleitung S. 13"
+      ],
+      "aliases": [
+        "Bauaktion",
+        "Aktionsfelder Bauen"
+      ],
+      "warnings": [],
+      "sort_order": 50040,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 13
+      }
+    },
+    {
+      "id": "aktionen-bauaktion-schritte",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Bauaktion: die 5 Schritte",
+      "image": null,
+      "summary": "Eine Bauaktion besteht aus den folgenden Schritten — **in dieser Reihenfolge**:\n1. **Setzt die benötigten Arbeiter** auf das **erste freie** Aktionsfeld auf eurem Unternehmensplan ein. Auf dem vierten Aktionsfeld zahlt ihr zusätzlich 3 Hydro.\n2. **Legt das entsprechende Technologieplättchen** [[icon:wasserkraft:technologie-auf-bauscheibe]] in das **obere Segment** eurer Bauscheibe. Nehmt dazu aus eurem Vorrat ein Plättchen, auf dem das gewünschte Bauteil abgebildet ist, oder das Jokerplättchen mit dem „?\" [[icon:wasserkraft:bauteil-bauen]]. Habt ihr kein passendes Plättchen mehr, könnt ihr dieses Bauteil **nicht** bauen.\n3. **Platziert die benötigten Maschinen** (Bagger [[icon:wasserkraft:bagger-auf-bauscheibe]] / Betonmischer [[icon:wasserkraft:betonmischer-auf-bauscheibe]]) in dasselbe **obere Segment**, unterhalb des Technologieplättchens. Habt ihr nicht alle nötigen Maschinen, könnt ihr dieses Bauteil **nicht** bauen.\n4. **Dreht eure Bauscheibe** [[icon:wasserkraft:bauscheibe-drehen]] um **einen Schritt** im Uhrzeigersinn, bis das nachfolgende Segment zum neuen oberen Segment wird.\n5. **Platziert das Bauteil auf dem Spielplan.** Nehmt das Bauteil, das sich am weitesten **links** auf eurem Unternehmensplan befindet, und setzt es auf ein passendes Baufeld (bzw. eine Erhöhung auf 1 eurer Grundmauern oder 1 andere eigene Erhöhung).",
+      "description": "**Zwei wichtige Zusätze:**\n- Platziert ihr eine **Grundmauer oder ein Turbinenhaus** auf ein Baufeld mit **roter Umrandung**, müsst ihr zusätzlich **3 Hydro** [[icon:wasserkraft:hydro-zahlen]] bezahlen.\n- Schaltet ihr beim Bau ein **Einkommen** frei, erhaltet ihr es **sofort** — und in jeder folgenden Einkommensphase erneut.\n\nBauteile kommen also sofort ins Spiel. Die Bauscheibe steht für die Zeit, in der die eingesetzten Ressourcen noch gebunden sind. Die Bauscheibe hat **6 Segmente**; mit „Bauscheibe drehen\" ist immer der **innere** Teil gemeint.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Aktionen",
+        "Bauen",
+        "Bauscheibe",
+        "Anleitung S. 13"
+      ],
+      "aliases": [
+        "Bauablauf",
+        "Bauteil platzieren"
+      ],
+      "warnings": [],
+      "sort_order": 50050,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 13
+      }
+    },
+    {
+      "id": "aktionen-kosten-grundmauer",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Baukosten: Grundmauer",
+      "image": null,
+      "summary": "Grundmauern [[icon:wasserkraft:grundmauer-bauen]] werden benötigt, um **Staumauern** zu errichten, die Wasser für die Energieproduktion sammeln. Sie können auf freien Baufeldern mit dem **Grundmauersymbol** gebaut werden.\n\n**Kosten (je nach Bereich):**\n- **Vorland:** 3 Bagger [[icon:wasserkraft:bagger-erhalten]]\n- **Hügel:** 4 Bagger\n- **Berge:** 5 Bagger",
+      "description": "- Auf einem Baufeld mit **rotem Rahmen** kosten sie zusätzlich **3 Hydro**.\n- Ihr dürft **nicht 2 Grundmauern derselben Farbe im selben Tal** bauen.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Baukosten",
+        "Grundmauer",
+        "Bagger",
+        "Anleitung S. 14"
+      ],
+      "aliases": [
+        "Damm",
+        "Staumauer",
+        "Kosten"
+      ],
+      "warnings": [],
+      "sort_order": 50060,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "aktionen-kosten-erhoehung",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Baukosten: Erhöhung",
+      "image": null,
+      "summary": "Erhöhungen [[icon:wasserkraft:erhoehung-bauen]] erhöhen die Menge an Wasser, die eine Staumauer sammeln kann. Sie können auf eine **eigene Grundmauer** oder **1 eigene bereits vorhandene Erhöhung** gebaut werden — es gibt **keine Baufelder** mit dem Symbol „Erhöhung\".\n\n**Kosten (je nach Bereich):**\n- **Vorland:** 2 Betonmischer [[icon:wasserkraft:betonmischer-erhalten]]\n- **Hügel:** 3 Betonmischer\n- **Berge:** 4 Betonmischer",
+      "description": "- Erhöhungen kosten **keine** zusätzlichen 3 Hydro, auch wenn die Grundmauer auf einem Baufeld mit rotem Rahmen steht.\n- Auf eine Grundmauer dürfen **maximal 2 Erhöhungen** gebaut werden — eine Staumauer hat also eine Ausbaustufe von **maximal 3**.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Baukosten",
+        "Erhöhung",
+        "Betonmischer",
+        "Anleitung S. 14"
+      ],
+      "aliases": [
+        "Ausbaustufe",
+        "Aufstocken",
+        "Kosten"
+      ],
+      "warnings": [],
+      "sort_order": 50070,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "aktionen-kosten-rohrwerk",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Baukosten: Rohrwerk",
+      "image": null,
+      "summary": "Rohrwerke [[icon:wasserkraft:rohrwerk-bauen]] werden zur Energieproduktion benötigt, um Wasser von der Staumauer zum Turbinenhaus zu bringen. Sie können auf freien Baufeldern mit dem **Rohrwerksymbol** gebaut werden.\n\n**Kosten:** 2 Bagger [[icon:wasserkraft:bagger-erhalten]] **multipliziert mit dem Produktionswert** [[icon:wasserkraft:rohrwerkswert]] des Rohrwerks.",
+      "description": "*Beispiel:* Ein Rohrwerk mit Produktionswert 4 kostet 8 Bagger. Ein Rohrwerk mit Produktionswert 2 kostet 4 Bagger.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Baukosten",
+        "Rohrwerk",
+        "Bagger",
+        "Anleitung S. 14"
+      ],
+      "aliases": [
+        "Leitung",
+        "Rohr",
+        "Kosten"
+      ],
+      "warnings": [],
+      "sort_order": 50080,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "aktionen-kosten-turbinenhaus",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Baukosten: Turbinenhaus",
+      "image": null,
+      "summary": "Turbinenhäuser [[icon:wasserkraft:turbinenhaus-bauen]] werden zur Energieproduktion benötigt und können auf freien Baufeldern mit dem **Turbinenhaussymbol** gebaut werden.\n\n**Kosten:** 2 Betonmischer [[icon:wasserkraft:betonmischer-erhalten]] **plus 1 weiteren Betonmischer für jedes Turbinenhaus, das ihr bereits gebaut habt**:\n- **1. Turbinenhaus:** 2 Betonmischer\n- **2. Turbinenhaus:** 3 Betonmischer\n- **3. Turbinenhaus:** 4 Betonmischer\n- **4. Turbinenhaus:** 5 Betonmischer",
+      "description": "- Auf einem Baufeld mit **rotem Rahmen** kosten sie zusätzlich **3 Hydro**.\n- **Kein Spieler** darf 2 Turbinenhäuser im selben Tal bauen.\n- Turbinenhäuser schalten **kein Einkommen** frei. Stattdessen geben sie einen dauerhaften Bonus bei der Energieproduktion (siehe *→ Turbinenhaus-Boni*).",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Baukosten",
+        "Turbinenhaus",
+        "Betonmischer",
+        "Anleitung S. 14"
+      ],
+      "aliases": [
+        "Kraftwerk",
+        "Turbine",
+        "Kosten"
+      ],
+      "warnings": [],
+      "sort_order": 50090,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "aktionen-turbinenhaus-bonus",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Turbinenhaus-Boni auf die Energieproduktion",
+      "image": null,
+      "summary": "Gebaute Turbinenhäuser [[icon:wasserkraft:turbinenhaus-bauen]] schalten **kein Einkommen** frei. Stattdessen geben sie euch **dauerhafte Boni** auf **jede** Energieproduktion:\n- Ab dem **2. Turbinenhaus:** permanent **+1** Energie bei jeder Energieproduktion.\n- Ab dem **4. Turbinenhaus:** zusätzlich permanent **+2** — insgesamt also **+3**.\n- Ab dem **3. Turbinenhaus** wird zusätzlich die **einzigartige Spezialfähigkeit eures Unternehmens** aktiviert (siehe Modul „Unternehmen\").",
+      "description": "",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Turbinenhaus",
+        "Energieproduktion",
+        "Bonus",
+        "Anleitung S. 12"
+      ],
+      "aliases": [
+        "Produktionsbonus",
+        "Dauerbonus"
+      ],
+      "warnings": [],
+      "sort_order": 50095,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 12
+      }
+    },
+    {
+      "id": "aktionen-bauscheibe-rueckkehr",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Maschinen, Geld & Technologieplättchen",
+      "image": null,
+      "summary": "- **Maschinen werden nicht ausgegeben, sondern gebunden:** Bagger und Betonmischer sind für eine Zeit lang auf eurer Bauscheibe **in Gebrauch** und werden wieder **verfügbar**, sobald sie **eine komplette Umdrehung** der Bauscheibe mitgemacht haben.\n- **Erhaltene Ressourcen kommen in den Vorrat:** Wenn ihr (egal wie) eine Ressource erhaltet, nehmt sie immer aus dem allgemeinen Vorrat in euren **persönlichen** Vorrat — **nicht** auf die Bauscheibe. Erhaltene Maschinen sind sofort verfügbar.\n- **Geld kommt nie auf die Bauscheibe:** Müsst ihr Geld bezahlen, legt es zurück in den allgemeinen Vorrat.\n- **Technologieplättchen:** Es gibt **5 Arten** — eine je Bauteil sowie ein **Jokerplättchen** [[icon:wasserkraft:bauteil-bauen]], mit dem ein beliebiges Bauteil gebaut werden kann. Sie bleiben so lange auf der Bauscheibe, bis sie eine komplette Umdrehung mitgemacht haben, und kommen dann zurück in den persönlichen Vorrat.",
+      "description": "Die Bauscheibe hat 6 Segmente, eine komplette Umdrehung sind also 6 Drehschritte. Ihr könnt sie über Bauaktionen, über die **Werkstatt** auf dem Managementplan sowie über Verträge und Einkommen weiterdrehen [[icon:wasserkraft:bauscheibe-drehen]].",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Bauscheibe",
+        "Maschinen",
+        "Technologien",
+        "Hydro",
+        "Anleitung S. 14"
+      ],
+      "aliases": [
+        "Drehrad",
+        "Rückkehr",
+        "Vorrat"
+      ],
+      "warnings": [],
+      "sort_order": 50100,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "management-uebersicht",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Der Managementplan",
+      "image": null,
+      "summary": "Platziert die benötigte Anzahl Arbeiter auf ein **freies Aktionsfeld eurer Wahl** auf dem Managementplan und führt sofort die dazugehörige Aktion aus. Die Aktionen stehen **euch allen** zur Verfügung.\n- Sobald ein Aktionsfeld genutzt wurde, gilt es in dieser Runde **für alle als belegt** — Ausnahme ist die *→ Bank*.\n- Jede Aktion hat **links und rechts je 1 Aktionsfeld**. Das rechte benötigt mehr Arbeiter oder zusätzliches Geld, gibt euch aber eine zweite Möglichkeit, dieselbe Aktion durchzuführen. Es ist erlaubt, dass **ein** Spieler beide Aktionsfelder derselben Aktion nutzt.\n- Erfordert eine Aktion die Zahlung von Geld, muss dieses **vor** dem Platzieren der Arbeiter bezahlt werden — ggf. zusammen mit den 3 Hydro [[icon:wasserkraft:hydro-zahlen]] für ein rot umrandetes Aktionsfeld.",
+      "description": "**Ein Aktionsfeld darf nicht genutzt werden, wenn ihr die Aktion nicht durchführen könnt!** Ähnliche bzw. gleiche Aktionen sind auf dem Managementplan jeweils zu einer Kategorie zusammengefasst.",
+      "group": "managementaktionen",
+      "timing": [],
+      "tags": [
+        "Managementaktionen",
+        "Aktionen",
+        "Managementplan",
+        "Anleitung S. 15"
+      ],
+      "aliases": [
+        "Managementplan",
+        "Gemeinsame Aktionen"
+      ],
+      "warnings": [],
+      "sort_order": 60010,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 15
+      }
+    },
+    {
+      "id": "management-kraftwerkssteuerung",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Kraftwerkssteuerung (Energieproduktion)",
+      "image": null,
+      "summary": "Die Aktionen dieser Kategorie erlauben euch, **Energie zu produzieren**. Dafür benötigt ihr:\n- Eine **eigene oder neutrale** Staumauer mit mindestens 1 Wassereinheit.\n- Ein **eigenes** Turbinenhaus auf dem Spielplan.\n- Ein **Rohrwerk** (egal welcher Farbe), welches die Staumauer direkt mit eurem Turbinenhaus verbindet (siehe *→ Voraussetzungen*).\n\n**Ablauf:** Nehmt eine Anzahl gestauter Wassereinheiten **eurer Wahl (1–3)** hinter einer Staumauer und bewegt sie durch ein Rohrwerk und das dahinterliegende farbige Rohr zu eurem Turbinenhaus. Ihr produziert sofort so viel Energie, wie **Anzahl der Wassereinheiten × Produktionswert** [[icon:wasserkraft:rohrwerkswert]] des Rohrwerks ergibt. Danach addiert bzw. subtrahiert ihr den **Bonus oder Malus des Aktionsfeldes** sowie eure *→ Turbinenhaus-Boni*.",
+      "description": "- Ihr müsst **nicht alle** Wassereinheiten bewegen, die die Staumauer staut — höchstens jedoch 3.\n- **Fremdes Rohrwerk:** Benutzt ihr das Rohrwerk eines Mitspielers, zahlt ihr ihm **1 Hydro je bewegter Wassereinheit** [[icon:wasserkraft:hydro-zahlen]]. Außerdem erhält der Mitspieler **1 Siegpunkt** [[icon:wasserkraft:siegpunkte]] pro Wassereinheit.\n- Ihr könnt die Aktion „Energieproduktion\" **nicht durchführen, wenn ihr weniger als 1 Energie produzieren würdet**.",
+      "group": "managementaktionen",
+      "timing": [],
+      "tags": [
+        "Energieproduktion",
+        "Kraftwerkssteuerung",
+        "Produktion",
+        "Anleitung S. 15"
+      ],
+      "aliases": [
+        "Strom erzeugen",
+        "Energie produzieren"
+      ],
+      "warnings": [],
+      "sort_order": 60020,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 15
+      }
+    },
+    {
+      "id": "management-produktion-ertrag",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Ertrag der Energieproduktion (Leiste & Verträge)",
+      "image": null,
+      "summary": "Jede Energieproduktion bringt euch zweierlei:\n- **Energieleiste:** Bewegt euren Marker um so viele Felder vorwärts, wie ihr Energie produziert habt. Produziert ihr **mehr als 30** Energie, dreht den Marker auf die „30\"-Seite und beginnt wieder am Anfang der Leiste. *(Für Effekte in der Wertungsphase gilt der Marker dann, als stünde er auf Feld 30.)*\n- **Vertrag erfüllen:** Habt ihr soeben **mindestens so viel Energie** produziert, wie der Wert auf einem Vertragsplättchen in eurem Vorrat angibt, dürft ihr diesen Vertrag erfüllen [[icon:wasserkraft:energie-mit-vertrag]]. Ihr erhaltet sofort alle Erträge auf der rechten Seite und dreht den Vertrag um. **Jeder Vertrag kann nur einmal erfüllt werden.**",
+      "description": "**Wichtige Einschränkungen:**\n- Es zählt **nur die Energie der gerade abgeschlossenen Aktion**, nicht die gesamte in dieser Runde produzierte Energie.\n- Mit **einer** Energieproduktion dürft ihr **genau einen** Vertrag erfüllen. Weder darf man 2 Produktionen addieren, um einen Vertrag zu erfüllen, noch mit einer Produktion mehrere Verträge.\n- Erhaltet ihr als Ertrag ein **Bauteil**, dürft ihr es sofort bauen; als Kosten zahlt ihr lediglich 3 Hydro, falls ihr eine Grundmauer oder ein Turbinenhaus auf ein rot umrandetes Baufeld setzt.\n\n**Staatliche Verträge:** Habt ihr soeben mindestens so viel Energie produziert, wie ein offenes **staatliches** Vertragsplättchen fordert, könnt ihr dieses **anstelle** eines eigenen Vertrags erfüllen. Offene staatliche Verträge könnt ihr **nicht reservieren** — sie bleiben auf dem Managementplan liegen, bis sie erfüllt werden.",
+      "group": "managementaktionen",
+      "timing": [],
+      "tags": [
+        "Energieleiste",
+        "Verträge",
+        "Produktion",
+        "Staatliche Verträge",
+        "Anleitung S. 16"
+      ],
+      "aliases": [
+        "Vertrag erfüllen",
+        "Energiemarker",
+        "Ertrag"
+      ],
+      "warnings": [],
+      "sort_order": 60030,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 16
+      }
+    },
+    {
+      "id": "management-wohin-wasser",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Wohin fließt das Wasser nach der Produktion?",
+      "image": null,
+      "summary": "Nach der Produktion fließen die genutzten Wassereinheiten vom **Turbinenhaus** weiter durch die folgenden Täler und Flüsse.\n- Treffen sie dabei wieder auf eine Staumauer, werden sie dort gestaut.\n- Enthält die Staumauer bereits Wasser **bis zu ihrer Ausbaustufe**, fließt das Wasser über sie hinweg und weiter bergab (siehe *→ Wasserfluss*).",
+      "description": "",
+      "group": "managementaktionen",
+      "timing": [],
+      "tags": [
+        "Wasser",
+        "Produktion",
+        "Wasserfluss",
+        "Anleitung S. 16"
+      ],
+      "aliases": [
+        "Ablauf Wasser",
+        "Nach der Produktion"
+      ],
+      "warnings": [],
+      "sort_order": 60040,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 16
+      }
+    },
+    {
+      "id": "management-wassermanagement",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Wassermanagement",
+      "image": null,
+      "summary": "Die Aktionen dieser Kategorie erlauben euch, **weiteres Wasser auf Quellen zu platzieren**. Es gibt zwei verschiedene Aktionen — der Unterschied liegt im **Zeitpunkt des Abfließens**:\n- **2 Wassereinheiten** [[icon:wasserkraft:wasser-platzieren]] auf 1 oder 2 Quellenplättchen. Dieses Wasser bewegt sich **erst in der Wasserflussphase** (Phase 3). Ihr dürft beide auf dasselbe Plättchen legen oder auf 2 verschiedene — und ihr dürft auch nur 1 Wassereinheit legen und auf die zweite verzichten.\n- **1 Wassereinheit** [[icon:wasserkraft:wasser-platzieren-sofort]] auf 1 Quellenplättchen. Diese Wassereinheit fließt **sofort** entsprechend den regulären Wasserflussregeln den Fluss hinab.",
+      "description": "- Auf welche Quelle ihr legt, dürft ihr euch in beiden Fällen **frei aussuchen**.\n- Die Anzahl der Wassereinheiten, die auf einer Quelle liegen können, ist **nicht begrenzt**.\n- Wassereinheiten können außerdem über Verträge und Einkommen ins Spiel kommen — und natürlich durch die Quellen selbst zu Rundenbeginn.",
+      "group": "managementaktionen",
+      "timing": [],
+      "tags": [
+        "Wasser",
+        "Wassermanagement",
+        "Quellen",
+        "Anleitung S. 17"
+      ],
+      "aliases": [
+        "Wasser platzieren",
+        "Tropfen",
+        "Quellenplättchen"
+      ],
+      "warnings": [],
+      "sort_order": 60050,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 17
+      }
+    },
+    {
+      "id": "management-bank",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Bank",
+      "image": null,
+      "summary": "Nehmt so viele Hydro [[icon:wasserkraft:hydro-erhalten]], wie ihr Arbeiter auf dieses Feld platziert.\n\nDas Aktionsfeld **Bank** funktioniert anders als alle anderen Aktionsfelder:\n- Als **1 Aktion** dürft ihr hier so viele Arbeiter **gleichzeitig** platzieren, wie ihr möchtet. Für jeden Arbeiter erhaltet ihr 1 Hydro.\n- Das Feld gilt **immer als frei**: Ihr dürft hier immer wieder Arbeiter platzieren, egal ob sich schon Arbeiter — eigene oder fremde — darauf befinden.",
+      "description": "Geld könnt ihr außerdem über Verträge, Einkommen oder in der Wertungsphase erhalten.",
+      "group": "managementaktionen",
+      "timing": [],
+      "tags": [
+        "Bank",
+        "Hydro",
+        "Geld",
+        "Anleitung S. 17"
+      ],
+      "aliases": [
+        "Geld nehmen",
+        "Einkommen"
+      ],
+      "warnings": [],
+      "sort_order": 60060,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 17
+      }
+    },
+    {
+      "id": "management-werkstatt",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Werkstatt (Bauscheibe drehen)",
+      "image": null,
+      "summary": "Dreht eure Bauscheibe [[icon:wasserkraft:bauscheibe-drehen]] um so viele Segmente weiter, wie es die Zahl auf der Aktion angibt. Sind auf der Aktion zusätzliche Kosten angegeben, müsst ihr diese bezahlen [[icon:wasserkraft:hydro-zahlen]].\n\n**Nach jeder Drehung** der Bauscheibe (im Uhrzeigersinn um jeweils 60°) nehmt ihr alle Maschinen und Technologieplättchen in euren Vorrat zurück, die sich im **neuen oberen Segment** befinden.",
+      "description": "Ihr könnt die Bauscheibe auch durch **Verträge oder Einkommen** weiterdrehen — nicht nur über die Werkstatt.",
+      "group": "managementaktionen",
+      "timing": [],
+      "tags": [
+        "Werkstatt",
+        "Bauscheibe",
+        "Drehen",
+        "Anleitung S. 17"
+      ],
+      "aliases": [
+        "Rad drehen",
+        "Maschinen zurückholen"
+      ],
+      "warnings": [],
+      "sort_order": 60070,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 17
+      }
+    },
+    {
+      "id": "management-maschinenausstellung",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Maschinenausstellung",
+      "image": null,
+      "summary": "Die Aktionen dieser Kategorie erlauben euch, **mehr Maschinen zu kaufen**.\n\nZahlt die Geldkosten [[icon:wasserkraft:hydro-zahlen]] auf der **linken** Seite der Aktion, um die Maschinen [[icon:wasserkraft:maschine-erhalten]] auf der **rechten** Seite zu erhalten. Nehmt sie aus dem allgemeinen Vorrat und legt sie in euren persönlichen Vorrat auf euren Chefingenieur.",
+      "description": "Maschinen könnt ihr auch durch Verträge oder Einkommen erhalten.",
+      "group": "managementaktionen",
+      "timing": [],
+      "tags": [
+        "Maschinen",
+        "Maschinenausstellung",
+        "Bagger",
+        "Betonmischer",
+        "Anleitung S. 18"
+      ],
+      "aliases": [
+        "Maschinen kaufen",
+        "Ressourcen kaufen"
+      ],
+      "warnings": [],
+      "sort_order": 60080,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 18
+      }
+    },
+    {
+      "id": "management-notariat",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Notariat (Verträge)",
+      "image": null,
+      "summary": "Die Aktionen dieser Kategorie erlauben euch, neue **private** Vertragsplättchen zu erhalten:\n- **Linkes Feld:** Nehmt 1 privates Vertragsplättchen.\n- **Rechtes Feld:** Zahlt 1 Hydro [[icon:wasserkraft:hydro-zahlen]] und nehmt 2 private Vertragsplättchen.\n\nSucht euch aus den **offen ausliegenden privaten** Verträgen (nicht den staatlichen) 1 bzw. 2 aus und legt sie offen neben euren Unternehmensplan. Deckt **am Ende eures Zugs** neue Verträge derselben Farbe auf, sodass wieder 2 Verträge jeder Farbe offen ausliegen.",
+      "description": "**Ihr dürft nie mehr als 3 offene Vertragsplättchen besitzen.** Habt ihr nach der Aktion mehr, müsst ihr entsprechend viele Plättchen eurer Wahl abwerfen (verdeckt unter den passenden Nachziehstapel). Bereits erfüllte, verdeckte Plättchen zählen dabei **nicht** mit.",
+      "group": "managementaktionen",
+      "timing": [],
+      "tags": [
+        "Notariat",
+        "Verträge",
+        "Anleitung S. 18"
+      ],
+      "aliases": [
+        "Aufträge",
+        "Private Verträge",
+        "Vertrag nehmen"
+      ],
+      "warnings": [],
+      "sort_order": 60090,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 18
+      }
+    },
+    {
+      "id": "wasserfluss-ablauf",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Wasserfluss (Ablauf)",
+      "image": null,
+      "summary": "In Phase 3 (Wasserfluss) fließen alle Wassereinheiten, die sich auf den Quellen befinden, nach den bekannten Regeln abwärts.\n- Die Wassereinheiten werden **einzeln und nacheinander** bewegt.\n- **Staumauern:** Staumauern stauen das Wasser bis zu ihrer jeweiligen Ausbaustufe.\n- **Überlaufen:** Ist eine Staumauer voll (oder es gibt keine), fließt das Wasser einfach über die Staumauer hinweg weiter abwärts in das nächste Tal.\n- **Spielplan verlassen:** Wassereinheiten, die nirgendwo gestaut werden können, verlassen am unteren Ende den Spielplan und kommen in den allgemeinen Vorrat zurück.\n- Die Phase endet, sobald alle Wassereinheiten von den Quellen bewegt wurden.",
+      "description": "",
+      "group": "wasserfluss",
+      "timing": [],
+      "tags": [
+        "Phase 3",
+        "Wasserfluss",
+        "Quellen",
+        "Anleitung S. 19"
+      ],
+      "aliases": [
+        "Abfluss",
+        "Wasser bewegen"
+      ],
+      "warnings": [],
+      "sort_order": 70010,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 19
+      }
+    },
+    {
+      "id": "wertung-hydro",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Einkommen aus der Energieleiste",
+      "image": null,
+      "summary": "Prüft die Zahl im letzten Hydro-Symbol auf der Energieleiste, das ihr mit eurem Energiemarker erreicht oder überschritten habt:\n- Ihr erhaltet **so viele Hydro** [[icon:wasserkraft:hydro-erhalten]], wie die Zahl angibt.\n- Habt ihr **mehr als 30 Energie** produziert, erhaltet ihr **8 Hydro** [[icon:wasserkraft:hydro-erhalten]].\n- Habt ihr in dieser Runde **keine Energie** produziert (Marker auf 0), erhaltet ihr **3 Hydro** [[icon:wasserkraft:hydro-erhalten]], verliert aber auch **3 SP** [[icon:wasserkraft:siegpunkte]] (siehe Symbol neben Feld 0).",
+      "description": "",
+      "group": "wertung",
+      "timing": [],
+      "tags": [
+        "Wertung",
+        "Einkommen",
+        "Energieleiste",
+        "Anleitung S. 20"
+      ],
+      "aliases": [
+        "Hydro erhalten",
+        "Strafe"
+      ],
+      "warnings": [],
+      "sort_order": 80010,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 20
+      }
+    },
+    {
+      "id": "wertung-mehrheiten",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Mehrheitenwertung (Meiste Energie)",
+      "image": null,
+      "summary": "Wer am meisten Energie produziert hat, wird belohnt (Voraussetzung: **mindestens 1 Energie** produziert!).\n- **1. Platz:** 6 SP [[icon:wasserkraft:siegpunkte]]\n- **2. Platz:** 2 SP [[icon:wasserkraft:siegpunkte]]\n- **Gleichstand Platz 1:** Addiert die SP (6 + 2 = 8) und teilt sie gleichmäßig auf die beteiligten Spieler auf (ggf. aufrunden). Für den zweiten Platz gibt es dann keine Punkte mehr.\n- **Gleichstand Platz 2:** Jedes beteiligte Unternehmen erhält 1 SP.",
+      "description": "",
+      "group": "wertung",
+      "timing": [],
+      "tags": [
+        "Wertung",
+        "Mehrheit",
+        "SP",
+        "Anleitung S. 20"
+      ],
+      "aliases": [
+        "Platz 1",
+        "Platz 2"
+      ],
+      "warnings": [],
+      "sort_order": 80020,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 20
+      }
+    },
+    {
+      "id": "wertung-bonusplaettchen",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Bonusplättchen der aktuellen Runde",
+      "image": null,
+      "summary": "Ihr erhaltet Siegpunkte für das aktuelle (am weitesten links liegende) Bonusplättchen, falls ihr dessen Bedingung erfüllt. Die Höhe der SP hängt von eurer Position auf der Energieleiste ab:\n- **Voller Bonus:** Befindet sich euer Marker **mindestens im Abschnitt der aktuellen Runde**, erhaltet ihr den vollen Bonus.\n- **Reduzierter Bonus:** Befindet sich euer Marker in einem früheren Abschnitt, erhaltet ihr den Bonus **abzüglich 4 SP pro Abschnitt**, den ihr zurückliegt. (SP können dadurch nie unter 0 fallen).\n- **Kein Bonus:** Befindet sich euer Marker nicht im ersten nummerierten Abschnitt (unter 6 Energie), erhaltet ihr **keine SP** für das Bonusplättchen.",
+      "description": "Nach der Wertung wird das gerade gewertete Bonusplättchen in die Schachtel zurückgelegt. Das darunter auftauchende Symbol erinnert euch in zukünftigen Runden an den Abzug von 4 SP für diesen Abschnitt.",
+      "group": "wertung",
+      "timing": [],
+      "tags": [
+        "Wertung",
+        "Bonusplättchen",
+        "SP",
+        "Anleitung S. 20"
+      ],
+      "aliases": [
+        "Rundenbonus",
+        "Abzug"
+      ],
+      "warnings": [],
+      "sort_order": 80030,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 20
+      }
+    },
+    {
+      "id": "ende-runde",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Phase 5: Ende der Runde",
+      "image": null,
+      "summary": "Führt am Ende jeder Runde folgende Schritte aus:\n1. **Neue Spielreihenfolge ermitteln:** Je **weniger** Energie ihr produziert habt, desto **eher** seid ihr in der nächsten Runde an der Reihe. Wer in der aktuellen Runde am wenigsten Energie produziert hat, wird neuer Startspieler usw. Haben mehrere dieselbe Menge produziert, **tauschen** diese Spieler ihre relativen Positionen.\n2. **Energiemarker zurücksetzen:** Bewegt alle Energiemarker zurück auf das Feld **„0\"** der Energieleiste. Dreht ggf. Marker von der Seite „30\" wieder auf die leere Seite.\n3. **Arbeiter zurücknehmen:** Nehmt alle eure Arbeiter von den Aktionsfeldern zurück in euren persönlichen Vorrat.",
+      "description": "**In der letzten Runde führt ihr diese Phase nicht mehr durch.** Das ist wichtig für die Gleichstandsregel bei Spielende — dort zählt die in der letzten Runde produzierte Energie.",
+      "group": "rundenende-spielende",
+      "timing": [],
+      "tags": [
+        "Rundenende",
+        "Reihenfolge",
+        "Aufräumen",
+        "Anleitung S. 21"
+      ],
+      "aliases": [
+        "Phase 5",
+        "Vorbereitung nächste Runde"
+      ],
+      "warnings": [],
+      "sort_order": 90010,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 21
+      }
+    },
+    {
+      "id": "ende-spiel",
+      "type": "reference",
+      "category": "regeln_einfuehrung",
+      "name": "Ende des Spiels & Endwertung",
+      "image": null,
+      "summary": "Das Spiel endet nach der Wertungsphase (Phase 4) der **fünften Runde**. Die Phase „Ende der Runde“ wird ausgelassen. Anschließend findet die Endwertung statt:\n- **Zielplättchen:** Wer die Bedingung auf dem Zielplättchen am besten erfüllt, erhält **15 SP** [[icon:wasserkraft:siegpunkte]]. Für den zweiten Platz gibt es 10 SP, für den dritten Platz 5 SP. Bei Gleichstand teilt ihr euch die Punkte der entsprechenden Ränge (ggf. wird aufgerundet).\n- **Ressourcen:** Für **je 5 Ressourcen** in eurem persönlichen Vorrat (Bagger [[icon:wasserkraft:bagger-erhalten]], Betonmischer [[icon:wasserkraft:betonmischer-erhalten]] und Hydro [[icon:wasserkraft:hydro-erhalten]] zusammengezählt) erhaltet ihr **1 SP**. Ressourcen auf eurer **Bauscheibe zählen nicht** mit.\n- **Wasser:** Für **jede Wassereinheit** hinter euren eigenen Staumauern erhaltet ihr **1 SP**.",
+      "description": "Wer nun die meisten Siegpunkte hat, gewinnt das Spiel! \nBei einem **Gleichstand** gewinnt von den beteiligten Spielern, wer in der letzten Runde am meisten Energie produziert hat.",
+      "group": "rundenende-spielende",
+      "timing": [],
+      "tags": [
+        "Spielende",
+        "Endwertung",
+        "Zielplättchen",
+        "Anleitung S. 21"
+      ],
+      "aliases": [
+        "Sieger",
+        "Ressourcenpunkte"
+      ],
+      "warnings": [],
+      "sort_order": 90020,
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 21
+      }
+    }
+  ]
+}

@@ -140,5 +140,16 @@
       "enabled": true,
       "manifest": "/data/games/scythe/manifest.json"
     }
+  },
+  {
+    "key": "wasserkraft",
+    "name": "Wasserkraft",
+    "publisher": "Feuerland Verlag / Cranio Creations",
+    "badge": "Expertenspiel",
+    "players": "1–4 Spieler",
+    "wiki": {
+      "enabled": true,
+      "manifest": "/data/games/wasserkraft/manifest.json"
+    }
   }
 ]

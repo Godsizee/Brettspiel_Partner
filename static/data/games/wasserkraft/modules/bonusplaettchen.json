@@ -1,0 +1,151 @@
+{
+  "groups": [],
+  "entries": [
+    {
+      "id": "bonus-vertrag",
+      "type": "reference",
+      "category": "bonusplaettchen",
+      "name": "Bonusplättchen: Verträge",
+      "image": null,
+      "summary": "Erhaltet 2 SP [[icon:wasserkraft:siegpunkte]] für jeden Vertrag, den ihr bisher erfüllt habt (der verdeckt vor euch liegt).",
+      "description": "Es zählen sowohl private als auch staatliche Verträge.",
+      "timing": [],
+      "tags": [
+        "Bonusplättchen",
+        "Vertrag",
+        "Anleitung S. 26"
+      ],
+      "aliases": [
+        "Bonus",
+        "Verträge"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 26
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "bonus-grundmauer",
+      "type": "reference",
+      "category": "bonusplaettchen",
+      "name": "Bonusplättchen: Grundmauer",
+      "image": null,
+      "summary": "Erhaltet 4 SP [[icon:wasserkraft:siegpunkte]] für jede Grundmauer, die ihr bisher gebaut habt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "Bonusplättchen",
+        "Grundmauer",
+        "Anleitung S. 26"
+      ],
+      "aliases": [
+        "Bonus"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 26
+      },
+      "sort_order": 20
+    },
+    {
+      "id": "bonus-erhoehung",
+      "type": "reference",
+      "category": "bonusplaettchen",
+      "name": "Bonusplättchen: Erhöhung",
+      "image": null,
+      "summary": "Erhaltet 4 SP [[icon:wasserkraft:siegpunkte]] für jede Erhöhung, die ihr bisher gebaut habt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "Bonusplättchen",
+        "Erhöhung",
+        "Anleitung S. 26"
+      ],
+      "aliases": [
+        "Bonus"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 26
+      },
+      "sort_order": 30
+    },
+    {
+      "id": "bonus-turbinenhaus",
+      "type": "reference",
+      "category": "bonusplaettchen",
+      "name": "Bonusplättchen: Turbinenhaus",
+      "image": null,
+      "summary": "Erhaltet 5 SP [[icon:wasserkraft:siegpunkte]] für jedes Turbinenhaus, das ihr bisher gebaut habt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "Bonusplättchen",
+        "Turbinenhaus",
+        "Anleitung S. 26"
+      ],
+      "aliases": [
+        "Bonus"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 26
+      },
+      "sort_order": 40
+    },
+    {
+      "id": "bonus-rohrwerk",
+      "type": "reference",
+      "category": "bonusplaettchen",
+      "name": "Bonusplättchen: Rohrwerk",
+      "image": null,
+      "summary": "Erhaltet 4 SP [[icon:wasserkraft:siegpunkte]] für jedes Rohrwerk, das ihr bisher gebaut habt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "Bonusplättchen",
+        "Rohrwerk",
+        "Anleitung S. 26"
+      ],
+      "aliases": [
+        "Bonus"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 26
+      },
+      "sort_order": 50
+    },
+    {
+      "id": "bonus-technologie",
+      "type": "reference",
+      "category": "bonusplaettchen",
+      "name": "Bonusplättchen: Technologie",
+      "image": null,
+      "summary": "Erhaltet 4 SP [[icon:wasserkraft:siegpunkte]] für jedes fortgeschrittene Technologieplättchen, das ihr besitzt.",
+      "description": "Egal ob in eurem Vorrat oder auf der Bauscheibe.",
+      "timing": [],
+      "tags": [
+        "Bonusplättchen",
+        "Technologie",
+        "Anleitung S. 26"
+      ],
+      "aliases": [
+        "Bonus",
+        "Technologieplättchen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 26
+      },
+      "sort_order": 60
+    }
+  ]
+}

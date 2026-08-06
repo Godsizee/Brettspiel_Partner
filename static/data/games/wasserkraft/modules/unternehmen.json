@@ -1,0 +1,136 @@
+{
+  "groups": [
+    {
+      "id": "unternehmen",
+      "title": "Die 4 Unternehmen",
+      "order": 10,
+      "description": "Das Einkommen für den Bau gewisser Bauteile ist auf allen Unternehmensplänen **unterschiedlich**. Außerdem hat jedes Unternehmen eine **einzigartige Spezialfähigkeit**, die erst aktiviert wird, sobald ihr euer **drittes Turbinenhaus** gebaut habt.\n\nUnabhängig davon geben Turbinenhäuser dauerhafte Produktionsboni: ab dem **2. Turbinenhaus +1** Energie bei jeder Energieproduktion, ab dem **4. Turbinenhaus** zusätzlich **+2** — insgesamt also **+3**."
+    }
+  ],
+  "entries": [
+    {
+      "id": "usa",
+      "type": "reference",
+      "category": "unternehmen",
+      "name": "USA (Rot)",
+      "image": null,
+      "summary": "**Spezialfähigkeit (ab 3. Turbinenhaus):** Immer wenn 1 Wassereinheit durch natürlichen Wasserfluss durch 1 deiner Turbinenhäuser fließt, egal in welcher Phase, bewege deinen Energiemarker 1 Feld vorwärts.",
+      "description": "Wasser, das bei einer Aktion „Energieproduktion“ durch ein Rohrwerk zu deinem Turbinenhaus oder einem anderen Turbinenhaus im selben Tal fließt, löst die Sonderfähigkeit nicht aus.",
+      "group": "unternehmen",
+      "timing": [],
+      "tags": [
+        "Unternehmen",
+        "Rot",
+        "USA",
+        "Marguerite Grant",
+        "Anleitung S. 23"
+      ],
+      "aliases": [
+        "Marguerite Grant",
+        "Rot"
+      ],
+      "warnings": [
+        "**Hinweis für alle Unternehmen:** Die einzigartige Spezialfähigkeit wird erst aktiviert, wenn ihr euer drittes Turbinenhaus gebaut habt.",
+        "Ab dem 2. Turbinenhaus gibt es permanent +1 bei jeder Energieproduktion, ab dem 4. nochmals +2, insgesamt also +3."
+      ],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 23
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "deutschland",
+      "type": "reference",
+      "category": "unternehmen",
+      "name": "Deutschland (Schwarz)",
+      "image": null,
+      "summary": "**Spezialfähigkeit (ab 3. Turbinenhaus):** Nach jeder Aktion „Energieproduktion“ darfst du eine zweite Energieproduktion mit einem anderen Turbinenhaus durchführen.",
+      "description": "Ignoriere dabei alle Boni und Mali, z. B. von deinem Unternehmensplan oder dem Managementplan. Es zählt allein die Anzahl Wassereinheiten multipliziert mit dem Wert des Rohrwerks. Du darfst die beiden Produktionen nicht zusammenzählen, um 1 Vertrag zu erfüllen (aber du darfst mit jeder Produktion 1 Vertrag erfüllen).",
+      "group": "unternehmen",
+      "timing": [],
+      "tags": [
+        "Unternehmen",
+        "Schwarz",
+        "Deutschland",
+        "Oberst Dassler",
+        "Anleitung S. 23"
+      ],
+      "aliases": [
+        "Oberst Dassler",
+        "Schwarz"
+      ],
+      "warnings": [
+        "**Hinweis für alle Unternehmen:** Die einzigartige Spezialfähigkeit wird erst aktiviert, wenn ihr euer drittes Turbinenhaus gebaut habt.",
+        "Ab dem 2. Turbinenhaus gibt es permanent +1 bei jeder Energieproduktion, ab dem 4. nochmals +2, insgesamt also +3."
+      ],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 23
+      },
+      "sort_order": 20
+    },
+    {
+      "id": "italien",
+      "type": "reference",
+      "category": "unternehmen",
+      "name": "Italien (Grün)",
+      "image": null,
+      "summary": "**Spezialfähigkeit (ab 3. Turbinenhaus):** Nach jeder Aktion „Energieproduktion“ darfst du deinen Energiemarker 3 weitere Felder [[icon:wasserkraft:energie-ohne-vertrag]] vorwärts bewegen.",
+      "description": "Mit dieser zusätzlichen Energie darfst du keine Verträge [[icon:wasserkraft:energie-ohne-vertrag]] erfüllen.",
+      "group": "unternehmen",
+      "timing": [],
+      "tags": [
+        "Unternehmen",
+        "Grün",
+        "Italien",
+        "Enrico Olivi",
+        "Anleitung S. 23"
+      ],
+      "aliases": [
+        "Enrico Olivi",
+        "Grün"
+      ],
+      "warnings": [
+        "**Hinweis für alle Unternehmen:** Die einzigartige Spezialfähigkeit wird erst aktiviert, wenn ihr euer drittes Turbinenhaus gebaut habt.",
+        "Ab dem 2. Turbinenhaus gibt es permanent +1 bei jeder Energieproduktion, ab dem 4. nochmals +2, insgesamt also +3."
+      ],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 23
+      },
+      "sort_order": 30
+    },
+    {
+      "id": "frankreich",
+      "type": "reference",
+      "category": "unternehmen",
+      "name": "Frankreich (Weiß)",
+      "image": null,
+      "summary": "**Spezialfähigkeit (ab 3. Turbinenhaus):** Du kannst jeden Vertrag (auch staatliche Verträge) mit 3 produzierten Energie weniger erfüllen als benötigt.",
+      "description": "",
+      "group": "unternehmen",
+      "timing": [],
+      "tags": [
+        "Unternehmen",
+        "Weiß",
+        "Frankreich",
+        "Joseph Fontaine",
+        "Anleitung S. 23"
+      ],
+      "aliases": [
+        "Joseph Fontaine",
+        "Weiß"
+      ],
+      "warnings": [
+        "**Hinweis für alle Unternehmen:** Die einzigartige Spezialfähigkeit wird erst aktiviert, wenn ihr euer drittes Turbinenhaus gebaut habt.",
+        "Ab dem 2. Turbinenhaus gibt es permanent +1 bei jeder Energieproduktion, ab dem 4. nochmals +2, insgesamt also +3."
+      ],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 23
+      },
+      "sort_order": 40
+    }
+  ]
+}

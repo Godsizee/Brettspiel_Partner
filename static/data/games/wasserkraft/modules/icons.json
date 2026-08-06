@@ -1,0 +1,472 @@
+{
+  "groups": [
+    {
+      "id": "ressourcen",
+      "title": "Ressourcen & Währung",
+      "order": 10
+    },
+    {
+      "id": "energie-punkte",
+      "title": "Energie & Siegpunkte",
+      "order": 20
+    },
+    {
+      "id": "bauen",
+      "title": "Bauteile platzieren",
+      "order": 30
+    },
+    {
+      "id": "bauscheibe",
+      "title": "Bauscheibe",
+      "order": 40
+    },
+    {
+      "id": "wasser",
+      "title": "Wasser",
+      "order": 50
+    }
+  ],
+  "entries": [
+    {
+      "id": "hydro-erhalten",
+      "type": "reference",
+      "category": "icons",
+      "name": "Hydro erhalten",
+      "image": "/images/wasserkraft/icons/icon-hydro-erhalten.png",
+      "summary": "Erhaltet die angegebene Anzahl Hydro aus dem allgemeinen Vorrat",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 1
+    },
+    {
+      "id": "hydro-zahlen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Hydro zahlen",
+      "image": "/images/wasserkraft/icons/icon-hydro-zahlen.png",
+      "summary": "Zahlt die angegebene Anzahl Hydro in den allgemeinen Vorrat",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 2
+    },
+    {
+      "id": "siegpunkte",
+      "type": "reference",
+      "category": "icons",
+      "name": "Siegpunkte",
+      "image": "/images/wasserkraft/icons/icon-siegpunkte.png",
+      "summary": "Erhaltet die angegebene Anzahl SP",
+      "description": "",
+      "group": "energie-punkte",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 3
+    },
+    {
+      "id": "bagger-erhalten",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bagger erhalten",
+      "image": "/images/wasserkraft/icons/icon-bagger-erhalten.png",
+      "summary": "Erhaltet die angegebene Anzahl Bagger",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 4
+    },
+    {
+      "id": "betonmischer-erhalten",
+      "type": "reference",
+      "category": "icons",
+      "name": "Betonmischer erhalten",
+      "image": "/images/wasserkraft/icons/icon-betonmischer-erhalten.png",
+      "summary": "Erhaltet die angegebene Anzahl Betonmischer",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 5
+    },
+    {
+      "id": "maschine-erhalten",
+      "type": "reference",
+      "category": "icons",
+      "name": "Maschinen erhalten",
+      "image": "/images/wasserkraft/icons/icon-maschine-erhalten.png",
+      "summary": "Erhaltet Maschinen (je frei Bagger **oder** Betonmischer)",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 6
+    },
+    {
+      "id": "energie-ohne-vertrag",
+      "type": "reference",
+      "category": "icons",
+      "name": "Energie (ohne Vertrag)",
+      "image": "/images/wasserkraft/icons/icon-energie-ohne-vertrag.png",
+      "summary": "Energiemarker vorwärts — **kein** Vertrag erfüllbar",
+      "description": "",
+      "group": "energie-punkte",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 7
+    },
+    {
+      "id": "energie-mit-vertrag",
+      "type": "reference",
+      "category": "icons",
+      "name": "Energie (mit Vertrag)",
+      "image": "/images/wasserkraft/icons/icon-energie-mit-vertrag.png",
+      "summary": "Energiemarker vorwärts — **genau 1** Vertrag erfüllbar",
+      "description": "",
+      "group": "energie-punkte",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 8
+    },
+    {
+      "id": "wasser-platzieren",
+      "type": "reference",
+      "category": "icons",
+      "name": "Wasser platzieren",
+      "image": "/images/wasserkraft/icons/icon-wasser-platzieren.png",
+      "summary": "Wasser auf Quellen — fließt in der nächsten Wasserflussphase",
+      "description": "",
+      "group": "wasser",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 9
+    },
+    {
+      "id": "wasser-platzieren-sofort",
+      "type": "reference",
+      "category": "icons",
+      "name": "Wasser sofort platzieren",
+      "image": "/images/wasserkraft/icons/icon-wasser-platzieren-sofort.png",
+      "summary": "Wasser auf Quellen — fließt **sofort**",
+      "description": "",
+      "group": "wasser",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "bauscheibe-drehen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bauscheibe drehen",
+      "image": "/images/wasserkraft/icons/icon-bauscheibe-drehen.png",
+      "summary": "Bauscheibe um X Segmente drehen",
+      "description": "",
+      "group": "bauscheibe",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 11
+    },
+    {
+      "id": "grundmauer-bauen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Grundmauer bauen",
+      "image": "/images/wasserkraft/icons/icon-grundmauer-bauen.png",
+      "summary": "1 Grundmauer platzieren",
+      "description": "",
+      "group": "bauen",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 12
+    },
+    {
+      "id": "erhoehung-bauen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Erhöhung bauen",
+      "image": "/images/wasserkraft/icons/icon-erhoehung-bauen.png",
+      "summary": "1 Erhöhung platzieren",
+      "description": "",
+      "group": "bauen",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 13
+    },
+    {
+      "id": "rohrwerk-bauen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Rohrwerk bauen",
+      "image": "/images/wasserkraft/icons/icon-rohrwerk-bauen.png",
+      "summary": "1 Rohrwerk platzieren",
+      "description": "",
+      "group": "bauen",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 14
+    },
+    {
+      "id": "turbinenhaus-bauen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Turbinenhaus bauen",
+      "image": "/images/wasserkraft/icons/icon-turbinenhaus-bauen.png",
+      "summary": "1 Turbinenhaus platzieren",
+      "description": "",
+      "group": "bauen",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 15
+    },
+    {
+      "id": "bauteil-bauen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Beliebiges Bauteil bauen",
+      "image": "/images/wasserkraft/icons/icon-bauteil-bauen.png",
+      "summary": "1 Bauteil **eurer Wahl** platzieren",
+      "description": "",
+      "group": "bauen",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 16
+    },
+    {
+      "id": "betonmischer-auf-bauscheibe",
+      "type": "reference",
+      "category": "icons",
+      "name": "Betonmischer auf Bauscheibe",
+      "image": "/images/wasserkraft/icons/icon-betonmischer-auf-bauscheibe.png",
+      "summary": "Betonmischer ins obere Segment der Bauscheibe",
+      "description": "",
+      "group": "bauscheibe",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 17
+    },
+    {
+      "id": "bagger-auf-bauscheibe",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bagger auf Bauscheibe",
+      "image": "/images/wasserkraft/icons/icon-bagger-auf-bauscheibe.png",
+      "summary": "Bagger ins obere Segment der Bauscheibe",
+      "description": "",
+      "group": "bauscheibe",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 18
+    },
+    {
+      "id": "technologie-auf-bauscheibe",
+      "type": "reference",
+      "category": "icons",
+      "name": "Technologie auf Bauscheibe",
+      "image": "/images/wasserkraft/icons/icon-technologie-auf-bauscheibe.png",
+      "summary": "Technologieplättchen ins obere Segment der Bauscheibe",
+      "description": "",
+      "group": "bauscheibe",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 19
+    },
+    {
+      "id": "rohrwerkswert",
+      "type": "reference",
+      "category": "icons",
+      "name": "Rohrwerkswert",
+      "image": "/images/wasserkraft/icons/icon-rohrwerkswert.png",
+      "summary": "Produktionswert eines Rohrwerks",
+      "description": "",
+      "group": "energie-punkte",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 20
+    },
+    {
+      "id": "rohrwerk-gratis-bauen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Rohrwerk gratis bauen",
+      "image": "/images/wasserkraft/icons/icon-rohrwerk-gratis-bauen.png",
+      "summary": "Rohrwerk mit Wert ≤ 2 ohne Arbeiter/Maschinen/Technologie bauen",
+      "description": "",
+      "group": "bauen",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 22
+      },
+      "sort_order": 21
+    }
+  ]
+}

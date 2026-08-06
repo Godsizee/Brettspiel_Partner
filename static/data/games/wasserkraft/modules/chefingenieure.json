@@ -1,0 +1,171 @@
+{
+  "groups": [],
+  "entries": [
+    {
+      "id": "wilhelm-adler",
+      "type": "reference",
+      "category": "chefingenieure",
+      "name": "Wilhelm Adler",
+      "image": null,
+      "summary": "**Deine Grundmauern kosten immer 3 Bagger**, egal in welchem Bereich du sie baust.",
+      "description": "Die Kosten deiner Erhöhungen richten sich weiterhin unverändert nach dem Bereich, in dem du sie baust.",
+      "timing": [],
+      "tags": [
+        "Chefingenieur",
+        "Anleitung S. 24"
+      ],
+      "aliases": [
+        "Adler"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 24
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "graziano-del-monte",
+      "type": "reference",
+      "category": "chefingenieure",
+      "name": "Graziano Del Monte",
+      "image": null,
+      "summary": "**Deine Staumauern mit Ausbaustufe 3 können bis zu 4 Wassereinheiten stauen.**",
+      "description": "Mit Staumauern der Ausbaustufe 1 oder 2 kannst du weiterhin unverändert 1 oder 2 Wassereinheiten stauen.",
+      "timing": [],
+      "tags": [
+        "Chefingenieur",
+        "Anleitung S. 24"
+      ],
+      "aliases": [
+        "Del Monte",
+        "Graziano"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 24
+      },
+      "sort_order": 20
+    },
+    {
+      "id": "viktor-fiesler",
+      "type": "reference",
+      "category": "chefingenieure",
+      "name": "Viktor Fiesler",
+      "image": null,
+      "summary": "**Würdest du weniger als 4 Energie produzieren, produzierst du stattdessen 4 Energie, vor Boni und Mali.**",
+      "description": "Wenn das Ergebnis aus Anzahl Wassereinheiten mal Wert des Rohrwerks weniger als 4 beträgt, ändere den Wert auf 4. Dazu kommen danach Boni oder Mali vom Aktionsfeld oder deinem Unternehmensplan.",
+      "timing": [],
+      "tags": [
+        "Chefingenieur",
+        "Anleitung S. 24"
+      ],
+      "aliases": [
+        "Fiesler"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 24
+      },
+      "sort_order": 30
+    },
+    {
+      "id": "jill-mcdowell",
+      "type": "reference",
+      "category": "chefingenieure",
+      "name": "Jill McDowell",
+      "image": null,
+      "summary": "**Du darfst Rohrwerke auch mit Betonmischern bezahlen.**",
+      "description": "Wenn du das tust, zahle so viele Betonmischer wie es dem Wert des Rohrwerks entspricht. Du darfst Bagger und Betonmischer bei der Bezahlung nicht kombinieren.",
+      "timing": [],
+      "tags": [
+        "Chefingenieur",
+        "Anleitung S. 24"
+      ],
+      "aliases": [
+        "McDowell",
+        "Jill"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 24
+      },
+      "sort_order": 40
+    },
+    {
+      "id": "solomon-p-jordan",
+      "type": "reference",
+      "category": "chefingenieure",
+      "name": "Solomon P. Jordan",
+      "image": null,
+      "summary": "**Du darfst beim Bau eines Bauteils anstelle einer Maschine 3 Hydro bezahlen.**",
+      "description": "Du darfst beliebig viele Maschinen durch Geld ersetzen. Lege die Hydro zurück in den allgemeinen Vorrat, nicht auf die Bauscheibe.",
+      "timing": [],
+      "tags": [
+        "Chefingenieur",
+        "Anleitung S. 24"
+      ],
+      "aliases": [
+        "Jordan",
+        "Solomon"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 24
+      },
+      "sort_order": 50
+    },
+    {
+      "id": "anton-krylov",
+      "type": "reference",
+      "category": "chefingenieure",
+      "name": "Anton Krylov",
+      "image": null,
+      "summary": "**Sondertechnologieplättchen:** Wenn du dieses Technologieplättchen benutzt, kopiere damit 1 beliebiges anderes Technologieplättchen auf deiner Bauscheibe.",
+      "description": "Nimm dir zu Spielbeginn das abgebildete Sondertechnologieplättchen. Du kopierst damit die Art des Bauteils und ggf. auch die Sonderfähigkeit.",
+      "timing": [],
+      "tags": [
+        "Chefingenieur",
+        "Anleitung S. 24"
+      ],
+      "aliases": [
+        "Krylov",
+        "Anton"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 24
+      },
+      "sort_order": 60
+    },
+    {
+      "id": "mahiri-sekibo",
+      "type": "reference",
+      "category": "chefingenieure",
+      "name": "Mahiri Sekibo",
+      "image": null,
+      "summary": "**Du hast 2 Sonderaktionsfelder. Wenn du die Aktion nutzt, darfst du sofort eine weitere Aktion durchführen und in dieser Aktion die Fähigkeit 1 anderen Chefingenieurs kopieren.**",
+      "description": "Jedes der Felder benötigt 1 Arbeiter. Das zweite Feld kostet zusätzlich 3 Hydro.\n\n**Spezifische Kopier-Klarstellungen:**\n- **Anton Krylov:** Du darfst 1 Technologieplättchen auf deiner Bauscheibe kopieren. Baue, ohne ein Technologieplättchen in das obere Segment deiner Bauscheibe zu platzieren. Platziere ganz normal die benötigten Maschinen.\n- **Graziano del Monte:** Die Fähigkeit, 4 Wasser zu stauen, gilt für deine weitere Aktion und danach so lange, bis du mit den zusätzlichen Wassereinheiten Energie produzierst.",
+      "timing": [],
+      "tags": [
+        "Chefingenieur",
+        "Anleitung S. 24"
+      ],
+      "aliases": [
+        "Sekibo",
+        "Mahiri"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 24
+      },
+      "sort_order": 70
+    }
+  ]
+}

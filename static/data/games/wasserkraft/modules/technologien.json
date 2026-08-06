@@ -1,0 +1,548 @@
+{
+  "groups": [
+    {
+      "id": "einfach",
+      "title": "Einfache Technologieplättchen (Startausstattung)",
+      "order": 10,
+      "description": "5 Plättchen pro Unternehmen, ohne Sonderfähigkeit. Im kompletten Spiel entfällt der Joker „?“."
+    },
+    {
+      "id": "stufe-i",
+      "title": "Fortgeschritten – Stufe I",
+      "order": 20
+    },
+    {
+      "id": "stufe-ii",
+      "title": "Fortgeschritten – Stufe II",
+      "order": 30
+    },
+    {
+      "id": "stufe-iii",
+      "title": "Fortgeschritten – Stufe III",
+      "order": 40
+    }
+  ],
+  "entries": [
+    {
+      "id": "einfach-grundmauer",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Grundmauer (Einfach)",
+      "image": null,
+      "summary": "Wird benötigt, um eine Grundmauer [[icon:wasserkraft:grundmauer-bauen]] zu bauen.",
+      "description": "",
+      "group": "einfach",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Einfach",
+        "Grundmauer",
+        "Anleitung S. 14"
+      ],
+      "aliases": [
+        "Startausstattung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 14
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "einfach-erhoehung",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Erhöhung (Einfach)",
+      "image": null,
+      "summary": "Wird benötigt, um eine Erhöhung [[icon:wasserkraft:erhoehung-bauen]] zu bauen.",
+      "description": "",
+      "group": "einfach",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Einfach",
+        "Erhöhung",
+        "Anleitung S. 14"
+      ],
+      "aliases": [
+        "Startausstattung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 14
+      },
+      "sort_order": 20
+    },
+    {
+      "id": "einfach-rohrwerk",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Rohrwerk (Einfach)",
+      "image": null,
+      "summary": "Wird benötigt, um ein Rohrwerk [[icon:wasserkraft:rohrwerk-bauen]] zu bauen.",
+      "description": "",
+      "group": "einfach",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Einfach",
+        "Rohrwerk",
+        "Anleitung S. 14"
+      ],
+      "aliases": [
+        "Startausstattung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 14
+      },
+      "sort_order": 30
+    },
+    {
+      "id": "einfach-turbinenhaus",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Turbinenhaus (Einfach)",
+      "image": null,
+      "summary": "Wird benötigt, um ein Turbinenhaus [[icon:wasserkraft:turbinenhaus-bauen]] zu bauen.",
+      "description": "",
+      "group": "einfach",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Einfach",
+        "Turbinenhaus",
+        "Anleitung S. 14"
+      ],
+      "aliases": [
+        "Startausstattung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 14
+      },
+      "sort_order": 40
+    },
+    {
+      "id": "einfach-joker",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Joker „?“ (Einfach)",
+      "image": null,
+      "summary": "Mit dem „?“ könnt ihr ein Bauteil **eurer Wahl** [[icon:wasserkraft:bauteil-bauen]] bauen.",
+      "description": "Ihr legt dafür das „?“ zusammen mit den geforderten Maschinen für das gewählte Bauteil in die Bauscheibe. Im kompletten Spiel wird dieses Plättchen aussortiert.",
+      "group": "einfach",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Einfach",
+        "Joker",
+        "Anleitung S. 14"
+      ],
+      "aliases": [
+        "Startausstattung",
+        "Fragezeichen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 14
+      },
+      "sort_order": 50
+    },
+    {
+      "id": "stufe-i-grundmauer",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Grundmauer (Stufe I)",
+      "image": null,
+      "summary": "Platziert nach der Nutzung 1 Wassereinheit [[icon:wasserkraft:wasser-platzieren]] hinter jede eurer leeren Staumauern.",
+      "description": "Platziert kein Wasser hinter Staumauern, die bereits mindestens 1 Wassereinheit stauen und hinter neutrale Staumauern.",
+      "group": "stufe-i",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Grundmauer",
+        "Anleitung S. 25"
+      ],
+      "aliases": [
+        "Stufe 1"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 25
+      },
+      "sort_order": 110
+    },
+    {
+      "id": "stufe-i-erhoehung",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Erhöhung (Stufe I)",
+      "image": null,
+      "summary": "Dreht nach der Nutzung eure Bauscheibe [[icon:wasserkraft:bauscheibe-drehen]] um 1 Segment für jede Erhöhung, die ihr bereits gebaut habt (inkl. der gerade gebauten).",
+      "description": "",
+      "group": "stufe-i",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Erhöhung",
+        "Anleitung S. 25"
+      ],
+      "aliases": [
+        "Stufe 1"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 25
+      },
+      "sort_order": 120
+    },
+    {
+      "id": "stufe-i-rohrwerk",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Rohrwerk (Stufe I)",
+      "image": null,
+      "summary": "Erhaltet nach der Nutzung 2 Hydro [[icon:wasserkraft:hydro-erhalten]] multipliziert mit dem Produktionswert des Rohrwerks.",
+      "description": "",
+      "group": "stufe-i",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Rohrwerk",
+        "Anleitung S. 25"
+      ],
+      "aliases": [
+        "Stufe 1"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 25
+      },
+      "sort_order": 130
+    },
+    {
+      "id": "stufe-i-turbinenhaus",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Turbinenhaus (Stufe I)",
+      "image": null,
+      "summary": "Um mit diesem Plättchen zu bauen, müsst ihr keine Arbeiter auf ein Aktionsfeld einsetzen.",
+      "description": "Ihr könnt diese Bauaktion daher auch noch ausführen, wenn ihr schon alle Arbeiter eingesetzt habt.",
+      "group": "stufe-i",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Turbinenhaus",
+        "Anleitung S. 25"
+      ],
+      "aliases": [
+        "Stufe 1"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 25
+      },
+      "sort_order": 140
+    },
+    {
+      "id": "stufe-i-joker",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Joker „?“ (Stufe I)",
+      "image": null,
+      "summary": "Ihr müsst keine 3 Hydro [[icon:wasserkraft:hydro-zahlen]] bezahlen, um das Bauteil auf ein rot umrandetes Baufeld zu bauen.",
+      "description": "Wenn ihr für die Aktion ein rot umrandetes Aktionsfeld nutzt, so müsst ihr diese 3 Hydro jedoch weiterhin bezahlen.",
+      "group": "stufe-i",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Joker",
+        "Anleitung S. 25"
+      ],
+      "aliases": [
+        "Stufe 1"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 25
+      },
+      "sort_order": 150
+    },
+    {
+      "id": "stufe-ii-grundmauer",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Grundmauer (Stufe II)",
+      "image": null,
+      "summary": "Produziert nach der Nutzung so viel Energie, wie ihr bisher Grundmauern gebaut habt (inkl. der gerade gebauten).",
+      "description": "Ihr könnt mit dieser Energie 1 Vertrag erfüllen.",
+      "group": "stufe-ii",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Grundmauer",
+        "Anleitung S. 25"
+      ],
+      "aliases": [
+        "Stufe 2"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 25
+      },
+      "sort_order": 210
+    },
+    {
+      "id": "stufe-ii-erhoehung",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Erhöhung (Stufe II)",
+      "image": null,
+      "summary": "Platziert nach der Nutzung so viele Wassereinheiten [[icon:wasserkraft:wasser-platzieren]] aus dem allgemeinen Vorrat hinter der erhöhten Staumauer, bis die Staumauer voll gefüllt ist.",
+      "description": "",
+      "group": "stufe-ii",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Erhöhung",
+        "Anleitung S. 25"
+      ],
+      "aliases": [
+        "Stufe 2"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 25
+      },
+      "sort_order": 220
+    },
+    {
+      "id": "stufe-ii-rohrwerk",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Rohrwerk (Stufe II)",
+      "image": null,
+      "summary": "Wenn ihr ein Rohrwerk baut, welches mehr als 5 Bagger kosten würde, so reduzieren sich die Baukosten auf genau 5 Bagger [[icon:wasserkraft:bagger-erhalten]].",
+      "description": "Betrifft Rohrwerke mit Produktionswert 3 oder mehr.",
+      "group": "stufe-ii",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Rohrwerk",
+        "Anleitung S. 25"
+      ],
+      "aliases": [
+        "Stufe 2"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 25
+      },
+      "sort_order": 230
+    },
+    {
+      "id": "stufe-ii-turbinenhaus",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Turbinenhaus (Stufe II)",
+      "image": null,
+      "summary": "Dürft danach sofort eine Aktion „Energieproduktion“ mit einem Bonus von + 2 durchführen.",
+      "description": "Ihr könnt dafür das soeben gebaute oder ein anderes Turbinenhaus benutzen.",
+      "group": "stufe-ii",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Turbinenhaus",
+        "Anleitung S. 25"
+      ],
+      "aliases": [
+        "Stufe 2"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 25
+      },
+      "sort_order": 240
+    },
+    {
+      "id": "stufe-ii-joker",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Joker „?“ (Stufe II)",
+      "image": null,
+      "summary": "Dürft bei den Baukosten beliebig viele Bagger durch Betonmischer [[icon:wasserkraft:betonmischer-erhalten]] oder Betonmischer durch Bagger ersetzen.",
+      "description": "",
+      "group": "stufe-ii",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Joker",
+        "Anleitung S. 25"
+      ],
+      "aliases": [
+        "Stufe 2"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 25
+      },
+      "sort_order": 250
+    },
+    {
+      "id": "stufe-iii-grundmauer",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Grundmauer (Stufe III)",
+      "image": null,
+      "summary": "Um mit diesem Plättchen zu bauen, müsst ihr keine Arbeiter einsetzen und für den Bau keine Bagger [[icon:wasserkraft:bagger-erhalten]] einsetzen.",
+      "description": "Ihr könnt diese Bauaktion daher auch noch ausführen, wenn ihr schon alle Arbeiter eingesetzt habt.",
+      "group": "stufe-iii",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Grundmauer",
+        "Anleitung S. 26"
+      ],
+      "aliases": [
+        "Stufe 3"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 26
+      },
+      "sort_order": 310
+    },
+    {
+      "id": "stufe-iii-erhoehung",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Erhöhung (Stufe III)",
+      "image": null,
+      "summary": "Erhaltet nach der Nutzung 3 SP [[icon:wasserkraft:siegpunkte]] für jede eurer Staumauern mit mindestens 1 Erhöhung.",
+      "description": "Zählt also Ausbaustufe 2 oder 3, inkl. der gerade gebauten Erhöhung.",
+      "group": "stufe-iii",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Erhöhung",
+        "Anleitung S. 26"
+      ],
+      "aliases": [
+        "Stufe 3"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 26
+      },
+      "sort_order": 320
+    },
+    {
+      "id": "stufe-iii-rohrwerk",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Rohrwerk (Stufe III)",
+      "image": null,
+      "summary": "Produziert nach der Nutzung 2 Energie multipliziert mit dem Produktionswert des gerade gebauten Rohrwerks.",
+      "description": "Ihr könnt mit dieser Energie 1 Vertrag erfüllen.",
+      "group": "stufe-iii",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Rohrwerk",
+        "Anleitung S. 26"
+      ],
+      "aliases": [
+        "Stufe 3"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 26
+      },
+      "sort_order": 330
+    },
+    {
+      "id": "stufe-iii-turbinenhaus",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Turbinenhaus (Stufe III)",
+      "image": null,
+      "summary": "Erhaltet nach der Nutzung 3 SP [[icon:wasserkraft:siegpunkte]] für jedes eurer Turbinenhäuser (inkl. des gerade gebauten).",
+      "description": "",
+      "group": "stufe-iii",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Turbinenhaus",
+        "Anleitung S. 26"
+      ],
+      "aliases": [
+        "Stufe 3"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 26
+      },
+      "sort_order": 340
+    },
+    {
+      "id": "stufe-iii-joker",
+      "type": "reference",
+      "category": "technologien",
+      "name": "Joker „?“ (Stufe III)",
+      "image": null,
+      "summary": "Erhaltet nach der Nutzung 3 SP [[icon:wasserkraft:siegpunkte]] für jedes eurer fortgeschrittenen Technologieplättchen.",
+      "description": "Egal ob in eurem Vorrat oder auf der Bauscheibe.",
+      "group": "stufe-iii",
+      "timing": [],
+      "tags": [
+        "Technologie",
+        "Fortgeschritten",
+        "Joker",
+        "Anleitung S. 26"
+      ],
+      "aliases": [
+        "Stufe 3"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 26
+      },
+      "sort_order": 350
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "groups": [],
+  "entries": [
+    {
+      "id": "tipp-f4-siegpunkte",
+      "type": "reference",
+      "category": "autorentipps",
+      "name": "Siegpunkte & Bonusplättchen",
+      "image": null,
+      "summary": "„Es gibt verschiedene Wege, um in WASSERKRAFT Siegpunkte zu erzielen, aber die Energieleiste ist der einträglichste. Versucht, eure Spielzüge nach der Reihenfolge der Bonusplättchen zu planen.“",
+      "description": "Autorentipp zur Ausrichtung der Spielstrategie.",
+      "timing": [],
+      "tags": [
+        "Autorentipp",
+        "Anleitung S. 4"
+      ],
+      "aliases": [
+        "Strategie",
+        "Bonusplättchen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 4
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "tipp-f7-energieproduktion",
+      "type": "reference",
+      "category": "autorentipps",
+      "name": "Frühe Energieproduktion & Neutrale Staumauern",
+      "image": null,
+      "summary": "„Energieproduktion ist der Schlüssel zum Erfolg in WASSERKRAFT. Es ist sehr wichtig, so früh wie möglich damit anzufangen. Ein Turbinenhaus mit einer neutralen Staumauer zu verbinden ist der schnellste Weg, aber neutrale Staumauern offenbaren bald ihre Schwäche: alle Unternehmen können sie und das dort gestaute Wasser nutzen!“",
+      "description": "Autorentipp zur Nutzung neutraler Staumauern.",
+      "timing": [],
+      "tags": [
+        "Autorentipp",
+        "Anleitung S. 7"
+      ],
+      "aliases": [
+        "Strategie",
+        "Neutrale Staumauern"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 7
+      },
+      "sort_order": 20
+    },
+    {
+      "id": "tipp-f12-einkommen",
+      "type": "reference",
+      "category": "autorentipps",
+      "name": "Einkommen durch Bauteile",
+      "image": null,
+      "summary": "„Ihr braucht verschiedene Bauteile, um Energie zu produzieren, aber wenn ihr mehr gleiche Bauteile baut, schaltet ihr mehr Einkommen frei, was ein Weg ist, um das Spiel zu gewinnen!“",
+      "description": "Autorentipp zum Einkommen.",
+      "timing": [],
+      "tags": [
+        "Autorentipp",
+        "Anleitung S. 12"
+      ],
+      "aliases": [
+        "Einkommen",
+        "Gleiche Bauteile"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 12
+      },
+      "sort_order": 30
+    },
+    {
+      "id": "tipp-f19-wasserfluss",
+      "type": "reference",
+      "category": "autorentipps",
+      "name": "Wasserfluss & Staumauern",
+      "image": null,
+      "summary": "„Wasser fließt von den Quellen aus abwärts. Höher liegende Staumauern sind teurer zu bauen, kriegen aber früher Wasser!“",
+      "description": "Autorentipp zur Priorität von Bauplätzen.",
+      "timing": [],
+      "tags": [
+        "Autorentipp",
+        "Anleitung S. 19"
+      ],
+      "aliases": [
+        "Wasserfluss",
+        "Berge"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 19
+      },
+      "sort_order": 40
+    },
+    {
+      "id": "tipp-f14-strategie",
+      "type": "reference",
+      "category": "autorentipps",
+      "name": "Strategie: Frühe Verbindungen",
+      "image": null,
+      "summary": "„Welche Bauteile ihr wo bauen wollt, ist eine der wichtigsten strategischen Entscheidungen in WASSERKRAFT. Ihr könnt auch gewinnen, wenn ihr in den ersten Runden noch keine Energie produziert. Aber normalerweise ist es einfacher, früh damit anzufangen. Versucht, sobald wie möglich eure Turbinenhäuser mit einer Staumauer zu verbinden!“",
+      "description": "Autorentipp zur grundsätzlichen Bau-Strategie.",
+      "timing": [],
+      "tags": [
+        "Autorentipp",
+        "Anleitung S. 14"
+      ],
+      "aliases": [
+        "Strategie",
+        "Turbinenhaus",
+        "Staumauer"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 14
+      },
+      "sort_order": 50
+    },
+    {
+      "id": "tipp-f15-malus",
+      "type": "reference",
+      "category": "autorentipps",
+      "name": "Malus bei Energieproduktion",
+      "image": null,
+      "summary": "„Ein Malus vom Aktionsfeld muss nicht schlimm sein. Manchmal reicht wenig produzierte Energie, um einen Vertrag zu erfüllen und SP zu erzielen.“",
+      "description": "Autorentipp zur Energieproduktion.",
+      "timing": [],
+      "tags": [
+        "Autorentipp",
+        "Anleitung S. 15"
+      ],
+      "aliases": [
+        "Strategie",
+        "Energieproduktion",
+        "Malus"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 15
+      },
+      "sort_order": 60
+    },
+    {
+      "id": "tipp-f17-wassermanagement",
+      "type": "reference",
+      "category": "autorentipps",
+      "name": "Wassermanagement",
+      "image": null,
+      "summary": "„Versucht vorherzusehen, wohin das Wasser fließt, und seid vorsichtig, wo ihr die Wassereinheiten platziert … ihr wollt sicher lieber eure eigenen Staumauern füllen als die eurer Mitspieler.“",
+      "description": "Autorentipp zum Platzieren von Wasser.",
+      "timing": [],
+      "tags": [
+        "Autorentipp",
+        "Anleitung S. 17"
+      ],
+      "aliases": [
+        "Strategie",
+        "Wasserfluss",
+        "Quellen"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 17
+      },
+      "sort_order": 70
+    }
+  ]
+}

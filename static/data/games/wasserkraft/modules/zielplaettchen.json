@@ -1,0 +1,152 @@
+{
+  "groups": [],
+  "entries": [
+    {
+      "id": "ziel-verbunden",
+      "type": "reference",
+      "category": "zielplaettchen",
+      "name": "Zielplättchen: Verbundene Grundmauern",
+      "image": null,
+      "summary": "Gewertet werden alle eure Grundmauern, die über eines eurer Rohrwerke mit einem eurer Turbinenhäuser verbunden sind.",
+      "description": "Wenn ihr 2 Grundmauern mit demselben Turbinenhaus verbunden habt, zählen beide.",
+      "timing": [],
+      "tags": [
+        "Zielplättchen",
+        "Grundmauer",
+        "Turbinenhaus",
+        "Anleitung S. 27"
+      ],
+      "aliases": [
+        "Endwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 27
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "ziel-rot",
+      "type": "reference",
+      "category": "zielplaettchen",
+      "name": "Zielplättchen: Rote Baufelder",
+      "image": null,
+      "summary": "Gewertet werden alle eure Grundmauern und Turbinenhäuser, die ihr auf rot umrandeten Baufeldern gebaut habt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "Zielplättchen",
+        "Rot",
+        "Anleitung S. 27"
+      ],
+      "aliases": [
+        "Endwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 27
+      },
+      "sort_order": 20
+    },
+    {
+      "id": "ziel-bereich-wenigste",
+      "type": "reference",
+      "category": "zielplaettchen",
+      "name": "Zielplättchen: Schwächster Bereich",
+      "image": null,
+      "summary": "Gewertet werden alle eure Bauteile in dem Bereich des Spielplans (Berge, Hügel oder Vorland), wo ihr am **wenigsten** Bauteile gebaut habt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "Zielplättchen",
+        "Bereich",
+        "Wenigste",
+        "Anleitung S. 27"
+      ],
+      "aliases": [
+        "Endwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 27
+      },
+      "sort_order": 30
+    },
+    {
+      "id": "ziel-bereich-meiste",
+      "type": "reference",
+      "category": "zielplaettchen",
+      "name": "Zielplättchen: Stärkster Bereich",
+      "image": null,
+      "summary": "Gewertet werden alle eure Bauteile in dem Bereich des Spielplans (Berge, Hügel oder Vorland), wo ihr am **meisten** Bauteile gebaut habt.",
+      "description": "",
+      "timing": [],
+      "tags": [
+        "Zielplättchen",
+        "Bereich",
+        "Meiste",
+        "Anleitung S. 27"
+      ],
+      "aliases": [
+        "Endwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 27
+      },
+      "sort_order": 40
+    },
+    {
+      "id": "ziel-taeler-3",
+      "type": "reference",
+      "category": "zielplaettchen",
+      "name": "Zielplättchen: Täler (3 Bauteile)",
+      "image": null,
+      "summary": "Gewertet werden alle Täler, in denen ihr mindestens 3 beliebige Bauteile gebaut habt.",
+      "description": "Das Maximum ist 5 (3 Bauteile in 5 Tälern. Die beiden Täler im unteren Teil des Vorlands zählen nicht, da ihr dort nur 1 Turbinenhaus bauen könnt).",
+      "timing": [],
+      "tags": [
+        "Zielplättchen",
+        "Täler",
+        "Anleitung S. 27"
+      ],
+      "aliases": [
+        "Endwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 27
+      },
+      "sort_order": 50
+    },
+    {
+      "id": "ziel-taeler-1",
+      "type": "reference",
+      "category": "zielplaettchen",
+      "name": "Zielplättchen: Täler (1 Bauteil)",
+      "image": null,
+      "summary": "Gewertet werden alle Täler, in denen ihr mindestens 1 beliebiges Bauteil gebaut habt.",
+      "description": "Das Maximum ist 12 (1 Bauteil in jedem der 12 Täler).",
+      "timing": [],
+      "tags": [
+        "Zielplättchen",
+        "Täler",
+        "Anleitung S. 27"
+      ],
+      "aliases": [
+        "Endwertung"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Wasserkraft Regelheft (DE)",
+        "page": 27
+      },
+      "sort_order": 60
+    }
+  ]
+}

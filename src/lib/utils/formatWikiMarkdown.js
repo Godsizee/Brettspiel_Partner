@@ -17,7 +17,7 @@ const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 // Hook to ensure img tags only load from a whitelisted game's icons path.
 // [[icon:slug]] (no namespace) stays Voidfall-only for backwards compatibility;
 // [[icon:<game>:slug]] resolves per-game, gated by ICON_GAME_WHITELIST below.
-const ICON_GAME_WHITELIST = ['voidfall', 'scythe'];
+const ICON_GAME_WHITELIST = ['voidfall', 'scythe', 'wasserkraft'];
 const ICON_SRC_PATTERN = new RegExp(`^${escapeRegExp(BASE_URL)}images/(?:${ICON_GAME_WHITELIST.join('|')})/icons/icon-[a-z0-9-]+\\.png$`);
 
 DOMPurify.addHook('uponSanitizeAttribute', function (node, data) {
