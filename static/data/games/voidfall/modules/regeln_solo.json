@@ -3,7 +3,7 @@
     {
       "id": "einfuehrung",
       "title": "Einführung & Grundkonzepte",
-      "description": "Grundlegende Konzepte, das Material für Koop & Solo, und wie ihr die Hefte nutzt.",
+      "description": "Grundlegende Konzepte, das Spielmaterial und wie ihr die Hefte nutzt.",
       "order": 10
     },
     {
@@ -15,7 +15,7 @@
     {
       "id": "vorbereitung",
       "title": "Zyklus A – Vorbereitungsphase",
-      "description": "Die erste der 3 Phasen jedes Zyklus – Auslagen erneuern, Zugreihenfolge festlegen, Galaktisches Ereignis aufdecken.",
+      "description": "Die erste der 3 Phasen jedes Zyklus – Auslagen erneuern und das Galaktische Ereignis aufdecken.",
       "order": 20
     },
     {
@@ -29,6 +29,12 @@
       "title": "Die Leere",
       "description": "Wie die Leere anwächst und wie Situationen, Kriege und Katastrophen abgehandelt werden.",
       "order": 40
+    },
+    {
+      "id": "gefechte",
+      "title": "Gefechte gegen die Leere",
+      "description": "Invasionen der Leere in eure Sektoren – wann sie ausgelöst werden, wie stark die Leere angreift und welchen Sektor sie sich aussucht.",
+      "order": 45
     },
     {
       "id": "auswertung-ende",
@@ -81,12 +87,12 @@
       }
     },
     {
-      "id": "koop-solo-material",
+      "id": "solo-material",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Zusätzliches Material für Koop & Solo",
+      "name": "Zusätzliches Material im Solomodus",
       "image": null,
-      "summary": "Für den kooperativen und den Solomodus kommt zusätzliches Material zum Einsatz, das der Gegenspieler „Die Leere\" benötigt:\n\n- **Krisentableau** und **68 Krisenkarten** in 4 Stufen (5× Start, 19× Stufe I, 23× Stufe II, 21× Stufe III) — steuern das Anwachsen der Leere.\n- **25 Alarmkarten** — 6 Situationskarten Stufe I, 7 Situationskarten Stufe II, 4 Situationskarten Stufe III und 8 Kriegskarten.\n- **10 Gemeinsame Fokuskarten** und **10 Heroische Fokuskarten**.\n- **3 Katastrophenplättchen** und **10 Vorbotenplättchen**.\n- **5 Zufluchttableaus** und **3 Schwierigkeitskarten**.",
+      "summary": "Im Solomodus kommt zusätzliches Material zum Einsatz, das dein Gegenspieler „Die Leere\" benötigt:\n\n- **Krisentableau** und **68 Krisenkarten** in 4 Stufen (5× Start, 19× Stufe I, 23× Stufe II, 21× Stufe III) — steuern das Anwachsen der Leere.\n- **25 Alarmkarten** — 6 Situationskarten Stufe I, 7 Situationskarten Stufe II, 4 Situationskarten Stufe III und 8 Kriegskarten.\n- **10 Heroische Fokuskarten** — nur diese nutzt du allein. Die 10 Gemeinsamen Fokuskarten kommen in die Schachtel.\n- **3 Katastrophenplättchen** und **10 Vorbotenplättchen** (davon nutzt du 7).\n- **5 Zufluchttableaus** und **3 Schwierigkeitskarten**.",
       "description": "Alle diese Komponenten werden im Kapitel „Die Leere\" im Detail erklärt.",
       "group": "einfuehrung",
       "timing": [],
@@ -96,7 +102,7 @@
         "Alarm",
         "Zuflucht",
         "Anleitung S. 5",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 10020,
@@ -130,9 +136,9 @@
       "id": "verschiedene-modi",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Kompetitiv, Kooperativ oder Solo",
+      "name": "Der Solomodus",
       "image": null,
-      "summary": "Voidfall könnt ihr kompetitiv, kooperativ oder allein spielen.\n\nIm kooperativen und Solomodus nutzt ihr dieselben Regeln. Spielt ihr gemeinsam, habt ihr mehr Optionen und müsst euch größeren Herausforderungen stellen. Manche Regeln gelten nur für den kooperativen und Solomodus, andere nur für den kompetitiven Modus — alles Übrige gilt für alle Spielmodi.",
+      "summary": "Im Solomodus trittst du allein gegen **die Leere** an — einen regelgesteuerten Gegenspieler, der über Krisen, Alarme und Gefechte gegen dich agiert.\n\nAlles, was in diesem Modul steht, gilt für deine Solopartie: die Grundregeln des Spiels und die zusätzlichen Soloregeln sind hier bereits zusammengeführt.",
       "description": "",
       "group": "einfuehrung",
       "timing": [],
@@ -154,8 +160,8 @@
       "category": "regeln_solo",
       "name": "Erste Partie & Tutorial",
       "image": null,
-      "summary": "Spielt ihr Voidfall zum 1. Mal, bereitet das Kompendium ein **Tutorial**-Szenario vor, das euch Schritt für Schritt die grundlegenden Konzepte beibringt. Das Tutorial gibt es in 4 Versionen, je nachdem zu wieviert ihr spielt (1–4 Spieler); alle Versionen sind für alle Spielmodi geeignet.",
-      "description": "Wollt ihr nach dem Tutorial kompetitiv spielen, bringt euch das Tutorial bereits alles dafür bei — spielt danach ein beliebiges kompetitives Szenario.\n\nWollt ihr Voidfall kooperativ oder allein spielen, spielt trotzdem zunächst das Tutorial mit den kompetitiven Regeln und ignoriert vorerst die Solo-/Koop-Regeln. Euer Ziel dabei: jeweils 120 [[icon:einfluss]] erreichen, ohne dabei ineinander einzudringen. Sobald ihr damit fertig seid, macht euch als Nächstes mit den kooperativen bzw. Soloregeln vertraut und spielt das Szenario „Erste Instanz\" bei Schwierigkeit Leicht.",
+      "summary": "Spielst du Voidfall zum 1. Mal, bereitet das Kompendium ein **Tutorial**-Szenario vor, das dir Schritt für Schritt die grundlegenden Konzepte beibringt. Es gibt eine eigene Tutorial-Version für 1 Spieler.",
+      "description": "Das Tutorial führt dich zunächst nur in die Grundregeln ein — die Leere, das Krisentableau und die Alarme bleiben darin noch außen vor. Dein Ziel im Tutorial: **120 [[icon:einfluss]] erreichen**.\n\nBist du damit fertig, mach dich mit den Soloregeln vertraut und spiele als Nächstes das Szenario „Erste Instanz\" bei Schwierigkeit **Leicht**.",
       "group": "einfuehrung",
       "timing": [],
       "tags": [
@@ -176,8 +182,8 @@
       "category": "regeln_solo",
       "name": "Allgemeine Vorbereitung",
       "image": null,
-      "summary": "Führt folgende Schritte für die **Allgemeine Vorbereitung** aus:\n1. Legt das **Galaxietableau** aus (kompetitiv mit der Seite ohne Koop-Symbol, kooperativ mit der Seite mit Koop-Symbol). Bildet eure Handelsplättchenstapel (Solo: 1 pro Feld; Zu zweit: 1 pro Feld; Zu dritt: 2 pro Feld; Zu viert: 2 pro Feld).\n2. Legt die **Agendaauslage** aus. Sortiert die Agendakarten nach Rückseiten (Stufen 1–4) und legt die 4 Stapel verdeckt an. Deckt jeweils die oberste Karte rechts daneben auf.\n3. Legt das **Haupt-Kampfplättchen** oberhalb des Spielbereichs aus.\n4. Bereitet den **allgemeinen Vorrat** vor:\n   - Mischt Beute und Hinterlassenschaften verdeckt in 2 Haufen.\n   - Legt Ruhmplättchen bereit.\n   - Sortiert Flottenverbände nach Typen.\n   - Bildet Haufen für Gilden, Stützpunkte, Flotten der Leere, Bevölkerungswürfel und Verderbnismarker.\n5. Nehmt euch die **Komponenten eurer Farbe**: 1 Einflusstableau (auf Wert 10), 9 Fokuskarten auf die Hand, Innovationsfokusse auf eigenen Abwurfstapel, 1 generisches Ressourcentableau (alle Werte auf 0), 14 Flotten, 1 Ruhmplättchen (Wert 2).\n6. Bestimmt zufällig die **Zugreihenfolge**. Wer beginnt, legt sein Reihenfolgeplättchen ganz links auf die Leiste des Galaxietableaus, die anderen folgen auf die nächsten freien Felder.",
-      "description": "",
+      "summary": "Führe folgende Schritte für die **Allgemeine Vorbereitung** aus:\n1. Lege das **Galaxietableau** mit der Seite nach oben aus, die das **Koop-Symbol** zeigt — das ist die Seite für den Solomodus. Bilde deine Handelsplättchenstapel mit **1 Plättchen pro Feld**.\n2. Lege die **Agendaauslage** aus. Sortiere die Agendakarten nach Rückseiten (Stufen 1–4) und lege die 4 Stapel verdeckt an. Decke jeweils die oberste Karte rechts daneben auf.\n3. Lege das **Haupt-Kampfplättchen** oberhalb des Spielbereichs aus.\n4. Bereite den **allgemeinen Vorrat** vor:\n   - Mische Beute und Hinterlassenschaften verdeckt in 2 Haufen.\n   - Lege Ruhmplättchen bereit.\n   - Sortiere Flottenverbände nach Typen.\n   - Bilde Haufen für Gilden, Stützpunkte, Flotten der Leere, Bevölkerungswürfel und Verderbnismarker.\n5. Nimm dir die **Komponenten deiner Farbe**: 1 Einflusstableau (auf Wert 10), 9 Fokuskarten auf die Hand, Innovationsfokusse auf deinen Abwurfstapel, 1 generisches Ressourcentableau (alle Werte auf 0), 14 Flotten, 1 Ruhmplättchen (Wert 2).",
+      "description": "Ein Reihenfolgeplättchen brauchst du nicht: Allein gibt es keine Zugreihenfolge, der 6. Schritt der Allgemeinen Vorbereitung entfällt.",
       "group": "spielaufbau",
       "timing": [],
       "tags": [
@@ -193,23 +199,22 @@
       }
     },
     {
-      "id": "koop-solo-vorbereitung",
+      "id": "solo-vorbereitung",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Spezifische Vorbereitung Koop & Solo",
+      "name": "Spezifische Vorbereitung im Solomodus",
       "image": null,
-      "summary": "Spielt ihr kooperativ oder solo, führt zusätzlich folgende Schritte aus:\n7. Legt das **Krisentableau** bereit.\n8. Legt die 3 **Katastrophenplättchen** bereit.\n9. Wählt eine **Schwierigkeit** (Leicht, Mittel, Hoch). Legt die zugehörige Schwierigkeitskarte neben das Krisentableau.\n10. Legt **Vorboten** im Vorrat bereit (Solo: 7, Zu zweit: 8, Zu dritt/viert: 10). Die übrigen in die Schachtel.\n11. Die übrigen Vorboten kommen in die Schachtel.\n12. Sortiert **Krisenkarten** (Start, Stufe I, II, III).\n13. Bestimmt die **Startkrisen**:\n    - Leicht: Legt alle Startkrisen in die Schachtel.\n    - Mittel/Hoch: Zieht die obersten 2 Startkrisen und legt je 1 offen auf das linke Feld der Ökonomischen und Militärischen Leiste. Restliche Startkrisen in die Schachtel.\n14. Bestimmt die **Alarme**:\n    - Mischt die Situationen und legt sie (ungemischt) in 3 Stapel (I, II, III).\n    - Sortiert die 4 Kriegskarten aus, die nicht eurer Schwierigkeit entsprechen.\n    - Mischt die restlichen 4 Kriegskarten verdeckt.\n15. Bildet den **Alarmstapel** laut Vorgabe eurer Schwierigkeitskarte: Nehmt die angegebene Anzahl an Situationen (I, II, III) und Kriegskarten, mischt sie ungesehen und legt sie als verdeckten Stapel neben das Krisentableau.\n16. Spielt ihr nicht solo: Mischt alle Gemeinsamen Fokusse und legt sie verdeckt neben das Galaxietableau. Heroische in die Schachtel.\n17. Spielt ihr solo: Mischt alle Heroischen Fokusse. Gemeinsame in die Schachtel.\n18. Deckt 3 Fokusse als Fokusauslage auf.",
+      "summary": "Führe für eine Solopartie zusätzlich folgende Schritte aus:\n7. Lege das **Krisentableau** bereit.\n8. Lege die 3 **Katastrophenplättchen** bereit.\n9. Wähle eine **Schwierigkeit** (Leicht, Mittel, Hoch). Lege die zugehörige Schwierigkeitskarte neben das Krisentableau.\n10. Lege **7 Vorboten** im Vorrat bereit.\n11. Die übrigen Vorboten kommen in die Schachtel.\n12. Sortiere die **Krisenkarten** (Start, Stufe I, II, III).\n13. Bestimme die **Startkrisen**:\n    - Leicht: Lege alle Startkrisen in die Schachtel.\n    - Mittel/Hoch: Ziehe die obersten 2 Startkrisen und lege je 1 offen auf das linke Feld der Ökonomischen und Militärischen Leiste. Restliche Startkrisen in die Schachtel.\n14. Bestimme die **Alarme**:\n    - Mische die Situationen und lege sie (ungemischt) in 3 Stapel (I, II, III).\n    - Sortiere die 4 Kriegskarten aus, die nicht deiner Schwierigkeit entsprechen.\n    - Mische die restlichen 4 Kriegskarten verdeckt.\n15. Bilde den **Alarmstapel** laut Vorgabe deiner Schwierigkeitskarte: Nimm die angegebene Anzahl an Situationen (I, II, III) und Kriegskarten, mische sie ungesehen und lege sie als verdeckten Stapel neben das Krisentableau.\n16. Mische alle **Heroischen Fokuskarten** und lege sie verdeckt neben das Galaxietableau. Die Gemeinsamen Fokuskarten kommen in die Schachtel.\n17. Decke 3 Fokusse als **Fokusauslage** auf.",
       "description": "",
       "group": "spielaufbau",
       "timing": [],
       "tags": [
         "Aufbau",
         "Vorbereitung",
-        "Koop",
-        "Solo",
         "Krisentableau",
+        "Schwierigkeit",
         "Kompendium S. 12",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 15020,
@@ -224,7 +229,7 @@
       "category": "regeln_solo",
       "name": "Szenariovorbereitung – Das All",
       "image": null,
-      "summary": "Führt nun die Vorbereitung des Szenarios durch:\n1. Nehmt alle 30 Sektorenteile. (Hinweis: Heimatsektoren haben ein besonderes Wappen/Fahne auf der Rückseite, die anderen sind gewöhnliche).\n2. Wählt ein **Szenario** aus dem Kompendium (abhängig von der Spieleranzahl).\n3. Legt das All aus: Legt alle Sektorenteile wie in der Szenariovorlage gezeigt aneinander. Die Ausrichtung ist egal, aber Leerenstürme (rot) liegen immer zwischen Sektoren.\n   - Sektoren mit vorgegebenem Bevölkerungswert erhalten einen violetten Bevölkerungswürfel.\n   - Sektoren mit Verderbnismarker erhalten diesen unter dem Würfel.\n   - Manchmal steht ein Flaggensymbol statt eines Werts: Dies wird erst bei der Hausvorbereitung befüllt.\n4. Legt die abgebildeten **Komponenten** in die Sektoren (Flottenverbände der Leere mit X Flotten, Verteidigungsanlagen, Ruhmplättchen).\n   - In der Szenariovorlage sind Zufällige Beute und Zufällige Hinterlassenschaften gekennzeichnet. Legt diese verdeckt dorthin. Vorboten laut Vorlage.\n5. Die restlichen Sektorenteile kommen in die Schachtel.",
+      "summary": "Führe nun die Vorbereitung des Szenarios durch:\n1. Nimm alle 30 Sektorenteile. (Hinweis: Heimatsektoren haben ein besonderes Wappen/Fahne auf der Rückseite, die anderen sind gewöhnliche).\n2. Wähle ein **Solo-Szenario** aus dem Kompendium.\n3. Lege das All aus: Lege alle Sektorenteile wie in der Szenariovorlage gezeigt aneinander. Die Ausrichtung ist egal, aber Leerenstürme (rot) liegen immer zwischen Sektoren.\n   - Sektoren mit vorgegebenem Bevölkerungswert erhalten einen violetten Bevölkerungswürfel.\n   - Sektoren mit Verderbnismarker erhalten diesen unter dem Würfel.\n   - Manchmal steht ein Flaggensymbol statt eines Werts: Dies wird erst bei der Hausvorbereitung befüllt.\n4. Lege die abgebildeten **Komponenten** in die Sektoren (Flottenverbände der Leere mit X Flotten, Verteidigungsanlagen, Ruhmplättchen).\n   - In der Szenariovorlage sind Zufällige Beute und Zufällige Hinterlassenschaften gekennzeichnet. Lege diese verdeckt dorthin. Vorboten laut Vorlage.\n5. Die restlichen Sektorenteile kommen in die Schachtel.",
       "description": "",
       "group": "spielaufbau",
       "timing": [],
@@ -248,7 +253,7 @@
       "category": "regeln_solo",
       "name": "Szenariovorbereitung – Ereignisse & Gefallene Häuser",
       "image": null,
-      "summary": "Führt die weiteren Schritte der Szenariovorbereitung aus:\n6. Sucht die **Galaktischen Ereignisse** des Szenarios (Ereigniscode im Kompendium). Sortiert sie nach Zyklus, mischt die Zyklen separat und legt sie verdeckt unter das Galaxietableau. (Im Tutorial überspringt ihr diesen Schritt und legt feste Ereignisse bereit).\n7. Sucht die **4 Gefallenen Häuser** eures Szenarios. In kompetitiven Partien sind diese vorgegeben. In kooperativen/Solopartien wählt ihr zufällig 4 aus.\n8. Prüft das **Gebrochene Glas**: Zieht solange neu, bis ihr genau 1 Haus mit gebrochenem Glas (und max. 3) in der Auslage habt (koop/solo). Alternativ wählt ihr sie direkt.\n9. Legt je 1 Gefallenes Haus auf die markierten Sektoren Gefallener Häuser. Setzt den Bevölkerungswürfel und 1 Verderbnismarker darauf. (Gibt es keine Sektoren für Gefallene Häuser im Szenario, in die Schachtel zurücklegen).",
+      "summary": "Führe die weiteren Schritte der Szenariovorbereitung aus:\n6. Suche die **Galaktischen Ereignisse** deines Szenarios (Ereigniscode im Kompendium). Sortiere sie nach Zyklus, mische die Zyklen separat und lege sie verdeckt unter das Galaxietableau. (Im Tutorial überspringst du diesen Schritt und legst feste Ereignisse bereit).\n7. Wähle **zufällig 4 Gefallene Häuser** aus.\n8. Prüfe das **Gebrochene Glas**: Ziehe solange neu, bis genau 1 Haus mit gebrochenem Glas (und max. 3) in der Auslage liegt. Alternativ wählst du die Häuser direkt aus.\n9. Lege je 1 Gefallenes Haus auf die markierten Sektoren Gefallener Häuser. Setze den Bevölkerungswürfel und 1 Verderbnismarker darauf. (Gibt es im Szenario keine Sektoren für Gefallene Häuser, lege sie in die Schachtel zurück).",
       "description": "",
       "group": "spielaufbau",
       "timing": [],
@@ -272,7 +277,7 @@
       "category": "regeln_solo",
       "name": "Technologieauslage",
       "image": null,
-      "summary": "Zu jedem Szenario gehören 8 vorgegebene **Technologien** (jeweils mit 2 Basis- und 1 Fortschrittliche Version).\n1. Legt die **Basisversion mit Einflusspunkten** dieser 8 Technologien als Technologieauslage aus.\n   - Spielt ihr allein, wählt zufällig 3 aus 8.\n   - Kooperativ zu zweit: 2 aus 8.\n   - Legt die entsprechenden Technologien zurück in die Schachtel und legt auch die untere Basisversion der anderen Technologien zurück.\n2. Legt die 8 dazu passenden **Fortschrittlichen Technologien** verdeckt neben das Galaxietableau (falls Auslage Wächter/Zerstörer/Schlächter/Träger/Sternenbasen enthält, legt die zugehörigen Kampfplättchen bereit).\n3. Zieht 4 Fortschrittliche Technologien und legt sie offen auf das Galaxietableau.\n4. Legt die **Fortschrittsbarriere** auf sie, sodass sie noch nicht zur Verfügung stehen.",
+      "summary": "Zu jedem Szenario gehören 8 vorgegebene **Technologien** (jeweils mit 2 Basis- und 1 Fortschrittliche Version).\n1. Wähle davon **zufällig 3 der 8** aus und lege ihre **Basisversion mit Einflusspunkten** als Technologieauslage aus.\n   - Lege die übrigen Technologien zurück in die Schachtel und lege auch die untere Basisversion der ausgelegten Technologien zurück.\n2. Lege die 8 dazu passenden **Fortschrittlichen Technologien** verdeckt neben das Galaxietableau (falls die Auslage Wächter/Zerstörer/Schlächter/Träger/Sternenbasen enthält, lege die zugehörigen Kampfplättchen bereit).\n3. Ziehe 4 Fortschrittliche Technologien und lege sie offen auf das Galaxietableau.\n4. Lege die **Fortschrittsbarriere** auf sie, sodass sie noch nicht zur Verfügung stehen.",
       "description": "",
       "group": "spielaufbau",
       "timing": [],
@@ -294,7 +299,7 @@
       "category": "regeln_solo",
       "name": "Hausvorbereitung",
       "image": null,
-      "summary": "Jeder führt die **Hausvorbereitung** einzeln für sich aus (wählt gemeinsam oder per Zufall, welches Haus ihr spielt):\n1. Nehmt das **Haustableau** eures Hauses.\n2. Tauscht eure Start-Fokuskarten aus, falls euer Haus besondere **Hausfokuskarten** nutzt.\n3. Legt 1 Verderbnismarker auf das Agendafeld ganz rechts. Legt 3 Zivilisationsleistenmarker auf die am weitesten links liegenden Felder der 3 Leisten.\n4. Wählt heimlich/gleichzeitig 1 der beiden **Herkunftskarten** eures Hauses.\n5. Legt die Herkunft vor euch.\n6. Nehmt die **3 Technologiekarten** eurer Herkunft:\n   - Legt die Basisversion mit Einflusspunkten auf ein Technologiefeld eures Haustableaus.\n   - Die Fortschrittliche Version liegt daneben.\n   - Die zweite Basisversion geht als Technologieauslage aus (oder in die Schachtel, bei Solo/Zu zweit).\n   - Legt ggf. das zugehörige Kampfplättchen bereit.\n7. Wählt reihum euren **nächsten Heimatsektor** im All (erkennbar an Symbolen) und einen benachbarten gewöhnlichen Sektor (euren **Außenposten**). Legt gemäß eurer Herkunft Bevölkerung, Flotten, Gilden und Stützpunkte in diese beiden Sektoren. Verderbnis laut Herkunft ebenfalls unter den Bevölkerungswürfel.\n8. Stellt die Ressourcenräder eures Ressourcentableaus laut Herkunft ein (Produktion links, Vorrat rechts).\n9. Setzt die restlichen Flotten in die Einsatzzone und die Ruhezone eures Haustableaus. Insgesamt hat jeder 14 Flotten. Führt ggf. **Besondere Herkunftsvorgaben** aus und dreht dann die Herkunftskarte um (Startagenda).",
+      "summary": "Führe die **Hausvorbereitung** für dich aus (wähle frei oder per Zufall, welches Haus du spielst):\n1. Nimm das **Haustableau** deines Hauses.\n2. Tausche deine Start-Fokuskarten aus, falls dein Haus besondere **Hausfokuskarten** nutzt.\n3. Lege 1 Verderbnismarker auf das Agendafeld ganz rechts. Lege 3 Zivilisationsleistenmarker auf die am weitesten links liegenden Felder der 3 Leisten.\n4. Wähle 1 der beiden **Herkunftskarten** deines Hauses.\n5. Lege die Herkunft vor dich.\n6. Nimm die **3 Technologiekarten** deiner Herkunft:\n   - Lege die Basisversion mit Einflusspunkten auf ein Technologiefeld deines Haustableaus.\n   - Die Fortschrittliche Version liegt daneben.\n   - Die zweite Basisversion kommt in die Schachtel.\n   - Lege ggf. das zugehörige Kampfplättchen bereit.\n7. Wähle deinen **Heimatsektor** im All (erkennbar an Symbolen) und einen benachbarten gewöhnlichen Sektor (deinen **Außenposten**). Lege gemäß deiner Herkunft Bevölkerung, Flotten, Gilden und Stützpunkte in diese beiden Sektoren. Verderbnis laut Herkunft ebenfalls unter den Bevölkerungswürfel.\n8. Stelle die Ressourcenräder deines Ressourcentableaus laut Herkunft ein (Produktion links, Vorrat rechts).\n9. Setze die restlichen Flotten in die Einsatzzone und die Ruhezone deines Haustableaus. Insgesamt hast du 14 Flotten. Führe ggf. **Besondere Herkunftsvorgaben** aus und drehe dann die Herkunftskarte um (Startagenda).",
       "description": "",
       "group": "spielaufbau",
       "timing": [],
@@ -338,15 +343,15 @@
       "category": "regeln_solo",
       "name": "Fokusauslage erneuern (ab 2. Zyklus)",
       "image": null,
-      "summary": "Ab dem 2. Zyklus, Schritt 0a: Legt alle Gemeinsamen und Heroischen Fokuskarten aus der Auslage in die Schachtel. Zieht 3 neue und legt sie als Auslage unterhalb des Galaxietableaus ab.",
-      "description": "Deckt ihr im Solomodus eine Heroische Fokuskarte auf, die euer Haus nicht nutzen kann (z. B. „Verstärkung\" als Haus Fenrax), legt die Karte in die Schachtel und zieht Ersatz.",
+      "summary": "Ab dem 2. Zyklus, Schritt 0a: Lege alle Heroischen Fokuskarten aus der Auslage in die Schachtel. Ziehe 3 neue und lege sie als Auslage unterhalb des Galaxietableaus ab.",
+      "description": "Deckst du eine Heroische Fokuskarte auf, die dein Haus nicht nutzen kann (z. B. „Verstärkung\" als Haus Fenrax), lege die Karte in die Schachtel und ziehe Ersatz.",
       "group": "vorbereitung",
       "timing": [],
       "tags": [
         "Fokus",
         "Zyklus",
         "Anleitung S. 7",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 20020,
@@ -361,8 +366,8 @@
       "category": "regeln_solo",
       "name": "Alarmstapel erneuern (ab 2. Zyklus)",
       "image": null,
-      "summary": "Ab dem 2. Zyklus, Schritt 0b — laut Schwierigkeitskarte:\n\n1. Legt alle Kriegskarten aus dem Alarmabwurfstapel des letzten Zyklus und alle Situationskarten auf separate Abwurfstapel für jede Stufe.\n2. Legt die vorgegebene Anzahl an Situationskarten der Stufe I, II und III verdeckt auf den Alarmstapel.\n3. Legt die vorgegebene Anzahl an Kriegskarten verdeckt auf den Alarmstapel.\n4. Mischt den Alarmstapel.",
-      "description": "**Vorbotenplättchen** (Schritt 0c): Legt 1 Vorbotenplättchen auf 1 beliebige Leiste des Krisentableaus, falls die Schwierigkeitskarte dies vorgibt. Bei mittlerer Schwierigkeit passiert das im 3. Zyklus, bei hoher Schwierigkeit im 2. Zyklus.\n\nBeispiel: Zu Beginn des 2. Zyklus habt ihr in einer leichten Partie noch 1 Alarmkarte im Alarmstapel. Sie bleibt verdeckt. Ihr folgt den Angaben der Schwierigkeitskarte „Leicht\", legt 3 Situationskarten der Stufe I, 2 der Stufe II und 0 der Stufe III sowie 1 Kriegskarte darauf. Danach mischt ihr all diese Karten verdeckt zusammen und bildet so euren Alarmstapel für den 2. Zyklus.",
+      "summary": "Ab dem 2. Zyklus, Schritt 0b — laut deiner Schwierigkeitskarte:\n\n1. Lege alle Kriegskarten aus dem Alarmabwurfstapel des letzten Zyklus und alle Situationskarten auf separate Abwurfstapel für jede Stufe.\n2. Lege die vorgegebene Anzahl an Situationskarten der Stufe I, II und III verdeckt auf den Alarmstapel.\n3. Lege die vorgegebene Anzahl an Kriegskarten verdeckt auf den Alarmstapel.\n4. Mische den Alarmstapel.",
+      "description": "**Vorbotenplättchen** (Schritt 0c): Lege 1 Vorbotenplättchen auf 1 beliebige Leiste des Krisentableaus, falls die Schwierigkeitskarte dies vorgibt. Bei mittlerer Schwierigkeit passiert das im 3. Zyklus, bei hoher Schwierigkeit im 2. Zyklus.\n\nBeispiel: Zu Beginn des 2. Zyklus hast du in einer leichten Partie noch 1 Alarmkarte im Alarmstapel. Sie bleibt verdeckt. Du folgst den Angaben der Schwierigkeitskarte „Leicht\", legst 3 Situationskarten der Stufe I, 2 der Stufe II und 0 der Stufe III sowie 1 Kriegskarte darauf. Danach mischst du all diese Karten verdeckt zusammen und bildest so deinen Alarmstapel für den 2. Zyklus.",
       "group": "vorbereitung",
       "timing": [],
       "tags": [
@@ -370,7 +375,7 @@
         "Krise",
         "Zyklus",
         "Anleitung S. 7",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 20030,
@@ -406,42 +411,18 @@
       "id": "zugreihenfolge-ermitteln",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Zugreihenfolge ermitteln",
+      "name": "Schritt 3 – Zugreihenfolge entfällt",
       "image": null,
-      "summary": "**Schritt 3** — Ermittelt eure Zugreihenfolge für diesen Zyklus: Sie entspricht euren Reihenfolgeplättchen auf dem Galaxietableau von links nach rechts.",
+      "summary": "**Schritt 3** überspringst du: Allein führst du jeden Zug selbst aus, eine Zugreihenfolge gibt es nicht.",
       "description": "",
       "group": "vorbereitung",
       "timing": [],
       "tags": [
-        "Zugreihenfolge",
         "Zyklus",
         "Anleitung S. 8"
       ],
       "warnings": [],
       "sort_order": 20050,
-      "source": {
-        "document": "VOIDFALL-Spielanleitung-DE",
-        "page": 8
-      }
-    },
-    {
-      "id": "zugreihenfolge-modus",
-      "type": "reference",
-      "category": "regeln_solo",
-      "name": "Zugreihenfolge festlegen (Koop & Solo)",
-      "image": null,
-      "summary": "Spielt ihr kooperativ, dürft ihr gemeinsam über eure Zugreihenfolge entscheiden. Im Solomodus überspringt ihr diesen Schritt.",
-      "description": "",
-      "group": "vorbereitung",
-      "timing": [],
-      "tags": [
-        "Zugreihenfolge",
-        "Zyklus",
-        "Anleitung S. 8",
-        "Nur Solo/Koop"
-      ],
-      "warnings": [],
-      "sort_order": 20052,
       "source": {
         "document": "VOIDFALL-Spielanleitung-DE",
         "page": 8
@@ -475,8 +456,8 @@
       "category": "regeln_solo",
       "name": "Textboxen Galaktischer Ereignisse befolgen",
       "image": null,
-      "summary": "**Schritt 5** — Auf der linken Seite der Galaktischen Ereignisse stehen mehrere Textboxen. Befolgt sie alle von oben nach unten in dieser Reihenfolge:\n\n- **Durchgehend umrandet** — ihr müsst alle Anweisungen komplett befolgen. Könnt ihr sie nicht vollständig befolgen, müsst ihr die gesamte Textbox überspringen.\n- **Durchbrochen grau umrandet** — ihr dürft die Anweisungen befolgen, dürft sie aber auch überspringen.",
-      "description": "**Symbol oben links einer Textbox:**\n- Zugreihenfolge-Symbol — führt es jeweils in Zugreihenfolge aus und fahrt dann mit der nächsten Textbox fort.\n- Gruppen-Symbol — führt es gemeinsam als Gruppe 1-mal aus.\n- **Permanente** Ereignisse (∞-Symbol) betreffen euch den ganzen Zyklus lang, inklusive all eurer Züge und der Auswertungsphase.\n- **Verzögerte** Ereignisse (Uhr-Symbol) treten erst nach eurem jeweiligen 1. Zug ein. Vergesst ihren Effekt nicht.\n\n**Leereberührte Sektoren als Ziel:** Benachbarte Sektoren müssen an einen eurer Sektoren angrenzen. Ist das Ziel 1 Sektor, müsst ihr alle in Zugreihenfolge jeweils 1 zulässigen Sektor finden und in diesem **alle** vorgegebenen Anweisungen der Textbox ausführen. Findet ihr keinen zulässigen Sektor, müsst ihr **alle** Anweisungen der Textbox ignorieren.\n\nMögliche Effekte:\n- Nehmt 1 [[icon:beute]] / [[icon:hinterlassenschaft]] / [[icon:ruhmplaettchen-beliebigen-werts]] aus dem allgemeinen Vorrat und legt es verdeckt (Ruhmplättchen offen) in die Mitte des Sektors. Es gibt kein Limit für diese Plättchen in Sektoren.\n- Nehmt 1 [[icon:verteidigungsanlage]] oder [[icon:gilde]] aus dem allgemeinen Vorrat und legt sie auf das am weitesten links liegende freie passende Feld des Sektors.\n- Nehmt 1 [[icon:flotte-der-leere]] aus dem allgemeinen Vorrat und legt sie auf den Flottenverband der Leere in diesem Sektor. Das Standardlimit für Flottenverbände beträgt 1 (also 3 Flotten) pro Sektor. Einige besondere Sektoren haben besondere Limits. Ihr könnt keine Flotten der Leere platzieren, falls ihr damit das Limit überschreiten würdet.\n- Erhaltet 1 [[icon:verderbnis]].\n- Nehmt 1 Verderbnismarker aus dem allgemeinen Vorrat und platziert ihn auf dem Agendatableau zwischen dem vorgegebenen Agendastapel und der offenen Agenda. Ignoriert diese Anweisung, falls dort bereits ein Verderbnismarker liegt.\n\nWeitere Erläuterungen zu den Symbolen findet ihr im Glossar bei den entsprechenden Galaktischen Ereignissen.",
+      "summary": "**Schritt 5** — Auf der linken Seite der Galaktischen Ereignisse stehen mehrere Textboxen. Befolge sie alle von oben nach unten in dieser Reihenfolge:\n\n- **Durchgehend umrandet** — du musst alle Anweisungen komplett befolgen. Kannst du sie nicht vollständig befolgen, musst du die gesamte Textbox überspringen.\n- **Durchbrochen grau umrandet** — du darfst die Anweisungen befolgen, darfst sie aber auch überspringen.",
+      "description": "**Symbol oben links einer Textbox:** Allein handelst du jede Textbox genau 1-mal ab — unabhängig davon, ob sie das Zugreihenfolge- oder das Gruppen-Symbol trägt.\n\n- **Permanente** Ereignisse (∞-Symbol) betreffen dich den ganzen Zyklus lang, inklusive all deiner Züge und der Auswertungsphase.\n- **Verzögerte** Ereignisse (Uhr-Symbol) treten erst nach deinem 1. Zug ein. Vergiss ihren Effekt nicht.\n\n**Leereberührte Sektoren als Ziel:** Benachbarte Sektoren müssen an einen deiner Sektoren angrenzen. Ist das Ziel 1 Sektor, musst du 1 zulässigen Sektor finden und in diesem **alle** vorgegebenen Anweisungen der Textbox ausführen. Findest du keinen zulässigen Sektor, musst du **alle** Anweisungen der Textbox ignorieren.\n\nMögliche Effekte:\n- Nimm 1 [[icon:beute]] / [[icon:hinterlassenschaft]] / [[icon:ruhmplaettchen-beliebigen-werts]] aus dem allgemeinen Vorrat und lege es verdeckt (Ruhmplättchen offen) in die Mitte des Sektors. Es gibt kein Limit für diese Plättchen in Sektoren.\n- Nimm 1 [[icon:verteidigungsanlage]] oder [[icon:gilde]] aus dem allgemeinen Vorrat und lege sie auf das am weitesten links liegende freie passende Feld des Sektors.\n- Nimm 1 [[icon:flotte-der-leere]] aus dem allgemeinen Vorrat und lege sie auf den Flottenverband der Leere in diesem Sektor. Das Standardlimit für Flottenverbände beträgt 1 (also 3 Flotten) pro Sektor. Einige besondere Sektoren haben besondere Limits. Du kannst keine Flotten der Leere platzieren, falls du damit das Limit überschreiten würdest.\n- Erhalte 1 [[icon:verderbnis]].\n- Nimm 1 Verderbnismarker aus dem allgemeinen Vorrat und platziere ihn auf dem Agendatableau zwischen dem vorgegebenen Agendastapel und der offenen Agenda. Ignoriere diese Anweisung, falls dort bereits ein Verderbnismarker liegt.\n\nWeitere Erläuterungen zu den Symbolen findest du im Glossar bei den entsprechenden Galaktischen Ereignissen.",
       "group": "vorbereitung",
       "timing": [],
       "tags": [
@@ -492,12 +473,34 @@
       }
     },
     {
+      "id": "vorahnung",
+      "type": "reference",
+      "category": "regeln_solo",
+      "name": "Vorahnung Galaktischer Ereignisse",
+      "image": null,
+      "summary": "Selten dürft ihr das nächste Galaktische Ereignis vorausahnen. Seht euch dazu die 2 obersten Galaktischen Ereignisse des nächsten Zyklus an.\n- Im 1. Zyklus sind dies Galaktische Ereignisse des 2. Zyklus.\n- Im 2. Zyklus sind dies Galaktische Ereignisse des 3. Zyklus.\n- Ignoriert im 3. Zyklus diesen Effekt.\n\nLegt 1 beliebiges der beiden Galaktischen Ereignisse **auf** den Stapel zurück und das andere **darunter**.",
+      "description": "",
+      "group": "vorbereitung",
+      "timing": [],
+      "tags": [
+        "Galaktisches Ereignis",
+        "Vorahnung",
+        "Anleitung S. 33"
+      ],
+      "warnings": [],
+      "sort_order": 20080,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 33
+      }
+    },
+    {
       "id": "fokusphase-ueberblick",
       "type": "reference",
       "category": "regeln_solo",
       "name": "Ablauf der Fokusphase",
       "image": null,
-      "summary": "Die Schritte dieser Phase sind unten auf dem Galaxietableau zusammengefasst (mit gelben Ziffern).\n\nDiese Phase besteht aus so vielen Runden, wie die Zahl oben rechts auf dem aktuellen Galaktischen Ereignis vorgibt.\n\nFührt in Zugreihenfolge jeweils alle folgenden Schritte nacheinander aus.",
+      "summary": "Die Schritte dieser Phase sind unten auf dem Galaxietableau zusammengefasst (mit gelben Ziffern).\n\nDiese Phase besteht aus so vielen Runden, wie die Zahl oben rechts auf dem aktuellen Galaktischen Ereignis vorgibt.\n\nIn jeder Runde führst du genau 1 Zug aus und darin alle folgenden Schritte nacheinander.",
       "description": "",
       "group": "fokusphase",
       "timing": [],
@@ -517,9 +520,9 @@
       "id": "rundenablauf",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Rundenablauf (Koop & Solo)",
+      "name": "Rundenablauf",
       "image": null,
-      "summary": "Deckt jede Runde den obersten Alarm auf, **bevor ihr mit euren Zügen beginnt**. Dieser Alarm gilt für die aktuelle Runde.\n\nPro Zug führt ihr 5 Schritte aus: **Krise aufdecken**, **Auswählen**, **Agieren**, **Aufräumen** und **Anwachsen der Leere**.",
+      "summary": "Decke jede Runde den obersten Alarm auf, **bevor du deinen Zug beginnst**. Dieser Alarm gilt für die aktuelle Runde.\n\nPro Zug führst du 5 Schritte aus: **Krise aufdecken**, **Auswählen**, **Agieren**, **Aufräumen** und **Anwachsen der Leere**.",
       "description": "",
       "group": "fokusphase",
       "timing": [],
@@ -529,10 +532,10 @@
         "Zug",
         "Krise",
         "Anleitung S. 9",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
-      "sort_order": 30016,
+      "sort_order": 30015,
       "source": {
         "document": "VOIDFALL-Spielanleitung-DE",
         "page": 9
@@ -544,8 +547,8 @@
       "category": "regeln_solo",
       "name": "Krise aufdecken",
       "image": null,
-      "summary": "Ist euer aktueller Alarm eine **Situation**, müsst ihr die oberste vorgegebene Krise (Stufe I, II oder III) aufdecken und sie auf das entsprechende Feld links auf dem Krisentableau legen. Diese Krise ist eure „aktuelle Krise\". Ist ein Krisenstapel leer, mischt die abgeworfenen entsprechenden Krisen und bildet mit ihnen einen neuen Krisenstapel.\n\nIst euer aktueller Alarm ein **Krieg**, überspringt diesen Schritt.",
-      "description": "Beispiel: In eurem Zug ist eine Situation (Alarm) der Stufe I aktiv. Also zieht ihr eine neue Krise der Stufe I, die eure aktuelle Krise wird.",
+      "summary": "Ist dein aktueller Alarm eine **Situation**, musst du die oberste vorgegebene Krise (Stufe I, II oder III) aufdecken und sie auf das entsprechende Feld links auf dem Krisentableau legen. Diese Krise ist deine „aktuelle Krise\". Ist ein Krisenstapel leer, mische die abgeworfenen entsprechenden Krisen und bilde mit ihnen einen neuen Krisenstapel.\n\nIst dein aktueller Alarm ein **Krieg**, überspringe diesen Schritt.",
+      "description": "Beispiel: In deinem Zug ist eine Situation (Alarm) der Stufe I aktiv. Also ziehst du eine neue Krise der Stufe I, die deine aktuelle Krise wird.",
       "group": "fokusphase",
       "timing": [],
       "tags": [
@@ -553,7 +556,7 @@
         "Alarm",
         "Fokusphase",
         "Anleitung S. 9",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 30020,
@@ -587,12 +590,12 @@
       }
     },
     {
-      "id": "gemeinsame-heroische-fokuskarten-nutzen",
+      "id": "heroische-fokuskarten-nutzen",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Gemeinsame & Heroische Fokuskarten nutzen",
+      "name": "Heroische Fokuskarten nutzen",
       "image": null,
-      "summary": "Ihr dürft beim Auswählen auch die Gemeinsamen und Heroischen Fokuskarten aus der Auslage nutzen. Werft dazu 1 Fokuskarte von eurer Hand auf euren eigenen Abwurfstapel ab und nehmt 1 entsprechende Gemeinsame oder Heroische Fokuskarte aus der Auslage. Werft für die Führung 1 beliebige Fokuskarte ab. Füllt die Auslage danach **nicht** auf.",
+      "summary": "Du darfst beim Auswählen auch die Heroischen Fokuskarten aus der Auslage nutzen. Wirf dazu 1 Fokuskarte von deiner Hand auf deinen eigenen Abwurfstapel ab und nimm 1 entsprechende Heroische Fokuskarte aus der Auslage. Wirf für die Führung 1 beliebige Fokuskarte ab. Fülle die Auslage danach **nicht** auf.",
       "description": "",
       "group": "fokusphase",
       "timing": [],
@@ -600,7 +603,7 @@
         "Fokus",
         "Fokusphase",
         "Anleitung S. 9",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 30031,
@@ -679,44 +682,20 @@
       }
     },
     {
-      "id": "gemeinsame-fokus-effekte",
-      "type": "reference",
-      "category": "regeln_solo",
-      "name": "Effekte von Gemeinsamen Fokussen",
-      "image": null,
-      "summary": "Spielt ihr in einer kooperativen Partie einen Gemeinsamen Fokus aus, können einige Effekte auch von anderen genutzt werden. Jeder Effekt gibt an, wer ihn nutzen kann:\n\n- **Nur du**\n- **Du oder 1 anderes Haus**\n- **Du und/oder 1 anderes Haus** — handelt den Effekt separat ab\n- **Du und/oder 1 anderes Haus** — ihr könnt jedoch nicht denselben Effekt nutzen",
-      "description": "",
-      "group": "fokusphase",
-      "timing": [],
-      "tags": [
-        "Fokus",
-        "Koop",
-        "Fokusphase",
-        "Anleitung S. 11",
-        "Nur Solo/Koop"
-      ],
-      "warnings": [],
-      "sort_order": 30070,
-      "source": {
-        "document": "VOIDFALL-Spielanleitung-DE",
-        "page": 11
-      }
-    },
-    {
       "id": "krise-bestehen",
       "type": "reference",
       "category": "regeln_solo",
       "name": "Krise bestehen",
       "image": null,
-      "summary": "Während eurer Aktionen könnt ihr **Krisen bestehen**. Dies kann die **aktuelle** Krise sein oder eine **andauernde** Krise von der Ökonomischen oder Militärischen Leiste. Besteht ihr eine Startkrise, entfernt sie aus dem Spiel. Werft ihr eine andauernde Krise ab, müsst ihr danach alle Krisen auf derselben andauernden Krisenleiste rechts davon nach links verschieben, um die Lücke zu schließen.",
-      "description": "Beispiel: In eurem Zug besteht ihr die 2. Krise der Ökonomischen Leiste. Danach werft ihr die bestandene Krise ab und verschiebt die Krise rechts davon nach links.\n\nEine Krise zu bestehen ist keine Aktion. Ihr allein müsst nur alle auf ihr vorgegebenen Voraussetzungen erfüllen und dürft sie dann sofort abhandeln — auch außerhalb eures eigenen Zugs. Niemand anderes kann euch bei der Erfüllung von Voraussetzungen helfen.",
+      "summary": "Während deiner Aktionen kannst du **Krisen bestehen**. Dies kann die **aktuelle** Krise sein oder eine **andauernde** Krise von der Ökonomischen oder Militärischen Leiste. Bestehst du eine Startkrise, entferne sie aus dem Spiel. Wirfst du eine andauernde Krise ab, musst du danach alle Krisen auf derselben andauernden Krisenleiste rechts davon nach links verschieben, um die Lücke zu schließen.",
+      "description": "Beispiel: In deinem Zug bestehst du die 2. Krise der Ökonomischen Leiste. Danach wirfst du die bestandene Krise ab und verschiebst die Krise rechts davon nach links.\n\nEine Krise zu bestehen ist keine Aktion. Du musst nur alle auf ihr vorgegebenen Voraussetzungen erfüllen und darfst sie dann sofort abhandeln.",
       "group": "fokusphase",
       "timing": [],
       "tags": [
         "Krise",
         "Fokusphase",
         "Anleitung S. 11",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 30080,
@@ -731,15 +710,15 @@
       "category": "regeln_solo",
       "name": "Die 3 Arten von Krisen-Voraussetzungen",
       "image": null,
-      "summary": "Es gibt 3 verschiedene Arten von Voraussetzungen von Krisen:\n\n- **A** — Für das Bestehen einiger Krisen müsst ihr etwas auf bestimmte Weise oder eingeschränkt tun. Ihr müsst die vorgegebene Aktion tatsächlich nutzen und sie auf die vorgegebene Weise ausführen.\n- **B** — Für das Bestehen einiger Krisen müsst ihr etwas unter einer bestimmten Bedingung tun. Ihr müsst die vorgegebene Aktion tatsächlich nutzen und überprüfen, ob ihr die Bedingung erfüllt. Manche Krisen verlangen, dass ihr diese Bedingung vor oder nach der Aktion erfüllt. „Habe … und\" bedeutet, dass ihr die Bedingung erfüllen müsst, bevor ihr das Verlangte tut.\n- **C** — Für das Bestehen einiger Krisen müsst ihr vor/nach einer Handlung zusätzliche Kosten zahlen. Ihr müsst die vorgegebene Aktion tatsächlich nutzen und direkt davor/danach die vollständigen Kosten zahlen.",
-      "description": "Ihr könnt Krisen auch in der Vorbereitungs- oder Auswertungsphase bestehen und auch in den Zügen der anderen — durch Effekte von Gemeinsamen Fokussen, die euch das Erfüllen der Voraussetzungen ermöglichen.\n\nEinige Gemeinsame/Heroische Fokuskarten lassen euch Krisen abwerfen, ohne sie zu bestehen (z. B. „Wirf 1 beliebige Krise ab\", „Wirf 1 Ökonomische oder Allgemeine Krise ab\", „Wirf 1 Militärische oder Allgemeine Krise ab\").",
+      "summary": "Es gibt 3 verschiedene Arten von Voraussetzungen von Krisen:\n\n- **A** — Für das Bestehen einiger Krisen musst du etwas auf bestimmte Weise oder eingeschränkt tun. Du musst die vorgegebene Aktion tatsächlich nutzen und sie auf die vorgegebene Weise ausführen.\n- **B** — Für das Bestehen einiger Krisen musst du etwas unter einer bestimmten Bedingung tun. Du musst die vorgegebene Aktion tatsächlich nutzen und überprüfen, ob du die Bedingung erfüllst. Manche Krisen verlangen, dass du diese Bedingung vor oder nach der Aktion erfüllst. „Habe … und\" bedeutet, dass du die Bedingung erfüllen musst, bevor du das Verlangte tust.\n- **C** — Für das Bestehen einiger Krisen musst du vor/nach einer Handlung zusätzliche Kosten zahlen. Du musst die vorgegebene Aktion tatsächlich nutzen und direkt davor/danach die vollständigen Kosten zahlen.",
+      "description": "Du kannst Krisen auch in der Vorbereitungs- oder Auswertungsphase bestehen.\n\nEinige Heroische Fokuskarten lassen dich Krisen abwerfen, ohne sie zu bestehen (z. B. „Wirf 1 beliebige Krise ab\", „Wirf 1 Ökonomische oder Allgemeine Krise ab\", „Wirf 1 Militärische oder Allgemeine Krise ab\").",
       "group": "fokusphase",
       "timing": [],
       "tags": [
         "Krise",
         "Fokusphase",
         "Anleitung S. 11",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 30090,
@@ -844,9 +823,9 @@
       "id": "aufraeumen-fokuskarte-abwerfen",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Aufräumen – Fokuskarte abwerfen (Koop & Solo)",
+      "name": "Aufräumen – Fokuskarte abwerfen",
       "image": null,
-      "summary": "Nehmt ausgespielte Gemeinsame/Heroische Fokuskarten aus dem Spiel. Werft ansonsten eure ausgewählte Fokuskarte offen ab. Bildet euren eigenen Abwurfstapel.",
+      "summary": "Nimm ausgespielte Heroische Fokuskarten aus dem Spiel. Wirf ansonsten deine ausgewählte Fokuskarte offen ab. Bilde deinen eigenen Abwurfstapel.",
       "description": "",
       "group": "fokusphase",
       "timing": [],
@@ -855,10 +834,10 @@
         "Aufräumen",
         "Fokusphase",
         "Anleitung S. 12",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
-      "sort_order": 30141,
+      "sort_order": 30140,
       "source": {
         "document": "VOIDFALL-Spielanleitung-DE",
         "page": 12
@@ -870,7 +849,7 @@
       "category": "regeln_solo",
       "name": "Rundenfortsetzung",
       "image": null,
-      "summary": "Hast du deinen Zug vollständig durchgeführt, beginnt der nächste Zug im Uhrzeigersinn. Sind alle an der Reihe gewesen, ist die aktuelle Runde beendet. Beginnt danach eine neue Runde. Sind alle Runden des aktuellen Zyklus gespielt, endet die Fokusphase und die Auswertungsphase beginnt.",
+      "summary": "Hast du deinen Zug vollständig durchgeführt, ist die aktuelle Runde beendet. Beginne danach eine neue Runde. Sind alle Runden des aktuellen Zyklus gespielt, endet die Fokusphase und die Auswertungsphase beginnt.",
       "description": "",
       "group": "fokusphase",
       "timing": [],
@@ -901,7 +880,7 @@
         "Leere",
         "Fokusphase",
         "Anleitung S. 13",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 40010,
@@ -926,7 +905,7 @@
         "Vorboten",
         "Krise",
         "Anleitung S. 13",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 40020,
@@ -951,7 +930,7 @@
         "Gefecht",
         "Katastrophe",
         "Anleitung S. 14",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 40030,
@@ -966,8 +945,8 @@
       "category": "regeln_solo",
       "name": "Katastrophen-Grenze",
       "image": null,
-      "summary": "Musst du ein Vorbotenplättchen platzieren, aber alle Felder sind belegt, kommt es zur Katastrophe:\nDu musst entweder 1 Verderbnis aus einem deiner Sektoren entfernen ODER 5 beliebige Ressourcen abgeben (keine Gilden). Danach legst du **alle** Vorbotenplättchen in den Vorrat zurück.\n\n**Wichtig:** Löst ihr die 4. Katastrophe in einer Partie aus, habt ihr die Partie **sofort verloren**.",
-      "description": "Legt beim Auslösen einer Katastrophe 1 [[icon:katastrophe]] auf das Tableau, um die Anzahl festzuhalten.",
+      "summary": "Musst du ein Vorbotenplättchen platzieren, aber alle Felder sind belegt, kommt es zur Katastrophe:\nDu musst entweder 1 Verderbnis aus einem deiner Sektoren entfernen ODER 5 beliebige Ressourcen abgeben (keine Gilden). Danach legst du **alle** Vorbotenplättchen in den Vorrat zurück.\n\n**Wichtig:** Löst du die 4. Katastrophe in einer Partie aus, hast du die Partie **sofort verloren**.",
+      "description": "Lege beim Auslösen einer Katastrophe 1 [[icon:katastrophe]] auf das Tableau, um die Anzahl festzuhalten.",
       "group": "leere",
       "timing": [],
       "tags": [
@@ -975,7 +954,7 @@
         "Leere",
         "Verderbnis",
         "Anleitung S. 14",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 40040,
@@ -990,16 +969,15 @@
       "category": "regeln_solo",
       "name": "Variante: Vorbestimmter Fokus",
       "image": null,
-      "summary": "Möchtet ihr eine planbarere Partie spielen, könnt ihr diese Variante nutzen:\nJeder wählt zu Beginn der Fokusphase 1 seiner Fokuskarten verdeckt aus. Alle decken sie gleichzeitig auf. In dieser Runde **müssen** alle ihre aufgedeckte Karte als Fokus ausspielen. In den folgenden Runden der Phase spielt ihr normal weiter.",
+      "summary": "Möchtest du eine planbarere Partie spielen, kannst du diese Variante nutzen:\nWähle zu Beginn der Fokusphase 1 deiner Fokuskarten verdeckt aus und decke sie dann auf. In dieser Runde **musst** du die aufgedeckte Karte als Fokus ausspielen. In den folgenden Runden der Phase spielst du normal weiter.",
       "description": "",
       "group": "leere",
       "timing": [],
       "tags": [
         "Variante",
         "Fokus",
-        "Koop",
         "Anleitung S. 14",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 40050,
@@ -1009,163 +987,20 @@
       }
     },
     {
-      "id": "vorahnung",
-      "type": "reference",
-      "category": "regeln_solo",
-      "name": "Vorahnung Galaktischer Ereignisse",
-      "image": null,
-      "summary": "Selten dürft ihr das nächste Galaktische Ereignis vorausahnen. Seht euch dazu die 2 obersten Galaktischen Ereignisse des nächsten Zyklus an.\n- Im 1. Zyklus sind dies Galaktische Ereignisse des 2. Zyklus.\n- Im 2. Zyklus sind dies Galaktische Ereignisse des 3. Zyklus.\n- Ignoriert im 3. Zyklus diesen Effekt.\n\nLegt 1 beliebiges der beiden Galaktischen Ereignisse **auf** den Stapel zurück und das andere **darunter**.",
-      "description": "",
-      "group": "leere",
-      "timing": [],
-      "tags": [
-        "Galaktisches Ereignis",
-        "Vorahnung",
-        "Anleitung S. 33"
-      ],
-      "warnings": [],
-      "sort_order": 40060,
-      "source": {
-        "document": "VOIDFALL-Spielanleitung-DE",
-        "page": 33
-      }
-    },
-    {
-      "id": "gefechte-koop-solo",
-      "type": "reference",
-      "category": "regeln_solo",
-      "name": "Gefechte gegen die Leere (Koop & Solo)",
-      "image": null,
-      "summary": "In jedem Zyklus sind Gefechte euer **1. Schritt** in der **Auswertungsphase**. Sie können auch am Ende eures Zuges durch **Kriegsalarme** oder aufgedruckte Konsequenzen von Krisen ausgelöst werden. Letztere betreffen nur die Person, die gerade dran ist.",
-      "description": "",
-      "group": "leere",
-      "timing": [],
-      "tags": [
-        "Gefecht",
-        "Leere",
-        "Auswertungsphase",
-        "Kriegsalarm",
-        "Anleitung S. 33",
-        "Nur Solo/Koop"
-      ],
-      "warnings": [],
-      "sort_order": 40080,
-      "source": {
-        "document": "VOIDFALL-Spielanleitung-DE",
-        "page": 33
-      }
-    },
-    {
-      "id": "gefechte-staerke",
-      "type": "reference",
-      "category": "regeln_solo",
-      "name": "Flottenstärke der Leere bei Gefechten",
-      "image": null,
-      "summary": "Bei Gefechten **dringt die Leere in deinen Sektor ein**. Dazu dringt sie mit Flottenverbänden mit einer Anzahl an Flotten der Leere ein, die der Gesamtheit deiner **Verderbnis** auf **Zivilisationsleisten** und **Agenden** entspricht (nicht in deinen Sektoren). Ist diese Anzahl 0, gilt deine Verteidigung als erfolgreich. Nehmt die Flotten der Leere aus dem allgemeinen Vorrat und legt sie in den Kampfsektor.\n\nDie Flottenstärke der Leere kann durch diese Faktoren beeinflusst werden:\n- **Fügt 1** zur Flottenstärke **hinzu**, falls das Gefecht in der Auswertungsphase des **2.** oder **3.** Zyklus stattfindet.",
-      "description": "",
-      "group": "leere",
-      "timing": [],
-      "tags": [
-        "Gefecht",
-        "Flottenstärke",
-        "Verderbnis",
-        "Anleitung S. 33"
-      ],
-      "warnings": [],
-      "sort_order": 40090,
-      "source": {
-        "document": "VOIDFALL-Spielanleitung-DE",
-        "page": 33
-      }
-    },
-    {
-      "id": "gefechte-staerke-koop-solo",
-      "type": "reference",
-      "category": "regeln_solo",
-      "name": "Flottenstärke der Leere Modifikator (Koop & Solo)",
-      "image": null,
-      "summary": "Modifiziert (fügt hinzu oder zieht ab) den Wert der Flottenstärke außerdem um den Wert unter dem Gefechtssymbol der aktuellen Krise, dem Kriegsalarm und des Krisentableaus.",
-      "description": "",
-      "group": "leere",
-      "timing": [],
-      "tags": [
-        "Gefecht",
-        "Flottenstärke",
-        "Krise",
-        "Koop",
-        "Anleitung S. 33",
-        "Nur Solo/Koop"
-      ],
-      "warnings": [],
-      "sort_order": 40100,
-      "source": {
-        "document": "VOIDFALL-Spielanleitung-DE",
-        "page": 33
-      }
-    },
-    {
-      "id": "gefechte-zielsektor",
-      "type": "reference",
-      "category": "regeln_solo",
-      "name": "Bestimmung des Zielsektors",
-      "image": null,
-      "summary": "In welchen deiner Sektoren die Leere eindringt, bestimmt ihr schrittweise folgendermaßen:\n- **A)** Die Leere kann nur Sektoren für Gefechte auswählen, die benachbart zu einem leereberührten Sektor sind (niemals Heimatsektoren). Sektoren ohne Flotten sind **keine** leereberührten Sektoren. Sie wählt **nie** leereresistente Sektoren aus. Befindet sich ein **Vorbote** am Rand des Sektors oder in einem benachbarten Sektor, gilt der Sektor als benachbart zu einem leereberührten Sektor.\n- **B)** Gibt es mehrere mögliche Zielsektoren, bevorzugt die Leere die Sektoren, in denen sie **gewinnt** oder einen **Gleichstand** erzielt. Ermittelt das für jeden möglichen Zielsektor nach den üblichen Kampfregeln.\n- **C)** Gibt es mehrere mögliche Zielsektoren, bevorzugt die Leere die Sektoren, in denen du im Kampf **die meisten Flotten zurückrufen musst**.\n\nGibt es weiterhin mehrere mögliche Zielsektoren präferiert sie in dieser Reihenfolge:\n1. den reinen Sektor.\n2. den Sektor mit der höchsten Bevölkerung.\n3. den Sektor mit den meisten Gilden.\n4. einen zufälligen Sektor.",
-      "description": "Werden Gefechte durch die Auswertungsphase ausgelöst, wählt ihr in Zugreihenfolge eure jeweiligen Zielsektoren aus.\nFührt die Gefechte wie übliche Kämpfe durch, in denen ihr die Defensive seid und löst dementsprechend eure Technologien aus. **Gewinnt** die Leere oder kommt es zu einem **Gleichstand**, gelingt der Leere die Invasion *(siehe S. 27)*.",
-      "group": "leere",
-      "timing": [],
-      "tags": [
-        "Gefecht",
-        "Zielsektor",
-        "Anleitung S. 33"
-      ],
-      "warnings": [],
-      "sort_order": 40110,
-      "source": {
-        "document": "VOIDFALL-Spielanleitung-DE",
-        "page": 33
-      }
-    },
-    {
-      "id": "gefechte-kriegsalarme-krisen",
-      "type": "reference",
-      "category": "regeln_solo",
-      "name": "Gefechte von Kriegs Alarmen und Krisen (Koop & Solo)",
-      "image": null,
-      "summary": "Eigenschaften von Kriegs Alarmen und Konsequenzen von Krisen beeinflussen die Flottenstärke der Leere in Gefechten.\n\nEinige Gefechtseffekte treten nur bei deiner **erfolgreichen Verteidigung** auf. Auch diese sind für dich meist negativ – sehr selten positiv. Ist die Flottenstärke der Leere 0, gilt dein Sektor auch als erfolgreich verteidigt und du musst den Effekt ausführen.\n\nManche Effekte fordern, dass du dadurch 1 Flotte der Leere oder 1 Verteidigungsanlage in einem **benachbarten leereberührten Sektor** einsetzen/errichten musst. Du musst dazu einen zum Kampfsektor benachbarten Sektor auswählen. Gibt es keinen, wähle (falls möglich) einen anderen leereberührten Sektor.",
-      "description": "",
-      "group": "leere",
-      "timing": [],
-      "tags": [
-        "Gefecht",
-        "Kriegsalarm",
-        "Krise",
-        "Koop",
-        "Anleitung S. 34",
-        "Nur Solo/Koop"
-      ],
-      "warnings": [],
-      "sort_order": 40120,
-      "source": {
-        "document": "VOIDFALL-Spielanleitung-DE",
-        "page": 34
-      }
-    },
-    {
       "id": "vorboten",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Vorboten (Koop & Solo)",
+      "name": "Vorboten",
       "image": null,
-      "summary": "Vorboten sind ehemalige Mitglieder des Hauses Novarchon. Durch die Leere verderbt und mutiert dienen sie nun als Späher und Hüter. Vorboten können an mehreren Orten auftauchen:\n- Am Rand eines Sektors. Ihr könnt nicht mit ihnen interagieren.\n- In einem Wurmloch-Sektor. Ihr könnt nicht mit ihnen interagieren.\n- In einem Sektor, normalerweise gemeinsam mit Flotten der Leere.\n- Auf dem Krisentableau: Sie blockieren dort Felder der Militärischen oder Ökonomischen Leiste.\n- Im allgemeinen Vorrat.\n\nMusst du **1 Vorboten** in einem Sektor **platzieren**, nimm ihn aus dem allgemeinen Vorrat und lege ihn auf einen zu dir benachbarten leereberührten Sektor. Gibt es mehrere mögliche Sektoren, musst du einen wählen, in dem noch kein Vorbote ist. Ignoriere diesen Effekt, falls es keine benachbarten leereberührten Sektoren gibt oder keine Vorboten mehr im allgemeinen Vorrat zurück.\n\nDürft ihr einen **Vorboten entfernen**, wählt 1 vom Krisentableau oder dem All und legt ihn in den allgemeinen Vorrat zurück.",
+      "summary": "Vorboten sind ehemalige Mitglieder des Hauses Novarchon. Durch die Leere verderbt und mutiert dienen sie nun als Späher und Hüter. Vorboten können an mehreren Orten auftauchen:\n- Am Rand eines Sektors. Du kannst nicht mit ihnen interagieren.\n- In einem Wurmloch-Sektor. Du kannst nicht mit ihnen interagieren.\n- In einem Sektor, normalerweise gemeinsam mit Flotten der Leere.\n- Auf dem Krisentableau: Sie blockieren dort Felder der Militärischen oder Ökonomischen Leiste.\n- Im allgemeinen Vorrat.\n\nMusst du **1 Vorboten** in einem Sektor **platzieren**, nimm ihn aus dem allgemeinen Vorrat und lege ihn auf einen zu dir benachbarten leereberührten Sektor. Gibt es mehrere mögliche Sektoren, musst du einen wählen, in dem noch kein Vorbote ist. Ignoriere diesen Effekt, falls es keine benachbarten leereberührten Sektoren gibt oder keine Vorboten mehr im allgemeinen Vorrat sind.\n\nDarfst du einen **Vorboten entfernen**, wähle 1 vom Krisentableau oder dem All und lege ihn in den allgemeinen Vorrat zurück.",
       "description": "",
       "group": "leere",
       "timing": [],
       "tags": [
         "Vorbote",
         "Leere",
-        "Koop",
         "Anleitung S. 34",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 40130,
@@ -1178,9 +1013,9 @@
       "id": "krisentableau",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Krisentableau (Koop & Solo)",
+      "name": "Krisentableau",
       "image": null,
-      "summary": "Auf dem Krisentableau gibt es 2 Leisten mit Feldern: Die obere Militärische Leiste und die untere Ökonomische Leiste.\nAuf jedem Feld kann je 1 **Krise** oder 1 **Vorbote** liegen. Das freie Feld (ohne Krise oder Vorboten) der Militärischen Leiste, das sich am weitesten links befindet, gibt den aktuellen Flottenstärkemodifikator der Leere in Gefechten an. Das freie Feld (ohne Krise oder Vorboten) der Ökonomischen Leiste, das sich am weitesten links befindet, gibt verschiedene Ressourcen an.\n\n**Übernehmt** ihr erfolgreich Sektoren mit Vorboten, legt sie auf beliebige Krisenleisten. Legt ihr einen Vorboten auf eine Krisenleiste, müsst ihr alle Vorboten und Krisen darauf 1 Feld nach rechts verschieben. Verschiebst du dabei Krisen oder Vorboten über das äußere rechte Feld hinaus, wirf diese ab und lege 1 **Katastrophe** auf ein Katastrophenfeld.\n\nEntfernt ihr einen Vorboten von der Militärischen oder Ökonomischen Leiste, verschiebt alles darauf 1 Feld nach links, um die Lücke zu schließen.",
+      "summary": "Auf dem Krisentableau gibt es 2 Leisten mit Feldern: Die obere Militärische Leiste und die untere Ökonomische Leiste.\nAuf jedem Feld kann je 1 **Krise** oder 1 **Vorbote** liegen. Das freie Feld (ohne Krise oder Vorboten) der Militärischen Leiste, das sich am weitesten links befindet, gibt den aktuellen Flottenstärkemodifikator der Leere in Gefechten an. Das freie Feld (ohne Krise oder Vorboten) der Ökonomischen Leiste, das sich am weitesten links befindet, gibt verschiedene Ressourcen an.\n\n**Übernimmst** du erfolgreich Sektoren mit Vorboten, lege sie auf beliebige Krisenleisten. Legst du einen Vorboten auf eine Krisenleiste, musst du alle Vorboten und Krisen darauf 1 Feld nach rechts verschieben. Verschiebst du dabei Krisen oder Vorboten über das äußere rechte Feld hinaus, wirf diese ab und lege 1 **Katastrophe** auf ein Katastrophenfeld.\n\nEntfernst du einen Vorboten von der Militärischen oder Ökonomischen Leiste, verschiebe alles darauf 1 Feld nach links, um die Lücke zu schließen.",
       "description": "",
       "group": "leere",
       "timing": [],
@@ -1188,9 +1023,8 @@
         "Krisentableau",
         "Vorbote",
         "Krise",
-        "Koop",
         "Anleitung S. 34",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 40140,
@@ -1203,18 +1037,16 @@
       "id": "zufluechte",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Zuflüchte (Koop & Solo)",
+      "name": "Zuflüchte",
       "image": null,
-      "summary": "Zuflüchte sind versteckte Unterschlüpfe, die überall in Domineum die Flüchtlinge aufnehmen, die der Leere entkommen können. Alle Zuflüchte haben 2–4 Flottenfelder, die ihr füllen könnt.\n\n**Errichtet oder erweitert** ihr eine Zuflucht, dürft ihr 1 **inaktive** Flotte auf das unterste freie Flottenfeld der Zuflucht legen. Habt ihr keine inaktive Flotte für den Einsatz in der Zuflucht, dürft ihr 1 (Flotte zurückrufen und die) aktive Flotte deaktivieren.\n\nErreicht ihr einen der folgenden Ökonomischen Erfolge, dürft ihr sofort 1 Zuflucht errichten oder erweitern:\n- **A)** Schafft **mind. 2 Überproduktionen** im selben Zug (siehe S. 20). Ihr dürft dadurch max. 1 Flotte pro Zug in einer Zuflucht einsetzen. Ihr könnt jedoch auch in den Zügen der anderen Überproduktionen auslösen und so in derselben Runde mehrere Flotten in Zuflüchten einsetzen.\n- **B)** Erreicht Stufe IV auf einer eurer Zivilisationsleisten (siehe S. 28).\n- **C)** Habe im 2. Schritt der Auswertungsphase einen **reinen Sektor mit einer Bevölkerung von 6 und mind. 3 Gilden**. Du darfst pro Sektor, der diese Bedingung erfüllt, 1 Flotte in einer Zuflucht einsetzen.",
-      "description": "Belasst stets alle Flotten in der Zuflucht. Solange sie freie Flottenfelder hat, ist sie unvollständig. Belegt ihr alle Flottenfelder einer Zuflucht, ist sie **vollständig** ausgebaut. Wählt dann alle sofort jeweils **1 andere** der folgenden Belohnungen:\n- **D)** Entferne 1 Verderbnis.\n- **E)** Entferne 1 Vorboten.\n- **F)** Erhalte 3 beliebige Ressourcen.\n- **G)** Setze 2 Flotten ein.\n\nDurch das Erfüllen Galaktischer Bestimmungen könnt ihr die ersten beiden Ökonomischen Erfolge auch in der Vorbereitungs- und der Auswertungsphase erreichen. Betrachtet im Falle von Überproduktion diese beiden Phasen als eigene Züge.",
+      "summary": "Zuflüchte sind versteckte Unterschlüpfe, die überall in Domineum die Flüchtlinge aufnehmen, die der Leere entkommen können. Alle Zuflüchte haben 2–4 Flottenfelder, die du füllen kannst.\n\n**Errichtest oder erweiterst** du eine Zuflucht, darfst du 1 **inaktive** Flotte auf das unterste freie Flottenfeld der Zuflucht legen. Hast du keine inaktive Flotte für den Einsatz in der Zuflucht, darfst du 1 (Flotte zurückrufen und die) aktive Flotte deaktivieren.\n\nErreichst du einen der folgenden Ökonomischen Erfolge, darfst du sofort 1 Zuflucht errichten oder erweitern:\n- **A)** Schaffe **mind. 2 Überproduktionen** im selben Zug (siehe S. 20). Du darfst dadurch max. 1 Flotte pro Zug in einer Zuflucht einsetzen.\n- **B)** Erreiche Stufe IV auf einer deiner Zivilisationsleisten (siehe S. 28).\n- **C)** Habe im 2. Schritt der Auswertungsphase einen **reinen Sektor mit einer Bevölkerung von 6 und mind. 3 Gilden**. Du darfst pro Sektor, der diese Bedingung erfüllt, 1 Flotte in einer Zuflucht einsetzen.",
+      "description": "Belasse stets alle Flotten in der Zuflucht. Solange sie freie Flottenfelder hat, ist sie unvollständig. Belegst du alle Flottenfelder einer Zuflucht, ist sie **vollständig** ausgebaut. Wähle dann sofort **1** der folgenden Belohnungen:\n- **D)** Entferne 1 Verderbnis.\n- **E)** Entferne 1 Vorboten.\n- **F)** Erhalte 3 beliebige Ressourcen.\n- **G)** Setze 2 Flotten ein.\n\nDurch das Erfüllen Galaktischer Bestimmungen kannst du die ersten beiden Ökonomischen Erfolge auch in der Vorbereitungs- und der Auswertungsphase erreichen. Betrachte im Falle von Überproduktion diese beiden Phasen als eigene Züge.",
       "group": "leere",
       "timing": [],
       "tags": [
         "Zuflucht",
-        "Koop",
-        "Solo",
         "Anleitung S. 34",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 40150,
@@ -1227,19 +1059,18 @@
       "id": "ausgeloeschte-technologien",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Ausgelöschte Technologien (Koop & Solo)",
+      "name": "Ausgelöschte Technologien",
       "image": null,
-      "summary": "Das Auslöschen von Technologien ist eine besondere Krisenkonsequenz. Das Wissen der Novarchen kann durch den Einfluss der Leere vollkommen ausgelöscht werden.\n- Müsst ihr eine Basistechnologie auslöschen, wählt möglichst 1 aus der Technologieauslage, die **Einflusspunkte** bringt, und legt sie neben das Krisentableau.\n- Müsst ihr eine Fortschrittliche Technologie auslöschen, nehmt stets die vom Galaxietableau, die am weitesten links liegt. Liegen auf dem Galaxietableau keine Fortschrittlichen Technologien oder sind diese noch durch die Fortschrittsbarriere blockiert, ignoriert diese Konsequenz und wählt stattdessen eine andere aus (siehe S. 11).\n\nAusgelöschte Technologien könnt ihr nicht mehr erforschen und sie bringen der Leere am Ende der Partie Einflusspunkte ein.",
+      "summary": "Das Auslöschen von Technologien ist eine besondere Krisenkonsequenz. Das Wissen der Novarchen kann durch den Einfluss der Leere vollkommen ausgelöscht werden.\n- Musst du eine Basistechnologie auslöschen, wähle möglichst 1 aus der Technologieauslage, die **Einflusspunkte** bringt, und lege sie neben das Krisentableau.\n- Musst du eine Fortschrittliche Technologie auslöschen, nimm stets die vom Galaxietableau, die am weitesten links liegt. Liegen auf dem Galaxietableau keine Fortschrittlichen Technologien oder sind diese noch durch die Fortschrittsbarriere blockiert, ignoriere diese Konsequenz und wähle stattdessen eine andere aus (siehe S. 11).\n\nAusgelöschte Technologien kannst du nicht mehr erforschen und sie bringen der Leere am Ende der Partie Einflusspunkte ein.",
       "description": "",
       "group": "leere",
       "timing": [],
       "tags": [
         "Technologie",
         "Auslöschen",
-        "Koop",
         "Krise",
         "Anleitung S. 35",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 40160,
@@ -1249,12 +1080,130 @@
       }
     },
     {
+      "id": "gefechte-ablauf",
+      "type": "reference",
+      "category": "regeln_solo",
+      "name": "Gefechte gegen die Leere",
+      "image": null,
+      "summary": "Gefechte sind Invasionen der Leere in deine Sektoren. In jedem Zyklus sind Gefechte dein **1. Schritt** in der **Auswertungsphase**. Sie können außerdem am Ende deines Zuges durch **Kriegsalarme** oder aufgedruckte Konsequenzen von Krisen ausgelöst werden.",
+      "description": "",
+      "group": "gefechte",
+      "timing": [],
+      "tags": [
+        "Gefecht",
+        "Leere",
+        "Auswertungsphase",
+        "Kriegsalarm",
+        "Anleitung S. 33",
+        "Nur Solo"
+      ],
+      "warnings": [],
+      "sort_order": 45010,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 33
+      }
+    },
+    {
+      "id": "gefechte-staerke",
+      "type": "reference",
+      "category": "regeln_solo",
+      "name": "Flottenstärke der Leere bei Gefechten",
+      "image": null,
+      "summary": "Bei Gefechten **dringt die Leere in deinen Sektor ein**. Dazu dringt sie mit Flottenverbänden mit einer Anzahl an Flotten der Leere ein, die der Gesamtheit deiner **Verderbnis** auf **Zivilisationsleisten** und **Agenden** entspricht (nicht in deinen Sektoren). Ist diese Anzahl 0, gilt deine Verteidigung als erfolgreich. Nimm die Flotten der Leere aus dem allgemeinen Vorrat und lege sie in den Kampfsektor.\n\nDie Flottenstärke der Leere kann durch diese Faktoren beeinflusst werden:\n- **Füge 1** zur Flottenstärke **hinzu**, falls das Gefecht in der Auswertungsphase des **2.** oder **3.** Zyklus stattfindet.",
+      "description": "",
+      "group": "gefechte",
+      "timing": [],
+      "tags": [
+        "Gefecht",
+        "Flottenstärke",
+        "Verderbnis",
+        "Anleitung S. 33"
+      ],
+      "warnings": [],
+      "sort_order": 45020,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 33
+      }
+    },
+    {
+      "id": "gefechte-staerke-modifikator",
+      "type": "reference",
+      "category": "regeln_solo",
+      "name": "Flottenstärke der Leere – Modifikatoren",
+      "image": null,
+      "summary": "Modifiziere (füge hinzu oder ziehe ab) den Wert der Flottenstärke außerdem um den Wert unter dem Gefechtssymbol der aktuellen Krise, dem Kriegsalarm und des Krisentableaus.",
+      "description": "",
+      "group": "gefechte",
+      "timing": [],
+      "tags": [
+        "Gefecht",
+        "Flottenstärke",
+        "Krise",
+        "Anleitung S. 33",
+        "Nur Solo"
+      ],
+      "warnings": [],
+      "sort_order": 45030,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 33
+      }
+    },
+    {
+      "id": "gefechte-zielsektor",
+      "type": "reference",
+      "category": "regeln_solo",
+      "name": "Bestimmung des Zielsektors",
+      "image": null,
+      "summary": "In welchen deiner Sektoren die Leere eindringt, bestimmst du schrittweise folgendermaßen:\n- **A)** Die Leere kann nur Sektoren für Gefechte auswählen, die benachbart zu einem leereberührten Sektor sind (niemals Heimatsektoren). Sektoren ohne Flotten sind **keine** leereberührten Sektoren. Sie wählt **nie** leereresistente Sektoren aus. Befindet sich ein **Vorbote** am Rand des Sektors oder in einem benachbarten Sektor, gilt der Sektor als benachbart zu einem leereberührten Sektor.\n- **B)** Gibt es mehrere mögliche Zielsektoren, bevorzugt die Leere die Sektoren, in denen sie **gewinnt** oder einen **Gleichstand** erzielt. Ermittle das für jeden möglichen Zielsektor nach den üblichen Kampfregeln.\n- **C)** Gibt es mehrere mögliche Zielsektoren, bevorzugt die Leere die Sektoren, in denen du im Kampf **die meisten Flotten zurückrufen musst**.\n\nGibt es weiterhin mehrere mögliche Zielsektoren präferiert sie in dieser Reihenfolge:\n1. den reinen Sektor.\n2. den Sektor mit der höchsten Bevölkerung.\n3. den Sektor mit den meisten Gilden.\n4. einen zufälligen Sektor.",
+      "description": "Wird ein Gefecht in der Auswertungsphase ausgelöst, wählst du den Zielsektor beim Abhandeln dieses Gefechts aus.\nFühre das Gefecht wie einen üblichen Kampf durch, in dem du die Defensive bist, und löse dementsprechend deine Technologien aus. **Gewinnt** die Leere oder kommt es zu einem **Gleichstand**, gelingt der Leere die Invasion *(siehe S. 27)*.",
+      "group": "gefechte",
+      "timing": [],
+      "tags": [
+        "Gefecht",
+        "Zielsektor",
+        "Anleitung S. 33"
+      ],
+      "warnings": [],
+      "sort_order": 45040,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 33
+      }
+    },
+    {
+      "id": "gefechte-kriegsalarme-krisen",
+      "type": "reference",
+      "category": "regeln_solo",
+      "name": "Gefechte von Kriegs Alarmen und Krisen",
+      "image": null,
+      "summary": "Eigenschaften von Kriegs Alarmen und Konsequenzen von Krisen beeinflussen die Flottenstärke der Leere in Gefechten.\n\nEinige Gefechtseffekte treten nur bei deiner **erfolgreichen Verteidigung** auf. Auch diese sind für dich meist negativ – sehr selten positiv. Ist die Flottenstärke der Leere 0, gilt dein Sektor auch als erfolgreich verteidigt und du musst den Effekt ausführen.\n\nManche Effekte fordern, dass du dadurch 1 Flotte der Leere oder 1 Verteidigungsanlage in einem **benachbarten leereberührten Sektor** einsetzen/errichten musst. Du musst dazu einen zum Kampfsektor benachbarten Sektor auswählen. Gibt es keinen, wähle (falls möglich) einen anderen leereberührten Sektor.",
+      "description": "",
+      "group": "gefechte",
+      "timing": [],
+      "tags": [
+        "Gefecht",
+        "Kriegsalarm",
+        "Krise",
+        "Anleitung S. 34",
+        "Nur Solo"
+      ],
+      "warnings": [],
+      "sort_order": 45050,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 34
+      }
+    },
+    {
       "id": "auswertungsphase-ueberblick",
       "type": "reference",
       "category": "regeln_solo",
       "name": "Ablauf der Auswertungsphase",
       "image": null,
-      "summary": "Die Schritte dieser Phase sind rechts auf dem Galaxietableau zusammengefasst (mit roten Ziffern).\n\nUm einen Zyklus abzuschließen, führt ihr in Zugreihenfolge jeweils alle Schritte der Auswertungsphase durch. Einige davon könnt ihr parallel ausführen, falls eure Entscheidungen keine Auswirkung auf die anderen haben.",
+      "summary": "Die Schritte dieser Phase sind rechts auf dem Galaxietableau zusammengefasst (mit roten Ziffern).\n\nUm einen Zyklus abzuschließen, führst du alle Schritte der Auswertungsphase nacheinander durch.",
       "description": "",
       "group": "auswertung-ende",
       "timing": [],
@@ -1276,8 +1225,8 @@
       "category": "regeln_solo",
       "name": "1. Galaktische Bestimmungen",
       "image": null,
-      "summary": "Überprüfe die Bestimmungen auf der rechten Seite des aktuellen Galaktischen Ereignisses. Erfüllst du die Bedingung einer Bestimmung, darfst du dir die Belohnung dafür nehmen. Es gibt 2 Arten von Bestimmungen:\n\n- **Blau hinterlegt (und umrahmt):** Könnt ihr nur 1-mal erfüllen.\n- **Gelb hinterlegt (und umrahmt):** Dürft ihr mehrmals erfüllen. Ihr erhaltet die Belohnung so oft, wie ihr die Voraussetzungen erfüllt.\n\nTeilt eine **rote Linie** die Bestimmungen, kannst du nur 1 davon auswählen und erfüllen. Sind sie durch eine **grüne Linie** getrennt, darfst du beide erfüllen.",
-      "description": "Oberhalb des Pfeil-Symbols stehen die Voraussetzungen und unterhalb die Belohnung für ihr Erfüllen.\n\nEine Bestimmung zu erfüllen kann im Koop/Solo-Modus zum Bestehen einer andauernden Krise führen.",
+      "summary": "Überprüfe die Bestimmungen auf der rechten Seite des aktuellen Galaktischen Ereignisses. Erfüllst du die Bedingung einer Bestimmung, darfst du dir die Belohnung dafür nehmen. Es gibt 2 Arten von Bestimmungen:\n\n- **Blau hinterlegt (und umrahmt):** Kannst du nur 1-mal erfüllen.\n- **Gelb hinterlegt (und umrahmt):** Darfst du mehrmals erfüllen. Du erhältst die Belohnung so oft, wie du die Voraussetzungen erfüllst.\n\nTeilt eine **rote Linie** die Bestimmungen, kannst du nur 1 davon auswählen und erfüllen. Sind sie durch eine **grüne Linie** getrennt, darfst du beide erfüllen.",
+      "description": "Oberhalb des Pfeil-Symbols stehen die Voraussetzungen und unterhalb die Belohnung für ihr Erfüllen.\n\nEine Bestimmung zu erfüllen kann dazu führen, dass du damit eine andauernde Krise bestehst.",
       "group": "auswertung-ende",
       "timing": [],
       "tags": [
@@ -1321,7 +1270,7 @@
       "category": "regeln_solo",
       "name": "3. Die Leere schlägt zurück",
       "image": null,
-      "summary": "Dieser Schritt findet nur in den kooperativen und Solo-Modi statt. Handelt nacheinander ab:\n\n- **Krisentableau:** Handle das Krisentableau ab.\n- **Gefecht:** Handle ein Gefecht ab. Errechne die Flottenstärke der Leere und addiere den Wert des freien Felds der Militärischen Leiste, das sich am weitesten links befindet. Ermittle danach, welchen deiner Sektoren sie angreift. Beträgt die Flottenstärke der Leere in einem Gefecht 0, verteidigst du deinen Sektor sofort erfolgreich.\n- **Ökonomische Leiste:** Zahle die Ressourcen des freien Felds der Ökonomischen Leiste, das sich am weitesten links befindet. Du darfst Nahrung, Energie und Material durch Credits ersetzen. Verliere pro Ressource, die du nicht zahlen kannst, 3 Einflusspunkte. (Du kannst nicht freiwillig Einfluss verlieren, wenn du zahlen könntest.)",
+      "summary": "Handle nacheinander ab:\n\n- **Krisentableau:** Handle das Krisentableau ab.\n- **Gefecht:** Handle ein Gefecht ab. Errechne die Flottenstärke der Leere und addiere den Wert des freien Felds der Militärischen Leiste, das sich am weitesten links befindet. Ermittle danach, welchen deiner Sektoren sie angreift. Beträgt die Flottenstärke der Leere in einem Gefecht 0, verteidigst du deinen Sektor sofort erfolgreich.\n- **Ökonomische Leiste:** Zahle die Ressourcen des freien Felds der Ökonomischen Leiste, das sich am weitesten links befindet. Du darfst Nahrung, Energie und Material durch Credits ersetzen. Verliere pro Ressource, die du nicht zahlen kannst, 3 Einflusspunkte. (Du kannst nicht freiwillig Einfluss verlieren, wenn du zahlen könntest.)",
       "description": "",
       "group": "auswertung-ende",
       "timing": [],
@@ -1331,7 +1280,7 @@
         "Gefecht",
         "Krise",
         "Anleitung S. 15",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 50040,
@@ -1344,9 +1293,9 @@
       "id": "agendaziele",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "4. Agendaziele (bzw. 3. im Kompetitiv)",
+      "name": "4. Agendaziele",
       "image": null,
-      "summary": "Überprüfe die Ziele deiner Agenden unterhalb deines Haustableaus, die **nicht verderbt** sind (reine Agenden). Jede Agenda zeigt verschiedene Bereiche, die du einzeln und separat überprüfst. \n\nAuch Agendaziele könnt ihr entweder 1-mal oder mehrmals erfüllen. Bei Agenden ist die Belohnung **immer Einfluss**.",
+      "summary": "Überprüfe die Ziele deiner Agenden unterhalb deines Haustableaus, die **nicht verderbt** sind (reine Agenden). Jede Agenda zeigt verschiedene Bereiche, die du einzeln und separat überprüfst.\n\nAuch Agendaziele kannst du entweder 1-mal oder mehrmals erfüllen. Bei Agenden ist die Belohnung **immer Einfluss**.",
       "description": "Wichtig: Du kannst fast nie Einflusspunkte durch verderbte Sektoren erhalten oder für die Plättchen auf ihnen. Das ist auch auf den Zielen angegeben.",
       "group": "auswertung-ende",
       "timing": [],
@@ -1390,9 +1339,9 @@
       "id": "ende-der-partie",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Ende der Partie (Koop & Solo)",
+      "name": "Ende der Partie",
       "image": null,
-      "summary": "Nach der Auswertungsphase des 3. Zyklus endet die Partie. Ermittelt zuerst den Einfluss der Leere auf die Galaxie:\n\n- **Basiswert:** 60 / 100 / 140 Einflusspunkte (entsprechend der Schwierigkeit auf der Schwierigkeitskarte).\n- **+30** Einflusspunkte pro im All verbliebenem Riss.\n- **+20** Einflusspunkte pro unvollständiger Zuflucht.\n- **+20** Einflusspunkte pro Katastrophe (rechts am Krisentableau).\n- **+10** Einflusspunkte pro Vorboten im All (nicht auf dem Krisentableau).\n- **+5** Einflusspunkte pro ausgelöschter Technologie.\n- **+5** Einflusspunkte pro andauernder Krise auf dem Krisentableau.\n- **+3** Einflusspunkte pro übrigem gefallenen Haus in Sektoren.\n- **+2** Einflusspunkte pro Verderbnismarker (in Sektoren, auf Agenden und Zivilisationsleisten der Haustableaus und in der Agendaauslage).\n- **+1** Einflusspunkt pro Bevölkerung in leereberührten Sektoren (keine Sektoren ohne Flotten).\n\n**Siegbedingung:** Habt ihr (jeder Spieler einzeln im Koop) jeweils mind. so viele Einflusspunkte wie die Leere, gewinnt ihr. Ansonsten verliert ihr.",
+      "summary": "Nach der Auswertungsphase des 3. Zyklus endet die Partie. Ermittle zuerst den Einfluss der Leere auf die Galaxie:\n\n- **Basiswert:** 60 / 100 / 140 Einflusspunkte (entsprechend der Schwierigkeit auf der Schwierigkeitskarte).\n- **+30** Einflusspunkte pro im All verbliebenem Riss.\n- **+20** Einflusspunkte pro unvollständiger Zuflucht.\n- **+20** Einflusspunkte pro Katastrophe (rechts am Krisentableau).\n- **+10** Einflusspunkte pro Vorboten im All (nicht auf dem Krisentableau).\n- **+5** Einflusspunkte pro ausgelöschter Technologie.\n- **+5** Einflusspunkte pro andauernder Krise auf dem Krisentableau.\n- **+3** Einflusspunkte pro übrigem gefallenen Haus in Sektoren.\n- **+2** Einflusspunkte pro Verderbnismarker (in Sektoren, auf Agenden und Zivilisationsleisten deines Haustableaus und in der Agendaauslage).\n- **+1** Einflusspunkt pro Bevölkerung in leereberührten Sektoren (keine Sektoren ohne Flotten).\n\n**Siegbedingung:** Hast du mind. so viele Einflusspunkte wie die Leere, gewinnst du. Ansonsten verlierst du.",
       "description": "",
       "group": "auswertung-ende",
       "timing": [],
@@ -1402,7 +1351,7 @@
         "Einfluss",
         "Leere",
         "Anleitung S. 16",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 50071,
@@ -1417,7 +1366,7 @@
       "category": "regeln_solo",
       "name": "Ziele für Aktionen, Effekte und Aufgaben",
       "image": null,
-      "summary": "Falls nichts anderes angegeben ist, bist du (deine Sektoren, dein Haustableau und dein Spielbereich) das Ziel von Aktionen, ihren Kosten und all ihrer Effekte. Zahlst du Kosten oder handelst du Effekte ab, interagierst du mit dem allgemeinen Vorrat, dem Galaxietableau und den Auslagen, aber niemals mit den Objekten der anderen. Invasionen visieren benachbarte Sektoren an. Dies sind immer Sektoren, die an mind. 1 deiner Sektoren angrenzen.\n\nErfüllst du eine Galaktische Bestimmung oder das Ziel einer Agenda, berücksichtige nur deinen Spielbereich, deine Sektoren und dein Haustableau. Objekte oder Sektoren der anderen, allgemeine Auslagen und das Galaxietableau können nicht zu deiner Erfüllung beitragen.\n\nGalaktische Ereignisse haben besondere Instruktionen, die leereberührte Sektoren und Agenden anvisieren, die niemandem gehören. Auf ihnen ist ihr Ziel explizit angegeben.",
+      "summary": "Falls nichts anderes angegeben ist, bist du (deine Sektoren, dein Haustableau und dein Spielbereich) das Ziel von Aktionen, ihren Kosten und all ihrer Effekte. Zahlst du Kosten oder handelst du Effekte ab, interagierst du mit dem allgemeinen Vorrat, dem Galaxietableau und den Auslagen. Invasionen visieren benachbarte Sektoren an. Dies sind immer Sektoren, die an mind. 1 deiner Sektoren angrenzen.\n\nErfüllst du eine Galaktische Bestimmung oder das Ziel einer Agenda, berücksichtige nur deinen Spielbereich, deine Sektoren und dein Haustableau. Allgemeine Auslagen und das Galaxietableau können nicht zu deiner Erfüllung beitragen.\n\nGalaktische Ereignisse haben besondere Instruktionen, die leereberührte Sektoren und Agenden anvisieren, die dir nicht gehören. Auf ihnen ist ihr Ziel explizit angegeben.",
       "description": "",
       "group": "wirtschaft",
       "timing": [],
@@ -1438,18 +1387,17 @@
       "id": "ziele-fuer-aktionen-ergaenzung",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Ziele für Aktionen (Koop & Solo)",
+      "name": "Ziele für Aktionen – Solo-Ergänzung",
       "image": null,
-      "summary": "In kooperativen und Solopartien sind die Kosten höher und die Effekte visieren besondere Ziele an. Sie werden explizit angegeben.\n\nEinige Effekte der Gemeinsamen Fokusse gestatten dir, jemand anderem ihren Vorteil zu gewähren. Diese Option ist stets explizit angegeben.",
+      "summary": "Im Solomodus sind die Kosten höher und die Effekte visieren besondere Ziele an. Sie werden explizit angegeben.",
       "description": "",
       "group": "wirtschaft",
       "timing": [],
       "tags": [
         "Ziel",
         "Aktion",
-        "Koop",
         "Anleitung S. 17",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 60011,
@@ -1553,8 +1501,8 @@
       "category": "regeln_solo",
       "name": "Kontrolle von Sektoren",
       "image": null,
-      "summary": "Ein Sektor kann sich in 1 von 3 Stadien befinden. Dies hängt davon ab, wer ihn kontrolliert.\n\n- **Leereberührte Sektoren:** enthalten mind. 1 Flotte der Leere und fast immer auch 1 Verderbnis.\n- **Eure Sektoren:** enthalten mind. 1 Flotte in der Farbe von 1 von euch. Eure **Heimatsektoren** bleiben stets unter eurer Kontrolle – egal, ob Flotten präsent sind. Sie können nicht von anderen oder der Leere erobert werden. Alle eure anderen Sektoren sind keine Heimatsektoren.\n- **Sektoren ohne Flotten:** werden weder von euch noch der Leere kontrolliert. Sie werden durch mind. 1 Verteidigungsanlage geschützt. Typischerweise sind das Sektoren gefallener Häuser, deren einzigartige Aspekte durch Karten repräsentiert werden.",
-      "description": "Alle Effekte, die direkt Gilden oder Stützpunkte anvisieren, können nicht eure Heimatsektoren anvisieren.",
+      "summary": "Ein Sektor kann sich in 1 von 3 Stadien befinden. Dies hängt davon ab, wer ihn kontrolliert.\n\n- **Leereberührte Sektoren:** enthalten mind. 1 Flotte der Leere und fast immer auch 1 Verderbnis.\n- **Deine Sektoren:** enthalten mind. 1 Flotte in deiner Farbe. Dein **Heimatsektor** bleibt stets unter deiner Kontrolle – egal, ob Flotten präsent sind. Er kann nicht von der Leere erobert werden. Alle deine anderen Sektoren sind keine Heimatsektoren.\n- **Sektoren ohne Flotten:** werden weder von dir noch der Leere kontrolliert. Sie werden durch mind. 1 Verteidigungsanlage geschützt. Typischerweise sind das Sektoren gefallener Häuser, deren einzigartige Aspekte durch Karten repräsentiert werden.",
+      "description": "Alle Effekte, die direkt Gilden oder Stützpunkte anvisieren, können nicht deinen Heimatsektor anvisieren.",
       "group": "wirtschaft",
       "timing": [],
       "tags": [
@@ -1712,7 +1660,7 @@
       "category": "regeln_solo",
       "name": "Ressourcenproduktion",
       "image": null,
-      "summary": "Alle von euch haben 5 **Produktionsscheiben**, die jeweils 1 Ressource auf der linken Seite eures Ressourcentableaus entsprechen. Auf jeder Scheibe sind 2 Ziffern. Die linke Ziffer gibt die **Produktionsstufe** an. Die rechte Ziffer gibt den **Produktionsertrag** an.\n\nDie **Produktionsstufe** wird durch deine der Ressource **entsprechenden** Gilden bestimmt. Alle Gilden tragen so viel dazu bei, wie der Bevölkerungswert im selben Sektor beträgt:\n- +1, falls der Bevölkerungswert 1 ist.\n- +2, falls der Bevölkerungswert 2 ist, usw.\n\nGilden in **reinen und verderbten** Sektoren erhöhen die Produktionsstufe. Das Produktionslimit liegt pro Ressource bei 13. Du darfst jedoch unabhängig vom Produktionslimit weiterhin Gilden gründen oder Sektoren erobern, die welche beinhalten. Der Wert steigt nur nicht weiter an. Passe deine Produktionsstufe an, sobald du Gilden gründest oder zerstörst, deine Bevölkerung erhöhst oder verringerst oder Sektoren eroberst oder verlierst.\n\nDeine Startagenda kann ebenfalls zur Produktionsstufe beitragen, falls sie das entsprechende Symbol zeigt. Dann erhöht sie deine Produktionsstufe permanent um 1.\n\nDer **Produktionsertrag** einer Ressource steigt in einem anderen Maß als die Produktionsstufe. Der Produktionsertrag von Credits ist noch geringer als der anderer Ressourcen. Ihr findet alle aufeinander abgestimmten Stufen und Erträge im Glossar.",
+      "summary": "Du hast 5 **Produktionsscheiben**, die jeweils 1 Ressource auf der linken Seite deines Ressourcentableaus entsprechen. Auf jeder Scheibe sind 2 Ziffern. Die linke Ziffer gibt die **Produktionsstufe** an. Die rechte Ziffer gibt den **Produktionsertrag** an.\n\nDie **Produktionsstufe** wird durch deine der Ressource **entsprechenden** Gilden bestimmt. Alle Gilden tragen so viel dazu bei, wie der Bevölkerungswert im selben Sektor beträgt:\n- +1, falls der Bevölkerungswert 1 ist.\n- +2, falls der Bevölkerungswert 2 ist, usw.\n\nGilden in **reinen und verderbten** Sektoren erhöhen die Produktionsstufe. Das Produktionslimit liegt pro Ressource bei 13. Du darfst jedoch unabhängig vom Produktionslimit weiterhin Gilden gründen oder Sektoren erobern, die welche beinhalten. Der Wert steigt nur nicht weiter an. Passe deine Produktionsstufe an, sobald du Gilden gründest oder zerstörst, deine Bevölkerung erhöhst oder verringerst oder Sektoren eroberst oder verlierst.\n\nDeine Startagenda kann ebenfalls zur Produktionsstufe beitragen, falls sie das entsprechende Symbol zeigt. Dann erhöht sie deine Produktionsstufe permanent um 1.\n\nDer **Produktionsertrag** einer Ressource steigt in einem anderen Maß als die Produktionsstufe. Der Produktionsertrag von Credits ist noch geringer als der anderer Ressourcen. Du findest alle aufeinander abgestimmten Stufen und Erträge im Glossar.",
       "description": "",
       "group": "wirtschaft",
       "timing": [],
@@ -1756,7 +1704,7 @@
       "category": "regeln_solo",
       "name": "Flotten und Flottenverbände",
       "image": null,
-      "summary": "Ein Flottenverband besteht aus vielen Schiffen und wird durch 1 Flottenverbandplättchen des entsprechenden Flottentyps repräsentiert. Auf ihm liegen 1–3 Flottenmarker, die sowohl die Anzahl der Flotten als auch die Flottenstärke repräsentieren. Es gibt 5 verschiedene spielbare Flottentypen in Voidfall: Korvette, Wächter, Zerstörer, Schlächter, Träger.\n\nAlle von euch besitzen jeweils nur 14 Flotten. Neben den Bevölkerungswürfeln sind dies die einzigen euch farblich zugeordneten Komponenten im All und sie **zeigen eure Kontrolle über die Sektoren an**.",
+      "summary": "Ein Flottenverband besteht aus vielen Schiffen und wird durch 1 Flottenverbandplättchen des entsprechenden Flottentyps repräsentiert. Auf ihm liegen 1–3 Flottenmarker, die sowohl die Anzahl der Flotten als auch die Flottenstärke repräsentieren. Es gibt 5 verschiedene spielbare Flottentypen in Voidfall: Korvette, Wächter, Zerstörer, Schlächter, Träger.\n\nDu besitzt insgesamt nur 14 Flotten. Neben den Bevölkerungswürfeln sind dies die einzigen dir farblich zugeordneten Komponenten im All und sie **zeigen deine Kontrolle über die Sektoren an**.",
       "description": "",
       "group": "flotten",
       "timing": [],
@@ -1959,8 +1907,8 @@
       "category": "regeln_solo",
       "name": "Flottenbewegung: Eindringen und Invasion",
       "image": null,
-      "summary": "Um in einen Sektor **einzudringen**, müsst ihr 1 auswählen, den ihr **nicht kontrolliert**. Gültige Ziele hängen von eurem Spielmodus ab:\n- Leereberührte Sektoren\n- Verlassene Sektoren (ohne Flotten)\n\nFührt die aus 3 Schritten bestehende **Invasion** des ausgewählten Sektors durch:\n1. **Flottenbewegung:** Wählt **beliebig viele** eurer zum Zielsektor **benachbarten** eigenen Flotten (auch aus mehreren Sektoren) und fliegt mit ihnen zum Zielsektor. Versetzt, ergänzt oder entfernt Flottenverbände je nach Bedarf.\n2. **Kampf**\n3. **Invasionsausgang:** Der Invasionsausgang ist abhängig davon, wer angreift (ihr oder die Leere), wer verteidigt und wie der Kampf ausgeht.",
-      "description": "Einige Effekte lassen euch nur verderbte Sektoren angreifen. In diesem Fall könnt ihr keine reinen Sektoren für die Invasion auswählen.\n\nDurch Invasionen könnt ihr auch die letzten Flotten aus euren Sektoren versetzen und sie so zu **verlassenen** Sektoren machen. Tut ihr das, müsst ihr jedoch (falls möglich) **1 beliebiges eurer Ruhmplättchen pro Sektor abwerfen**, den ihr verlasst. Danach dringt die Leere in die verlassenen Sektoren ein (siehe S. 24).",
+      "summary": "Um in einen Sektor **einzudringen**, musst du 1 auswählen, den du **nicht kontrollierst**. Gültige Ziele sind:\n- Leereberührte Sektoren\n- Verlassene Sektoren (ohne Flotten)\n\nFühre die aus 3 Schritten bestehende **Invasion** des ausgewählten Sektors durch:\n1. **Flottenbewegung:** Wähle **beliebig viele** deiner zum Zielsektor **benachbarten** eigenen Flotten (auch aus mehreren Sektoren) und fliege mit ihnen zum Zielsektor. Versetze, ergänze oder entferne Flottenverbände je nach Bedarf.\n2. **Kampf**\n3. **Invasionsausgang:** Der Invasionsausgang ist abhängig davon, wer angreift (du oder die Leere), wer verteidigt und wie der Kampf ausgeht.",
+      "description": "Einige Effekte lassen dich nur verderbte Sektoren angreifen. In diesem Fall kannst du keine reinen Sektoren für die Invasion auswählen.\n\nDurch Invasionen kannst du auch die letzten Flotten aus deinen Sektoren versetzen und sie so zu **verlassenen** Sektoren machen. Tust du das, musst du jedoch (falls möglich) **1 beliebiges deiner Ruhmplättchen pro Sektor abwerfen**, den du verlässt. Danach dringt die Leere in die verlassenen Sektoren ein (siehe S. 24).",
       "group": "flotten",
       "timing": [],
       "tags": [
@@ -2094,10 +2042,10 @@
       "id": "invasionsausgang-invasion",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Erfolgreiche Invasion durch euch",
+      "name": "Erfolgreiche Invasion durch dich",
       "image": null,
-      "summary": "Hast nur du als Offensive nach einer Kampfsequenz mind. 1 Flotte im Kampfsektor, gewinnst du den Kampf. Die Invasion war erfolgreich. Belasse all deine Flotten, die am Kampf beteiligt waren, im Kampfsektor. Leereberührte Sektoren behalten ihre Verderbnis. Dies ist nun dein Sektor und du musst die Übernahme durchführen.\n\nDie Übernahme besteht aus den folgenden Punkten, die du in beliebiger Reihenfolge ausführen musst.\n- **A)** Entferne alle **Stützpunkte** im Sektor (keine Gilden).\n- **B)** Erhalte alle **Beute** aus dem Sektor.\n- **C)** Eigne dir alle **Hinterlassenschaften** aus dem Sektor an.\n- **D)** Erhalte alle **Ruhmplättchen** aus dem Sektor und lege sie neben dein Haustableau.\n- **H)** Besondere Sektoren haben Effekte, die ihr 1-mal nach ihrer erfolgreichen Invasion ausführt.\n- **I)** Stand der Sektor unter Kontrolle eines Gefallenen Hauses:\n  - Du darfst ab sofort **max. 6 Technologien statt 5 erforschen**.\n  - Wähle **1 der beiden** Technologien des Gefallenen Hauses. Hast du mind. 1 freies Technologiefeld, nimm sie dir (kostenlos) und erforsche die Basistechnologie.\n  - Führe die unteren Effekte des Gefallenen Hauses aus. Du musst die Gilden, Stützpunkte oder Flotten in diesem Sektor gründen, errichten, bzw. einsetzen.\n  - War dies das 1. Gefallene Haus, das du erobert hast, drehe es nun um und lege es als 6. Technologiefeld an dein Haustableau an. Wirf es ansonsten ab.",
-      "description": "*(Hinweis: Die Schritte E, F und G der Übernahme sind modusabhängig und finden sich in den entsprechenden Abschnitten).*",
+      "summary": "Hast nur du als Offensive nach einer Kampfsequenz mind. 1 Flotte im Kampfsektor, gewinnst du den Kampf. Die Invasion war erfolgreich. Belasse all deine Flotten, die am Kampf beteiligt waren, im Kampfsektor. Leereberührte Sektoren behalten ihre Verderbnis. Dies ist nun dein Sektor und du musst die Übernahme durchführen.\n\nDie Übernahme besteht aus den folgenden Punkten, die du in beliebiger Reihenfolge ausführen musst.\n- **A)** Entferne alle **Stützpunkte** im Sektor (keine Gilden).\n- **B)** Erhalte alle **Beute** aus dem Sektor.\n- **C)** Eigne dir alle **Hinterlassenschaften** aus dem Sektor an.\n- **D)** Erhalte alle **Ruhmplättchen** aus dem Sektor und lege sie neben dein Haustableau.\n- **H)** Besondere Sektoren haben Effekte, die du 1-mal nach ihrer erfolgreichen Invasion ausführst.\n- **I)** Stand der Sektor unter Kontrolle eines Gefallenen Hauses:\n  - Du darfst ab sofort **max. 6 Technologien statt 5 erforschen**.\n  - Wähle **1 der beiden** Technologien des Gefallenen Hauses. Hast du mind. 1 freies Technologiefeld, nimm sie dir (kostenlos) und erforsche die Basistechnologie.\n  - Führe die unteren Effekte des Gefallenen Hauses aus. Du musst die Gilden, Stützpunkte oder Flotten in diesem Sektor gründen, errichten, bzw. einsetzen.\n  - War dies das 1. Gefallene Haus, das du erobert hast, drehe es nun um und lege es als 6. Technologiefeld an dein Haustableau an. Wirf es ansonsten ab.",
+      "description": "*(Hinweis: Die Schritte **F** und **G** der Übernahme findest du im Eintrag „Übernahme eines Risses und von Vorboten\".)*",
       "group": "kampf",
       "timing": [],
       "tags": [
@@ -2114,21 +2062,21 @@
       }
     },
     {
-      "id": "uebernahme-koop-solo",
+      "id": "uebernahme-riss-vorboten",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Übernahme eines Risses und Vorboten (Koop & Solo)",
+      "name": "Übernahme eines Risses und von Vorboten",
       "image": null,
-      "summary": "Schritte **F** und **G** der Übernahme:\n- **F)** Ist der übernommene Sektor ein Riss, dürft ihr alle jeweils entweder 1 Verderbnis entfernen oder erhaltet 5 beliebige Ressourcen. Tauscht danach sofort den Riss durch einen gewöhnlichen Sektor aus und setzt dessen Bevölkerung (ohne Verderbnis) auf 1. Er ist kein Riss mehr.\n- **G)** Befinden sich im übernommenen Sektor Vorboten, lege sie auf das Krisentableau.",
+      "summary": "Schritte **F** und **G** der Übernahme:\n- **F)** Ist der übernommene Sektor ein Riss, darfst du entweder 1 Verderbnis entfernen oder du erhältst 5 beliebige Ressourcen. Tausche danach sofort den Riss durch einen gewöhnlichen Sektor aus und setze dessen Bevölkerung (ohne Verderbnis) auf 1. Er ist kein Riss mehr.\n- **G)** Befinden sich im übernommenen Sektor Vorboten, lege sie auf das Krisentableau.",
       "description": "",
       "group": "kampf",
       "timing": [],
       "tags": [
         "Invasion",
         "Riss",
-        "Koop",
+        "Vorbote",
         "Anleitung S. 26",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 80080,
@@ -2439,21 +2387,20 @@
       }
     },
     {
-      "id": "zivilisationsleisten-koop-solo",
+      "id": "zivilisationsleisten-stufe-iv",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Zivilisationsleiste Stufe IV (Koop & Solo)",
+      "name": "Zivilisationsleiste Stufe IV – Zuflucht",
       "image": null,
-      "summary": "Erreicht ihr Stufe IV einer Zivilisationsleiste dürft ihr eine Zuflucht um 1 Stufe erweitern (siehe S. 34).",
+      "summary": "Erreichst du Stufe IV einer Zivilisationsleiste, darfst du eine Zuflucht um 1 Stufe erweitern.",
       "description": "",
       "group": "fortschritt",
       "timing": [],
       "tags": [
         "Zivilisationsleiste",
         "Zuflucht",
-        "Koop",
         "Anleitung S. 28",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 90020,
@@ -2534,8 +2481,8 @@
       "category": "regeln_solo",
       "name": "Handelsplättchen",
       "image": null,
-      "summary": "Erhaltet ihr 1 Handelsplättchen, nehmt das unterste vom Galaxietableau. Erhaltet außerdem die Belohnung rechts vom entsprechenden Feld oder 1 der Felder **darunter**. Dieser Handelsbonus repräsentiert die Folgen des gesteigerten Handels zwischen den Menschen, die nicht unter dem Einfluss der Leere stehen. Beim Aufräumen am Ende eures Zugs müsst ihr das Handelsplättchen entweder auf ein freies Handelsfeld eurer Agenden oder zurück auf das Galaxietableau legen. Zu diesem Zeitpunkt dürft ihr eure Handelsplättchen beliebig zwischen zulässigen Feldern austauschen oder verschieben.\n\nHandelsplättchen sind limitiert. Sind keine auf dem Galaxietableau, könnt ihr keine Handelsplättchen oder -boni erhalten.",
-      "description": "Beim Auswählen in der Fokusphase nutzt ihr Handelsplättchen vor allem dazu, sie bei der Wahl eines Fokus umzudrehen, um alle 3 Aktionen auf ihm beim Agieren zu nutzen. Umgedrehte Handelsplättchen legt ihr beim Aufräumen auf das Galaxietableau zurück. Dreht sie dabei wieder auf die Rückseite. Beim Agieren in der Aktionsphase könnt ihr Handelsplättchen **nicht** umdrehen (z.B. in diesem Zug erhaltene). Falls ihr wegen Kosten 1 Handelsplättchen abgeben müsst, müsst ihr 1 auswählen, das nicht umgedreht ist und es sofort auf das Galaxietableau zurücklegen.\n\nBeim Zurücklegen von Handelsplättchen auf das Galaxietableau gelten folgende Regeln:\n- **Spielt ihr allein oder zu zweit:** Legt es auf das oberste freie Feld.\n- **Spielt ihr zu dritt oder zu viert:** Legt es auf das unterste vorhandene Handelsplättchen, falls dieses einzeln liegt. Legt es ansonsten auf das oberste freie Feld.",
+      "summary": "Erhältst du 1 Handelsplättchen, nimm das unterste vom Galaxietableau. Erhalte außerdem die Belohnung rechts vom entsprechenden Feld oder 1 der Felder **darunter**. Dieser Handelsbonus repräsentiert die Folgen des gesteigerten Handels zwischen den Menschen, die nicht unter dem Einfluss der Leere stehen. Beim Aufräumen am Ende deines Zugs musst du das Handelsplättchen entweder auf ein freies Handelsfeld deiner Agenden oder zurück auf das Galaxietableau legen. Zu diesem Zeitpunkt darfst du deine Handelsplättchen beliebig zwischen zulässigen Feldern austauschen oder verschieben.\n\nHandelsplättchen sind limitiert. Sind keine auf dem Galaxietableau, kannst du keine Handelsplättchen oder -boni erhalten.",
+      "description": "Beim Auswählen in der Fokusphase nutzt du Handelsplättchen vor allem dazu, sie bei der Wahl eines Fokus umzudrehen, um alle 3 Aktionen auf ihm beim Agieren zu nutzen. Umgedrehte Handelsplättchen legst du beim Aufräumen auf das Galaxietableau zurück. Drehe sie dabei wieder auf die Rückseite. Beim Agieren in der Aktionsphase kannst du Handelsplättchen **nicht** umdrehen (z.B. in diesem Zug erhaltene). Falls du wegen Kosten 1 Handelsplättchen abgeben musst, musst du 1 auswählen, das nicht umgedreht ist und es sofort auf das Galaxietableau zurücklegen.\n\nBeim Zurücklegen von Handelsplättchen auf das Galaxietableau legst du es allein stets auf das **oberste freie Feld**.",
       "group": "fortschritt",
       "timing": [],
       "tags": [
@@ -2616,22 +2563,20 @@
       }
     },
     {
-      "id": "bevorzugte-fokusse-koop-solo",
+      "id": "heroische-fokuskarten-bevorzugt",
       "type": "reference",
       "category": "regeln_solo",
-      "name": "Gemeinsame / Heroische Fokuskarten (Koop & Solo)",
+      "name": "Heroische Fokuskarten & bevorzugte Fokusse",
       "image": null,
-      "summary": "Gemeinsame und Heroische Fokuskarten in der Auslage sind weder auf eurer Hand noch in euren Abwurfstapeln. Ihre Aktionen könnt ihr **nicht** mit bevorzugten Fokussen nutzen.",
+      "summary": "Heroische Fokuskarten in der Auslage sind weder auf deiner Hand noch in deinem Abwurfstapel. Ihre Aktionen kannst du **nicht** mit bevorzugten Fokussen nutzen.",
       "description": "",
       "group": "fortschritt",
       "timing": [],
       "tags": [
         "Fokus",
         "Bevorzugt",
-        "Koop",
-        "Solo",
         "Anleitung S. 32",
-        "Nur Solo/Koop"
+        "Nur Solo"
       ],
       "warnings": [],
       "sort_order": 90100,

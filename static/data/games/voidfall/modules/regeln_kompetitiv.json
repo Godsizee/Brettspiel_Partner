@@ -3,7 +3,7 @@
     {
       "id": "einfuehrung",
       "title": "Einführung & Grundkonzepte",
-      "description": "Grundlegende Konzepte, das Material für Koop & Solo, und wie ihr die Hefte nutzt.",
+      "description": "Grundlegende Konzepte, das Spielmaterial und wie ihr die Hefte nutzt.",
       "order": 10
     },
     {
@@ -15,7 +15,7 @@
     {
       "id": "vorbereitung",
       "title": "Zyklus A – Vorbereitungsphase",
-      "description": "Die erste der 3 Phasen jedes Zyklus – Auslagen erneuern, Zugreihenfolge festlegen, Galaktisches Ereignis aufdecken.",
+      "description": "Die erste der 3 Phasen jedes Zyklus – Auslagen erneuern und das Galaktische Ereignis aufdecken.",
       "order": 20
     },
     {
@@ -23,6 +23,12 @@
       "title": "Zyklus B – Fokusphase",
       "description": "Die zweite Phase jedes Zyklus – hier spielt ihr eure Fokuskarten aus und handelt Runde für Runde eure Aktionen ab.",
       "order": 30
+    },
+    {
+      "id": "gefechte",
+      "title": "Gefechte gegen die Leere",
+      "description": "Invasionen der Leere in eure Sektoren – wann sie ausgelöst werden, wie stark die Leere angreift und welchen Sektor sie sich aussucht.",
+      "order": 45
     },
     {
       "id": "auswertung-ende",
@@ -413,6 +419,28 @@
       }
     },
     {
+      "id": "vorahnung",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Vorahnung Galaktischer Ereignisse",
+      "image": null,
+      "summary": "Selten dürft ihr das nächste Galaktische Ereignis vorausahnen. Seht euch dazu die 2 obersten Galaktischen Ereignisse des nächsten Zyklus an.\n- Im 1. Zyklus sind dies Galaktische Ereignisse des 2. Zyklus.\n- Im 2. Zyklus sind dies Galaktische Ereignisse des 3. Zyklus.\n- Ignoriert im 3. Zyklus diesen Effekt.\n\nLegt 1 beliebiges der beiden Galaktischen Ereignisse **auf** den Stapel zurück und das andere **darunter**.",
+      "description": "",
+      "group": "vorbereitung",
+      "timing": [],
+      "tags": [
+        "Galaktisches Ereignis",
+        "Vorahnung",
+        "Anleitung S. 33"
+      ],
+      "warnings": [],
+      "sort_order": 20080,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 33
+      }
+    },
+    {
       "id": "fokusphase-ueberblick",
       "type": "reference",
       "category": "regeln_kompetitiv",
@@ -691,6 +719,75 @@
       }
     },
     {
+      "id": "gefechte-kompetitiv",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Gefechte gegen die Leere (Kompetitiv)",
+      "image": null,
+      "summary": "Gefechte sind Invasionen der Leere in eure Sektoren. In kompetitiven Partien geschehen diese zu einem anderen Zeitpunkt als in kooperativen oder Solopartien. In jedem Zyklus sind Gefechte euer **1. Schritt** in der **Auswertungsphase**.",
+      "description": "",
+      "group": "gefechte",
+      "timing": [],
+      "tags": [
+        "Gefecht",
+        "Leere",
+        "Auswertungsphase",
+        "Anleitung S. 33",
+        "Kompetitiv"
+      ],
+      "warnings": [],
+      "sort_order": 45010,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 33
+      }
+    },
+    {
+      "id": "gefechte-staerke",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Flottenstärke der Leere bei Gefechten",
+      "image": null,
+      "summary": "Bei Gefechten **dringt die Leere in deinen Sektor ein**. Dazu dringt sie mit Flottenverbänden mit einer Anzahl an Flotten der Leere ein, die der Gesamtheit deiner **Verderbnis** auf **Zivilisationsleisten** und **Agenden** entspricht (nicht in deinen Sektoren). Ist diese Anzahl 0, gilt deine Verteidigung als erfolgreich. Nimm die Flotten der Leere aus dem allgemeinen Vorrat und lege sie in den Kampfsektor.\n\nDie Flottenstärke der Leere kann durch diese Faktoren beeinflusst werden:\n- **Füge 1** zur Flottenstärke **hinzu**, falls das Gefecht in der Auswertungsphase des **2.** oder **3.** Zyklus stattfindet.",
+      "description": "",
+      "group": "gefechte",
+      "timing": [],
+      "tags": [
+        "Gefecht",
+        "Flottenstärke",
+        "Verderbnis",
+        "Anleitung S. 33"
+      ],
+      "warnings": [],
+      "sort_order": 45020,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 33
+      }
+    },
+    {
+      "id": "gefechte-zielsektor",
+      "type": "reference",
+      "category": "regeln_kompetitiv",
+      "name": "Bestimmung des Zielsektors",
+      "image": null,
+      "summary": "In welchen deiner Sektoren die Leere eindringt, bestimmt ihr schrittweise folgendermaßen:\n- **A)** Die Leere kann nur Sektoren für Gefechte auswählen, die benachbart zu einem leereberührten Sektor sind (niemals Heimatsektoren). Sektoren ohne Flotten sind **keine** leereberührten Sektoren. Sie wählt **nie** leereresistente Sektoren aus. Befindet sich ein **Vorbote** am Rand des Sektors oder in einem benachbarten Sektor, gilt der Sektor als benachbart zu einem leereberührten Sektor.\n- **B)** Gibt es mehrere mögliche Zielsektoren, bevorzugt die Leere die Sektoren, in denen sie **gewinnt** oder einen **Gleichstand** erzielt. Ermittelt das für jeden möglichen Zielsektor nach den üblichen Kampfregeln.\n- **C)** Gibt es mehrere mögliche Zielsektoren, bevorzugt die Leere die Sektoren, in denen du im Kampf **die meisten Flotten zurückrufen musst**.\n\nGibt es weiterhin mehrere mögliche Zielsektoren präferiert sie in dieser Reihenfolge:\n1. den reinen Sektor.\n2. den Sektor mit der höchsten Bevölkerung.\n3. den Sektor mit den meisten Gilden.\n4. einen zufälligen Sektor.",
+      "description": "Werden Gefechte durch die Auswertungsphase ausgelöst, wählt ihr in Zugreihenfolge eure jeweiligen Zielsektoren aus.\nFührt die Gefechte wie übliche Kämpfe durch, in denen ihr die Defensive seid und löst dementsprechend eure Technologien aus. **Gewinnt** die Leere oder kommt es zu einem **Gleichstand**, gelingt der Leere die Invasion *(siehe S. 27)*.",
+      "group": "gefechte",
+      "timing": [],
+      "tags": [
+        "Gefecht",
+        "Zielsektor",
+        "Anleitung S. 33"
+      ],
+      "warnings": [],
+      "sort_order": 45040,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 33
+      }
+    },
+    {
       "id": "auswertungsphase-ueberblick",
       "type": "reference",
       "category": "regeln_kompetitiv",
@@ -761,9 +858,9 @@
       "id": "agendaziele",
       "type": "reference",
       "category": "regeln_kompetitiv",
-      "name": "4. Agendaziele (bzw. 3. im Kompetitiv)",
+      "name": "3. Agendaziele",
       "image": null,
-      "summary": "Überprüfe die Ziele deiner Agenden unterhalb deines Haustableaus, die **nicht verderbt** sind (reine Agenden). Jede Agenda zeigt verschiedene Bereiche, die du einzeln und separat überprüfst. \n\nAuch Agendaziele könnt ihr entweder 1-mal oder mehrmals erfüllen. Bei Agenden ist die Belohnung **immer Einfluss**.",
+      "summary": "Überprüfe die Ziele deiner Agenden unterhalb deines Haustableaus, die **nicht verderbt** sind (reine Agenden). Jede Agenda zeigt verschiedene Bereiche, die du einzeln und separat überprüfst.\n\nAuch Agendaziele könnt ihr entweder 1-mal oder mehrmals erfüllen. Bei Agenden ist die Belohnung **immer Einfluss**.",
       "description": "Wichtig: Du kannst fast nie Einflusspunkte durch verderbte Sektoren erhalten oder für die Plättchen auf ihnen. Das ist auch auf den Zielen angegeben.",
       "group": "auswertung-ende",
       "timing": [],
