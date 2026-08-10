@@ -3,7 +3,7 @@
     {
       "id": "einfuehrung",
       "title": "Einführung & Grundkonzepte",
-      "description": "Grundlegende Konzepte, das Spielmaterial und wie ihr die Hefte nutzt.",
+      "description": "Grundlegende Konzepte, das Spielmaterial und wie du die Hefte nutzt.",
       "order": 10
     },
     {
@@ -21,7 +21,7 @@
     {
       "id": "fokusphase",
       "title": "Zyklus B – Fokusphase",
-      "description": "Die zweite Phase jedes Zyklus – hier spielt ihr eure Fokuskarten aus und handelt Runde für Runde eure Aktionen ab.",
+      "description": "Die zweite Phase jedes Zyklus – hier spielst du deine Fokuskarten aus und handelst Runde für Runde deine Aktionen ab.",
       "order": 30
     },
     {
@@ -33,7 +33,7 @@
     {
       "id": "gefechte",
       "title": "Gefechte gegen die Leere",
-      "description": "Invasionen der Leere in eure Sektoren – wann sie ausgelöst werden, wie stark die Leere angreift und welchen Sektor sie sich aussucht.",
+      "description": "Invasionen der Leere in deine Sektoren – wann sie ausgelöst werden, wie stark die Leere angreift und welchen Sektor sie sich aussucht.",
       "order": 45
     },
     {
@@ -65,12 +65,36 @@
   ],
   "entries": [
     {
+      "id": "solo-auf-einen-blick",
+      "type": "reference",
+      "category": "regeln_solo",
+      "name": "Solo auf einen Blick",
+      "image": null,
+      "summary": "Eine Solopartie dauert **3 Zyklen**. Jeder Zyklus hat 3 Phasen in fester Reihenfolge:\n\n- **A – Vorbereitungsphase:** Auslagen erneuern, Galaktisches Ereignis aufdecken.\n- **B – Fokusphase:** Runde für Runde Fokuskarten ausspielen und Aktionen abhandeln.\n- **C – Auswertungsphase:** Gefechte, Bestimmungen, Wartung, Agendaziele.\n\nAm Ende des 3. Zyklus vergleichst du deinen Einfluss mit dem der Leere.",
+      "description": "**Deine Runde in der Fokusphase — in dieser Reihenfolge:**\n\n- **1. Krise aufdecken** — vom Krisenstapel, entsprechend der aktuellen Stufe.\n- **2. Fokus auswählen** — 1 Karte aus der Fokusauslage oder eine Heroische Fokuskarte.\n- **3. Agieren** — die Fokusaktionen ausführen. Dabei darfst du auch Krisen bestehen.\n- **4. Aufräumen** — Flottenverbände zurückrufen, Ruhmplättchen-Limit prüfen, ausgespielte Agenda anlegen, Handelsplättchen platzieren, Fokuskarte abwerfen.\n- **5. Anwachsen der Leere** — oder stattdessen den Kriegsalarm abhandeln, wenn die Runde einen hat.\n\n**Deine Auswertungsphase — in dieser Reihenfolge:**\n\n- **1. Gefechte gegen die Leere**\n- **2. Galaktische Bestimmungen erfüllen**\n- **3. Wartung bezahlen**\n- **4. Die Leere schlägt zurück**\n- **5. Agendaziele werten**\n- **6. Fokuskarten zurücknehmen**",
+      "group": "einfuehrung",
+      "timing": [],
+      "tags": [
+        "Überblick",
+        "Ablauf",
+        "Referenz",
+        "Anleitung S. 6",
+        "Nur Solo"
+      ],
+      "warnings": [],
+      "sort_order": 10005,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 6
+      }
+    },
+    {
       "id": "materialbegrenzung",
       "type": "reference",
       "category": "regeln_solo",
       "name": "Materialbegrenzung",
       "image": null,
-      "summary": "Gilden, Stützpunkte, Flottenverbände, Flotten der Leere, Verderbnismarker und Ruhmplättchen sind **unlimitiert**. Gehen euch die vorhandenen aus, nutzt geeigneten Ersatz.\n\nEure Flotten, Agendakarten, Beute, Hinterlassenschaften, Handels- und Vorbotenplättchen sind jedoch **begrenzt**. Ignoriert Effekte, durch die ihr welche davon erhaltet oder ins Spiel bringt, sobald keine mehr vorhanden sind.",
+      "summary": "Gilden, Stützpunkte, Flottenverbände, Flotten der Leere, Verderbnismarker und Ruhmplättchen sind **unlimitiert**. Geht dir das vorhandene aus, nutze geeigneten Ersatz.\n\nDeine Flotten, Agendakarten, Beute, Hinterlassenschaften, Handels- und Vorbotenplättchen sind jedoch **begrenzt**. Ignoriere Effekte, durch die du welche davon erhältst oder ins Spiel bringst, sobald keine mehr vorhanden sind.",
       "description": "",
       "group": "einfuehrung",
       "timing": [],
@@ -117,7 +141,7 @@
       "category": "regeln_solo",
       "name": "Die drei Hefte",
       "image": null,
-      "summary": "Voidfall besteht aus 3 Heften:\n\n- **Anleitung** (dieses Heft) — Auflistung des Materials, die Spielstruktur (Ablauf von Zyklen) und alle detaillierten Spielregeln.\n- **Kompendium** — enthält alle Informationen, die ihr für eine neue Partie braucht: eine Übersicht der Welt, des Materials und die komplette Vorbereitung für jedes Szenario, inklusive Tutorial.\n- **Glossar** — enthält eine detaillierte Beschreibung aller unbeschriebenen Spielelemente und ihrer Symbole. Auch die komplexeren Häuser werden hier konkret beschrieben. Solltet ihr während der Partie stets bereithalten.",
+      "summary": "Voidfall besteht aus 3 Heften:\n\n- **Anleitung** (dieses Heft) — Auflistung des Materials, die Spielstruktur (Ablauf von Zyklen) und alle detaillierten Spielregeln.\n- **Kompendium** — enthält alle Informationen, die du für eine neue Partie brauchst: eine Übersicht der Welt, des Materials und die komplette Vorbereitung für jedes Szenario, inklusive Tutorial.\n- **Glossar** — enthält eine detaillierte Beschreibung aller unbeschriebenen Spielelemente und ihrer Symbole. Auch die komplexeren Häuser werden hier konkret beschrieben. Solltest du während der Partie stets bereithalten.",
       "description": "",
       "group": "einfuehrung",
       "timing": [],
@@ -182,7 +206,7 @@
       "category": "regeln_solo",
       "name": "Allgemeine Vorbereitung",
       "image": null,
-      "summary": "Führe folgende Schritte für die **Allgemeine Vorbereitung** aus:\n1. Lege das **Galaxietableau** mit der Seite nach oben aus, die das **Koop-Symbol** zeigt — das ist die Seite für den Solomodus. Bilde deine Handelsplättchenstapel mit **1 Plättchen pro Feld**.\n2. Lege die **Agendaauslage** aus. Sortiere die Agendakarten nach Rückseiten (Stufen 1–4) und lege die 4 Stapel verdeckt an. Decke jeweils die oberste Karte rechts daneben auf.\n3. Lege das **Haupt-Kampfplättchen** oberhalb des Spielbereichs aus.\n4. Bereite den **allgemeinen Vorrat** vor:\n   - Mische Beute und Hinterlassenschaften verdeckt in 2 Haufen.\n   - Lege Ruhmplättchen bereit.\n   - Sortiere Flottenverbände nach Typen.\n   - Bilde Haufen für Gilden, Stützpunkte, Flotten der Leere, Bevölkerungswürfel und Verderbnismarker.\n5. Nimm dir die **Komponenten deiner Farbe**: 1 Einflusstableau (auf Wert 10), 9 Fokuskarten auf die Hand, Innovationsfokusse auf deinen Abwurfstapel, 1 generisches Ressourcentableau (alle Werte auf 0), 14 Flotten, 1 Ruhmplättchen (Wert 2).",
+      "summary": "Führe folgende Schritte für die **Allgemeine Vorbereitung** aus:\n1. Lege das **Galaxietableau** mit der für den Solomodus vorgesehenen Seite nach oben aus. Bilde deine Handelsplättchenstapel mit **1 Plättchen pro Feld**.\n2. Lege die **Agendaauslage** aus. Sortiere die Agendakarten nach Rückseiten (Stufen 1–4) und lege die 4 Stapel verdeckt an. Decke jeweils die oberste Karte rechts daneben auf.\n3. Lege das **Haupt-Kampfplättchen** oberhalb des Spielbereichs aus.\n4. Bereite den **allgemeinen Vorrat** vor:\n   - Mische Beute und Hinterlassenschaften verdeckt in 2 Haufen.\n   - Lege Ruhmplättchen bereit.\n   - Sortiere Flottenverbände nach Typen.\n   - Bilde Haufen für Gilden, Stützpunkte, Flotten der Leere, Bevölkerungswürfel und Verderbnismarker.\n5. Nimm dir die **Komponenten deiner Farbe**: 1 Einflusstableau (auf Wert 10), 9 Fokuskarten auf die Hand, Innovationsfokusse auf deinen Abwurfstapel, 1 generisches Ressourcentableau (alle Werte auf 0), 14 Flotten, 1 Ruhmplättchen (Wert 2).",
       "description": "Ein Reihenfolgeplättchen brauchst du nicht: Allein gibt es keine Zugreihenfolge, der 6. Schritt der Allgemeinen Vorbereitung entfällt.",
       "group": "spielaufbau",
       "timing": [],
@@ -221,6 +245,30 @@
       "source": {
         "document": "VOIDFALL-Kompendium-DE",
         "page": 12
+      }
+    },
+    {
+      "id": "schwierigkeitsstufen",
+      "type": "reference",
+      "category": "regeln_solo",
+      "name": "Schwierigkeitsstufen im Vergleich",
+      "image": null,
+      "summary": "Du wählst vor der Partie zwischen **Leicht**, **Mittel** und **Hoch**. Die Schwierigkeit wirkt an drei Stellen:\n\n- **Startkrisen:** Leicht startet ohne Startkrisen. Bei Mittel und Hoch liegt je 1 Startkrise auf dem linken Feld der Ökonomischen und der Militärischen Leiste.\n- **Alarmstapel:** Die Schwierigkeitskarte gibt vor, wie viele Situationen der Stufen I, II und III sowie wie viele Kriegskarten in den Alarmstapel wandern.\n- **Basiseinfluss der Leere:** 60 (Leicht) / 100 (Mittel) / 140 (Hoch) Einflusspunkte in der Schlusswertung.",
+      "description": "Die genaue Zusammensetzung des Alarmstapels steht auf der jeweiligen Schwierigkeitskarte.\nSortiere außerdem immer die 4 Kriegskarten aus, die **nicht** deiner Schwierigkeit entsprechen — es bleiben 4 übrig, die du verdeckt mischst.",
+      "group": "spielaufbau",
+      "timing": [],
+      "tags": [
+        "Schwierigkeit",
+        "Aufbau",
+        "Vorbereitung",
+        "Anleitung S. 16",
+        "Nur Solo"
+      ],
+      "warnings": [],
+      "sort_order": 15025,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 16
       }
     },
     {
@@ -321,8 +369,8 @@
       "category": "regeln_solo",
       "name": "Zyklen und Phasen",
       "image": null,
-      "summary": "Alle Partien von Voidfall bestehen aus 3 Zyklen. Führt in jedem Zyklus folgende 3 Phasen durch:\n\n- **A – Vorbereitungsphase**\n- **B – Fokusphase**\n- **C – Auswertungsphase**\n\nDie Schritte der Vorbereitungsphase sind links oben auf dem Galaxietableau zusammengefasst (mit blauen Ziffern).",
-      "description": "Wichtig: Überspringt die Schritte 0, 1, 2 und 3 im 1. Zyklus und beginnt stattdessen mit Schritt 4.\n\nDie konkrete Vorbereitung für eure Partie (Aufbau) findet ihr im Kompendium.",
+      "summary": "Alle Partien von Voidfall bestehen aus 3 Zyklen. Führe in jedem Zyklus folgende 3 Phasen durch:\n\n- **A – Vorbereitungsphase**\n- **B – Fokusphase**\n- **C – Auswertungsphase**\n\nDie Schritte der Vorbereitungsphase sind links oben auf dem Galaxietableau zusammengefasst (mit blauen Ziffern).",
+      "description": "Wichtig: Überspringe die Schritte 0, 1, 2 und 3 im 1. Zyklus und beginne stattdessen mit Schritt 4.\n\nDie konkrete Vorbereitung für deine Partie (Aufbau) findest du im Wiki-Bereich **→ Spezifische Vorbereitung im Solomodus**.",
       "group": "vorbereitung",
       "timing": [],
       "tags": [
@@ -457,7 +505,7 @@
       "name": "Textboxen Galaktischer Ereignisse befolgen",
       "image": null,
       "summary": "**Schritt 5** — Auf der linken Seite der Galaktischen Ereignisse stehen mehrere Textboxen. Befolge sie alle von oben nach unten in dieser Reihenfolge:\n\n- **Durchgehend umrandet** — du musst alle Anweisungen komplett befolgen. Kannst du sie nicht vollständig befolgen, musst du die gesamte Textbox überspringen.\n- **Durchbrochen grau umrandet** — du darfst die Anweisungen befolgen, darfst sie aber auch überspringen.",
-      "description": "**Symbol oben links einer Textbox:** Allein handelst du jede Textbox genau 1-mal ab — unabhängig davon, ob sie das Zugreihenfolge- oder das Gruppen-Symbol trägt.\n\n- **Permanente** Ereignisse (∞-Symbol) betreffen dich den ganzen Zyklus lang, inklusive all deiner Züge und der Auswertungsphase.\n- **Verzögerte** Ereignisse (Uhr-Symbol) treten erst nach deinem 1. Zug ein. Vergiss ihren Effekt nicht.\n\n**Leereberührte Sektoren als Ziel:** Benachbarte Sektoren müssen an einen deiner Sektoren angrenzen. Ist das Ziel 1 Sektor, musst du 1 zulässigen Sektor finden und in diesem **alle** vorgegebenen Anweisungen der Textbox ausführen. Findest du keinen zulässigen Sektor, musst du **alle** Anweisungen der Textbox ignorieren.\n\nMögliche Effekte:\n- Nimm 1 [[icon:beute]] / [[icon:hinterlassenschaft]] / [[icon:ruhmplaettchen-beliebigen-werts]] aus dem allgemeinen Vorrat und lege es verdeckt (Ruhmplättchen offen) in die Mitte des Sektors. Es gibt kein Limit für diese Plättchen in Sektoren.\n- Nimm 1 [[icon:verteidigungsanlage]] oder [[icon:gilde]] aus dem allgemeinen Vorrat und lege sie auf das am weitesten links liegende freie passende Feld des Sektors.\n- Nimm 1 [[icon:flotte-der-leere]] aus dem allgemeinen Vorrat und lege sie auf den Flottenverband der Leere in diesem Sektor. Das Standardlimit für Flottenverbände beträgt 1 (also 3 Flotten) pro Sektor. Einige besondere Sektoren haben besondere Limits. Du kannst keine Flotten der Leere platzieren, falls du damit das Limit überschreiten würdest.\n- Erhalte 1 [[icon:verderbnis]].\n- Nimm 1 Verderbnismarker aus dem allgemeinen Vorrat und platziere ihn auf dem Agendatableau zwischen dem vorgegebenen Agendastapel und der offenen Agenda. Ignoriere diese Anweisung, falls dort bereits ein Verderbnismarker liegt.\n\nWeitere Erläuterungen zu den Symbolen findest du im Glossar bei den entsprechenden Galaktischen Ereignissen.",
+      "description": "**Symbol oben links einer Textbox:** Allein handelst du jede Textbox genau 1-mal ab — unabhängig davon, ob sie das Zugreihenfolge- oder das Gruppen-Symbol trägt.\n\n- **Permanente** Ereignisse (∞-Symbol) betreffen dich den ganzen Zyklus lang, inklusive all deiner Züge und der Auswertungsphase.\n- **Verzögerte** Ereignisse (Uhr-Symbol) treten erst nach deinem 1. Zug ein. Vergiss ihren Effekt nicht.\n\n**Leereberührte Sektoren als Ziel:** Benachbarte Sektoren müssen an einen deiner Sektoren angrenzen. Ist das Ziel 1 Sektor, musst du 1 zulässigen Sektor finden und in diesem **alle** vorgegebenen Anweisungen der Textbox ausführen. Findest du keinen zulässigen Sektor, musst du **alle** Anweisungen der Textbox ignorieren.\n\nMögliche Effekte:\n- Nimm 1 [[icon:beute]] / [[icon:hinterlassenschaft]] / [[icon:ruhmplaettchen-beliebigen-werts]] aus dem allgemeinen Vorrat und lege es verdeckt (Ruhmplättchen offen) in die Mitte des Sektors. Es gibt kein Limit für diese Plättchen in Sektoren.\n- Nimm 1 [[icon:verteidigungsanlage]] oder [[icon:gilde]] aus dem allgemeinen Vorrat und lege sie auf das am weitesten links liegende freie passende Feld des Sektors.\n- Nimm 1 [[icon:flotte-der-leere]] aus dem allgemeinen Vorrat und lege sie auf den Flottenverband der Leere in diesem Sektor. Das Standardlimit für Flottenverbände beträgt 1 (also 3 Flotten) pro Sektor. Einige besondere Sektoren haben besondere Limits. Du kannst keine Flotten der Leere platzieren, falls du damit das Limit überschreiten würdest.\n- Erhalte 1 [[icon:verderbnis]].\n- Nimm 1 Verderbnismarker aus dem allgemeinen Vorrat und platziere ihn auf dem Agendatableau zwischen dem vorgegebenen Agendastapel und der offenen Agenda. Ignoriere diese Anweisung, falls dort bereits ein Verderbnismarker liegt.\n\nWeitere Erläuterungen zu den Symbolen findest du im Wiki-Bereich **Galaktische Ereignisse**.",
       "group": "vorbereitung",
       "timing": [],
       "tags": [
@@ -478,7 +526,7 @@
       "category": "regeln_solo",
       "name": "Vorahnung Galaktischer Ereignisse",
       "image": null,
-      "summary": "Selten dürft ihr das nächste Galaktische Ereignis vorausahnen. Seht euch dazu die 2 obersten Galaktischen Ereignisse des nächsten Zyklus an.\n- Im 1. Zyklus sind dies Galaktische Ereignisse des 2. Zyklus.\n- Im 2. Zyklus sind dies Galaktische Ereignisse des 3. Zyklus.\n- Ignoriert im 3. Zyklus diesen Effekt.\n\nLegt 1 beliebiges der beiden Galaktischen Ereignisse **auf** den Stapel zurück und das andere **darunter**.",
+      "summary": "Selten darfst du das nächste Galaktische Ereignis vorausahnen. Sieh dir dazu die 2 obersten Galaktischen Ereignisse des nächsten Zyklus an.\n- Im 1. Zyklus sind dies Galaktische Ereignisse des 2. Zyklus.\n- Im 2. Zyklus sind dies Galaktische Ereignisse des 3. Zyklus.\n- Ignoriere im 3. Zyklus diesen Effekt.\n\nLege 1 beliebiges der beiden Galaktischen Ereignisse **auf** den Stapel zurück und das andere **darunter**.",
       "description": "",
       "group": "vorbereitung",
       "timing": [],
@@ -571,8 +619,8 @@
       "category": "regeln_solo",
       "name": "Fokus auswählen",
       "image": null,
-      "summary": "Ihr müsst 1 eurer Fokuskarten (von der Hand) auswählen und ausspielen.\n\nZusätzlich dürft ihr:\n- 1 eurer Handelsplättchen umdrehen und auf eure ausgespielte Fokuskarte legen.\n\nund/oder\n\n- 1 Agendakarte von eurer Hand ausspielen und neben eure Fokuskarte legen. Dazu muss mind. 1 Fokussymbol der Agenda eurer ausgewählten Fokuskarte entsprechen.",
-      "description": "Im Kapitel „Detaillierte Regeln\" findet ihr eine Beschreibung aller Symbole von Fokuskarten. Eine Liste aller Fokuskarten ist im Glossar zu finden.\n\nHinweis: Lasst euch beim Auswählen Zeit. Ihr dürft Fokus, Handelsplättchen und Agenda so lange zurücknehmen und neu wählen, bis eine weitere Information aufgedeckt wird. Sobald dies geschieht, müsst ihr mit eurem Zug fortfahren.\n\nBeispiel: Ihr wählt die Produktion als Fokus von eurer Hand. Ihr dreht danach 1 Handelsplättchen um und legt es darauf. Zusätzlich spielt ihr als Agenda Reichtum aus und legt sie an — das Symbol stimmt mit der Produktion überein.",
+      "summary": "Du musst 1 deiner Fokuskarten (von der Hand) auswählen und ausspielen.\n\nZusätzlich darfst du:\n- 1 deiner Handelsplättchen umdrehen und auf deine ausgespielte Fokuskarte legen.\n\nund/oder\n\n- 1 Agendakarte von deiner Hand ausspielen und neben deine Fokuskarte legen. Dazu muss mind. 1 Fokussymbol der Agenda deiner ausgewählten Fokuskarte entsprechen.",
+      "description": "Alle Symbole von Fokuskarten findest du im Wiki-Bereich **Symbol-Lexikon**. Alle Fokuskarten findest du im Wiki-Bereich **Fokusse**.\n\nHinweis: Lass dir beim Auswählen Zeit. Du darfst Fokus, Handelsplättchen und Agenda so lange zurücknehmen und neu wählen, bis eine weitere Information aufgedeckt wird. Sobald dies geschieht, musst du mit deinem Zug fortfahren.\n\nBeispiel: Du wählst die Produktion als Fokus von deiner Hand. Du drehst danach 1 Handelsplättchen um und legst es darauf. Zusätzlich spielst du als Agenda Reichtum aus und legst sie an — das Symbol stimmt mit der Produktion überein.",
       "group": "fokusphase",
       "timing": [],
       "tags": [
@@ -618,8 +666,8 @@
       "category": "regeln_solo",
       "name": "Agieren – Fokusaktionen ausführen",
       "image": null,
-      "summary": "Nutzt euren Fokus: Wählt **max. 2 der Fokusaktionen** und führt sie in beliebiger Reihenfolge aus. Habt ihr beim Auswählen ein Handelsplättchen umgedreht, dürft ihr sogar alle 3 ausführen. Ihr könnt jede Aktion nur 1-mal pro Zug nutzen.\n\nErfüllt eure Agenda (falls ausgewählt): Ihr dürft die Agendaaktion vor oder nach einer eurer Fokusaktionen ausführen.",
-      "description": "Ihr könnt beim Agieren keine Agendakarte ausspielen — dies müsst ihr beim Auswählen tun. Ihr könnt beim Auswählen nur Agendakarten ausspielen und Handelsplättchen umdrehen, die ihr bereits vor dem Zug hattet. Aber ihr dürft neue Handelsplättchen ausgeben.\n\nUm eine Aktion zu nutzen, müsst ihr zuerst ihre Kosten zahlen (falls vorhanden). Führt dann ihre(n) Effekt(e) aus. Könnt ihr die Kosten nicht vollständig bezahlen, ignoriert die Aktion.\n\nEs gibt viele verschiedene Symbole für Kosten und Effekte in Voidfall. Alle Symbole und ihre Erläuterung findet ihr im Kapitel „Detaillierte Regeln\".\n\nDie komplexeren Häuser haben besondere Fokuskarten mit einzigartigen Aktionskosten und Effekten. Spielt ihr mit einem solchen Haus, findet ihr im Glossar alle Erläuterungen dazu.\n\nHat eine Aktion mehrere Effekte, dürft ihr sie in beliebiger Reihenfolge ausführen. Ist zwischen ihnen eine grüne Linie mit „+\"-Symbol, dürft ihr beliebig viele der Effekte ausführen. Sind sie durch eine rote Linie mit „÷\"-Symbol getrennt, könnt ihr nur 1 Effekt ausführen. Ihr dürft beliebig viele Effekte ignorieren.",
+      "summary": "Nutze deinen Fokus: Wähle **max. 2 der Fokusaktionen** und führe sie in beliebiger Reihenfolge aus. Hast du beim Auswählen ein Handelsplättchen umgedreht, darfst du sogar alle 3 ausführen. Du kannst jede Aktion nur 1-mal pro Zug nutzen.\n\nErfülle deine Agenda (falls ausgewählt): Du darfst die Agendaaktion vor oder nach einer deiner Fokusaktionen ausführen.",
+      "description": "Du kannst beim Agieren keine Agendakarte ausspielen — dies musst du beim Auswählen tun. Du kannst beim Auswählen nur Agendakarten ausspielen und Handelsplättchen umdrehen, die du bereits vor dem Zug hattest. Aber du darfst neue Handelsplättchen ausgeben.\n\nUm eine Aktion zu nutzen, musst du zuerst ihre Kosten zahlen (falls vorhanden). Führe dann ihre(n) Effekt(e) aus. Kannst du die Kosten nicht vollständig bezahlen, ignoriere die Aktion.\n\nEs gibt viele verschiedene Symbole für Kosten und Effekte in Voidfall. Alle Symbole und ihre Erläuterung findest du im Wiki-Bereich **Symbol-Lexikon**.\n\nDie komplexeren Häuser haben besondere Fokuskarten mit einzigartigen Aktionskosten und Effekten. Spielst du mit einem solchen Haus, findest du im Glossar alle Erläuterungen dazu.\n\nHat eine Aktion mehrere Effekte, darfst du sie in beliebiger Reihenfolge ausführen. Ist zwischen ihnen eine grüne Linie mit „+\"-Symbol, darfst du beliebig viele der Effekte ausführen. Sind sie durch eine rote Linie mit „÷\"-Symbol getrennt, kannst du nur 1 Effekt ausführen. Du darfst beliebig viele Effekte ignorieren.",
       "group": "fokusphase",
       "timing": [],
       "tags": [
@@ -642,8 +690,8 @@
       "category": "regeln_solo",
       "name": "Auswirkungen und Aktionen von Technologien",
       "image": null,
-      "summary": "Technologien haben permanente Auswirkungen, die eure Aktionseffekte beeinflussen können oder andere Effekte auslösen. Im Glossar findet ihr alle permanenten Auswirkungen von Technologien.\n\nEinige Technologien enthalten Fokusse, die euch Technologieaktionen gewähren. Habt ihr den entsprechenden Fokus gewählt, dürft ihr diese Aktion vor oder nach einer eurer Fokus- oder Agendaaktionen nutzen. Falls die Aktion Kosten hat, sind diese konkret aufgeführt und ihr müsst sie zahlen, um den Effekt zu erhalten. Spielt ihr die Technologie im selben Zug wie den darauf angegebenen Fokus, dürft ihr die entsprechende Technologieaktion nutzen, sobald die Aktion abgeschlossen ist, die euch diese Technologie gewährt.",
-      "description": "Beispiele aus der Anleitung: Die Technologie „Neuralmatrix\" gewährt „Erhalte 2 [[icon:credits]], bevor du Credits produzierst\". Die Technologie „Schlächter\" erlaubt: „Du darfst Schlächterflotten für 1 [[icon:wissen]] pro Flotte einsetzen\", sobald ihr Schlächterflotten einsetzt. Spielt ihr „Entwicklung\" oder „Wohlstand\" als Fokus aus, gestattet euch die Technologie „Terraformen\", 1 Material auszugeben, um reine Bevölkerung zu vermehren.",
+      "summary": "Technologien haben permanente Auswirkungen, die deine Aktionseffekte beeinflussen können oder andere Effekte auslösen. Alle permanenten Auswirkungen findest du im Wiki-Bereich **Technologien**.\n\nEinige Technologien enthalten Fokusse, die dir Technologieaktionen gewähren. Hast du den entsprechenden Fokus gewählt, darfst du diese Aktion vor oder nach einer deiner Fokus- oder Agendaaktionen nutzen. Falls die Aktion Kosten hat, sind diese konkret aufgeführt und du musst sie zahlen, um den Effekt zu erhalten. Spielst du die Technologie im selben Zug wie den darauf angegebenen Fokus, darfst du die entsprechende Technologieaktion nutzen, sobald die Aktion abgeschlossen ist, die dir diese Technologie gewährt.",
+      "description": "Beispiele: Die Technologie „Neuralmatrix\" gewährt „Erhalte 2 [[icon:credits]], bevor du Credits produzierst\". Die Technologie „Schlächter\" erlaubt: „Du darfst Schlächterflotten für 1 [[icon:wissen]] pro Flotte einsetzen\", sobald du Schlächterflotten einsetzt. Spielst du „Entwicklung\" oder „Wohlstand\" als Fokus aus, gestattet dir die Technologie „Terraformen\", 1 Material auszugeben, um reine Bevölkerung zu vermehren.",
       "group": "fokusphase",
       "timing": [],
       "tags": [
@@ -665,8 +713,8 @@
       "category": "regeln_solo",
       "name": "Ausgelöste Effekte",
       "image": null,
-      "summary": "Löst ein Effekt einen sofortigen anderen Effekt aus (wie bei „Neuralmatrix\"), dürft ihr die Reihenfolge der Effekte bestimmen und müsst sie innerhalb der aktuellen Aktion abhandeln. Das Abhandeln von Effekten ist optional (soweit nicht anders angegeben) und ihr dürft ausgelöste Effekte ignorieren. Ihr könnt erst mit der nächsten Aktion fortfahren, sobald ihr alle Effekte abgehandelt oder explizit ignoriert habt.",
-      "description": "Besondere Sektoren und Hauseigenschaften können ebenfalls eure Aktionseffekte auslösen oder beeinflussen. Durch einige könnt ihr sogar die 3. Fokusaktion nutzen, ohne ein Handelsplättchen umgedreht zu haben. Besondere Sektoren können euch auch eine zusätzliche Aktion gewähren (wie Technologien). Lest im Glossar mehr darüber.",
+      "summary": "Löst ein Effekt einen sofortigen anderen Effekt aus (wie bei „Neuralmatrix\"), darfst du die Reihenfolge der Effekte bestimmen und musst sie innerhalb der aktuellen Aktion abhandeln. Das Abhandeln von Effekten ist optional (soweit nicht anders angegeben) und du darfst ausgelöste Effekte ignorieren. Du kannst erst mit der nächsten Aktion fortfahren, sobald du alle Effekte abgehandelt oder explizit ignoriert hast.",
+      "description": "Besondere Sektoren und Hauseigenschaften können ebenfalls deine Aktionseffekte auslösen oder beeinflussen. Durch einige kannst du sogar die 3. Fokusaktion nutzen, ohne ein Handelsplättchen umgedreht zu haben. Besondere Sektoren können dir auch eine zusätzliche Aktion gewähren (wie Technologien). Lies im Glossar mehr darüber.",
       "group": "fokusphase",
       "timing": [],
       "tags": [
@@ -733,8 +781,8 @@
       "category": "regeln_solo",
       "name": "Aufräumen – Flottenverbände zurückrufen",
       "image": null,
-      "summary": "Sobald ihr all eure Aktionen abgeschlossen habt: Von allen Sektoren mit mind. 3 Flottenverbänden müsst ihr so viele Flotten zurückrufen, dass die übrigen auf 2 Flottenverbände passen.",
-      "description": "Beispiel: Ihr habt beim Aufräumen 3 Korvetten-Flottenverbände in einem eurer Sektoren. 2 von ihnen haben 3 Flotten und sind voll. Der letzte hat nur 1 Flotte. Ihr entfernt den 3. Flottenverband und ruft die Flotte darauf in die Einsatzzone eures Haustableaus zurück.",
+      "summary": "Sobald du all deine Aktionen abgeschlossen hast: Von allen Sektoren mit mind. 3 Flottenverbänden musst du so viele Flotten zurückrufen, dass die übrigen auf 2 Flottenverbände passen.",
+      "description": "Beispiel: Du hast beim Aufräumen 3 Korvetten-Flottenverbände in einem deiner Sektoren. 2 von ihnen haben 3 Flotten und sind voll. Der letzte hat nur 1 Flotte. Du entfernst den 3. Flottenverband und rufst die Flotte darauf in die Einsatzzone deines Haustableaus zurück.",
       "group": "fokusphase",
       "timing": [],
       "tags": [
@@ -756,8 +804,8 @@
       "category": "regeln_solo",
       "name": "Aufräumen – Ruhmplättchen-Limit",
       "image": null,
-      "summary": "Ihr könnt max. 4 [[icon:ruhmplaettchen-beliebigen-werts]] besitzen und müsst überzählige abwerfen. Legt sie in den allgemeinen Vorrat zurück.",
-      "description": "Beispiel: Ihr habt 5 Ruhmplättchen neben eurem Haustableau. Ihr legt das Ruhmplättchen mit Wert „1\" in den allgemeinen Vorrat zurück.",
+      "summary": "Du kannst max. 4 [[icon:ruhmplaettchen-beliebigen-werts]] besitzen und musst überzählige abwerfen. Lege sie in den allgemeinen Vorrat zurück.",
+      "description": "Beispiel: Du hast 5 Ruhmplättchen neben deinem Haustableau. Du legst das Ruhmplättchen mit Wert „1\" in den allgemeinen Vorrat zurück.",
       "group": "fokusphase",
       "timing": [],
       "tags": [
@@ -779,8 +827,8 @@
       "category": "regeln_solo",
       "name": "Aufräumen – Ausgespielte Agenda anlegen",
       "image": null,
-      "summary": "Habt ihr in diesem Zug eine Agendakarte ausgespielt, müsst ihr 1 der folgenden Optionen wählen:\n\n- Legt sie an ein leeres Agendafeld (nicht Start) eures Haustableaus. Die Agenda ist nun im Spiel. Ihr könnt diese Option nicht wählen, falls ihr bereits eine Agendakarte derselben Art an einem eurer Agendafelder habt.\n- Entfernt 1 eurer Agendakarten (nicht Start) von eurem Haustableau und ersetzt sie durch die neue Agenda. (War dort ein Handelsplättchen, bleibt es dort.) Die neue Agenda ist nun im Spiel. Legt die abgeworfene Agenda verdeckt unter den entsprechenden Agendenstapel. Ihr könnt diese Option nicht wählen, falls ihr dadurch 2 Agenden derselben Art an eurem Haustableau haben würdet.\n- Werft sie ab und legt sie verdeckt unter den entsprechenden Agendenstapel.",
-      "description": "Wichtig: Nur beim Aufräumen legt ihr Agendakarten an euer Haustableau an. Vorher sind sie **nicht** im Spiel. Dies ist anders als bei Technologien.\n\nBeispiel: Ihr habt in diesem Zug eine Unterstützungsagenda ausgespielt und euren Fokus auf Verstärkung gelegt. An eurem Haustableau liegen 3 Agenden an: eine Startagenda, eine Unterstützungsagenda und eine Reichtumsagenda. Ihr habt noch ein verderbtes leeres Agendafeld. Die Verderbnis ist kein Hindernis, jedoch könnt ihr nicht 2 Unterstützungsagenden haben. Ihr werft die alte Unterstützungsagenda ab (und legt sie verdeckt unter den passenden Stapel). An ihr Feld legt ihr die neue Agenda an.",
+      "summary": "Hast du in diesem Zug eine Agendakarte ausgespielt, musst du 1 der folgenden Optionen wählen:\n\n- Lege sie an ein leeres Agendafeld (nicht Start) deines Haustableaus. Die Agenda ist nun im Spiel. Du kannst diese Option nicht wählen, falls du bereits eine Agendakarte derselben Art an einem deiner Agendafelder hast.\n- Entferne 1 deiner Agendakarten (nicht Start) von deinem Haustableau und ersetze sie durch die neue Agenda. (War dort ein Handelsplättchen, bleibt es dort.) Die neue Agenda ist nun im Spiel. Lege die abgeworfene Agenda verdeckt unter den entsprechenden Agendenstapel. Du kannst diese Option nicht wählen, falls du dadurch 2 Agenden derselben Art an deinem Haustableau haben würdest.\n- Wirf sie ab und lege sie verdeckt unter den entsprechenden Agendenstapel.",
+      "description": "Wichtig: Nur beim Aufräumen legst du Agendakarten an dein Haustableau an. Vorher sind sie **nicht** im Spiel. Dies ist anders als bei Technologien.\n\nBeispiel: Du hast in diesem Zug eine Unterstützungsagenda ausgespielt und deinen Fokus auf Verstärkung gelegt. An deinem Haustableau liegen 3 Agenden an: eine Startagenda, eine Unterstützungsagenda und eine Reichtumsagenda. Du hast noch ein verderbtes leeres Agendafeld. Die Verderbnis ist kein Hindernis, jedoch kannst du nicht 2 Unterstützungsagenden haben. Du wirfst die alte Unterstützungsagenda ab (und legst sie verdeckt unter den passenden Stapel). An ihr Feld legst du die neue Agenda an.",
       "group": "fokusphase",
       "timing": [],
       "tags": [
@@ -802,8 +850,8 @@
       "category": "regeln_solo",
       "name": "Aufräumen – Handelsplättchen platzieren",
       "image": null,
-      "summary": "Zählt zuerst all eure Handelsplättchen. Habt ihr beim Auswählen Handelsplättchen umgedreht, legt ihr diese nun auf das Galaxietableau zurück. Ihr müsst alle übrigen Handelsplättchen platzieren und habt dafür 2 Optionen:\n\n- Legt es in die untere rechte Ecke von einer eurer Agenden am Haustableau, falls dort noch keines liegt.\n- Legt es auf das Galaxietableau zurück.",
-      "description": "Beispiel: Ihr habt 1 ungenutztes Handelsplättchen übrig. Ihr dürft es auf eine beliebige eurer 3 Agenden legen. Die Verderbnis spielt dafür keine Rolle.",
+      "summary": "Zähle zuerst all deine Handelsplättchen. Hast du beim Auswählen Handelsplättchen umgedreht, legst du diese nun auf das Galaxietableau zurück. Du musst alle übrigen Handelsplättchen platzieren und hast dafür 2 Optionen:\n\n- Lege es in die untere rechte Ecke von einer deiner Agenden am Haustableau, falls dort noch keines liegt.\n- Lege es auf das Galaxietableau zurück.",
+      "description": "Beispiel: Du hast 1 ungenutztes Handelsplättchen übrig. Du darfst es auf eine beliebige deiner 3 Agenden legen. Die Verderbnis spielt dafür keine Rolle.",
       "group": "fokusphase",
       "timing": [],
       "tags": [
@@ -882,7 +930,9 @@
         "Anleitung S. 13",
         "Nur Solo"
       ],
-      "warnings": [],
+      "warnings": [
+        "Bei einem Kriegsalarm entfällt das Anwachsen der Leere — handele stattdessen den Kriegsalarm ab."
+      ],
       "sort_order": 40010,
       "source": {
         "document": "VOIDFALL-Spielanleitung-DE",
@@ -1026,7 +1076,9 @@
         "Anleitung S. 34",
         "Nur Solo"
       ],
-      "warnings": [],
+      "warnings": [
+        "Freie Felder sind Felder ohne Krise UND ohne Vorboten."
+      ],
       "sort_order": 40140,
       "source": {
         "document": "VOIDFALL-Spielanleitung-DE",
@@ -1039,7 +1091,7 @@
       "category": "regeln_solo",
       "name": "Zuflüchte",
       "image": null,
-      "summary": "Zuflüchte sind versteckte Unterschlüpfe, die überall in Domineum die Flüchtlinge aufnehmen, die der Leere entkommen können. Alle Zuflüchte haben 2–4 Flottenfelder, die du füllen kannst.\n\n**Errichtest oder erweiterst** du eine Zuflucht, darfst du 1 **inaktive** Flotte auf das unterste freie Flottenfeld der Zuflucht legen. Hast du keine inaktive Flotte für den Einsatz in der Zuflucht, darfst du 1 (Flotte zurückrufen und die) aktive Flotte deaktivieren.\n\nErreichst du einen der folgenden Ökonomischen Erfolge, darfst du sofort 1 Zuflucht errichten oder erweitern:\n- **A)** Schaffe **mind. 2 Überproduktionen** im selben Zug (siehe S. 20). Du darfst dadurch max. 1 Flotte pro Zug in einer Zuflucht einsetzen.\n- **B)** Erreiche Stufe IV auf einer deiner Zivilisationsleisten (siehe S. 28).\n- **C)** Habe im 2. Schritt der Auswertungsphase einen **reinen Sektor mit einer Bevölkerung von 6 und mind. 3 Gilden**. Du darfst pro Sektor, der diese Bedingung erfüllt, 1 Flotte in einer Zuflucht einsetzen.",
+      "summary": "Zuflüchte sind versteckte Unterschlüpfe, die überall in Domineum die Flüchtlinge aufnehmen, die der Leere entkommen können. Alle Zuflüchte haben 2–4 Flottenfelder, die du füllen kannst.\n\n**Errichtest oder erweiterst** du eine Zuflucht, darfst du 1 **inaktive** Flotte auf das unterste freie Flottenfeld der Zuflucht legen. Hast du keine inaktive Flotte für den Einsatz in der Zuflucht, darfst du 1 (Flotte zurückrufen und die) aktive Flotte deaktivieren.\n\nErreichst du einen der folgenden Ökonomischen Erfolge, darfst du sofort 1 Zuflucht errichten oder erweitern:\n- **A)** Schaffe **mind. 2 Überproduktionen** im selben Zug (**→ Produzieren und Überproduktion**). Du darfst dadurch max. 1 Flotte pro Zug in einer Zuflucht einsetzen.\n- **B)** Erreiche Stufe IV auf einer deiner Zivilisationsleisten (**→ Zivilisationsleisten und -stufen**).\n- **C)** Habe im 2. Schritt der Auswertungsphase einen **reinen Sektor mit einer Bevölkerung von 6 und mind. 3 Gilden**. Du darfst pro Sektor, der diese Bedingung erfüllt, 1 Flotte in einer Zuflucht einsetzen.",
       "description": "Belasse stets alle Flotten in der Zuflucht. Solange sie freie Flottenfelder hat, ist sie unvollständig. Belegst du alle Flottenfelder einer Zuflucht, ist sie **vollständig** ausgebaut. Wähle dann sofort **1** der folgenden Belohnungen:\n- **D)** Entferne 1 Verderbnis.\n- **E)** Entferne 1 Vorboten.\n- **F)** Erhalte 3 beliebige Ressourcen.\n- **G)** Setze 2 Flotten ein.\n\nDurch das Erfüllen Galaktischer Bestimmungen kannst du die ersten beiden Ökonomischen Erfolge auch in der Vorbereitungs- und der Auswertungsphase erreichen. Betrachte im Falle von Überproduktion diese beiden Phasen als eigene Züge.",
       "group": "leere",
       "timing": [],
@@ -1048,7 +1100,10 @@
         "Anleitung S. 34",
         "Nur Solo"
       ],
-      "warnings": [],
+      "warnings": [
+        "Flotten in einer Zuflucht bleiben dort — nie zurückrufen.",
+        "Jede unvollständige Zuflucht kostet am Ende 20 Einflusspunkte."
+      ],
       "sort_order": 40150,
       "source": {
         "document": "VOIDFALL-Spielanleitung-DE",
@@ -1061,7 +1116,7 @@
       "category": "regeln_solo",
       "name": "Ausgelöschte Technologien",
       "image": null,
-      "summary": "Das Auslöschen von Technologien ist eine besondere Krisenkonsequenz. Das Wissen der Novarchen kann durch den Einfluss der Leere vollkommen ausgelöscht werden.\n- Musst du eine Basistechnologie auslöschen, wähle möglichst 1 aus der Technologieauslage, die **Einflusspunkte** bringt, und lege sie neben das Krisentableau.\n- Musst du eine Fortschrittliche Technologie auslöschen, nimm stets die vom Galaxietableau, die am weitesten links liegt. Liegen auf dem Galaxietableau keine Fortschrittlichen Technologien oder sind diese noch durch die Fortschrittsbarriere blockiert, ignoriere diese Konsequenz und wähle stattdessen eine andere aus (siehe S. 11).\n\nAusgelöschte Technologien kannst du nicht mehr erforschen und sie bringen der Leere am Ende der Partie Einflusspunkte ein.",
+      "summary": "Das Auslöschen von Technologien ist eine besondere Krisenkonsequenz. Das Wissen der Novarchen kann durch den Einfluss der Leere vollkommen ausgelöscht werden.\n- Musst du eine Basistechnologie auslöschen, wähle möglichst 1 aus der Technologieauslage, die **Einflusspunkte** bringt, und lege sie neben das Krisentableau.\n- Musst du eine Fortschrittliche Technologie auslöschen, nimm stets die vom Galaxietableau, die am weitesten links liegt. Liegen auf dem Galaxietableau keine Fortschrittlichen Technologien oder sind diese noch durch die Fortschrittsbarriere blockiert, ignoriere diese Konsequenz und wähle stattdessen eine andere aus.\n\nAusgelöschte Technologien kannst du nicht mehr erforschen und sie bringen der Leere am Ende der Partie Einflusspunkte ein.",
       "description": "",
       "group": "leere",
       "timing": [],
@@ -1077,6 +1132,29 @@
       "source": {
         "document": "VOIDFALL-Spielanleitung-DE",
         "page": 35
+      }
+    },
+    {
+      "id": "haeufige-solo-fehler",
+      "type": "reference",
+      "category": "regeln_solo",
+      "name": "Häufige Solo-Fehler",
+      "image": null,
+      "summary": "Diese Punkte werden in Solopartien am häufigsten übersehen:\n\n- **Anwachsen der Leere fällt aus, wenn die Runde einen Kriegsalarm hat.** Dann handelst du stattdessen den Kriegsalarm ab — nicht beides.\n- **Gefechte sind der 1. Schritt der Auswertungsphase**, nicht der letzte.\n- **Vorboten auf einer Krisenleiste schieben alles darauf 1 Feld nach rechts.** Was rechts hinausfällt, wird abgeworfen und erzeugt 1 Katastrophe.\n- **Entfernst du einen Vorboten von einer Leiste, schiebst du alles 1 Feld nach links**, um die Lücke zu schließen.\n- **Flotten in einer Zuflucht bleiben dort.** Sie werden nie zurückgerufen oder aktiviert.\n- **Eine unvollständige Zuflucht kostet dich am Ende 20 Einflusspunkte** — eine angefangene ist schlechter als gar keine, wenn du sie nicht fertigbekommst.\n- **Der Flottenstärkemodifikator der Leere ist das am weitesten links liegende freie Feld** der Militärischen Leiste — freie Felder sind die **ohne** Krise und **ohne** Vorboten.",
+      "description": "",
+      "group": "leere",
+      "timing": [],
+      "tags": [
+        "Stolperfallen",
+        "Überblick",
+        "Anleitung S. 13",
+        "Nur Solo"
+      ],
+      "warnings": [],
+      "sort_order": 40170,
+      "source": {
+        "document": "VOIDFALL-Spielanleitung-DE",
+        "page": 13
       }
     },
     {
@@ -1158,7 +1236,7 @@
       "name": "Bestimmung des Zielsektors",
       "image": null,
       "summary": "In welchen deiner Sektoren die Leere eindringt, bestimmst du schrittweise folgendermaßen:\n- **A)** Die Leere kann nur Sektoren für Gefechte auswählen, die benachbart zu einem leereberührten Sektor sind (niemals Heimatsektoren). Sektoren ohne Flotten sind **keine** leereberührten Sektoren. Sie wählt **nie** leereresistente Sektoren aus. Befindet sich ein **Vorbote** am Rand des Sektors oder in einem benachbarten Sektor, gilt der Sektor als benachbart zu einem leereberührten Sektor.\n- **B)** Gibt es mehrere mögliche Zielsektoren, bevorzugt die Leere die Sektoren, in denen sie **gewinnt** oder einen **Gleichstand** erzielt. Ermittle das für jeden möglichen Zielsektor nach den üblichen Kampfregeln.\n- **C)** Gibt es mehrere mögliche Zielsektoren, bevorzugt die Leere die Sektoren, in denen du im Kampf **die meisten Flotten zurückrufen musst**.\n\nGibt es weiterhin mehrere mögliche Zielsektoren präferiert sie in dieser Reihenfolge:\n1. den reinen Sektor.\n2. den Sektor mit der höchsten Bevölkerung.\n3. den Sektor mit den meisten Gilden.\n4. einen zufälligen Sektor.",
-      "description": "Wird ein Gefecht in der Auswertungsphase ausgelöst, wählst du den Zielsektor beim Abhandeln dieses Gefechts aus.\nFühre das Gefecht wie einen üblichen Kampf durch, in dem du die Defensive bist, und löse dementsprechend deine Technologien aus. **Gewinnt** die Leere oder kommt es zu einem **Gleichstand**, gelingt der Leere die Invasion *(siehe S. 27)*.",
+      "description": "Wird ein Gefecht in der Auswertungsphase ausgelöst, wählst du den Zielsektor beim Abhandeln dieses Gefechts aus.\nFühre das Gefecht wie einen üblichen Kampf durch, in dem du die Defensive bist, und löse dementsprechend deine Technologien aus. **Gewinnt** die Leere oder kommt es zu einem **Gleichstand**, gelingt der Leere die Invasion (**→ Erfolgreiche Invasion durch die Leere**).",
       "group": "gefechte",
       "timing": [],
       "tags": [
@@ -1318,7 +1396,7 @@
       "category": "regeln_solo",
       "name": "Fokuskarten zurücknehmen",
       "image": null,
-      "summary": "Nimm all deine abgeworfenen Fokuskarten auf die Hand zurück. Ist dies das Ende vom 1. Zyklus, nimm auch deinen **Innovationsfokus** auf die Hand, da du diesen ab dem 2. Zyklus verwenden darfst.\n\nBeginnt nach der Auswertungsphase erneut mit der Vorbereitungsphase, falls ihr den 1. oder 2. Zyklus abgeschlossen habt. Nach der Auswertungsphase des 3. Zyklus fahrt ihr stattdessen mit dem Ende der Partie fort.",
+      "summary": "Nimm all deine abgeworfenen Fokuskarten auf die Hand zurück. Ist dies das Ende vom 1. Zyklus, nimm auch deinen **Innovationsfokus** auf die Hand, da du diesen ab dem 2. Zyklus verwenden darfst.\n\nDu beginnst nach der Auswertungsphase erneut mit der Vorbereitungsphase, falls du den 1. oder 2. Zyklus abgeschlossen hast. Nach der Auswertungsphase des 3. Zyklus fährst du stattdessen mit dem Ende der Partie fort.",
       "description": "",
       "group": "auswertung-ende",
       "timing": [],
@@ -1412,7 +1490,7 @@
       "category": "regeln_solo",
       "name": "Erhalten und Ausgeben",
       "image": null,
-      "summary": "Symbole in Voidfall repräsentieren fast immer Objekte des Spiels – Ressourcen und Güter – im All, auf eurer Hand oder euren Tableaus.\n\n- Steht vor einem Symbol ein **+** (und oftmals eine Ziffer), erhaltet ihr diese Menge der entsprechenden Komponente.\n- Steht vor einem Symbol ein **-** (und oftmals eine Ziffer), verliert ihr diese Menge der entsprechenden Komponente.",
+      "summary": "Symbole in Voidfall repräsentieren fast immer Objekte des Spiels – Ressourcen und Güter – im All, auf deiner Hand oder deinen Tableaus.\n\n- Steht vor einem Symbol ein **+** (und oftmals eine Ziffer), erhältst du diese Menge der entsprechenden Komponente.\n- Steht vor einem Symbol ein **-** (und oftmals eine Ziffer), verlierst du diese Menge der entsprechenden Komponente.",
       "description": "",
       "group": "wirtschaft",
       "timing": [],
@@ -1434,7 +1512,7 @@
       "category": "regeln_solo",
       "name": "Einfluss",
       "image": null,
-      "summary": "Einfluss hat nur einen Zweck: Ihr braucht ihn, um die Partie zu gewinnen. Erhaltet oder verliert ihr Einfluss, müsst ihr die Scheiben eures Einflusstableaus entsprechend anpassen.\n\nEinfluss verliert ihr nur selten (meist durch Wartung). Solltet ihr jemals mehr Einfluss verlieren, als ihr habt, ignoriert den überschüssigen Verlust.",
+      "summary": "Einfluss hat nur einen Zweck: Du brauchst ihn, um die Partie zu gewinnen. Erhältst oder verlierst du Einfluss, musst du die Scheiben deines Einflusstableaus entsprechend anpassen.\n\nEinfluss verlierst du nur selten (meist durch Wartung). Solltest du jemals mehr Einfluss verlieren, als du hast, ignoriere den überschüssigen Verlust.",
       "description": "",
       "group": "wirtschaft",
       "timing": [],
@@ -1455,8 +1533,8 @@
       "category": "regeln_solo",
       "name": "Ressourcenvorräte",
       "image": null,
-      "summary": "Meist zahlt ihr Kosten mit Ressourcen: Nahrung, Energie, Material, Credits oder Wissen.\nManchmal dürft ihr sie in Kombinationen (aus Nahrung/Energie/Material oder aus allen 5) beliebiger Mengen zahlen.\n\nCredits dürft ihr beim Zahlen von Kosten gegen Nahrung, Energie oder Material **1:1 austauschen**. Ihr könnt mit Credits **kein** Wissen oder Nichtressourcen ersetzen. Für die Zahlung eurer **Wartungskosten** in der Auswertungsphase könnt ihr diesen Austausch nicht nutzen.\n\nVerfolgt eure Ressourcen mit den Scheiben rechts an euren Ressourcentableaus. Passt die jeweiligen Werte immer an, sobald ihr Ressourcen erhaltet oder verliert. Ihr könnt niemals weniger als 0 Ressourcen jeder Art haben und keine Aktionen auswählen, die euch mehr kosten als ihr habt. Eurer jeweiliges **Ressourcenlimit beträgt 15**. Erhaltet ihr überschüssige Ressourcen, verfallen diese.",
-      "description": "Die besonderen Eigenschaften einiger Sektoren und Häuser gestatten euch den Austausch bestimmter Ressourcen. Ihr könnt dies jederzeit **außerhalb** der Wartung nutzen.",
+      "summary": "Meist zahlst du Kosten mit Ressourcen: Nahrung, Energie, Material, Credits oder Wissen.\nManchmal darfst du sie in Kombinationen (aus Nahrung/Energie/Material oder aus allen 5) beliebiger Mengen zahlen.\n\nCredits darfst du beim Zahlen von Kosten gegen Nahrung, Energie oder Material **1:1 austauschen**. Du kannst mit Credits **kein** Wissen oder Nichtressourcen ersetzen. Für die Zahlung deiner **Wartungskosten** in der Auswertungsphase kannst du diesen Austausch nicht nutzen.\n\nVerfolge deine Ressourcen mit den Scheiben rechts an deinen Ressourcentableaus. Passe die jeweiligen Werte immer an, sobald du Ressourcen erhältst oder verlierst. Du kannst niemals weniger als 0 Ressourcen jeder Art haben und keine Aktionen auswählen, die dich mehr kosten als du hast. Dein jeweiliges **Ressourcenlimit beträgt 15**. Erhältst du überschüssige Ressourcen, verfallen diese.",
+      "description": "Die besonderen Eigenschaften einiger Sektoren und Häuser gestatten dir den Austausch bestimmter Ressourcen. Du kannst dies jederzeit **außerhalb** der Wartung nutzen.",
       "group": "wirtschaft",
       "timing": [],
       "tags": [
@@ -1479,7 +1557,7 @@
       "name": "Sektoren, Nachbarschaft und Leerenstürme",
       "image": null,
       "summary": "Das All ist in mehrere Sektoren eingeteilt.\n\n2 Sektoren sind zueinander benachbart, falls sie eine gemeinsame Kante haben. **Leerenstürme** verhindern jedoch die Nachbarschaft und kein Effekt kann sie im All platzieren, versetzen oder entfernen.",
-      "description": "Einige Aktionen geben euch vor, dass ihr Kosten zahlen und die Effekte im **selben Sektor** ausführen müsst.",
+      "description": "Einige Aktionen geben dir vor, dass du Kosten zahlen und die Effekte im **selben Sektor** ausführen musst.",
       "group": "wirtschaft",
       "timing": [],
       "tags": [
@@ -1524,8 +1602,8 @@
       "category": "regeln_solo",
       "name": "Sektoreigenschaften",
       "image": null,
-      "summary": "Besondere Sektoren haben aufgedruckte Eigenschaften. Diese betreffen euch, sobald ihr diese Sektoren kontrolliert. Gelingt euch eine Eroberung des Sektors, gilt die Eigenschaft auch schon für das Ende der Invasion.",
-      "description": "Einige Eigenschaften wirken nur 1-mal – sofort nach der Eroberung des Sektors. Diese Effekte müsst ihr bei der Auswertung des Invasionsausgangs berücksichtigen.",
+      "summary": "Besondere Sektoren haben aufgedruckte Eigenschaften. Diese betreffen dich, sobald du diese Sektoren kontrollierst. Gelingt dir eine Eroberung des Sektors, gilt die Eigenschaft auch schon für das Ende der Invasion.",
+      "description": "Einige Eigenschaften wirken nur 1-mal – sofort nach der Eroberung des Sektors. Diese Effekte musst du bei der Auswertung des Invasionsausgangs berücksichtigen.",
       "group": "wirtschaft",
       "timing": [],
       "tags": [
@@ -1546,7 +1624,7 @@
       "category": "regeln_solo",
       "name": "Reine und verderbte Sektoren",
       "image": null,
-      "summary": "Bezüglich der Verderbnis sind Sektoren in 1 von 2 möglichen Stadien:\n\n- **Verderbte Sektoren** enthalten einen Verderbnismarker unter dem Bevölkerungswürfel. Fast alle Sektoren (auch eure) können verderbt sein.\n- **Reine Sektoren** sind frei von jeglicher Verderbnis. Einige Sektoren bleiben stets rein. Dazu gehören eure Heimatsektoren.",
+      "summary": "Bezüglich der Verderbnis sind Sektoren in 1 von 2 möglichen Stadien:\n\n- **Verderbte Sektoren** enthalten einen Verderbnismarker unter dem Bevölkerungswürfel. Fast alle Sektoren (auch deine) können verderbt sein.\n- **Reine Sektoren** sind frei von jeglicher Verderbnis. Einige Sektoren bleiben stets rein. Dazu gehört dein Heimatsektor.",
       "description": "",
       "group": "wirtschaft",
       "timing": [],
@@ -1569,7 +1647,7 @@
       "category": "regeln_solo",
       "name": "Gilden und Stützpunkte",
       "image": null,
-      "summary": "Es gibt 2 Hauptkategorien von Infrastruktur, die ihr in euren Sektoren entwickeln könnt: Zivile **Gilden** und Militärische **Stützpunkte**.\n\nEs gibt 5 verschiedene Gilden, die jeweils die Produktion ihrer **entsprechenden** Ressource steigern:\n- Die **Nahrungsgilde** steigert die Produktion von Nahrung.\n- Die **Konstruktionsgilde** steigert die Produktion von Energie.\n- Die **Bergbaugilde** steigert die Produktion von Material.\n- Die **Kreditgilde** steigert die Produktion von Credits.\n- Die **Forschungsgilde** steigert die Produktion von Wissen.\n\nEs gibt 3 Arten von Stützpunkten mit verschiedenen Funktionen:\n- **Werften** sind am effektivsten zur Entwicklung der Flotten.\n- **Verteidigungsanlagen** kommen im Kampf zum Einsatz. Sie fügen bei der Verteidigung 1 Annäherungsschaden zu.\n- **Sternenbasen** benötigen Technologie, damit ihr sie bauen könnt. Hast du die Technologie Sternenbasen erlangt, dienen dir Sternenbasen **als Werften** beim Einsetzen von Flotten und fügen wie Verteidigungsanlagen bei der Verteidigung 1 Annäherungsschaden zu.",
+      "summary": "Es gibt 2 Hauptkategorien von Infrastruktur, die du in deinen Sektoren entwickeln kannst: Zivile **Gilden** und Militärische **Stützpunkte**.\n\nEs gibt 5 verschiedene Gilden, die jeweils die Produktion ihrer **entsprechenden** Ressource steigern:\n- Die **Nahrungsgilde** steigert die Produktion von Nahrung.\n- Die **Konstruktionsgilde** steigert die Produktion von Energie.\n- Die **Bergbaugilde** steigert die Produktion von Material.\n- Die **Kreditgilde** steigert die Produktion von Credits.\n- Die **Forschungsgilde** steigert die Produktion von Wissen.\n\nEs gibt 3 Arten von Stützpunkten mit verschiedenen Funktionen:\n- **Werften** sind am effektivsten zur Entwicklung der Flotten.\n- **Verteidigungsanlagen** kommen im Kampf zum Einsatz. Sie fügen bei der Verteidigung 1 Annäherungsschaden zu.\n- **Sternenbasen** benötigen Technologie, damit du sie bauen kannst. Hast du die Technologie Sternenbasen erlangt, dienen dir Sternenbasen **als Werften** beim Einsetzen von Flotten und fügen wie Verteidigungsanlagen bei der Verteidigung 1 Annäherungsschaden zu.",
       "description": "",
       "group": "wirtschaft",
       "timing": [],
@@ -1592,7 +1670,7 @@
       "category": "regeln_solo",
       "name": "Bau und Baureihenfolge",
       "image": null,
-      "summary": "Nimm dir das entsprechende Plättchen, sobald du einen Stützpunkt errichtest oder eine Gilde gründest. Lege es auf ein freies Feld in deinem Zielsektor. Du **darfst** auch in **verderbten** Sektoren Stützpunkte errichten und Gilden gründen. \n\nAlle Sektoren haben nur eine begrenzte Anzahl an Feldern für Stützpunkte und Gilden (meist 3/3). Ihr könnt Gilden nicht auf Stützpunktfeldern gründen und umgekehrt. Außerdem müsst ihr neue Stützpunkte/Gilden auf das jeweils 1. freie Feld von links legen und so **das Feld mit Wartungskosten immer als letztes abdecken**.\n\nHast du keine freien Stützpunkt-/Gildenfelder im Zielsektor mehr, kannst du dementsprechend nichts errichten/gründen.\n\nDu kannst bestehende Stützpunkte und Gilden nicht mutwillig zerstören, versetzen oder überbauen.",
+      "summary": "Nimm dir das entsprechende Plättchen, sobald du einen Stützpunkt errichtest oder eine Gilde gründest. Lege es auf ein freies Feld in deinem Zielsektor. Du **darfst** auch in **verderbten** Sektoren Stützpunkte errichten und Gilden gründen. \n\nAlle Sektoren haben nur eine begrenzte Anzahl an Feldern für Stützpunkte und Gilden (meist 3/3). Du kannst Gilden nicht auf Stützpunktfeldern gründen und umgekehrt. Außerdem musst du neue Stützpunkte/Gilden auf das jeweils 1. freie Feld von links legen und so **das Feld mit Wartungskosten immer als letztes abdecken**.\n\nHast du keine freien Stützpunkt-/Gildenfelder im Zielsektor mehr, kannst du dementsprechend nichts errichten/gründen.\n\nDu kannst bestehende Stützpunkte und Gilden nicht mutwillig zerstören, versetzen oder überbauen.",
       "description": "Einige Effekte (Aktionskosten, Galaktische Ereignisse oder Krisen) weisen dich an, Stützpunkte oder Gilden zu zerstören (niemals in Heimatsektoren). In diesem Fall darfst du wählen, welche(n) du zerstörst und schiebst danach alle Plättchen rechts davon nach links.\n\nAufgedruckte Stützpunkte und Gilden sind permanent und gelten als gleichwertig zu ihren jeweiligen Plättchen. Sie können jedoch nie versetzt oder entfernt werden.",
       "group": "wirtschaft",
       "timing": [],
@@ -1638,7 +1716,7 @@
       "category": "regeln_solo",
       "name": "Bevölkerung",
       "image": null,
-      "summary": "Die meisten Sektoren haben eine **Bevölkerung** von 1–6, die durch einen Würfel angezeigt wird. Die Bevölkerung deines Heimatsektors hat einen Würfel in deiner Farbe. Die Bevölkerung beeinflusst die Ressourcenproduktion.\n\nEin reiner Sektor hat eine **reine Bevölkerung**. Ihr könnt eine reine Bevölkerung verändern, jedoch **keine** Bevölkerung von **verderbten** Sektoren.\n\n- **Vermehren:** Füge einem Bevölkerungswürfel deiner Sektoren jeweils 1 hinzu, um eine reine Bevölkerung bis zu einem Maximalwert von 6 zu vermehren.\n- **Dezimieren:** Senke einen Bevölkerungswürfel deiner Sektoren um jeweils 1, um eine reine Bevölkerung bis zu einem Minimalwert von 1 zu dezimieren. Du kannst keine Bevölkerung in Heimatsektoren dezimieren.",
+      "summary": "Die meisten Sektoren haben eine **Bevölkerung** von 1–6, die durch einen Würfel angezeigt wird. Die Bevölkerung deines Heimatsektors hat einen Würfel in deiner Farbe. Die Bevölkerung beeinflusst die Ressourcenproduktion.\n\nEin reiner Sektor hat eine **reine Bevölkerung**. Du kannst eine reine Bevölkerung verändern, jedoch **keine** Bevölkerung von **verderbten** Sektoren.\n\n- **Vermehren:** Füge einem Bevölkerungswürfel deiner Sektoren jeweils 1 hinzu, um eine reine Bevölkerung bis zu einem Maximalwert von 6 zu vermehren.\n- **Dezimieren:** Senke einen Bevölkerungswürfel deiner Sektoren um jeweils 1, um eine reine Bevölkerung bis zu einem Minimalwert von 1 zu dezimieren. Du kannst keine Bevölkerung in Heimatsektoren dezimieren.",
       "description": "Einige besondere Sektoren haben eine **konstante** Bevölkerung. Diese ist als schwarzer Würfel auf ihnen abgebildet. Die Bevölkerung dieser Sektoren kann nie modifiziert werden.\n\nAndere besondere Sektoren haben überhaupt **keine** Bevölkerung. Diese können nie verderbt werden.",
       "group": "wirtschaft",
       "timing": [],
@@ -1750,7 +1828,7 @@
       "category": "regeln_solo",
       "name": "Verbinden und Trennen",
       "image": null,
-      "summary": "Ihr dürft eure Flotten im selben Sektor jederzeit verbinden oder trennen. Habt ihr 1 Flottenverband mit mind. 2 Flotten darauf, dürft ihr einen weiteren Flottenverband in denselben Sektor legen und 1 Flotte dorthin versetzen, um 1 neuen Flottenverband zu bilden. Umgekehrt dürft ihr 2 Flottenverbände mit insgesamt max. 3 Flotten auch zu 1 Flottenverband verbinden, indem ihr alle Flotten auf 1 Flottenverband legt und den anderen entfernt. \n\nIhr könnt **keine** Flotten zwischen Flottenverbänden verschiedener Flottentypen austauschen. Legt Flottenverbände ohne Flotten immer sofort in den allgemeinen Vorrat zurück.",
+      "summary": "Du darfst deine Flotten im selben Sektor jederzeit verbinden oder trennen. Hast du 1 Flottenverband mit mind. 2 Flotten darauf, darfst du einen weiteren Flottenverband in denselben Sektor legen und 1 Flotte dorthin versetzen, um 1 neuen Flottenverband zu bilden. Umgekehrt darfst du 2 Flottenverbände mit insgesamt max. 3 Flotten auch zu 1 Flottenverband verbinden, indem du alle Flotten auf 1 Flottenverband legst und den anderen entfernst.\n\nDu kannst **keine** Flotten zwischen Flottenverbänden verschiedener Flottentypen austauschen. Lege Flottenverbände ohne Flotten immer sofort in den allgemeinen Vorrat zurück.",
       "description": "",
       "group": "flotten",
       "timing": [],
@@ -1773,8 +1851,8 @@
       "category": "regeln_solo",
       "name": "Flotten einsetzen",
       "image": null,
-      "summary": "Ihr **setzt 1 Flotte ein**, indem ihr 1 Flottenmarker aus eurer Einsatzzone in einen Sektor legt. Beim Einsetzen müsst ihr den Flottentyp auswählen (und gegebenenfalls einen neuen Flottenverband auslegen). Für Korvetten benötigt ihr keine Technologie. Alle anderen Schiffstypen könnt ihr erst einsetzen, nachdem ihr die entsprechende Technologie (mit demselben Namen) erforscht habt.\n\nHabt ihr keine aktiven Flotten, könnt ihr keine einsetzen. Ihr könnt ohne Aufforderung keine Flotten aus dem All zurückrufen, um sie woanders einzusetzen.\n\nSetzt ihr Flotten bestimmter Schiffstypen ein, müsst ihr zunächst die auf der entsprechenden Technologie angegebenen Kosten zahlen. Könnt ihr diese Kosten nicht zahlen, könnt ihr keine Flotten dieses Typs einsetzen.",
-      "description": "Manchmal könnt ihr nur beschränkt einsetzen:\n- Einsatz nur in deinem Heimatsektor\n- Einsatz auf Flottentyp beschränkt\n- Einsatz 1 Flotte pro Werft in deinem jeweiligen Sektor mit Werft",
+      "summary": "Du **setzt 1 Flotte ein**, indem du 1 Flottenmarker aus deiner Einsatzzone in einen Sektor legst. Beim Einsetzen musst du den Flottentyp auswählen (und gegebenenfalls einen neuen Flottenverband auslegen). Für Korvetten benötigst du keine Technologie. Alle anderen Schiffstypen kannst du erst einsetzen, nachdem du die entsprechende Technologie (mit demselben Namen) erforscht hast.\n\nHast du keine aktiven Flotten, kannst du keine einsetzen. Du kannst ohne Aufforderung keine Flotten aus dem All zurückrufen, um sie woanders einzusetzen.\n\nSetzt du Flotten bestimmter Schiffstypen ein, musst du zunächst die auf der entsprechenden Technologie angegebenen Kosten zahlen. Kannst du diese Kosten nicht zahlen, kannst du keine Flotten dieses Typs einsetzen.",
+      "description": "Manchmal darfst du nur beschränkt einsetzen:\n- Einsatz nur in deinem Heimatsektor\n- Einsatz auf Flottentyp beschränkt\n- Einsatz 1 Flotte pro Werft in deinem jeweiligen Sektor mit Werft",
       "group": "flotten",
       "timing": [],
       "tags": [
@@ -1795,8 +1873,8 @@
       "category": "regeln_solo",
       "name": "Flotten zurückrufen",
       "image": null,
-      "summary": "Die Kosten einiger Aktionen fordern euch zum **Rückruf 1 Flotte** aus dem All zurück **in die Einsatzzone** auf. Erleiden Flottenverbände **im Kampf Schaden**, müsst ihr ebenfalls 1 Flotte in die Einsatzzone zurückrufen. Entfernt Flottenverbände, sobald keine Flotten mehr auf ihnen liegen, und legt sie in den allgemeinen Vorrat zurück.\n\nRuft ihr die letzte Flotte aus einem Sektor zurück, der nicht euer Heimatsektor ist, müsst ihr 1 beliebiges Ruhmplättchen abwerfen. Der Sektor ist dann verlassen (siehe S. 24).",
-      "description": "Einige Aktionen fordern euch dazu auf, einen Effekt in dem Sektor auszuführen, aus dem ihr die Flotte zurückrufen musstet.",
+      "summary": "Die Kosten einiger Aktionen fordern dich zum **Rückruf 1 Flotte** aus dem All zurück **in die Einsatzzone** auf. Erleiden Flottenverbände **im Kampf Schaden**, musst du ebenfalls 1 Flotte in die Einsatzzone zurückrufen. Entferne Flottenverbände, sobald keine Flotten mehr auf ihnen liegen, und lege sie in den allgemeinen Vorrat zurück.\n\nRufst du die letzte Flotte aus einem Sektor zurück, der nicht dein Heimatsektor ist, musst du 1 beliebiges Ruhmplättchen abwerfen. Der Sektor ist dann verlassen (**→ Verlassene Sektoren und Eindringen der Leere**).",
+      "description": "Einige Aktionen fordern dich dazu auf, einen Effekt in dem Sektor auszuführen, aus dem du die Flotte zurückrufen musstest.",
       "group": "flotten",
       "timing": [],
       "tags": [
@@ -1817,7 +1895,7 @@
       "category": "regeln_solo",
       "name": "Flotten aktivieren und deaktivieren",
       "image": null,
-      "summary": "**Aktiviert ihr 1 Flotte**, legt ihr sie von eurer Ruhezone in die Einsatzzone eures Haustableaus. Habt ihr keine inaktive Flotte, könnt ihr diesen Effekt nicht nutzen.\n\nDie Kosten einiger Aktionen fordern euch zum **Deaktivieren 1 Flotte** auf. Legt dazu 1 Flotte von eurer Einsatzzone in die Ruhezone eures Haustableaus. Habt ihr keine aktive Flotte und müsst 1 deaktivieren, müsst ihr 1 Flotte zurückrufen und sie dann deaktivieren.",
+      "summary": "**Aktivierst du 1 Flotte**, legst du sie von deiner Ruhezone in die Einsatzzone deines Haustableaus. Hast du keine inaktive Flotte, kannst du diesen Effekt nicht nutzen.\n\nDie Kosten einiger Aktionen fordern dich zum **Deaktivieren 1 Flotte** auf. Lege dazu 1 Flotte von deiner Einsatzzone in die Ruhezone deines Haustableaus. Hast du keine aktive Flotte und musst 1 deaktivieren, musst du 1 Flotte zurückrufen und sie dann deaktivieren.",
       "description": "",
       "group": "flotten",
       "timing": [],
@@ -1840,7 +1918,7 @@
       "category": "regeln_solo",
       "name": "Flottenverbandlimit",
       "image": null,
-      "summary": "**Wichtig:** Am Ende von jedem eurer Züge (beim Aufräumen) in der Fokusphase könnt ihr **max. 2 Flottenverbände** in jedem eurer Sektoren haben. Sind in einem Sektor mehr, müsst ihr so viele beliebige Flotten desselben Typs verbinden und zurückrufen (in eure Einsatzzone legen), dass ihr das Limit von 2 Flottenverbänden nicht mehr überschreitet.",
+      "summary": "**Wichtig:** Am Ende von jedem deiner Züge (beim Aufräumen) in der Fokusphase kannst du **max. 2 Flottenverbände** in jedem deiner Sektoren haben. Sind in einem Sektor mehr, musst du so viele beliebige Flotten desselben Typs verbinden und zurückrufen (in deine Einsatzzone legen), dass du das Limit von 2 Flottenverbänden nicht mehr überschreitest.",
       "description": "",
       "group": "flotten",
       "timing": [],
@@ -1863,7 +1941,7 @@
       "name": "Flotten der Leere",
       "image": null,
       "summary": "Flotten der Leere funktionieren wie Korvettenflotten. Flottenverbände der Leere können 1–3 Flotten der Leere enthalten. Im Kampf verhalten sie sich ebenfalls wie Korvettenflotten.\n\nIn jedem leereberührten Sektor **kann max. 1 Flottenverband der Leere** (mit max. 3 Flotten) sein.",
-      "description": "Einige besondere Sektoren können jedoch 2 oder 3 Flottenverbände der Leere (und dementsprechend max. 6 oder 9 Flotten) enthalten, was durch entsprechende Symbole angegeben wird.\n\nSolltet ihr je mehr Flotten der Leere platzieren sollen, als das Sektorlimit beträgt, füllt lediglich die Flottenverbände der Leere bis zum Maximum auf. Habt ihr mehrere Möglichkeiten zum Platzieren der Flotten der Leere, müsst ihr möglichst den Sektor auswählen, in dem ihr alle (oder so viel wie möglich) platzieren könnt.",
+      "description": "Einige besondere Sektoren können jedoch 2 oder 3 Flottenverbände der Leere (und dementsprechend max. 6 oder 9 Flotten) enthalten, was durch entsprechende Symbole angegeben wird.\n\nSolltest du je mehr Flotten der Leere platzieren sollen, als das Sektorlimit beträgt, fülle lediglich die Flottenverbände der Leere bis zum Maximum auf. Hast du mehrere Möglichkeiten zum Platzieren der Flotten der Leere, musst du möglichst den Sektor auswählen, in dem du alle (oder so viel wie möglich) platzieren kannst.",
       "group": "flotten",
       "timing": [],
       "tags": [
@@ -1884,7 +1962,7 @@
       "category": "regeln_solo",
       "name": "Flottenbewegung: Sammeln",
       "image": null,
-      "summary": "Es gibt 2 Arten von Flottenbewegung: **Sammeln** und **Eindringen**.\n\nBeim **Sammeln** dürft ihr **max. 5 Flüge** mit euren Flotten zu jeweils benachbarten Sektoren **unter eurer eigenen Kontrolle** ausführen. Von euch bewegte Flotten müssen nicht im selben Sektor abfliegen oder landen. Ihr dürft dieselbe Flotte auch mehrere Flüge absolvieren lassen. Versetzt, ergänzt oder entfernt Flottenverbände je nach Bedarf.\n\n**Wichtig:** Ihr könnt beim Sammeln nicht die letzte Flotte aus einem Sektor bewegen, der nicht euer Heimatsektor ist.",
+      "summary": "Es gibt 2 Arten von Flottenbewegung: **Sammeln** und **Eindringen**.\n\nBeim **Sammeln** darfst du **max. 5 Flüge** mit deinen Flotten zu jeweils benachbarten Sektoren **unter deiner eigenen Kontrolle** ausführen. Von dir bewegte Flotten müssen nicht im selben Sektor abfliegen oder landen. Du darfst dieselbe Flotte auch mehrere Flüge absolvieren lassen. Versetze, ergänze oder entferne Flottenverbände je nach Bedarf.\n\n**Wichtig:** Du kannst beim Sammeln nicht die letzte Flotte aus einem Sektor bewegen, der nicht dein Heimatsektor ist.",
       "description": "",
       "group": "flotten",
       "timing": [],
@@ -1908,7 +1986,7 @@
       "name": "Flottenbewegung: Eindringen und Invasion",
       "image": null,
       "summary": "Um in einen Sektor **einzudringen**, musst du 1 auswählen, den du **nicht kontrollierst**. Gültige Ziele sind:\n- Leereberührte Sektoren\n- Verlassene Sektoren (ohne Flotten)\n\nFühre die aus 3 Schritten bestehende **Invasion** des ausgewählten Sektors durch:\n1. **Flottenbewegung:** Wähle **beliebig viele** deiner zum Zielsektor **benachbarten** eigenen Flotten (auch aus mehreren Sektoren) und fliege mit ihnen zum Zielsektor. Versetze, ergänze oder entferne Flottenverbände je nach Bedarf.\n2. **Kampf**\n3. **Invasionsausgang:** Der Invasionsausgang ist abhängig davon, wer angreift (du oder die Leere), wer verteidigt und wie der Kampf ausgeht.",
-      "description": "Einige Effekte lassen dich nur verderbte Sektoren angreifen. In diesem Fall kannst du keine reinen Sektoren für die Invasion auswählen.\n\nDurch Invasionen kannst du auch die letzten Flotten aus deinen Sektoren versetzen und sie so zu **verlassenen** Sektoren machen. Tust du das, musst du jedoch (falls möglich) **1 beliebiges deiner Ruhmplättchen pro Sektor abwerfen**, den du verlässt. Danach dringt die Leere in die verlassenen Sektoren ein (siehe S. 24).",
+      "description": "Einige Effekte lassen dich nur verderbte Sektoren angreifen. In diesem Fall kannst du keine reinen Sektoren für die Invasion auswählen.\n\nDurch Invasionen kannst du auch die letzten Flotten aus deinen Sektoren versetzen und sie so zu **verlassenen** Sektoren machen. Tust du das, musst du jedoch (falls möglich) **1 beliebiges deiner Ruhmplättchen pro Sektor abwerfen**, den du verlässt. Danach dringt die Leere in die verlassenen Sektoren ein (**→ Verlassene Sektoren und Eindringen der Leere**).",
       "group": "flotten",
       "timing": [],
       "tags": [
@@ -1930,8 +2008,8 @@
       "category": "regeln_solo",
       "name": "Verlassene Sektoren und Eindringen der Leere",
       "image": null,
-      "summary": "Sobald ihr die letzte Flotte aus einem Sektor entfernt (kein Heimatsektor), ist dieser **sofort verlassen**. Dies kann durch Gleichstand nach einem Kampf geschehen, durch Verlieren in einem Gefecht gegen die Leere (siehe S. 33), durch den Rückruf eurer letzten Flotte (Kosten/Effekte) oder falls ihr mit ihr bei einer Invasion eines anderen Sektors davonfliegt.\n\nUnabhängig vom Grund dringt die Leere sofort in den gerade verlassenen Sektor ein. Führt dazu folgende Schritte aus:\n1. Entfernt alle Stützpunkte im Sektor (keine Gilden).\n2. Platziert (falls möglich) 1 Verderbnismarker unter dem Bevölkerungswürfel.\n3. Legt 1 Flottenverband der Leere mit 2 Flotten und 1 verdecktes Beuteplättchen in den Sektor.\n\nDieser Sektor ist nun ein **leereberührter Sektor**.",
-      "description": "Einige besondere Sektoren sind partiell gegen die Leere resistent.\n- Sektoren mit dem Verderbnis-resistent-Symbol oder ohne Bevölkerung: Verlasst ihr diese Sektoren, müsst ihr beim Eindringen der Leere Schritt 2 überspringen.\n- Sektoren mit dem Leere-resistent-Symbol: Verlasst ihr diese Sektoren, müsst ihr beim Eindringen der Leere Schritt 3 überspringen. In diese kommen niemals Flotten(-verbände) der Leere.",
+      "summary": "Sobald du die letzte Flotte aus einem Sektor entfernst (kein Heimatsektor), ist dieser **sofort verlassen**. Dies kann durch Gleichstand nach einem Kampf geschehen, durch Verlieren in einem Gefecht gegen die Leere (**→ Gefechte gegen die Leere**), durch den Rückruf deiner letzten Flotte (Kosten/Effekte) oder falls du mit ihr bei einer Invasion eines anderen Sektors davonfliegst.\n\nUnabhängig vom Grund dringt die Leere sofort in den gerade verlassenen Sektor ein. Führe dazu folgende Schritte aus:\n1. Entferne alle Stützpunkte im Sektor (keine Gilden).\n2. Platziere (falls möglich) 1 Verderbnismarker unter dem Bevölkerungswürfel.\n3. Lege 1 Flottenverband der Leere mit 2 Flotten und 1 verdecktes Beuteplättchen in den Sektor.\n\nDieser Sektor ist nun ein **leereberührter Sektor**.",
+      "description": "Einige besondere Sektoren sind partiell gegen die Leere resistent.\n- Sektoren mit dem Verderbnis-resistent-Symbol oder ohne Bevölkerung: Verlässt du diese Sektoren, musst du beim Eindringen der Leere Schritt 2 überspringen.\n- Sektoren mit dem Leere-resistent-Symbol: Verlässt du diese Sektoren, musst du beim Eindringen der Leere Schritt 3 überspringen. In diese kommen niemals Flotten(-verbände) der Leere.",
       "group": "kampf",
       "timing": [],
       "tags": [
@@ -1953,8 +2031,8 @@
       "category": "regeln_solo",
       "name": "Kampf Einführung",
       "image": null,
-      "summary": "Dringt ihr in einen Sektor durch Invasion ein oder beginnt die Leere ein Gefecht mit euch, findet ein Kampf statt. Der betroffene Sektor ist der **Kampfsektor**.\n\nKämpfe in Voidfall sind vollkommen plan- und nachvollziehbar, da sie keine zufälligen oder geheimen Elemente enthalten. Wer die Invasion beginnt, kämpft als **Offensive** gegen die **Defensive**. Beide Seiten dürfen ihre Flotten in den Kampf schicken. Nur die Defensive kann Verteidigungsanlagen und Sternenbasen nutzen.",
-      "description": "Leereberührte Sektoren haben Flotten der Leere in sich, die im Kampf dieselben Eigenschaften wie Korvetten haben. Gibt es im Kampfsektor Verteidigungsanlagen, nutzt die Leere als Defensive diese auch.\n\nSektoren ohne Flotten haben stattdessen Verteidigungsanlagen oder Sternenbasen in sich. Auf **Gefallenen Häusern** aufgedruckte Verteidigungsanlagen sind solange im Sektor, bis ihr die Gefallenen Häuser aus dem Sektor entfernt.\n\nDer Kampf besteht aus 2 Teilen: **Annäherung** und mind. 1 **Salve**.",
+      "summary": "Dringst du in einen Sektor durch Invasion ein oder beginnt die Leere ein Gefecht mit dir, findet ein Kampf statt. Der betroffene Sektor ist der **Kampfsektor**.\n\nKämpfe in Voidfall sind vollkommen plan- und nachvollziehbar, da sie keine zufälligen oder geheimen Elemente enthalten. Wer die Invasion beginnt, kämpft als **Offensive** gegen die **Defensive**. Beide Seiten dürfen ihre Flotten in den Kampf schicken. Nur die Defensive kann Verteidigungsanlagen und Sternenbasen nutzen.",
+      "description": "Leereberührte Sektoren haben Flotten der Leere in sich, die im Kampf dieselben Eigenschaften wie Korvetten haben. Gibt es im Kampfsektor Verteidigungsanlagen, nutzt die Leere als Defensive diese auch.\n\nSektoren ohne Flotten haben stattdessen Verteidigungsanlagen oder Sternenbasen in sich. Auf **Gefallenen Häusern** aufgedruckte Verteidigungsanlagen sind solange im Sektor, bis du die Gefallenen Häuser aus dem Sektor entfernst.\n\nDer Kampf besteht aus 2 Teilen: **Annäherung** und mind. 1 **Salve**.",
       "group": "kampf",
       "timing": [],
       "tags": [
@@ -1976,7 +2054,7 @@
       "category": "regeln_solo",
       "name": "Schaden und Absorption",
       "image": null,
-      "summary": "Offensive und Defensive fügen sich gegenseitig **Schaden** zu. Erleidet ihr 1 Schaden, müsst ihr **1 beliebige** eurer Flotten aus dem Kampfsektor **zurückrufen**. Stützpunkte, Gilden, Verteidigungsanlagen und Sternenbasen erleiden keinen Schaden.\n\nEinige Flottentypen und Technologien gewähren euch **Absorption**, die den Schaden um 1 verringert. Schaden oder Absorption gelten **entweder** für die Annäherung **oder** die Salve und haben unterschiedliche Symbole.\n- **Annäherungsschaden** und **-absorption** wirken nur bei Annäherung.\n- **Salvenschaden** und **-absorption** wirken nur bei Salven.\n\nAnnäherungsabsorption verhindert keinen Salvenschaden und umgekehrt.",
+      "summary": "Offensive und Defensive fügen sich gegenseitig **Schaden** zu. Erleidest du 1 Schaden, musst du **1 beliebige** deiner Flotten aus dem Kampfsektor **zurückrufen**. Stützpunkte, Gilden, Verteidigungsanlagen und Sternenbasen erleiden keinen Schaden.\n\nEinige Flottentypen und Technologien gewähren dir **Absorption**, die den Schaden um 1 verringert. Schaden oder Absorption gelten **entweder** für die Annäherung **oder** die Salve und haben unterschiedliche Symbole.\n- **Annäherungsschaden** und **-absorption** wirken nur bei Annäherung.\n- **Salvenschaden** und **-absorption** wirken nur bei Salven.\n\nAnnäherungsabsorption verhindert keinen Salvenschaden und umgekehrt.",
       "description": "",
       "group": "kampf",
       "timing": [],
@@ -1999,7 +2077,7 @@
       "category": "regeln_solo",
       "name": "Grundlegender Kampfablauf",
       "image": null,
-      "summary": "Bei der **Annäherung** fügt die Defensive mit allen **Verteidigungsanlagen** und **Sternenbasen** je 1 Schaden zu.\n\nDie anschließende(n) **Salve(n)** bestehen aus:\n1. Ermittelt die **Initiative** beider Seiten, die von der Anzahl eurer eigenen Flotten aller Flottentypen im Kampfsektor abhängt. (Technologien und andere Flottentypen können den Wert beeinflussen).\n2. Wer die höhere Initiative hat, fügt der anderen Seite **1 Schaden** zu – unabhängig von der Differenz.\n3. Wer die niedrigere Initiative hat, muss die Initiative (falls der Schaden nicht absorbiert wurde) erneut ermitteln und fügt, falls die Initiative nun mind. 1 beträgt, der anderen Seite ebenfalls **1 Schaden** zu. Ansonsten wird kein Schaden zugefügt.\n4. Herrscht bei der Initiative Gleichstand, fügen sich beide Seiten gegenseitig gleichzeitig je 1 Schaden zu.\n\nFührt weitere Salven durch, bis mind. 1 Seite keine Flotten mehr im Kampfsektor hat. Fahrt dann mit dem **Invasionsausgang** fort.",
+      "summary": "Bei der **Annäherung** fügt die Defensive mit allen **Verteidigungsanlagen** und **Sternenbasen** je 1 Schaden zu.\n\nDie anschließende(n) **Salve(n)** bestehen aus:\n1. Ermittle die **Initiative** beider Seiten, die von der Anzahl deiner eigenen Flotten aller Flottentypen im Kampfsektor abhängt. (Technologien und andere Flottentypen können den Wert beeinflussen).\n2. Wer die höhere Initiative hat, fügt der anderen Seite **1 Schaden** zu – unabhängig von der Differenz.\n3. Wer die niedrigere Initiative hat, muss die Initiative (falls der Schaden nicht absorbiert wurde) erneut ermitteln und fügt, falls die Initiative nun mind. 1 beträgt, der anderen Seite ebenfalls **1 Schaden** zu. Ansonsten wird kein Schaden zugefügt.\n4. Herrscht bei der Initiative Gleichstand, fügen sich beide Seiten gegenseitig gleichzeitig je 1 Schaden zu.\n\nFühre weitere Salven durch, bis mind. 1 Seite keine Flotten mehr im Kampfsektor hat. Fahre dann mit dem **Invasionsausgang** fort.",
       "description": "",
       "group": "kampf",
       "timing": [],
@@ -2045,7 +2123,7 @@
       "name": "Erfolgreiche Invasion durch dich",
       "image": null,
       "summary": "Hast nur du als Offensive nach einer Kampfsequenz mind. 1 Flotte im Kampfsektor, gewinnst du den Kampf. Die Invasion war erfolgreich. Belasse all deine Flotten, die am Kampf beteiligt waren, im Kampfsektor. Leereberührte Sektoren behalten ihre Verderbnis. Dies ist nun dein Sektor und du musst die Übernahme durchführen.\n\nDie Übernahme besteht aus den folgenden Punkten, die du in beliebiger Reihenfolge ausführen musst.\n- **A)** Entferne alle **Stützpunkte** im Sektor (keine Gilden).\n- **B)** Erhalte alle **Beute** aus dem Sektor.\n- **C)** Eigne dir alle **Hinterlassenschaften** aus dem Sektor an.\n- **D)** Erhalte alle **Ruhmplättchen** aus dem Sektor und lege sie neben dein Haustableau.\n- **H)** Besondere Sektoren haben Effekte, die du 1-mal nach ihrer erfolgreichen Invasion ausführst.\n- **I)** Stand der Sektor unter Kontrolle eines Gefallenen Hauses:\n  - Du darfst ab sofort **max. 6 Technologien statt 5 erforschen**.\n  - Wähle **1 der beiden** Technologien des Gefallenen Hauses. Hast du mind. 1 freies Technologiefeld, nimm sie dir (kostenlos) und erforsche die Basistechnologie.\n  - Führe die unteren Effekte des Gefallenen Hauses aus. Du musst die Gilden, Stützpunkte oder Flotten in diesem Sektor gründen, errichten, bzw. einsetzen.\n  - War dies das 1. Gefallene Haus, das du erobert hast, drehe es nun um und lege es als 6. Technologiefeld an dein Haustableau an. Wirf es ansonsten ab.",
-      "description": "*(Hinweis: Die Schritte **F** und **G** der Übernahme findest du im Eintrag „Übernahme eines Risses und von Vorboten\".)*",
+      "description": "**(Hinweis: Die Schritte F und G der Übernahme findest du im Eintrag „Übernahme eines Risses und von Vorboten\".)**",
       "group": "kampf",
       "timing": [],
       "tags": [
@@ -2091,7 +2169,7 @@
       "category": "regeln_solo",
       "name": "Erfolgreiche Invasion durch die Leere",
       "image": null,
-      "summary": "Hast du in einem Gefecht (siehe S. 33) keine Flotten mehr im Kampfsektor, gewinnt die Leere den Kampf. Führe in diesem Fall folgende Schritte aus:\n1. Wirf 1 beliebiges deiner Ruhmplättchen ab.\n2. Entferne alle Stützpunkte aus dem Sektor (keine Gilden).\n3. Platziere (falls möglich) 1 Verderbnismarker unter dem Bevölkerungswürfel.\n4. Entferne Flotten der Leere aus dem Sektor oder füge welche hinzu, bis exakt 1 Flottenverband der Leere mit 2 Flotten dort ist. Lege 1 verdecktes Beuteplättchen in den Sektor.\n\nEs ist egal, mit wie vielen Flotten die Leere das Gefecht übersteht. Verlierst du, verbleibt sie immer mit 1 Flottenverband der Leere samt 2 Flotten.",
+      "summary": "Hast du in einem Gefecht (**→ Gefechte gegen die Leere**) keine Flotten mehr im Kampfsektor, gewinnt die Leere den Kampf. Führe in diesem Fall folgende Schritte aus:\n1. Wirf 1 beliebiges deiner Ruhmplättchen ab.\n2. Entferne alle Stützpunkte aus dem Sektor (keine Gilden).\n3. Platziere (falls möglich) 1 Verderbnismarker unter dem Bevölkerungswürfel.\n4. Entferne Flotten der Leere aus dem Sektor oder füge welche hinzu, bis exakt 1 Flottenverband der Leere mit 2 Flotten dort ist. Lege 1 verdecktes Beuteplättchen in den Sektor.\n\nEs ist egal, mit wie vielen Flotten die Leere das Gefecht übersteht. Verlierst du, verbleibt sie immer mit 1 Flottenverband der Leere samt 2 Flotten.",
       "description": "",
       "group": "kampf",
       "timing": [],
@@ -2114,7 +2192,7 @@
       "category": "regeln_solo",
       "name": "Gleichstand im Kampf",
       "image": null,
-      "summary": "Haben in einem Kampf beide Seiten nach einer Kampfsequenz keine Flotten mehr übrig, kommt es zum Gleichstand. Die **Defensive muss** (falls möglich) **1 beliebiges eigenes Ruhmplättchen abwerfen**. Der Sektor ist danach **verlassen** und die Leere dringt wie üblich in ihn ein (siehe S. 24).\n\nDringt ihr in Sektoren ein, in denen keine Flotten sind (z.B. mit Gefallenem Haus), hat die Defensive nur Verteidigungsanlagen und Sternenbasen. Habt ihr nach der Annäherung keine Flotten übrig, ist dies ein Sieg der Defensive.",
+      "summary": "Haben in einem Kampf beide Seiten nach einer Kampfsequenz keine Flotten mehr übrig, kommt es zum Gleichstand. Die **Defensive muss** (falls möglich) **1 beliebiges eigenes Ruhmplättchen abwerfen**. Der Sektor ist danach **verlassen** und die Leere dringt wie üblich in ihn ein (**→ Verlassene Sektoren und Eindringen der Leere**).\n\nDringst du in Sektoren ein, in denen keine Flotten sind (z.B. mit Gefallenem Haus), hat die Defensive nur Verteidigungsanlagen und Sternenbasen. Hast du nach der Annäherung keine Flotten übrig, ist dies ein Sieg der Defensive.",
       "description": "",
       "group": "kampf",
       "timing": [],
@@ -2136,7 +2214,7 @@
       "category": "regeln_solo",
       "name": "Beute und Hinterlassenschaften",
       "image": null,
-      "summary": "Beute und Hinterlassenschaften verteilt ihr bei der Vorbereitung in Sektoren, die niemand kontrolliert. Nehmt ihr einen Sektor erfolgreich ein, erhaltet ihr Beute und übernehmt Hinterlassenschaften. Dreht sie dazu um, erhaltet (falls gewünscht) die abgebildete Belohnung und legt sie neben euer Haustableau.\n\nErhaltet ihr Einflusspunkte oder Ressourcen, nehmt euch die entsprechende Anzahl davon. Flotten, Gilden und Stützpunkte der **Hinterlassenschaften** müsst ihr in dem gerade übernommenen Sektor einsetzen/gründen/errichten. Ihr dürft wie üblich die Belohnung ignorieren.\n\nSammelt Beute und Hinterlassenschaften neben eurem Haustableau, da einige Agenden Bezug auf ihre Anzahl nehmen und es Effekte gibt, die sie euch abwerfen lassen. Der auf ihnen abgebildete Vorteil ist nicht weiter von Belang. Ihr bekommt ihn nur bei Erhalt.\n\nMischt von euch abgeworfene Beute oder Hinterlassenschaften verdeckt in ihre entsprechenden Stapel im allgemeinen Vorrat zurück. Sollten Beute oder Hinterlassenschaften des allgemeinen Vorrats leer sein und ihr welche nehmen müssen, erhaltet ihr stattdessen 1 Einflusspunkt oder 1 beliebige Ressource.",
+      "summary": "Beute und Hinterlassenschaften verteilst du bei der Vorbereitung in Sektoren, die niemand kontrolliert. Nimmst du einen Sektor erfolgreich ein, erhältst du Beute und übernimmst Hinterlassenschaften. Drehe sie dazu um, erhalte (falls gewünscht) die abgebildete Belohnung und lege sie neben dein Haustableau.\n\nErhältst du Einflusspunkte oder Ressourcen, nimm dir die entsprechende Anzahl davon. Flotten, Gilden und Stützpunkte der **Hinterlassenschaften** musst du in dem gerade übernommenen Sektor einsetzen/gründen/errichten. Du darfst wie üblich die Belohnung ignorieren.\n\nSammle Beute und Hinterlassenschaften neben deinem Haustableau, da einige Agenden Bezug auf ihre Anzahl nehmen und es Effekte gibt, die sie dich abwerfen lassen. Der auf ihnen abgebildete Vorteil ist nicht weiter von Belang. Du bekommst ihn nur bei Erhalt.\n\nMische von dir abgeworfene Beute oder Hinterlassenschaften verdeckt in ihre entsprechenden Stapel im allgemeinen Vorrat zurück. Sollten Beute oder Hinterlassenschaften des allgemeinen Vorrats leer sein und du welche nehmen musst, erhältst du stattdessen 1 Einflusspunkt oder 1 beliebige Ressource.",
       "description": "",
       "group": "kampf",
       "timing": [],
@@ -2158,7 +2236,7 @@
       "category": "regeln_solo",
       "name": "Ruhmplättchen",
       "image": null,
-      "summary": "Bei der Vorbereitung erhaltet ihr Ruhmplättchen. Weitere verteilt ihr dem Szenario entsprechend auf Sektoren. Ihr könnt durch die Effekte von Galaktischen Ereignissen ebenfalls welche erhalten oder verteilen. Ruhmplättchen sind beidseitig mit denselben Werten von 1–5 bedruckt.\n\nRuhmplättchen nehmt ihr aus dem allgemeinen Vorrat und werft sie dorthin ab. Sammelt eure Ruhmplättchen links neben eurem Haustableau. Ruhmplättchen sind unlimitiert. Gibt es keine mehr, nehmt passenden Ersatz.\n\nVerlasst ihr einen Sektor, müsst ihr falls möglich 1 beliebiges Ruhmplättchen abwerfen.\n\nIhr könnt beim Aufräumen **max. 4 Ruhmplättchen** besitzen und müsst überzählige abwerfen. Legt sie in den allgemeinen Vorrat zurück.\n\nIhr könnt Ruhmplättchen aufwerten. Dazu werft ihr zunächst das betreffende Ruhmplättchen ab und nehmt euch 1 Ruhmplättchen mit dem entsprechend um 1 höheren Wert. Der Maximalwert von Ruhmplättchen beträgt 5.",
+      "summary": "Bei der Vorbereitung erhältst du Ruhmplättchen. Weitere verteilst du dem Szenario entsprechend auf Sektoren. Du kannst durch die Effekte von Galaktischen Ereignissen ebenfalls welche erhalten oder verteilen. Ruhmplättchen sind beidseitig mit denselben Werten von 1–5 bedruckt.\n\nRuhmplättchen nimmst du aus dem allgemeinen Vorrat und wirfst sie dorthin ab. Sammle deine Ruhmplättchen links neben deinem Haustableau. Ruhmplättchen sind unlimitiert. Gibt es keine mehr, nimm passenden Ersatz.\n\nVerlässt du einen Sektor, musst du falls möglich 1 beliebiges Ruhmplättchen abwerfen.\n\nDu kannst beim Aufräumen **max. 4 Ruhmplättchen** besitzen und musst überzählige abwerfen. Lege sie in den allgemeinen Vorrat zurück.\n\nDu kannst Ruhmplättchen aufwerten. Dazu wirfst du zunächst das betreffende Ruhmplättchen ab und nimmst dir 1 Ruhmplättchen mit dem entsprechend um 1 höheren Wert. Der Maximalwert von Ruhmplättchen beträgt 5.",
       "description": "",
       "group": "kampf",
       "timing": [],
@@ -2179,7 +2257,7 @@
       "category": "regeln_solo",
       "name": "Kämpfe im Detail – Annäherung",
       "image": null,
-      "summary": "Hier erfahrt ihr den detaillierten Kampfablauf mit allen kampfrelevanten Effekten der Technologien und Flotten. Der Kampf selbst besteht aus 2 Teilen: **Annäherung** und **Salve(n)**. Alle Salven folgen demselben Ablauf, doch einige Effekte treten nur in der 1. Salve auf.\n\nBevor ihr Schaden zufügt, darf die Offensive alle eigenen Trägerflotten im Kampfsektor dazu nutzen, um dort je 1 Korvettenflotte einzusetzen. Diese Korvettenflotten nehmen sofort am Kampf und der Annäherung teil. Die Korvettenflotten verbleiben im Kampfsektor, auch falls ihr die Träger bei der Annäherung zurückruft.\n\nOffensive und Defensive fügen **gleichzeitig** Annäherungsschaden zu.\nAls **Defensive** kannst du **Annäherungsschaden** zufügen:\n- Füge pro präsenter, eigener **Verteidigungsanlage** und **Sternenbasis** je 1 Schaden zu.\n- Füge pro präsenter eigener **Wächterflotte** je 1 Schaden zu.\n- Hast du **Fortschrittliche Weltraumgeschosse** erforscht und 1 oder mind. 2 zum Kampfsektor benachbarte Sektoren mit **Werft** oder **Sternenbasis**, füge entsprechend 1 oder 2 Schaden zu.\n- Hast du die **Basistechnologie** oder **Fortschrittliche Energiezellen** erforscht, füge 1 zusätzlichen Schaden zu, falls du in dieser Annäherung zuvor Schaden zugefügt hast (auch bei Absorption dessen).\n\nGefallene Häuser haben 2 Verteidigungsanlagen. Dringt ihr in einen Sektor Gefallener Häuser ein, fügen sie bei der Annäherung wie üblich Schaden zu. Überlebst du diese als Offensive mit mind. 1 Flotte, kapituliert das Gefallene Haus. Es schließt sich dir dankbar an und gewährt dir Vorteile (siehe S. 26).",
+      "summary": "Hier erfährst du den detaillierten Kampfablauf mit allen kampfrelevanten Effekten der Technologien und Flotten. Der Kampf selbst besteht aus 2 Teilen: **Annäherung** und **Salve(n)**. Alle Salven folgen demselben Ablauf, doch einige Effekte treten nur in der 1. Salve auf.\n\nBevor du Schaden zufügst, darf die Offensive alle eigenen Trägerflotten im Kampfsektor dazu nutzen, um dort je 1 Korvettenflotte einzusetzen. Diese Korvettenflotten nehmen sofort am Kampf und der Annäherung teil. Die Korvettenflotten verbleiben im Kampfsektor, auch falls du die Träger bei der Annäherung zurückrufst.\n\nOffensive und Defensive fügen **gleichzeitig** Annäherungsschaden zu.\nAls **Defensive** kannst du **Annäherungsschaden** zufügen:\n- Füge pro präsenter, eigener **Verteidigungsanlage** und **Sternenbasis** je 1 Schaden zu.\n- Füge pro präsenter eigener **Wächterflotte** je 1 Schaden zu.\n- Hast du **Fortschrittliche Weltraumgeschosse** erforscht und 1 oder mind. 2 zum Kampfsektor benachbarte Sektoren mit **Werft** oder **Sternenbasis**, füge entsprechend 1 oder 2 Schaden zu.\n- Hast du die **Basistechnologie** oder **Fortschrittliche Energiezellen** erforscht, füge 1 zusätzlichen Schaden zu, falls du in dieser Annäherung zuvor Schaden zugefügt hast (auch bei Absorption dessen).\n\nGefallene Häuser haben 2 Verteidigungsanlagen. Dringst du in einen Sektor Gefallener Häuser ein, fügen sie bei der Annäherung wie üblich Schaden zu. Überlebst du diese als Offensive mit mind. 1 Flotte, kapituliert das Gefallene Haus. Es schließt sich dir dankbar an und gewährt dir Vorteile (**→ Erfolgreiche Invasion**).",
       "description": "",
       "group": "kampf",
       "timing": [],
@@ -2204,7 +2282,7 @@
       "name": "Annäherungsschaden als Offensive",
       "image": null,
       "summary": "Als **Offensive** kannst du **Annäherungsschaden** zufügen:\n- Hast du die **Fortschrittliche Zerstörer** erforscht und ist mind. 1 deiner **Zerstörerflotten** präsent, füge 1 Schaden zu (einmalig, nicht pro Flotte).\n- Hast du die **Basistechnologie Weltraumgeschosse** erforscht, einen zum Kampfsektor benachbarten Sektor mit **Werft** oder **Sternenbasis** und zahlst **1 Energie**, füge 1 Schaden zu.\n- Hast du **Fortschrittliche Weltraumgeschosse** erforscht und 1 oder mind. 2 zum Kampfsektor benachbarte Sektoren mit **Werft** oder **Sternenbasis**, füge entsprechend 1 oder 2 Schaden zu.",
-      "description": "**Korrektur zur deutschen Anleitung (S. 36):** Dort nennt der 1. Punkt irrtümlich die **Fortschrittlichen Schlächter**. Im englischen Original steht an dieser Stelle „Improved Destroyers“ – gemeint ist der **Fortschrittliche Zerstörer**. Die Flottentypen-Tabelle (S. 37) bestätigt das: Annäherungsschaden gehört zum Fortschrittlichen Zerstörer, das Schlächter-Kampfplättchen gewährt in der Annäherung dagegen **Absorption**.",
+      "description": "",
       "group": "kampf",
       "timing": [],
       "tags": [
@@ -2215,7 +2293,9 @@
         "Schaden",
         "Anleitung S. 36"
       ],
-      "warnings": [],
+      "warnings": [
+        "Korrektur zur deutschen Anleitung (S. 36): Dort nennt der 1. Punkt irrtümlich die Fortschrittlichen Schlächter. Im englischen Original steht an dieser Stelle „Improved Destroyers\" – gemeint ist der Fortschrittliche Zerstörer. Die Flottentypen-Tabelle (S. 37) bestätigt das: Annäherungsschaden gehört zum Fortschrittlichen Zerstörer, das Schlächter-Kampfplättchen gewährt in der Annäherung dagegen Absorption."
+      ],
       "sort_order": 80140,
       "source": {
         "document": "VOIDFALL-Spielanleitung-DE",
@@ -2252,7 +2332,7 @@
       "category": "regeln_solo",
       "name": "Salven – Initiative ermitteln",
       "image": null,
-      "summary": "Ermittelt zu Beginn jeder Salve die **Initiative** beider Seiten:\n\n- Hat eine Seite **Fortschrittliche Zielerfassung** erforscht und ist mind. 1 eigene Flotte präsent, hat diese Seite **immer die höhere Initiative** (Garantierter Erstschuss unabhängig vom vorhandenen Flottentypen).\n- Erhöht pro präsenter, eigener **Korvetten-, Zerstörer-, Schlächter-** und **Trägerflotte** eure Initiative um je 1.\n- Erhöht eure Initiative um 1, falls mind. 1 eurer **Schlächterflotten** präsent ist.\n- Erhöhe als **Offensive** deine Initiative um 1, falls mind. 1 deiner **Zerstörerflotten** präsent ist.\n- Erhöhe als **Offensive** pro präsenter, eigener **Wächterflotte** deine Initiative um 1.\n- Habt ihr die **Basistechnologie Zielerfassung** erforscht, erhöht eure Initiative um 5, falls mind. 1 eurer **Korvettenflotten** präsent ist.\n- **Flotten der Leere** erhöhen (wie Korvettenflotten) die Initiative der Leere jeweils um 1.\n\nWer die **höhere Initiative** hat, fügt der anderen Seite **zuerst 1 Schaden** zu, falls diese noch eine Initiative von mind. 1 hat. Hat die Seite mit **niedrigerer Initiative danach** noch eine Initiative von mind. 1, fügt sie der anderen Seite **1 Schaden** zu. Haben beide Seiten die gleiche Initiative, fügt ihr **gleichzeitig 1 Schaden** zu.",
+      "summary": "Ermittle zu Beginn jeder Salve die **Initiative** beider Seiten:\n\n- Hat eine Seite **Fortschrittliche Zielerfassung** erforscht und ist mind. 1 eigene Flotte präsent, hat diese Seite **immer die höhere Initiative** (Garantierter Erstschuss unabhängig vom vorhandenen Flottentypen).\n- Erhöhe pro präsenter, eigener **Korvetten-, Zerstörer-, Schlächter-** und **Trägerflotte** deine Initiative um je 1.\n- Erhöhe deine Initiative um 1, falls mind. 1 deiner **Schlächterflotten** präsent ist.\n- Erhöhe als **Offensive** deine Initiative um 1, falls mind. 1 deiner **Zerstörerflotten** präsent ist.\n- Erhöhe als **Offensive** pro präsenter, eigener **Wächterflotte** deine Initiative um 1.\n- Hast du die **Basistechnologie Zielerfassung** erforscht, erhöhe deine Initiative um 5, falls mind. 1 deiner **Korvettenflotten** präsent ist.\n- **Flotten der Leere** erhöhen (wie Korvettenflotten) die Initiative der Leere jeweils um 1.\n\nWer die **höhere Initiative** hat, fügt der anderen Seite **zuerst 1 Schaden** zu, falls diese noch eine Initiative von mind. 1 hat. Hat die Seite mit **niedrigerer Initiative danach** noch eine Initiative von mind. 1, fügt sie der anderen Seite **1 Schaden** zu. Haben beide Seiten die gleiche Initiative, fügst du **gleichzeitig 1 Schaden** zu.",
       "description": "",
       "group": "kampf",
       "timing": [],
@@ -2324,7 +2404,7 @@
       "category": "regeln_solo",
       "name": "Flottentypen – Übersicht",
       "image": null,
-      "summary": "Alle Flottentypen haben eigene Plättchen. Um andere Flotten als Korvetten einzusetzen, müsst ihr zunächst deren gleichnamige Technologien erforschen. Die fortschrittliche Version jeder Technologie macht die Flotten und ihre Eigenschaften effizienter.\n\n- **Korvette**: Salve: 1 Initiative pro Flotte. Limit: 3 Flotten pro Verband.\n- **Wächter**: Annäherung (Defensive): 1 Schaden pro Flotte. Salve (Offensive): 1 Initiative pro Flotte. Salve (Defensive): 0 Initiative. Limit: 3 Flotten pro Verband.\n- **Zerstörer**: Salve: 1 Initiative pro Flotte. Zusätzlich (Offensive): +1 Initiative (nicht pro Flotte). Limit: 3 Flotten pro Verband.\n- **Fortschrittlicher Zerstörer**: Annäherung (Offensive): 1 Schaden (nicht pro Flotte). Salve: 1 Initiative pro Flotte. Zusätzlich (Offensive): +1 Initiative (nicht pro Flotte) und (Einmal im Kampf) +1 Schaden pro Flotte. Limit: 3 Flotten pro Verband.\n- **Schlächter**: Salve: 1 Initiative pro Flotte. Zusätzlich: +1 Initiative (nicht pro Flotte). Limit: **1 Flotte** pro Verband.\n- **Fortschrittlicher Schlächter**: Annäherung (Offensive): 1 Absorption pro Flotte. Salve: 1 Initiative pro Flotte. Zusätzlich: +1 Initiative (nicht pro Flotte). Zusätzlich (Defensive): (Einmal im Kampf) +1 Absorption pro Flotte. Limit: 3 Flotten pro Verband.\n- **Träger**: Annäherung (Offensive): Setze 1 Korvettenflotte pro Trägerflotte zu Beginn der Annäherung ein. Salve: 1 Initiative pro Flotte. Limit: **1 Flotte** pro Verband.\n- **Fortschrittlicher Träger**: Annäherung (Offensive): Setze 1 Korvettenflotte pro Trägerflotte zu Beginn der Annäherung ein. Salve: 1 Initiative pro Flotte. Zusätzlich (Defensive): (Einmal im Kampf) +1 Absorption pro Flotte. Limit: 3 Flotten pro Verband.",
+      "summary": "Alle Flottentypen haben eigene Plättchen. Um andere Flotten als Korvetten einzusetzen, musst du zunächst deren gleichnamige Technologien erforschen. Die fortschrittliche Version jeder Technologie macht die Flotten und ihre Eigenschaften effizienter.\n\n- **Korvette**: Salve: 1 Initiative pro Flotte. Limit: 3 Flotten pro Verband.\n- **Wächter**: Annäherung (Defensive): 1 Schaden pro Flotte. Salve (Offensive): 1 Initiative pro Flotte. Salve (Defensive): 0 Initiative. Limit: 3 Flotten pro Verband.\n- **Zerstörer**: Salve: 1 Initiative pro Flotte. Zusätzlich (Offensive): +1 Initiative (nicht pro Flotte). Limit: 3 Flotten pro Verband.\n- **Fortschrittlicher Zerstörer**: Annäherung (Offensive): 1 Schaden (nicht pro Flotte). Salve: 1 Initiative pro Flotte. Zusätzlich (Offensive): +1 Initiative (nicht pro Flotte) und (Einmal im Kampf) +1 Schaden pro Flotte. Limit: 3 Flotten pro Verband.\n- **Schlächter**: Salve: 1 Initiative pro Flotte. Zusätzlich: +1 Initiative (nicht pro Flotte). Limit: **1 Flotte** pro Verband.\n- **Fortschrittlicher Schlächter**: Annäherung (Offensive): 1 Absorption pro Flotte. Salve: 1 Initiative pro Flotte. Zusätzlich: +1 Initiative (nicht pro Flotte). Zusätzlich (Defensive): (Einmal im Kampf) +1 Absorption pro Flotte. Limit: 3 Flotten pro Verband.\n- **Träger**: Annäherung (Offensive): Setze 1 Korvettenflotte pro Trägerflotte zu Beginn der Annäherung ein. Salve: 1 Initiative pro Flotte. Limit: **1 Flotte** pro Verband.\n- **Fortschrittlicher Träger**: Annäherung (Offensive): Setze 1 Korvettenflotte pro Trägerflotte zu Beginn der Annäherung ein. Salve: 1 Initiative pro Flotte. Zusätzlich (Defensive): (Einmal im Kampf) +1 Absorption pro Flotte. Limit: 3 Flotten pro Verband.",
       "description": "",
       "group": "kampf",
       "timing": [],
@@ -2370,7 +2450,7 @@
       "category": "regeln_solo",
       "name": "Zivilisationsleisten und -stufen",
       "image": null,
-      "summary": "Ihr habt 3 Zivilisationsleisten auf euren Haustableaus: **Gesellschaft, Staatsführung** und **Wirtschaft**.\n\nSchreitet ihr auf einer dieser Leisten voran, müsst ihr den entsprechenden Marker um 1 Feld nach rechts versetzen. Dann erhaltet ihr sofort die auf dem neuen Feld abgebildete Belohnung. Jedes Haus hat einzigartige Zivilisationsleistenbelohnungen. Die meisten gleichen den Effekten eurer Fokuskartenaktionen.\n\nJede Leiste hat **5 Stufen**. Euer Marker gibt eure aktuelle Stufe der entsprechenden Leiste an. Die ersten 3 Felder entsprechen Stufe 0, die nächsten 2 Felder Stufe I und die letzten 3 Felder jeweils der Stufe II, III und IV.\n\nDie Stufen jeder einzelnen Leiste sind unabhängig voneinander. Um bestimmte Stufen zu erreichen, müsst ihr bestimmte Voraussetzungen erfüllen und sie gewähren euch individuelle Vorteile.\n- Erreicht ihr **Stufe I** und **II**, könnt ihr mehr Fortschrittliche Technologien erforschen. Pro Zivilisationsleiste mit mind. Stufe I je 1 mehr. Pro Zivilisationsleiste mit mind. Stufe II stattdessen 2.\n- Um zu **Stufe III** und **IV** voranzuschreiten, müsst ihr zunächst die angegebene Anzahl (1 bzw. 2) an Flotten **deaktivieren**. Könnt ihr diese Kosten **vor** dem Voranschreiten nicht zahlen, könnt ihr **nicht** voranschreiten.\n\nHabt ihr mit einem Marker Stufe IV einer Zivilisationsleiste erreicht, könnt ihr auf dieser Leiste nicht weiter voranschreiten.",
+      "summary": "Du hast 3 Zivilisationsleisten auf deinem Haustableau: **Gesellschaft, Staatsführung** und **Wirtschaft**.\n\nSchreitest du auf einer dieser Leisten voran, musst du den entsprechenden Marker um 1 Feld nach rechts versetzen. Dann erhältst du sofort die auf dem neuen Feld abgebildete Belohnung. Jedes Haus hat einzigartige Zivilisationsleistenbelohnungen. Die meisten gleichen den Effekten deiner Fokuskartenaktionen.\n\nJede Leiste hat **5 Stufen**. Dein Marker gibt deine aktuelle Stufe der entsprechenden Leiste an. Die ersten 3 Felder entsprechen Stufe 0, die nächsten 2 Felder Stufe I und die letzten 3 Felder jeweils der Stufe II, III und IV.\n\nDie Stufen jeder einzelnen Leiste sind unabhängig voneinander. Um bestimmte Stufen zu erreichen, musst du bestimmte Voraussetzungen erfüllen und sie gewähren dir individuelle Vorteile.\n- Erreichst du **Stufe I** und **II**, kannst du mehr Fortschrittliche Technologien erforschen. Pro Zivilisationsleiste mit mind. Stufe I je 1 mehr. Pro Zivilisationsleiste mit mind. Stufe II stattdessen 2.\n- Um zu **Stufe III** und **IV** voranzuschreiten, musst du zunächst die angegebene Anzahl (1 bzw. 2) an Flotten **deaktivieren**. Kannst du diese Kosten **vor** dem Voranschreiten nicht zahlen, kannst du **nicht** voranschreiten.\n\nHast du mit einem Marker Stufe IV einer Zivilisationsleiste erreicht, kannst du auf dieser Leiste nicht weiter voranschreiten.",
       "description": "",
       "group": "fortschritt",
       "timing": [],
@@ -2415,7 +2495,7 @@
       "category": "regeln_solo",
       "name": "Zivilisationsleisten-Symbole und Verderbnis",
       "image": null,
-      "summary": "Schreitet ihr auf ein Feld mit einem Pfeil-Symbol (>>>>) voran, dürft ihr den Marker sofort um 1 weiteres Feld nach rechts versetzen und erhaltet auch dessen Belohnung. Ihr müsst trotzdem die Kosten von Stufe III und IV zahlen, falls ihr auf diese voranschreiten wollt.\n\nZivilisationsleisten ohne Verderbnismarker sind **rein**.\nZivilisationsleisten mit Verderbnismarker sind **verderbt**. Ihr könnt auf diesen wie üblich voranschreiten, aber erhaltet **keine ihrer Belohnungen mehr** (auch das Überspringen von Feldern). Trotzdem dürft ihr ab Stufe I und II wie üblich mehr Fortschrittliche Technologien erforschen. Um Stufe III und IV zu erreichen, müsst ihr wie üblich 1 bzw. 2 Flotten deaktivieren.",
+      "summary": "Schreitest du auf ein Feld mit einem Pfeil-Symbol (>>>>) voran, darfst du den Marker sofort um 1 weiteres Feld nach rechts versetzen und erhältst auch dessen Belohnung. Du musst trotzdem die Kosten von Stufe III und IV zahlen, falls du auf diese voranschreiten willst.\n\nZivilisationsleisten ohne Verderbnismarker sind **rein**.\nZivilisationsleisten mit Verderbnismarker sind **verderbt**. Du kannst auf diesen wie üblich voranschreiten, aber erhältst **keine ihrer Belohnungen mehr** (auch das Überspringen von Feldern). Trotzdem darfst du ab Stufe I und II wie üblich mehr Fortschrittliche Technologien erforschen. Um Stufe III und IV zu erreichen, musst du wie üblich 1 bzw. 2 Flotten deaktivieren.",
       "description": "",
       "group": "fortschritt",
       "timing": [],
@@ -2437,7 +2517,7 @@
       "category": "regeln_solo",
       "name": "Verderbnis",
       "image": null,
-      "summary": "Verderbnis schadet euch auf mehrere Arten. Ihr könnt nur reine Bevölkerung verändern, erhaltet keine Belohnungen von verderbten Zivilisationsleisten, könnt keine Ziele von verderbten Agenden erfüllen und die meisten Agendaziele erfordern reine Objekte von euch.\n\nEinige Aktionen haben den Erhalt von Verderbnis als Kosten. Einige Effekte gestatten es euch, Verderbnis zu versetzen oder zu entfernen.\n\n**Erhältst** du 1 Verderbnis, nimm 1 aus dem allgemeinen Vorrat und platziere sie bei einer der folgenden Optionen:\n- **A)** Platziere sie in einem deiner reinen (nicht verderbnisresistenten) **Sektoren** (z.B. sind Heimatsektoren verderbnisresistent). Alle Sektoren können max. 1 Verderbnis enthalten.\n- **B)** Platziere sie oberhalb von einem der 3 rechten **Agendafelder**. Du kannst allen Agendafeldern (außer der Startagenda) max. 1 Verderbnis zuordnen.\n- **C)** Platziere sie auf einem deiner 3 **Zivilisationsleistenmarker**. Alle Zivilisationsleisten können jeweils max. 1 Verderbnis enthalten.\n- **D)** Hast du die Technologie **Dekontaminationskammern** erforscht, darfst du sie darauf platzieren. Die Technologie selbst wird dadurch nicht verderbt. Als Basistechnologie gewährt sie dir 2 Verderbnisfelder, als Fortschrittliche Technologie 3 Verderbnisfelder.",
+      "summary": "Verderbnis schadet dir auf mehrere Arten. Du kannst nur reine Bevölkerung verändern, erhältst keine Belohnungen von verderbten Zivilisationsleisten, kannst keine Ziele von verderbten Agenden erfüllen und die meisten Agendaziele erfordern reine Objekte von dir.\n\nEinige Aktionen haben den Erhalt von Verderbnis als Kosten. Einige Effekte gestatten es dir, Verderbnis zu versetzen oder zu entfernen.\n\n**Erhältst** du 1 Verderbnis, nimm 1 aus dem allgemeinen Vorrat und platziere sie bei einer der folgenden Optionen:\n- **A)** Platziere sie in einem deiner reinen (nicht verderbnisresistenten) **Sektoren** (z.B. sind Heimatsektoren verderbnisresistent). Alle Sektoren können max. 1 Verderbnis enthalten.\n- **B)** Platziere sie oberhalb von einem der 3 rechten **Agendafelder**. Du kannst allen Agendafeldern (außer der Startagenda) max. 1 Verderbnis zuordnen.\n- **C)** Platziere sie auf einem deiner 3 **Zivilisationsleistenmarker**. Alle Zivilisationsleisten können jeweils max. 1 Verderbnis enthalten.\n- **D)** Hast du die Technologie **Dekontaminationskammern** erforscht, darfst du sie darauf platzieren. Die Technologie selbst wird dadurch nicht verderbt. Als Basistechnologie gewährt sie dir 2 Verderbnisfelder, als Fortschrittliche Technologie 3 Verderbnisfelder.",
       "description": "Kannst du keine zulässige Option verderben, kannst du die Kosten nicht zahlen. Die erfolgreiche Übernahme eines leereberührten Sektors gilt nicht als Erhalt von Verderbnis. Die Verderbnis verbleibt nur in dem Sektor.",
       "group": "fortschritt",
       "timing": [],
@@ -2459,7 +2539,7 @@
       "name": "Verderbnis versetzen und entfernen",
       "image": null,
       "summary": "Um 1 Verderbnis zu **versetzen**, musst du sie von einer dieser Optionen nehmen und auf einer anderen zulässigen Option platzieren. Hast du keine Verderbnis, kannst du dies nicht tun.\n\nUm 1 Verderbnis zu **entfernen**, musst du sie von einer dieser Optionen nehmen und in den allgemeinen Vorrat zurücklegen. Hast du keine Verderbnis, kannst du dies nicht tun.",
-      "description": "Es gibt besondere Effekte von Galaktischen Ereignissen, die euch dazu auffordern, Verderbnis bei bestimmten Optionen zu platzieren. Ihr könnt die Verderbnis stattdessen nicht irgendwo anders platzieren (nicht einmal auf die Technologie Dekontaminationskammern). Befindet sich dort schon Verderbnis, ignoriere den Effekt.",
+      "description": "Es gibt besondere Effekte von Galaktischen Ereignissen, die dich dazu auffordern, Verderbnis bei bestimmten Optionen zu platzieren. Du kannst die Verderbnis stattdessen nicht irgendwo anders platzieren (nicht einmal auf die Technologie Dekontaminationskammern). Befindet sich dort schon Verderbnis, ignoriere den Effekt.",
       "group": "fortschritt",
       "timing": [],
       "tags": [
@@ -2503,7 +2583,7 @@
       "name": "Technologien",
       "image": null,
       "summary": "Alle Technologien enthalten folgende Informationen: Name, Symbol (Basis oder Fortschrittlich), Einflussbonus, sofortiger Effekt, permanente Eigenschaft.\n\nDie Eigenschaft einer Fortschrittlichen Technologie ist immer besser als die der Basistechnologie.",
-      "description": "Wie bei Fokuskarten und Galaktischen Ereignissen dürft ihr auch die Vorteile von Technologien (partiell) ignorieren. Trotzdem müsst ihr ihre Kosten zahlen, um auch nur Teileffekte von ihnen zu nutzen.\n\n**Erforscht ihr eine Basistechnologie**, nehmt die oberste verfügbare Karte dieser Technologie aus der Technologieauslage. Führt ihren sofortigen Effekt aus und erhaltet die angegebenen Einflusspunkte (0 oder 4). Legt Technologien auf ein freies Feld oberhalb eures Haustableaus an. Ihr könnt keine Technologie erforschen, die ihr bereits erforscht habt. Ihr könnt im Verlauf der Partie jedoch bereits erforschte Basistechnologien verbessern.\n\nEuer **Technologielimit beträgt 5** (samt der Starttechnologie). Sobald ihr 5 Technologien habt, könnt ihr vorerst keine weiteren erforschen. Das Technologielimit steigt auf 6, falls ihr erfolgreich den Sektor eines Gefallenen Hauses übernehmt.\n\n**Erforscht du eine Fortschrittliche Technologie**, musst du darauf achten, dass sie verfügbar ist, du die entsprechende Basistechnologie erforscht und noch nicht das Limit Fortschrittlicher Technologien erreicht hast. Eine Fortschrittliche Technologie ist verfügbar, falls die entsprechende Karte entweder deine Starttechnologie ist oder ohne Fortschrittsbarriere auf dem Galaxietableau ausliegt.\n\n**Wichtig:** Im 1. Zyklus werden die Fortschrittlichen Technologien von der Fortschrittsbarriere blockiert. Erst ab dem 2. Zyklus könnt ihr diese erforschen. Im 1. Zyklus stehen euch nur die zur Verfügung, die neben eurem Haustableau ausliegen.\n\nZu Beginn einer Partie beträgt euer **Limit** für Fortschrittliche Technologien **0. Jede** Zivilisationsleiste mit mind. Stufe I fügt 1 hinzu. **Jede** Zivilisationsleiste mit mind. Stufe II **noch 1 mehr**.\n\nHabt ihr euer Limit noch nicht erreicht, nehmt euch die verfügbare Fortschrittliche Technologie und ersetzt mit ihr die entsprechende Basistechnologie. Legt die Basistechnologie in die Schachtel zurück und erhaltet 6 Einflusspunkte. Führt dann den sofortigen Effekt aus (falls vorhanden).",
+      "description": "Wie bei Fokuskarten und Galaktischen Ereignissen darfst du auch die Vorteile von Technologien (partiell) ignorieren. Trotzdem musst du ihre Kosten zahlen, um auch nur Teileffekte von ihnen zu nutzen.\n\n**Erforschst du eine Basistechnologie**, nimm die oberste verfügbare Karte dieser Technologie aus der Technologieauslage. Führe ihren sofortigen Effekt aus und erhalte die angegebenen Einflusspunkte (0 oder 4). Lege Technologien auf ein freies Feld oberhalb deines Haustableaus an. Du kannst keine Technologie erforschen, die du bereits erforscht hast. Du kannst im Verlauf der Partie jedoch bereits erforschte Basistechnologien verbessern.\n\nDein **Technologielimit beträgt 5** (samt der Starttechnologie). Sobald du 5 Technologien hast, kannst du vorerst keine weiteren erforschen. Das Technologielimit steigt auf 6, falls du erfolgreich den Sektor eines Gefallenen Hauses übernimmst.\n\n**Erforscht du eine Fortschrittliche Technologie**, musst du darauf achten, dass sie verfügbar ist, du die entsprechende Basistechnologie erforscht und noch nicht das Limit Fortschrittlicher Technologien erreicht hast. Eine Fortschrittliche Technologie ist verfügbar, falls die entsprechende Karte entweder deine Starttechnologie ist oder ohne Fortschrittsbarriere auf dem Galaxietableau ausliegt.\n\n**Wichtig:** Im 1. Zyklus werden die Fortschrittlichen Technologien von der Fortschrittsbarriere blockiert. Erst ab dem 2. Zyklus kannst du diese erforschen. Im 1. Zyklus stehen dir nur die zur Verfügung, die neben deinem Haustableau ausliegen.\n\nZu Beginn einer Partie beträgt dein **Limit** für Fortschrittliche Technologien **0. Jede** Zivilisationsleiste mit mind. Stufe I fügt 1 hinzu. **Jede** Zivilisationsleiste mit mind. Stufe II **noch 1 mehr**.\n\nHast du dein Limit noch nicht erreicht, nimm dir die verfügbare Fortschrittliche Technologie und ersetze mit ihr die entsprechende Basistechnologie. Lege die Basistechnologie in die Schachtel zurück und erhalte 6 Einflusspunkte. Führe dann den sofortigen Effekt aus (falls vorhanden).",
       "group": "fortschritt",
       "timing": [],
       "tags": [
@@ -2525,8 +2605,8 @@
       "category": "regeln_solo",
       "name": "Agenden",
       "image": null,
-      "summary": "**Erhaltet ihr eine Agenda**, tut Folgendes:\n1. Wählt 1 der 4 Agendaarten aus: **Dominanz, Reichtum, Macht** oder **Unterstützung**.\n2. Wählt 1 von 2 Optionen:\n   - **A)** Nimm 1 der Agenden der entsprechenden Art aus der Auslage auf die Hand. Fülle danach die Auslage mit 1 Agenda derselben Art vom Stapel wieder auf.\n   - **B)** Ziehe die 2 obersten Agenden vom passenden Stapel, wähle 1 davon aus und nimm diese **auf die Hand**. Lege die andere unter den Stapel zurück.",
-      "description": "Die Symbole rechts auf dem Agendatableau weisen euch darauf hin, was Agendaziele dieser Art typischerweise erfordern. Sollte der Stapel und die Auslage einer Agendaart leer sein, könnt ihr keine Agenden dieser Art mehr erhalten. Ihr dürft beliebig viele Agenden auf der Hand haben.\n\nEine Agenda auf eurer Hand legt ihr **nicht** sofort an eure Haustableaus an (anders als Technologien). Ihr spielt sie stattdessen beim Auswählen in der folgenden Fokusphase aus (siehe S. 9) und könnt dann die Agendaaktion nutzen.\n\nHabt ihr beim Auswählen eine Agenda ausgespielt, dürft ihr beim Aufräumen die ausgespielte Agenda an eines der 3 rechten Agendafelder eures Haustableaus anlegen. **Ganz links** liegt immer eure **Startagenda**. Dort könnt ihr nie eine andere Agenda anlegen. Außerdem können Agenden der gleichen Art nie auf unterschiedlichen Feldern liegen.\n\nAgenden an eurem Haustableau gelten als **im Spiel**.\n- Agenden sind **rein**, solange keine Verderbnis auf ihnen liegt.\n- Sobald eine Verderbnis auf ihnen liegt, sind sie **verderbt**. Deine Startagenda kann nicht verderbt werden. Verderbte Agenden bringen dir **keine** Einflusspunkte ein.\n\nJede der Agendauslagen kann ebenfalls verderbt sein. Nehmt ihr eine Agenda von einer verderbten Auslage, erhaltet ihr **auch** die Verderbnis und müsst sie zu einer euch zur Verfügung stehenden Option eurer Wahl legen. Danach ist die Auslage wieder rein.",
+      "summary": "**Erhältst du eine Agenda**, tu Folgendes:\n1. Wähle 1 der 4 Agendaarten aus: **Dominanz, Reichtum, Macht** oder **Unterstützung**.\n2. Wähle 1 von 2 Optionen:\n   - **A)** Nimm 1 der Agenden der entsprechenden Art aus der Auslage auf die Hand. Fülle danach die Auslage mit 1 Agenda derselben Art vom Stapel wieder auf.\n   - **B)** Ziehe die 2 obersten Agenden vom passenden Stapel, wähle 1 davon aus und nimm diese **auf die Hand**. Lege die andere unter den Stapel zurück.",
+      "description": "Die Symbole rechts auf dem Agendatableau weisen dich darauf hin, was Agendaziele dieser Art typischerweise erfordern. Sollte der Stapel und die Auslage einer Agendaart leer sein, kannst du keine Agenden dieser Art mehr erhalten. Du darfst beliebig viele Agenden auf der Hand haben.\n\nEine Agenda auf deiner Hand legst du **nicht** sofort an dein Haustableau an (anders als Technologien). Du spielst sie stattdessen beim Auswählen in der folgenden Fokusphase aus (**→ Fokus auswählen**) und kannst dann die Agendaaktion nutzen.\n\nHast du beim Auswählen eine Agenda ausgespielt, darfst du beim Aufräumen die ausgespielte Agenda an eines der 3 rechten Agendafelder deines Haustableaus anlegen. **Ganz links** liegt immer deine **Startagenda**. Dort kannst du nie eine andere Agenda anlegen. Außerdem können Agenden der gleichen Art nie auf unterschiedlichen Feldern liegen.\n\nAgenden an deinem Haustableau gelten als **im Spiel**.\n- Agenden sind **rein**, solange keine Verderbnis auf ihnen liegt.\n- Sobald eine Verderbnis auf ihnen liegt, sind sie **verderbt**. Deine Startagenda kann nicht verderbt werden. Verderbte Agenden bringen dir **keine** Einflusspunkte ein.\n\nJede der Agendauslagen kann ebenfalls verderbt sein. Nimmst du eine Agenda von einer verderbten Auslage, erhältst du **auch** die Verderbnis und musst sie zu einer dir zur Verfügung stehenden Option deiner Wahl legen. Danach ist die Auslage wieder rein.",
       "group": "fortschritt",
       "timing": [],
       "tags": [
@@ -2546,7 +2626,7 @@
       "category": "regeln_solo",
       "name": "Bevorzugte Fokusse",
       "image": null,
-      "summary": "Einige Effekte gewähren euch **1 Aktion** von einem eurer **bevorzugten** Fokusse. Diese müsst ihr nicht auf der Hand haben. Eure bevorzugten Fokusse findet ihr auf der rechten Seite eures Haustableaus. Die Kosten dieser Aktion müsst ihr wie üblich zahlen.\n\nSolch eine Fokusaktion zu nutzen, gilt **nicht** als Ausführen des Fokus. Dadurch löst ihr keine Eigenschaften aus, die das Ausführen bestimmter Fokusse erfordert. Das führt auch **nicht** dazu, dass ihr dieser Fokusaktion entsprechende Agenden ausspielen könnt. Ihr könnt auch **nicht** die zusätzliche Aktion von umgedrehten Handelsplättchen dabei nutzen.\n\nAuch eure bevorzugten Fokusse werden durch die Änderungen **eurer Hausfokuskarten** beeinflusst. Nutzt sie, wie auf diesen angegeben und nicht wie üblich.",
+      "summary": "Einige Effekte gewähren dir **1 Aktion** von einem deiner **bevorzugten** Fokusse. Diese musst du nicht auf der Hand haben. Deine bevorzugten Fokusse findest du auf der rechten Seite deines Haustableaus. Die Kosten dieser Aktion musst du wie üblich zahlen.\n\nSolch eine Fokusaktion zu nutzen, gilt **nicht** als Ausführen des Fokus. Dadurch löst du keine Eigenschaften aus, die das Ausführen bestimmter Fokusse erfordert. Das führt auch **nicht** dazu, dass du dieser Fokusaktion entsprechende Agenden ausspielen kannst. Du kannst auch **nicht** die zusätzliche Aktion von umgedrehten Handelsplättchen dabei nutzen.\n\nAuch deine bevorzugten Fokusse werden durch die Änderungen **deiner Hausfokuskarten** beeinflusst. Nutze sie, wie auf diesen angegeben und nicht wie üblich.",
       "description": "",
       "group": "fortschritt",
       "timing": [],
