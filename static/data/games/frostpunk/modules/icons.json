@@ -1,0 +1,1630 @@
+{
+  "groups": [
+    {
+      "id": "ressourcen",
+      "title": "Ressourcen",
+      "order": 10
+    },
+    {
+      "id": "buerger",
+      "title": "Bürger",
+      "order": 20
+    },
+    {
+      "id": "stimmung",
+      "title": "Stimmung",
+      "order": 30
+    },
+    {
+      "id": "waerme-zonen",
+      "title": "Wärme & Zonen",
+      "order": 40
+    },
+    {
+      "id": "spielplan-sektoren",
+      "title": "Spielplan & Sektoren",
+      "order": 50
+    },
+    {
+      "id": "karten",
+      "title": "Karten",
+      "order": 60
+    },
+    {
+      "id": "gebaeude-symbole",
+      "title": "Gebäude-Symbole",
+      "order": 70
+    },
+    {
+      "id": "expedition-sonstiges",
+      "title": "Expedition & Sonstiges",
+      "order": 80
+    }
+  ],
+  "entries": [
+    {
+      "id": "icon-kohle",
+      "type": "reference",
+      "category": "icons",
+      "name": "Kohle",
+      "image": "/images/frostpunk/icons/icon-kohle.png",
+      "summary": "Kohle",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Ressourcen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "icon-holz",
+      "type": "reference",
+      "category": "icons",
+      "name": "Holz",
+      "image": "/images/frostpunk/icons/icon-holz.png",
+      "summary": "Holz",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Ressourcen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "icon-dampfkern",
+      "type": "reference",
+      "category": "icons",
+      "name": "Dampfkern",
+      "image": "/images/frostpunk/icons/icon-dampfkern.png",
+      "summary": "Dampfkern",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Ressourcen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 20
+    },
+    {
+      "id": "icon-stahl",
+      "type": "reference",
+      "category": "icons",
+      "name": "Stahl",
+      "image": "/images/frostpunk/icons/icon-stahl.png",
+      "summary": "Stahl",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Ressourcen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 30
+    },
+    {
+      "id": "icon-baum",
+      "type": "reference",
+      "category": "icons",
+      "name": "Baum",
+      "image": "/images/frostpunk/icons/icon-baum.png",
+      "summary": "Baum",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Ressourcen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 40
+    },
+    {
+      "id": "icon-nahrungsfund",
+      "type": "reference",
+      "category": "icons",
+      "name": "Nahrungsfund",
+      "image": "/images/frostpunk/icons/icon-nahrungsfund.png",
+      "summary": "Nahrungsfund",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Ressourcen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 50
+    },
+    {
+      "id": "icon-nahrung",
+      "type": "reference",
+      "category": "icons",
+      "name": "Nahrung",
+      "image": "/images/frostpunk/icons/icon-nahrung.png",
+      "summary": "Nahrung",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Ressourcen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 60
+    },
+    {
+      "id": "icon-hunger",
+      "type": "reference",
+      "category": "icons",
+      "name": "Hunger",
+      "image": "/images/frostpunk/icons/icon-hunger.png",
+      "summary": "Hunger",
+      "description": "",
+      "group": "ressourcen",
+      "timing": [],
+      "tags": [
+        "Ressourcen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 70
+    },
+    {
+      "id": "icon-arbeiter",
+      "type": "reference",
+      "category": "icons",
+      "name": "Arbeiter",
+      "image": "/images/frostpunk/icons/icon-arbeiter.png",
+      "summary": "Arbeiter",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 80
+    },
+    {
+      "id": "icon-arbeiter-krank",
+      "type": "reference",
+      "category": "icons",
+      "name": "kranker Arbeiter",
+      "image": "/images/frostpunk/icons/icon-arbeiter-krank.png",
+      "summary": "kranker Arbeiter",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 90
+    },
+    {
+      "id": "icon-arbeiter-erschoepft",
+      "type": "reference",
+      "category": "icons",
+      "name": "„Arbeiter erschöpft“-Plättchen",
+      "image": "/images/frostpunk/icons/icon-arbeiter-erschoepft.png",
+      "summary": "„Arbeiter erschöpft“-Plättchen",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 100
+    },
+    {
+      "id": "icon-ingenieur",
+      "type": "reference",
+      "category": "icons",
+      "name": "Ingenieur",
+      "image": "/images/frostpunk/icons/icon-ingenieur.png",
+      "summary": "Ingenieur",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 110
+    },
+    {
+      "id": "icon-ingenieur-krank",
+      "type": "reference",
+      "category": "icons",
+      "name": "kranker Ingenieur",
+      "image": "/images/frostpunk/icons/icon-ingenieur-krank.png",
+      "summary": "kranker Ingenieur",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 120
+    },
+    {
+      "id": "icon-ingenieur-erschoepft",
+      "type": "reference",
+      "category": "icons",
+      "name": "„Ingenieur erschöpft“-Plättchen",
+      "image": "/images/frostpunk/icons/icon-ingenieur-erschoepft.png",
+      "summary": "„Ingenieur erschöpft“-Plättchen",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 130
+    },
+    {
+      "id": "icon-kind",
+      "type": "reference",
+      "category": "icons",
+      "name": "Kind",
+      "image": "/images/frostpunk/icons/icon-kind.png",
+      "summary": "Kind",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 140
+    },
+    {
+      "id": "icon-kind-krank",
+      "type": "reference",
+      "category": "icons",
+      "name": "krankes Kind",
+      "image": "/images/frostpunk/icons/icon-kind-krank.png",
+      "summary": "krankes Kind",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 150
+    },
+    {
+      "id": "icon-kind-erschoepft",
+      "type": "reference",
+      "category": "icons",
+      "name": "„Kind erschöpft“-Plättchen",
+      "image": "/images/frostpunk/icons/icon-kind-erschoepft.png",
+      "summary": "„Kind erschöpft“-Plättchen",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 160
+    },
+    {
+      "id": "icon-buerger-krank",
+      "type": "reference",
+      "category": "icons",
+      "name": "kranker Bürger",
+      "image": "/images/frostpunk/icons/icon-buerger-krank.png",
+      "summary": "kranker Bürger",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 170
+    },
+    {
+      "id": "icon-buerger-erschoepft",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bürger erschöpft (Plättchen nach Wahl)",
+      "image": "/images/frostpunk/icons/icon-buerger-erschoepft.png",
+      "summary": "Bürger erschöpft (Plättchen nach Wahl)",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 180
+    },
+    {
+      "id": "icon-automaton",
+      "type": "reference",
+      "category": "icons",
+      "name": "Automaton",
+      "image": "/images/frostpunk/icons/icon-automaton.png",
+      "summary": "Automaton",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 190
+    },
+    {
+      "id": "icon-krankheits-anzeiger",
+      "type": "reference",
+      "category": "icons",
+      "name": "Krankheits-Anzeiger (Vorderseite)",
+      "image": "/images/frostpunk/icons/icon-krankheits-anzeiger.png",
+      "summary": "Krankheits-Anzeiger (Vorderseite)",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 200
+    },
+    {
+      "id": "icon-krankheits-anzeiger-schwer",
+      "type": "reference",
+      "category": "icons",
+      "name": "Krankheits-Anzeiger (Rückseite) = schwer krank",
+      "image": "/images/frostpunk/icons/icon-krankheits-anzeiger-schwer.png",
+      "summary": "Krankheits-Anzeiger (Rückseite) = schwer krank",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 210
+    },
+    {
+      "id": "icon-buerger-stirbt",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bürger stirbt",
+      "image": "/images/frostpunk/icons/icon-buerger-stirbt.png",
+      "summary": "Bürger stirbt",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 220
+    },
+    {
+      "id": "icon-heilen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Heilen",
+      "image": "/images/frostpunk/icons/icon-heilen.png",
+      "summary": "Heilen",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 230
+    },
+    {
+      "id": "icon-behandeln",
+      "type": "reference",
+      "category": "icons",
+      "name": "Behandeln",
+      "image": "/images/frostpunk/icons/icon-behandeln.png",
+      "summary": "Behandeln",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 240
+    },
+    {
+      "id": "icon-verloren",
+      "type": "reference",
+      "category": "icons",
+      "name": "Ihr habt verloren",
+      "image": "/images/frostpunk/icons/icon-verloren.png",
+      "summary": "Ihr habt verloren",
+      "description": "",
+      "group": "buerger",
+      "timing": [],
+      "tags": [
+        "Bürger",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 250
+    },
+    {
+      "id": "icon-unzufriedenheit",
+      "type": "reference",
+      "category": "icons",
+      "name": "Unzufriedenheit",
+      "image": "/images/frostpunk/icons/icon-unzufriedenheit.png",
+      "summary": "Unzufriedenheit",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 260
+    },
+    {
+      "id": "icon-unzufriedenheit-aktivieren",
+      "type": "reference",
+      "category": "icons",
+      "name": "Unzufriedenheit aktivieren",
+      "image": "/images/frostpunk/icons/icon-unzufriedenheit-aktivieren.png",
+      "summary": "Unzufriedenheit aktivieren",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 270
+    },
+    {
+      "id": "icon-unzufriedenheit-erschoepfen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Unzufriedenheit erschöpfen",
+      "image": "/images/frostpunk/icons/icon-unzufriedenheit-erschoepfen.png",
+      "summary": "Unzufriedenheit erschöpfen",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 280
+    },
+    {
+      "id": "icon-unzufriedenheit-art-aktivieren",
+      "type": "reference",
+      "category": "icons",
+      "name": "Unzufriedenheit 1 Art aktivieren",
+      "image": "/images/frostpunk/icons/icon-unzufriedenheit-art-aktivieren.png",
+      "summary": "Unzufriedenheit 1 Art aktivieren",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 290
+    },
+    {
+      "id": "icon-unzufriedenheit-art-erschoepfen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Unzufriedenheit 1 Art erschöpfen",
+      "image": "/images/frostpunk/icons/icon-unzufriedenheit-art-erschoepfen.png",
+      "summary": "Unzufriedenheit 1 Art erschöpfen",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 300
+    },
+    {
+      "id": "icon-apathie",
+      "type": "reference",
+      "category": "icons",
+      "name": "Apathie",
+      "image": "/images/frostpunk/icons/icon-apathie.png",
+      "summary": "Apathie",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 310
+    },
+    {
+      "id": "icon-wut",
+      "type": "reference",
+      "category": "icons",
+      "name": "Wut",
+      "image": "/images/frostpunk/icons/icon-wut.png",
+      "summary": "Wut",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 320
+    },
+    {
+      "id": "icon-gier",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gier",
+      "image": "/images/frostpunk/icons/icon-gier.png",
+      "summary": "Gier",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 330
+    },
+    {
+      "id": "icon-hoffnung",
+      "type": "reference",
+      "category": "icons",
+      "name": "Hoffnung",
+      "image": "/images/frostpunk/icons/icon-hoffnung.png",
+      "summary": "Hoffnung",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 340
+    },
+    {
+      "id": "icon-hoffnung-aktivieren",
+      "type": "reference",
+      "category": "icons",
+      "name": "Hoffnung aktivieren",
+      "image": "/images/frostpunk/icons/icon-hoffnung-aktivieren.png",
+      "summary": "Hoffnung aktivieren",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 350
+    },
+    {
+      "id": "icon-hoffnung-erschoepfen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Hoffnung erschöpfen",
+      "image": "/images/frostpunk/icons/icon-hoffnung-erschoepfen.png",
+      "summary": "Hoffnung erschöpfen",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 360
+    },
+    {
+      "id": "icon-hoffnung-art-aktivieren",
+      "type": "reference",
+      "category": "icons",
+      "name": "Hoffnung 1 Art aktivieren",
+      "image": "/images/frostpunk/icons/icon-hoffnung-art-aktivieren.png",
+      "summary": "Hoffnung 1 Art aktivieren",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 370
+    },
+    {
+      "id": "icon-hoffnung-art-erschoepfen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Hoffnung 1 Art erschöpfen",
+      "image": "/images/frostpunk/icons/icon-hoffnung-art-erschoepfen.png",
+      "summary": "Hoffnung 1 Art erschöpfen",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 380
+    },
+    {
+      "id": "icon-fuersorge",
+      "type": "reference",
+      "category": "icons",
+      "name": "Fürsorge",
+      "image": "/images/frostpunk/icons/icon-fuersorge.png",
+      "summary": "Fürsorge",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 390
+    },
+    {
+      "id": "icon-gerechtigkeit",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gerechtigkeit",
+      "image": "/images/frostpunk/icons/icon-gerechtigkeit.png",
+      "summary": "Gerechtigkeit",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 400
+    },
+    {
+      "id": "icon-motivation",
+      "type": "reference",
+      "category": "icons",
+      "name": "Motivation",
+      "image": "/images/frostpunk/icons/icon-motivation.png",
+      "summary": "Motivation",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Stimmung",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 410
+    },
+    {
+      "id": "icon-waermedaemmung-rot",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gebäude mit rotem Wärmedämmungs-Level beheizt",
+      "image": "/images/frostpunk/icons/icon-waermedaemmung-rot.png",
+      "summary": "Gebäude mit rotem Wärmedämmungs-Level beheizt",
+      "description": "",
+      "group": "waerme-zonen",
+      "timing": [],
+      "tags": [
+        "Wärme & Zonen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 420
+    },
+    {
+      "id": "icon-waermedaemmung-orange",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gebäude mit orangem Wärmedämmungs-Level beheizt",
+      "image": "/images/frostpunk/icons/icon-waermedaemmung-orange.png",
+      "summary": "Gebäude mit orangem Wärmedämmungs-Level beheizt",
+      "description": "",
+      "group": "waerme-zonen",
+      "timing": [],
+      "tags": [
+        "Wärme & Zonen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 430
+    },
+    {
+      "id": "icon-waermedaemmung-gelb",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gebäude mit gelbem Wärmedämmungs-Level beheizt",
+      "image": "/images/frostpunk/icons/icon-waermedaemmung-gelb.png",
+      "summary": "Gebäude mit gelbem Wärmedämmungs-Level beheizt",
+      "description": "",
+      "group": "waerme-zonen",
+      "timing": [],
+      "tags": [
+        "Wärme & Zonen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 440
+    },
+    {
+      "id": "icon-zone-a",
+      "type": "reference",
+      "category": "icons",
+      "name": "Zone A beheizt",
+      "image": "/images/frostpunk/icons/icon-zone-a.png",
+      "summary": "Zone A beheizt",
+      "description": "",
+      "group": "waerme-zonen",
+      "timing": [],
+      "tags": [
+        "Wärme & Zonen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 450
+    },
+    {
+      "id": "icon-zone-b",
+      "type": "reference",
+      "category": "icons",
+      "name": "Zone B beheizt",
+      "image": "/images/frostpunk/icons/icon-zone-b.png",
+      "summary": "Zone B beheizt",
+      "description": "",
+      "group": "waerme-zonen",
+      "timing": [],
+      "tags": [
+        "Wärme & Zonen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 460
+    },
+    {
+      "id": "icon-zone-c",
+      "type": "reference",
+      "category": "icons",
+      "name": "Zone C beheizt",
+      "image": "/images/frostpunk/icons/icon-zone-c.png",
+      "summary": "Zone C beheizt",
+      "description": "",
+      "group": "waerme-zonen",
+      "timing": [],
+      "tags": [
+        "Wärme & Zonen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 470
+    },
+    {
+      "id": "icon-kaelte-anzeiger",
+      "type": "reference",
+      "category": "icons",
+      "name": "Kälte-Anzeiger",
+      "image": "/images/frostpunk/icons/icon-kaelte-anzeiger.png",
+      "summary": "Kälte-Anzeiger",
+      "description": "",
+      "group": "waerme-zonen",
+      "timing": [],
+      "tags": [
+        "Wärme & Zonen",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 480
+    },
+    {
+      "id": "icon-sektor-innen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Innerer Sektor",
+      "image": "/images/frostpunk/icons/icon-sektor-innen.png",
+      "summary": "Innerer Sektor",
+      "description": "",
+      "group": "spielplan-sektoren",
+      "timing": [],
+      "tags": [
+        "Spielplan & Sektoren",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 490
+    },
+    {
+      "id": "icon-sektor-aussen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Äußerer Sektor",
+      "image": "/images/frostpunk/icons/icon-sektor-aussen.png",
+      "summary": "Äußerer Sektor",
+      "description": "",
+      "group": "spielplan-sektoren",
+      "timing": [],
+      "tags": [
+        "Spielplan & Sektoren",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 500
+    },
+    {
+      "id": "icon-sektor-kohle",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektorsymbol: 1 Kohle platzieren",
+      "image": "/images/frostpunk/icons/icon-sektor-kohle.png",
+      "summary": "Sektorsymbol: 1 Kohle platzieren",
+      "description": "",
+      "group": "spielplan-sektoren",
+      "timing": [],
+      "tags": [
+        "Spielplan & Sektoren",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 510
+    },
+    {
+      "id": "icon-sektor-baeume",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektorsymbol: 2 Bäume platzieren",
+      "image": "/images/frostpunk/icons/icon-sektor-baeume.png",
+      "summary": "Sektorsymbol: 2 Bäume platzieren",
+      "description": "",
+      "group": "spielplan-sektoren",
+      "timing": [],
+      "tags": [
+        "Spielplan & Sektoren",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 520
+    },
+    {
+      "id": "icon-sektor-nahrungsfund",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektorsymbol: Nahrungsfund (3 Nahrung)",
+      "image": "/images/frostpunk/icons/icon-sektor-nahrungsfund.png",
+      "summary": "Sektorsymbol: Nahrungsfund (3 Nahrung)",
+      "description": "",
+      "group": "spielplan-sektoren",
+      "timing": [],
+      "tags": [
+        "Spielplan & Sektoren",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 530
+    },
+    {
+      "id": "icon-sektor-holz",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektorsymbol: 2 Holz platzieren",
+      "image": "/images/frostpunk/icons/icon-sektor-holz.png",
+      "summary": "Sektorsymbol: 2 Holz platzieren",
+      "description": "",
+      "group": "spielplan-sektoren",
+      "timing": [],
+      "tags": [
+        "Spielplan & Sektoren",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 540
+    },
+    {
+      "id": "icon-sektor-dampfkern",
+      "type": "reference",
+      "category": "icons",
+      "name": "Sektorsymbol: 1 Dampfkern platzieren",
+      "image": "/images/frostpunk/icons/icon-sektor-dampfkern.png",
+      "summary": "Sektorsymbol: 1 Dampfkern platzieren",
+      "description": "",
+      "group": "spielplan-sektoren",
+      "timing": [],
+      "tags": [
+        "Spielplan & Sektoren",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 550
+    },
+    {
+      "id": "icon-karte-in-auslage",
+      "type": "reference",
+      "category": "icons",
+      "name": "Karte in die Ereignis-Auslage legen",
+      "image": "/images/frostpunk/icons/icon-karte-in-auslage.png",
+      "summary": "Karte in die Ereignis-Auslage legen",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Karten",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 560
+    },
+    {
+      "id": "icon-karte-entfernen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Karte aus dem Spiel entfernen",
+      "image": "/images/frostpunk/icons/icon-karte-entfernen.png",
+      "summary": "Karte aus dem Spiel entfernen",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Karten",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 570
+    },
+    {
+      "id": "icon-karte-ablegen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Karte auf den Ablagestapel legen",
+      "image": "/images/frostpunk/icons/icon-karte-ablegen.png",
+      "summary": "Karte auf den Ablagestapel legen",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Karten",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 580
+    },
+    {
+      "id": "icon-karte-nicht-ablegbar",
+      "type": "reference",
+      "category": "icons",
+      "name": "Kann nicht auf den Ablagestapel gelegt werden",
+      "image": "/images/frostpunk/icons/icon-karte-nicht-ablegbar.png",
+      "summary": "Kann nicht auf den Ablagestapel gelegt werden",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Karten",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 590
+    },
+    {
+      "id": "icon-bauen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Bauen-Aktion – Errichten/Abreißen",
+      "image": "/images/frostpunk/icons/icon-bauen.png",
+      "summary": "Bauen-Aktion – Errichten/Abreißen",
+      "description": "",
+      "group": "gebaeude-symbole",
+      "timing": [],
+      "tags": [
+        "Gebäude-Symbole",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 600
+    },
+    {
+      "id": "icon-nicht-errichtbar",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gebäude kann nicht errichtet werden",
+      "image": "/images/frostpunk/icons/icon-nicht-errichtbar.png",
+      "summary": "Gebäude kann nicht errichtet werden",
+      "description": "",
+      "group": "gebaeude-symbole",
+      "timing": [],
+      "tags": [
+        "Gebäude-Symbole",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 610
+    },
+    {
+      "id": "icon-nicht-zerstoerbar",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gebäude kann nicht zerstört oder abgerissen werden",
+      "image": "/images/frostpunk/icons/icon-nicht-zerstoerbar.png",
+      "summary": "Gebäude kann nicht zerstört oder abgerissen werden",
+      "description": "",
+      "group": "gebaeude-symbole",
+      "timing": [],
+      "tags": [
+        "Gebäude-Symbole",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 620
+    },
+    {
+      "id": "icon-ausbauen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Ausbau eines Gebäudes",
+      "image": "/images/frostpunk/icons/icon-ausbauen.png",
+      "summary": "Ausbau eines Gebäudes",
+      "description": "",
+      "group": "gebaeude-symbole",
+      "timing": [],
+      "tags": [
+        "Gebäude-Symbole",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 630
+    },
+    {
+      "id": "icon-nicht-ausbaubar",
+      "type": "reference",
+      "category": "icons",
+      "name": "Gebäude kann nicht ausgebaut werden",
+      "image": "/images/frostpunk/icons/icon-nicht-ausbaubar.png",
+      "summary": "Gebäude kann nicht ausgebaut werden",
+      "description": "",
+      "group": "gebaeude-symbole",
+      "timing": [],
+      "tags": [
+        "Gebäude-Symbole",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 640
+    },
+    {
+      "id": "icon-entlohnung-material",
+      "type": "reference",
+      "category": "icons",
+      "name": "wahrscheinliche Entlohnung: Nahrung oder Rohstoffe",
+      "image": "/images/frostpunk/icons/icon-entlohnung-material.png",
+      "summary": "wahrscheinliche Entlohnung: Nahrung oder Rohstoffe",
+      "description": "",
+      "group": "expedition-sonstiges",
+      "timing": [],
+      "tags": [
+        "Expedition & Sonstiges",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 650
+    },
+    {
+      "id": "icon-entlohnung-buerger",
+      "type": "reference",
+      "category": "icons",
+      "name": "wahrscheinliche Entlohnung: Bürger",
+      "image": "/images/frostpunk/icons/icon-entlohnung-buerger.png",
+      "summary": "wahrscheinliche Entlohnung: Bürger",
+      "description": "",
+      "group": "expedition-sonstiges",
+      "timing": [],
+      "tags": [
+        "Expedition & Sonstiges",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 660
+    },
+    {
+      "id": "icon-entlohnung-gemischt",
+      "type": "reference",
+      "category": "icons",
+      "name": "Entlohnung kann Nahrung, Rohstoffe oder Bürger beinhalten",
+      "image": "/images/frostpunk/icons/icon-entlohnung-gemischt.png",
+      "summary": "Entlohnung kann Nahrung, Rohstoffe oder Bürger beinhalten",
+      "description": "",
+      "group": "expedition-sonstiges",
+      "timing": [],
+      "tags": [
+        "Expedition & Sonstiges",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 670
+    },
+    {
+      "id": "icon-expedition-fortsetzen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Expedition fortsetzen",
+      "image": "/images/frostpunk/icons/icon-expedition-fortsetzen.png",
+      "summary": "Expedition fortsetzen",
+      "description": "",
+      "group": "expedition-sonstiges",
+      "timing": [],
+      "tags": [
+        "Expedition & Sonstiges",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 680
+    },
+    {
+      "id": "icon-expedition-zurueckkehren",
+      "type": "reference",
+      "category": "icons",
+      "name": "zur Stadt zurückkehren",
+      "image": "/images/frostpunk/icons/icon-expedition-zurueckkehren.png",
+      "summary": "zur Stadt zurückkehren",
+      "description": "",
+      "group": "expedition-sonstiges",
+      "timing": [],
+      "tags": [
+        "Expedition & Sonstiges",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 690
+    },
+    {
+      "id": "icon-szenario-plaettchen",
+      "type": "reference",
+      "category": "icons",
+      "name": "Szenario-Plättchen (auf das Runden-Feld legen)",
+      "image": "/images/frostpunk/icons/icon-szenario-plaettchen.png",
+      "summary": "Szenario-Plättchen (auf das Runden-Feld legen)",
+      "description": "",
+      "group": "expedition-sonstiges",
+      "timing": [],
+      "tags": [
+        "Expedition & Sonstiges",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 700
+    },
+    {
+      "id": "icon-jagdsymbol",
+      "type": "reference",
+      "category": "icons",
+      "name": "Jagdsymbol (liefert Nahrung in der WETTER-PHASE)",
+      "image": "/images/frostpunk/icons/icon-jagdsymbol.png",
+      "summary": "Jagdsymbol (liefert Nahrung in der WETTER-PHASE)",
+      "description": "",
+      "group": "expedition-sonstiges",
+      "timing": [],
+      "tags": [
+        "Expedition & Sonstiges",
+        "Szenarien-Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 710
+    }
+  ]
+}

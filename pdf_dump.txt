@@ -1,0 +1,1214 @@
+--- PAGE 3 ---
+3
+EINLEITUNG
+Die Welt von Frostpunk
+Im Sommer des Jahres 1886 begannen die Schneestürme  Missernten folgten, und Menschen verhungerten  
+Millionen flohen in den Süden, fanden dort aber nur Chaos, Hungersnot, und Tod  Das britische Empire hin-
+gegen begann, in den entferntesten Winkeln des an Ressourcen reichen Nordens riesige, Wärme spendende 
+Generatoren zu konstruieren, um einigen Auserwählten das Überleben jenseits der in sich zusammenfallenden 
+Zivilisation zu ermöglichen  Doch die Zeit reichte nicht aus – ein apokalyptischer Eissturm fegte aus dem Norden 
+heran und verschlang alles in seiner Bahn 
+Dennoch gelang es einigen Überlebenden, die Meere zu überqueren und den Ort des Generators zu finden  
+Doch der Generator – erbaut, um einer Stadt genug Energie zu spenden, um dem Ende der Welt zu trotzen – war 
+vollkommen vereist  Es liegt nun an ihnen New London zu errichten 
+
+
+
+
+--- PAGE 4 ---
+4
+Was erwartet uns?
+Um in Frostpunk: Das Brettspiel
+Frostpunk: Das Brettspiel zu überleben, werdet 
+ihr bei euren Entscheidungen ständig zwischen der 
+Verwaltung eurer Stadt, ihrem Ausbau sowie der Mo-
+ral und Stimmung ihrer Bewohner abwägen müssen  
+Nach dem Eintritt der globalen Erdabkühlung – einer 
+Katastrophe apokalyptischen Ausmaßes – kommt die 
+einzige Wärme vom Generator im Zentrum der Stadt  
+Wenn ihr ihn nicht am Laufen haltet, werden alle hier 
+erfrieren  Die Leute vertrauen auf euch – und sie sind 
+alles, was von der Menschheit noch übrig geblieben 
+ist  Ein jeder von ihnen wurde aus seinem vorherigen 
+Leben gerissen und in diese neue, gnadenlose Realität 
+geworfen, und viele haben dabei ihre Lieben verloren  
+Sie alle sind Überlebende, aber das heißt noch lange 
+nicht, dass sie emotionslose Maschinen sind 
+Ihr werdet bei all euren Entscheidungen auch deren 
+Konsequenzen im Blick haben müssen – sowohl kurz-
+fristige als auch langfristige  Einige dieser Entschei-
+dungen werden eurem persönlichen Moralempfinden 
+möglicherweise zuwiderlaufen  Und vielleicht werden 
+einige der Gesetze, die ihr erlasst, unnötig grausam 
+erscheinen  Ihr werdet euch daher immer wieder die 
+eine Frage stellen müssen: Wie weit seid ihr bereit, zu 
+gehen, um das Überleben der letzten Stadt der Welt zu 
+sichern?
+Um diese ungeheure Aufgabe bewältigen zu können, 
+werdet ihr neue Technologien erforschen, die Eis-
+wüste nach zusätzlichen Rohstoffen und vielleicht so-
+gar weiteren Überlebenden absuchen, unermüdliche 
+Automata entwickeln und dem allumfassenden Winter 
+trotzen 
+Optimierung und Ressourcen-Management werden 
+häufig mit Empathie und wohlüberlegten Entschei-
+dungen kollidieren  Und während die Leitung der Stadt 
+und Gesellschaft einen Großteil eurer Zeit einnehmen 
+wird, werdet ihr jedoch ab einem gewissen Zeitpunkt 
+auch die Umgebung erforschen müssen, um die ver-
+gangenen Ereignisse und die gegenwärtige Situation 
+besser zu verstehen 
+Was macht Frostpunk so anders?
+Erlasst Gesetze
+Verabschiedet Gesetze, die das Leben in eurer wachsenden Gemeinschaft regeln  Entscheidet über 
+Arbeitsabläufe, Gesundheitsversorgung, Nahrungsrationierung sowie andere wichtige Aspekte des täg-
+lichen Lebens  Stärkt die Hoffnung eurer Bürger und sichert ihre Zufriedenheit, denn die moralische 
+Situation eurer Gemeinschaft ist genau so wichtig wie die Sicherstellung der grundlegenden Bedürfnisse 
+nach Nahrung und Sicherheit 
+Formt eure Gemeinschaft
+Seid ihr an einem Wendepunkt angekommen, zögert nicht, den Weg für eure Gemeinschaft festzulegen  
+Werdet ihr sie mit eiserner Hand regieren? Oder zeigt ihr ihnen einen Weg voller Mitgefühl und Glauben? 
+Werdet ihr Extreme verbinden, um eine faire Balance zu finden? Wie auch immer ihr entscheidet, denkt 
+daran – es gibt keinen Weg zurück 
+ 
+Alles hat Konsequenzen
+Einige Entscheidungen – z  B  das Urteil über das Schicksal eines unfolgsamen Bürgers, oder das Stattge-
+ben der Forderungen einer neuen Fraktion – werden euch zunächst unwesentlich erscheinen  Seid euch 
+aber dessen bewusst, dass eure Taten unerwartete Konsequenzen nach sich ziehen können  Eure Bürger 
+haben ihr Vertrauen in euch gesetzt, aber ihre Hingabe ist nicht grenzenlos  Die Führung einer Gemein-
+schaft kann durchaus eine Bürde sein 
+Entwickelt neue Technologien
+Überleben verlangt nach Fortschritt  Reagiert auf aktuelle Ereignisse, aber vergesst dabei nicht den Blick in 
+die Zukunft, und investiert geschickt in Forschung und technologischen Fortschritt  Es ist zwar schwierig, 
+eine hochentwickelte Infrastruktur mit autonomen Automata, Luftschiffen und anderen technischen Wun-
+dern zu etablieren, aber nicht unmöglich  Alles hängt von eurem Organisations- und Führungstalent ab 
+Erforscht das Frostland
+Während euer Hauptaugenmerk auf New London liegt, bietet die Welt da draußen viel mehr als nur das, 
+was im Einzugsbereich eurer Stadt liegt  Und obwohl Expeditionen riskant sind, können sie auch wertvolle 
+Informationen und zusätzliche Vorräte liefern  Vielleicht sind sogar noch andere Menschen dort draußen, 
+und ihr Schicksal liegt allein in eurer Hand 
+4
+
+
+
+
+--- PAGE 5 ---
+5
+1 Generator-Sektor
+1 Generator-Tableau
+1 Generator-Turm (mit Schubfach)
+1 Generator-Ausbau
+SPIELMATERIAL
+1 Stimmungs-Tableau
+1 Lager-Tableau
+1 Runden-Tableau
+1 Bevölkerungs-Tableau
+1 Dämmerungs-Tableau
+30 Plättchen Sektoren 
+(12 innere Sektoren und 
+18 äußere Sektoren)
+5 Plättchen Felsen-Sektoren 
+(4 davon zeigen auf der 
+Rückseite den Dreadnought)
+4 Aufgaben-Spielerhilfen
+Diese Spielanleitung
+1 Szenarien-Anleitung
+12 Umrandungs-Teile
+(6 lange, 2 gespiegelte, 2 kurze und 2 Umrandungs-Endteile)
+1 Gebäude-Tableau
+STARTGEBÄUDE
+  Speisehaus
+  Speisehaus (klein)
+Aktion: Verbrauche 3 
+ NAHRUNG
+NAHRUNG, dann 
++1
+HOFFNUNG
+HOFFNUNG oder -1
+UNZUFRIEDENHEIT
+UNZUFRIEDENHEIT 
+ Platt form
+Platt form [
+INGENIEURE
+INGENIEURE]
+Aktion: Verabschiede 1 neues Gesetz 
+(Auf dem Generator-Sektor aufgedruckt )
+ Generator
+Generator [
+INGENIEURE
+INGENIEURE]
+Aktion: Entferne bis zu 5 Belastungswürfel von 
+der Belastungsleiste, oder verbrauche
+1
+DAMPFKERN
+DAMPFKERN, um alle Belastungswürfel von 
+der Belastungsleiste zu entfernen – dann
+außerdem: Generator-Ausbau 
+STANDARDGEBÄUDE
+KLEINE GEBÄUDE – KOSTEN: 1
+HOLZ
+HOLZ
+ Werkstatt 
+Werkstatt  [
+INGENIEURE
+INGENIEURE]
+Aktion: Wähle 2x nacheinander aus diesen 
+beiden Effekten und führe sie aus:  
+ 
+•  Zahle die Ausbaukosten (1
+HOLZ
+HOLZ oder 
+1 bzw  2 
+DAMPFKERNE
+DAMPFKERNE – wie auf dem 
+Gebäude-Tableau abgebildet), um ein 
+freies errichtetes Gebäude 
+ auszubauen 
+(drehe es auf die andere Seite) 
+ 
+•  Ziehe 1 Forschungsplättchen um 1 Feld 
+auf der Rundenleiste rückwärts (das kann 
+die Technologie sofort nach den üblichen 
+Regeln fertig entwickeln, siehe S  38)
+ Holzkohlenmeiler
+Holzkohlenmeiler
+Aktion: Verbrauche 1
+HOLZ
+HOLZ, um 4 
+ KOHLE
+KOHLE 
+zu erhalten 
+ Ausgebaut: 
+ 
+Aktion: Verbrauche 1
+HOLZ
+HOLZ, um 5 
+ KOHLE
+KOHLE 
+zu erhalten 
+ Sammelstelle
+Sammelstelle
+Aktion: Erhalte 1 Rohstoff von jedem angrenzen-
+den Feld (in das Lager) 
+ Ausgebaut: 
+ 
+ Jagdhütt e
+Jagdhütt e
+Dauerhaft: 1 
+(liefert 1 
+NAHRUNG
+NAHRUNG in der WETTER
+WETTER-PHASE
+-PHASE) 
+Aktion: Erhalte 4 
+NAHRUNG
+NAHRUNG 
+ Ausgebaut: 
+ 
+Dauerhaft: 2 
+(liefert 2 
+NAHRUNG
+NAHRUNG in der WETTER
+WETTER-PHASE
+-PHASE) 
+Aktion: Erhalte 5 
+NAHRUNG
+NAHRUNG 
+KLEINE GEBÄUDE – KOSTEN: 2
+HOLZ
+HOLZ
+ Fabrik
+Fabrik [
+INGENIEURE
+INGENIEURE]
+Aktion: Verbrauche 1
+DAMPFKERN
+DAMPFKERN, um
+1 
+AUTOMATON
+AUTOMATON zu erhalten 
+ Sägewerk
+Sägewerk
+Aktion: Entferne 1 Baum vom Sektor des
+Sägewerks
+Sägewerks, um 3
+HOLZ
+HOLZ zu erhalten 
+ Ausgebaut: 
+ 
+Aktion: Entferne 1 Baum vom Sektor des 
+Sägewerks
+Sägewerks, oder von 1 angrenzenden Feld, um 
+3
+HOLZ
+HOLZ zu erhalten 
+ Sanitätsstation
+Sanitätsstation [
+INGENIEURE
+INGENIEURE] 
+Aktion: 3 
+ HEILEN
+HEILEN 
+ Ausgebaut: 
+ 
+Aktion: 4 
+ HEILEN
+HEILEN oder 1 
+ BEHANDELN
+BEHANDELN 
+GROSSE GEBÄUDE – KOSTEN: 3
+HOLZ
+HOLZ
+ Kohlegenerator
+Kohlegenerator
+Aktion: Lege je bis zu 3 
+ KOHLE
+KOHLE (aus dem Vor-
+rat) auf bis zu 3 unterschiedliche, angrenzende 
+Felder (insgesamt also bis zu 9 
+ KOHLE
+KOHLE ) 
+ Ausgebaut: 
+ 
+Aktion: Lege je bis zu 3 
+ KOHLE
+KOHLE (aus dem Vor-
+rat) auf bis zu 4 unterschiedliche, angrenzende 
+Felder (insgesamt also bis zu 12 
+ KOHLE
+KOHLE ) 
+Auf den Feldern muss sich entweder bereits
+ KOHLE
+KOHLE befi nden, oder sie müssen vollständig leer 
+sein (weder Rohstoffe, noch Bäume, noch Gebäude 
+darauf)  Beachte: Danach pro Feld 5 
+ KOHLE
+KOHLE maximal  
+ Signalstation
+Signalstation
+Dauerhaft: 1 aktive Expedition
+ Ausgebaut:
+Dauerhaft: Bis zu 2 aktive Expeditionen
+GROSSE GEBÄUDE – KOSTEN:
+4
+HOLZ
+HOLZ + 1
+DAMPFKERN
+DAMPFKERN
+ Krankenhaus
+Krankenhaus [
+INGENIEURE
+INGENIEURE]
+Aktion: 4 
+ HEILEN
+HEILEN  oder 2 
+ BEHANDELN
+BEHANDELN 
+ Ausgebaut: 
+ 
+Aktion: 5 
+ HEILEN
+HEILEN oder 3 
+ BEHANDELN
+BEHANDELN 
+ Treibhaus
+Treibhaus
+Aktion: Erhalte 7 
+NAHRUNG
+NAHRUNG 
+ Ausgebaut: 
+ 
+Aktion: Erhalte 9 
+NAHRUNG
+NAHRUNG 
+GROSSE GEBÄUDE – KOSTEN:
+5
+HOLZ
+HOLZ + 1
+DAMPFKERN
+DAMPFKERN
+  Kohlemine
+Kohlemine
+Kann nur angrenzend an ein Kohlevorkommen 
+(Spielplan-Umrandung) errichtet werden 
+Aktion: Erhalte 4 
+ KOHLE
+KOHLE 
+ Ausgebaut: 
+ 
+Aktion: Erhalte 5 
+ KOHLE
+KOHLE 
+  Mauerbohrer
+Mauerbohrer
+Kann nur angrenzend an ein Holzvorkommen 
+(Spielplan-Umrandung) errichtet werden 
+Aktion: Erhalte 3
+HOLZ
+HOLZ   
+ Ausgebaut: 
+ 
+AKTIONS-ÜBERSICHT 
+© 2022 Matthias Nagy, Frosted Games, Sieglindestr. 7, 12159 Berlin, Deutschland, unter Lizenz von Glass Cannon Unplugged. Alle Rechte vorbehalten.
+© 2022 11 bit studios S.A. Frostpunk™, 11 bit studios™ and respective logos are trademarks of 11 bit studios S.A. All rights reserved. © 2022 Glass Cannon Unplugged Sp. z o. o. All rights reserved.
+ SCHNEE RÄUMEN
+SCHNEE RÄUMEN
+Immer kalt.
+ARBEITER
+ARBEITER/
+INGENIEUR
+INGENIEUR/
+AUTOMATON
+AUTOMATON  auf 
+Aktions-Feld SCHNEE RÄUMEN
+SCHNEE RÄUMEN 
+Dann platziere verdeckt entweder:
+ 
+•  2 
+ innere Sektoren – immer nur 
+angrenzend zum Generator-Sektor 
+ 
+ ODER
+ 
+•  1 
+ äußerer Sektor – muss über andere 
+Sektoren mit Generator-Sektor verbunden 
+sein, darf aber nicht direkt an ihn 
+angrenzen 
+Dann platzierte Sektoren aufdecken, ggf  
+Bäume oder Rohstoffe platzieren, oder
+ 
+NAHRUNG
+NAHRUNG erhalten 
+ ROHSTOFFE SAMMELN
+ROHSTOFFE SAMMELN
+Beheizt oder kalt (siehe Generator-Tableau).
+ARBEITER
+ARBEITER/
+INGENIEUR
+INGENIEUR/
+AUTOMATON
+AUTOMATON auf 
+unbesetztes Sektor-Feld mit 
+ KOHLE
+KOHLE ,
+HOLZ
+HOLZ  
+oder 
+DAMPFKERNE
+DAMPFKERNE 
+Erhalte 2 Rohstoffe vom Feld 
+Pro Runde max  1x pro Feld
+ SPÄHER AUSSENDEN
+SPÄHER AUSSENDEN
+Immer beheizt.
+Signalstation
+Signalstation muss errichtet sein!
+ARBEITER
+ARBEITER/
+INGENIEUR
+INGENIEUR auf Anfangsfeld 1 
+Expeditionspfades ohne andere Späher
+Max  1 aktive Expedition
+Signalstation
+Signalstation 
+ ausgebaut? Dann max  2 aktive 
+Expeditionen
+ BAUEN
+BAUEN
+Immer beheizt.
+ARBEITER
+ARBEITER/
+INGENIEUR
+INGENIEUR/
+AUTOMATON
+AUTOMATON auf 
+Aktions-Feld BAUEN
+BAUEN 
+Dann bis zu 3x Errichten
+Errichten und/oder Abreißen
+Abreißen 
+(beliebige Kombination)
+Errichten
+Errichten
+Plättchen von Gebäude-Tableau oder darunter 
+(falls verfügbar) wählen 
+Baukosten: in Tableau-Spalte oder auf zugehöri-
+ger Karte (
+HOLZ
+HOLZ und/oder
+DAMPFKERNE
+DAMPFKERNE)
+: kann nicht errichtet werden
+Abreißen
+Abreißen
+Unbesetztes Gebäude von Spielplan entfernen 
+(zurück auf/unter Gebäude-Tableau) 
+Ruinen
+Ruinen aus dem Spiel entfernen 
+: kann nicht abgerissen werden
+ SPEZIAL-AKTIONEN
+SPEZIAL-AKTIONEN
+Normalerweise beheizt (Text beachten).
+Auf Szenario- oder Ereignis-Karten in 
+Auslage.
+ARBEITER
+ARBEITER/
+INGENIEUR
+INGENIEUR auf Aktions-Feld der 
+Karte (ggf  Symbole beachten)
+Ggf  
+NAHRUNG
+NAHRUNG / Rohstoffe verbrauchen 
+Rohstoffe direkt auf Karte legen?
+Falls ja: bleiben auf der Karte 
+Max  1x pro Runde, ggf  nur 1x im Spiel
+ GEBÄUDE NUTZEN
+GEBÄUDE NUTZEN
+Beheizt oder kalt (siehe Generator-Tableau).
+ARBEITER
+ARBEITER/
+INGENIEUR
+INGENIEUR/
+AUTOMATON
+AUTOMATON auf 
+Gebäude des Spielplans (ggf  Symbol beachten)
+Kleines Gebäude: max  1 Figur 
+Großes Gebäude: max  2 Figuren (separate 
+Aktionen)
+Aktion des Gebäudes ausführen 
+1. ERWACHEN
+ERWACHEN-PHASE
+-PHASE
+Hast du den Anführer, gib ihn im Uhrzeigersinn 
+weiter 
+Runden-Anzeiger bewegen:
+Du ziehst den Anzeiger 1 Feld vor  Liegt auf 
+dem Feld   
+•  ...ein Forschungsplättchen? Lege es aktiv 
+(helle Seite) auf die Technologie-Karte, auf 
+der keines liegt  Dann besprich mit deinen 
+Mitspielern, welche Technologiekarte 
+(mit inaktivem Plättchen) ihr jetzt 
+erforschen wollt  Lege das Plättchen darauf 
+auf die Runden-Leiste (so viele Felder 
+vor den Runden-Anzeiger, wie auf der 
+Technologiekarte angegeben) 
+•  ...ein Szenario-Plättchen? Entferne es und 
+befolge die zugehörigen Anweisungen auf 
+den Szenario-Karten 
+2. FRÜHER MORGEN
+FRÜHER MORGEN-PHASE
+-PHASE
+Du ziehst die oberste Karte vom Morgenstapel 
+und liest sie vor  Befi ndet sich auf der Karte   
+•    ein Soforteffekt, führst du ihn direkt aus 
+•  …eine Auswahl an Optionen, besprich diese 
+mit deinen Mitspielern  Dann führst du den 
+gewählten Effekt aus  
+Einige Optionen haben zusätzliche 
+Voraussetzungen  Um sie wählen zu können, 
+müsst ihr die Voraussetzungen erfüllen 
+Symbole bei den Karten-Effekten:
+=  Lege die Karte (nach Ausführen 
+der Effekte) zurück in die 
+Schachtel  Rohstoffe auf der Karte 
+kommen zurück in den Vorrat, 
+Bürger-Figuren zurück in euer 
+Lager 
+=  Lege diese Karte in die Ereignis-
+Auslage 
+Falls neue Dämmerungskarten dem 
+Dämmerungsstapel hinzugefügt werden 
+müssen, teile dies (und ihre ID) dem/der 
+Vorarbeiter/in mit 
+3. GENERATORBETRIEB
+GENERATORBETRIEB-PHASE
+-PHASE
+4. WETTER
+WETTER-PHASE
+-PHASE
+4) DER STURM NAHT
+Die Generatoren-Leitung teilt dir 
+mit, um wie viele Felder du den 
+Sturm-Anzeiger bewegen musst 
+Hast du den Anzeiger auf oder 
+über den Runden-Anzeiger hinwegbeweg? Teile 
+der Generatoren-Leitung mit, dass der Sturm die 
+Stadt erreicht hat 
+5. VORBEREITUNGEN
+VORBEREITUNGEN-PHASE
+-PHASE
+1 BERATER AUSWÄHLEN & NUTZEN
+Beratschlagt, welchen Berater (oder keinen!) ihr 
+diese Runde nutzen wollt  Es darf derselbe sein 
+wie letzte Runde  Könnt ihr euch nicht einigen, 
+hat der Spieler mit dem Anführer das letzte Wort 
+6. AKTIONEN
+AKTIONEN-PHASE
+-PHASE
+Generator befeuern?
+Zu Beginn deines Zuges kannst du mit der 
+Generatoren-Leitung darüber sprechen, den 
+Generator zu befeuern 
+Wird ein neues Gesetz verabschiedet? 
+•  Wählt gemeinsam 1 Gesetz aus dem 
+Stapel der Gesetzentwurfs-Auslage  Du 
+legst es offen in die Gesetzes-Auslage  
+Nimm die beiden zugehörigen Gesetz-
+Konsequenzkarten, ziehe zufällig 1 (verdeckt) 
+und gib sie dem/der Vorarbeiter/in  Die 
+andere legst du verdeckt in die Schachtel 
+zurück 
+•  Falls auf der Gesetzeskarte angegeben, erhöhe/
+senke sofort eure 
+HOFFNUNG 
+HOFFNUNG bzw 
+ UNZUFRIEDENHEIT
+UNZUFRIEDENHEIT 
+7. DÄMMERUNGS
+DÄMMERUNGS-PHASE
+-PHASE
+Überprüfe die Karten in der Ereignis-Auslage 
+und führe ggf  alle DÄMMERUNGS
+DÄMMERUNGS-PHASE
+-PHASE: -Effekte in 
+einer Reihenfolge eurer Wahl aus 
+8. HUNGER
+HUNGER-PHASE
+-PHASE
+9. NACHT
+NACHT-PHASE
+-PHASE
+ZUSÄTZLICHE INFORMATIONEN
+Du kümmerst dich um 
+HOFFNUNG
+HOFFNUNG,
+ UNZUFRIEDENHEIT
+UNZUFRIEDENHEIT und die zugehörigen 
+Leisten 
+•  
+ HOFFNUNG
+HOFFNUNG/
+ UNZUFRIEDENHEIT AKTIVIEREN
+UNZUFRIEDENHEIT AKTIVIEREN
+    Drehe 1 solche von ihrer erschöpften Seite 
+auf die aktive Seite 
+•  
+HOFFNUNG 
+HOFFNUNG /
+UNZUFRIEDENHEIT ERSCHÖPFEN
+UNZUFRIEDENHEIT ERSCHÖPFEN
+    Drehe 1 solche von ihrer aktiven Seite auf die 
+erschöpften Seite 
+•  
+HOFFNUNG
+HOFFNUNG/
+ UNZUFRIEDENHEIT 
+UNZUFRIEDENHEIT erhöhen (+)
+Wählt dabei jeweils 1 der folgenden Optionen:
+•   Option 1 – Ziehen: 
+Zieht 1 entsprechende 
+/
+ davon 
+aus dem Beutel und platziert diese mit der 
+erschöpften Seite auf dem nächsten freien 
+Feld der entsprechenden Leiste
+ODER
+• Option 2 – Aktivieren:
+Aktiviert 1 davon, das bereits auf der ent-
+sprechenden Leiste liegt 
+  Sollt ihr um eine spezielle Art 
+/
+ 
+erhöhen? Ziehe 1 
+/
+ aus dem Beutel 
+(egal, ob sie passt oder nicht), dann lege sie 
+erschöpft auf die entsprechenden Leiste  Jetzt 
+aktivierst du 1 erschöpfte der speziellen Art, 
+wenn eine solche auf der Leiste liegt (muss 
+nicht die gezogene sein) 
+•  
+HOFFNUNG
+HOFFNUNG/
+ UNZUFRIEDENHEIT 
+UNZUFRIEDENHEIT senken (-)
+Wählt dabei 1 der folgenden Optionen:
+•   Option 1 – Erschöpfen: 
+Erschöpft 1 entsprechende aktive 
+/
+ 
+davon eurer Wahl  
+ODER 
+•   Option 2 – Entfernen: 
+Entfernt 1 entsprechende erschöpfte
+/
+ eurer Wahl und legt sie zurück in 
+den Beutel  Schiebt dann alle verbliebenen 
+ggf nach links, bis keine Lücken mehr 
+vorhanden sind 
+Zusätzliche Regeln:
+•   Musst du 1 
+/
+ aktivieren oder
+/
+ erschöpfen , aber das ist nicht 
+möglich, ignoriere die Anweisung  
+Ausnahme: Wenn du das tun musst, um 
+eine Bedingung/Kosten zu bezahlen!
+•   „Achtung: Nur Option 2 – Entfernen 
+wählbar.“ 
+Steht bei einem Effekt dieser Satz dabei? 
+Dann müsst ihr eine entsprechende 
+HOFFNUNG
+HOFFNUNG oder 
+ UNZUFRIEDENHEIT
+UNZUFRIEDENHEIT 
+entfernen – selbst wenn ihr etwas aktives 
+erschöpfen könntet 
+Wichtig: Wenn ihr nur aktive habt, entfernt 
+ihr ausnahmsweise die aktive – erschöpfen 
+ist nie dabei wählbar  
+Menschen können die schlimmsten Notlagen überstehen, solange sie daran glauben, dass Hoﬀ nung besteht.
+Als Gesellschaf s-Berater/in kümmerst du dich um die Stimmung eurer Gemeinschaf . Du wirst: dich um Hoﬀ nung und Un-
+zufriedenheit kümmern; Morgen- und Szenariokarten vorlesen; Szenario- und Ereignis-Auslage verwalten und ggf. Eﬀ ekte 
+ausführen; neue Gesetze zur Verabschiedung vorschlagen; die passenden Gesetz-Konsequenzkarten heraussuchen.
+GESELLSCHAFTS-
+BERATER/IN
+Fürsorge
+Gerechtigkeit
+Motivation
+Wut
+Apathie
+Gier
+Helle Seite (links): Aktiv  Dunkle Seite (rechts): Erschöpf 
+1
+1 Unzufriedenheits-Beutel
+1 Hoffnungs-Beutel
+5
+
+
+
+
+--- PAGE 6 ---
+6
+Das Dampfzentrum ist nun als Gebäude verfügbar 
+(Kosten:  1
+HOLZ).
+Befi ndet sich der Anzeiger für die 
+Generatorleistung oberhalb des roten 
+Heizreichweite-Anzeigers? Legt 1
+KOHLE  
+aus dem Lager auf ein Dampfzentrum, um es zu 
+befeuern. Dieser und alle angrenzenden Sektoren 
+zählen nun als beheizt.
+Nächste GENERATORBETRIEB-PHASE:
+Am Ende der Phase
+KOHLE auf allen 
+Dampfzentren entfernen.
+DAMPFZENTREN
+3
+T09
+TECHNOLOGIE
+Karten
+Dreht alle Krankheits-Anzeiger, die
+zeigen, auf
+.
+Danach:
++X
+KRANKE BÜRGER (eurer Wahl).
+X= Leichnams-Anzeiger.
+DÄMMERUNG
+ES IST 
+UNVERMEIDBAR!
+Jeden Tag führen wir aufs Neue einen bitteren Kampf 
+gegen den Hunger, die Kälte und Krankheiten. Verluste 
+sind unausweichlich!
+D000
+D002
+DÄMMERUNG
+DER DIEB WURDE 
+GEFUNDEN!
+Da wir den Diebstahl geheim hielten, dauerte es 
+länger, ihn zu fassen, und er hatte Zeit, einen Teil des 
+Diebesgutes zu verhökern. Als wir ihn fassen, spielt 
+er gerade mit seinem Kind, das offensichtlich bis vor 
+Kurzem an Unterernährung litt. Seine Frau fl eht uns 
+an, ihm zu vergeben.
+Lasst Gnade walten.
++1
+UNZUFRIEDENHEIT.
+Mischt Karte #D003 in den Dämmerungsstapel.  
+Schickt ihn und seine Familie ins Exil.
+Nur wählbar mit: aktive
+GERECHTIGKEIT.
+-2
+ARBEITER und -1
+KIND.
+Stellt ihn öffentlich bloß.
+-1
+UNZUFRIEDENHEIT.
+Mischt Karte #D004 in den Dämmerungsstapel.
+Legt 1 Rohstoff  eurer Wahl von #M001 in das Lager 
+und den Rest zurück in den Vorrat.
+Dann 
+ für #M001.
+1
+2
+3
+DISPUT
+„Wir sollten ihnen nicht vorher mitteilen, was wir zu 
+tun gedenken. Lassen wir sie grübeln – und sich sorgen.“
+UNGEWISSHEIT
+Aktive
+HOFFNUNG und/oder
+UNZUFRIEDENHEIT ? 
+Überprüft: Genau welche Art ist am meisten aktiv?
+Führt den Effekt davon aus. 
+(Gleichstand? alle davon; Keine aktiv? nichts passiert)
+GIER? Für jede aktive: +3
+HUNGER.
+APATHIE? Für jede aktive: Dreht 1 Krankheits- 
+Anzeiger (eurer Wahl) um.
+WUT? Für jede aktive: +2
+KRANKE BÜRGER 
+(eurer Wahl).
+MOTIVATION? Nehmt 1 Rohstoff eurer Wahl vom  
+Spielplan. Dann, für jede aktive: Nehmt 1 Rohstoff eurer 
+Wahl vom Spielplan. Nicht genügend da? Erhaltet für 
+überzählige je 1
+KOHLE aus dem Vorrat. Erhaltet alle 
+diese Rohstoffe in euer Lager.
+FÜRSORGE? Für jede aktive: 2
+HEILEN.
+GERECHTIGKEIT? Für jede aktive:
+1
+UNZUFRIEDENHEIT ERSCHÖPFEN / 
+1
+HOFFNUNG AKTIVIEREN.
+DIS01
+ARBEITSUNFÄLLE
+DÄMMERUNG
+Unsere Kinder laufen nun Gefahr, Arbeitsunfälle zu 
+erleiden. Und wenn wir dann keine gute medizinische 
+Versorgung bieten, werden einige möglicherweise 
+deshalb ihr Leben verlieren.
+1 oder mehr aktive
+FÜRSORGE?
+Für jedes
+KIND, das ihr in dieser Runde für eine 
+Aktion verwendet habt: +1
+KRANKES KIND.
+Trifft   das nicht zu?
+Für jedes
+KIND, das ihr in dieser Runde für eine 
+Aktion verwendet habt: +2
+KRANKE KINDER.
+K01 A
+DIEBSTAHL
+Ignoriert den Vorfall und haltet den Diebstahl geheim.
++1
+GIER.
+Gebt den Diebstahl bekannt - stellt Untersuchungen an!
+-1 
+ HOFFNUNG.
+Legt 1
+/
+BÜRGER ERSCHÖPFT dieser Wahl
+in das Lager.
+Mischt Karte #D001 in den Dämmerungsstapel.
+Nur 1 oder gar kein Rohstoff  im Lager?
++1
+APATHIE. Leert euer Lager und 
+ . 
+2 oder mehr Rohstoff e im Lager? 
+ , dann legt 2 Rohstoff e aus dem Lager auf diese Karte.
+Für jede aktive
+GIER:
+Legt 2 weitere Rohstoff e auf diese Karte.
+Haltet den Diebstahl geheim und stellt Untersuchungen an.
+Legt 1
+/
+BÜRGER ERSCHÖPFT dieser Wahl
+in das Lager.
+Mischt Karte #D002 in den Dämmerungsstapel.
+Verzweifl ung breitet sich wie ein Virus unter den 
+Überlebenden aus. Und nun hat jemand Vorräte 
+gestohlen.
+MORGEN
+M001
+1
+2
+3
+I/S01
+Ein neues Zuhause
+A
+Zeltlager
+In der VORBEREITUNGEN-PHASE:
+Entferne 0-3 Belastungswürfel von der 
+Belastungsleiste.
+NUR AUSFÜHRBAR MIT:
+Sofort 1
+HOFFNUNG ERSCHÖPFEN.
+EXPEDITION
+SCHAUPLATZ DES
+SCHRECKENS
+Zeltlager
+Auf dem Weg durch die endlosen Schneewüsten 
+fällt es schwer, an der Hoffnung festzuhalten. Aber 
+Einsamkeit ist auch etwas Balsam für die Seele.
+Plötzlich taucht jedoch ein Zeltlager vor uns 
+auf - offensichtlich hastig verlassen! Nahrung, 
+Wertgegenstände sowie andere nützliche Dinge 
+liegen überall verstreut. Dazwischen fi nden wir 
+Blutspuren im Schnee.Was ist hier nur geschehen?
+X01
+Erhaltet 6
+NAHRUNG.
+Wir wollen es wirklich nicht wissen ...
+B
+B
+Angst haben wir nur noch vor der Kälte. 
+Vorwärts, Männer!
+Erhaltet 6
+NAHRUNG.
+WETTER
+1
+1
+0
+1
+1
+W01
+4
+1
+In der WETTER-PHASE:
+Erhaltet für je 2
+(abrunden) jeweils
+1
+NAHRUNG zusätzlich.
+JAGDTAKTIKEN
+4
+T02
+TECHNOLOGIE
+In der VORBEREITUNGEN-PHASE:
+Entferne 0-3 Belastungswürfel von der 
+Belastungsleiste.
+NUR AUSFÜHRBAR MIT:
+Sofort 1
+HOFFNUNG ERSCHÖPFEN.
++3
+HUNGER.
+Nutze den Eff ekt des Gebäudes 3x (statt  2x).
+1
+INGENIEUR für [Werkstatt ] nutzen, dann:
+-1
+und -1
+und -2
+B19
+Adele Quapinsky
+Ingenieurin
+GESETZ
+G01
+Wir haben nicht genug Leute für all die Arbeit. 
+Wir werden erlauben, dass Kinder an bestimmten 
+Arbeitsplätzen eingesetzt werden dürfen.
+Ab sofort könnt ihr
+KINDER für die Aktionen
+• ROHSTOFFE SAMMELN
+• der Gebäude Sammelstelle (für max. 3 Rohstoffe)
+verwenden.
+KINDERARBEIT
+{
+{
+G02
+-1
+ +1
+DU DARFST DIESE KARTE 1X IM SPIEL 
+ZUSÄTZLICH ZU DEINER 
+BERATERKARTE NUTZEN.
+In der VORBEREITUNGEN-PHASE:
+Hast du  1 / 2 / 4 / 6+  
+ HOFFNUNG? 
+Ziehe  1 / 2 / 3 / 4  Bürgerkarten.
+Auf dem Marsch in den Norden erlitt unsere Truppe 
+einige Verluste, aber wir fanden auch neue Weggefährten. 
+Wir mögen zwar ein bunt gewürfelter Haufen sein, 
+aber die Strapazen und Beschwernisse der Reise 
+haben uns zusammengeschweißt. Und wir geben die 
+Hoffnung nicht auf. Immerhin haben ist unser Vorrat an 
+Nahrungskonserven groß genug, um wenigstens unsere 
+Kinder zu ernähren. Zumindest im Moment noch ...
+GRUPPE I
+NORMAL
+GEMEINSCHAFT
+LAGERBESTAND
+8
+5
+4
+0
+0
+8 0
+22 0
+12 0
+1
+2/1
+2/2
+1. ERWACHEN-PHASE
+ Anführer weitergeben (Uhrzeigersinn), Runden-Anzeiger weiterschieben.
+ Erreichte Forschungs- und Szenarioplätt chen abhandeln.
+2. FRÜHER-MORGEN-PHASE
+ Neue Morgenkarte ziehen & ausführen.
+3. GENERATORBETRIEB-PHASE
+1. Generator befeuern?
+2. Neue kranke Bürger (Generatorleistung vs. Kälte-Anzeiger)
+3. Belastungslevel des Generators:
+  Anzeiger für Generatorleistung = Kohle aus dem Vorrat in
+Generator werfen
+ Schubfach öff nen: Belastungswürfel auf die Belastungsleiste
+4. Störfall?
+5. Anzeiger für Generatorleistung zurücksetzen.
+4. WETTER-PHASE
+Wett erkarte ziehen:
+1. KÄLTEEINBRUCH: Kälte- und Heizreichweite-Anzeiger bewegen.
+2. TIERFALLEN LEEREN:
+überprüfen &
+NAHRUNG erhalten. 
+3. EXPEDITION LENKEN: Späher vorwärts bewegen.
+4. DER STURM NAHT: Sturm-Anzeiger bewegen; ggf. Sturm abhandeln.
+5. VORBEREITUNGEN-PHASE
+ 1 Berater nutzen (optional) dann: Krankheiten abhandeln
+6. AKTIONEN-PHASE
+1. Anzahl Bürger-Figuren anpassen (Bevölkerungs-Leiste überprüfen).
+2. Figuren auf die
+/
+/
+Plätt chen im Lager stellen. 
+3. Aktionen ausführen
+7. DÄMMERUNGS-PHASE
+ Ausliegende DÄMMERUNGS-PHASE-Eff ekte abhandeln.
+ 1 Dämmerungskarte ziehen & ausführen.
+8. HUNGER-PHASE
+1. HUNGER STILLEN. Dann: Übriger
+HUNGER? Hunger-Eff ekt
+abhandeln, dann zurücksetzen.
+2. BÜRGER ERNÄHREN. Nicht vollständig möglich?
+HUNGER erhöhen. 
+9. NACHT-PHASE
+1. Besetzte
+/
+/
+entfernen. Figuren (außer Späher) zurück.
+2. Schlafplatz bieten: Figuren in Anzahl der verfügbaren Schlafplätze 
+hinlegen.
+3. Figuren ohne Schlafplatz: Bürger-Art wird krank.
+S01
+Die Zivilisation ist zusammengebrochen. Wir – die 
+Überlebenden – marschierten nach Norden. Einzelne Gruppen 
+wurden gebildet, um die Chance zu verbessern, dass wenigstens 
+Einige von uns einen funktionstüchtigen Generator erreichen 
+würden. Wir hatten Erfolg, doch wie ist es den anderen 
+ergangen? Wir sollten eine Signalstation errichten, um den 
+verlorenen Seelen den Weg zu weisen.
+ RUNDE 4:
+Signalstation ist errichtet? Führt A aus. 
+Trifft das nicht zu? Führt B aus.
+ RUNDE 11:
+Legt Karte #S04 offen in die Szenario-Auslage.
+Karte #S07 liegt nicht aus? 
+Legt Karte #S03 ebenfalls offen in die 
+Szenario-Auslage.
+SIND WIR DIE EINZIGEN?
+Der Ballon strahlt hell und deutlich!
+ +1
+HOFFNUNG ODER 
+-1
+UNZUFRIEDENHEIT.
+Deckt Karte #S02 auf und führt sie aus.
+Wir haben versagt...
++1
+APATHIE. 
+Legt Karte #S06 offen in die Szenario-Auslage.
+A
+B
+SZENARIO I/01
+135 Ereigniskarten, aufgeteilt in:
+103 Dämmerungskarten (4 unterschiedliche Typen)
+16 Gesetzeskarten
+1 Karte 
+„Ein Weckruf für alle“
+12 Startaufbau-Karten
+(6 unterschiedliche 
+Gemeinschaften in je 
+2 Schwierigkeitsgraden)
+1 Phasenübersicht
+44 Szenariokarten
+40 Expeditionskarten
+13 Wetterkarten
+8 Technologiekarten
+4 Beraterkarten
+30 Bürgerkarten
+1 Startkarte
+(„Es ist unvermeidbar!“)
+60 Standardkarten
+10 Disputkarten
+32 Gesetz- 
+Konsequenzkarten
+32 Morgenkarten
+6
+1 spezielle Szenario- 
+Technologiekarte Dampfzentren
+
+
+
+
+--- PAGE 7 ---
+7
+Ein Depot als Außenposten
+4 szenariospezifische 
+Außenposten- 
+Expeditionskarten
+          Depot-Außenposten fi nden:
+Abgeschlossene Außenposten-Expeditionskarten 
+schalten euch die entsprechenden Außenposten-
+Gebäude frei.
+Das erste Außenposten-Gebäude ist errichtet?
+Lege dann 1 Vorratslager-Plätt chen mit der Rückseite 
+nach oben auf Feld 0 der Vorratstransport-Leiste.
+In der WETTER-PHASE:
+Zieht das Vorratslager-Plätt chen um so viele Felder 
+vorwärts, wie laut Wett erkarte auch die Späher auf 
+Expeditionen vorwärts gezogen werden.
+VORRATSTRANSPORT:
+ 
+ -Feld  ist erreicht?
+Erhaltet alles, was auf euren 
+errichteten Depot-Außenposten 
+angegeben ist. Dann legt das 
+Vorratslager-Plätt chen wieder 
+auf Feld 0 (überzählige Schritt e 
+verfallen). 
+AUSSENPOSTEN
+3
+0
+1
+2
+VERFÜGBARE  AUSSENPOSTEN:
+1 szenariospezifische 
+Außenpostenkarte
+1 Anzeiger für  
+Generator-
+leistung
+1 Sturm- 
+Anzeiger
+1 Leichnams-
+Anzeiger
+7 Randgebiets-Plättchen 
+(3 leer, je 2 Holz-/
+Kohlevorkommen)
+7 Szenario-
+plättchen
+4 Plättchen 
+„Elektrostatischer 
+Entladepunkt“
+4 Generator- 
+schaden-Plättchen
+1 Dreadnought-Plättchen
+11 große 
+Standardgebäude
+42 kleine 
+Standardgebäude
+1 großes 
+Spezialgebäude
+10 kleine 
+Spezialgebäude
+18 Zerstörte/Hilferufe!-
+Gebäude
+7 große 
+Szenariogebäude
+4 kleine 
+Szenariogebäude
+3 Heizreichweite-Anzeiger
+15 „Bürger erschöpft“-
+Plättchen 
+(je 5 für Arbeiter, Ingenieure 
+und Kinder)
+1 Runden- 
+Anzeiger
+1 Kälte- 
+Anzeiger
+1 Phasen- 
+Anzeiger
+3 Bürger-Anzeiger 
+(Arbeiter, Ingenieure 
+und Kinder)
+30 Bürger-Figuren (10 Arbeiter-Figuren, 10 Ingenieure-Figuren, 8 Kinder-Figuren,
+1 Jungarbeiter-Figur, 1 Jungingenieur-Figur)
+40 Holz
+10 Dampf-
+kerne
+30 Bäume
+3 Dampfzentren
+50 Kohle
+8 Stahl
+3 Krankheits-Anzeiger 
+(Arbeiter, Ingenieure 
+und Kinder)
+1 Anführer
+1 Nahrungs-
+Anzeiger
+1 Hunger-
+Anzeiger
+3 szenariospezifische Anzeiger 
+„Individueller Nahrungsbedarf“
+(Arbeiter, Ingenieure, Kinder)
+(für Fan-Szenarien)
+6 Automata-Figuren
+3 Vorratslager- 
+Plättchen
+19 große Gebäudeplättchen
+74 kleine Gebäudeplättchen
+Was uns zunächst wie eine verlassene Höhle 
+erschien, entpuppt sich bei näherer Betrachtung 
+als Bergwerksstollen. Ein Kohlehaufen, die 
+Bergbauausrüstung, und auch die Kumpel – alles 
+war noch vorhanden. Und offensichtlich seit Wochen 
+oder gar Monaten vollkommen unberührt...
+Legt diese Karte so unter die Außenposten-Karte, dass 
+nur die unten stehenden Zeilen sichtbar sind:
+Ihr trefft Vorbereitungen für den Bau eines 
+Außenpostens.
+Der Kohledepot-Außenposten ist nun als Gebäude 
+verfügbar (Kosten: 2
+HOLZ).
+Erhaltet 1
+DAMPFKERN und 2
+KOHLE und 
+.
+Ihr nehmt mit, was ihr bergen könnt, 
+und werdet diesen Ort nicht mehr 
+aufsuchen. Es ist ein Grab, und das soll 
+auch so bleiben.
+AUSSENPOSTEN
+EIN KOHLEFLÖZ
+Außenposten
+[         ]
+9 Hoffnung
+5 Plättchen 
+Wissen/
+Entdeckung
+1 Integritäts-
+Anzeiger
+1 Zustands-
+Anzeiger
+1 Studiums-
+Anzeiger
+9 Unzufriedenheit
+4 Forschungs- 
+plättchen
+1 Evakuierungs-
+Anzeiger
+7
+
+
+

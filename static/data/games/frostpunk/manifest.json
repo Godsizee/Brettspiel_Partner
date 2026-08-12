@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.1.0",
+  "game": {
+    "key": "frostpunk",
+    "name": "Frostpunk: Das Brettspiel"
+  },
+  "modules": [
+    {
+      "id": "regeln",
+      "title": "Regeln",
+      "type": "reference",
+      "layout": "grouped",
+      "icon": "book-open",
+      "featured": true,
+      "source": "modules/regeln.json"
+    },
+    {
+      "id": "rundenuebersicht",
+      "title": "Rundenübersicht",
+      "type": "checklist",
+      "icon": "refresh-cw",
+      "featured": true,
+      "source": "modules/rundenuebersicht.json"
+    },
+    {
+      "id": "gebaeude",
+      "title": "Gebäude",
+      "type": "reference",
+      "layout": "grouped",
+      "icon": "building",
+      "featured": true,
+      "source": "modules/gebaeude.json"
+    },
+    {
+      "id": "icons",
+      "title": "Symbol-Lexikon",
+      "type": "reference",
+      "layout": "icon-grid",
+      "icon": "help-circle",
+      "featured": true,
+      "source": "modules/icons.json"
+    },
+    {
+      "id": "szenarien",
+      "title": "Szenarien",
+      "type": "reference",
+      "layout": "grouped",
+      "icon": "map",
+      "featured": true,
+      "source": "modules/szenarien.json"
+    },
+    {
+      "id": "glossar",
+      "title": "Glossar",
+      "type": "reference",
+      "layout": "grouped",
+      "icon": "book",
+      "featured": false,
+      "source": "modules/glossar.json"
+    }
+  ]
+}

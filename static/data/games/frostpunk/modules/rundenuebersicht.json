@@ -1,0 +1,127 @@
+{
+  "sections": [
+    {
+      "title": "1. ERWACHEN-PHASE",
+      "items": [
+        {
+          "text": "Anführer weitergeben (im Uhrzeigersinn), Runden-Anzeiger weiterschieben."
+        },
+        {
+          "text": "Erreichte Forschungs- und Szenarioplättchen abhandeln."
+        }
+      ]
+    },
+    {
+      "title": "2. FRÜHER-MORGEN-PHASE",
+      "items": [
+        {
+          "text": "Neue Morgenkarte ziehen & ausführen."
+        }
+      ]
+    },
+    {
+      "title": "3. GENERATORBETRIEB-PHASE",
+      "items": [
+        {
+          "text": "Generator befeuern?"
+        },
+        {
+          "text": "Neue kranke Bürger ermitteln (Generatorleistung vs. Kälte-Anzeiger)."
+        },
+        {
+          "text": "Belastungslevel des Generators: So viel Kohle aus dem Vorrat in den Generator werfen, wie der Anzeiger für Generatorleistung angibt."
+        },
+        {
+          "text": "Schubfach öffnen: Belastungswürfel auf die Belastungsleiste legen."
+        },
+        {
+          "text": "Störfall? Prüfen und ggf. abhandeln."
+        },
+        {
+          "text": "Anzeiger für Generatorleistung zurücksetzen."
+        }
+      ]
+    },
+    {
+      "title": "4. WETTER-PHASE",
+      "items": [
+        {
+          "text": "Wetterkarte ziehen."
+        },
+        {
+          "text": "Kälteeinbruch: Kälte- und Heizreichweite-Anzeiger bewegen."
+        },
+        {
+          "text": "Tierfallen leeren: Jagd-Symbole überprüfen & Nahrung erhalten."
+        },
+        {
+          "text": "Expedition lenken: Späher vorwärts bewegen."
+        },
+        {
+          "text": "Der Sturm naht: Sturm-Anzeiger bewegen; ggf. Sturm abhandeln."
+        }
+      ]
+    },
+    {
+      "title": "5. VORBEREITUNGEN-PHASE",
+      "items": [
+        {
+          "text": "1 Berater nutzen (optional)."
+        },
+        {
+          "text": "Dann: Krankheiten abhandeln."
+        }
+      ]
+    },
+    {
+      "title": "6. AKTIONEN-PHASE",
+      "items": [
+        {
+          "text": "Anzahl Bürger-Figuren anpassen (Bevölkerungs-Leiste überprüfen)."
+        },
+        {
+          "text": "Figuren auf die Arbeiter-, Ingenieur- und Kind-erschöpft-Plättchen im Lager stellen."
+        },
+        {
+          "text": "Aktionen ausführen."
+        }
+      ]
+    },
+    {
+      "title": "7. DÄMMERUNGS-PHASE",
+      "items": [
+        {
+          "text": "Ausliegende Dämmerungs-Phase-Effekte abhandeln."
+        },
+        {
+          "text": "1 Dämmerungskarte ziehen & ausführen."
+        }
+      ]
+    },
+    {
+      "title": "8. HUNGER-PHASE",
+      "items": [
+        {
+          "text": "Hunger stillen. Dann: Übriger Hunger? Hunger-Effekt abhandeln, dann zurücksetzen."
+        },
+        {
+          "text": "Bürger ernähren. Nicht vollständig möglich? Hunger erhöhen."
+        }
+      ]
+    },
+    {
+      "title": "9. NACHT-PHASE",
+      "items": [
+        {
+          "text": "Besetzte Arbeiter-, Ingenieur- und Kind-erschöpft-Plättchen entfernen. Figuren (außer Späher) zurück ins Lager."
+        },
+        {
+          "text": "Schlafplatz bieten: Figuren in Anzahl der verfügbaren Schlafplätze hinlegen."
+        },
+        {
+          "text": "Figuren ohne Schlafplatz: entsprechende Bürger-Art wird krank."
+        }
+      ]
+    }
+  ]
+}

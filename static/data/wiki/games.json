@@ -151,5 +151,16 @@
       "enabled": true,
       "manifest": "/data/games/wasserkraft/manifest.json"
     }
+  },
+  {
+    "key": "frostpunk",
+    "name": "Frostpunk: Das Brettspiel",
+    "publisher": "Glass Cannon Unplugged / Frosted Games",
+    "badge": "Expertenspiel",
+    "players": "1–4 Spieler",
+    "wiki": {
+      "enabled": true,
+      "manifest": "/data/games/frostpunk/manifest.json"
+    }
   }
 ]

@@ -2358,5 +2358,29 @@
         "description": "Punkte aller erledigten Ereignisse. Im kompetitiven Modus bringt die Reise am Spielende 5 Punkte an die Person mit mehr Karten in Stadt + Hand."
       }
     ]
+  },
+  {
+    "key": "frostpunk",
+    "name": "Frostpunk: Das Brettspiel",
+    "badge": "Expertenspiel",
+    "description": "Kooperatives Survival-Brettspiel: Haltet den Generator am Laufen, eure Bürger am Leben und die Stadt beisammen.",
+    "players": "1–4 Spieler",
+    "categories": [
+      {
+        "id": "placeholder",
+        "label": "Platzhalter",
+        "type": "sum"
+      }
+    ],
+    "theme": {
+      "primary": "hsl(200, 55%, 42%)",
+      "secondary": "hsl(35, 90%, 55%)",
+      "gradientColor": "#2E6E8E",
+      "icon_style": "colored",
+      "icon_bg": null
+    },
+    "active": true,
+    "order": 100,
+    "calculator": ""
   }
 ]

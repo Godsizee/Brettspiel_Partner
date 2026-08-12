@@ -1,0 +1,2154 @@
+{
+  "groups": [
+    {
+      "id": "einleitung",
+      "title": "Einleitung",
+      "order": 10
+    },
+    {
+      "id": "material",
+      "title": "Spielmaterial",
+      "order": 20
+    },
+    {
+      "id": "aufbau",
+      "title": "Spielaufbau",
+      "description": "Der hier beschriebene Spielaufbau nutzt das Standard-Szenario **Ein neues Zuhause: Der Krater**. Die einzelnen Schritte tragen dieselben Kapitelnummern ①–⑭ wie in der Szenarien-Anleitung, auf die andere Szenarien verweisen.",
+      "order": 30
+    },
+    {
+      "id": "grundlagen",
+      "title": "Sieg, Niederlage & Grundlagen",
+      "order": 40
+    },
+    {
+      "id": "stimmung",
+      "title": "Hoffnung & Unzufriedenheit",
+      "order": 50
+    },
+    {
+      "id": "rundenablauf",
+      "title": "Der Spielablauf – die 9 Phasen",
+      "order": 60
+    },
+    {
+      "id": "aktionen",
+      "title": "Die Aktionen im Detail",
+      "order": 70
+    },
+    {
+      "id": "spielende",
+      "title": "Spielende, Krankheit & Sterben",
+      "order": 80
+    },
+    {
+      "id": "berater-buerger",
+      "title": "Berater & Bürgerkarten",
+      "order": 90
+    },
+    {
+      "id": "karten",
+      "title": "Szenario-, Ereignis-, Gesetzes- & Technologiekarten",
+      "order": 100
+    },
+    {
+      "id": "expeditionen",
+      "title": "Expeditionen",
+      "order": 110
+    },
+    {
+      "id": "automata",
+      "title": "Automata & besondere Bürger",
+      "order": 120
+    },
+    {
+      "id": "felder",
+      "title": "Angrenzende Felder",
+      "order": 130
+    },
+    {
+      "id": "limits",
+      "title": "Limits & Grenzwerte",
+      "order": 140
+    }
+  ],
+  "entries": [
+    {
+      "id": "welt-von-frostpunk",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Die Welt von Frostpunk",
+      "image": null,
+      "summary": "Im Sommer des Jahres 1886 begannen die Schneestürme. Missernten folgten, und Menschen verhungerten. Millionen flohen in den Süden, fanden dort aber nur Chaos, Hungersnot, und Tod. Das britische Empire hingegen begann, in den entferntesten Winkeln des an Ressourcen reichen Nordens riesige, Wärme spendende Generatoren zu konstruieren, um einigen Auserwählten das Überleben jenseits der in sich zusammenfallenden Zivilisation zu ermöglichen. Doch die Zeit reichte nicht aus – ein apokalyptischer Eissturm fegte aus dem Norden heran und verschlang alles in seiner Bahn.\n\nDennoch gelang es einigen Überlebenden, die Meere zu überqueren und den Ort des Generators zu finden. Doch der Generator – erbaut, um einer Stadt genug Energie zu spenden, um dem Ende der Welt zu trotzen – war vollkommen vereist. Es liegt nun an euch, New London zu errichten.",
+      "description": "",
+      "group": "einleitung",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 3"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 10010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 3
+      }
+    },
+    {
+      "id": "was-erwartet-uns",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Was erwartet uns?",
+      "image": null,
+      "summary": "Um in **Frostpunk: Das Brettspiel** zu überleben, werdet ihr bei euren Entscheidungen ständig zwischen der Verwaltung eurer Stadt, ihrem Ausbau sowie der Moral und Stimmung ihrer Bewohner abwägen müssen.",
+      "description": "Nach dem Eintritt der globalen Erdabkühlung – einer Katastrophe apokalyptischen Ausmaßes – kommt die einzige Wärme vom Generator im Zentrum der Stadt. Wenn ihr ihn nicht am Laufen haltet, werden alle hier erfrieren. Die Leute vertrauen auf euch – und sie sind alles, was von der Menschheit noch übrig geblieben ist. Ein jeder von ihnen wurde aus seinem vorherigen Leben gerissen und in diese neue, gnadenlose Realität geworfen, und viele haben dabei ihre Lieben verloren. Sie alle sind Überlebende, aber das heißt noch lange nicht, dass sie emotionslose Maschinen sind.\n\nIhr werdet bei all euren Entscheidungen auch deren Konsequenzen im Blick haben müssen – sowohl kurzfristige als auch langfristige. Einige dieser Entscheidungen werden eurem persönlichen Moralempfinden möglicherweise zuwiderlaufen. Und vielleicht werden einige der Gesetze, die ihr erlasst, unnötig grausam erscheinen. Ihr werdet euch daher immer wieder die eine Frage stellen müssen: Wie weit seid ihr bereit, zu gehen, um das Überleben der letzten Stadt der Welt zu sichern?\n\nUm diese ungeheure Aufgabe bewältigen zu können, werdet ihr neue Technologien erforschen, die Eiswüste nach zusätzlichen Rohstoffen und vielleicht sogar weiteren Überlebenden absuchen, unermüdliche Automata entwickeln und dem allumfassenden Winter trotzen.\n\nOptimierung und Ressourcen-Management werden häufig mit Empathie und wohlüberlegten Entscheidungen kollidieren. Und während die Leitung der Stadt und Gesellschaft einen Großteil eurer Zeit einnehmen wird, werdet ihr jedoch ab einem gewissen Zeitpunkt auch die Umgebung erforschen müssen, um die vergangenen Ereignisse und die gegenwärtige Situation besser zu verstehen.",
+      "group": "einleitung",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 4"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 10020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 4
+      }
+    },
+    {
+      "id": "besonderheiten",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Was macht Frostpunk so anders?",
+      "image": null,
+      "summary": "**Erlasst Gesetze:** Verabschiedet Gesetze, die das Leben in eurer wachsenden Gemeinschaft regeln. Entscheidet über Arbeitsabläufe, Gesundheitsversorgung, Nahrungsrationierung sowie andere wichtige Aspekte des täglichen Lebens. Stärkt die Hoffnung eurer Bürger und sichert ihre Zufriedenheit, denn die moralische Situation eurer Gemeinschaft ist genau so wichtig wie die Sicherstellung der grundlegenden Bedürfnisse nach Nahrung und Sicherheit.\n\n**Formt eure Gemeinschaft:** Seid ihr an einem Wendepunkt angekommen, zögert nicht, den Weg für eure Gemeinschaft festzulegen. Werdet ihr sie mit eiserner Hand regieren? Oder zeigt ihr ihnen einen Weg voller Mitgefühl und Glauben? Werdet ihr Extreme verbinden, um eine faire Balance zu finden? Wie auch immer ihr entscheidet, denkt daran – es gibt keinen Weg zurück.\n\n**Alles hat Konsequenzen:** Einige Entscheidungen – z.B. das Urteil über das Schicksal eines unfolgsamen Bürgers, oder das Stattgeben der Forderungen einer neuen Fraktion – werden euch zunächst unwesentlich erscheinen. Seid euch aber dessen bewusst, dass eure Taten unerwartete Konsequenzen nach sich ziehen können. Eure Bürger haben ihr Vertrauen in euch gesetzt, aber ihre Hingabe ist nicht grenzenlos. Die Führung einer Gemeinschaft kann durchaus eine Bürde sein.\n\n**Entwickelt neue Technologien:** Überleben verlangt nach Fortschritt. Reagiert auf aktuelle Ereignisse, aber vergesst dabei nicht den Blick in die Zukunft, und investiert geschickt in Forschung und technologischen Fortschritt. Es ist zwar schwierig, eine hochentwickelte Infrastruktur mit autonomen Automata, Luftschiffen und anderen technischen Wundern zu etablieren, aber nicht unmöglich. Alles hängt von eurem Organisations- und Führungstalent ab.\n\n**Erforscht das Frostland:** Während euer Hauptaugenmerk auf New London liegt, bietet die Welt da draußen viel mehr als nur das, was im Einzugsbereich eurer Stadt liegt. Und obwohl Expeditionen riskant sind, können sie auch wertvolle Informationen und zusätzliche Vorräte liefern. Vielleicht sind sogar noch andere Menschen dort draußen, und ihr Schicksal liegt allein in eurer Hand.",
+      "description": "",
+      "group": "einleitung",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 4"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 10030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 4
+      }
+    },
+    {
+      "id": "spielmaterial-tableaus",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Tableaus & Spielplan",
+      "image": null,
+      "summary": "**Generator**\n- 1 Generator-Turm (mit Schubfach), 1 Generator-Ausbau, 1 Generator-Sektor, 1 Generator-Tableau\n\n**Tableaus**\n- 1 Stimmungs-Tableau, 1 Lager-Tableau, 1 Runden-Tableau, 1 Bevölkerungs-Tableau, 1 Gebäude-Tableau, 1 Dämmerungs-Tableau\n\n**Spielplan-Teile**\n- 12 Umrandungs-Teile (6 lange, 2 gespiegelte, 2 kurze und 2 Umrandungs-Endteile)\n- 30 Plättchen Sektoren (12 innere Sektoren und 18 äußere Sektoren)\n- 5 Plättchen Felsen-Sektoren (4 davon zeigen auf der Rückseite den Dreadnought)\n\n**Weiteres**\n- 1 Unzufriedenheits-Beutel, 1 Hoffnungs-Beutel\n- 4 Aufgaben-Spielerhilfen\n- diese Spielanleitung, 1 Szenarien-Anleitung",
+      "description": "",
+      "group": "material",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 5"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 20010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 5
+      }
+    },
+    {
+      "id": "spielmaterial-karten",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Karten",
+      "image": null,
+      "summary": "**Ereigniskarten (135 insgesamt)**\n- 103 Dämmerungskarten (4 unterschiedliche Typen): 1 Startkarte („Es ist unvermeidbar!“), 60 Standardkarten, 10 Disputkarten, 32 Gesetz-Konsequenzkarten\n- 32 Morgenkarten\n- 1 spezielle Szenario-Technologiekarte „Dampfzentren“\n\n**Weitere Karten**\n- 16 Gesetzeskarten\n- 44 Szenariokarten\n- 40 Expeditionskarten\n- 13 Wetterkarten\n- 8 Technologiekarten\n- 4 Beraterkarten, 30 Bürgerkarten\n- 12 Startaufbau-Karten (6 Gemeinschaften in je 2 Schwierigkeitsgraden)\n- 1 Phasenübersicht, 1 Karte „Ein Weckruf für alle“",
+      "description": "",
+      "group": "material",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 6"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 20020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 6
+      }
+    },
+    {
+      "id": "spielmaterial-anzeiger",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Anzeiger, Marker & Gebäudeplättchen",
+      "image": null,
+      "summary": "**Außenposten (für bestimmte Szenarien)**\n- 4 szenariospezifische Außenposten-Expeditionskarten\n- 1 szenariospezifische Außenpostenkarte\n\n**Anzeiger und Marker**\n- 1 Anzeiger für Generatorleistung, 1 Runden-Anzeiger, 1 Phasen-Anzeiger, 1 Anführer, 1 Sturm-Anzeiger, 1 Kälte-Anzeiger\n- 3 Bürger-Anzeiger und 3 Krankheits-Anzeiger (je für Arbeiter, Ingenieure und Kinder), 1 Leichnams-Anzeiger\n- 1 Nahrungs-Anzeiger, 1 Hunger-Anzeiger, 3 szenariospezifische Anzeiger „Individueller Nahrungsbedarf“ (für Fan-Szenarien)\n- 3 Vorratslager-Plättchen\n- 4 Plättchen „Elektrostatischer Entladepunkt“\n- 3 Heizreichweite-Anzeiger\n- 7 Randgebiets-Plättchen (3 leer, je 2 Holz-/Kohlevorkommen)\n- 15 „Bürger erschöpft“-Plättchen (je 5 für Arbeiter, Ingenieure und Kinder)\n- 7 Szenarioplättchen\n- 4 Generatorschaden-Plättchen\n- 4 Forschungsplättchen, 1 Evakuierungs-Anzeiger, 5 Plättchen Wissen/Entdeckung, 1 Integritäts-Anzeiger, 1 Zustands-Anzeiger, 1 Studiums-Anzeiger\n- 1 Dreadnought-Plättchen\n\n**Bürger, Automata und Rohstoffe**\n- 30 Bürger-Figuren (10 Arbeiter-, 10 Ingenieur-, 8 Kinder-Figuren, 1 Jungarbeiter-Figur, 1 Jungingenieur-Figur)\n- 6 Automata-Figuren\n- 40 [[icon:frostpunk:holz]] Holz, 50 [[icon:frostpunk:kohle]] Kohle, 8 [[icon:frostpunk:stahl]] Stahl, 10 [[icon:frostpunk:dampfkern]] Dampfkerne, 30 [[icon:frostpunk:baum]] Bäume, 3 Dampfzentren\n- 9 [[icon:frostpunk:hoffnung]] Hoffnung, 9 [[icon:frostpunk:unzufriedenheit]] Unzufriedenheit\n\n**Gebäudeplättchen**\n- 19 große Gebäudeplättchen (11 große Standardgebäude, 1 großes Spezialgebäude, 7 große Szenariogebäude)\n- 74 kleine Gebäudeplättchen (42 kleine Standardgebäude, 10 kleine Spezialgebäude, 4 kleine Szenariogebäude, 18 Zerstörte/Hilferufe-Gebäude)",
+      "description": "",
+      "group": "material",
+      "timing": [],
+      "tags": [
+        "Anleitung S. 7"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 20030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 7
+      }
+    },
+    {
+      "id": "spielplan-bauen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "① Den Spielplan bauen",
+      "image": null,
+      "summary": "1. Puzzelt die **Spielplanumrandung** wie abgebildet zusammen. Die 6 Umrandungs-Teile formen dabei ein Sechseck. Dreht sie dabei auf die Seite mit den **Felswänden**.\n2. Platziert den **Generator-Sektor** so, dass er in der Mitte des Spielplans liegt. Richtet ihn wie im Bild gezeigt aus.\n3. Stellt den **Generator-Turm** (mit Schubfach) auf den Generator-Sektor. Den **Generator-Ausbau** lasst ihr in der Schachtel, bis ihr ihn benötigt.\n4. Platziert das Gebäude Speisehaus auf das Feld des Generator-Sektors, wie im Bild gezeigt.\n5. Platziert 5 [[icon:frostpunk:holz]] Holz (links) und 5 [[icon:frostpunk:kohle]] Kohle (rechts) auf dem Generator-Sektor, wie im Bild gezeigt.\n6. Mischt die **7 Randgebiets-Plättchen verdeckt**. Zieht dann zufällig 1 der Plättchen und legt es offen auf eine Ecke der Spielplanumrandung. Wiederholt das im Uhrzeigersinn – aber nur solange, bis **3 Plättchen** ausliegen, die Holz- oder Kohlevorkommen zeigen (maximal liegen also jetzt 3 leere Plättchen aus). Entfernt dann alle leeren ausliegenden Randgebiets-Plättchen und legt sie mit evtl. übrigen leeren zurück in die Schachtel.\n7. Bildet nun aus den **Sektoren-Plättchen** zwei Stapel – je einen für innere und für äußere Sektoren. Mischt sie separat. Dann platziert sie verdeckt neben dem Spielplan.\n8. Zieht nun verdeckt 1 äußeren Sektor und platziert ihn verdeckt und angrenzend an 1 der 3 Ecken, in der sich kein Randgebiets-Plättchen befindet. Wiederholt das für alle Ecken ohne Randgebiets-Plättchen.\n9. Zieht nun verdeckt je 1 inneren Sektor und platziert ihn verdeckt zwischen jedem angrenzenden äußeren Sektor und dem Generator-Sektor.\n10. Deckt alle verdeckt platzierten Sektoren auf. Richtet sie korrekt aus und platziert, wenn nötig, Rohstoffe (Holz, Kohle und Dampfkerne) und Bäume, wie auf ihnen angegeben ist.",
+      "description": "**Hinweis:** Die Palisade und das Gebäude Generator sind auf dem Generator-Sektor aufgedruckt. Ihr müsst diese Gebäude nicht platzieren.\n\n**Hinweis:** Sollte auf den Sektoren ein Nahrungsfund abgebildet sein, ignoriert diesen vorerst. Er wird später – bei der Vorbereitung des Bevölkerungs-Tableaus – berücksichtigt.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Spielplan",
+        "Sektoren",
+        "Umrandung",
+        "Anleitung S. 8"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 8
+      }
+    },
+    {
+      "id": "der-vorrat",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Der Vorrat",
+      "image": null,
+      "summary": "Alles [[icon:frostpunk:holz]] Holz, alle [[icon:frostpunk:kohle]] Kohle, [[icon:frostpunk:dampfkern]] Dampfkerne, Bäume, Bürger-Figuren und [[icon:frostpunk:automaton]] Automata (sowie ggf. [[icon:frostpunk:stahl]] Stahl, wenn das Szenario es vorsieht), die derzeit nicht in Gebrauch sind, legt ihr neben den Spielplan. Sie bilden dort den (allgemeinen) **Vorrat**.",
+      "description": "Im Szenario *Ein neues Zuhause: Der Krater* wird kein Stahl benötigt.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Vorrat",
+        "Lager",
+        "Anleitung S. 9"
+      ],
+      "aliases": [
+        "Allgemeiner Vorrat"
+      ],
+      "warnings": [],
+      "sort_order": 30015,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 9
+      }
+    },
+    {
+      "id": "expeditions-auslage",
+      "type": "reference",
+      "category": "regeln",
+      "name": "② Die Expeditions-Auslage",
+      "image": null,
+      "summary": "1. Bildet aus den Expeditionskarten 3 Stapel (je 1 für A, B und C) und mischt diese Stapel separat. Platziert sie verdeckt (mit der weißen Expeditionspfad-Seite nach oben) und gut erreichbar.\n2. Nehmt dann die ersten 3 Karten vom A-Stapel und legt sie neben den rechten Rand des Spielplans. Dies ist eure **Expeditions-Auslage**. Jede der drei Karten ist ein Expeditionspfad.",
+      "description": "Für das Szenario *Ein neues Zuhause: Der Krater* benötigt ihr alle Expeditionskarten.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Expeditionskarten",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      }
+    },
+    {
+      "id": "technologie-auslage",
+      "type": "reference",
+      "category": "regeln",
+      "name": "③ Die Technologie-Auslage",
+      "image": null,
+      "summary": "1. Mischt die Technologiekarten. Zieht 4 davon und legt sie offen neben den rechten unteren Rand des Spielplans. Dies ist eure **Technologie-Auslage**. Die restlichen Technologiekarten legt ihr in die Schachtel zurück.\n2. Platziert je 1 Forschungsplättchen (mit der inaktiven Seite nach oben) auf jede Technologiekarte in der Auslage.",
+      "description": "**Hinweis:** Vergesst nicht, dass ihr die Technologiekarte *Dampfzentren* nur dann verwendet, wenn ein Szenario dies ausdrücklich fordert. Legt sie ansonsten zurück in die Schachtel.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Technologiekarten",
+        "Forschungsplättchen",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      }
+    },
+    {
+      "id": "startaufbau-karte",
+      "type": "reference",
+      "category": "regeln",
+      "name": "④ Die Startaufbau-Karte",
+      "image": null,
+      "summary": "Die 12 Startaufbau-Karten zeigen 2 Schwierigkeitsgrade – es gibt je 6 Karten im Schwierigkeitsgrad *Normal* und im Schwierigkeitsgrad *Schwer*. Diese 6 Karten stellen 6 Gruppen von Überlebenden dar (I bis VI). Wählt euren Schwierigkeitsgrad und darin 1 Gruppe (natürlich könnt ihr die Gruppe auch zufällig ziehen).\n\nAuf der Startaufbau-Karte ist die Anzahl an Bürgern, Rohstoffen etc. angegeben, mit denen ihr das Spiel beginnt. Die folgenden Kapitel des Spielaufbaus nehmen darauf Bezug.",
+      "description": "Für das erste Spiel wird die Karte *Gruppe I – Normal* empfohlen.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Startaufbau-Karte",
+        "Schwierigkeitsgrad",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30040,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      }
+    },
+    {
+      "id": "bevoelkerungs-tableau",
+      "type": "reference",
+      "category": "regeln",
+      "name": "⑤ Das Bevölkerungs-Tableau",
+      "image": null,
+      "summary": "1. Platziert das Bevölkerungs-Tableau oberhalb des Spielplans.\n2. Legt nun die 3 Bürger- und 3 [[icon:frostpunk:krankheits-anzeiger]] Krankheits-Anzeiger auf die Bevölkerungsleiste (die obere Leiste des Tableaus) – legt sie auf die Felder, die den Angaben der Startaufbau-Karte entsprechen. Der linke Wert jeder Bürgerart ist die Anzahl Bürger dieser Art. Der rechte Wert ist die Anzahl kranker Bürger dieser Art.\n3. Den [[icon:frostpunk:nahrung]] Nahrungs-Anzeiger legt ihr auf das Feld der Nahrungs-Leiste (unten auf dem Tableau), das auf der Startaufbau-Karte angegeben ist.\n4. Überprüft jetzt, ob auf den aufgedeckten Sektoren jeweils Nahrungsfunde sichtbar sind (mehr zu Nahrungsfunden: *→ Rohstoffe sammeln*): Zählt die [[icon:frostpunk:nahrung]] Nahrung auf allen [[icon:frostpunk:nahrungsfund]] Nahrungsfunden zusammen. Verschiebt dann den Nahrungs-Anzeiger auf der Nahrungs-Leiste so viele Felder weiter nach rechts. Ihr startet also mit zusätzlicher Nahrung.\n5. Zuletzt legt ihr den [[icon:frostpunk:hunger]] Hunger-Anzeiger auf Feld 0 der Nahrungs-Leiste.",
+      "description": "Beispiel: Die Karte *Gruppe I – Normal* zeigt 22 Arbeiter, 12 Ingenieure und 8 Kinder (und 0 kranke Bürger jeweils). Legt die Anzeiger wie abgebildet auf das Tableau. Bei *Gruppe I – Normal* legt ihr den Nahrungs-Anzeiger auf Feld 8 und startet ohne Automata.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Bevölkerungs-Tableau",
+        "Bürger",
+        "Nahrung",
+        "Hunger",
+        "Anleitung S. 11"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30050,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 11
+      }
+    },
+    {
+      "id": "lager-tableau",
+      "type": "reference",
+      "category": "regeln",
+      "name": "⑥ Das Lager-Tableau",
+      "image": null,
+      "summary": "Alles, was sich auf dem Lager-Tableau (also **im Lager**) befindet, steht euch zur Verfügung. Verbraucht ihr [[icon:frostpunk:holz]] Holz, um Gebäude zu bauen, nehmt ihr dies aus dem Lager. Dasselbe gilt z. B. für [[icon:frostpunk:kohle]] Kohle, die ihr zum Befeuern des Generators nutzt. Alles, was ihr verbraucht oder verliert, kommt von hier. Für eure Stadt gibt es nur dieses eine, gemeinsame Lager – einzelne Spieler haben nicht ihr eigenes Lager.",
+      "description": "1. Platziert das Lager-Tableau rechts neben dem Spielplan.\n2. Legt den Leichnams-Anzeiger auf das Feld der Leichnams-Leiste, das auf der Startaufbau-Karte angegeben ist.\n3. Nehmt eine Anzahl an [[icon:frostpunk:holz]] Holz, [[icon:frostpunk:kohle]] Kohle und [[icon:frostpunk:dampfkern]] Dampfkernen aus dem Vorrat, wie auf der Startaufbau-Karte angegeben ist, und legt sie auf das linke Feld des Tableaus.\n4. Überprüft die Bevölkerungsleiste und seht euch die Position der 3 Bürger-Anzeiger an. Jeder Anzeiger befindet sich in einem bestimmten Bereich der Leiste. Nehmt so viele Figuren ([[icon:frostpunk:arbeiter]], [[icon:frostpunk:ingenieur]], [[icon:frostpunk:kind]]) wie der Bereich angibt, in dem der passende Anzeiger liegt, und stellt die Figuren dann auf das rechte Feld des Tableaus.\n5. Ist auf der Startaufbau-Karte eine Zahl für [[icon:frostpunk:automaton]] Automata angegeben? Nehmt diese aus dem Vorrat und legt sie in eurem Lager.\n6. Legt zuletzt die „[[icon:frostpunk:buerger-erschoepft]] Bürger erschöpft\"-Plättchen (für Arbeiter, Ingenieure, Kinder) neben dem Lager-Tableau bereit.\n\nBei *Gruppe I – Normal* legt ihr den Leichnams-Anzeiger auf Feld 1, beginnt mit 4 Holz, 5 Kohle und ohne Dampfkerne, mit 2 Kinder-, 3 Ingenieur- und 5 Arbeiter-Figuren, und ohne Automata.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Lager-Tableau",
+        "Lager",
+        "Bürger-erschöpft-Plättchen",
+        "Anleitung S. 11"
+      ],
+      "aliases": [
+        "Das Lager"
+      ],
+      "warnings": [],
+      "sort_order": 30060,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 11
+      }
+    },
+    {
+      "id": "gebaeude-tableau",
+      "type": "reference",
+      "category": "regeln",
+      "name": "⑦ Das Gebäude-Tableau",
+      "image": null,
+      "summary": "1. Platziert das Gebäude-Tableau unterhalb des Lager-Tableaus.\n2. Sortiert alle Gebäudeplättchen nach Gebäudeart, und legt sie auf die entsprechenden Felder des Tableaus (mit der nicht ausgebauten Vorderseite nach oben).\n3. Gebäude, die nicht auf dem Tableau abgebildet sind, legt ihr zunächst beiseite.",
+      "description": "Beispiel: Die Sanitätsstation zeigt auf der Vorderseite die nicht ausgebaute Seite, auf der Rückseite die ausgebaute Seite.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Gebäude-Tableau",
+        "Gebäudeplättchen",
+        "Anleitung S. 12"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30070,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 12
+      }
+    },
+    {
+      "id": "stimmungs-tableau",
+      "type": "reference",
+      "category": "regeln",
+      "name": "⑧ Das Stimmungs-Tableau",
+      "image": null,
+      "summary": "1. Platziert das Stimmungs-Tableau links neben dem Bevölkerungs-Tableau.\n2. Werft alle 9 [[icon:frostpunk:unzufriedenheit]] Unzufriedenheit in den Unzufriedenheits-Beutel und mischt sie gut durch.\n3. Zieht so viel Unzufriedenheit (zufällig) aus dem Beutel, wie auf eurer Startaufbau-Karte links vom „/\" angegeben ist, und legt sie von links nach rechts auf die Unzufriedenheits-Leiste. Die Zahl hinter dem „/\" gibt an, wie viel davon zu Spielbeginn bereits aktiv ist – also mit der hellen Seite nach oben ausliegt. [[icon:frostpunk:unzufriedenheit-aktivieren]] Aktiviert entsprechend viel Unzufriedenheit von links ausgehend. Der Rest bleibt erschöpft.\n4. Wiederholt Schritt 2 und 3 für die [[icon:frostpunk:hoffnung]] Hoffnung und die Hoffnungs-Leiste.",
+      "description": "Bei *Gruppe I – Normal* zieht ihr 2 Unzufriedenheit aus dem Beutel (das erste davon aktiv) sowie 2 Hoffnung (beide aktiv).",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Stimmungs-Tableau",
+        "Hoffnung",
+        "Unzufriedenheit",
+        "Anleitung S. 12"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30080,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 12
+      }
+    },
+    {
+      "id": "runden-tableau",
+      "type": "reference",
+      "category": "regeln",
+      "name": "⑨ Das Runden-Tableau",
+      "image": null,
+      "summary": "1. Platziert das Runden-Tableau oberhalb des Stimmungs-Tableaus.\n2. Legt den Runden-Anzeiger auf Feld 1 der Rundenleiste.\n3. Mischt die Morgenkarten und legt dann den Morgenstapel verdeckt auf das entsprechende Feld des Tableaus.\n4. Legt den Sturm-Anzeiger auf Feld 9.",
+      "description": "Variationen des Szenarios *Ein neues Zuhause* legen den Sturm-Anzeiger ebenfalls auf Feld 9. Andere Szenarien teilen in diesem Aufbauschritt mit, wo der Sturm-Anzeiger platziert wird.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Runden-Tableau",
+        "Morgenkarten",
+        "Sturm-Anzeiger",
+        "Anleitung S. 13"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30090,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 13
+      }
+    },
+    {
+      "id": "gesetzentwurfs-auslage",
+      "type": "reference",
+      "category": "regeln",
+      "name": "⑩ Die Gesetzentwurfs-Auslage",
+      "image": null,
+      "summary": "1. Nehmt von den Gesetzeskarten die Karten #G01 bis #G08 und legt sie als Gesetzesstapel bereit.\n2. Mischt die restlichen Gesetzeskarten (#G09 bis #G16) verdeckt, zieht dann zufällig 4 davon und legt sie zu den anderen 8 Karten auf den Gesetzesstapel. Die restlichen Karten werden nicht benötigt – legt sie zurück in die Schachtel.\n3. Legt alle Gesetz-Konsequenzkarten verdeckt als Konsequenzstapel neben den Gesetzesstapel.\n4. Sucht alle Spezialgebäude heraus, die zu Karten im Gesetzesstapel gehören, und platziert sie unterhalb des Gebäude-Tableaus. Das Kinderheim sowie die 4 Gebäude (doppelseitig) von *Neuer Glauben/Neue Ordnung* (#G07/#G08) werden immer benötigt. Alle anderen Spezialgebäude lasst ihr in der Schachtel.",
+      "description": "Beispiel: Ist das Gesetz *Kampfarena* (#G10) im Gesetzesstapel? Dann legt die Kampfarena unter das Gebäude-Tableau.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Gesetzeskarten",
+        "Gesetzentwurfs-Auslage",
+        "Spezialgebäude",
+        "Anleitung S. 13"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30100,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 13
+      }
+    },
+    {
+      "id": "daemmerungs-tableau",
+      "type": "reference",
+      "category": "regeln",
+      "name": "⑪ Das Dämmerungs-Tableau",
+      "image": null,
+      "summary": "1. Platziert das Dämmerungs-Tableau oberhalb des Bevölkerungs-Tableaus.\n2. Legt die Dämmerungskarte *Es ist unvermeidbar!* (#D000) verdeckt auf das mittlere Feld des Tableaus.\n3. Mischt alle Disputkarten und legt den Stapel offen auf das rechte Feld des Tableaus.\n4. Lest euch die oberste Disputkarte genau durch, damit ihr wisst, was auf euch zukommt. Nehmt sie jetzt und mischt sie zusammen mit der *Es ist unvermeidbar!*-Karte. Legt beide verdeckt als Stapel zurück auf das mittlere Feld. Diese beiden Karten sind jetzt der Beginn eures Dämmerungsstapels.\n5. Die restlichen Dämmerungskarten könnt ihr in der Schachtel lassen, bis sie benötigt werden.",
+      "description": "",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Dämmerungs-Tableau",
+        "Disputkarten",
+        "Dämmerungsstapel",
+        "Anleitung S. 14"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30110,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "generator-tableau-aufbau",
+      "type": "reference",
+      "category": "regeln",
+      "name": "⑫ Das Generator-Tableau",
+      "image": null,
+      "summary": "1. Platziert das Generator-Tableau links neben den Spielplan.\n2. Legt den Anzeiger für Generatorleistung (Standard-Seite nach oben) auf das unterste Feld der Heiz-Leiste.\n3. Dann legt ihr die 3 Heizreichweite-Anzeiger auf die untersten drei Felder der Generator-Leiste: erst den roten, dann den orangen, und den gelben zuoberst.\n4. Legt den [[icon:frostpunk:kaelte-anzeiger]] Kälte-Anzeiger auf Feld 4 der Heiz-Leiste (also das fünfte Feld von unten).\n5. Mischt die Wetterkarten und legt sie verdeckt auf das entsprechende Feld des Generator-Tableaus. Das ist euer Wetterstapel.",
+      "description": "",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Generator-Tableau",
+        "Heizreichweite",
+        "Kälte-Anzeiger",
+        "Wetterkarten",
+        "Anleitung S. 14"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30120,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "berater-und-buerger",
+      "type": "reference",
+      "category": "regeln",
+      "name": "⑬ Berater und Bürger",
+      "image": null,
+      "summary": "Jeder von euch wählt 1 der Beraterkarten und legt sie vor sich aus. Ihr könnt sie natürlich auch zufällig verteilen. Beraterkarten, die nicht gewählt wurden, legt in die Schachtel zurück.\n\nMischt die Bürgerkarten und platziert sie als verdeckt liegenden Bürgerstapel am linken unteren Rand des Spielplans. Lasst daneben etwas Platz für den Ablagestapel der Bürgerkarten. Dann zieht jeder Spieler Karten vom Bürgerstapel auf die Hand: im Solo-Spiel 7 Karten, zu zweit 6 Karten, zu dritt 5 Karten, zu viert 4 Karten.\n\nJetzt muss jeder 1 seiner Bürgerkarten auswählen, dann: Zahle die Startkosten (in der rechten oberen Ecke der Karte angegeben) deiner ausgewählten Karte und lege sie dann offen auf den Ablagestapel. Du musst eine Karte wählen, deren Kosten du auch bezahlen kannst.\n\nWenn zwei von euch mit ihrer Karte etwas bezahlen wollen, aber nicht genug davon da ist, wählt zufällig 1 der Karten aus und bezahlt deren Kosten. Die andere Karte kommt zurück auf die Hand – eine andere Karte muss gewählt werden!\n\nKonnte einer von euch gar keine Kosten bezahlen? Wirf 1 zufällige Karte von der Hand ab und ihr erhaltet stattdessen +1 kranken Bürger der Art der Karte.",
+      "description": "**Nur im Solo-Spiel:** Nimm dir zusätzlich noch die Karte *Ein Weckruf für alle*.\n\nBeispiel: In einem Spiel zu dritt zieht jeder Spieler 5 Bürgerkarten. Katrin entscheidet sich, Chrissy Klemovsky abzuwerfen, und entfernt je 1 Kohle von zwei aufgedeckten Sektoren des Spielplans. Anna wirft Rafael Corrino ab und legt 3 Kohle aus dem Vorrat auf die Belastungsleiste. Gregor wählt Philippa Bullsky, verbraucht 1 Holz aus dem Lager und wirft die Karte ab. Jeder hat jetzt noch 4 Karten auf der Hand.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Beraterkarten",
+        "Bürgerkarten",
+        "Startkosten",
+        "Anleitung S. 14"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30130,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 14
+      }
+    },
+    {
+      "id": "letzte-vorbereitungen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "⑭ Letzte Vorbereitungen",
+      "image": null,
+      "summary": "Legt die Phasenübersicht gut erreichbar und platziert den Phasen-Anzeiger an 6. Aktionen-Phase.\n\nLegt die Szenariokarten des Szenarios wie angegeben in die Szenario-Auslage. Legt dann Szenarioplättchen auf die auf den Szenariokarten angegebenen Felder der Rundenleiste. Deckt ihr später eine Szenariokarte auf, auf der sich ebenfalls das Szenarioplättchen-Symbol und eine Rundenzahl befinden, legt auch auf dieses Feld der Rundenleiste ein Szenarioplättchen.\n\nLegt die Sturmkarte eures Szenarios verdeckt links neben den Wetterstapel.\n\nWählt zufällig 1 von euch aus, der den Anführer erhält. Jeder Spieler erhält nun die zu seiner Beraterkarte passende Aufgaben-Spielerhilfe. Verteilt bei weniger als 4 Spielern die übrigen Spielerhilfen unter den Spielern. Im Solo-Spiel nimmst du dir natürlich alle 4 Spielerhilfen. Alle anderen Komponenten, die nicht für das Szenario benötigt werden, legt ihr in die Schachtel zurück.",
+      "description": "Für das Szenario *Ein neues Zuhause: Der Krater* legt ihr die Szenariokarte I|01 offen aus (die anderen Karten *Ein neues Zuhause: Der Krater* verdeckt daneben), die Szenarioplättchen auf die Felder 4 und 11 der Rundenleiste und als Sturmkarte die Karte I/08.\n\n**Die Aufgaben-Spielerhilfen:** Auf jedem dieser Blätter ist ein Teil der zentralen (Verwaltungs-)Aufgaben des Spielablaufs gelistet. Jeder Spieler sollte die ihm zugeteilten Aufgaben vollständig verstanden haben, bevor das Spiel beginnt.\n\nBeispiel: Die Generator-Leitung muss verstanden haben, wie die Generatorbetrieb-Phase, die Belastungsleiste, die Wetterkarten sowie die Heizreichweite-Anzeiger funktionieren.",
+      "group": "aufbau",
+      "timing": [],
+      "tags": [
+        "Spielaufbau",
+        "Aufgaben-Spielerhilfen",
+        "Anführer",
+        "Szenariokarten",
+        "Szenarioplättchen",
+        "Sturmkarte",
+        "Anleitung S. 15"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 30140,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 15
+      }
+    },
+    {
+      "id": "sieg-und-niederlage",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Sieg und Niederlage",
+      "image": null,
+      "summary": "Ihr gewinnt das Spiel, indem ihr das Ziel des Szenarios erfüllt. Das Ziel offenbart sich oftmals erst im Laufe der Partie. Euer Hauptziel bis dahin wird sein, **nicht zu verlieren**!\n\nWenn eine oder mehrere der folgenden Bedingungen erfüllt sind, verliert ihr das Spiel:\n- Habt ihr eure letzte [[icon:frostpunk:hoffnung]] Hoffnung von der Hoffnungs-Leiste entfernt? Die Bürger verlieren ihren Lebenswillen und ihr habt verloren.\n- Habt ihr die 6. [[icon:frostpunk:unzufriedenheit]] Unzufriedenheit auf die Unzufriedenheits-Leiste gelegt (egal, ob aktiv oder erschöpft)? Die Bürger verbannen euch aus der Stadt und ihr habt verloren.\n- Ist der Generator überhitzt und hat aber erneut einen Störfall? Der Generator explodiert und ihr habt verloren.\n- Hat einer der Krankheits-Anzeiger während der Vorbereitungen-Phase Feld 26 der Bevölkerungs-Leiste erreicht oder überschritten? Krankheit und Elend machen euch handlungsunfähig und ihr habt verloren.\n- Ist der Hunger-Anzeiger beim Ausführen des Hunger-Effektes auf Feld 25 oder darüber? Eure Bürger sterben einen Hungertod und ihr habt verloren.\n- Habt ihr den Leichnams-Anzeiger auf das letzte Feld der Leichnams-Leiste gezogen? Zu wenige haben überlebt, um die Menschheit zu sichern, und ihr habt verloren.",
+      "description": "Ein Totenkopf-Symbol auf den verschiedenen Leisten dient euch als Erinnerung an die Bedingungen, die zu eurer Niederlage führen können.",
+      "group": "grundlagen",
+      "timing": [],
+      "tags": [
+        "Sieg",
+        "Niederlage",
+        "Spielende",
+        "Verlieren",
+        "Anleitung S. 16"
+      ],
+      "aliases": [
+        "Niederlagebedingungen",
+        "Verlustbedingungen"
+      ],
+      "warnings": [],
+      "sort_order": 40010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      }
+    },
+    {
+      "id": "regelprioritaet",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Regelpriorität",
+      "image": null,
+      "summary": "Widersprechen Anweisungen in der Szenarien-Anleitung den Regeln in dieser Anleitung, haben sie immer Vorrang. Ebenso haben Kartentexte, die den Regeln in dieser Anleitung oder Anweisungen in der Szenarien-Anleitung widersprechen, immer Vorrang.",
+      "description": "",
+      "group": "grundlagen",
+      "timing": [],
+      "tags": [
+        "Regelpriorität",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 40020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      }
+    },
+    {
+      "id": "entscheidungen-treffen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Entscheidungen treffen",
+      "image": null,
+      "summary": "In Frostpunk müsst ihr zusammenarbeiten, um das Spiel zu gewinnen. Müsst ihr eine Entscheidung treffen, könnt euch aber nicht einigen, hat der **Anführer** das letzte Wort.",
+      "description": "",
+      "group": "grundlagen",
+      "timing": [],
+      "tags": [
+        "Entscheidungen",
+        "Anführer",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 40030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      }
+    },
+    {
+      "id": "erhalten-verbrauchen-verlieren",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Erhalten, Verbrauchen und Verlieren",
+      "image": null,
+      "summary": "Während des Spiels werdet ihr verschiedene Dinge erhalten, verlieren oder verbrauchen.\n\nEure verfügbare [[icon:frostpunk:nahrung]] Nahrung wird auf der Nahrungs-Leiste angezeigt, die Anzahl eurer Bürger mit den 3 Bürger-Anzeigern ([[icon:frostpunk:arbeiter]], [[icon:frostpunk:ingenieur]] und [[icon:frostpunk:kind]]) auf der Bevölkerungs-Leiste, und die Zahl eurer kranken Bürger mit den 3 Krankheits-Anzeigern ([[icon:frostpunk:arbeiter-krank]]/[[icon:frostpunk:ingenieur-krank]]/[[icon:frostpunk:kind-krank]]) ebenfalls auf der Bevölkerungs-Leiste.\n\nErhaltet ihr Nahrung oder Bürger, oder erhaltet ihr neue kranke Bürger einer Art, bewegt ihr den entsprechenden Anzeiger auf seiner Leiste nach rechts. Verbraucht oder verliert ihr Nahrung oder Bürger, oder heilt ihr kranke Bürger einer Art, bewegt ihr den entsprechenden Anzeiger auf seiner Leiste nach links.\n\n[[icon:frostpunk:holz]] Holz, [[icon:frostpunk:kohle]] Kohle, [[icon:frostpunk:stahl]] Stahl und [[icon:frostpunk:dampfkern]] Dampfkerne sind **Rohstoffe**. Erhaltet ihr Rohstoffe, nehmt sie aus dem Vorrat und legt sie in euer Lager. Verliert oder verbraucht ihr Rohstoffe, nehmt sie aus eurem Lager und legt sie zurück in den Vorrat.\n\n**Verlieren und Verbrauchen haben 1 wichtigen Unterschied:**\n\n**Verlieren:** Werdet ihr angewiesen, eine bestimmte Anzahl von Dingen zu verlieren, habt aber nicht genug davon, dann verliert ihr nur, was ihr habt. Weitere Effekte bleiben davon unbeeinträchtigt – es sei denn, eine Szenarioregel oder ein Kartentext besagt etwas anderes.\n\n**Verbrauchen:** Müsst ihr eine bestimmte Anzahl an Dingen verbrauchen, damit ein Effekt eintritt, müsst ihr die volle Anzahl verfügbar haben und zurück in den Vorrat legen können. Es ist nicht möglich, solche Effekte auszulösen, wenn ihr den vollen Betrag nicht bezahlen könnt.",
+      "description": "**Hinweis:** Wenn nur „Kranke Bürger\" genannt wird, könnt ihr euch die Art aussuchen, die ihr erhaltet.\n\nBeispiel (Verlieren): Werdet ihr angewiesen, 3 Holz zu verlieren, habt aber nur 1 Holz im Lager, verliert ihr nur dieses 1 Holz. Und wird euch mitgeteilt, dass ihr 3 Ingenieure verliert, ihr habt aber nur 2 Ingenieure, dann verliert ihr auch nur diese beiden.\n\nBeispiel (Verbrauchen): Müsst ihr 2 Holz verbrauchen, um ein Gebäude nutzen zu können, habt aber nur 1 Holz, könnt ihr dieses Gebäude nicht benutzen.",
+      "group": "grundlagen",
+      "timing": [],
+      "tags": [
+        "Erhalten",
+        "Verbrauchen",
+        "Verlieren",
+        "Rohstoffe",
+        "Ablagestapel",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 40040,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      }
+    },
+    {
+      "id": "ablagestapel",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Ablagestapel",
+      "image": null,
+      "summary": "Ihr dürft euch die Karten in den verschiedenen Ablagestapeln jederzeit ansehen.",
+      "description": "",
+      "group": "grundlagen",
+      "timing": [],
+      "tags": [
+        "Ablagestapel",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 40050,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      }
+    },
+    {
+      "id": "hoffnung-unzufriedenheit-grundlagen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Hoffnung und Unzufriedenheit",
+      "image": null,
+      "summary": "[[icon:frostpunk:hoffnung]] Hoffnung und [[icon:frostpunk:unzufriedenheit]] Unzufriedenheit sind zwei zentrale Aspekte des Spiels. Viele andere Aspekte des Spiels fragen ab, welche **Art** und welchen **Zustand** (aktiv/erschöpft) sie haben.\n\nFür den Zustand gilt: die helle Seite ist die **aktive Seite** und die dunkle Seite ist die **erschöpfte Seite**.\n\nEs gibt 3 verschiedene Arten Hoffnung ([[icon:frostpunk:fuersorge]] Fürsorge, [[icon:frostpunk:gerechtigkeit]] Gerechtigkeit, [[icon:frostpunk:motivation]] Motivation) und 3 verschiedene Arten Unzufriedenheit ([[icon:frostpunk:wut]] Wut, [[icon:frostpunk:apathie]] Apathie, [[icon:frostpunk:gier]] Gier).\n\n**Aktivieren und Erschöpfen**\n- Sollt ihr 1 [[icon:frostpunk:hoffnung-aktivieren]] Hoffnung aktivieren oder 1 [[icon:frostpunk:unzufriedenheit-aktivieren]] Unzufriedenheit aktivieren? Dann dreht 1 solche von ihrer erschöpften Seite auf die aktive Seite.\n- Sollt ihr 1 [[icon:frostpunk:hoffnung-erschoepfen]] Hoffnung erschöpfen oder 1 [[icon:frostpunk:unzufriedenheit-erschoepfen]] Unzufriedenheit erschöpfen? Dreht 1 solche von ihrer aktiven Seite auf die erschöpfte Seite.\n\nWenn eine spezielle Art dabei angegeben ist (z. B. „Wut aktivieren\"), müsst ihr dabei diese wählen. Wenn nicht, dürft ihr frei wählen.\n\nIst es euch nicht möglich, Hoffnung oder Unzufriedenheit den Anweisungen entsprechend zu aktivieren oder zu erschöpfen? Ignoriert diesen Effekt. Wollt ihr aber gerade einen Effekt nutzen, der von euch verlangt, Hoffnung oder Unzufriedenheit oder eine spezielle Art davon zu erschöpfen? Ihr könnt den Effekt nur nutzen, wenn ihr das auch tatsächlich könnt.",
+      "description": "",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Hoffnung",
+        "Unzufriedenheit",
+        "Aktivieren",
+        "Erschöpfen",
+        "Anleitung S. 17"
+      ],
+      "aliases": [
+        "Fürsorge",
+        "Gerechtigkeit",
+        "Motivation",
+        "Wut",
+        "Apathie",
+        "Gier"
+      ],
+      "warnings": [],
+      "sort_order": 50010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 17
+      }
+    },
+    {
+      "id": "hoffnung-unzufriedenheit-erhoehen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Erhöhen (+)",
+      "image": null,
+      "summary": "Werdet ihr angewiesen, Hoffnung/Unzufriedenheit zu **erhöhen (+)**? Wählt dabei jeweils 1 der folgenden Optionen:\n- **Option 1 – Ziehen:** Zieht 1 entsprechende (Hoffnung/Unzufriedenheit) aus dem Beutel und platziert diese mit der erschöpften Seite auf dem nächsten freien Feld der entsprechenden Leiste.\n\nODER\n\n- **Option 2 – Aktivieren:** Aktiviert 1 davon, die bereits auf der entsprechenden Leiste liegt.\n\nWerdet ihr angewiesen, eine **spezielle Art** von Hoffnung oder Unzufriedenheit zu erhöhen (+)? Führt jeweils die folgenden beiden Schritte durch:\n1. Zieht 1 davon (Hoffnung/Unzufriedenheit) aus dem Beutel und platziert diese mit der erschöpften Seite auf dem nächsten freien Feld der entsprechenden Leiste (ganz gleich, ob sie der genannten Art entspricht oder nicht).\n2. Wenn möglich, aktiviert 1 der geforderten speziellen Art (wenn die jetzt auf der entsprechenden Leiste liegt). Könnt ihr das nicht? Dann passiert nichts weiter.",
+      "description": "Beispiel 1: „+1 Fürsorge\" bedeutet, dass ihr die Hoffnung um diese spezielle Art erhöhen sollt. Dafür zieht ihr zunächst 1 Hoffnung aus dem Beutel und legt sie erschöpft auf die Hoffnungs-Leiste. Ihr habt Gerechtigkeit gezogen. Da ihr nun keine passende Hoffnung auf der Leiste liegen habt, dreht ihr auch keine auf die aktive Seite.\n\nBeispiel 2: „+1 Wut\" bedeutet, dass ihr die Unzufriedenheit um diese spezielle Art erhöhen sollt. Ihr zieht 1 Unzufriedenheit aus dem Beutel und legt sie erschöpft auf die Unzufriedenheits-Leiste. Ihr habt Gier gezogen. Es liegt 1 erschöpfte Wut auf der Leiste, die ihr jetzt auf die aktive Seite dreht.\n\n**Hinweis:** Ihr könnt nie mehr als 6 Hoffnung auf eurer Hoffnungs-Leiste haben. Sollte die Leiste bereits voll und alle Hoffnung aktiv sein, und ihr sollt weiter erhöhen, ignoriert den Effekt.",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Hoffnung",
+        "Unzufriedenheit",
+        "Erhöhen",
+        "Ziehen",
+        "Anleitung S. 17"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 50020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 17
+      }
+    },
+    {
+      "id": "hoffnung-unzufriedenheit-senken",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Senken (-)",
+      "image": null,
+      "summary": "Werdet ihr angewiesen, Hoffnung/Unzufriedenheit zu **senken (-)**? Wählt dabei 1 der folgenden Optionen:\n- **Option 1 – Erschöpfen:** Erschöpft 1 entsprechende aktive (Hoffnung/Unzufriedenheit) davon eurer Wahl.\n\nODER\n\n- **Option 2 – Entfernen:** Entfernt 1 entsprechende erschöpfte (Hoffnung/Unzufriedenheit) eurer Wahl und legt sie zurück in den Beutel. Schiebt dann alle verbliebenen ggf. nach links, bis keine Lücken mehr vorhanden sind.\n\n**Achtung:** Könnt ihr Option 1 nicht wählen (ihr habt nur erschöpfte Hoffnung/Unzufriedenheit), müsst ihr Option 2 wählen.\n\n„**Achtung: Nur Option 2 – Entfernen wählbar.**\" Steht bei einem Effekt dieser Satz dabei? Dann müsst ihr eine entsprechende Hoffnung oder Unzufriedenheit entfernen – selbst wenn ihr etwas Aktives erschöpfen könntet.\n\n**Wichtig:** Wenn ihr nur aktive habt, entfernt ihr ausnahmsweise die aktive – erschöpfen ist nie dabei wählbar.",
+      "description": "Beispiel: Ihr sollt „-1 Unzufriedenheit\" ausführen. Da sich keine aktive Unzufriedenheit auf der Leiste befindet, die ihr für Option 1 erschöpfen könntet, müsst ihr stattdessen 1 erschöpfte Unzufriedenheit zurück in den Beutel legen.\n\nZur Erinnerung: Wird eure letzte Hoffnung entfernt, oder müsst ihr eine 6. Unzufriedenheit auf die Leiste legen, verliert ihr das Spiel sofort!",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Hoffnung",
+        "Unzufriedenheit",
+        "Senken",
+        "Entfernen",
+        "Anleitung S. 17"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 50030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 17
+      }
+    },
+    {
+      "id": "hoffnung-unzufriedenheit-kartennotation",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Notation auf Karten",
+      "image": null,
+      "summary": "Auf Karten ist Erhöhen oder Senken verkürzt angegeben. Dort steht ein + oder − (+ für erhöhen, − für senken) und das zugehörige Symbol (z. B. +1 Hoffnung/−1 Unzufriedenheit). Es ist auch möglich, dass eine spezielle Art genannt wird (z. B. +1 Wut). Die Zahl gibt an, wie oft ihr den entsprechenden Prozess durchführen müsst.",
+      "description": "**Hinweis:** Es ist auch möglich, dass die Bezeichnung fehlt. Das ist nur Platzgründen geschuldet – das Symbol ist ausschlaggebend. Eine volle Auflistung aller Symbole findet ihr auf der Rückseite der Szenarien-Anleitung.\n\nBeispiel: „+1 Unzufriedenheit.\" bedeutet, dass ihr eure Unzufriedenheit einmal erhöhen müsst.",
+      "group": "stimmung",
+      "timing": [],
+      "tags": [
+        "Kartensymbole",
+        "Erhöhen",
+        "Senken",
+        "Anleitung S. 18"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 50040,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 18
+      }
+    },
+    {
+      "id": "die-9-phasen-uebersicht",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Die 9 Phasen im Überblick",
+      "image": null,
+      "summary": "Eine Partie *Frostpunk* verläuft über mehrere Runden. Jede Runde ist in 9 Phasen unterteilt, die nacheinander durchgeführt werden. Mit dem Phasen-Anzeiger markiert ihr diesen Fortschritt auf der Phasenübersicht:\n\n1. **Erwachen-Phase:** Anführer weitergeben; Runden-Anzeiger bewegen; ggf. Plättchen auslösen.\n2. **Früher-Morgen-Phase:** Neue Morgenkarte ziehen & ausführen.\n3. **Generatorbetrieb-Phase:** Bürger können durch die Kälte krank werden; Generatorbelastung & Störfall überprüfen.\n4. **Wetter-Phase:** Wetterkarte ziehen (Kälteeinbruch, Tierfallen liefern Nahrung, Späher bewegen sich, der Sturm kommt näher).\n5. **Vorbereitungen-Phase:** Berater nutzen; Krankheiten abhandeln.\n6. **Aktionen-Phase:** Führt mit den Figuren Aktionen aus.\n7. **Dämmerungs-Phase:** Dämmerungs-Phase-Effekte abhandeln und 1 Dämmerungskarte ziehen.\n8. **Hunger-Phase:** Hunger der vorherigen Runde stillen, Bürger dieser Runde ernähren.\n9. **Nacht-Phase:** Schlafplätze (beheizte Unterkünfte) bieten; Bürger ohne Schlafplatz werden krank.",
+      "description": "Hinweis: In der 1. Runde des Spiels überspringt ihr die Phasen 1–5.",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Spielablauf",
+        "Phasen",
+        "Phasen-Anzeiger",
+        "Anleitung S. 18"
+      ],
+      "aliases": [
+        "Phasenübersicht",
+        "Rundenablauf"
+      ],
+      "warnings": [],
+      "sort_order": 60005,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 18
+      }
+    },
+    {
+      "id": "phase-1-erwachen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "1. Erwachen-Phase",
+      "image": null,
+      "summary": "Ein neuer Tag beginnt, und die Bürden eines Anführers liegen auf frischen Schultern.\n\nGebt den **Anführer** an den nächsten Spieler im Uhrzeigersinn.\n\nDann zieht den **Runden-Anzeiger** auf das nächste Feld der Rundenleiste und überprüft:\n- **Liegt auf diesem Feld ein Forschungsplättchen?** Legt es mit der aktiven Seite auf die Technologiekarte ohne Forschungsplättchen. Wählt jetzt (wenn möglich) 1 der ausliegenden Technologiekarten, auf der noch ein inaktives Forschungsplättchen liegt, und platziert es auf der Rundenleiste. Ihr müsst es so viele Felder vor den Runden-Anzeiger legen, wie die Zahl auf der Karte anzeigt.\n- **Liegt auf diesem Feld ein Szenarioplättchen?** Entfernt es, dann lest auf der/den entsprechenden Szenariokarte(n) nach, was jetzt passiert, und folgt den dort beschriebenen Anweisungen.\n- **Liegt auf diesem Feld der Sturm-Anzeiger?** Ignoriert ihn zunächst. Seine Auswirkungen werden erst in der Wetter-Phase relevant.",
+      "description": "Beispiel: Ihr zieht den Runden-Anzeiger von Feld 5 auf Feld 6 der Rundenleiste. Dort liegt ein Forschungsplättchen. Ihr legt es mit der aktiven Seite auf die Technologiekarte *Dampfgetriebene Kettensäge*. Dann wählt ihr die Karte *Jagdtaktiken*, nehmt das darauf liegende inaktive Forschungsplättchen und legt es auf Feld 10 der Rundenleiste – das ist 4 Felder vor dem Runden-Anzeiger, weil das die Zahl auf der Karte ist.\n\nBeispiel: Ihr zieht den Runden-Anzeiger auf ein Feld mit Szenarioplättchen. Ihr entfernt das Plättchen und folgt den Anweisungen auf der entsprechenden Szenariokarte.",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Erwachen-Phase",
+        "Anführer",
+        "Runden-Anzeiger",
+        "Forschungsplättchen",
+        "Szenarioplättchen",
+        "Anleitung S. 19"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 60010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 19
+      }
+    },
+    {
+      "id": "phase-2-frueher-morgen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "2. Früher-Morgen-Phase",
+      "image": null,
+      "summary": "Ein neuer Tag bringt neue Herausforderungen, denen wir uns stellen müssen.\n\n**Neue Morgenkarte ausführen:** Zieht die oberste Karte des Morgenstapels und lest euch den Text durch. In der oberen Hälfte steht ein Dilemma, vor das ihr gestellt werdet. Hier kann sich auch ein Soforteffekt befinden, den ihr jetzt direkt ausführen müsst. Dann schaut ihr euch die verschiedenen (nummerierten) Optionen in der unteren Hälfte der Karte an. Von diesen müsst ihr 1 Option wählen und ausführen.\n\nManche Optionen dürft ihr nur ausführen, wenn ihr eine Bedingung erfüllt oder etwas „bezahlen\" könnt. Und manchmal führt ihr auch einfach nur aus, was hier steht.\n\nLinks neben jeder Option steht, was ihr mit der Karte danach machen sollt. Das geht, nachdem ihr den Effekt dieser Option ausgeführt habt:\n- Nehmt die Karte aus dem Spiel (legt sie in die Schachtel zurück). Rohstoffe auf der Karte kommen zurück in den Vorrat, Figuren auf der Karte zurück in euer Lager.\n- Legt die Karte in die Ereignis-Auslage (links oben neben dem Spielplan).",
+      "description": "Beispiel: Um die erste Möglichkeit der Morgenkarte *Das Glücksspiel hält Einzug* zu wählen, müsst ihr mindestens 1 aktive Gerechtigkeit besitzen – ihr müsst sie nur besitzen, nicht etwa erschöpfen.\n\nHinweis: Manchmal finden sich diese Symbole auch schon im Sofort-Effekt der Karte!",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Früher-Morgen-Phase",
+        "Morgenkarten",
+        "Anleitung S. 19"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 60020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 19
+      }
+    },
+    {
+      "id": "phase-3-generatorbetrieb",
+      "type": "reference",
+      "category": "regeln",
+      "name": "3. Generatorbetrieb-Phase",
+      "image": null,
+      "summary": "Wenn wir nicht genug heizen, werden einige unserer Bürger krank werden. Befeuern wir den Generator aber zu stark, könnte ein Störfall eintreten.\n\nDiese Phase besteht aus 5 Schritten, die ihr nacheinander ausführt:\n\n**1) Generator befeuern:** Als ersten Schritt dieser Phase müsst ihr entscheiden, ob ihr den Generator befeuern wollt. Damit rückt ihr den Anzeiger für Generatorleistung nach oben. Ihr könnt eine beliebige Menge an [[icon:frostpunk:kohle]] Kohle verbrauchen, um den Generator zu befeuern. Für jede Kohle, die ihr so verbraucht, bewegt ihr den Anzeiger für Generatorleistung um 1 Feld nach oben. Ihr dürft ihn befeuern, bis der Anzeiger dasselbe Feld wie der Kälte-Anzeiger erreicht – nicht aber darüber hinaus.\n\n**2) Neue kranke Bürger:** Überprüft jetzt, wie viele eurer Bürger aufgrund der Kälte krank werden: Für jedes Bürger-Symbol, das zwischen dem Anzeiger für Generatorleistung und dem Kälte-Anzeiger sichtbar ist, erhaltet ihr 1 kranken Bürger dieser Art.\n\n**3) Belastungslevel des Generators:** Nehmt so viel Kohle aus dem Vorrat (nicht aus eurem Lager!), wie die Zahl links vom Anzeiger für Generatorleistung angibt. Lasst diese Würfelchen davon von oben in den Generator-Turm fallen.\n\nDadurch fallen Würfel aus dem Turm in das Schubfach. Zieht vorsichtig das Schubfach des Generator-Turms heraus. Die Würfel darin sind jetzt Belastungswürfel. Nehmt die Belastungswürfel heraus und legt sie alle auf die Belastungsleiste. Schließt dann das Schubfach vorsichtig wieder.\n\nAuf den 10 kleinen Feldern der Belastungsleiste hat jeweils 1 Belastungswürfel Platz. Habt ihr mehr als 10 Belastungswürfel auf der Belastungsleiste? Legt überzählige Würfel in das Überlast-Feld (das große Feld über der Leiste).\n\n**4) Störfall?** Befinden sich jetzt Belastungswürfel im Überlast-Feld? Es kommt zu einem Störfall! Wenn es zu keinem Störfall kommt, geht gleich zu Schritt 5.\n\nStörfall abhandeln:\n- Ist dies euer erster Störfall im Spiel? Dreht den Anzeiger für Generatorleistung von der Standard- auf die Überhitzungs-Seite. Zieht den Kälte-Anzeiger 1 Feld weiter nach oben, und alle 3 Heizreichweite-Anzeiger ebenfalls je 1 Feld weiter auf der Generator-Leiste nach oben. Entfernt alle Belastungswürfel von der Belastungsleiste (auch die auf dem Überlast-Feld) und legt sie in den Vorrat zurück.\n- Ist dies euer zweiter Störfall im Spiel (der Anzeiger liegt bereits auf der Überhitzungs-Seite)? Der Generator explodiert in einem tosenden Knall. Ihr habt das Spiel verloren!\n\n**5) Anzeiger für Generatorleistung zurücksetzen:** Stellt den Anzeiger für Generatorleistung zurück auf das unterste Feld der Heiz-Leiste.",
+      "description": "Beachte: Belastungswürfel, die aus dem Generator-Turm herausfallen, müsst ihr ebenfalls auf die Belastungsleiste legen. Sollten Würfel heraus- bzw. in das Schubfach fallen, wenn ihr es wieder hineinschiebt, verbleiben sie im Schubfach. Ihr müsst sie dann in der nächsten Runde zusätzlich auf die Leiste legen.\n\nHinweis: Einer von euch hält die Würfelchen am besten in der geschlossenen Faust, hält die Faust dann über die Öffnung und lässt die Würfel fallen.\n\nBeispiel: In Bild oben erhaltet ihr 1 krankes Kind und 1 kranken Ingenieur.\n\nBeispiel: Hier nehmt ihr 3 Kohle aus dem Vorrat und lasst sie in den Generator-Turm fallen.\n\nBeispiel: Aufgrund der Position des Anzeigers für Generatorleistung musstet ihr 3 Würfel in den Generator-Turm fallen lassen. 2 Würfel fallen in das Schubfach, und ihr legt sie auf die Belastungsleiste. Da sich dort bereits 9 Würfel befanden, müsst ihr 1 davon auf das Überlast-Feld legen. Es kommt zu eurem ersten Störfall!",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Generatorbetrieb-Phase",
+        "Generator befeuern",
+        "Belastungswürfel",
+        "Störfall",
+        "Anleitung S. 20"
+      ],
+      "aliases": [
+        "Belastungsleiste",
+        "Belastungslevel"
+      ],
+      "warnings": [],
+      "sort_order": 60030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 20
+      }
+    },
+    {
+      "id": "phase-4-wetter",
+      "type": "reference",
+      "category": "regeln",
+      "name": "4. Wetter-Phase",
+      "image": null,
+      "summary": "Es wird jeden Tag kälter, und wir müssen mehr und mehr heizen, damit allen warm genug ist.\n\nZieht die oberste Karte des Wetterstapels. Mit dieser Karte handelt ihr nun die gleich folgenden 4 Schritte der Wetter-Phase ab. Dann legt die Wetterkarte auf den zugehörigen Ablagestapel.\n\n**1) Kälteeinbruch:** Bewegt die auf der Wetterkarte angegebenen Heizreichweite-Anzeiger sowie den [[icon:frostpunk:kaelte-anzeiger]] Kälte-Anzeiger die angegebene Anzahl an Feldern auf ihren Leisten nach oben.\n\n**2) Tierfallen leeren:** Für jedes sichtbare [[icon:frostpunk:jagdsymbol]] Jagd-Symbol auf euren gebauten Tierfallen (und evtl. auslegenden Karten, die euch diese Symbole geben) erhaltet ihr je 1 [[icon:frostpunk:nahrung]] Nahrung.",
+      "description": "Hinweis: Einfache Tierfallen zeigen 1 Symbol, ausgebaute Tierfallen zeigen 2.\n\nBeispiel: Ihr habt drei Tierfallen und 1 davon ist ausgebaut. Ihr seht also 4 Jagd-Symbole und erhaltet daher 4 Nahrung.\n\n**3) Expedition lenken:** Eure aktiven Expeditionen bewegen sich: Zieht jeden eurer Späher auf den Expeditionspfaden die angegebene Anzahl Felder vorwärts.\n===\nBeispiel: Bei dieser Wetterkarte zieht ihr jeden eurer Späher jeweils 2 Felder vorwärts.\n\n**4) Der Sturm naht:** Bewegt den Sturm-Anzeiger auf der Rundenleiste so viele Felder rückwärts, wie die Zahl auf der Wetterkarte angibt.\n\nErreicht der Sturm-Anzeiger dabei das Feld des Runden-Anzeigers (oder zieht darüber hinweg)? Der Sturm ist gekommen! Deckt die Sturm-Karte eures Szenarios auf und handelt sie ab. Wird die Karte dabei nicht entfernt, legt sie wieder verdeckt neben den Wetterstapel.\n===\nBeispiel: Hier müsst ihr den Sturm-Anzeiger um 2 Felder zurück bewegen.\n\nIm Szenario *Ein neues Zuhause: Der Krater* hängt der Effekt des Sturmes davon ab, wie viele Stürme die Stadt bereits durchlitten hat:\n- Der erste Sturm fegt über die Stadt: Legt den Sturm-Anzeiger auf Feld 12 der Rundenleiste. Dreht dann alle Zelte auf die Ruine-Seite – auch jene, die sich noch auf dem Gebäude-Tableau befinden.\n- Der zweite Sturm beutelt eure Stadt: Nehmt den Sturm-Anzeiger aus dem Spiel. Dreht dann alle Baracken auf die Ruine-Seite – auch jene, die sich noch auf dem Gebäude-Tableau befinden.\n\nRuinen sind immer-kalte Gebäude, die während der Nacht-Phase keine Schlafplätze mehr bieten können. Sie sind keine Unterkünfte mehr. Eines der Gesetze (*Improvisierte Unterkünfte*) kann dies jedoch beeinflussen.",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Wetter-Phase",
+        "Wetterkarten",
+        "Kälteeinbruch",
+        "Sturm-Anzeiger",
+        "Tierfallen",
+        "Anleitung S. 21"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 60040,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 21
+      }
+    },
+    {
+      "id": "phase-5-vorbereitungen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "5. Vorbereitungen-Phase",
+      "image": null,
+      "summary": "Wir ersuchen unsere Berater um Hilfe.\n\n**1 Berater auswählen und nutzen (optional):** Besprecht gemeinsam, ob bzw. welchen euer Berater ihr nutzen wollt. Ihr könnt pro Runde nämlich immer nur 1 Berater nutzen – das darf aber auch jede Runde erneut derselbe sein. Solltet ihr euch nicht einigen können, entscheidet der Anführer.",
+      "description": "Aber Achtung: Ihr könnt den Berater nur nutzen, wenn ihr seine geforderte Hoffnung erschöpfen könnt.\n\n**Dann: Krankheiten abhandeln:** Dann – ob genutzt oder nicht – müsst ihr die Krankheiten abhandeln. Überprüft die Position jedes Krankheits-Anzeigers. Beginnt beim Krankheits-Anzeiger auf der niedrigsten Position. Je nachdem, in welchem Abschnitt sich der Krankheits-Anzeiger befindet, führt ihr den entsprechenden Effekt aus.\n\nDie möglichen Effekte sind:\n- **X „Bürger erschöpft\"-Plättchen:** Legt die angegebene Zahl „Bürger erschöpft\"-Plättchen ([[icon:frostpunk:arbeiter-erschoepft]]/[[icon:frostpunk:ingenieur-erschoepft]]/[[icon:frostpunk:kind-erschoepft]]) in euer Lager. Die Art des Plättchens entspricht der Art der kranken Bürger. Für jedes dieser Plättchen habt ihr in der folgenden Aktionen-Phase 1 solche Bürger-Figur weniger.\n- **X Krankheits-Anzeiger drehen:** Dreht den Krankheits-Anzeiger dieser Art kranker Bürger so oft von einer Seite auf die andere, wie die Zahl hier angibt. Bei jeder Drehung überprüft ihr: Dreht ihr von leicht zu schwer krank ([[icon:frostpunk:krankheits-anzeiger]] zu [[icon:frostpunk:krankheits-anzeiger-schwer]])? Nichts weiter passiert zunächst – einer der Bürger wurde schwer krank. Dreht ihr von schwer krank zu leicht krank? 1 Bürger dieser Art [[icon:frostpunk:buerger-stirbt]] stirbt. Dann schiebt diesen Anzeiger um 1 Feld zurück.\n===\nHinweis: Krankheits-Anzeiger, die sich auf den Feldern 0–4 befinden, lösen keine Effekte aus.\n\nBeispiel: Ihr habt 15 kranke Arbeiter – daher sollt ihr 2 „Bürger erschöpft\"-Plättchen und 2 Drehungen ausführen. Ihr legt 2 Plättchen Arbeiter erschöpft in euer Lager. Jetzt dreht ihr zudem den Anzeiger 2x um. Beim ersten Mal dreht ihr ihn von leicht zu schwer krank. Nichts passiert. Danach dreht ihr ihn zurück zu leicht krank – 1 eurer Arbeiter stirbt, und ihr zieht den Anzeiger auf Feld 14.",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Vorbereitungen-Phase",
+        "Berater",
+        "Krankheiten",
+        "Krankheits-Anzeiger",
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 60050,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 22
+      }
+    },
+    {
+      "id": "phase-6-aktionen-uebersicht",
+      "type": "reference",
+      "category": "regeln",
+      "name": "6. Aktionen-Phase (Überblick)",
+      "image": null,
+      "summary": "An die Arbeit! Bewegt euch, Leute! Es gibt genug zu tun!\n\n**1) Bürger-Figuren anpassen:** Zuerst müsst ihr die Anzahl eurer Bürger-Figuren im Lager überprüfen. Dazu seht ihr nach, wo sich die entsprechenden Anzeiger jeder Art von Bürger auf der Bevölkerungs-Leiste befinden. Jeder Abschnitt steht für eine bestimmte Anzahl an Figuren dieser Art Bürger. Passt jetzt die Anzahl Figuren in eurem Lager an, sodass sie der Zahl über dem Abschnitt entsprechen.",
+      "description": "Hinweis: Figuren, die als Späher auf Expedition sind, zählen zu dieser Zahl hinzu (ganz so, als ob sie sich im Lager befänden).\n\nBeispiel: Die Anzahl Figuren hier sind: 3 Kinder, 4 Ingenieure und 5 Arbeiter.\n\n**2) Bürger erschöpfen:** Jetzt seht ihr in eurem Lager nach: Befinden sich „Bürger erschöpft\"-Plättchen ([[icon:frostpunk:arbeiter-erschoepft]]/[[icon:frostpunk:ingenieur-erschoepft]]/[[icon:frostpunk:kind-erschoepft]]) im Lager? Stellt auf jedes Plättchen 1 entsprechende Figur aus eurem Lager. Habt ihr nicht genug für alle Plättchen? Dann lasst die übrigen leer. Eine Figur auf einem solchen Plättchen könnt ihr in dieser Runde nicht für Aktionen nutzen.\n\n**3) Aktionen ausführen:** Beginnend mit dem Anführer und dann im Uhrzeigersinn, führt jeder nun einen Zug aus. Das geht reihum so weiter, bis ihr entweder keine Figuren mehr im Lager habt oder gemeinsam entscheidet, die Aktionen-Phase zu beenden.",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Aktionen-Phase",
+        "Bürger-Figuren",
+        "Bürger erschöpft",
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 60060,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 22
+      }
+    },
+    {
+      "id": "phase-7-daemmerung",
+      "type": "reference",
+      "category": "regeln",
+      "name": "7. Dämmerungs-Phase",
+      "image": null,
+      "summary": "Wenn sich der Tag dem Ende neigt, müssen wir uns den Konsequenzen unserer Entscheidungen stellen.\n\nZu Beginn dieser Phase überprüft ihr alle Szenariokarten und alle Karten in der Ereignis-Auslage auf Dämmerungs-Phase-Effekte. Führt diese Effekte in einer Reihenfolge eurer Wahl aus.\n\nDann mischt ihr jetzt den Dämmerungsstapel. Zieht die oberste Karte des Stapels und führt sie aus. Wie auch bei den Morgenkarten, kann sich im oberen Bereich einer Karte ein Soforteffekt befinden, den ihr jetzt direkt ausführen müsst. Und wie auch bei den Morgenkarten seht ihr euch dann die (nummerierten) Optionen in der unteren Hälfte der Karte an – auch hier haben manche Optionen Bedingungen oder nur Anweisungen.\n\nHabt ihr die Karte fertig abgehandelt? Im Normalfall legt ihr sie dann auf den Ablagestapel der Dämmerungskarten. Eine Ausnahme besteht, wenn der Kartentext etwas anderes sagt oder wenn die gewählte Option eines dieser Symbole hat:\n- Nehmt die Karte aus dem Spiel (legt sie in die Schachtel zurück). Rohstoffe auf der Karte kommen zurück in den Vorrat, Bürger-Figuren auf der Karte zurück in euer Lager.\n- Legt die Karte in die Ereignis-Auslage (links oben neben dem Spielplan).\n\n**Disputkarten:** Im Dämmerungsstapel befindet sich – zusätzlich zu den normalen Dämmerungskarten (wozu auch die erste Karte #D000 gehört) – stets genau 1 besondere Karte: die Disputkarte. Sie funktioniert etwas anders als die anderen Karten im Dämmerungsstapel.\n\nWenn ihr sie zieht: Überprüft, welche orangene Option darauf auf euch zutrifft, und führt den Effekt davon aus.\n\nDanach legt ihr die gerade abgehandelte Disputkarte immer zurück in die Schachtel. Nehmt dann die oberste Karte des Disputstapels und lest sie euch gut durch – dann nehmt diese Disputkarte sowie alle Dämmerungskarten im Dämmerungs- und Ablagestapel und mischt sie gut. Daraus formt ihr den neuen Dämmerungsstapel. Diesen legt ihr wieder verdeckt auf das mittlere Feld des Tableaus.\n\nIst der Disputstapel leer? Dann werden keine weiteren Disputkarten mehr in den Dämmerungsstapel gemischt.",
+      "description": "Disputkarten (und manche anderen) haben rechts oben ein besonderes Symbol: Effekte, die Karten aus dem Spiel entfernen oder auf den Ablagestapel werfen lassen, können niemals auf Karten mit diesem Symbol angewandt werden.",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Dämmerungs-Phase",
+        "Dämmerungsstapel",
+        "Disputkarten",
+        "Anleitung S. 27"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 60070,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 27
+      }
+    },
+    {
+      "id": "phase-8-hunger",
+      "type": "reference",
+      "category": "regeln",
+      "name": "8. Hunger-Phase",
+      "image": null,
+      "summary": "Bürger, die bereits gestern hungrig blieben, müssen wir zuerst versorgen.\n\nDiese Phase besteht aus 2 Schritten:\n\n**1) Hunger stillen:** Habt ihr jetzt 1 oder mehr [[icon:frostpunk:hunger]] Hunger? Dann müsst ihr jetzt [[icon:frostpunk:nahrung]] Nahrung verlieren, um den Hunger zu verringern. Für jede Nahrung, die ihr dabei verliert, senkt ihr euren Hunger um 1. Ihr verliert nur soviel, wie ihr auch Hunger habt.\n\nHabt ihr danach noch übrigen Hunger? Führt den Hunger-Effekt aus, der der Position des Hunger-Anzeigers entspricht. Die möglichen Effekte sind:\n- **+1 Unzufriedenheit:** Erhöht die [[icon:frostpunk:unzufriedenheit]] Unzufriedenheit um 1.\n- **1 Bürger stirbt (ab Feld 25):** Die angegebene Anzahl Bürger [[icon:frostpunk:buerger-stirbt]] stirbt. Die Art der Bürger lest ihr vom Runden-Tableau ab. Es stirbt nicht die Art der Bürger dieser Runde, sondern die Art der Bürger der letzten Runde (sie sind es schließlich, die ihr nicht ernährt habt). Ihr habt sofort verloren!",
+      "description": "Seltene Ausnahme: Sollten durch Spieleffekte bereits in der 1. Runde Bürger verhungern, ist die Art der Bürger gleich der aktuellen Runde.\n\nEgal, ob ihr jetzt noch übrigen Hunger hattet oder nicht – am Ende dieses Schrittes setzt ihr jetzt den Hunger-Anzeiger wieder zurück auf Feld 0.\n\nBeispiel: Es ist die 8. Spielrunde, euer Hunger liegt bei 12 und ihr habt 4 Nahrung. Ihr müsst die 4 Nahrung verlieren. Das reduziert den Hunger auf 8. Laut Hunger-Anzeiger erhöht ihr jetzt die Unzufriedenheit um 1 und 1 Kind stirbt. Schließlich setzt ihr den Hunger-Anzeiger auf Feld 0 zurück.\n\n**2) Bürger ernähren:** Nun müsst ihr mit eurer (übrigen) Nahrung eure Bürger ernähren. Welche Art von Bürger das ist, zeigt die Spalte eurer aktuellen Runde. Für jeden Bürger (also der Anzahl laut Anzeiger dieser Art Bürger auf der Bevölkerungs-Leiste – nicht die Anzahl Figuren) müsst ihr 1 Nahrung verbrauchen (ihr könnt keine Nahrung zurückbehalten).\n\nHabt ihr nicht genug Nahrung, um jeden Bürger zu ernähren? Für jeden Bürger, den ihr nicht ernähren konntet, erhaltet ihr +1 Hunger. Überschreitet ihr dabei Feld 25 der Hunger-Leiste, dreht den Anzeiger auf die Rückseite (25+) und beginnt wieder am Anfang der Leiste.\n===\nHinweis: Zu diesem Zeitpunkt könnt ihr das Spiel aufgrund eures Hungers nicht verlieren (das ist erst wieder in der nächsten Runde möglich, wenn ihr den Hunger stillen müsst).\n\nBeispiel: Es ist die 6. Runde, und ihr müsst eure Arbeiter ernähren. Ihr habt 32 Arbeiter, aber nur 24 Nahrung. Ihr gebt eure gesamte Nahrung aus, und euer Hunger steigt auf 8.",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Hunger-Phase",
+        "Hunger stillen",
+        "Bürger ernähren",
+        "Anleitung S. 28"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 60080,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 28
+      }
+    },
+    {
+      "id": "phase-9-nacht",
+      "type": "reference",
+      "category": "regeln",
+      "name": "9. Nacht-Phase",
+      "image": null,
+      "summary": "Wenn die Nacht hereinbricht, müssen wir einen Schlafplatz finden.\n\nFührt die folgenden Schritte der Reihe nach aus:\n\n**1) Bürger kommen heim:** Legt alle „Bürger erschöpft\"-Plättchen, auf denen eine Figur steht, in den Vorrat zurück. Die Figuren darauf bleiben aber natürlich in eurem Lager. Plättchen, auf denen zu Beginn dieses Schrittes keine Figuren standen, bleiben in eurem Lager – ihr werdet sie in der nächsten Runde besetzen müssen.\n\nDann stellt alle Figuren, die ihr in dieser Runde genutzt habt, in euer Lager zurück – auch Bürger-Figuren auf Ereignis- oder Szenariokarten (sofern nichts anderes besagt).",
+      "description": "Achtung: Späher bleiben auf ihrem Expeditionspfad!\n\n**2) Schlafplatz bieten:** In diesem Schritt müsst ihr euren Bürger-Figuren (sie repräsentieren ja Gruppen von Bürgern) Schlafplätze bieten. Schlafplätze für eure Bürger bietet ihr, indem jede Bürger-Figur in eurem Lager jetzt in einer beheizten Unterkunft Platz findet. Eine nicht beheizte Unterkunft kann also niemals Schlafplätze bieten. Ihr dürft jetzt dafür noch einmal den Generator befeuern (wie in der Generatorbetrieb-Phase), falls dies nötig ist, um die Unterkünfte zu beheizen.\n\nZählt dann die verfügbaren Schlafplätze in euren beheizten Unterkünften. Für jeden verfügbaren Schlafplatz in einer beheizten Unterkunft legt ihr 1 Bürger-Figur in eurem Lager hin – das zeigt an, dass sie einen Schlafplatz gefunden hat.\n\nGenau wie bei anderen Gebäuden, bestimmen auch bei Unterkünften die Positionen des Anzeigers für Generatorleistung, der Heizreichweiten-Anzeiger und die Wärmedämmungs-Level der Unterkünfte, ob sie beheizt sind oder nicht.\n===\nBeispiel: Ihr könnt ein Zelt (gelbes Gebäude) nur dann als Schlafplatz nutzen, wenn die Position des Anzeigers für Generatorleistung verdeutlicht, dass sich das Zelt in einer beheizten Zone befindet, oder wenn gelbe Gebäude generell beheizt sind.\n\nHinweis: Einige Spezialgebäude und Gesetze verändern die Regeln für Unterkünfte – sie ändern z. B. die Anzahl Schlafplätze pro Unterkunft, oder legen fest, dass bestimmte Gebäude Schlafplätze für eine bestimmte Art Bürger bieten.",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Nacht-Phase",
+        "Schlafplatz",
+        "Unterkünfte",
+        "Krankheits-Anzeiger",
+        "Anleitung S. 29"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 60090,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 29
+      }
+    },
+    {
+      "id": "phase-9-nacht-frierende-buerger",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Frierende Bürger & Schlafplätze",
+      "image": null,
+      "summary": "**3) Frierende Bürger:** Für jede Bürger-Figur, die jetzt noch steht, zieht den Krankheits-Anzeiger der entsprechenden Art Bürger 1 Feld vorwärts.\n\nNach dem Ende dieser Phase – bevor ihr eine neue Runde beginnt – stellt ihr alle Bürger-Figuren wieder aufrecht hin.\n\n**Schlafplätze:** Zelte, Baracken und Häuser bieten je 2 Schlafplätze, also Platz für 2 Bürger-Figuren – bedenkt: Unterkünfte bieten nur dann Schlafplätze, wenn sie beheizt sind (es sei denn, ein Effekt besagt ausdrücklich etwas anderes).\n\nEine Ruine (sie zeigt ein Schneeflocken-Symbol) ist keine Unterkunft mehr und kann während der Nacht keine Schlafplätze bieten. Gesetze und andere Effekte können dies ggf. ändern, aber auch dann müssen die Gebäude wieder beheizt dafür sein.",
+      "description": "Beispiel: Ihr habt 5 Arbeiter, 3 Ingenieure und 2 Kinder in eurem Lager. Eure beiden Zelte wurden durch den ersten Sturm jedoch zu Ruinen und bieten keine Schlafplätze mehr. Zusätzlich habt ihr jedoch 3 Baracken und ein Kinderheim. Ihr platziert die Kinder im Kinderheim, müsst dann aber entscheiden, welche 2 Bürger keinen Schlafplatz haben werden (ihr habt 8 weitere Bürger, aber nur 6 Schlafplätze). Ihr entscheidet euch, 1 Arbeiter und 1 Ingenieur ohne Schlafplatz zu lassen. Beide werden krank – ihr bewegt den jeweiligen Krankheits-Anzeiger um 1 Feld nach rechts.",
+      "group": "rundenablauf",
+      "timing": [],
+      "tags": [
+        "Nacht-Phase",
+        "Frierende Bürger",
+        "Schlafplätze",
+        "Ruine",
+        "Anleitung S. 29"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 60100,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 29
+      }
+    },
+    {
+      "id": "dein-zug",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Dein Zug",
+      "image": null,
+      "summary": "Zuerst musst du entscheiden, ob du den Generator befeuern willst. Das funktioniert genau wie im Schritt „Generator befeuern\" der Generatorbetrieb-Phase.\n\nDann nimmst du 1 verfügbare Bürger-Figur aus dem Lager und führst mit ihr 1 der folgenden Aktionen aus:\n- Schnee räumen\n- Rohstoffe sammeln\n- Bauen\n- Gebäude nutzen\n- Späher aussenden\n- Spezial-Aktion",
+      "description": "Hinweis: In dieser Phase wird das Belastungslevel des Generators nicht überprüft. Das geschieht ausschließlich in der Generatorbetrieb-Phase!\n\nBeispiel: Bevor du deine Aktion ausführst, verbrauchst du 2 [[icon:frostpunk:kohle]] Kohle, um den Generator zu befeuern und den Anzeiger um 2 Felder nach oben zu bewegen.\n\nBeachte: Du kannst mit [[icon:frostpunk:kind]] Kindern keine Aktionen ausführen – es sei denn, ihr habt ein entsprechendes Gesetz (*Kinderarbeit*) verabschiedet oder ein anderer Effekt erlaubt dies explizit.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Aktionen-Phase",
+        "Zug",
+        "Generator befeuern",
+        "Anleitung S. 23"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 70010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 23
+      }
+    },
+    {
+      "id": "beheizte-kalte-aktionen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Beheizte und kalte Aktionen",
+      "image": null,
+      "summary": "Willst du eine Aktion ausführen, prüfe immer zuerst, ob sie beheizt oder kalt ist: Eine **beheizte** Aktion hat keine weiteren Auswirkungen. Bei einer **kalten** Aktion wird jedoch 1 Bürger der verwendeten Figuren-Art krank – du musst den Krankheits-Anzeiger dieser Art Bürger also um 1 nach rechts verschieben.\n\nJede Aktion, die du ausführst, ist entweder beheizt oder kalt. Manche Aktionen sind immer beheizt. Andere Aktionen sind immer kalt. Viele weitere Aktionen sind entweder beheizt oder kalt – abhängig davon, ob der Generator dem Gebäude oder Sektor-Feld, mit dem die Aktion ausgeführt wird, Wärme liefert.\n\n**Immer beheizt:** Bauen, Späher aussenden, Spezial-Aktionen.\n**Immer kalt:** Schnee räumen.\n**Generatorleistungs-abhängig:** Rohstoffe sammeln, Gebäude nutzen.\n\nFür die Aktionen Rohstoffe sammeln oder Gebäude nutzen musst du dir die Positionen des Anzeigers für Generatorleistung und der Heizreichweite-Anzeiger ansehen.",
+      "description": "Achtung: Ziehst du den Krankheits-Anzeiger dabei über das Feld des zugehörigen Bürger-Anzeigers hinaus? Bleibe auf dem Feld des Bürger-Anzeigers stehen und drehe den Krankheits-Anzeiger stattdessen auf die andere Seite. Erst danach führst du die Aktion aus!\n\nHinweis: Man kann sich hier einfach merken, dass die vom Generator gelieferte Wärme nur dann relevant ist, wenn man Figuren auf dem Spielplan einsetzt. Sonst sind alle anderen Aktionen immer beheizt – mit 1 Ausnahme: Schnee räumen.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Beheizt",
+        "Kalt",
+        "Krankheits-Anzeiger",
+        "Anleitung S. 23"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 70020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 23
+      }
+    },
+    {
+      "id": "waermedaemmungs-level",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Das Wärmedämmungs-Level",
+      "image": null,
+      "summary": "Die Heizreichweite-Anzeiger zeigen ein Wärmedämmungs-Level von Gebäuden und/oder eine „Zone\" des Spielplans:\n- [[icon:frostpunk:waermedaemmung-rot]] Gebäude mit rotem Wärmedämmungs-Level\n- [[icon:frostpunk:waermedaemmung-orange]] Gebäude mit orangem Wärmedämmungs-Level\n- [[icon:frostpunk:waermedaemmung-gelb]] Gebäude mit gelbem Wärmedämmungs-Level\n- Der Generator-Sektor\n- Der Generator-Sektor sowie alle angrenzenden Sektoren\n- Der Generator-Sektor und alle Sektoren, die bis zu 2 Sektoren weit weg sind\n\nJedes Gebäude hat ein Wärmedämmungs-Level, das durch farbige Streifen (für Farbenblinde auch mit 0–4 Strichen) am unteren Rand des Plättchens angezeigt wird.\n\nRote Gebäude haben das beste Wärmedämmungs-Level, gefolgt von orangenen und dann gelben Gebäuden.\n\nGebäude mit blauem Wärmedämmungs-Level haben kein Wärmedämmungs-Level – sie sind nur beheizt, wenn sie in einer beheizten Zone sind oder ein Gesetz bzw. ein Spezial- oder Szenariogebäude das angibt.\n\nWeiße Gebäude haben einen Sonderstatus – ihr Wärmedämmungs-Level ist irrelevant.",
+      "description": "",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Wärmedämmungs-Level",
+        "Heizreichweite-Anzeiger",
+        "Anleitung S. 23"
+      ],
+      "aliases": [
+        "Wärmedämmung"
+      ],
+      "warnings": [],
+      "sort_order": 70030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 23
+      }
+    },
+    {
+      "id": "zonen-a-b-c",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Zonen A, B und C",
+      "image": null,
+      "summary": "Solange der Anzeiger für die Generatorleistung noch auf dem untersten Feld ist, gelten die Aktionen Rohstoffe sammeln und Gebäude nutzen immer als kalt.\n\nSobald er höher ist, können diese Aktionen beheizt sein. Um das zu überprüfen, sieh dir die Position der Symbole der 3 Heizreichweite-Anzeiger an. Diese zeigen ein Wärmedämmungs-Level (rot, orange, gelb) und Zonen (Zone A, B und C).\n\n**Es gilt:**\n- Befindet sich das Symbol eines Wärmedämmungs-Levels unterhalb des Anzeigers für Generatorleistung? Dann gelten alle Aktionen dieser Gebäude als beheizt. Das ist unabhängig davon, in welcher Zone sich das Gebäude befindet.\n- Befindet sich das Symbol einer Zone des Spielplans unterhalb des Anzeigers für Generatorleistung? Dann gelten alle Aktionen Rohstoffe sammeln und Gebäude nutzen in dieser Zone als beheizt.\n\nNur unter diesen Bedingungen können die Aktionen Rohstoffe sammeln und Gebäude nutzen beheizt sein.",
+      "description": "Beispiel: Der Anzeiger für Generatorleistung liegt auf Feld 4. Die Symbole für das rote und orangene Wärmedämmungs-Level sind also unterhalb des Anzeigers. Alle roten und orangenen Gebäude auf dem Spielplan sind daher beheizt – ganz gleich, wo sie sich befinden. Zusätzlich befindet sich der Anzeiger auch über den Symbolen für den Generator-Sektor (Zone A) und das Symbol für alle dem Generator-Sektor angrenzenden Sektoren (Zone B). Alle Aktionen Rohstoffe sammeln und Gebäude nutzen in diesen Zonen gelten also ebenfalls als beheizt. Das Wärmedämmungs-Level von Gebäuden dort spielt also keine Rolle mehr.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Zonen",
+        "Generatorleistung",
+        "Beheizt",
+        "Anleitung S. 24"
+      ],
+      "aliases": [
+        "Zone A",
+        "Zone B",
+        "Zone C"
+      ],
+      "warnings": [],
+      "sort_order": 70040,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 24
+      }
+    },
+    {
+      "id": "aktionen-im-detail-intro",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Die Aktionen im Detail",
+      "image": null,
+      "summary": "Generell gilt: Um eine Aktion auszuführen, brauchst du eine verfügbare (und für die gewählte Aktion erlaubte) Figur aus eurem Lager. Du stellst die Figur auf die Aktion und führst sie aus. Eine Figur im Lager ist verfügbar, wenn sie nicht erschöpft ist.",
+      "description": "",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Aktionen",
+        "Figuren",
+        "Anleitung S. 25"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 70050,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 25
+      }
+    },
+    {
+      "id": "schnee-raeumen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Schnee räumen",
+      "image": null,
+      "summary": "Die Umgebung muss dringend vom Schnee befreit werden, um neue Rohstoffe zu finden und Platz für Expansion zu schaffen.\n\nAusführbar mit: [[icon:frostpunk:arbeiter]]/[[icon:frostpunk:ingenieur]]. **Diese Aktion gilt immer als kalt.**\n\nPlatziert die Figur für diese Aktion auf dem Aktionsfeld Schnee räumen.\n\nWähle 1 von diesen beiden Optionen:\n- Platziere 2 innere [[icon:frostpunk:sektor-innen]] Sektoren (sie müssen nicht nebeneinandergelegt werden)\n\nODER\n\n- Platziere 1 äußeren [[icon:frostpunk:sektor-aussen]] Sektor.",
+      "description": "Hinweis: Ist nur noch Platz für 1 inneren Sektor, kannst du auch nur 1 solchen platzieren.\n\nAchtung: Diese Aktion darf mehrmals pro Runde ausgeführt werden!\n\nSektoren musst du immer verdeckt ziehen und verdeckt platzieren. Dabei musst du beachten:\n- Innere Sektoren müssen angrenzend zum Generator-Sektor platziert werden.\n- Äußere Sektoren müssen immer an einen anderen Sektor angrenzen, der (direkt oder über andere Sektoren) mit dem Generator-Sektor verbunden ist. Sie können nie direkt neben den Generator-Sektor platziert werden.\n\nNachdem du alle Sektoren platziert hast, deckst du sie auf. Platziere dann die abgebildete Anzahl an Bäumen oder Rohstoffen aus dem Vorrat auf ihre Felder. Ist auf einem Sektor ein [[icon:frostpunk:nahrungsfund]] Nahrungsfund abgebildet? Erhaltet sofort so viel [[icon:frostpunk:nahrung]] Nahrung.\n===\nBeispiel: Beim Schnee räumen entscheidest du dich, 1 äußeren Sektor zu legen. Du legst ihn zwischen einem inneren Sektor und der Spielplan-Umrandung. Danach deckst du ihn auf und platzierst, wie darauf angegeben, 3 Bäume und 2 Kohle aus dem Vorrat darauf.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Aktion",
+        "Schnee räumen",
+        "Sektoren",
+        "Nahrungsfund",
+        "Anleitung S. 25"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 70060,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 25
+      }
+    },
+    {
+      "id": "rohstoffe-sammeln",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Rohstoffe sammeln",
+      "image": null,
+      "summary": "Unsere Vorräte sind zu großen Teilen aufgebraucht – wir müssen unbedingt neue Rohstoffe heranschaffen!\n\nAusführbar mit: [[icon:frostpunk:arbeiter]]/[[icon:frostpunk:ingenieur]]. Beheizt oder kalt – Zonen-abhängig.\n\nWähle 1 unbesetztes (= ohne Figur darauf) Feld eines Sektors deiner Wahl. Nimm bis zu 2 Rohstoffe ([[icon:frostpunk:kohle]] Kohle, [[icon:frostpunk:holz]] Holz oder [[icon:frostpunk:dampfkern]] Dampfkerne) von diesem Feld und lege sie in euer Lager.\n\nAchtung: Diese Aktion darf mehrmals pro Runde ausgeführt werden – aber nur 1x pro Feld!",
+      "description": "Hinweis: Bedenke, dass der Generator-Sektor auch ein Sektor ist, der 5 Felder hat.\n\nBeispiel: Du stellst 1 Arbeiter auf das Feld mit 4 Kohle und sammelst dort genau 2 Kohle ein.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Aktion",
+        "Rohstoffe sammeln",
+        "Sektoren",
+        "Anleitung S. 25"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 70070,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 25
+      }
+    },
+    {
+      "id": "bauen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Bauen",
+      "image": null,
+      "summary": "Der Bau neuer Gebäude ist für uns überlebenswichtig!\n\nAusführbar mit: [[icon:frostpunk:arbeiter]]/[[icon:frostpunk:ingenieur]]. **Diese Aktion gilt immer als beheizt.**\n\nDas ist keine einzelne Aktion – stattdessen darfst du nun bis zu 3x die „Unteraktionen\" **Errichten** und/oder **Abreißen** ausführen.",
+      "description": "Beispiel: Du errichtest ein neues Gebäude, reißt ein weiteres Gebäude ab und errichtest dann ein neues Gebäude auf dem gerade frei gewordenen Feld.\n\nAchtung: Diese Aktion darf mehrmals pro Runde ausgeführt werden!",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Aktion",
+        "Bauen",
+        "Errichten",
+        "Abreißen",
+        "Gebäude",
+        "Anleitung S. 26"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 70080,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 26
+      }
+    },
+    {
+      "id": "bauen-errichten",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Errichten",
+      "image": null,
+      "summary": "Um ein Gebäude zu errichten, wähle 1 verfügbares Gebäude des Gebäude-Tableaus und verbrauche die in der Spalte bzw. direkt darunter im Kreis angegebene Anzahl an [[icon:frostpunk:holz]] Holz und/oder [[icon:frostpunk:dampfkern]] Dampfkernen.\n\nLege das Gebäude dann auf 1 bzw. 2 Felder genau 1 Sektors deiner Wahl auf dem Spielplan, auf denen sich weder ein anderes Gebäude noch eine Figur befinden. Legst du es auf ein Feld mit Rohstoffen oder Bäumen, entferne diese und lege sie in den Vorrat zurück.\n\nBeachte außerdem:\n- Gebäude, die [[icon:frostpunk:nicht-errichtbar]] zeigen, kannst du nie errichten.\n- Große Gebäude musst du auf den zwei Feldern desselben Sektors errichten.\n- Der Generator-Sektor hat 5 Felder. Der Bereich für das geöffnete Schubfach gilt nicht als Feld.",
+      "description": "Hinweis: Die Gebäude unterhalb des Gebäude-Tableaus darfst du erst wählen, wenn sie verfügbar geworden sind. Ihre Kosten sind jeweils auf der entsprechenden Karte angegeben, die sie verfügbar gemacht hat.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Errichten",
+        "Gebäude",
+        "Bauen",
+        "Anleitung S. 26"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 70090,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 26
+      }
+    },
+    {
+      "id": "bauen-abreissen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Abreißen",
+      "image": null,
+      "summary": "Um ein Gebäude abzureißen, wähle 1 Gebäude auf dem Spielplan, auf dem sich keine Figur befindet, und lege es zurück auf (oder unter) das Gebäude-Tableau.",
+      "description": "Wichtig:\n- Gebäude, die [[icon:frostpunk:nicht-zerstoerbar]] zeigen, können nicht abgerissen (und auch nicht zerstört) werden.\n- Abgerissene Ruinen nimmst du immer ganz aus dem Spiel (lege sie zurück in die Schachtel).",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Abreißen",
+        "Gebäude",
+        "Ruine",
+        "Bauen",
+        "Anleitung S. 26"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 70100,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 26
+      }
+    },
+    {
+      "id": "gebaeude-nutzen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Gebäude nutzen",
+      "image": null,
+      "summary": "Um einen reibungslosen Ablauf in unserer Stadt zu gewährleisten, müssen wir unsere Gebäude effektiv nutzen.\n\nAusführbar mit: abhängig vom Gebäude. Beheizt oder kalt – Zonen-/Wärmedämmungs-Level-abhängig.\n\nDie Gebäude in der Stadt – egal, ob bereits auf dem Generator-Sektor vorgedruckt oder bereits errichtet – kannst du für ihre Aktion nutzen, indem du 1 verfügbare Figur daraufstellst.\n\nKleine Gebäude können nur 1x pro Runde genutzt werden – das Gebäude muss also „frei\" sein, um 1 Figur darauf zu stellen. Große Gebäude können jedoch 2x pro Runde genutzt werden (aber mit 2 separaten Aktionen). Die Aktionen aller Gebäude beschreiben wir im Anhang ausführlich.",
+      "description": "Achtung: Manche Gebäude können ausschließlich von Ingenieuren genutzt werden – das ist mit einem Symbol beim Gebäude vermerkt.\n\nDie Signalstation ist eine Ausnahme – sie hat keine eigene Aktion, sie ermöglicht nur die Aktion Späher aussenden.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Aktion",
+        "Gebäude nutzen",
+        "Signalstation",
+        "Anleitung S. 26"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 70110,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 26
+      }
+    },
+    {
+      "id": "spaeher-aussenden",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Späher aussenden",
+      "image": null,
+      "summary": "Der Weg mag zwar gefährlich sein, aber wir müssen ihn beschreiten.\n\nAusführbar mit: [[icon:frostpunk:arbeiter]]/[[icon:frostpunk:ingenieur]]. **Diese Aktion gilt immer als beheizt.**\n\nAchtung: Du kannst diese Aktion nur ausführen, wenn die Signalstation errichtet ist.\n\nStelle den Arbeiter/Ingenieur auf das Anfangsfeld einer freien Expedition. Diese Expedition ist nun aktiv und diese Bürger-Figur ist nun ein Späher.",
+      "description": "Achtung: Ihr dürft zunächst nur 1 aktive Expedition haben. Erst, nachdem ihr die Signalstation ausgebaut habt, dürft ihr bis zu 2 aktive Expeditionen haben.",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Aktion",
+        "Späher aussenden",
+        "Expedition",
+        "Signalstation",
+        "Anleitung S. 26"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 70120,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 26
+      }
+    },
+    {
+      "id": "spezial-aktionen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Spezial-Aktionen",
+      "image": null,
+      "summary": "Ausführbar mit: wie bei der Spezial-Aktion angegeben. Falls nicht anders angegeben, gelten Spezial-Aktionen immer als beheizt.\n\nIm Verlauf des Spiels werdet ihr ggf. Szenario- oder Ereigniskarten mit Spezial-Aktionen darauf aufdecken. Spezial-Aktionen auf Karten in eurer Szenario-Auslage kannst du wie jede andere Aktion nutzen. Dasselbe gilt für Spezial-Aktionen auf Karten in eurer Ereignis-Auslage (sie gelangen aufgrund von Karteneffekten und von euch getroffenen Entscheidungen dorthin).\n\nDu stellst die Bürger-Figur, die du für die Aktion nimmst, immer direkt auf das Aktionsfeld der Karte, deren Spezial-Aktion du ausführst. Manchmal musst du zusätzlich Nahrung oder Rohstoffe verbrauchen/verlieren. Andere weisen dich an, die Rohstoffe dabei auf die Karte zu legen. Solche Rohstoffe bleiben auf der Karte liegen, bis ihr angewiesen werdet, sie zu entfernen.",
+      "description": "Beispiel: Du stellst 1 Ingenieur auf diese Aktion, um 1 Holz zu verbrauchen, das du dabei auf die Karte legst.\n\nAchtung: Die meisten Spezial-Aktionen können nur 1x pro Runde ausgeführt werden, manche sogar nur 1x pro Spiel (siehe Kartentext).",
+      "group": "aktionen",
+      "timing": [],
+      "tags": [
+        "Spezial-Aktion",
+        "Szenariokarten",
+        "Ereigniskarten",
+        "Anleitung S. 27"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 70130,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 27
+      }
+    },
+    {
+      "id": "spielende",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Spielende",
+      "image": null,
+      "summary": "Das Spiel endet sofort, sobald 1 der 6 Niederlage-Bedingungen erfüllt ist – ihr habt dann verloren. Selbstverständlich könnt ihr auch gewinnen – wie das geht, entfaltet sich immer erst auf den Szenariokarten, wenn ihr „Ihr habt gewonnen!\" lest.",
+      "description": "",
+      "group": "spielende",
+      "timing": [],
+      "tags": [
+        "Spielende",
+        "Sieg",
+        "Niederlage",
+        "Anleitung S. 30"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 80010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 30
+      }
+    },
+    {
+      "id": "krankheit-und-sterben",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Krankheit und Sterben",
+      "image": null,
+      "summary": "**Kranke Bürger**\n\nDie Krankheits-Anzeiger zeigen euch jederzeit, wie viele Bürger jeder Art derzeit krank sind. Immer wenn 1 Bürger einer Art krank wird, zieht ihr den entsprechenden Anzeiger auf der Bevölkerungs-Leiste 1 Feld vorwärts. Ist die Art des Bürgers nicht angegeben, dürft ihr sie für jeden erkrankten Bürger einzeln auswählen.\n\nDie Zahl der Kranken einer Art Bürger kann nie höher sein als die Zahl der Bürger derselben Art. Wenn ein Anzeiger über das Feld des zugehörigen Bürger-Anzeigers hinaus bewegt werden müsste, dreht ihr den Krankheits-Anzeiger um, anstatt ihn zu bewegen:\n- Dreht ihr dabei von leicht zu schwer krank? Nichts weiter passiert zunächst – einer der Bürger wurde schwer krank.\n- Dreht ihr dabei von schwer zu leicht krank? 1 Bürger dieser Art [[icon:frostpunk:buerger-stirbt]] stirbt. Dann schiebt diesen Anzeiger um 1 Feld zurück.\n\nMüsst ihr einmal die Anzahl einer Art Bürger so stark reduzieren, dass ihr den Bürger-Anzeiger dabei über den zugehörigen Krankheits-Anzeiger hinaus zurückziehen müsst, bewegt zusätzlich den Krankheits-Anzeiger so weit zurück, bis dieser auf demselben Feld liegt wie der Bürger-Anzeiger.\n\n**Sterben**\n\nStirbt einer eurer Bürger, führt ihr die folgenden Schritte nacheinander aus:\n1. Zieht den Leichnams-Anzeiger 1 Feld auf der Leichnams-Leiste vorwärts. Erreicht dieser das letzte Feld der Leiste, verliert ihr das Spiel aufgrund zu vieler Todesfälle.\n2. Bewegt den entsprechenden Bürger-Anzeiger auf der Bevölkerungs-Leiste 1 Feld zurück.\n3. Zieht 1 Bürgerkarte vom Bürgerstapel, legt sie offen auf den Ablagestapel und führt den Todesfall-Effekt der Karte für die zutreffende Art Bürger aus. Anstatt eine Bürgerkarte zu ziehen, darf sich aber auch 1 von euch entscheiden, 1 seiner Bürgerkarten dieser Art jetzt für den Todesfall-Effekt dieser Art Bürger auszuspielen. In beiden Fällen müsst ihr den Todesfall-Effekt so umfassend wie möglich ausführen.",
+      "description": "Hinweis: Einige Karteneffekte weisen euch an, für den Tod eines Bürgers keine Bürgerkarte zu ziehen. In diesem Fall ignoriert ihr Schritt 3.\n\nBeispiel: Ein Kind ist verstorben. Ihr zieht eine Bürgerkarte: Pauline Grogan. Ihr führt den Todesfall-Effekt für Kinder der Karte aus – zuerst erschöpft ihr 1 Motivation (falls möglich), und senkt danach die Hoffnung um 2.",
+      "group": "spielende",
+      "timing": [],
+      "tags": [
+        "Krankheit",
+        "Sterben",
+        "Krankheits-Anzeiger",
+        "Leichnams-Anzeiger",
+        "Bürgerkarten",
+        "Anleitung S. 30"
+      ],
+      "aliases": [
+        "Kranke Bürger",
+        "Todesfall-Effekt"
+      ],
+      "warnings": [],
+      "sort_order": 80020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 30
+      }
+    },
+    {
+      "id": "heilen-und-behandeln",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Heilen und Behandeln",
+      "image": null,
+      "summary": "**Heilen**\n\nDiverse Effekte im Spiel (z. B. die einiger Gebäude-Aktionen) erlauben euch, kranke Bürger zu [[icon:frostpunk:heilen]] heilen. Dort steht dann eine Zahl, gefolgt von „Heilen\" (nur das Symbol oder mit Wort). Die Zahl gibt an, wie viele Heilungspunkte euch zur Verfügung stehen.\n\nFür jeden Heilungspunkt wählt ihr 1 Krankheits-Anzeiger und schiebt ihn um 1 Feld zurück. Heilungspunkte, die ihr nicht direkt nutzen könnt, verfallen.",
+      "description": "Beispiel: Ihr führt eine Dämmerungskarte aus, und da ihr 1 aktive Fürsorge habt, könnt ihr den Effekt „3 Heilen\" anwenden. Ihr entscheidet euch, 2 Arbeiter und 1 Kind zu heilen.\n\nHinweis: Ein Krankheits-Anzeiger, der schwer krank zeigt, kann nicht auf Feld 0 der Bevölkerungs-Leiste gezogen werden, da der schwer kranke Bürger erst behandelt werden muss.\n\n**Behandeln**\n\nDiverse Effekte im Spiel (z. B. die einiger Gebäude-Aktionen) erlauben euch, Bürger zu [[icon:frostpunk:behandeln]] behandeln. Dort steht dann eine Zahl gefolgt von „Behandeln\" (nur das Symbol oder mit Wort). Die Zahl gibt an, wie viele Behandlungspunkte euch zur Verfügung stehen.\n\nJeder Behandlungspunkt erlaubt euch, 1 Krankheits-Anzeiger eurer Wahl von schwer zu leicht krank zu drehen – ohne natürlich, dass dabei jemand stirbt! Behandlungspunkte, die ihr nicht direkt nutzen könnt, verfallen.\n===\nBeispiel: Das Krankenhaus erlaubt, bis zu 4 Bürger zu heilen oder 2 schwer kranke Bürger zu behandeln. Die Spieler entscheiden sich, 1 Arbeiter und 1 Ingenieur zu behandeln.",
+      "group": "spielende",
+      "timing": [],
+      "tags": [
+        "Heilen",
+        "Behandeln",
+        "Krankheits-Anzeiger",
+        "Anleitung S. 30"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 80030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 30
+      }
+    },
+    {
+      "id": "berater",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Berater",
+      "image": null,
+      "summary": "Jedem Spieler steht 1 Berater für seine Aufgabe zur Verfügung: es gibt den Berater der *Generatoren-Leitung*, des *Gesundheits-Beauftragten*, des *Gesellschafts-Beraters* oder des *Vorarbeiters*. Jeder dieser Berater hat eine besondere Fähigkeit, die nur dem jeweiligen Spieler zur Verfügung steht. Berater können während des Spiels weder untereinander noch mit solchen in der Schachtel getauscht werden.\n\nIhr könnt pro Runde 1 eurer Berater wählen und seine Fähigkeit während der Vorbereitungen-Phase anwenden, sofern ihr 1 Hoffnung der genannten Art erschöpfen könnt.",
+      "description": "**Nur im Solo-Spiel:** Die Karte *Ein Weckruf für alle* darfst du im Solo-Spiel 1x pro Spiel während der Vorbereitungen-Phase nutzen, um so viele Bürgerkarten zu ziehen, wie du zu diesem Zeitpunkt Hoffnung hast. Dann legst du sie in die Schachtel zurück.\n\nBeispiel: Ihr habt derzeit 6 kranke Arbeiter. Während der Vorbereitungen-Phase würde einer von ihnen schwer krank werden. Daher schlägt der Spieler mit der Gesundheits-Beauftragten vor, ihre Fähigkeit in dieser Runde einzusetzen. Alle stimmen zu. Die Gesundheits-Beauftragte muss 1 aktive Fürsorge erschöpfen, um 2 kranke Arbeiter zu heilen (d. h. den Krankheits-Anzeiger von Feld 6 auf Feld 4 zu ziehen).",
+      "group": "berater-buerger",
+      "timing": [],
+      "tags": [
+        "Berater",
+        "Generatoren-Leitung",
+        "Gesundheits-Beauftragte",
+        "Gesellschafts-Berater",
+        "Vorarbeiter",
+        "Anleitung S. 31"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 90010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 31
+      }
+    },
+    {
+      "id": "buergerkarten",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Bürgerkarten",
+      "image": null,
+      "summary": "Bürgerkarten stellen besondere Bürger eurer Stadt dar, die einzigartige, gar heroische Fähigkeiten besitzen. Auf jeder Karte findet ihr:\n- **A** – Namen des Bürgers\n- **B** – Art des Bürgers\n- **C** – Startkosten\n- **D** – Bürgerfähigkeit\n- **E** – Todesfall-Effekte\n\nEs ist euch erlaubt, über die Bürgerkarten auf eurer Hand zu sprechen. Bürgerkarten können jedoch nie ausgetauscht oder von anderen Spielern genutzt werden.",
+      "description": "Hinweis: Die Startkosten einer Bürgerkarte sind ausschließlich für den Spielaufbau relevant.",
+      "group": "berater-buerger",
+      "timing": [],
+      "tags": [
+        "Bürgerkarten",
+        "Startkosten",
+        "Todesfall-Effekte",
+        "Anleitung S. 32"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 90020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 32
+      }
+    },
+    {
+      "id": "buergerfaehigkeiten-nutzen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Bürgerfähigkeiten nutzen",
+      "image": null,
+      "summary": "Jede eurer Bürgerkarten kann 1x im Spiel auf eine von zwei Arten genutzt werden.\n\n**1) Um ihre Bürgerfähigkeit zu nutzen:** Die Bürgerkarten funktionieren auf außergewöhnliche Weise – du spielst sie aus, bevor du die angegebene Art von Bürger für die angegebene Art(en) von Aktion(en) einsetzt. Dann führst du den Effekt der Karte aus. Dieser Effekt kann die Aktion ergänzen („und:\") oder aber die Aktion ersetzen („dann stattdessen\").\n\nWichtig: Du befolgst die angegebenen Bedingungen immer – selbst wenn du dadurch eine Art Bürger für eine Aktion nutzt, die sie normalerweise nicht ausführen könnte!\n\nNachdem du die Aktion ausgeführt hast, lege die Karte offen vor dir aus. Dies dient als Erinnerung, dass du in dieser Runde bereits eine Bürgerkarte für ihre Bürgerfähigkeit ausgespielt hast. Lege sie am Ende der Nacht-Phase auf den Ablagestapel.\n\n**2) Um einen Todesfall-Effekt darauf zu nutzen:** Stirbt einer eurer Bürger, könnt ihr euch ja entscheiden, nicht vom Bürgerstapel zu ziehen. Stattdessen darf 1 Spieler 1 Bürgerkarte von der Hand abwerfen, um den passenden Todesfall-Effekt auszuführen. Die Art der Bürgerkarte muss dem gestorbenen Bürger entsprechen. Dann kommt die Karte auf den Ablagestapel.\n\nDu darfst in deinem Zug immer nur 1 Bürgerkarte auf diese Weise ausspielen. Außerdem darf jeder Spieler pro Runde nur 1 Bürgerkarte für ihre Bürgerfähigkeit ausspielen.\n\nSollte der Bürgerstapel jemals leer sein, mischt den zugehörigen Ablagestapel und bildet daraus den neuen Bürgerstapel.",
+      "description": "Hinweis: Das gilt also z. B. auch für Kinder, auch wenn etwa das Gesetz *Kinderarbeit* nicht verabschiedet wurde.\n\nBeispiel: Die Bürgerkarte *Margaret Ozone* erlaubt es, eine Aktion in einer Sanitätsstation oder einem Krankenhaus auszuführen und dafür ein Kind zu verwenden (was sonst nicht möglich wäre). Ob die Aktion beheizt oder kalt ist, wird (sofern es nicht explizit auf der Karte steht) wie üblich bestimmt.\n\nBeispiel: Du spielst die Bürgerkarte *Paolo Feldmann* aus und stellst einen Arbeiter auf ein Feld eines Sektors, auf dem sich ein Baum befindet. Paolos Bürgerfähigkeit erlaubt dir, anstelle des normalen Effektes einer Aktion Rohstoffe sammeln den Baum zu entfernen und dafür 2 Holz in eurem Lager zu legen. Wie auf der Karte angegeben, gilt diese Aktion als beheizt.",
+      "group": "berater-buerger",
+      "timing": [],
+      "tags": [
+        "Bürgerfähigkeit",
+        "Bürgerkarten",
+        "Todesfall-Effekt",
+        "Anleitung S. 32"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 90030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 32
+      }
+    },
+    {
+      "id": "szenariokarten",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Szenariokarten",
+      "image": null,
+      "summary": "Die Szenariokarten legt ihr bei Spielaufbau in die Szenario-Auslage. Sie werden die Spielpartie deutlich beeinflussen. Ihr dürft euch offen ausliegende Szenariokarten jederzeit durchlesen.\n\n**Szenarioplättchen**\n\nManche Szenariokarten haben Effekte, die in bestimmten Runden ausgelöst werden (dargestellt durch das Szenarioplättchen-Symbol und die Rundenzahlen). Deckt ihr eine Szenariokarte mit einem oder mehreren dieser Symbole auf (auch beim Spielaufbau), legt je 1 [[icon:frostpunk:szenario-plaettchen]] Szenarioplättchen auf die entsprechenden Felder der Rundenleiste. Dieser Effekt tritt ein (oder es wird etwas überprüft), wenn der Rundenanzeiger ein solches Plättchen erreicht.",
+      "description": "Beispiel: Die Szenariokarte I/01 gibt an, dass ihr Szenarioplättchen auf die Felder 4 und 11 der Rundenleiste legen müsst.",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Szenariokarten",
+        "Szenarioplättchen",
+        "Szenario-Auslage",
+        "Anleitung S. 33"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 100010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 33
+      }
+    },
+    {
+      "id": "szenariokarten-anatomie",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Anatomie einer Szenariokarte",
+      "image": null,
+      "summary": "Anatomie einer Szenariokarte:\n- **A** – Szenario und Karten-Nummer (Szenario-bezogen)\n- **B** – Symbol für Grundspiel oder Erweiterung\n- **C** – Titel der Karte\n- **D** – Flavor-Text\n- **E** – Effekt der Karte\n- **F** – ID der Karte",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Szenariokarten",
+        "Kartenanatomie",
+        "Anleitung S. 33"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 100020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 33
+      }
+    },
+    {
+      "id": "ereigniskarten",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Ereigniskarten",
+      "image": null,
+      "summary": "Alle Ereigniskarten – also die Morgenkarten und alle Sorten von Dämmerungskarten – sind zu Spielbeginn entweder bereits aufgebaut, oder sind noch in der Schachtel. Die Dämmerungskarten sind hier besonders – die meisten davon sind zu Spielbeginn noch in der Schachtel und können im Verlauf einer Partie noch ins Spiel kommen oder noch nicht. Die beiden Ereigniskarten-Typen (Morgen- und Dämmerungskarten) unterscheiden sich zwar in ihrer Rückseite, aber sie werden alle auf ähnliche Weise abgehandelt.\n\nNachdem ihr die Karte gezogen habt, lest ihr euch den Text durch. In der oberen Hälfte steht ein Dilemma oder ein Vorkommnis. Hier kann sich auch ein Soforteffekt befinden, den ihr jetzt direkt ausführen müsst.\n\nGenerell gilt: Viele der Karten zeigen orangene Bedingungen. Diese fragen ab, was auf euch zutrifft. Geht sie von oben nach unten durch und überprüft, was bei euch passieren muss. Führt dabei nur den 1 Effekt aus, der für euch zutrifft! Dann schaut ihr euch die verschiedenen (nummerierten) Optionen in der unteren Hälfte der Karte an. Von diesen müsst ihr 1 Option wählen und ausführen. Manche Optionen dürft ihr nur ausführen, wenn ihr eine Bedingung erfüllt oder etwas „bezahlen\" könnt. Manche der Ereigniskarten schreiben euch über ihre orangenen Bedingungen sogar direkt vor, welche nummerierte Option ihr wählen müsst.\n\nLinks neben jeder Option steht, was ihr mit der Karte danach machen sollt. Tut das, nachdem ihr den Effekt dieser Option ausgeführt habt:\n- Nehmt die Karte aus dem Spiel (legt sie in die Schachtel zurück). Rohstoffe auf der Karte kommen zurück in den Vorrat, Bürger-Figuren auf der Karte zurück in euer Lager.\n- Legt die Karte in die Ereignis-Auslage (links oben neben dem Spielplan).",
+      "description": "Hinweis: Manchmal finden sich diese Symbole auch schon im Sofort-Effekt der Karte!\n\nIn manchen Effekten finden sich diese Symbole auch am Ende eines Effekts. Dann bezieht es sich immer auf die Karte selbst. Es kann auch angegeben sein, dass andere Karten diese Symbole erhalten und ihr dann sofort entsprechend handeln müsst.\n\nFindet sich auf einer Dämmerungskarte keines der beiden Symbole, und der Kartentext gibt auch keine weiteren Anweisungen, legt die Karte auf den zugehörigen Ablagestapel. Sie wird im Verlauf des Spiels ggf. wieder in den Dämmerungsstapel gemischt.",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Ereigniskarten",
+        "Morgenkarten",
+        "Dämmerungskarten",
+        "Anleitung S. 34"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 100030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 34
+      }
+    },
+    {
+      "id": "ereigniskarten-anatomie",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Anatomie einer Ereigniskarte",
+      "image": null,
+      "summary": "Anatomie einer Ereigniskarte:\n- **A** – Kartenart\n- **B** – Symbol für Grundspiel oder Erweiterung\n- **C** – Titel des Ereignisses\n- **D** – Flavor-Text\n- **E** – Soforteffekt (falls vorhanden), wird direkt nach dem Ziehen der Karte ausgeführt\n- **F** – Feld für Spezial-Aktion (falls vorhanden)\n- **G** – Optionen, aus denen ihr 1 wählen müsst (falls vorhanden). Die einzelnen Optionen enthalten meist separaten Flavor-Text sowie immer einen sofort auszuführenden Effekt. Manche Optionen haben zudem Voraussetzungen (in rot), die erfüllt sein müssen, um sie zu wählen.\n- **H** – ID der Karte",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Ereigniskarten",
+        "Kartenanatomie",
+        "Anleitung S. 34"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 100040,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 34
+      }
+    },
+    {
+      "id": "uebliche-formulierungen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Übliche Formulierungen auf Karten",
+      "image": null,
+      "summary": "Hier findet ihr Erläuterungen zu wiederkehrenden Formulierungen auf allen Kartenarten.\n\n**1 Bürger/Arbeiter/Ingenieur/Kind stirbt:** Die Art des Bürgers entspricht der Art, die über der Spalte der Rundenleiste (Runden-Tableau) abgebildet ist, in der sich der Runden-Anzeiger befindet. Wird die Art des Bürgers nicht spezifiziert, könnt ihr sie selbst wählen.\n\n**„Das erste von oben\"/„Liste von oben\":** Sollt ihr die Häufigkeit von etwas bestimmen und dabei herrscht Gleichstand? Wenn der Gleichstandsbrecher dabei „das erste von oben\" oder „Liste von oben\" ist, brecht ihr den Gleichstand der beteiligten Dinge mit dem, was auf der Liste weiter oben steht.\n\n**„Mischt Karte #XXX in den Dämmerungsstapel\":** Sucht aus den Dämmerungskarten in der Schachtel die genannte Karte (anhand der Karten-ID) heraus. Die Karten-ID findet ihr rechts unten auf den Dämmerungskarten. Fügt sie dem Dämmerungsstapel hinzu, ohne sie zu lesen, und mischt diesen dann.\n\n**„Wählt 1 Aktion/Gebäude mit Bürger-Figur/Bürger-Art darauf – führt das jetzt erneut aus\" (gilt als beheizt):** Wählt ein Gebäude auf dem Spielplan oder eine Aktion (wie Schnee räumen), auf der eine Bürger-Figur steht oder eine speziell benannte Bürger-Art (wie Arbeiter) und führt den Effekt des Gebäudes oder der Aktion erneut aus (Modifikationen durch Gesetze oder Technologien gelten weiterhin).",
+      "description": "Achtung: Es ist dabei nicht möglich, Spezial-Aktionen erneut auszuführen – also Figuren auf Szenario- oder Ereigniskarten können nicht erneut genutzt werden!\n\n**„Legt 1 inneren/äußeren Sektor\":** Ihr platziert den Sektor so, als hättet ihr die Aktion Schnee räumen ausgeführt, und legt wie üblich Rohstoffe und Bäume darauf bzw. nehmt euch Nahrung für Nahrungsfunde.\n\n**„Bürger erschöpft dieser Wahl\":** Die Symbole bei dieser Formulierung geben an, aus welchen ihr wählen dürft. Wählt 1 davon und legt es in euer Lager.\n\n**Symbol mit rotem Kreis und Kreuz (Effekte, die Karten aus dem Spiel entfernen oder auf den Ablagestapel werfen lassen, können niemals angewandt werden):** Karten mit diesem Symbol können aufgrund eines Effektes weder aus dem Spiel entfernt noch auf den Ablagestapel geworfen werden.\n\n**Spezial-Aktion:** Liegt eine Karte mit Spezial-Aktion in der Auslage, dürft ihr sie in der Aktionen-Phase nutzen.\n\n**Dämmerungs-Phase-Angabe:** Solange eine Karte mit dieser Phasenangabe in der Auslage liegt, müsst ihr den genannten Effekt in der Dämmerungs-Phase jeder Runde erneut ausführen.\n\n**Gebäude zerstören:** Zerstört ihr ein Gebäude, kommt es wieder zurück auf das Gebäude-Tableau. Gebäude, die nicht zerstörbar sind, könnt ihr nie willentlich zerstören.",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Kartenformulierungen",
+        "Gleichstandsbrecher",
+        "Dämmerungsstapel",
+        "Spezial-Aktion",
+        "Anleitung S. 34"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 100050,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 34
+      }
+    },
+    {
+      "id": "gesetzeskarten",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Gesetzeskarten",
+      "image": null,
+      "summary": "In eurer Gesetzentwurfs-Auslage sind zwei Kartenstapel – der Gesetzesstapel und der Gesetz-Konsequenzstapel. Ihr könnt euch die Karten des Gesetzesstapels jederzeit ansehen, die Karten des Konsequenzstapels jedoch nicht.\n\nDie Aktion der Palisade (auf dem Generator-Sektor vorgedruckt) erlaubt euch, 1 neues Gesetz zu verabschieden. Dazu wählt ihr 1 Gesetz aus dem Gesetzesstapel und legt es in eure Gesetzes-Auslage am linken Rand des Spielplans. Sucht dann aus dem Konsequenzenstapel die beiden Gesetz-Konsequenzkarten mit zugehörigen Karten-IDs heraus (ohne sie euch genauer anzusehen), mischt sie verdeckt und legt 1 davon verdeckt auf den Dämmerungsstapel. Legt die andere unbesehen in die Schachtel zurück.",
+      "description": "Beispiel: Zur Gesetzeskarte *Überfüllte Quartiere* (#G05) gehören die Gesetz-Konsequenzkarten *Kein Recht auf Privatsphäre* (#K05A) und *Liebe deinen Nächsten* (#K05B).\n\nVerabschiedet ihr ein neues Gesetz, müsst ihr häufig Hoffnung und/oder Unzufriedenheit erhöhen bzw. senken (wie auf der Karte angegeben). Tut dies sofort, wenn ihr die Karte auslegt.\n\nBeispiel: Wenn ihr das Gesetz zur Kinderarbeit (#G01) verabschiedet, müsst ihr eure Unzufriedenheit erhöhen und eure Hoffnung senken.",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Gesetzeskarten",
+        "Gesetzesstapel",
+        "Gesetz-Konsequenzkarten",
+        "Palisade",
+        "Anleitung S. 37"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 100060,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 37
+      }
+    },
+    {
+      "id": "gesetzeskarten-anzahl",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Standard-Gesetze & Gesetzes-Auslage",
+      "image": null,
+      "summary": "Die 8 Standard-Gesetze bilden vier Kartenpaare: #G01 & #G02, #G03 & #G04, #G05 & #G06, #G07 & #G08. Ihr könnt jeweils nur 1 Gesetz aus jedem Kartenpaar verabschieden. Das andere Gesetz aus dem Kartenpaar entfernt ihr sofort und legt es zurück in die Schachtel.\n\nIhr dürft maximal 4 Gesetze in eurer Gesetzes-Auslage haben. Einmal verabschiedet, kann ein Gesetz nicht mehr entfernt werden!",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Gesetzeskarten",
+        "Kartenpaare",
+        "Gesetzes-Auslage",
+        "Anleitung S. 37"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 100070,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 37
+      }
+    },
+    {
+      "id": "gesetzeskarten-anatomie",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Anatomie einer Gesetzeskarte",
+      "image": null,
+      "summary": "Anatomie einer Gesetzeskarte:\n- **A** – Kartenart\n- **B** – Symbol für Grundspiel oder Erweiterung\n- **C** – Karten-ID des zu entfernenden Gesetzes. Wenn ihr dieses Gesetz verabschiedet, müsst ihr das hier genannte Gesetz (das andere des Kartenpaares) in die Schachtel zurücklegen.\n- **D** – Soforteffekt (falls vorhanden). Erhöht oder senkt Hoffnung und/oder Unzufriedenheit.\n- **E** – Titel des Gesetzes\n- **F** – Flavor-Text\n- **G** – Permanenter Effekt\n- **H** – ID der Karte. Die Karten-IDs der zugehörigen Gesetz-Konsequenzkarten haben dieselbe Nummer und dann A und B (bei #G01 wäre das also #K01A und #K01B).",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Gesetzeskarten",
+        "Kartenanatomie",
+        "Anleitung S. 37"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 100080,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 37
+      }
+    },
+    {
+      "id": "technologiekarten",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Technologiekarten",
+      "image": null,
+      "summary": "In jeder Partie *Frostpunk* liegen 4 Technologiekarten in eurer Technologie-Auslage. Auf jeder dieser Karten liegt zu Beginn des Spiels ein inaktives Forschungsplättchen.\n\n**Habt ihr eure erste Werkstatt errichtet?** Dann wählt jetzt 1 eurer Technologiekarten und legt das darauf liegende Forschungsplättchen auf die Rundenleiste. Ihr müsst es so viele Felder vor den Runden-Anzeiger legen, wie die Zahl auf der Karte anzeigt. Müsstet ihr das Plättchen jenseits von Feld 15 legen, legt es stattdessen auf Feld 15 der Rundenleiste.\n\nAchtung: Das Errichten weiterer Werkstätten erlaubt euch nicht, weitere Forschungsplättchen auf die Rundenleiste zu legen – ihr könnt immer nur 1 Technologie erforschen.\n\n**Wie wird die Entwicklung einer Technologie abgeschlossen?** Immer wenn der Runden-Anzeiger das Feld mit dem Forschungsplättchen erreicht (oder mit einer Werkstatt-Aktion umgekehrt), habt ihr die Technologie entwickelt. Für den Rest des Spiels steht euch diese Technologie nun zur Verfügung.\n\nDann wählt ihr erneut 1 Technologiekarte mit inaktivem Forschungsplättchen (falls möglich) und legt dieses nach den genannten Regeln auf die Rundenleiste.",
+      "description": "Hinweis: Sollten all eure Werkstätten auf dem Spielplan abgerissen oder zerstört werden, müsst ihr das Technologieplättchen von der Rundenleiste nehmen und zurück auf die Technologiekarte legen (erneut inaktiv). Jeglicher Fortschritt der Forschung ist damit zunichte. Technologien, die ihr bereits entwickelt habt (mit aktiven Forschungsplättchen), bleiben davon jedoch unberührt. Baut ihr später erneut eine Werkstatt, könnt ihr wieder an einer eurer noch nicht entwickelten Technologien forschen.",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Technologiekarten",
+        "Werkstatt",
+        "Forschungsplättchen",
+        "Technologie-Auslage",
+        "Anleitung S. 38"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 100090,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 38
+      }
+    },
+    {
+      "id": "technologiekarten-anatomie",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Anatomie einer Technologiekarte",
+      "image": null,
+      "summary": "Anatomie einer Technologiekarte:\n- **A** – Kartenart\n- **B** – Symbol für Grundspiel oder Erweiterung\n- **C** – Karten-ID\n- **D** – Titel der Karte\n- **E** – Permanenter Effekt, nutzbar sobald die Technologie entwickelt ist\n- **F** – Forschungs-Dauer (Runden): Anzahl der Felder, die das Forschungsplättchen vor den Runden-Anzeiger gelegt wird\n- **G** – Feld für Forschungsplättchen: bei Spielaufbau inaktiv (dunkle Seite), kann nur erforscht werden, wenn ihr eine Werkstatt habt",
+      "description": "",
+      "group": "karten",
+      "timing": [],
+      "tags": [
+        "Technologiekarten",
+        "Kartenanatomie",
+        "Anleitung S. 38"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 100100,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 38
+      }
+    },
+    {
+      "id": "expedition-beginnen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Eine Expedition beginnen",
+      "image": null,
+      "summary": "Zu Beginn des Spiels liegen Expeditionskarten in eurer Expeditions-Auslage. Jede dieser Karten stellt den Beginn eines einzelnen Expeditionspfades dar. Im Verlauf des Spiels kann jeder Expeditionspfad mit weiteren Karten verlängert oder gar komplett ersetzt werden.\n\nUm eine Expedition beginnen zu können, müsst ihr die Signalstation gebaut haben. Nur dann könnt ihr die Aktion Späher aussenden nutzen.\n\nSo lange eure Signalstation nicht ausgebaut ist, dürft ihr nur 1 aktive Expedition haben (nur 1 Späher darf unterwegs sein). Ist sie ausgebaut, dürft ihr bis zu 2 aktive Expeditionen haben.",
+      "description": "",
+      "group": "expeditionen",
+      "timing": [],
+      "tags": [
+        "Expedition",
+        "Signalstation",
+        "Expeditionspfad",
+        "Späher",
+        "Anleitung S. 35"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 110010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 35
+      }
+    },
+    {
+      "id": "spaeher-bewegen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Späher bewegen",
+      "image": null,
+      "summary": "Späher, die auf einem Expeditionspfad unterwegs sind, bewegen sich während der Wetter-Phase. Sie bewegen sich so viele Felder voran, wie im entsprechenden Abschnitt der Wetterkarte angegeben ist. Jeder Späher bewegt sich dabei entlang der gestrichelten Linie: von einem runden Feld zum nächsten, bis er das oberste (letzte) Feld des Expeditionspfades erreicht.\n\n**Erreicht ein Späher das oberste Feld eines Expeditionspfades?** Dann müsst ihr jetzt entscheiden, ob ihr den Ort umgehen oder den Ort erkunden wollt.",
+      "description": "Beispiel: Diese Wetterkarte gibt vor, dass alle Späher 3 Felder vorwärts ziehen.\n\nHinweis: Ihr könnt nur Orte auf mit A oder B gekennzeichneten Expeditionskarten umgehen. Orte auf mit C gekennzeichneten Karten oder auf Szenario-Expeditionskarten müsst ihr erkunden.",
+      "group": "expeditionen",
+      "timing": [],
+      "tags": [
+        "Späher",
+        "Expeditionspfad",
+        "Wetter-Phase",
+        "Anleitung S. 35"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 110020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 35
+      }
+    },
+    {
+      "id": "expeditionshinweise",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Expeditionshinweise",
+      "image": null,
+      "summary": "In der rechten oberen Ecke jeder Expeditionskarte zeigt ein Symbol an, welche Entlohnung den Späher am Ort dieser Karte wahrscheinlich erwartet. Dies sind jedoch nur grobe Richtlinien, und die tatsächliche Entlohnung kann ganz andere Dinge beinhalten:\n- [[icon:frostpunk:entlohnung-material]] Nahrung oder Rohstoffe wie Holz, Kohle oder Dampfkerne\n- [[icon:frostpunk:entlohnung-buerger]] Neue Bürger (einige davon vielleicht krank oder hungrig)\n- [[icon:frostpunk:entlohnung-gemischt]] Nahrung, Rohstoffe und/oder neue Bürger",
+      "description": "",
+      "group": "expeditionen",
+      "timing": [],
+      "tags": [
+        "Expedition",
+        "Entlohnung",
+        "Anleitung S. 35"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 110030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 35
+      }
+    },
+    {
+      "id": "ort-umgehen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Ort umgehen",
+      "image": null,
+      "summary": "Entscheidet ihr euch, den Ort einer Expeditionskarte (A oder B) zu umgehen, zieht 1 Expeditionskarte des nächsten Expeditionsstapels (auf A folgt B, auf B folgt C) und legt sie so auf die oberste Karte des aktiven Expeditionspfades, dass nur noch das erste Feld – das Startfeld – der darunter liegenden Karte zu sehen ist. Stellt den Späher dann auf das unterste Feld der neuen (oben liegenden) Expeditionskarte. Habt ihr noch Bewegungsschritte übrig, zieht den Späher dann die entsprechenden Felder auf dieser Karte vorwärts.",
+      "description": "Beispiel: Laut Wetterkarte habt ihr 2 Schritte. Der erste Schritt ist auf das letzte Feld des Expeditionspfades (Expeditionskarte A). Ihr entscheidet euch, den Ort zu umgehen. Zieht 1 Karte des nächsten Expeditionsstapels (B), legt sie auf die bereits ausliegende Karte. Den Späher stellt ihr auf das erste Feld der neuen Karte. Mit dem übrigen Schritt zieht ihr ihn noch 1 Feld voran.",
+      "group": "expeditionen",
+      "timing": [],
+      "tags": [
+        "Expedition",
+        "Ort umgehen",
+        "Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 110040,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 36
+      }
+    },
+    {
+      "id": "ort-erkunden",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Ort erkunden",
+      "image": null,
+      "summary": "Stellt zunächst den Späher neben den Expeditionspfad, und dreht dann die oberste Karte des Expeditionspfades (und nur diese!) auf die andere (schwarze) Seite. Lest sie euch durch – dann führt 1 Option der Karte aus. Jede Option ist immer mit 1 von 2 Möglichkeiten verbunden: die Expedition fortzusetzen oder zurückzukehren. Die Möglichkeit zurückzukehren, ist immer bei einer der Optionen gegeben.",
+      "description": "",
+      "group": "expeditionen",
+      "timing": [],
+      "tags": [
+        "Expedition",
+        "Ort erkunden",
+        "Expedition fortsetzen",
+        "Zurückkehren",
+        "Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 110050,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 36
+      }
+    },
+    {
+      "id": "expedition-fortsetzen",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Expedition fortsetzen",
+      "image": null,
+      "summary": "**Entscheidet ihr euch für eine Option, die angibt, die Expedition fortzusetzen?** Dann führt die folgenden Schritte aus:\n1. Legt die Expeditionskarte mit der schwarzen Seite nach oben auf den Expeditionspfad.\n2. Zieht 1 weitere Expeditionskarte vom Stapel, der angegeben ist (B oder C – abhängig davon, was unter dem Pfeil auf der Karte steht) und legt diese so auf den Expeditionspfad, dass der untere Teil der vorhergehenden Karte noch zu sehen ist. Stellt den Späher dann auf das unterste Feld der neuen (obersten) Expeditionskarte. Hattet ihr noch Bewegungsschritte übrig? Sie verfallen.\n\nAchtung: Sind bei der von euch gewählten Option Nahrung, Rohstoffe oder neue Bürger angegeben, ignoriert diese zunächst. Ihr erhaltet sie erst, wenn der Späher später zurückkehrt! Erst dann erhaltet ihr alle sichtbaren Effekte von allen unter der aktuellen Expeditionskarte liegenden Karten – alle bei denen ihr euch also für das Fortsetzen entschieden hattet.",
+      "description": "Beispiel: Ihr entscheidet euch, die Expedition fortzusetzen, zieht 1 weitere Expeditionskarte (B) vom Stapel und legt sie oben auf den Expeditionspfad. Dann stellt ihr den Späher auf das erste Feld der neuen Karte.",
+      "group": "expeditionen",
+      "timing": [],
+      "tags": [
+        "Expedition fortsetzen",
+        "Expeditionspfad",
+        "Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 110060,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 36
+      }
+    },
+    {
+      "id": "expedition-zurueckkehren",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Zurückkehren",
+      "image": null,
+      "summary": "**Entscheidet ihr euch für eine Option, die angibt, zurückzukehren?** Dann führt die folgenden Schritte aus:\n1. Stellt den Späher zurück in euer Lager.\n2. Führt den Effekt der von euch gewählten Option auf der aktuellen Expeditionskarte aus.\n3. Führt alle Effekte auf Expeditionskarten unter der aktuellen Karte aus, bei denen ihr euch entschieden hattet, die Expedition fortzusetzen (der untere Teil der schwarzen Seite ist sichtbar).\n\n**Steht unter dem Pfeil der gewählten Option „A, neu\"?** Dann entfernt alle Karten des Expeditionspfades (legt sie in die Schachtel zurück) und beginnt einen neuen Expeditionspfad, indem ihr 1 Karte des Stapels A zieht und mit der weißen Seite nach oben in eure Expeditions-Auslage legt.\n\n**Steht unter dem Pfeil der gewählten Option „B\" oder „C\"?** Dann:\n1. Zieht 1 Karte vom entsprechenden Stapel und legt sie zunächst (mit der weißen Seite oben) beiseite.\n2. Dreht alle Karten des Expeditionspfades zurück auf ihre weiße Seite und legt sie so übereinander, dass jeweils das erste Feld jeder Karte unten sichtbar ist.\n3. Legt dann die beiseite gelegte Karte obenauf, so dass auch das erste Feld der darunterliegenden Karte das erste Feld sichtbar bleibt.\n\nWenn ihr künftig wieder einen Späher auf diesem Expeditionspfad eine Expedition beginnen lasst, beginnt der Späher immer auf dem Startfeld der untersten Karte. Der Pfad führt also schrittweise über alle Startfelder der darüber liegenden Karten (der Weg ist länger, weil das Ziel weiter weg ist).",
+      "description": "Beispiel: Euer Späher hat das letzte Feld erreicht. Ihr erkundet den Ort: „Märchen gibt es hier nicht mehr.\" Ihr wählt dabei das Zurückkehren. Der Späher kommt ins Lager und ihr erhaltet 3 Holz und 2 Nahrung. Dann dreht ihr die Karte auf die weiße Seite zurück, legt 1 neue Karte B darauf und lasst das erste Feld darunter sichtbar. Ein neuer Späher beginnt hier.",
+      "group": "expeditionen",
+      "timing": [],
+      "tags": [
+        "Expedition zurückkehren",
+        "Lager",
+        "Entlohnung",
+        "Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 110070,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 36
+      }
+    },
+    {
+      "id": "automata",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Automata",
+      "image": null,
+      "summary": "[[icon:frostpunk:automaton]] Automata könnt ihr in der Fabrik herstellen. Es gibt aber auch andere Wege, auf denen ihr an Automata kommen könnt.\n\nErhaltet ihr 1 Automaton? Dann nehmt 1 passende Figur aus dem Vorrat und legt sie in euer Lager.\n\nWährend der Aktionen-Phase könnt ihr Aktionen mit einem Automaton ausführen. Um 1 Automaton für deinen Zug zu nutzen, musst du 1 [[icon:frostpunk:kohle]] Kohle dafür verbrauchen. Dann darfst du damit Aktionen ausführen, wie wenn das Automaton ein [[icon:frostpunk:arbeiter]] Arbeiter wäre. Sie zählen jedoch nicht als Bürger-Figuren, werden nicht krank und benötigen weder Nahrung noch Schlafplätze.\n\nEs gelten noch folgende Einschränkungen:\n- Automata können bei Gebäude-Aktionen nur die nutzen, die auch ein Arbeiter nutzen könnte.\n- Automata können keine Späher werden.\n- Automata können keine Spezial-Aktionen von Ereignis- und Szenariokarten nutzen.",
+      "description": "Hinweis: Die Anzahl an Automata ist im Spiel auf 6 begrenzt. Befinden sich keine Figuren mehr im Vorrat, könnt ihr keinen weiteren erhalten. Und falls ein Effekt euch anweist, einen Automaton an eine bestimmte Stelle zu platzieren, es befindet sich aber keiner mehr im Vorrat, müsst ihr stattdessen eines aus eurem Lager nehmen.",
+      "group": "automata",
+      "timing": [],
+      "tags": [
+        "Automata",
+        "Fabrik",
+        "Kohle",
+        "Anleitung S. 39"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 120010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 39
+      }
+    },
+    {
+      "id": "jungarbeiter-jungingenieur",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Jungarbeiter und Jungingenieur",
+      "image": null,
+      "summary": "Während des Spiels ist es möglich, dass ihr durch eine Ereigniskarte einen Jungarbeiter oder einen Jungingenieur erhaltet. Diese Bürger zählen für alle Belange als [[icon:frostpunk:kind]] Kinder. Ihr könnt sie allerdings für Aktionen einsetzen, für die ihr normalerweise einen Arbeiter bzw. Ingenieur benötigen würdet (unabhängig davon, ob ihr sonst Kinder einsetzen könnt oder nicht).",
+      "description": "",
+      "group": "automata",
+      "timing": [],
+      "tags": [
+        "Jungarbeiter",
+        "Jungingenieur",
+        "Kinder",
+        "Anleitung S. 39"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 120020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 39
+      }
+    },
+    {
+      "id": "angrenzende-felder",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Angrenzende Felder",
+      "image": null,
+      "summary": "Manche Effekte beziehen sich auf angrenzende Felder. Ein Feld eines Sektors gilt als angrenzend an:\n- Jedes andere Feld desselben Sektors.\n- Die Felder des Generator-Sektors, mit denen sich der Sektor des Feldes eine Kante teilt.\n- Alle Felder jedes anderen Sektors, der sich eine Kante mit dem Sektor teilt, auf dem sich das Feld befindet.",
+      "description": "Achtung: Der Generator-Sektor selbst ist besonders! Er zählt nicht als „normaler\" Sektor – seine Felder sind also nicht alle zueinander angrenzend!\n\nBeispiel: Alle blaugepunkteten Felder sind angrenzend zu dieser Sammelstelle (1).\n\nBeispiel: Diese Sammelstelle (2) liegt auf dem Generator-Sektor, und alle Felder dieser beiden Sektoren sind angrenzend.",
+      "group": "felder",
+      "timing": [],
+      "tags": [
+        "Angrenzend",
+        "Felder",
+        "Sektoren",
+        "Anleitung S. 40"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 130010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 40
+      }
+    },
+    {
+      "id": "angrenzend-an-generator-sektor",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Angrenzend an den Generator-Sektor",
+      "image": null,
+      "summary": "Teilt sich ein innerer Sektor mindestens 1 Kante mit dem Generator-Sektor, befinden sich unter normalen Umständen entweder 1 Feld (wenn der Sektor an einer äußeren Kante liegt) oder 2 Felder (wenn der Sektor an zwei Kanten anliegt) des Generator-Sektors angrenzend zu diesem inneren Sektor. Innere Sektoren, die an Kanten des Bereiches mit dem Schubfach des Generators liegen, grenzen natürlich an 1 Feld weniger an (der Bereich mit dem Schubfach zählt nicht als Feld!).",
+      "description": "Beispiel: Sammelstelle A grenzt an 2 Felder des Generator-Sektors an. Sammelstelle B grenzt an 1 Feld des Generator-Sektors an. Sammelstelle C grenzt an 1 Feld des Generator-Sektors an. Sammelstelle D grenzt an keines der Felder des Generator-Sektors an.",
+      "group": "felder",
+      "timing": [],
+      "tags": [
+        "Angrenzend",
+        "Generator-Sektor",
+        "Anleitung S. 40"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 130020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 40
+      }
+    },
+    {
+      "id": "angrenzend-an-umrandung",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Angrenzend an die Spielplan-Umrandung",
+      "image": null,
+      "summary": "Die Felder eines Sektors gelten als angrenzend an ein Holz-/Kohlevorkommen auf der Umrandung oder dort liegende Rohstoffe, wenn sich zwischen dem Sektor und dem Vorkommen/den Rohstoffen eine geteilte Kante befindet.",
+      "description": "Beispiel: Dieser Sektor (4) grenzt an beide Rohstoff-Felder an, weil er sich mit beiden eine Kante teilt.\n\nBeispiel: Dieser Sektor (3) grenzt an das Kohlevorkommen an, weil er sich mit ihm eine Kante teilt.",
+      "group": "felder",
+      "timing": [],
+      "tags": [
+        "Angrenzend",
+        "Spielplan-Umrandung",
+        "Rohstoffvorkommen",
+        "Anleitung S. 40"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 130030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 40
+      }
+    },
+    {
+      "id": "limits-bevoelkerung",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Bevölkerung",
+      "image": null,
+      "summary": "Die maximale Anzahl an Bürgern jeder Art ([[icon:frostpunk:arbeiter]]/[[icon:frostpunk:ingenieur]]/[[icon:frostpunk:kind]]) ist 50. Würdet ihr darüber hinaus weitere Bürger einer Art bekommen, wählt stattdessen eine andere Art Bürger und erhöht deren Anzahl.",
+      "description": "Beispiel: Ihr habt 45 Arbeiter und führt einen Effekt aus, durch den ihr 7 weitere Arbeiter erhalten würdet. Ihr könnt aber nur noch 5 weitere aufnehmen. Daher erhöht ihr die Anzahl eurer Arbeiter auf 50, und könnt dann entweder noch 2 Ingenieure, 2 Kinder, oder jeweils 1 addieren.",
+      "group": "limits",
+      "timing": [],
+      "tags": [
+        "Limits",
+        "Bevölkerung",
+        "Bürger",
+        "Anleitung S. 44"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 140010,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 44
+      }
+    },
+    {
+      "id": "limits-nahrung-hunger",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Nahrung und Hunger",
+      "image": null,
+      "summary": "**Nahrung:** Ihr könnt nie mehr als 50 [[icon:frostpunk:nahrung]] Nahrung besitzen. Nahrung, die ihr darüber hinaus erhalten würdet, verfällt.\n\n**Hunger:** Der [[icon:frostpunk:hunger]] Hunger eurer Bürger kann den Wert 50 nie übersteigen. Müsstet ihr den Hunger weiter erhöhen, ignoriert dies einfach.",
+      "description": "",
+      "group": "limits",
+      "timing": [],
+      "tags": [
+        "Limits",
+        "Nahrung",
+        "Hunger",
+        "Anleitung S. 44"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 140020,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 44
+      }
+    },
+    {
+      "id": "limits-rohstoffe",
+      "type": "reference",
+      "category": "regeln",
+      "name": "Rohstoffe, Bäume und Felder",
+      "image": null,
+      "summary": "**Rohstoffe:** [[icon:frostpunk:holz]] Holz, [[icon:frostpunk:kohle]] Kohle und [[icon:frostpunk:dampfkern]] Dampfkerne gelten als unbegrenzt verfügbar. Sollte euch einmal das Spielmaterial ausgehen, nutzt bitte passendes Ersatzmaterial. [[icon:frostpunk:stahl]] Stahl ist jedoch auf das Spielmaterial begrenzt (8). Würdet ihr weiteren Stahl erhalten, ignoriert dies einfach.\n\n**Bäume:** [[icon:frostpunk:baum]] Bäume sind auf das Spielmaterial begrenzt (30). Müsstet ihr weitere Bäume auf den Spielplan stellen, befinden sich aber keine mehr im Vorrat, ignoriert dies einfach.\n\n**Felder (auf Sektoren):** Jeder Sektor hat 2 Felder (Ausnahme: Generator-Sektor, einige besondere Sektoren in Szenarien). Auf jedem dieser Felder können maximal 5 Rohstoffe einer einzigen Sorte liegen. Ihr könnt nie mehr als 1 Gebäude auf einem Feld bauen (und manche benötigen 2 Felder).",
+      "description": "",
+      "group": "limits",
+      "timing": [],
+      "tags": [
+        "Limits",
+        "Rohstoffe",
+        "Stahl",
+        "Bäume",
+        "Felder",
+        "Anleitung S. 44"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "sort_order": 140030,
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 44
+      }
+    }
+  ]
+}

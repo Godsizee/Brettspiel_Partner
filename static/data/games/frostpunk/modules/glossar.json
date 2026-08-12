@@ -1,0 +1,2869 @@
+{
+  "groups": [
+    {
+      "id": "a-d",
+      "title": "A – D",
+      "order": 10
+    },
+    {
+      "id": "e-h",
+      "title": "E – H",
+      "order": 20
+    },
+    {
+      "id": "i-o",
+      "title": "I – O",
+      "order": 30
+    },
+    {
+      "id": "p-s",
+      "title": "P – S",
+      "order": 40
+    },
+    {
+      "id": "t-z",
+      "title": "T – Z",
+      "order": 50
+    }
+  ],
+  "entries": [
+    {
+      "id": "abreissen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Abreißen",
+      "image": null,
+      "summary": "Entfernt das Gebäude und legt es auf das Gebäude-Tableau zurück (oder darunter). Gebäude mit [[icon:frostpunk:nicht-zerstoerbar]] können nicht abgerissen werden.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 26"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 26
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "aeusserer-sektor",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Äußerer Sektor",
+      "image": null,
+      "summary": "Eine von zwei Arten von Spielplan-Teilen. Darf während einer Partie nicht angrenzend zum Generator-Sektor platziert werden.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 25"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 25
+      },
+      "sort_order": 20
+    },
+    {
+      "id": "aktivieren",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Aktivieren",
+      "image": null,
+      "summary": "Dreht 1 erschöpfte [[icon:frostpunk:hoffnung]] Hoffnung oder [[icon:frostpunk:unzufriedenheit]] Unzufriedenheit um (auf die helle, aktive Seite).",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 17"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 17
+      },
+      "sort_order": 30
+    },
+    {
+      "id": "anfuehrer",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Anführer",
+      "image": null,
+      "summary": "Du bist der Startspieler. Du entscheidest auch in Situationen, in denen ihr euch nicht einigen könnt.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 15"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 15
+      },
+      "sort_order": 40
+    },
+    {
+      "id": "anzeiger-generatorleistung",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Anzeiger für Generatorleistung",
+      "image": null,
+      "summary": "Auf der Heiz-Leiste. Für jede [[icon:frostpunk:kohle]] Kohle, die ihr verbraucht, um den Generator zu befeuern, wird er um 1 Feld nach oben bewegt.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 20"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 20
+      },
+      "sort_order": 50
+    },
+    {
+      "id": "anzeiger-individueller-nahrungsbedarf",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Anzeiger für individuellen Nahrungsbedarf",
+      "image": null,
+      "summary": "Bisher ohne zugeordnete Funktion. Für Fan-Szenarien und ggf. zukünftige Szenarien-Erweiterungen.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 7"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 7
+      },
+      "sort_order": 60
+    },
+    {
+      "id": "aufgaben-spielerhilfen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Aufgaben-Spielerhilfen",
+      "image": null,
+      "summary": "Doppelseitige Übersichten. Die Vorderseite zeigt einen Teil der auf alle 4 Berater aufgeteilten Aufgaben zur Verwaltung und Ausführung der Spielabläufe. Auf der Rückseite findet sich die Übersicht über den Standard-Spielablauf.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 15"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 15
+      },
+      "sort_order": 70
+    },
+    {
+      "id": "glossar-ausbauen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Ausbauen",
+      "image": null,
+      "summary": "Dreht das Gebäude auf die ausgebaute Seite. Gebäude, deren Namen zwischen zwei Rauten steht, können nicht ausgebaut werden.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 41"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 41
+      },
+      "sort_order": 80
+    },
+    {
+      "id": "glossar-arbeiter",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Arbeiter",
+      "image": null,
+      "summary": "Eine Art [[icon:frostpunk:arbeiter]] Bürger.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Szenarien-Anleitung S. 30"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 30
+      },
+      "sort_order": 90
+    },
+    {
+      "id": "glossar-automaton",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Automaton",
+      "image": null,
+      "summary": "Ihr müsst 1 [[icon:frostpunk:kohle]] Kohle verbrauchen, um ihn für eine Aktion zu nutzen. Kann dabei genutzt werden, wie wenn er ein Arbeiter wäre.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 39"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 39
+      },
+      "sort_order": 100
+    },
+    {
+      "id": "glossar-baum",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Baum",
+      "image": null,
+      "summary": "Bäume sind Rohstoff. Aktionen oder Effekte können sie nutzen.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 44"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 44
+      },
+      "sort_order": 110
+    },
+    {
+      "id": "glossar-behandeln",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Behandeln",
+      "image": null,
+      "summary": "Dreht 1 [[icon:frostpunk:krankheits-anzeiger-schwer]] Krankheits-Anzeiger von schwer krank zu leicht krank, ohne dass dabei ein Bürger stirbt.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 31"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 31
+      },
+      "sort_order": 120
+    },
+    {
+      "id": "glossar-beheizt",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Beheizt",
+      "image": null,
+      "summary": "Ist ein Gebäude oder Sektor beheizt, werden Bürger, die dort eine Aktion ausführen, nicht krank. Beheizte Unterkünfte bieten in der Nacht-Phase Schlafplätze.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 23"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 23
+      },
+      "sort_order": 130
+    },
+    {
+      "id": "belastungsleiste",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Belastungsleiste",
+      "image": null,
+      "summary": "Auf dem Generator-Tableau. 10 kleine Felder sowie ein Überlast-Feld, auf die Belastungswürfel gelegt werden. Liegen Belastungswürfel im Überlast-Feld, kommt es zu einem Störfall.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 20"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 20
+      },
+      "sort_order": 140
+    },
+    {
+      "id": "belastungslevel-generators",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Belastungslevel des Generators",
+      "image": null,
+      "summary": "Je mehr Belastungswürfel auf der Belastungsleiste liegen, umso höher ist das Belastungslevel des Generators.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 20"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 20
+      },
+      "sort_order": 150
+    },
+    {
+      "id": "belastungswuerfel",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Belastungswürfel",
+      "image": null,
+      "summary": "Kohlewürfel, die nach dem Einwerfen aus dem Generator fallen (bzw. im Schubfach sind) und direkt durch Effekte auf die Belastungsleiste gelegt werden.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 20"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 20
+      },
+      "sort_order": 160
+    },
+    {
+      "id": "glossar-beraterkarten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Beraterkarten",
+      "image": null,
+      "summary": "Jeder Spieler hat eine Beraterkarte mit einzigartiger Fähigkeit. Maximal 1 Berater kann während der Vorbereitungen-Phase genutzt werden. Die Karte „Ein Weckruf für alle\" wird nur im Solo-Spiel genutzt.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 22
+      },
+      "sort_order": 170
+    },
+    {
+      "id": "besetzt-unbesetzt",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Besetzt / Unbesetzt",
+      "image": null,
+      "summary": "Ein Gebäude oder Sektor-Feld mit mindestens 1 Figur darauf ist besetzt. Ein Gebäude oder Sektor-Feld ohne Figur darauf ist unbesetzt.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Szenarien-Anleitung S. 30"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 30
+      },
+      "sort_order": 180
+    },
+    {
+      "id": "bevoelkerungs-leiste",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Bevölkerungs-Leiste",
+      "image": null,
+      "summary": "Auf dem Bevölkerungs-Tableau. Hier finden sich die Bürger-Anzeiger und die Krankheits-Anzeiger (jeweils für alle 3 Bürger-Arten).",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 22
+      },
+      "sort_order": 190
+    },
+    {
+      "id": "bevoelkerungs-tableau",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Bevölkerungs-Tableau",
+      "image": null,
+      "summary": "Zeigt die Bevölkerungs- und die Nahrungs-Leiste.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 11"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 11
+      },
+      "sort_order": 200
+    },
+    {
+      "id": "glossar-buerger",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Bürger",
+      "image": null,
+      "summary": "Die Bewohner eurer Stadt. Es gibt 3 Arten von Bürgern – Arbeiter, Ingenieure und Kinder.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 210
+    },
+    {
+      "id": "buerger-anzeiger",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Bürger-Anzeiger",
+      "image": null,
+      "summary": "Auf der Bevölkerungs-Leiste. Zeigen an, wie viele Bürger jeder Art (Arbeiter, Ingenieure und Kinder) in eurer Siedlung sind. Über der Position jedes Bürger-Anzeigers steht die Anzahl der euch zur Verfügung stehenden Bürgerfiguren dieser Art.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 220
+    },
+    {
+      "id": "buerger-erschoepft-plaettchen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "„Bürger erschöpft\"-Plättchen",
+      "image": null,
+      "summary": "Unbestimmt. Gibt es als [[icon:frostpunk:arbeiter-erschoepft]] Arbeiter erschöpft, [[icon:frostpunk:ingenieur-erschoepft]] Ingenieur erschöpft oder [[icon:frostpunk:kind-erschoepft]] Kind erschöpft. Bei „Bürger erschöpft dieser Wahl\" dürft ihr bestimmen, welche angezeigte Art ihr nehmt. Diese Plättchen werden in das Lager gelegt. Jedes Plättchen führt dazu, dass 1 entsprechender Bürger 1 Runde lang nicht eingesetzt werden kann.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 22
+      },
+      "sort_order": 230
+    },
+    {
+      "id": "buerger-figuren",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Bürger-Figuren",
+      "image": null,
+      "summary": "Es gibt Arbeiter-Figuren, Ingenieur-Figuren, Kind-Figuren und die Jungarbeiter- und Jungingenieur-Figuren. (Die Figuren sind aus Holz, außer sie besitzen das Upgrade auf Plastikminiaturen.) Jede Bürger-Figur repräsentiert ein Grüppchen von Bürgern ihrer Art – Arbeiter (orange), Ingenieure (blau) oder Kinder (grün). Automata sind keine Bürger-Figuren.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 22
+      },
+      "sort_order": 240
+    },
+    {
+      "id": "glossar-buergerkarten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Bürgerkarten",
+      "image": null,
+      "summary": "Ihr könnt Bürgerkarten ausspielen, um ihre Fähigkeit zu nutzen (je Spieler maximal 1x pro Runde), oder sie für ihren Todesfall-Effekt abwerfen.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 15"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 15
+      },
+      "sort_order": 250
+    },
+    {
+      "id": "daemmerungskarten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Dämmerungskarten",
+      "image": null,
+      "summary": "Ein Typ Ereigniskarten. Es gibt vier Arten von Dämmerungskarten – die Startkarte („Es ist unvermeidbar!\"), Standardkarten, Disputkarten und Gesetz-Konsequenzkarten.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 27"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 27
+      },
+      "sort_order": 260
+    },
+    {
+      "id": "daemmerungsstapel",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Dämmerungsstapel",
+      "image": null,
+      "summary": "Auf dem Dämmerungs-Tableau. Deckt in der Dämmerungs-Phase die oberste Karte auf.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 27"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 27
+      },
+      "sort_order": 270
+    },
+    {
+      "id": "daemmerungs-tableau",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Dämmerungs-Tableau",
+      "image": null,
+      "summary": "Für den Dämmerungsstapel, den zugehörigen Ablagestapel und die Disputkarten.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 14"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 14
+      },
+      "sort_order": 280
+    },
+    {
+      "id": "glossar-dampfkern",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Dampfkern",
+      "image": null,
+      "summary": "Rohstoff. Wird benötigt, um Gebäude oder den Generator-Turm auszubauen, oder um Automata herzustellen.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 290
+    },
+    {
+      "id": "dieser-wahl",
+      "type": "reference",
+      "category": "glossar",
+      "name": "…dieser Wahl",
+      "image": null,
+      "summary": "Wählt 1 der gezeigten Möglichkeiten.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Szenarien-Anleitung S. 30"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 30
+      },
+      "sort_order": 300
+    },
+    {
+      "id": "disputkarten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Disputkarten",
+      "image": null,
+      "summary": "Eine Art von Dämmerungskarten. Es ist immer genau 1 Disputkarte im Dämmerungsstapel.",
+      "description": "",
+      "group": "a-d",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 27"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 27
+      },
+      "sort_order": 310
+    },
+    {
+      "id": "ereignis-auslage",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Ereignis-Auslage",
+      "image": null,
+      "summary": "Hier werden Ereigniskarten ausgelegt. Einige davon haben Spezial-Aktion-Felder und/oder besondere Effekte, die während bestimmter Phasen aktiviert werden.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 19"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 19
+      },
+      "sort_order": 320
+    },
+    {
+      "id": "ereigniskarten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Ereigniskarten",
+      "image": null,
+      "summary": "Morgenkarten und Dämmerungskarten.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 34"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 34
+      },
+      "sort_order": 330
+    },
+    {
+      "id": "erhalten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Erhalten",
+      "image": null,
+      "summary": "Ein Effekt gibt euch gesunde oder kranke Bürger (Anzeiger anpassen), Nahrung (Anzeiger anpassen), oder Rohstoffe, Automata, Plättchen (aus dem Vorrat – in euer Lager legen).",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 340
+    },
+    {
+      "id": "erhoehen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Erhöhen",
+      "image": null,
+      "summary": "Zieht 1 neue [[icon:frostpunk:hoffnung]] Hoffnung bzw. [[icon:frostpunk:unzufriedenheit]] Unzufriedenheit (erschöpft auf die Leiste), oder aktiviert 1 erschöpfte auf der Leiste. Müsst ihr eine bestimmte Art Hoffnung oder Unzufriedenheit erhöhen, zieht ihr 1 neue aus dem Beutel und legt sie auf die Leiste und aktiviert dann 1 der genannten Art (falls möglich).",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 17"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 17
+      },
+      "sort_order": 350
+    },
+    {
+      "id": "errichten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Errichten",
+      "image": null,
+      "summary": "Legt ein Gebäude auf 1-2 Felder, auf denen sich weder eine Figur noch ein anderes Gebäude befindet (Baukosten bezahlen).",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 26"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 26
+      },
+      "sort_order": 360
+    },
+    {
+      "id": "erschoepfen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Erschöpfen",
+      "image": null,
+      "summary": "Dreht 1 aktive [[icon:frostpunk:hoffnung]] Hoffnung oder [[icon:frostpunk:unzufriedenheit]] Unzufriedenheit um (auf die dunkle Seite).",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 17"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 17
+      },
+      "sort_order": 370
+    },
+    {
+      "id": "expedition-fortsetzen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Expedition fortsetzen",
+      "image": null,
+      "summary": "Eine neue Expeditionskarte (B oder C) wird dem Expeditionspfad hinzugefügt, und der Späher bleibt auf dem Pfad. Entlohnungen für erforschte Orte gibt es erst bei der Rückkehr in die Stadt.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 380
+    },
+    {
+      "id": "expeditions-auslage",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Expeditions-Auslage",
+      "image": null,
+      "summary": "Hier liegen die Expeditionspfade (normalerweise 3).",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 390
+    },
+    {
+      "id": "expeditionskarten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Expeditionskarten",
+      "image": null,
+      "summary": "Unterteilt in die Kategorien A, B und C. Eine einzelne oder mehrere übereinander liegende Expeditionskarten bilden einen Expeditionspfad.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 26"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 26
+      },
+      "sort_order": 400
+    },
+    {
+      "id": "expeditionspfad",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Expeditionspfad",
+      "image": null,
+      "summary": "In der Expeditions-Auslage. Jeder Expeditionspfad besteht aus einer oder mehreren Expeditionskarten.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 410
+    },
+    {
+      "id": "feld-auf-sektoren",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Feld (auf Sektoren)",
+      "image": null,
+      "summary": "Ein Bereich eines Sektors, auf dem sich Rohstoffe oder Bäume befinden können, und auf dem ihr Gebäude errichten und Aktionen ausführen könnt. Innere und äußere Sektoren haben je 2 Felder, der Generator-Sektor hat 5.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 25"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 25
+      },
+      "sort_order": 420
+    },
+    {
+      "id": "forschungsplaettchen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Forschungsplättchen",
+      "image": null,
+      "summary": "Auf den Technologie-Karten. Auf unerforschten Technologien ist das Forschungsplättchen inaktiv (dunkle Seite), auf erforschten Technologien aktiv (helle Seite). Während an einer Technologie geforscht wird, liegt das Forschungsplättchen auf der Rundenleiste.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 430
+    },
+    {
+      "id": "frostland",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Frostland",
+      "image": null,
+      "summary": "Das Land jenseits der Grenzen eurer Stadt. Ihr könnt Expeditionen losschicken, um es zu erkunden.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Szenarien-Anleitung S. 31"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 31
+      },
+      "sort_order": 440
+    },
+    {
+      "id": "glossar-gebaeude",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Gebäude",
+      "image": null,
+      "summary": "Es gibt kleine und große Gebäude, Unterkünfte sowie Spezialgebäude. Letztere kommen durch Gesetze oder Szenariokarten ins Spiel. Einmal gebaut, bieten die meisten Gebäude Aktionsmöglichkeiten. Einige haben passive Effekte. Kleine Gebäude werden auf 1 Feld errichtet, große auf 2 Feldern desselben Sektors.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 26"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 26
+      },
+      "sort_order": 450
+    },
+    {
+      "id": "generator-leiste",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Generator-Leiste",
+      "image": null,
+      "summary": "Auf dem Generator-Tableau. Hier liegen die 3 Heizreichweite-Anzeiger. Liegt der Anzeiger für Generatorleistung höher als ein oder mehrere Symbole der Heizreichweite-Anzeiger, sind alle Gebäude mit Wärmedämmungs-Level der entsprechenden Farbe oder Sektoren der entsprechenden Zone beheizt.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 20"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 20
+      },
+      "sort_order": 460
+    },
+    {
+      "id": "generator-sektor",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Generator-Sektor",
+      "image": null,
+      "summary": "Spielplan-Teil, auf dem sich der Generator-Turm, das Generator-Gebäude, die Plattform und 5 Felder befinden (auf einem davon liegt das Speisehaus).",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 9"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 9
+      },
+      "sort_order": 470
+    },
+    {
+      "id": "generator-tableau",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Generator-Tableau",
+      "image": null,
+      "summary": "Zeigt die Belastungsleiste, die Heiz-Leiste und die Generator-Leiste. Hier liegt auch der Wetterstapel und der zugehörige Ablagestapel.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 14"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 14
+      },
+      "sort_order": 480
+    },
+    {
+      "id": "gesetzentwurfs-auslage",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Gesetzentwurfs-Auslage",
+      "image": null,
+      "summary": "Hier befinden sich die Stapel der Gesetzeskarten, die ihr verabschieden könnt, sowie der Stapel der zugehörigen Gesetz-Konsequenzkarten.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 13"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 13
+      },
+      "sort_order": 490
+    },
+    {
+      "id": "gesetzes-auslage",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Gesetzes-Auslage",
+      "image": null,
+      "summary": "Hier werden verabschiedete Gesetze ausgelegt. Ihr könnt maximal 4 Gesetze verabschieden.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 37"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 37
+      },
+      "sort_order": 500
+    },
+    {
+      "id": "glossar-gesetzeskarten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Gesetzeskarten",
+      "image": null,
+      "summary": "Stellen Gesetze dar, die mit einer Aktion auf der Plattform verabschiedet werden können.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 13"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 13
+      },
+      "sort_order": 510
+    },
+    {
+      "id": "gesetz-verabschieden",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Gesetz verabschieden",
+      "image": null,
+      "summary": "Die Aktion der Plattform ermöglicht euch, aus den Gesetzen in der Gesetzentwurfs-Auslage 1 zu wählen und in die Gesetzes-Auslage zu legen. Die Effekte der Karte sind sofort aktiv. Denkt daran, 1 zugehörige Gesetz-Konsequenzkarte in den Dämmerungsstapel zu mischen.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 37"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 37
+      },
+      "sort_order": 520
+    },
+    {
+      "id": "gleich-haeufig",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Gleich häufig: das Erste von oben",
+      "image": null,
+      "summary": "Kommt es zu einem Gleichstand beim Vergleich von Häufigkeiten bei Arten von Hoffnung, Unzufriedenheit, oder beidem, zählt immer die am Gleichstand beteiligte Art, die in der Liste weiter oben steht (falls nicht anders angegeben).",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Szenarien-Anleitung S. 33"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 33
+      },
+      "sort_order": 530
+    },
+    {
+      "id": "glossar-heilen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Heilen",
+      "image": null,
+      "summary": "Zieht Krankheits-Anzeiger (in beliebiger Kombination) auf der Bevölkerungs-Leiste um die angegebene Anzahl Felder zurück.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 30"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 30
+      },
+      "sort_order": 540
+    },
+    {
+      "id": "heiz-leiste",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Heiz-Leiste",
+      "image": null,
+      "summary": "Auf dem Generator-Tableau. Dort liegen der Anzeiger für Generatorleistung und der Kälte-Anzeiger. Befindet sich der Anzeiger für Generatorleistung mehr als 1 Feld unter dem Kälte-Anzeiger, werden Bürger krank (abhängig von den Symbolen zwischen den beiden Anzeigern).",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 20"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 20
+      },
+      "sort_order": 550
+    },
+    {
+      "id": "heizreichweite-anzeiger",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Heizreichweite-Anzeiger",
+      "image": null,
+      "summary": "Auf der Generator-Leiste. Zeigen die Farben von Wärmedämmung oder eine beheizbare Zone des Spielplans. Liegt der Anzeiger für Generatorleistung weiter oben als ein Heizreichweite-Anzeiger, sind alle entsprechenden Gebäude (mit diesem Wärmedämmungs-Level) oder Sektoren (in dieser Zone) beheizt.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 20"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 20
+      },
+      "sort_order": 560
+    },
+    {
+      "id": "hoffnungs-beutel",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Hoffnungs-Beutel",
+      "image": null,
+      "summary": "Aus diesem Beutel zieht ihr (normalerweise blind) neue [[icon:frostpunk:hoffnung]] Hoffnung. Entfernte kommt in ihn zurück.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 17"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 17
+      },
+      "sort_order": 570
+    },
+    {
+      "id": "glossar-hoffnung",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Hoffnung",
+      "image": null,
+      "summary": "Repräsentiert die Hoffnung der Bürger. Es gibt 3 Arten von Hoffnung: [[icon:frostpunk:gerechtigkeit]] Gerechtigkeit, [[icon:frostpunk:fuersorge]] Fürsorge und [[icon:frostpunk:motivation]] Motivation. Sie ist aktiv, wenn sie die helle Seite zeigt, und erschöpft, wenn sie die dunkle Seite zeigt.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 17"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 17
+      },
+      "sort_order": 580
+    },
+    {
+      "id": "hoffnungs-leiste",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Hoffnungs-Leiste",
+      "image": null,
+      "summary": "Auf dem Stimmungs-Tableau. Eure aktiven und erschöpften Hoffnungsplättchen liegen hier.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 12"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 12
+      },
+      "sort_order": 590
+    },
+    {
+      "id": "glossar-holz",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Holz",
+      "image": null,
+      "summary": "Rohstoff. Wird benötigt, um Gebäude zu errichten oder auszubauen.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 600
+    },
+    {
+      "id": "holzvorkommen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Holzvorkommen",
+      "image": null,
+      "summary": "Siehe *→ Vorkommen*.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Szenarien-Anleitung S. 32"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 32
+      },
+      "sort_order": 610
+    },
+    {
+      "id": "hunger-anzeiger",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Hunger-Anzeiger",
+      "image": null,
+      "summary": "Auf der Nahrungs-Leiste. Zeigt den [[icon:frostpunk:hunger]] Hunger in eurer Stadt an.",
+      "description": "",
+      "group": "e-h",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 28"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 28
+      },
+      "sort_order": 620
+    },
+    {
+      "id": "glossar-ingenieur",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Ingenieur",
+      "image": null,
+      "summary": "Eine Art [[icon:frostpunk:ingenieur]] Bürger.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 630
+    },
+    {
+      "id": "id-karte",
+      "type": "reference",
+      "category": "glossar",
+      "name": "ID",
+      "image": null,
+      "summary": "Ordnungszahl der Karte, anhand derer sie leichter gefunden werden kann. Achtung: Zu jeder Gesetzeskarte (z. B. #G04) gehören immer 2 Gesetz-Konsequenzkarten (hier: #K04A / #K04B).",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Szenarien-Anleitung S. 31"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 31
+      },
+      "sort_order": 640
+    },
+    {
+      "id": "innerer-sektor",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Innerer Sektor",
+      "image": null,
+      "summary": "Eine von zwei Arten von zufällig platzierten Spielplan-Teilen. Muss angrenzend an den Generator-Sektor platziert werden. Ausnahme: Der Aufbau verschiedener Szenarien kann davon abweichen.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 25"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 25
+      },
+      "sort_order": 650
+    },
+    {
+      "id": "jungarbeiter-jungingenieur-glossar",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Jungarbeiter/Jungingenieur",
+      "image": null,
+      "summary": "Gelten für alle Belange als Kind, können aber wie ein Arbeiter bzw. Ingenieur für Aktionen eingesetzt werden (egal, ob ihr sonst Kinder einsetzen könnt oder nicht).",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 39"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 39
+      },
+      "sort_order": 660
+    },
+    {
+      "id": "kaelte-anzeiger",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Kälte-Anzeiger",
+      "image": null,
+      "summary": "Auf der Heiz-Leiste. Je höher dieser Anzeiger liegt, umso niedriger sind die Temperaturen.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 20"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 20
+      },
+      "sort_order": 670
+    },
+    {
+      "id": "glossar-kind",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Kind",
+      "image": null,
+      "summary": "Eine Art [[icon:frostpunk:kind]] Bürger.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 680
+    },
+    {
+      "id": "glossar-kohle",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Kohle",
+      "image": null,
+      "summary": "Ein Rohstoff. Wird benötigt, um den Generator oder Automata zu betreiben.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 690
+    },
+    {
+      "id": "kohlevorkommen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Kohlevorkommen",
+      "image": null,
+      "summary": "Siehe *→ Vorkommen*.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Szenarien-Anleitung S. 32"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 32
+      },
+      "sort_order": 700
+    },
+    {
+      "id": "gesetz-konsequenzkarten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Gesetz-Konsequenzkarten",
+      "image": null,
+      "summary": "Eine Art von Dämmerungskarten. Werden in den Dämmerungsstapel gemischt, wenn das zugehörige Gesetz (ID beachten) verabschiedet wird.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 13"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 13
+      },
+      "sort_order": 710
+    },
+    {
+      "id": "glossar-krank",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Krank",
+      "image": null,
+      "summary": "Wird ein Bürger krank oder erhaltet ihr kranke Bürger, bewegt den entsprechenden Krankheits-Anzeiger 1 bzw. die angegebene Anzahl Felder auf der Bevölkerungs-Leiste vor.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 720
+    },
+    {
+      "id": "glossar-krankheits-anzeiger",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Krankheits-Anzeiger",
+      "image": null,
+      "summary": "Auf der Bevölkerungs-Leiste. Zeigen an, wie viele Bürger jeder Art (Arbeiter, Ingenieure oder Kinder) krank sind. Liegt der Anzeiger oben, ist ein solcher Bürger schwer krank. Immer wenn ein schwer kranker Bürger auf leicht krank gedreht wird, stirbt er. Unter der Position jedes Krankheits-Anzeigers ist angegeben, wie oft ihr den jeweiligen Anzeiger in der Vorbereitungen-Phase umdrehen müsst, und die Anzahl an „Bürger erschöpft\"-Plättchen, die ihr erhaltet.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 730
+    },
+    {
+      "id": "glossar-lager",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Lager",
+      "image": null,
+      "summary": "Der Bereich des Lager-Tableaus, auf dem ihr verfügbare Rohstoffe, Bürger- und Automata-Figuren und „Bürger erschöpft\"-Plättchen aufbewahrt.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 12"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 12
+      },
+      "sort_order": 740
+    },
+    {
+      "id": "lager-tableau",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Lager-Tableau",
+      "image": null,
+      "summary": "Zeigt die Leichnams-Leiste und das Lager. Hier finden sich auch die Aktionsfelder für Schnee räumen und Bauen.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 11"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 11
+      },
+      "sort_order": 750
+    },
+    {
+      "id": "leichnams-anzeiger",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Leichnams-Anzeiger",
+      "image": null,
+      "summary": "Auf der Leichnams-Leiste. Zeigt die Anzahl der nicht begrabenen Toten an.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 30"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 30
+      },
+      "sort_order": 760
+    },
+    {
+      "id": "leichnams-leiste",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Leichnams-Leiste",
+      "image": null,
+      "summary": "Auf dem Lager-Tableau.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 11"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 11
+      },
+      "sort_order": 770
+    },
+    {
+      "id": "glossar-morgenkarten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Morgenkarten",
+      "image": null,
+      "summary": "Eine Sorte Ereigniskarten.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 19"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 19
+      },
+      "sort_order": 780
+    },
+    {
+      "id": "morgenstapel",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Morgenstapel",
+      "image": null,
+      "summary": "Auf dem Morgen-Tableau. Deckt in der Früher-Morgen-Phase die oberste Karte auf.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 13"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 13
+      },
+      "sort_order": 790
+    },
+    {
+      "id": "glossar-nahrung",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Nahrung",
+      "image": null,
+      "summary": "Wird auf der Nahrungs-Leiste angezeigt und benötigt, um eure Bürger zu ernähren und ihren Hunger zu stillen. Nahrung ist kein Rohstoff.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 11"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 11
+      },
+      "sort_order": 800
+    },
+    {
+      "id": "glossar-nahrungsfund",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Nahrungsfund",
+      "image": null,
+      "summary": "Auf Sektorfeldern angezeigte Nahrung, die ihr erhaltet, wenn ihr den Sektor platziert (oder beim Spielaufbau).",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 9"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 9
+      },
+      "sort_order": 810
+    },
+    {
+      "id": "nahrungs-anzeiger",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Nahrungs-Anzeiger",
+      "image": null,
+      "summary": "Auf der Nahrungs-Leiste. Zeigt an, wie viel Nahrung ihr besitzt.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 11"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 11
+      },
+      "sort_order": 820
+    },
+    {
+      "id": "nahrungs-leiste",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Nahrungs-Leiste",
+      "image": null,
+      "summary": "Auf dem Bevölkerungs-Tableau. Zeigt sowohl die Nahrung an, die ihr besitzt, als auch den Hunger in eurer Stadt.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 11"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 11
+      },
+      "sort_order": 830
+    },
+    {
+      "id": "ort-erkunden",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Ort erkunden",
+      "image": null,
+      "summary": "Dreht die oberste Karte des Expeditionspfades um und führt sie aus. Dann könnt ihr entweder zur Stadt zurückkehren oder (falls möglich) die Expedition fortsetzen.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 840
+    },
+    {
+      "id": "ort-umgehen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Ort umgehen",
+      "image": null,
+      "summary": "Zieht eine Expeditionskarte des nächsten Stapels (A→B→C), legt sie auf den Expeditionspfad (Startfeld der letzten Karte bleibt sichtbar) und setzt die Expedition auf dem Startfeld der neuen Karte fort. Falls ihr noch Bewegungsschritte übrig habt, bewegt den Späher entsprechend.",
+      "description": "",
+      "group": "i-o",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 850
+    },
+    {
+      "id": "glossar-phasen-anzeiger",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Phasen-Anzeiger",
+      "image": null,
+      "summary": "Auf der Phasenkarte. Zeigt an, in welcher Phase der aktuellen Runde ihr euch befindet.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 18"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 18
+      },
+      "sort_order": 860
+    },
+    {
+      "id": "randgebietsplaettchen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Randgebietsplättchen",
+      "image": null,
+      "summary": "Werden beim Spielaufbau auf der Spielplanumrandung gelegt. Zeigen an, wo sich Holz- oder Kohlevorkommen befinden.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 9"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 9
+      },
+      "sort_order": 870
+    },
+    {
+      "id": "glossar-rohstoffe",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Rohstoffe",
+      "image": null,
+      "summary": "Holz, Kohle, Dampfkerne und (in manchen Szenarien) Stahl.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 880
+    },
+    {
+      "id": "glossar-ruinen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Ruinen",
+      "image": null,
+      "summary": "Zerstörte Gebäude. Können abgerissen werden – legt sie dann in die Schachtel zurück. Bieten normalerweise keine Schlafplätze.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 21"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 21
+      },
+      "sort_order": 890
+    },
+    {
+      "id": "runden-anzeiger",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Runden-Anzeiger",
+      "image": null,
+      "summary": "Auf der Rundenleiste. Zeigt die aktuelle Runde an, aber auch, welche Art Bürger (Arbeiter, Ingenieure oder Kinder) von bestimmten Effekten betroffen ist.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 19"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 19
+      },
+      "sort_order": 900
+    },
+    {
+      "id": "rundenleiste",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Rundenleiste",
+      "image": null,
+      "summary": "Auf dem Runden-Tableau. Zeigt die aktuelle Runde an, und auch, wann der nächste Sturm kommt, wann Szenario-Effekte eintreten und wann Technologien entwickelt sind.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 19"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 19
+      },
+      "sort_order": 910
+    },
+    {
+      "id": "runden-tableau",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Runden-Tableau",
+      "image": null,
+      "summary": "Zeigt die Rundenleiste. Hier liegt auch der Morgenstapel.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 13"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 13
+      },
+      "sort_order": 920
+    },
+    {
+      "id": "glossar-schlafplatz",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Schlafplatz",
+      "image": null,
+      "summary": "Jeder Unterschlupf (Zelt, Baracke oder Haus) bietet, wenn er in der Nacht-Phase beheizt ist, 2 Schlafplätze für Bürgerfiguren.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 29"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 29
+      },
+      "sort_order": 930
+    },
+    {
+      "id": "schwer-krank",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Schwer krank",
+      "image": null,
+      "summary": "Zeigt der Krankheits-Anzeiger der entsprechenden Art schwer krank, ist ein Bürger der entsprechenden Art schwer krank. Wird der Krankheits-Anzeiger auf leicht krank gedreht, stirbt der schwer kranke Bürger (es sei denn, er wurde behandelt).",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 30"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 30
+      },
+      "sort_order": 940
+    },
+    {
+      "id": "schwierigkeitsgrad",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Schwierigkeitsgrad",
+      "image": null,
+      "summary": "Jede Startaufbau-Karte hat einen von zwei (mit Erweiterung „Streifzug ins Frostland\" drei) Schwierigkeitsgraden – normal oder schwer (oder Hartgesottene).",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 950
+    },
+    {
+      "id": "glossar-sektor",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Sektor",
+      "image": null,
+      "summary": "Spielplan-Teile, die beim Spielaufbau mit Schnee räumen platziert werden. Es gibt innere und äußere Sektoren sowie den Generator-Sektor.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 9"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 9
+      },
+      "sort_order": 960
+    },
+    {
+      "id": "glossar-senken",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Senken",
+      "image": null,
+      "summary": "Erschöpft 1 ausliegende Hoffnung bzw. Unzufriedenheit oder entfernt 1 erschöpfte und legt sie in den Beutel zurück.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 18"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 18
+      },
+      "sort_order": 970
+    },
+    {
+      "id": "glossar-spaeher",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Späher",
+      "image": null,
+      "summary": "Ein Arbeiter/Ingenieur auf einem Expeditionspfad.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 26"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 26
+      },
+      "sort_order": 980
+    },
+    {
+      "id": "glossar-spielplan",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Spielplan",
+      "image": null,
+      "summary": "Besteht aus der Spielplanumrandung und den platzierten Sektoren.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 9"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 9
+      },
+      "sort_order": 990
+    },
+    {
+      "id": "soforteffekt",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Soforteffekt",
+      "image": null,
+      "summary": "Effekt einer Karte, der ausgeführt wird, sobald vorgelesen wird (vor allen anderen Effekten und Entscheidungen). Auf den Karten oft auch zusätzlich mit „Sofort:\" markiert.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 19"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 19
+      },
+      "sort_order": 1000
+    },
+    {
+      "id": "spielplanumrandung",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Spielplanumrandung",
+      "image": null,
+      "summary": "Begrenzung des Spielplans, bestehend aus Puzzelteilen, die beim Spielaufbau nach Vorgabe zusammengesetzt werden.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 9"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 9
+      },
+      "sort_order": 1010
+    },
+    {
+      "id": "glossar-stahl",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Stahl",
+      "image": null,
+      "summary": "Rohstoff. Auf 8 begrenzt. Nur in bestimmten Szenarien verwendet. Ist ein Gebäude nur aus Stahl (gleiche Menge wie Holz) errichtet, baut ihr es sofort kostenlos aus.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 1020
+    },
+    {
+      "id": "startaufbau-karten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Startaufbau-Karten",
+      "image": null,
+      "summary": "Wird bei Spielaufbau ausgewählt. Zeigt die Anzahl eurer Bürger, Rohstoffe etc. zu Beginn des Spiels. Es gibt 6 unterschiedliche Ausrichtungen, in jeweils 2 (mit Erweiterung „Streifzug ins Frostland\" 3) Schwierigkeitsgraden.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 1030
+    },
+    {
+      "id": "glossar-startkosten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Startkosten",
+      "image": null,
+      "summary": "Nur bei Spielaufbau. Jeder Spieler wirft 1 seiner Bürgerkarten ab. Führt dann den Effekt aus, der in der rechten oberen Ecke der Karte angegeben ist. Später im Spiel haben diese Effekte auf Bürgerkarten keine Auswirkung mehr – ignoriert dies einfach.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 15"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 15
+      },
+      "sort_order": 1040
+    },
+    {
+      "id": "stimmungs-tableau",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Stimmungs-Tableau",
+      "image": null,
+      "summary": "Zeigt die Hoffnungs- und die Unzufriedenheits-Leiste.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 12"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 12
+      },
+      "sort_order": 1050
+    },
+    {
+      "id": "glossar-stoerfall",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Störfall",
+      "image": null,
+      "summary": "Liegen nach der Anpassung des Belastungslevels in der Generatorbetrieb-Phase Belastungswürfel im Überlast-Feld, kommt es zum Störfall. Beim ersten Störfall dreht ihr den Anzeiger für Generatorleistung auf die Überhitzungs-Seite, zieht den Kälte-Anzeiger und die Heizreichweite-Anzeiger je 1 Feld nach oben und entfernt alle Belastungswürfel von der Belastungsleiste. Kommt es zu einem zweiten Störfall, habt ihr das Spiel verloren.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 20"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 20
+      },
+      "sort_order": 1060
+    },
+    {
+      "id": "sturm-anzeiger",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Sturm-Anzeiger",
+      "image": null,
+      "summary": "Auf der Runden-Leiste. Zeigt an, wann der Sturm die Siedlung erreicht. Wird in jeder Runde rückwärts gezogen (abhängig von der Wetterkarte).",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 19"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 19
+      },
+      "sort_order": 1070
+    },
+    {
+      "id": "sturmkarte",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Sturmkarte",
+      "image": null,
+      "summary": "Pro Szenario zumeist 1 Sturmkarte (selten mehr). Gibt an, was geschieht, wenn ein Sturm eure Siedlung erreicht.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 21"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 21
+      },
+      "sort_order": 1080
+    },
+    {
+      "id": "szenario-auslage",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Szenario-Auslage",
+      "image": null,
+      "summary": "Hier liegen die Szenariokarten aus.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 15"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 15
+      },
+      "sort_order": 1090
+    },
+    {
+      "id": "glossar-szenariokarten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Szenariokarten",
+      "image": null,
+      "summary": "In der Szenario-Auslage. Beinhalten besondere Regeln oder Mechanismen, und geben an, wie ihr das Spiel gewinnt.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 15"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 15
+      },
+      "sort_order": 1100
+    },
+    {
+      "id": "glossar-szenarioplaettchen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Szenarioplättchen",
+      "image": null,
+      "summary": "Auf der Runden-Leiste. Zeigen euch, wann bestimmte Effekte von Szenariokarten eintreten. Liegt eine Szenariokarte mit einer Runden-Angabe aus, oder deckt ihr eine solche auf, legt ein Szenarioplättchen auf das entsprechende Rundenfeld.",
+      "description": "",
+      "group": "p-s",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 15"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 15
+      },
+      "sort_order": 1110
+    },
+    {
+      "id": "technologie-auslage",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Technologie-Auslage",
+      "image": null,
+      "summary": "Hier liegen eure 4 Technologiekarten aus.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 1120
+    },
+    {
+      "id": "glossar-technologiekarten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Technologiekarten",
+      "image": null,
+      "summary": "In der Technologie-Auslage. Ihr könnt nur die Effekte von Technologien nutzen, die bereits entwickelt wurden (aktives Forschungsplättchen darauf).",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 19"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 19
+      },
+      "sort_order": 1130
+    },
+    {
+      "id": "glossar-todesfall-effekt",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Todesfall-Effekt",
+      "image": null,
+      "summary": "Unterste Zeile jeder Bürgerkarte – je ein Effekt für Arbeiter, Ingenieure und Kinder. Stirbt ein Bürger, wendet ihr den passenden Effekt an. Die Karte wird entweder zufällig gezogen, oder ein Spieler kann eine seiner Bürgerkarten passen (muss dann zur Art des Verstorbenen passen).",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 30"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 30
+      },
+      "sort_order": 1140
+    },
+    {
+      "id": "ueberhitzungs-seite",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Überhitzungs-Seite",
+      "image": null,
+      "summary": "Unterseite des Anzeigers für Generatorleistung. Sichtbar, wenn ihr bereits einen Störfall hattet.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 20"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 20
+      },
+      "sort_order": 1150
+    },
+    {
+      "id": "glossar-unterkunft",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Unterkunft",
+      "image": null,
+      "summary": "Zelte, Baracken und Häuser sind Unterkünfte. Sind sie beheizt, bieten sie Bürgern Schlafplätze in der Nacht-Phase, und diese werden nicht krank.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 29"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 29
+      },
+      "sort_order": 1160
+    },
+    {
+      "id": "unzufriedenheits-beutel",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Unzufriedenheits-Beutel",
+      "image": null,
+      "summary": "Aus diesem Beutel zieht ihr (normalerweise blind) neue [[icon:frostpunk:unzufriedenheit]] Unzufriedenheit. Entfernte kommt in ihn zurück.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 12"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 12
+      },
+      "sort_order": 1170
+    },
+    {
+      "id": "unzufriedenheits-leiste",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Unzufriedenheits-Leiste",
+      "image": null,
+      "summary": "Auf dem Stimmungs-Tableau. Eure aktive und erschöpfte Unzufriedenheit liegt hier.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 12"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 12
+      },
+      "sort_order": 1180
+    },
+    {
+      "id": "glossar-unzufriedenheit",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Unzufriedenheit",
+      "image": null,
+      "summary": "Repräsentiert die Unzufriedenheit der Bürger. Es gibt 3 Arten von Unzufriedenheit: [[icon:frostpunk:wut]] Wut, [[icon:frostpunk:gier]] Gier und [[icon:frostpunk:apathie]] Apathie. Sie ist aktiv, wenn sie die helle Seite zeigt, und erschöpft, wenn sie die dunkle Seite zeigt.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 17"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 17
+      },
+      "sort_order": 1190
+    },
+    {
+      "id": "glossar-verbrauchen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Verbrauchen",
+      "image": null,
+      "summary": "Um einen Effekt zu nutzen/auszulösen, müsst ihr die angegebene Anzahl an Rohstoffen o. Ä. abgeben. Habt ihr nicht genug, könnt ihr den Effekt nicht nutzen/auslösen.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 1200
+    },
+    {
+      "id": "glossar-verlieren",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Verlieren",
+      "image": null,
+      "summary": "Weist ein Effekt euch an, eine bestimmte Anzahl an Rohstoffen o. Ä. zu verlieren, ihr habt aber nicht genug davon, verliert ihr nur, was ihr habt.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 1210
+    },
+    {
+      "id": "vorkommen",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Vorkommen",
+      "image": null,
+      "summary": "Holz- oder Kohlevorkommen, auf einigen Randgebietsplättchen abgebildet. Mit der Aktion einer Kohlemine erhaltet ihr Kohle von einem angrenzenden Kohlevorkommen. Mit der Aktion eines Mauerbohrers erhaltet ihr Holz von einem angrenzenden Holzvorkommen.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 40"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 40
+      },
+      "sort_order": 1220
+    },
+    {
+      "id": "glossar-vorrat",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Vorrat",
+      "image": null,
+      "summary": "Bereich, in dem Spielmaterial aufbewahrt wird, das euch derzeit (noch) nicht zur Verfügung steht.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 1230
+    },
+    {
+      "id": "waermedaemmungs-level",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Wärmedämmungs-Level",
+      "image": null,
+      "summary": "Gebäude haben einen Farbstreifen, der ihren Wärmedämmungs-Level anzeigt. Weiße Gebäude sind nie beheizt, blaue nur in einer beheizten Zone. Gelbe (schwach gedämmt), orange (gut gedämmt) und rote (bestens gedämmt) Gebäude sind beheizt, wenn sie in einer beheizten Zone liegen oder Gebäude mit ihrer Farbe beheizt sind.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 23"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 23
+      },
+      "sort_order": 1240
+    },
+    {
+      "id": "glossar-wetterkarten",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Wetterkarten",
+      "image": null,
+      "summary": "Zeigen die Bewegung von Kälte- und Heizreichweite-Anzeigern, die Bewegung der Expeditionen, die Bewegung des Sturm-Anzeigers sowie Nahrung, die ihr durch Tierfallen erhaltet.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 21"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 21
+      },
+      "sort_order": 1250
+    },
+    {
+      "id": "wetterstapel",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Wetterstapel",
+      "image": null,
+      "summary": "Auf dem Generator-Tableau. Deckt in der Wetter-Phase die oberste Karte auf.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 14"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 14
+      },
+      "sort_order": 1260
+    },
+    {
+      "id": "glossar-zerstoeren",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Zerstören",
+      "image": null,
+      "summary": "Weist ein Effekt euch an, ein Gebäude zu zerstören, entfernt es vom Spielplan und legt es auf das Gebäude-Tableau zurück. Gebäude mit [[icon:frostpunk:nicht-zerstoerbar]] können nicht zerstört werden.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 35"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 35
+      },
+      "sort_order": 1270
+    },
+    {
+      "id": "glossar-zone",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Zone",
+      "image": null,
+      "summary": "Ein beheizter Bereich des Spielplans (siehe Heizreichweite-Anzeiger). Die kleinste Zone (Zone A) besteht nur aus dem Generator-Sektor, die mittlere Zone (Zone B) aus dem Generator-Sektor und den angrenzenden Sektoren, und die größte Zone (Zone C) aus diesen Sektoren sowie den an diese angrenzenden Sektoren.",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 23"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 23
+      },
+      "sort_order": 1280
+    },
+    {
+      "id": "zurueckkehren",
+      "type": "reference",
+      "category": "glossar",
+      "name": "Zurückkehren",
+      "image": null,
+      "summary": "Stellt den Späher in euer Lager zurück. Dann erhaltet ihr die Entlohnung der gewählten Option auf der ausgeführten Karte. Ihr erhaltet außerdem alle sichtbaren Entlohnungen auf anderen, auf diesem Expeditionspfad bereits ausgeführten Karten. Dann zieht eine neue Expeditionskarte (wie auf der oben liegenden angegeben), legt sie als neuen Expeditionspfad in die Auslage und nehmt dann den aktuellen Expeditionspfad aus dem Spiel (in die Schachtel zurück).",
+      "description": "",
+      "group": "t-z",
+      "timing": [],
+      "tags": [
+        "Glossar",
+        "Anleitung S. 36"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 36
+      },
+      "sort_order": 1290
+    }
+  ]
+}

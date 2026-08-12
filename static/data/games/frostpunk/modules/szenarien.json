@@ -1,0 +1,1030 @@
+{
+  "groups": [
+    {
+      "id": "hinweise",
+      "title": "Allgemeine Hinweise",
+      "order": 5
+    },
+    {
+      "id": "der-krater",
+      "title": "Ein neues Zuhause: Der Krater (Standard)",
+      "order": 10
+    },
+    {
+      "id": "gefrorener-hain",
+      "title": "Ein neues Zuhause: Der gefrorene Hain",
+      "order": 20
+    },
+    {
+      "id": "stock-und-stein",
+      "title": "Ein neues Zuhause: Stock & Stein",
+      "order": 30
+    },
+    {
+      "id": "flaches-land",
+      "title": "Ein neues Zuhause: Flaches Land",
+      "order": 40
+    },
+    {
+      "id": "dreadnought",
+      "title": "Ein neues Zuhause: Der Dreadnought",
+      "order": 50
+    },
+    {
+      "id": "im-canyon",
+      "title": "Ein neues Zuhause: Im Canyon",
+      "order": 60
+    },
+    {
+      "id": "die-archen",
+      "title": "Die Archen",
+      "order": 70
+    },
+    {
+      "id": "winterheim",
+      "title": "Der Fall von Winterheim",
+      "order": 80
+    },
+    {
+      "id": "tesla-city",
+      "title": "Die Ruinen von Tesla City",
+      "order": 90
+    }
+  ],
+  "entries": [
+    {
+      "id": "generator-turm-platzieren",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Generator-Turm übersichtlicher platzieren",
+      "image": null,
+      "summary": "Der Generator türmt über eurer Stadt. Das gibt Frostpunk: Das Brettspiel eine tolle Tischpräsenz und trägt zur Atmosphäre bei. Wenn ihr als gewiefte Stadtplaner aber lieber die volle Übersicht auf den ersten Blick haben wollt, dann könnte euch seine imposante Präsenz etwas stören.\n\nKeine Angst! Ihr könnt den Generator-Turm auch neben den Spielplan stellen. Dreht dann einfach den Generator-Sektor des Spielplans auf die Rückseite. Statt des Turms ist hier nun euer Lager. Dreht dann auch das Lager-Tableau auf die Rückseite. Statt des Lagers ist hier nun der Ort für erschöpfte Bürger (Plättchen und Figuren).",
+      "description": "",
+      "group": "hinweise",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Hinweis",
+        "Generator-Turm",
+        "Szenarien-Anleitung S. 2"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 2
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "der-krater-verweis",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Ein neues Zuhause: Der Krater",
+      "image": null,
+      "summary": "Das Standardszenario, direkt in der Spielanleitung beschrieben und aufgebaut. Für den vollständigen Spielaufbau siehe *→ Spielaufbau in den Regeln (Schritte ①–⑭)*.",
+      "description": "Für das erste Spiel empfohlen (Startaufbau-Karte Gruppe I – Normal). Kann auch in späteren Partien erneut gespielt werden.",
+      "group": "der-krater",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Standardszenario",
+        "Anleitung S. 8"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 8
+      },
+      "sort_order": 20
+    },
+    {
+      "id": "gefrorener-hain-story",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der gefrorene Hain – Hintergrund",
+      "image": null,
+      "summary": "Alles sprach dafür, dass das Wäldchen der geeignetste Standort für eine neue Besiedlung sein würde. So nahe wie möglich an einer Wand der Schlucht errichtet, sollte der Generator nicht nur gegen die heftigen, eisigen Winde geschützt sein – er hätte euch auch genug Wärme liefern können. Das war die Idee. Leider hatte man den großen Frost massiv unterschätzt…\n\nAls die winterliche Apokalypse über uns hereinbrach, stellte sich heraus, dass der Generator nicht leistungsfähig genug war, um Wärme für die gesamte Umgebung zu produzieren. Einmal mehr mussten wir die Situation selbst in die Hand nehmen.\n\nUnsere Ingenieure hatten schon bald eine Lösung parat – mit einem Netzwerk aus dampfgetriebenen Knotenpunkten (den „Dampfzentren\"), die als kleine Sekundärgeneratoren dienen, wäre es uns möglich, auch jene Bereiche mit Wärme zu versorgen, die zu weit vom eigentlichen Generator entfernt sind. Dadurch hätten wir auch Zugriff auf die weiter entfernt liegenden Ressourcen, ohne dass unsere Arbeiter Gefahr laufen, sich Erfrierungen zuzuziehen. Andererseits: Dampfzentren brauchen zusätzliches Heizmaterial. Wir müssen also mit Bedacht vorgehen und sie nur dort errichten, wo es auch sinnvoll ist.",
+      "description": "",
+      "group": "gefrorener-hain",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Hintergrund",
+        "Dampfzentren",
+        "Szenarien-Anleitung S. 3"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 3
+      },
+      "sort_order": 30
+    },
+    {
+      "id": "gefrorener-hain-material",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der gefrorene Hain – Zusätzliches Spielmaterial",
+      "image": null,
+      "summary": "3 Dampfzentren, die Technologiekarte *Dampfzentren*, die Szenario-Karte I/09 „Der Sturm (Der gefrorene Hain)\".",
+      "description": "",
+      "group": "gefrorener-hain",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielmaterial",
+        "Szenarien-Anleitung S. 3"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 3
+      },
+      "sort_order": 40
+    },
+    {
+      "id": "gefrorener-hain-aufbau",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der gefrorene Hain – Spielaufbau",
+      "image": null,
+      "summary": "Führt den Spielaufbau wie bei *Ein neues Zuhause: Der Krater* in der Anleitung aus. Ersetzt aber die Aufbauschritte ① Den Spielplan bauen und ③ Die Technologie-Auslage vollständig mit den hier angegebenen. Zuletzt führt ihr dann ⑮ Zusätzliche Vorbereitungen aus.\n\n**① Den Spielplan bauen:** Der Generator-Sektor liegt an der unteren Ecke des Spielplans (nicht in der Mitte). Es werden nur 2 Randgebiets-Plättchen genutzt (1 Kohle-, 1 Holzvorkommen), von denen zufällig nur 1 an der oberen Ecke der Umrandung platziert wird. Danach werden 4 innere Sektoren so gezogen und offen an die oberste Ecke gelegt, dass sie eine Reihe vom Generator-Sektor bis zur gegenüberliegenden Ecke bilden. Erst danach werden weitere Sektoren verdeckt ergänzt und aufgedeckt.\n\n**③ Die Technologie-Auslage:** Die Technologiekarte *Dampfzentren* wird offen ausgelegt, dazu 3 (nicht 4) weitere zufällige Technologiekarten.\n\n**⑮ Zusätzliche Vorbereitungen:** Legt die 3 Dampfzentren unter das Gebäude-Tableau. Verwendet die Szenariokarte I/09 „Der Sturm (Der gefrorene Hain)\" anstelle der Karte I/08 „Der Sturm\".",
+      "description": "",
+      "group": "gefrorener-hain",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Szenarien-Anleitung S. 4"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 4
+      },
+      "sort_order": 50
+    },
+    {
+      "id": "gefrorener-hain-regeln",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der gefrorene Hain – Besondere Regeln",
+      "image": null,
+      "summary": "**Aktionen-Phase:** Ihr dürft die Aktionen Schnee räumen, Rohstoffe sammeln, Bauen und Gebäude nutzen nur für Sektoren ausführen, die entweder direkt an den Generator-Sektor angrenzen, oder durch ausliegende Sektoren mit dem Generator-Sektor verbunden sind. Sektoren bzw. Gebäude auf Sektoren, die so nicht verbunden sind, könnt ihr aber wie üblich beheizen.\n\n**Dampfzentren:** Sobald ihr die Technologie *Dampfzentren* entwickelt habt, sind Dampfzentren als Gebäude für euch verfügbar (Kosten: 1 [[icon:frostpunk:holz]] Holz). Ein Dampfzentrum ist ein kleines Gebäude ohne eigene Aktion.\n\nDauerhafter Effekt: Befindet sich der Anzeiger für die Generatorleistung oberhalb des roten Heizreichweite-Anzeigers? Ihr dürft 1 [[icon:frostpunk:kohle]] Kohle aus dem Lager auf ein Dampfzentrum legen, um es zu befeuern. Ein befeuertes Dampfzentrum bewirkt, dass dieser und alle angrenzenden Sektoren nun als beheizt zählen.\n\nAm Ende der nächsten Generatorbetrieb-Phase müsst ihr alle Kohle auf Dampfzentren entfernen und zurück in den Vorrat legen. Ihr müsst ein Dampfzentrum also jede Runde erneut mit Kohle befeuern, wenn ihr es nutzen wollt.",
+      "description": "Szenariokarte „Der Sturm\": Diese Karte hat keine speziellen Regeln.",
+      "group": "gefrorener-hain",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Besondere Regeln",
+        "Dampfzentren",
+        "Szenarien-Anleitung S. 5"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 5
+      },
+      "sort_order": 60
+    },
+    {
+      "id": "stock-und-stein-story",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Stock & Stein – Hintergrund",
+      "image": null,
+      "summary": "Als wir erkannten, dass uns bald eine der größten Herausforderungen der Menschheitsgeschichte bevorstehen würde – der Permafrost – taten wir unser Möglichstes, um uns darauf vorzubereiten. Und doch scheiterten wir in so vielen Belangen.\n\nDer Aufbau großer Generatoren an verschiedensten Standorten des Landes, um den Überlebenden Wärmequellen und Zuflucht zu gewähren, war das zentrale Element der Planung des großen Exodus. Die Geschichte eines dieser Generatoren, G-049, ist allerdings eine traurige.\n\nExpedition 049 hatte die Aufgabe, den Generator sicher durch gefährliches, felsiges Terrain zum Zielort zu transportieren. Leider kam Expedition 049 nie am Zielort an. Rasiermesserscharfe Felsformationen, die auf keiner Karte verzeichnet gewesen waren, blockierten den Weg, und viele Mitglieder der Kolonne kamen bei den unmenschlichen Anstrengungen ums Leben.\n\nDen restlichen Mitgliedern des Trupps blieb nichts anderes übrig, als den Generator zwischen den zerklüfteten Felsen aufzurichten. Unfähig, den Transport fortzusetzen, war dies ihre einzige Möglichkeit, am Leben zu bleiben. Das Fehlen von Unterkünften und anderen Gebäuden erzählt von ihrem Schicksal.\n\nZusätzliches Spielmaterial: 4 Felsen-Sektoren mit 0 Feldern darauf, 1 Felsen-Sektor mit 1 Feld darauf (4 Bäume).",
+      "description": "",
+      "group": "stock-und-stein",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Hintergrund",
+        "Felsen-Sektoren",
+        "Szenarien-Anleitung S. 6"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 6
+      },
+      "sort_order": 70
+    },
+    {
+      "id": "stock-und-stein-aufbau",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Stock & Stein – Spielaufbau",
+      "image": null,
+      "summary": "Führt den Spielaufbau wie bei *Ein neues Zuhause: Der Krater* in der Anleitung aus. Ersetzt aber den Aufbauschritt ① Den Spielplan bauen vollständig mit dem hier angegebenen.\n\n**① Den Spielplan bauen:** Nach dem üblichen Aufbau von Umrandung, Generator-Sektor (in der Mitte) und Randgebiets-Plättchen (1 an jeder unteren Ecke) werden 2 Sektoren-Stapel für innere und äußere Sektoren gebildet. Beim Mischen dürfen die Rückseiten der Sektoren nicht beachtet werden (bzw. unter dem Tisch gemischt werden), da sich die Rückseiten der Felsen-Sektoren von den inneren Sektoren unterscheiden. Zieht dann 1 Sektor des neu gemischten Stapels der inneren Sektoren und legt ihn offen zwischen die bereits ausliegenden inneren Sektoren und den Generator-Sektor. Danach zieht und legt ihr im Uhrzeigersinn weitere Sektoren dieses Stapels, sodass sich ein vollständiger Ring von Sektoren um den Generator-Sektor bildet.",
+      "description": "",
+      "group": "stock-und-stein",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Szenarien-Anleitung S. 7"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 7
+      },
+      "sort_order": 80
+    },
+    {
+      "id": "stock-und-stein-regeln",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Stock & Stein – Besondere Regeln",
+      "image": null,
+      "summary": "**Die Felsen-Sektoren:** Vier der Felsen-Sektoren haben keine nutzbaren Felder. Auf diesen Sektoren könnt ihr weder Gebäude errichten noch andere Aktionen ausführen.\n\n1 Felsen-Sektor hat jedoch genau 1 Feld, auf dem sich 4 Bäume befinden. Ihr könnt hier wie üblich ein kleines Gebäude errichten oder Aktionen ausführen.",
+      "description": "",
+      "group": "stock-und-stein",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Besondere Regeln",
+        "Felsen-Sektoren",
+        "Szenarien-Anleitung S. 7"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 7
+      },
+      "sort_order": 90
+    },
+    {
+      "id": "flaches-land-story",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Flaches Land – Hintergrund",
+      "image": null,
+      "summary": "Unser Generator gehörte zu den ersten, die errichtet wurden – bevor überhaupt abzusehen war, wie unbarmherzig dieses Zeitalter von Eis und Schnee sein würde. Damals muss dieser Ort wunderschön gewesen sein. Und wider alle Erwartungen ist er das auch immer noch! Auch, wenn das endlose Weiß es selbst für den schärfsten Blick nahezu unmöglich macht, den Horizont zu erkennen!\n\nDoch trotz all der Schönheit und der Fülle an natürlichen Ressourcen hier stellt uns der Standort vor große Probleme. Unter normalen Umständen wären die Entfernungen zwischen dem Generator und den notwendigen Ressourcen kaum der Rede wert. …in unserer Situation? Wenn das Wetter besonders übel ist, läuft man schon auf halbem Weg Gefahr, zu erfrieren. Wir werden Sammelstellen errichten müssen, damit diejenigen von uns, die zur Ressourcenbeschaffung abgestellt werden, wenigstens etwas Schutz vor der Witterung haben. Andererseits haben wir an diesem Standort so viel Platz, dass dem Wachstum unserer Siedlung in dieser Hinsicht keinerlei Grenzen gesetzt sind.",
+      "description": "",
+      "group": "flaches-land",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Hintergrund",
+        "Szenarien-Anleitung S. 8"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 8
+      },
+      "sort_order": 100
+    },
+    {
+      "id": "flaches-land-aufbau",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Flaches Land – Spielaufbau",
+      "image": null,
+      "summary": "Führt den Spielaufbau wie bei *Ein neues Zuhause: Der Krater* in der Anleitung aus. Ersetzt aber den Aufbauschritt ① Den Spielplan bauen vollständig mit dem hier angegebenen. Aufbauschritt ⑤ Das Bevölkerungs-Tableau wird nur leicht modifiziert. Entfernt die Gebäude Kohlemine und Mauerbohrer – sie stehen euch für dieses Szenario nicht zur Verfügung. Zuletzt führt ihr dann ⑮ Zusätzliche Vorbereitungen aus.\n\n**① Den Spielplan bauen:** Die Spielplanumrandung wird auf die Seite gedreht, die Rohstoffe und Bäume (statt Felswänden) zeigt. Nach dem üblichen Aufbau von Generator-Sektor und Sektoren-Stapeln wird zunächst ein vollständiger Ring offen ausliegender Sektoren um den Generator-Sektor gebildet (dabei werden keine Rohstoffe oder Bäume platziert – Nahrungsfunde werden in diesem Szenario ignoriert). Dann werden 2 äußere Sektoren verdeckt an die oberste und unterste Ecke der Umrandung gelegt und aufgedeckt. Zuletzt werden so viele Rohstoffe oder Bäume auf die Felder der Spielplanumrandung gelegt, wie dort abgebildet sind.\n\n**⑤ Das Bevölkerungs-Tableau:** Bereitet das Tableau wie üblich vor. Ignoriert dabei aber Nahrungsfund auf allen inneren Sektoren. Berücksichtigt nur Nahrungsfund auf äußeren Sektoren.\n\n**⑮ Zusätzliche Vorbereitungen:** Nehmt 1 Automaton und legt es in euer Lager.",
+      "description": "",
+      "group": "flaches-land",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Szenarien-Anleitung S. 9"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 9
+      },
+      "sort_order": 110
+    },
+    {
+      "id": "flaches-land-regeln",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Flaches Land – Besondere Regeln",
+      "image": null,
+      "summary": "**Felder auf der Spielplanumrandung:** Felder auf der Spielplanumrandung haben im Vergleich zu Feldern auf Sektoren nur einen eingeschränkten Nutzen. Ihr könnt auf ihnen keinerlei Gebäude errichten, und die Felder können zudem nicht beheizt werden. Sonst verhalten sie sich aber wie normale Felder.\n\nWeiter gilt:\n- Ihr könnt die Aktion Rohstoffe sammeln ganz normal auf ihnen ausführen.\n- Felder auf der Spielplanumrandung sind angrenzend zu allen Feldern auf Sektoren, die mit ihnen eine Kante teilen (maximal also 2 Sektoren).",
+      "description": "Beispiel: Nutzt ihr hier die Sammelstelle für eine Aktion, könnt ihr von jedem der beiden angrenzenden Felder auf der Spielplanumrandung je 1 Rohstoff erhalten.",
+      "group": "flaches-land",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Besondere Regeln",
+        "Spielplanumrandung",
+        "Szenarien-Anleitung S. 8"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 8
+      },
+      "sort_order": 120
+    },
+    {
+      "id": "dreadnought-story",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der Dreadnought – Hintergrund",
+      "image": null,
+      "summary": "Es fällt schwer, beim Anblick des Dreadnoughts, der uns bis hierher gebracht hat, keine Trauer zu verspüren. Dieses urgewaltigen, durch Dampfkern-Technologie angetriebenen, stählernen Kolosses, dazu geschaffen, die Überlebenden der unbewohnbar gewordenen Städte im Süden sicher zu diesem Ort zu transportieren. Ohne ihn hätten wir die Generatoren, so weit im Norden liegend, nie erreicht.\n\nDer Dreadnought hat seinen Zweck erfüllt, doch nun ist er nur noch ein großer Haufen Stahl und anderer Rohstoffe. Und auch, wenn es sich anfühlt, als müssten wir einem treuen Pferd den Tod bringen, bleibt uns nichts anderes übrig, als die Maschine auszuschlachten. Die industriell gefertigten Bauteile werden uns den Bau von besser isolierten Gebäuden und produktiveren Gerätschaften ermöglichen.",
+      "description": "",
+      "group": "dreadnought",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Hintergrund",
+        "Dreadnought",
+        "Szenarien-Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 130
+    },
+    {
+      "id": "dreadnought-material",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der Dreadnought – Zusätzliches Spielmaterial",
+      "image": null,
+      "summary": "4 Dreadnought-Sektoren (auf der Rückseite der 4 Felsen-Sektoren ohne Felder), 8 Stahl-Rohstoffe (in den Vorrat legen).",
+      "description": "",
+      "group": "dreadnought",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielmaterial",
+        "Stahl",
+        "Szenarien-Anleitung S. 10"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 10
+      },
+      "sort_order": 140
+    },
+    {
+      "id": "dreadnought-aufbau",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der Dreadnought – Spielaufbau",
+      "image": null,
+      "summary": "Führt den Spielaufbau wie bei *Ein neues Zuhause: Der Krater* in der Anleitung aus. Ersetzt aber den Aufbauschritt ① Den Spielplan bauen vollständig mit dem hier angegebenen.\n\n**① Den Spielplan bauen:** Nach dem üblichen Aufbau von Umrandung, Generator-Sektor (Mitte) und Rohstoffen auf dem Generator-Sektor werden die 4 Dreadnought-Sektoren an den oberen linken Rand der Spielplanumrandung gelegt. Danach werden wie üblich 2 Randgebiets-Plättchen gezogen: 1 wird zufällig offen auf die untere rechte Ecke der Umrandung gelegt, das andere offen links daneben auf die untere Ecke (den beiden Ecken, die dem Dreadnought genau gegenüberliegen). Dann werden die Sektoren-Stapel gebildet. Es werden 3 innere Sektoren verdeckt gezogen und so gelegt, dass sie sowohl an den Dreadnought als auch an den Generator-Sektor angrenzen. Dann werden 2 äußere Sektoren verdeckt gezogen und je 1 links und rechts von den 3 inneren Sektoren gelegt, sodass sie an den Dreadnought und die Spielplanumrandung angrenzen. Zuletzt werden alle verdeckt platzierten Sektoren aufgedeckt.",
+      "description": "",
+      "group": "dreadnought",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Szenarien-Anleitung S. 11"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 11
+      },
+      "sort_order": 150
+    },
+    {
+      "id": "dreadnought-regeln",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der Dreadnought – Besondere Regeln",
+      "image": null,
+      "summary": "**Der Dreadnought:** Jeder Dreadnought-Sektor hat eine Gebäude-Aktion, die ein Arbeiter, Ingenieur oder Automaton nutzen kann. Tut ihr das, erhaltet ihr 1 [[icon:frostpunk:stahl]] Stahl. Der Dreadnought-Sektor gilt dafür wie ein kleines Gebäude mit Wärmedämmungs-Level Weiß (er ist nur beheizt, wenn er sich in einer beheizten Zone befindet).\n\n**Stahl:** Im Gegensatz zu anderen Rohstoffen könnt ihr nie mehr als 8 Stahl besitzen (beschränkt durch das Spielmaterial). Stahl kann beim Errichten eines Gebäudes anstelle von Holz verwendet werden (in beliebiger Kombination, z. B. 1 Stahl + 1 Holz). Errichtet ihr es jedoch ausschließlich mit Stahl, dürft ihr es danach sofort gratis ausbauen.",
+      "description": "",
+      "group": "dreadnought",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Besondere Regeln",
+        "Stahl",
+        "Dreadnought",
+        "Szenarien-Anleitung S. 11"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 11
+      },
+      "sort_order": 160
+    },
+    {
+      "id": "im-canyon-story",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Im Canyon – Hintergrund",
+      "image": null,
+      "summary": "Generator 358 wurde in einem Canyon errichtet und ist dadurch rundum vor den eisigen Winden geschützt. Dieser Standort ist zwar der Grund, warum wir überhaupt noch am Leben sind, bereitet uns jedoch auch große Probleme. Die Sicherheit bietenden, hohen Felswände schränken unsere Möglichkeiten, neue Gebäude zu errichten und Ressourcen zu sammeln, massiv ein. Und schließlich ist der Generator nicht leistungsfähig genug, um die weiter entfernt liegenden Bereiche des Canyons beheizen zu können.\n\nOhne Zweifel werden die Ressourcen, die uns innerhalb des Canyons zur Verfügung stehen, nicht ausreichen, um unser Überleben auf Dauer sicherzustellen. Daher wird uns nichts anderes übrig bleiben, als unseren goldenen Käfig zu verlassen, um weitere Ressourcen aufzutreiben und – falls es sich ergibt – Außenposten zu errichten.",
+      "description": "",
+      "group": "im-canyon",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Hintergrund",
+        "Außenposten",
+        "Szenarien-Anleitung S. 12"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 12
+      },
+      "sort_order": 170
+    },
+    {
+      "id": "im-canyon-material",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Im Canyon – Zusätzliches Spielmaterial",
+      "image": null,
+      "summary": "2 lange Umrandungs-Teile (spiegelbildliche Darstellung der 6 sonst üblichen Teile), 2 kurze Umrandungs-Teile, 2 Umrandungs-Endteile, 4 Depot-Außenposten-Gebäude (Rückseite zeigt andere Gebäude), 4 Außenposten-Expeditionskarten, 1 Außenpostenkarte.\n\nAußerdem benötigt ihr 1 Vorratslager-Plättchen vom allgemeinen Spielmaterial.",
+      "description": "",
+      "group": "im-canyon",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielmaterial",
+        "Außenposten",
+        "Szenarien-Anleitung S. 12"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 12
+      },
+      "sort_order": 180
+    },
+    {
+      "id": "im-canyon-aufbau",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Im Canyon – Spielaufbau",
+      "image": null,
+      "summary": "Da die Form des Spielplans in diesem Szenario deutlich anders ist, empfiehlt es sich, auch den Spielbereich anders anzuordnen: Ereignis-Auslage und Szenario-Auslage oben, Gesetzes-Auslage und Expeditions-Auslage seitlich in der Mitte, Bürgerstapel und Technologie-Auslage unten.\n\nFührt den Spielaufbau wie bei *Ein neues Zuhause: Der Krater* in der Anleitung aus. Ersetzt aber die Aufbauschritte ① Den Spielplan bauen und ② Die Expeditions-Auslage vollständig mit den hier angegebenen. Entfernt außerdem die Technologiekarte *Leichtere Späher-Schlitten* (#T01) und legt sie zurück in die Schachtel – ihr benötigt sie nicht in diesem Szenario. Zuletzt führt ihr dann ⑮ Zusätzliche Vorbereitungen aus.\n\n**① Den Spielplan bauen:** Puzzelt die Spielplanumrandung aus 2 der langen Umrandungs-Teile (1 normales und 1 spiegelbildliches) und 1 Umrandungs-Endteil für den oberen Bereich, wiederholt dies für den unteren Bereich, und verbindet beide Bereiche mit den 2 kurzen Umrandungs-Teilen. Dann wie üblich: Generator-Sektor in der Mitte, Holz/Kohle darauf. Bildet 2 Stapel für innere und äußere Sektoren. Zieht dann verdeckt 6 innere Sektoren und legt sie so aus, dass 3 davon oben an den Generator-Sektor angrenzen und 3 unten. Legt den übrigen Stapel der inneren Sektoren zurück in die Schachtel. Zieht dann verdeckt 2 äußere Sektoren und legt sie so, dass sie das obere Spielplanumrandungs-Endteil direkt mit dem inneren Sektor verbinden, der mittig an den Generator-Sektor angrenzt. Deckt alle verdeckt platzierten Sektoren auf.",
+      "description": "",
+      "group": "im-canyon",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Außenposten",
+        "Szenarien-Anleitung S. 13"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 13
+      },
+      "sort_order": 190
+    },
+    {
+      "id": "im-canyon-aufbau-2",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Im Canyon – Spielaufbau (Expeditions-Auslage & Vorbereitungen)",
+      "image": null,
+      "summary": "**② Expeditions-Auslage:** Mischt die 4 Außenposten-Expeditionskarten und legt sie als Stapel (mit der weißen Kartenseite sichtbar) in die Expeditions-Auslage. Bildet aus den übrigen Expeditionskarten 3 Stapel (je 1 für A, B und C) und mischt diese Stapel separat. Platziert sie verdeckt, gut erreichbar neben die Auslage. Zieht dann die ersten 2 Karten vom A-Stapel und legt sie mit dem weißen Expeditionspfad nach oben neben den Stapel der Außenposten-Expeditionskarten.\n\n**⑮ Zusätzliche Vorbereitungen:** Legt die Außenpostenkarte für alle gut sichtbar aus. Legt das Vorratslager-Plättchen der Außenpostenkarte bereit. Legt die 4 Depot-Außenposten-Gebäude unterhalb des Gebäude-Tableaus bereit.",
+      "description": "",
+      "group": "im-canyon",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Außenposten",
+        "Szenarien-Anleitung S. 14"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 14
+      },
+      "sort_order": 200
+    },
+    {
+      "id": "im-canyon-regeln",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Im Canyon – Besondere Regeln",
+      "image": null,
+      "summary": "**Außenposten-Expeditionen:** Die oberste Karte des Stapels der Außenposten-Expeditionskarten zählt als zusätzlich verfügbare Expedition. Wenn euer Späher das letzte Feld des Expeditionspfades darauf erreicht, müsst ihr den Ort erkunden – den Ort zu umgehen ist nicht möglich. Wählt 1 der Rückkehr-Optionen und führt den zugehörigen Effekt aus. Danach ist die nächste Außenposten-Expeditionskarte sichtbar, die euch dann wieder als verfügbare Expedition offensteht.\n\n**Depot-Außenposten-Gebäude:** Ihr könnt einen Depot-Außenposten nur dann errichten, wenn eine entsprechende Außenposten-Expeditionskarte euch das erlaubt. Ein Depot-Außenposten-Gebäude könnt ihr außerdem nur auf einem Sektor errichten, der direkt an ein Außenposten-Symbol auf der Spielplanumrandung angrenzt (mittig auf den Spielplanumrandungs-Endteilen). Ihr könnt daher maximal 2 Depot-Außenposten-Gebäude errichten. Diese können zudem nicht ausgebaut werden.\n\n**Außenposten-Karte:** Sobald ihr das erste Depot-Außenposten-Gebäude erhaltet habt, legt ihr das Vorratslager-Plättchen mit der Rückseite nach oben auf Feld 0 der Vorratstransport-Leiste. Zieht das Plättchen in der Wetter-Phase immer um so viele Felder vorwärts, wie laut Wetterkarte auch die Späher auf Expeditionen vorwärts gezogen werden. Sobald das Plättchen das Außenposten-Symbol-Feld erreicht, erhaltet ihr alles, was auf euren errichteten Depot-Außenposten-Gebäuden angegeben ist. Dann legt das Vorratslager-Plättchen wieder auf Feld 0 (übrige Schritte verfallen).",
+      "description": "",
+      "group": "im-canyon",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Besondere Regeln",
+        "Außenposten",
+        "Szenarien-Anleitung S. 15"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 15
+      },
+      "sort_order": 210
+    },
+    {
+      "id": "die-archen-story",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Archen – Hintergrund",
+      "image": null,
+      "summary": "Die Welt, die wir einst kannten, ist tot. Unsere Aufgabe ist es nun, den letzten Schatz der Menschheit zu schützen und vor der Grausamkeit des ewigen Winters zu bewahren. Der Wert der Samen und Pflanzen, die in den drei speziell zu diesem Zweck konstruierten Saatgutarchen aufbewahrt werden, ist unermesslich. Und wir müssen dafür sorgen, dass sie nicht vereisen. Der Standort von Generator G614 ist dafür aufgrund seiner geschützten Lage gut geeignet. Die Stadtplanung hingegen stellt uns hier vor deutliche Probleme. Unsere Hoffnung liegt daher auf unserer fortschrittlichen Technologie.\n\nDie Verantwortung für das Fortbestehen der gesamten Menschheit lastet schwer auf unseren Schultern – ganz besonders in Zeiten, in denen die Stimmung am Tiefpunkt ist. Überstehen wir jedoch diese weiße Hölle, werden wir den Inhalt der Saatgutarchen benötigen, um erneut Ackerbau betreiben zu können und die Welt wieder zu bevölkern. Daher ist es unser Ziel, unsere Siedlung so weit wie möglich zu automatisieren, so dass Automata die meisten Aufgaben verrichten können – selbst wenn die meisten von uns vielleicht nicht überleben werden.",
+      "description": "",
+      "group": "die-archen",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Hintergrund",
+        "Saatgutarchen",
+        "Regelintensiv",
+        "Szenarien-Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 220
+    },
+    {
+      "id": "die-archen-material",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Archen – Zusätzliches Spielmaterial",
+      "image": null,
+      "summary": "3 Dampfzentren, die Technologiekarte *Dampfzentren*, 1 Integritäts-Anzeiger, 5 Wissen/Entdeckung-Plättchen, 1 Wachstation-Gebäude, 3 Saatgutarchen-Gebäude, 14 Szenario-Karten (II/01 bis II/12, davon 3 Karten II/07).\n\nHinweis: Außerdem benötigt ihr 3 Vorratslager-Plättchen vom allgemeinen Spielmaterial.",
+      "description": "",
+      "group": "die-archen",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielmaterial",
+        "Saatgutarchen",
+        "Szenarien-Anleitung S. 16"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 16
+      },
+      "sort_order": 230
+    },
+    {
+      "id": "die-archen-aufbau",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Archen – Spielaufbau",
+      "image": null,
+      "summary": "Führt den Spielaufbau wie bei *Ein neues Zuhause: Der Krater* in der Anleitung aus. Ersetzt aber die Aufbauschritte ① Den Spielplan bauen, ③ Die Technologie-Auslage und ⑦ Das Gebäude-Tableau vollständig mit den hier angegebenen. Die Aufbauschritte ⑨ und ⑭ werden nur modifiziert. Entfernt außerdem die Technologiekarte *Jagdtaktiken* (#T02) und die Gesetzeskarten *Die Neue Ordnung* (#G07) und *Der Neue Glaube* (#G08) und legt sie zurück in die Schachtel. Besitzt ihr die Erweiterung *Streifzug ins Frostland*? Entfernt ebenso die Technologiekarten *Fährten lesen* (#T14) und *Fortschrittliche Automata* (#T17) und die Gesetzeskarte *Wissensaustausch* (#G18) und legt sie in die Schachtel zurück. Entfernt dann ebenso die 5 Gebäude Jagdhütte und legt auch sie in die Schachtel zurück. Zuletzt sucht ihr noch die Wetterkarten #W02, #W03, #W04, #W11, #W12 und #W13 heraus und alle Expeditionskarten, die in der rechten oberen Ecke das Bürger-Symbol zeigen. Legt sie in die Schachtel zurück. Sie stehen euch für dieses Szenario nicht zur Verfügung.\n\n**① Den Spielplan bauen:** Wie beim Standardaufbau, aber mit 2 zusätzlichen inneren Sektoren links und rechts vom Generator-Sektor. Platziert je 1 Saatgutarche auf dem unteren Feld der Sektoren in der rechten und linken oberen Ecke des Spielplans. Das letzte Saatgutarchen-Gebäude legt ihr auf das obere Feld des Generator-Sektors. Rohstoffe und Bäume, die auf diesen Feldern liegen, legt ihr in den Vorrat zurück.",
+      "description": "",
+      "group": "die-archen",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Saatgutarchen",
+        "Szenarien-Anleitung S. 17"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 17
+      },
+      "sort_order": 240
+    },
+    {
+      "id": "die-archen-aufbau-2",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Archen – Spielaufbau (Technologie-Auslage, Gebäude-Tableau & Vorbereitungen)",
+      "image": null,
+      "summary": "**③ Die Technologie-Auslage:** Die Technologiekarte *Dampfzentren* wird offen ausgelegt, dazu 3 weitere zufällige Technologiekarten.\n\n**⑦ Das Gebäude-Tableau:** Legt 1 Plättchen *Wissen* auf die Fabrik. Legt je 1 Plättchen *Entdeckung* auf die Gebäude Krankenhaus, Treibhaus, Kohlemine und Mauerbohrer. Legt die 3 Dampfzentren und die Wachstation unter das Gebäude-Tableau.\n\n**⑨ Das Runden-Tableau:** Legt den Sturm-Anzeiger auf Feld 6 der Rundenleiste.\n\n**⑭ Letzte Vorbereitungen:** Legt die Szenario-Karten II/01 und II/02 offen in die Szenario-Auslage. Die Szenario-Karte II/03 legt ihr mit der weißen Expeditionspfad-Seite nach oben in die Expeditions-Auslage – sie bildet dort einen vierten Expeditionspfad. Bildet aus den Szenario-Karten II/09, II/10 und II/11 einen Sturmstapel, den ihr neben dem Wetterstapel platziert (Karte II/11 zuunterst, Karte II/10 darauf und Karte II/09 zuoberst, alle verdeckt). Die Szenario-Karte II/12 *Hohes Bildungsniveau* legt ihr offen in die Gesetzes-Auslage. Die übrigen Szenario-Karten (II/04 bis II/08) legt ihr als verdeckten Stapel in die Szenario-Auslage. Ihr beginnt mit der Szenario-Karte II/01 auf Integritäts-Stufe 2 – legt den Integritäts-Anzeiger daher auf Feld 2 der Leiste. Legt die 3 Vorratslager-Plättchen neben der Szenario-Auslage bereit. In diesem Szenario werden keine Szenarioplättchen auf die Rundenleiste gelegt.",
+      "description": "",
+      "group": "die-archen",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Saatgutarchen",
+        "Szenarien-Anleitung S. 18"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 18
+      },
+      "sort_order": 250
+    },
+    {
+      "id": "die-archen-regeln-dampfzentren",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Archen – Wetter, Aktionen & Dampfzentren",
+      "image": null,
+      "summary": "**In der Wetter-Phase:** Wenn ihr den Schritt *Tierfallen leeren* abhandelt, erhaltet ihr 2, 6 oder 10 zusätzliche Nahrung, je nachdem ob der Integritäts-Anzeiger auf Stufe 0, 1 oder 2 steht.\n\nWenn in Schritt *Der Sturm naht* der Sturm eure Stadt erreicht und ihr den Sturm abhandeln müsst, deckt die oberste Karte des Sturmstapels auf und führt die aufgeführten Effekte aus. Beim ersten Sturm ist das Karte II/09, beim zweiten Sturm Karte II/10, und beim dritten Sturm Karte II/11.\n\n**Aktionen-Phase:** Ihr dürft die Aktionen Schnee räumen, Rohstoffe sammeln, Bauen und Gebäude nutzen nur auf bzw. für Sektoren ausführen, die entweder direkt an den Generator-Sektor angrenzen, oder durch ausliegende Sektoren mit dem Generator-Sektor verbunden sind. Sektoren bzw. Gebäude auf Sektoren, die so nicht verbunden sind, könnt ihr aber wie üblich beheizen.\n\n**Dampfzentren:** Sobald ihr die Technologie *Dampfzentren* entwickelt habt, sind Dampfzentren als Gebäude für euch verfügbar (Kosten: 1 [[icon:frostpunk:holz]] Holz). Dauerhafter Effekt: Befindet sich der Anzeiger für die Generatorleistung oberhalb des roten Heizreichweite-Anzeigers? Ihr dürft 1 [[icon:frostpunk:kohle]] Kohle aus dem Lager auf ein Dampfzentrum legen, um es zu befeuern. Ein befeuertes Dampfzentrum bewirkt, dass dieser und alle angrenzenden Sektoren nun als beheizt zählen. Am Ende der nächsten Generatorbetrieb-Phase müsst ihr alle Kohle auf Dampfzentren entfernen und zurück in den Vorrat legen.",
+      "description": "",
+      "group": "die-archen",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Besondere Regeln",
+        "Dampfzentren",
+        "Szenarien-Anleitung S. 19"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 19
+      },
+      "sort_order": 260
+    },
+    {
+      "id": "die-archen-regeln-plaettchen",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Archen – Wissen, Entdeckung & Gesetzes-Auslage",
+      "image": null,
+      "summary": "**Die Plättchen Wissen:** So lange sich dieses Plättchen auf dem Gebäudetyp Fabrik befindet, ist das Gebäude für euch nicht verfügbar. Eine der Szenario-Karten erlaubt euch, dieses Plättchen zu entfernen. Das Gebäude ist ab dann für euch verfügbar.\n\n**Die Plättchen Entdeckung:** So lange sich ein solches Plättchen auf einem Gebäudetyp (Krankenhaus, Treibhaus, Kohlemine, Mauerbohrer) befindet, ist dieser nicht verfügbar. Immer dann, wenn ihr eine neue Technologie entwickelt habt, dürft ihr 1 Plättchen eurer Wahl entfernen. Dieser Gebäudetyp ist ab dann für euch verfügbar.\n\n**Gesetzes-Auslage:** Die Szenario-Karte II/12 *Hohes Bildungsniveau*, die während des Aufbaus bereits ausgelegt wird, zählt als 1 der 4 Gesetze, die ihr maximal verabschieden dürft.",
+      "description": "",
+      "group": "die-archen",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Besondere Regeln",
+        "Gesetzes-Auslage",
+        "Szenarien-Anleitung S. 19"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 19
+      },
+      "sort_order": 270
+    },
+    {
+      "id": "winterheim-story",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der Fall von Winterheim – Hintergrund",
+      "image": null,
+      "summary": "Schwer zu sagen, mit welchem Ereignis die Katastrophe begann. Vielleicht waren es die Tage der Nahrungsmittel-Knappheit. Oder der Arbeitsunfall, bei dem der arme Junge zu Tode kam. Genau lässt sich das nicht mehr sagen, denn neben all der Not, die wir erleiden mussten, würden die Fehlentscheidungen unseres Anführers ganze Bände füllen.\n\nWinterheim – das klingt nach Stolz und Selbstbewusstsein. Tatsächlich aber war es wohl Hochmut, der uns denken ließ, wir könnten den höllischen Bedingungen trotzen. Schon bald kamen Zweifel auf. Zunächst waren es geflüsterte Unterhaltungen im Familien- und Freundeskreis. Kaum ein paar Tage später gingen wir auf die Straße. Erst Forderungen und Parolen, dann Kämpfe, und schließlich flog die erste brennende Fackel.\n\nBlinder Zorn hatte uns gepackt. Rasend vor Wut, schrien wir nach dem Blut unserer Anführer – jener, die das Blut unserer Lieben an den Händen hatten. Zu diesem Zeitpunkt hatte das Sterben bereits begonnen. Die Glücklichen erfroren in den Nächten, in denen der Generator ausfiel. Andere verhungerten langsam, oder schlimmer noch, mussten mit ansehen, wie ihre Kinder langsam dahinsiechten.\n\nEs heißt, Menschen wären wie Stahlstreben – sie biegen sich, aber irgendwann brechen sie. Und genau das geschah in Winterheim. Gewalttätige Randalierer stillten ihren Durst nach Blut. Plünderer stahlen alles, was sie bekommen konnten. Und der Rest von uns? Wir sahen ihnen dabei zu…\n\nDann kam der Schneesturm über uns. Panik brach aus, und jeder hatte nur einen Gedanken – Unterschlupf finden. Niemand hätte bei diesem Wetter gedacht, dass das Feuer zu einem Problem werden könnte. Und so mussten wir voller Schrecken mit ansehen, wie die lodernden Flammen auf immer mehr Gebäude übergriffen. Als schließlich der Morgen anbrach und der Sturm sich legte, stürzten wir los, um denen zu helfen, die von schwelenden Ruinen und unter Dächern, die aufgrund der Last des heftigen Schneefalls zusammenbrachen, begraben wurden.\n\nDer Ernst der Lage wurde uns jedoch erst bewusst, als eine Frau auf die Bühne stieg und den gefrorenen Leichnam unseres Anführers über das Geländer hievte. In diesem Moment wurde uns klar, dass wir direkt am Abgrund standen. Eine neue Führungsriege war überraschend schnell bestimmt, doch die katastrophale Situation stellt unsere neuen Anführer vor kolossale Herausforderungen: Können wir unsere verschütteten Mitbürger retten? Und keiner weiß zum gegenwärtigen Zeitpunkt, ob der Generator überhaupt noch funktionsfähig ist. Winterheim liegt am Boden – aber noch schlägt sein Herz …",
+      "description": "",
+      "group": "winterheim",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Hintergrund",
+        "Regelintensiv",
+        "Szenarien-Anleitung S. 20"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 20
+      },
+      "sort_order": 280
+    },
+    {
+      "id": "winterheim-material",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der Fall von Winterheim – Zusätzliches Spielmaterial",
+      "image": null,
+      "summary": "4 Felsen-Sektoren mit 0 Feldern darauf, 1 Felsen-Sektor mit 1 Feld darauf (4 Bäume), 3 „Hilferufe!\"-Gebäude, 15 zerstörte Gebäude, 1 Reparaturstation, 1 Evakuierungs-Zentrum, 1 Evakuierungs-Anzeiger, 1 Wissen/Entdeckung-Plättchen, 1 Dreadnought-Plättchen, 4 Generatorschaden-Plättchen, 10 Szenario-Karten (III/01 bis III/10).\n\nHinweis: Außerdem benötigt ihr 1 Vorratslager-Plättchen vom allgemeinen Spielmaterial.",
+      "description": "",
+      "group": "winterheim",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielmaterial",
+        "Szenarien-Anleitung S. 21"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 21
+      },
+      "sort_order": 290
+    },
+    {
+      "id": "winterheim-aufbau",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der Fall von Winterheim – Spielaufbau",
+      "image": null,
+      "summary": "Führt den Spielaufbau wie bei *Ein neues Zuhause: Der Krater* in der Anleitung aus. Ersetzt aber den Aufbauschritt ① Den Spielplan bauen vollständig mit dem hier angegebenen. Die Aufbauschritte ⑤, ⑨ und ⑭ werden nur modifiziert. Entfernt die Technologiekarte *Sicherheitssystem für den Generator* und legt sie zurück in die Schachtel. Entfernt alle Zelt-Gebäude und legt sie zurück in die Schachtel. Entfernt dann noch alle Expeditionskarten, die in der rechten oberen Ecke das Bürger-Symbol zeigen. Legt sie in die Schachtel zurück. Führt zuletzt ⑮ Zusätzliche Vorbereitungen dieses Szenarios aus.\n\n**① Den Spielplan bauen:** Nach dem üblichen Aufbau von Umrandung, Generator-Sektor (Mitte) und Randgebiets-Plättchen (2, je 1 an der unteren linken und rechten Ecke) werden 2 Sektoren-Stapel gebildet. Zieht 1 inneren Sektor und legt ihn offen an die oberste Ecke der Spielplanumrandung. Platziert dort keine Rohstoffe oder Bäume – platziert stattdessen die Signalstation. Zieht dann 4 innere Sektoren vom Stapel und legt sie in die Schachtel zurück. Nehmt dann die 5 Felsen-Sektoren und mischt sie mit den restlichen inneren Sektoren – legt sie wieder als verdeckten Stapel bereit (Rückseiten beim Mischen ignorieren). Zieht 1 Sektor des neu gemischten Stapels und legt ihn offen zwischen den bereits ausliegenden inneren Sektor und den Generator-Sektor. Danach zieht und legt ihr im Uhrzeigersinn weitere Sektoren dieses Stapels, sodass sich ein vollständiger Ring von Sektoren um den Generator-Sektor bildet (dabei werden keine Rohstoffe oder Bäume platziert, mit 1 Ausnahme: platziert die 4 Bäume auf dem entsprechenden Feld des Felsen-Sektors mit Feld). Mischt zuletzt die zerstörten und die „Hilferufe!\"-Gebäude verdeckt zusammen. Zieht dann (zufällig) je 1 Gebäude und legt es offen auf jedes Feld auf dem Generator-Sektor und allen angrenzenden Sektoren des inneren Rings.\n\n**⑤ Das Bevölkerungs-Tableau:** Bereitet das Tableau wie üblich vor. Ignoriert dabei aber Nahrungsfund auf allen Sektoren.",
+      "description": "",
+      "group": "winterheim",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Szenarien-Anleitung S. 21"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 21
+      },
+      "sort_order": 300
+    },
+    {
+      "id": "winterheim-aufbau-2",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der Fall von Winterheim – Spielaufbau (Bevölkerungs- & Runden-Tableau)",
+      "image": null,
+      "summary": "**⑨ Das Runden-Tableau:** Legt den Sturm-Anzeiger auf Feld 15 der Rundenleiste.",
+      "description": "",
+      "group": "winterheim",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Szenarien-Anleitung S. 22"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 22
+      },
+      "sort_order": 310
+    },
+    {
+      "id": "winterheim-aufbau-3",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der Fall von Winterheim – Spielaufbau (Letzte & Zusätzliche Vorbereitungen)",
+      "image": null,
+      "summary": "**⑭ Letzte Vorbereitungen:** Legt die Szenario-Karten III/01 und III/02 offen in die Szenario-Auslage. In diesem Szenario verwendet ihr die Karte III/10 (*Der Fall von Winterheim – Der Sturm*) als Sturmkarte. Die übrigen Szenario-Karten (III/03 bis III/09) legt ihr als verdeckten Stapel in die Szenario-Auslage. Legt Szenarioplättchen auf die Felder 3, 4, 6, 8, 9, 12 und 15 der Rundenleiste.\n\n**⑮ Zusätzliche Vorbereitungen:** Legt die 4 Generatorschaden-Plättchen links neben die Belastungsleiste des Generator-Tableaus. Legt die Wissen/Entdeckung- und Dreadnought-Plättchen sowie den Evakuierungs-Anzeiger und das Vorratslager-Plättchen neben die Szenario-Auslage. Zuletzt legt ihr die Reparaturstation und das Evakuierungs-Zentrum unter das Gebäude-Tableau.",
+      "description": "",
+      "group": "winterheim",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Szenarien-Anleitung S. 23"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 23
+      },
+      "sort_order": 320
+    },
+    {
+      "id": "winterheim-regeln-hilferufe",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der Fall von Winterheim – Hilferufe & zerstörte Gebäude",
+      "image": null,
+      "summary": "**Hilferufe!:** Auf einem Feld mit diesem Gebäude dürft ihr keine Aktionen ausführen – mit dieser Ausnahme: Wenn du die Bauen-Aktion ausführst, darfst du genau 3 Errichten/Abreißen davon „ausgeben\", um stattdessen die Verschütteten in 1 „Hilferufe!\"-Gebäude deiner Wahl zu retten. Führe den auf dem Gebäude abgebildeten Effekt aus und lege das Plättchen dann in die Schachtel zurück.\n\nDer abgebildete Effekt gibt euch immer eine bestimmte Art von Bürgern. Erhaltet so viele zusätzliche Bürger dieser Art auf der Bevölkerungs-Leiste, wie üblich. In der Klammer steht zusätzlich, wie viele kranke Bürger dieser Art ebenfalls dazu kommen. Wenn ihr Kinder rettet, erhaltet ihr außerdem immer noch +1 Hoffnung dazu.\n\nSobald ein solches Plättchen entfernt wurde, könnt ihr auf dem freigewordenen Feld des Sektors wie üblich Gebäude errichten oder andere Aktionen ausführen.\n\n**Zerstörte Gebäude:** Auf einem Feld mit diesem Gebäude dürft ihr keine Aktionen ausführen – mit dieser Ausnahme: Zerstörte Gebäude können ganz üblich mit dem Abreißen einer Bauen-Aktion entfernt werden. Dabei erhaltet ihr die Rohstoffe, bei denen ein rotes Symbol angegeben ist. Es ist jedoch auch möglich, sie mit dem Errichten einer Bauen-Aktion zu reparieren. Das kostet die Rohstoffe, die bei einem grünen Symbol angegeben sind. Ersetzt dann das zerstörte Gebäude durch ein Gebäude des passenden Typs vom Gebäude-Tableau. Es ist nicht möglich, ein zerstörtes Gebäude zu reparieren, wenn auf dem Gebäude-Tableau kein entsprechendes Gebäude mehr verfügbar ist.",
+      "description": "Beispiel: Du nutzt die Bauen-Aktion, um ein paar Hilfe rufende Kinder zu retten. Das kostet dich alle 3 Errichten/Abreißen der Aktion. Ihr erhaltet 3 Kinder, sowie 2 kranke Kinder und erhöht Hoffnung um 1. Danach legt ihr das Gebäude zurück in die Schachtel.",
+      "group": "winterheim",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Besondere Regeln",
+        "Hilferufe",
+        "Zerstörte Gebäude",
+        "Szenarien-Anleitung S. 24"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 24
+      },
+      "sort_order": 330
+    },
+    {
+      "id": "winterheim-regeln-generatorschaden",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Der Fall von Winterheim – Generatorschaden & Dreadnought-Plättchen",
+      "image": null,
+      "summary": "**Generatorschaden-Plättchen:** Müsst ihr ein Generatorschaden-Plättchen auf die Belastungsleiste legen, deckt ihr damit die 2 obersten, freien Felder der Leiste ab (auf denen kein solches Plättchen liegt). Auf jedem dieser Plättchen ist Platz für 2 Belastungswürfel. Belastungswürfel legt ihr natürlich aber immer noch von unten nach oben auf die Belastungsleiste.\n\nMüsst ihr einen Belastungswürfel auf ein Generatorschaden-Plättchen legen, oder legt ihr einen auf ein Feld, auf dem bereits ein Belastungswürfel liegt (legt dann den Belastungswürfel einfach auf das Plättchen am selben Ort), kommt es in der Generatorbetrieb-Phase dieser Runde zu einem Störfall.\n\n**Dreadnought-Plättchen:** Einige der Szenario-Karten weisen euch an, das Dreadnought-Plättchen auf einen Expeditionspfad zu legen. Während der Wetter-Phase zieht ihr dieses Plättchen auf dieselbe Weise vorwärts, wie ihr auch eure Späher bewegt. Die Expeditionskarte und das Dreadnought-Plättchen zählen aber nicht für eure maximale Anzahl gleichzeitig aktiver Expeditionen. Erreicht das Dreadnought-Plättchen das letzte Feld des Expeditionspfades, dürft ihr den Ort jedoch nicht umgehen, sondern müsst ihn erkunden.",
+      "description": "",
+      "group": "winterheim",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Besondere Regeln",
+        "Störfall",
+        "Dreadnought",
+        "Szenarien-Anleitung S. 24"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 24
+      },
+      "sort_order": 340
+    },
+    {
+      "id": "tesla-city-story",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Ruinen von Tesla City – Hintergrund",
+      "image": null,
+      "summary": "Die ganze Misere ist alleine eure Schuld. Nur wegen eurer Worte und deren Überzeugungskraft haben diese Menschen die notdürftige Sicherheit ihres Camps verlassen. Nur wenige hatten von Tesla City gehört – jenem Traum von Nikola Tesla, eine voll automatisierte Stadt zu gründen. Euch hatte diese Nachricht aber erreicht. Sie als Ziel zu bestimmen, war die einzige logische Konsequenz.\n\nIm Schnee hättet ihr dann fast die Orientierung verloren. Doch als alles verloren schien, waren in der Ferne plötzlich Blitze zu sehen. Das „Gewitter\" schien aber stationär zu sein, und die Blitze zuckten in klar erkennbarem Rhythmus.\n\nDer Anblick, der sich euch bietet, gebietet Ehrfurcht. Vor euch erhebt sich eine gigantische Struktur, aus der überall metallene Stäbe und riesige Spulen ragen. Elektrizität knistert in der Luft, und Spannungsbögen springen von einem Punkt zum anderen. Der Geruch von Ozon liegt in der Luft. Und nachdem sich euer anfänglicher Schock legt, wird euch klar, dass es sich dabei um den umfangreich modifizierten Generator handelt.\n\nWie es scheint, erzeugen die am Rande der Siedlung errichteten Gerätschaften und der Generator eine aus Energie bestehende Kuppel, die sich über das gesamte Gebiet erstreckt. Und euch wird bewusst, dass seit dem Betreten des Gebietes keine einzige Schneeflocke auf euch herabgefallen ist.\n\nIhr nähert euch der riesigen Konstruktion im Zentrum – und ihr erkennt: zum Einen scheinen die am Generator angebrachten Spulen beschädigt zu sein, was der Grund für die elektrischen Entladungen sowie die unerklärlichen, an zufälligen Punkten entstehende Anomalien sein dürfte. Und zum Anderen findet sich in der gesamten Siedlung nicht eine Menschenseele.\n\nEs gibt jedoch nun kein Zurück mehr – eure einzige Hoffnung besteht darin, jeden Fetzen an Information und Erkenntnissen, die ihr hier findet, zusammenzutragen, um die Geheimnisse von Tesla City zu ergründen.",
+      "description": "",
+      "group": "tesla-city",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Hintergrund",
+        "Regelintensiv",
+        "Szenarien-Anleitung S. 25"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 25
+      },
+      "sort_order": 350
+    },
+    {
+      "id": "tesla-city-material",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Ruinen von Tesla City – Zusätzliches Spielmaterial",
+      "image": null,
+      "summary": "1 Stahlfabrik, 1 Dampfkernfabrik, 1 Bibliothek, 1 Wissen/Entdeckung-Plättchen, 1 Studiums-Anzeiger, 1 Zustands-Anzeiger, 3 Elektrostatische Filter, 1 Reparaturstation, 8 Stahl-Rohstoffe (in den Vorrat legen), 4 Plättchen „Elektrostatischer Entladepunkt\", 11 Szenario-Karten (IV/01 bis IV/09, davon 3 Karten IV/04).",
+      "description": "",
+      "group": "tesla-city",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielmaterial",
+        "Stahl",
+        "Szenarien-Anleitung S. 26"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 26
+      },
+      "sort_order": 360
+    },
+    {
+      "id": "tesla-city-aufbau",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Ruinen von Tesla City – Spielaufbau",
+      "image": null,
+      "summary": "Führt den Spielaufbau wie bei *Ein neues Zuhause: Der Krater* in der Anleitung aus. Ersetzt aber die Aufbauschritte ① Den Spielplan bauen und ⑭ Letzte Vorbereitungen vollständig mit den hier angegebenen. Die Aufbauschritte ⑤ und ⑨ werden nur modifiziert. Entfernt außerdem die Technologiekarte *Leichtere Späher-Schlitten* (#T01) und die Gesetzeskarten *Die Neue Ordnung* (#G07) und *Der Neue Glaube* (#G08) und legt sie zurück in die Schachtel. Besitzt ihr die Erweiterung *Streifzug ins Frostland*? Entfernt ebenso die Technologiekarte *Fortschrittliche Automata* (#T17). Entfernt dann ebenso die 3 Gebäude Signalstation, Mauerbohrer und Kohlemine und legt auch sie in die Schachtel zurück. Zuletzt sucht ihr noch die Wetterkarten #W01, #W02, #W03 und #W13 heraus und die Bürgerkarten #B03, #B05 und #B07 und entfernt alle Expeditionskarten und alle Morgenkarten. Legt sie in die Schachtel zurück. Sie stehen euch für dieses Szenario nicht zur Verfügung.\n\n**① Den Spielplan bauen:** Die Spielplanumrandung wird auf die Seite gedreht, die Rohstoffe und Bäume zeigt. Nach dem üblichen Aufbau von Generator-Sektor und Sektoren-Stapeln wird zunächst ein vollständiger Ring offen ausliegender Sektoren um den Generator-Sektor gebildet (dabei werden keine Rohstoffe oder Bäume platziert – Nahrungsfunde werden auf diesen Sektoren in diesem Szenario ignoriert). Dann werden 2 äußere Sektoren verdeckt an die oberste und unterste Ecke der Umrandung gelegt und aufgedeckt. Es werden so viele Rohstoffe oder Bäume auf die Felder der Spielplanumrandung gelegt, wie dort abgebildet sind. Platziert verdeckt je 1 Plättchen „Elektrostatischer Entladepunkt\" auf die 2 linken und 2 rechten Ecken (nur oben und unten legt ihr keine). Platziert das Gebäude Bibliothek auf den inneren Sektor direkt unterhalb des Generator-Sektors. Legt dann 1 Baracke und 2 Zelte auf die 3 inneren Sektoren, die sich direkt über dem Generator-Sektor befinden. Dreht dann die Zelte auf ihre Ruine-Seite.",
+      "description": "",
+      "group": "tesla-city",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Szenarien-Anleitung S. 26"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 26
+      },
+      "sort_order": 370
+    },
+    {
+      "id": "tesla-city-aufbau-1b",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Ruinen von Tesla City – Spielaufbau (Bevölkerungs- & Runden-Tableau)",
+      "image": null,
+      "summary": "**⑤ Das Bevölkerungs-Tableau:** Bereitet das Tableau wie üblich vor. Ignoriert dabei aber Nahrungsfund auf allen inneren Sektoren. Berücksichtigt nur Nahrungsfund auf äußeren Sektoren.\n\n**⑨ Das Runden-Tableau:** Legt den Sturm-Anzeiger auf Feld 2 der Rundenleiste.",
+      "description": "",
+      "group": "tesla-city",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Szenarien-Anleitung S. 27"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 27
+      },
+      "sort_order": 380
+    },
+    {
+      "id": "tesla-city-aufbau-2",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Ruinen von Tesla City – Spielaufbau (Letzte Vorbereitungen)",
+      "image": null,
+      "summary": "**⑭ Letzte Vorbereitungen:** Legt die Phasenkarte gut erreichbar aus und platziert den Phasen-Anzeiger an 6. Aktionen-Phase. Wählt zufällig 1 von euch aus, der den Anführer erhält. Für dieses Szenario benötigt ihr die Szenario-Karten IV/01 bis IV/09. Legt die Szenario-Karten IV/01, IV/02 und IV/03 offen in die Szenario-Auslage. Die 3 Szenario-Karten IV/04 legt ihr verdeckt am rechten Rand des Spielplans aus (dort, wo sich sonst die Expeditions-Auslage befindet). In diesem Szenario verwendet ihr die Karte IV/08 (*Die Ruinen von Tesla City – Der Sturm*) als Sturmkarte. Mischt die Szenario-Karte IV/09 in den Dämmerungsstapel. Die übrigen Szenario-Karten (IV/05 bis IV/07) legt ihr als verdeckten Stapel in die Szenario-Auslage. Legt den Generatorstatus-Anzeiger auf Feld 0 der Generatorstatus-Leiste auf Szenario-Karte IV/01. Dann legt den Studiums-Anzeiger auf Feld 0 der Studiums-Leiste auf Szenario-Karte IV/03. Nehmt 1 Automaton aus dem Vorrat und legt ihn in euer Lager. Dann legt ihr die Gebäude Stahlfabrik, Dampfkernfabrik, Reparaturstation und Elektrostatischer Filter unter das Gebäude-Tableau. Legt das Wissen/Entdeckung-Plättchen neben die Szenario-Auslage. Legt 1 Szenarioplättchen auf Feld 10 der Rundenleiste.",
+      "description": "",
+      "group": "tesla-city",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Spielaufbau",
+        "Szenarien-Anleitung S. 28"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 28
+      },
+      "sort_order": 390
+    },
+    {
+      "id": "tesla-city-regeln-stahl",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Ruinen von Tesla City – Früher-Morgen-Phase, Stahl & Umrandung",
+      "image": null,
+      "summary": "**Früher-Morgen-Phase:** Für dieses Szenario entfällt die Früher-Morgen-Phase. Überspringt sie einfach.\n\n**Stahl:** Im Gegensatz zu anderen Rohstoffen könnt ihr nie mehr als 8 [[icon:frostpunk:stahl]] Stahl besitzen (beschränkt durch das Spielmaterial). Stahl kann beim Errichten eines Gebäudes anstelle von Holz verwendet werden (in beliebiger Kombination, z. B. 1 Stahl + 1 Holz). Errichtet ihr es jedoch ausschließlich mit Stahl, dürft ihr es danach sofort gratis ausbauen.\n\n**Felder auf der Spielplanumrandung:** Felder auf der Spielplanumrandung haben im Vergleich zu Feldern auf Sektoren nur einen eingeschränkten Nutzen. Ihr könnt auf ihnen keinerlei Gebäude errichten, und die Felder können zudem nicht beheizt werden. Sonst verhalten sie sich aber wie normale Felder. Ihr könnt die Aktion Rohstoffe sammeln ganz normal auf ihnen ausführen. Felder auf der Spielplanumrandung sind angrenzend zu allen Feldern auf Sektoren, die mit ihnen eine Kante teilen (maximal also 2 Sektoren).",
+      "description": "Beispiel: Nutzt ihr hier die Sammelstelle für eine Aktion, könnt ihr von jedem der beiden angrenzenden Felder auf der Spielplanumrandung je 1 Rohstoff erhalten.",
+      "group": "tesla-city",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Besondere Regeln",
+        "Stahl",
+        "Szenarien-Anleitung S. 29"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 29
+      },
+      "sort_order": 400
+    },
+    {
+      "id": "tesla-city-regeln-filter",
+      "type": "reference",
+      "category": "szenarien",
+      "name": "Die Ruinen von Tesla City – Elektrostatische Filter & Reparaturstation",
+      "image": null,
+      "summary": "**Die Elektrostatischen Filter:** Auf einem Sektor kann nur genau 1 Gebäude Elektrostatischer Filter errichtet werden, und auch nur auf einem Sektor, der direkt an ein aufgedecktes Plättchen „Elektrostatischer Entladepunkt\" angrenzt.\n\n**Reparaturstation:** Die Reparaturstation kann nur auf einem Feld des Generator-Sektors errichtet werden.",
+      "description": "",
+      "group": "tesla-city",
+      "timing": [],
+      "tags": [
+        "Szenarien",
+        "Besondere Regeln",
+        "Reparaturstation",
+        "Szenarien-Anleitung S. 29"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Szenarien-Anleitung (DE)",
+        "page": 29
+      },
+      "sort_order": 410
+    }
+  ]
+}

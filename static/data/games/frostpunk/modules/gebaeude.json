@@ -1,0 +1,1009 @@
+{
+  "groups": [
+    {
+      "id": "grundlagen",
+      "title": "Gebäudegrößen, Farben & Ausbauen",
+      "order": 10,
+      "description": "Grundregeln, die für alle Gebäude gelten."
+    },
+    {
+      "id": "start",
+      "title": "Startgebäude",
+      "order": 20,
+      "description": "Beim Aufbau bereits vorhanden bzw. auf dem Generator-Sektor aufgedruckt."
+    },
+    {
+      "id": "standard-klein",
+      "title": "Standardgebäude – klein",
+      "order": 30
+    },
+    {
+      "id": "standard-gross",
+      "title": "Standardgebäude – groß",
+      "order": 40
+    },
+    {
+      "id": "unterkuenfte",
+      "title": "Unterkünfte",
+      "order": 50
+    },
+    {
+      "id": "gesetze",
+      "title": "Durch Gesetze freigeschaltet",
+      "order": 60,
+      "description": "Diese Gebäude kommen nur ins Spiel, wenn das zugehörige Gesetz Teil des Gesetzesstapels ist bzw. verabschiedet wurde."
+    },
+    {
+      "id": "szenario",
+      "title": "Besondere Szenario-Gebäude",
+      "order": 70
+    }
+  ],
+  "entries": [
+    {
+      "id": "gebaeudegroessen",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Gebäudegrößen",
+      "image": null,
+      "summary": "Es gibt zwei Gebäudegrößen: **Kleine Gebäude** benötigen 1 Feld auf 1 Sektor und können nur 1x pro Runde genutzt werden (1 Figur kann daraufstehen). **Große Gebäude** benötigen 2 Felder auf 1 Sektor und können bis zu 2x pro Runde genutzt werden (2 Figuren können daraufstehen).",
+      "description": "",
+      "group": "grundlagen",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Grundlagen",
+        "Klein",
+        "Groß",
+        "Anleitung S. 39"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 39
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "waermedaemmungs-farben",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Die 5 Wärmedämmungs-Farben",
+      "image": null,
+      "summary": "Gebäude gibt es in fünf Farben (weiß, blau, gelb, orange und rot), die ihren Wärmedämmungs-Level anzeigen.\n\n**Weiße Gebäude** haben entweder einen Soforteffekt oder einen passiven Effekt. Ihr Wärmedämmungs-Level ist irrelevant, da sie keine Aktionen bieten.\n\n**Blaue Gebäude** sind nur dann beheizt, wenn sie sich in einer beheizten Zone befinden.\n\n**Gelbe Gebäude** sind nur beheizt, wenn sich der Anzeiger für Generatorleistung über dem Symbol für das gelbe [[icon:frostpunk:waermedaemmung-gelb]] Wärmedämmungs-Level befindet oder sich das Gebäude in einer beheizten Zone befindet.\n\n**Orange Gebäude** sind nur beheizt, wenn sich der Anzeiger für Generatorleistung über dem Symbol für das orangene [[icon:frostpunk:waermedaemmung-orange]] Wärmedämmungs-Level befindet oder sich das Gebäude in einer beheizten Zone befindet.\n\n**Rote Gebäude** sind nur beheizt, wenn sich der Anzeiger für Generatorleistung über dem Symbol für das rote [[icon:frostpunk:waermedaemmung-rot]] Wärmedämmungs-Level befindet oder sich das Gebäude in einer beheizten Zone befindet.",
+      "description": "",
+      "group": "grundlagen",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Grundlagen",
+        "Wärmedämmungs-Level",
+        "Farben",
+        "Anleitung S. 39"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 39
+      },
+      "sort_order": 20
+    },
+    {
+      "id": "gebaeude-ausbauen",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Gebäude ausbauen",
+      "image": null,
+      "summary": "Ihr könnt ein Gebäude [[icon:frostpunk:ausbauen]] ausbauen, indem ihr es auf die Rückseite dreht. Das geht, indem euch entweder ein Effekt dazu anweist, oder ihr die Aktion einer Werkstatt nutzt und die Ausbaukosten zahlt. Gebäude, deren Namen zwischen zwei Rauten steht, können nicht bzw. nicht weiter ausgebaut werden ([[icon:frostpunk:nicht-ausbaubar]]).",
+      "description": "",
+      "group": "grundlagen",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Grundlagen",
+        "Ausbauen",
+        "Werkstatt",
+        "Anleitung S. 41"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 41
+      },
+      "sort_order": 30
+    },
+    {
+      "id": "speisehaus",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Speisehaus",
+      "image": null,
+      "summary": "**Klein · Startgebäude · Auf dem Generator-Sektor aufgedruckt**\n\n**Aktion:** Verbrauche 3 [[icon:frostpunk:nahrung]] Nahrung, dann +1 [[icon:frostpunk:hoffnung]] Hoffnung oder −1 [[icon:frostpunk:unzufriedenheit]] Unzufriedenheit.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "start",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Startgebäude",
+        "Klein",
+        "Nahrung",
+        "Hoffnung",
+        "Unzufriedenheit",
+        "Anleitung S. 41"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 41
+      },
+      "sort_order": 40
+    },
+    {
+      "id": "plattform",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Plattform",
+      "image": null,
+      "summary": "**Klein · Startgebäude · Nur Ingenieure · Auf dem Generator-Sektor aufgedruckt**\n\n**Aktion:** Verabschiede 1 neues Gesetz.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "start",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Startgebäude",
+        "Klein",
+        "Ingenieur",
+        "Gesetze",
+        "Anleitung S. 41"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 41
+      },
+      "sort_order": 50
+    },
+    {
+      "id": "generator-gebaeude",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Generator",
+      "image": null,
+      "summary": "**Klein · Startgebäude · Nur Ingenieure · Auf dem Generator-Sektor aufgedruckt**\n\n**Aktion:** Entferne bis zu 5 Belastungswürfel von der Belastungsleiste, oder verbrauche 1 [[icon:frostpunk:dampfkern]] Dampfkern, um alle Belastungswürfel von der Belastungsleiste zu entfernen.",
+      "description": "Ausbauen nicht möglich.\n\nAchtung: Wenn ihr diese Aktion ausführt und dabei das erste Mal 1 Dampfkern verbraucht, muss der Generator-Ausbau installiert werden. Installiert den Generator-Ausbau oben im Generator-Turm. Dies erhöht die Wahrscheinlichkeit, dass weniger Würfel aus dem Generator-Turm fallen.",
+      "group": "start",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Startgebäude",
+        "Klein",
+        "Ingenieur",
+        "Belastungswürfel",
+        "Generator-Ausbau",
+        "Anleitung S. 41"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 41
+      },
+      "sort_order": 60
+    },
+    {
+      "id": "werkstatt",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Werkstatt",
+      "image": null,
+      "summary": "**Klein · Rot · Kosten: 1 Holz · Nur Ingenieure · ×2**\n\n**Aktion:** Wähle 2x nacheinander aus diesen beiden Effekten und führe sie aus:\nA) Zahle die Ausbaukosten (1 Holz oder 1 bzw. 2 Dampfkerne – wie auf dem Gebäude-Tableau unterhalb des Kreises abgebildet), um ein unbesetztes errichtetes Gebäude auszubauen.\nB) Ziehe 1 Forschungsplättchen um 1 Feld auf der Rundenleiste rückwärts (das kann die Technologie sofort nach den üblichen Regeln fertig entwickeln).",
+      "description": "Nicht vergessen: Wenn ihr eure erste Werkstatt errichtet, beginnt ihr sofort mit der Erforschung eurer ersten Technologie.\n\nHinweis: Hast du mit dem ersten Effekt eine Technologie fertig entwickeln können, darfst du mit dem zweiten Effekt auch schon gleich das neue Forschungsplättchen um 1 Feld zurückbewegen.\n\nAusbauen nicht möglich.",
+      "group": "standard-klein",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Klein",
+        "Rot",
+        "Ingenieur",
+        "Ausbauen",
+        "Technologie",
+        "Anleitung S. 41"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 41
+      },
+      "sort_order": 70
+    },
+    {
+      "id": "holzkohlenmeiler",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Holzkohlenmeiler",
+      "image": null,
+      "summary": "**Klein · Orange · Kosten: 1 Holz · ×3**\n\n**Aktion:** Verbrauche 1 [[icon:frostpunk:holz]] Holz, um 4 [[icon:frostpunk:kohle]] Kohle zu erhalten.",
+      "description": "Ausgebaut – Aktion: Verbrauche 1 Holz, um 5 Kohle zu erhalten.",
+      "group": "standard-klein",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Klein",
+        "Orange",
+        "Holz",
+        "Kohle",
+        "Anleitung S. 42"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 42
+      },
+      "sort_order": 80
+    },
+    {
+      "id": "jagdhuette",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Jagdhütte",
+      "image": null,
+      "summary": "**Klein · Gelb · Kosten: 1 Holz · ×5**\n\n**Dauerhafter Effekt:** 1 [[icon:frostpunk:jagdsymbol]] Jagd-Symbol (liefert 1 [[icon:frostpunk:nahrung]] Nahrung in der Wetter-Phase).\n\n**Aktion:** Erhalte 4 Nahrung.",
+      "description": "Ausgebaut – Dauerhafter Effekt: 2 Jagd-Symbole (liefern 2 Nahrung in der Wetter-Phase). Aktion: Erhalte 5 Nahrung.",
+      "group": "standard-klein",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Klein",
+        "Gelb",
+        "Nahrung",
+        "Jagdsymbol",
+        "Anleitung S. 42"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 42
+      },
+      "sort_order": 90
+    },
+    {
+      "id": "sammelstelle",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Sammelstelle",
+      "image": null,
+      "summary": "**Klein · Gelb · Kosten: 1 Holz · ×4**\n\n**Aktion:** Erhalte 1 Rohstoff von jedem angrenzenden Feld (in das Lager).",
+      "description": "Ausgebaut verbessert nur das Wärmedämmungs-Level des Gebäudes.",
+      "group": "standard-klein",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Klein",
+        "Gelb",
+        "Rohstoffe",
+        "Angrenzend",
+        "Anleitung S. 42"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 42
+      },
+      "sort_order": 100
+    },
+    {
+      "id": "fabrik",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Fabrik",
+      "image": null,
+      "summary": "**Klein · Rot · Kosten: 2 Holz · Nur Ingenieure · ×1**\n\n**Aktion:** Verbrauche 1 [[icon:frostpunk:dampfkern]] Dampfkern, um 1 [[icon:frostpunk:automaton]] Automaton zu erhalten.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "standard-klein",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Klein",
+        "Rot",
+        "Ingenieur",
+        "Automata",
+        "Dampfkern",
+        "Anleitung S. 42"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 42
+      },
+      "sort_order": 110
+    },
+    {
+      "id": "saegewerk",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Sägewerk",
+      "image": null,
+      "summary": "**Klein · Orange · Kosten: 2 Holz · ×3**\n\n**Aktion:** Entferne 1 Baum vom Sektor des Sägewerks, um 3 [[icon:frostpunk:holz]] Holz zu erhalten.",
+      "description": "Ausgebaut – Aktion: Entferne 1 Baum vom Sektor des Sägewerks, oder von 1 angrenzenden Feld, um 3 Holz zu erhalten.",
+      "group": "standard-klein",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Klein",
+        "Orange",
+        "Holz",
+        "Bäume",
+        "Anleitung S. 42"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 42
+      },
+      "sort_order": 120
+    },
+    {
+      "id": "sanitaetsstation",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Sanitätsstation",
+      "image": null,
+      "summary": "**Klein · Gelb · Kosten: 2 Holz · Nur Ingenieure · ×3**\n\n**Aktion:** 3 [[icon:frostpunk:heilen]] Heilen.",
+      "description": "Ausgebaut – Aktion: 4 Heilen oder 1 [[icon:frostpunk:behandeln]] Behandeln.",
+      "group": "standard-klein",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Klein",
+        "Gelb",
+        "Ingenieur",
+        "Heilen",
+        "Behandeln",
+        "Anleitung S. 42"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 42
+      },
+      "sort_order": 130
+    },
+    {
+      "id": "signalstation",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Signalstation",
+      "image": null,
+      "summary": "**Groß · Weiß · Kosten: 3 Holz · ×1**\n\n**Dauerhafter Effekt:** 1 aktive Expedition.",
+      "description": "Ausgebaut – Dauerhafter Effekt: Bis zu 2 aktive Expeditionen.\n\nDie Signalstation hat keine eigene Aktion – sie ermöglicht nur die Aktion Späher aussenden.",
+      "group": "standard-gross",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Groß",
+        "Weiß",
+        "Expedition",
+        "Späher",
+        "Anleitung S. 42"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 42
+      },
+      "sort_order": 140
+    },
+    {
+      "id": "kohlegenerator",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Kohlegenerator",
+      "image": null,
+      "summary": "**Groß · Orange · Kosten: 3 Holz · ×2**\n\n**Aktion:** Lege je bis zu 3 [[icon:frostpunk:kohle]] Kohle (aus dem Vorrat) auf bis zu 3 unterschiedliche, angrenzende Felder (insgesamt also bis zu 9 Kohle).",
+      "description": "Ausgebaut – Aktion: Lege je bis zu 3 Kohle (aus dem Vorrat) auf bis zu 4 unterschiedliche, angrenzende Felder (insgesamt also bis zu 12 Kohle).\n\nAuf den Feldern muss sich entweder bereits Kohle befinden, oder sie müssen vollständig leer sein (weder Rohstoffe, noch Bäume, noch Gebäude darauf). Auf keinem Feld darf mehr als 5 Kohle liegen.",
+      "group": "standard-gross",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Groß",
+        "Orange",
+        "Kohle",
+        "Angrenzend",
+        "Anleitung S. 42"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 42
+      },
+      "sort_order": 150
+    },
+    {
+      "id": "krankenhaus",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Krankenhaus",
+      "image": null,
+      "summary": "**Groß · Rot · Kosten: 4 Holz + 1 Dampfkern · Nur Ingenieure · ×2**\n\n**Aktion:** 4 [[icon:frostpunk:heilen]] Heilen oder 2 [[icon:frostpunk:behandeln]] Behandeln.",
+      "description": "Ausgebaut – Aktion: 5 Heilen oder 3 Behandeln.",
+      "group": "standard-gross",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Groß",
+        "Rot",
+        "Ingenieur",
+        "Heilen",
+        "Behandeln",
+        "Anleitung S. 42"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 42
+      },
+      "sort_order": 160
+    },
+    {
+      "id": "treibhaus",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Treibhaus",
+      "image": null,
+      "summary": "**Groß · Orange · Kosten: 4 Holz + 1 Dampfkern · ×2**\n\n**Aktion:** Erhalte 7 [[icon:frostpunk:nahrung]] Nahrung.",
+      "description": "Ausgebaut – Aktion: Erhalte 9 Nahrung.",
+      "group": "standard-gross",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Groß",
+        "Orange",
+        "Nahrung",
+        "Anleitung S. 42"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 42
+      },
+      "sort_order": 170
+    },
+    {
+      "id": "kohlemine",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Kohlemine",
+      "image": null,
+      "summary": "**Groß · Gelb · Kosten: 5 Holz + 1 Dampfkern · ×2**\n\nKann nur angrenzend an ein Kohlevorkommen (Spielplan-Umrandung) errichtet werden.\n\n**Aktion:** Erhalte 4 [[icon:frostpunk:kohle]] Kohle.",
+      "description": "Ausgebaut – Aktion: Erhalte 5 Kohle.",
+      "group": "standard-gross",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Groß",
+        "Gelb",
+        "Kohle",
+        "Spielplan-Umrandung",
+        "Anleitung S. 42"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 42
+      },
+      "sort_order": 180
+    },
+    {
+      "id": "mauerbohrer",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Mauerbohrer",
+      "image": null,
+      "summary": "**Groß · Gelb · Kosten: 5 Holz + 1 Dampfkern · ×2**\n\nKann nur angrenzend an ein Holzvorkommen (Spielplan-Umrandung) errichtet werden.\n\n**Aktion:** Erhalte 3 [[icon:frostpunk:holz]] Holz.",
+      "description": "Ausgebaut verbessert nur das Wärmedämmungs-Level des Gebäudes.",
+      "group": "standard-gross",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Standardgebäude",
+        "Groß",
+        "Gelb",
+        "Holz",
+        "Spielplan-Umrandung",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 190
+    },
+    {
+      "id": "haus",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Haus",
+      "image": null,
+      "summary": "**Klein · Rot · Kosten: 4 Holz · Unterkunft · ×8**\n\nBietet 2 Schlafplätze.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "unterkuenfte",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Unterkunft",
+        "Klein",
+        "Rot",
+        "Schlafplätze",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 200
+    },
+    {
+      "id": "baracke",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Baracke",
+      "image": null,
+      "summary": "**Klein · Rot · Kosten: 3 Holz · Unterkunft · ×8**\n\nBietet 2 Schlafplätze.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "unterkuenfte",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Unterkunft",
+        "Klein",
+        "Rot",
+        "Schlafplätze",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 210
+    },
+    {
+      "id": "zelt",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Zelt",
+      "image": null,
+      "summary": "**Klein · Gelb · Kosten: 2 Holz · Unterkunft · ×4**\n\nBietet 2 Schlafplätze.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "unterkuenfte",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Unterkunft",
+        "Klein",
+        "Gelb",
+        "Schlafplätze",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 220
+    },
+    {
+      "id": "ruine",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Ruine",
+      "image": null,
+      "summary": "**Klein · Blau**\n\nBietet keine Schlafplätze. Wird nicht errichtet.",
+      "description": "Ruinen entstehen, wenn Zelte oder Baracken durch einen Sturm zerstört werden (siehe Wetter-Phase). Sie sind immer-kalte Gebäude, die während der Nacht-Phase keine Schlafplätze mehr bieten können und keine Unterkünfte mehr sind. Eines der Gesetze (Improvisierte Unterkünfte) kann dies beeinflussen.",
+      "group": "unterkuenfte",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Unterkunft",
+        "Klein",
+        "Ruine",
+        "Sturm",
+        "Anleitung S. 21"
+      ],
+      "aliases": [
+        "Zerstörtes Gebäude"
+      ],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 21
+      },
+      "sort_order": 230
+    },
+    {
+      "id": "kinderheim",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Kinderheim",
+      "image": null,
+      "summary": "**Klein · Gelb · Unterkunft, nur für Kinder**\n\nDieses Gebäude ist eine Unterkunft. Bietet 4 Schlafplätze, aber nur für [[icon:frostpunk:kind]] Kinder.",
+      "description": "Ausbauen nicht möglich.\n\nHinweis: Wenn durch Effekte hier weitere Schlafplätze entstehen, dürfen das trotzdem nur Kinder sein.",
+      "group": "unterkuenfte",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Unterkunft",
+        "Klein",
+        "Gelb",
+        "Kinder",
+        "Gesetze",
+        "Schlafplätze",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 240
+    },
+    {
+      "id": "pflegeheim",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Pflegeheim",
+      "image": null,
+      "summary": "**Klein · Gelb · Durch Gesetz freigeschaltet**\n\n**Aktion:** 2 [[icon:frostpunk:heilen]] Heilen, oder 1 Fürsorge erschöpfen, dann: 5 Heilen.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "gesetze",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Gesetze",
+        "Klein",
+        "Gelb",
+        "Heilen",
+        "Fürsorge",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 250
+    },
+    {
+      "id": "kampfarena",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Kampfarena",
+      "image": null,
+      "summary": "**Klein · Gelb · Durch Gesetz freigeschaltet**\n\n**Aktion:** −1 [[icon:frostpunk:unzufriedenheit]] Unzufriedenheit.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "gesetze",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Gesetze",
+        "Klein",
+        "Gelb",
+        "Unzufriedenheit",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 260
+    },
+    {
+      "id": "wirtshaus",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Wirtshaus",
+      "image": null,
+      "summary": "**Klein · Orange · Durch Gesetz freigeschaltet**\n\n**Aktion:** +1 [[icon:frostpunk:hoffnung]] Hoffnung.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "gesetze",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Gesetze",
+        "Klein",
+        "Orange",
+        "Hoffnung",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 270
+    },
+    {
+      "id": "feldkueche",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Feldküche",
+      "image": null,
+      "summary": "**Klein · Weiß · Durch Gesetz freigeschaltet (Gebäude des Neuen Glaubens) · ×4**\n\nKann nicht auf dem Generator-Sektor errichtet werden.\n\n**Dauerhafter Effekt:** Alle Aktionen auf diesem Sektor (und Gebäuden auf diesem Sektor) sind immer beheizt. Das gilt auch für Unterkünfte auf diesem Sektor in der Nacht-Phase.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "gesetze",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Gesetze",
+        "Klein",
+        "Weiß",
+        "Neuer Glaube",
+        "Beheizt",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 280
+    },
+    {
+      "id": "friedhof",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Friedhof",
+      "image": null,
+      "summary": "**Klein · Gelb · Durch Gesetz freigeschaltet (Gebäude des Neuen Glaubens) · ×1**\n\n**Aktion:** Ziehe den Leichnams-Anzeiger 1 oder 2 Felder auf der Leichnams-Leiste zurück. Dann: +1 [[icon:frostpunk:hoffnung]] Hoffnung.",
+      "description": "",
+      "group": "gesetze",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Gesetze",
+        "Klein",
+        "Gelb",
+        "Neuer Glaube",
+        "Leichnams-Anzeiger",
+        "Hoffnung",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 290
+    },
+    {
+      "id": "tempel",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Tempel",
+      "image": null,
+      "summary": "**Klein · Orange · Nur Ingenieure · Durch Gesetz freigeschaltet (Gebäude des Neuen Glaubens) · ×1**\n\n**Aktion:** Alle [[icon:frostpunk:hoffnung-art-aktivieren]] Hoffnung 1 Art aktivieren.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "gesetze",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Gesetze",
+        "Klein",
+        "Orange",
+        "Ingenieur",
+        "Neuer Glaube",
+        "Hoffnung",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 300
+    },
+    {
+      "id": "glaubenshueter",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Glaubenshüter",
+      "image": null,
+      "summary": "**Groß · Rot · Kosten: 5 Holz + 1 Dampfkern · Durch Gesetz freigeschaltet (Gebäude des Neuen Glaubens) · ×1**\n\n**Aktion:** Ziehe 3 Dämmerungskarten. Lege 1 davon auf den Ablagestapel (darf keine Disput-Karte sein) und die anderen zurück auf den Stapel. Dann mische den Stapel.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "gesetze",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Gesetze",
+        "Groß",
+        "Rot",
+        "Neuer Glaube",
+        "Dämmerungskarten",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 310
+    },
+    {
+      "id": "schneegrube",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Schneegrube",
+      "image": null,
+      "summary": "**Klein · Weiß · Durch Gesetz freigeschaltet (Gebäude der Neuen Ordnung) · ×4**\n\n**Sofort:** Ziehe einmalig den Leichnams-Anzeiger bis zu 3 Felder auf der Leichnams-Leiste zurück.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "gesetze",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Gesetze",
+        "Klein",
+        "Weiß",
+        "Neue Ordnung",
+        "Leichnams-Anzeiger",
+        "Anleitung S. 43"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 43
+      },
+      "sort_order": 320
+    },
+    {
+      "id": "propagandazentrum",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Propagandazentrum",
+      "image": null,
+      "summary": "**Klein · Orange · Nur Ingenieure · Durch Gesetz freigeschaltet (Gebäude der Neuen Ordnung) · ×1**\n\n**Aktion:** Wähle 1 bereits genutztes Gebäude (mit Bürger-Figur darauf). Führe die Aktion des Gebäudes erneut aus (zählt als beheizt).",
+      "description": "Ausbauen nicht möglich.",
+      "group": "gesetze",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Gesetze",
+        "Klein",
+        "Orange",
+        "Neue Ordnung",
+        "Ingenieur",
+        "Anleitung S. 44"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 44
+      },
+      "sort_order": 330
+    },
+    {
+      "id": "gefaengnis",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Gefängnis",
+      "image": null,
+      "summary": "**Groß · Rot · Durch Gesetz freigeschaltet (Gebäude der Neuen Ordnung) · ×1**\n\n**Aktion:** −4 [[icon:frostpunk:hunger]] Hunger.\n\n**Dauerhafter Effekt:** Die hier eingesetzte Figur bleibt über Nacht im Gefängnis. Ist es beheizt, bietet das Gefängnis ihr einen Schlafplatz. Ist es kalt, wird diese Art Bürger krank.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "gesetze",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Gesetze",
+        "Groß",
+        "Rot",
+        "Neue Ordnung",
+        "Hunger",
+        "Schlafplatz",
+        "Anleitung S. 44"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 44
+      },
+      "sort_order": 340
+    },
+    {
+      "id": "agitator",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Agitator",
+      "image": null,
+      "summary": "**Klein · Gelb · Durch Gesetz freigeschaltet (Gebäude der Neuen Ordnung) · ×1**\n\n**Aktion:** Alle [[icon:frostpunk:unzufriedenheit-art-erschoepfen]] Unzufriedenheit 1 Art erschöpfen.",
+      "description": "Ausbauen nicht möglich.",
+      "group": "gesetze",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Gesetze",
+        "Klein",
+        "Gelb",
+        "Neue Ordnung",
+        "Unzufriedenheit",
+        "Anleitung S. 44"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 44
+      },
+      "sort_order": 350
+    },
+    {
+      "id": "besondere-szenario-gebaeude",
+      "type": "reference",
+      "category": "gebaeude",
+      "name": "Besondere Szenario-Gebäude",
+      "image": null,
+      "summary": "Manche Szenarien bringen eigene, besondere Gebäude ins Spiel: **Saatgutarchen, Wachstation, Lüftungsanlage, Evakuierungszentrum, Stahlfabrik, Dampfkernfabrik, Bibliothek, Elektrostatische Filter, Reparaturstation, Dampfzentren** und **Außenpostendepots**.",
+      "description": "Die Effekte dieser Gebäude werden auf den entsprechenden Szenariokarten des jeweiligen Szenarios erläutert – sie sind nicht Teil der Grundspiel-Anleitung.",
+      "group": "szenario",
+      "timing": [],
+      "tags": [
+        "Gebäude",
+        "Szenario",
+        "Erweiterung",
+        "Anleitung S. 44"
+      ],
+      "aliases": [],
+      "warnings": [],
+      "source": {
+        "document": "Frostpunk Spielanleitung (DE)",
+        "page": 44
+      },
+      "sort_order": 360
+    }
+  ]
+}
