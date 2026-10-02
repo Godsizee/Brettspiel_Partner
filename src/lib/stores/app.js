@@ -75,6 +75,27 @@ export function toggleThemeMode() {
   themeMode.update(m => m === 'dark' ? 'light' : 'dark');
 }
 
+/**
+ * Theme-Präferenz setzen: 'system' | 'light' | 'dark'.
+ * Nutzt die bestehenden Stores/Keys (bg_settings.followSystemTheme, bg_theme_mode) — keine neuen Keys.
+ * @param {'system'|'light'|'dark'} pref
+ */
+export function setThemePreference(pref) {
+  if (pref === 'system') {
+    settings.update((s) => ({ ...s, followSystemTheme: true }));
+    themeMode.set(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  } else {
+    settings.update((s) => ({ ...s, followSystemTheme: false }));
+    themeMode.set(pref);
+  }
+}
+
+// Browser-UI-Farbe (Statusleiste) passend zum Theme
+themeMode.subscribe((mode) => {
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute('content', mode === 'dark' ? '#12110e' : '#fcfaf7');
+});
+
 // Netzwerkstatus
 export const isOnline = writable(navigator.onLine);
 

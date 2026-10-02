@@ -1,237 +1,62 @@
-/* ==========================================================================
-   BOARDGAME COMPANION — Global CSS
-   ========================================================================== */
-
+/* Reihenfolge: Schriften (alt, bis R19) → Tailwind → Tokens → Basis → Legacy-Aliase */
 @import url('/fonts/fonts.css');
 @import "tailwindcss";
-
-@theme {
-  /* Farben */
-  --color-bg-base: hsl(224, 25%, 8%);
-  --color-bg-deep: hsl(222, 47%, 5%);
-  --color-surface-glass: hsla(223, 23%, 12%, 0.7);
-  --color-surface-solid: hsl(223, 23%, 12%);
-  --color-border-glass: hsla(223, 20%, 30%, 0.4);
-  --color-border-glow: hsla(250, 89%, 65%, 0.35);
-
-  --color-primary: hsl(250, 89%, 65%);
-  --color-primary-hover: hsl(250, 89%, 72%);
-  --color-primary-glow: hsla(250, 89%, 65%, 0.4);
-
-  --color-secondary: hsl(172, 90%, 45%);
-  --color-secondary-hover: hsl(172, 90%, 55%);
-  --color-secondary-glow: hsla(172, 90%, 45%, 0.3);
-
-  --color-danger: hsl(351, 89%, 60%);
-  --color-danger-hover: hsl(351, 89%, 68%);
-  --color-danger-glow: hsla(351, 89%, 60%, 0.3);
-
-  --color-success: hsl(145, 80%, 45%);
-  --color-warning: hsl(42, 95%, 55%);
-
-  --color-text-primary: hsl(210, 40%, 98%);
-  --color-text-secondary: hsl(215, 20%, 75%);
-  --color-text-muted: hsl(215, 15%, 50%);
-
-  /* Typografie */
-  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-
-  /* Border Radii */
-  --radius-sm: 8px;
-  --radius-md: 16px;
-  --radius-lg: 24px;
-  --radius-xl: 32px;
-
-  /* Shadows */
-  --shadow-premium: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
-  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.3);
-
-  /* Transitions */
-  --transition-fast: 0.15s cubic-bezier(0.16, 1, 0.3, 1);
-  --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-
-  /* Layout */
-  --header-height: 60px;
-  --breakpoint-xs: 360px;
-}
+@import "./styles/tokens.css";
+@import "./styles/base.css";
 
 /* ==========================================================================
-   LIGHT MODE  [data-theme="light"]
+   LEGACY-ALIASE (bis R19): alte Token-Namen zeigen auf die neue Palette,
+   damit alle noch nicht umgebauten Screens sofort die neue Optik bekommen.
+   Als :root-Properties UND als @theme inline (für alte Utility-Klassen wie
+   text-text-primary im Wiki) — Begründung Stolperfalle S5.
    ========================================================================== */
-[data-theme="light"] {
-  --color-bg-base:        hsl(210, 30%, 96%);
-  --color-bg-deep:        hsl(210, 28%, 92%);
-  --color-surface-glass:  hsla(0, 0%, 100%, 0.75);
-  --color-surface-solid:  hsl(0, 0%, 100%);
-  --color-border-glass:   hsla(215, 20%, 70%, 0.5);
-  --color-border-glow:    hsla(250, 80%, 55%, 0.25);
-  --color-text-primary:   hsl(220, 30%, 12%);
-  --color-text-secondary: hsl(220, 15%, 38%);
-  --color-text-muted:     hsl(220, 10%, 58%);
-  --shadow-premium: 0 8px 32px 0 rgba(0, 0, 0, 0.12);
-  --shadow-inner:   inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+:root {
+  --color-bg-base: var(--bg);
+  --color-bg-deep: var(--bg);
+  --color-surface-glass: var(--surface);
+  --color-surface-solid: var(--surface);
+  --color-border-glass: var(--line);
+  --color-border-glow: var(--line-strong);
+  --color-primary: var(--accent);
+  --color-primary-hover: var(--accent-hover);
+  --color-primary-glow: transparent;
+  --color-secondary: var(--accent);
+  --color-secondary-hover: var(--accent-hover);
+  --color-secondary-glow: var(--accent-soft);
+  --color-danger: var(--danger);
+  --color-danger-hover: var(--danger);
+  --color-danger-glow: transparent;
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-text-primary: var(--text);
+  --color-text-secondary: var(--text-2);
+  --color-text-muted: var(--text-3);
+  --font-heading: var(--ff-display);
+  --font-body: var(--ff-sans);
+  --radius-sm: var(--r-sm);   /* S25: alte <style>-Blöcke lesen diese direkt */
+  --radius-md: var(--r-md);
+  --radius-lg: var(--r-lg);
+  --radius-xl: 24px;
+  --shadow-premium: var(--sh-2);
+  --shadow-inner: none;
+  --transition-fast: var(--dur-1) var(--ease-standard);
+  --transition-normal: var(--dur-2) var(--ease-standard);
+  --transition-slow: var(--dur-3) var(--ease-standard);
+  --header-height: 56px;
 }
-
-[data-theme="light"] body {
-  background-color: var(--color-bg-deep);
-  color: var(--color-text-primary);
+@theme inline {
+  --color-bg-base: var(--bg);
+  --color-bg-deep: var(--bg);
+  --color-surface-glass: var(--surface);
+  --color-surface-solid: var(--surface);
+  --color-border-glass: var(--line);
+  --color-primary: var(--accent);
+  --color-secondary: var(--accent);
+  --color-text-primary: var(--text);
+  --color-text-secondary: var(--text-2);
+  --color-text-muted: var(--text-3);
 }
-
-/* Orbs: sehr dezent im Light Mode */
-[data-theme="light"] .glow-orb {
-  opacity: 0.1;
-  filter: blur(150px);
-}
-
-/* Header */
-[data-theme="light"] .app-header {
-  background-color: hsla(0, 0%, 100%, 0.88);
-  border-color: hsla(215, 20%, 80%, 0.6);
-}
-
-/* Global Buttons */
-[data-theme="light"] .btn-secondary {
-  background-color: rgba(0, 0, 0, 0.05);
-  border-color: hsla(215, 20%, 70%, 0.6);
-  color: var(--color-text-primary);
-}
-[data-theme="light"] .btn-secondary:hover { background-color: rgba(0, 0, 0, 0.09); }
-[data-theme="light"] .btn-secondary:active { background-color: rgba(0, 0, 0, 0.12); }
-
-/* btn-back (ScoreSheet + MatchHistory) */
-[data-theme="light"] .btn-back {
-  background-color: rgba(0, 0, 0, 0.05);
-  border-color: hsla(215, 20%, 70%, 0.6);
-  color: var(--color-text-secondary);
-}
-[data-theme="light"] .btn-back:hover {
-  background-color: rgba(0, 0, 0, 0.09);
-  color: var(--color-text-primary);
-}
-
-/* Header Icon Buttons */
-[data-theme="light"] .btn-account,
-[data-theme="light"] .btn-history {
-  background-color: rgba(0, 0, 0, 0.05);
-  border-color: hsla(215, 20%, 70%, 0.6);
-  color: var(--color-text-secondary);
-}
-
-/* Close Overlay Button */
-[data-theme="light"] .btn-close-overlay {
-  background-color: rgba(0, 0, 0, 0.05);
-  border-color: hsla(215, 20%, 70%, 0.5);
-  color: var(--color-text-secondary);
-}
-[data-theme="light"] .btn-close-overlay:hover {
-  background-color: rgba(0, 0, 0, 0.10);
-  color: var(--color-text-primary);
-}
-
-/* Toast */
-[data-theme="light"] .toast {
-  background-color: hsl(0, 0%, 100%);
-  color: var(--color-text-primary);
-  border-color: hsla(215, 20%, 80%, 0.7);
-}
-
-/* Overlay / Modal backdrop + card */
-[data-theme="light"] .overlay-backdrop {
-  background-color: rgba(195, 210, 230, 0.75);
-}
-[data-theme="light"] .overlay-card {
-  background-color: hsla(0, 0%, 100%, 0.95);
-  border-color: hsla(215, 20%, 80%, 0.6);
-}
-
-/* Stepper */
-[data-theme="light"] .stepper {
-  background: rgba(0, 0, 0, 0.04);
-  border-color: hsla(215, 20%, 70%, 0.5);
-}
-[data-theme="light"] .btn-stepper {
-  background: rgba(0, 0, 0, 0.05);
-  border-color: hsla(215, 20%, 70%, 0.5);
-  color: var(--color-text-primary);
-}
-[data-theme="light"] .btn-stepper:hover { background: rgba(0, 0, 0, 0.09); }
-
-/* Inputs — PlayerSetup, AuthModal, StartPlayerModal */
-[data-theme="light"] .player-input,
-[data-theme="light"] .form-group input {
-  background-color: rgba(0, 0, 0, 0.04);
-  border-color: hsla(215, 20%, 72%, 0.6);
-  color: var(--color-text-primary);
-}
-[data-theme="light"] .player-input:focus,
-[data-theme="light"] .form-group input:focus {
-  background-color: rgba(0, 0, 0, 0.06);
-  border-color: var(--color-primary);
-}
-
-/* GameSelection */
-[data-theme="light"] .game-badge {
-  background: rgba(0, 0, 0, 0.07);
-  border-color: rgba(0, 0, 0, 0.11);
-}
-[data-theme="light"] .game-footer {
-  border-top-color: rgba(0, 0, 0, 0.08);
-}
-
-/* GameTimer / PlayerSetup badge */
-[data-theme="light"] .game-session-badge {
-  background: rgba(0, 0, 0, 0.06);
-}
-
-/* MatchHistory filter pills */
-[data-theme="light"] .filter-pill {
-  background: rgba(0, 0, 0, 0.05);
-  border-color: hsla(215, 20%, 72%, 0.5);
-  color: var(--color-text-secondary);
-}
-[data-theme="light"] .filter-pill:hover { background: rgba(0, 0, 0, 0.08); }
-[data-theme="light"] .filter-pill.active { color: white; }
-
-/* MatchHistory rows */
-[data-theme="light"] .match-duration {
-  background: rgba(0, 0, 0, 0.05);
-  border-color: hsla(215, 20%, 72%, 0.5);
-  color: var(--color-text-secondary);
-}
-[data-theme="light"] .player-score-row { background: rgba(0, 0, 0, 0.03); }
-[data-theme="light"] .player-score-row.is-winner { background: rgba(245, 158, 11, 0.09); }
-
-/* AuthModal */
-[data-theme="light"] .auth-tabs {
-  background-color: rgba(0, 0, 0, 0.06);
-  border-color: hsla(215, 20%, 75%, 0.5);
-}
-[data-theme="light"] .auth-tab { color: var(--color-text-muted); }
-[data-theme="light"] .auth-tab.active {
-  background-color: rgba(0, 0, 0, 0.08);
-  color: var(--color-text-primary);
-}
-[data-theme="light"] .btn-logout {
-  background: rgba(0, 0, 0, 0.05);
-  border-color: hsla(215, 20%, 72%, 0.6);
-  color: var(--color-text-secondary);
-}
-[data-theme="light"] .btn-logout:hover {
-  background: rgba(0, 0, 0, 0.09);
-  color: var(--color-text-primary);
-}
-[data-theme="light"] .profile-avatar {
-  background-color: rgba(99, 102, 241, 0.10);
-  border-color: rgba(99, 102, 241, 0.2);
-}
-
-/* App Footer */
-[data-theme="light"] .app-footer {
-  background: rgba(210, 220, 235, 0.5);
-  border-top-color: hsla(215, 20%, 75%, 0.5);
-}
+.backdrop-glow { display: none; }
 
 /* ==========================================================================
    RESET & BASE
@@ -243,7 +68,6 @@
 }
 
 html {
-  font-size: clamp(13px, 0.8rem + 0.8vw, 16px);
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
 }
