@@ -111,9 +111,22 @@ const hasWindow = typeof window !== 'undefined';
  */
 export const currentRoute = writable(hasWindow ? parseRoute(window.location.hash) : null);
 
+/** @type {(apply: () => void, next: Route | null, prev: Route | null) => void} */
+let transitionHook = (apply) => apply();
+
+/** Die App-Hülle (R07) hängt hier View Transitions ein. */
+export function setTransitionHook(fn) {
+  transitionHook = fn;
+}
+
+/** @param {Route | null} next */
+function applyRoute(next) {
+  transitionHook(() => currentRoute.set(next), next, get(currentRoute));
+}
+
 if (hasWindow) {
   window.addEventListener('hashchange', () => {
-    currentRoute.set(parseRoute(window.location.hash));
+    applyRoute(parseRoute(window.location.hash));
   });
 }
 
@@ -132,7 +145,7 @@ export function navigate(hash, { replace = false } = {}) {
     const base = window.location.pathname + window.location.search;
     window.history.replaceState(window.history.state, '', base + hash);
     // replaceState feuert kein hashchange — Store manuell synchronisieren.
-    currentRoute.set(parseRoute(hash));
+    applyRoute(parseRoute(hash));
   } else {
     window.location.hash = hash;
   }

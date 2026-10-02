@@ -3,16 +3,16 @@
  * Svelte Stores — ersetzt den STATE-Proxy aus app.js
  * Alle reaktiven Zustände der App sind hier zentralisiert.
  */
-import { writable, derived } from 'svelte/store';
-import { tick } from 'svelte';
+import { writable, derived, get } from 'svelte/store';
 import { getAuthService } from '../services/AuthService.js';
-import { currentRoute, navigate, clearRouteHash, registerRoutes } from '../router/router.js';
-import { wikiHash, ROUTES as wikiRoutesData } from '../components/wiki/utils/wikiRoutes.js';
+import { currentRoute, navigate, registerRoutes } from '../router/router.js';
+import { wikiHash } from '../components/wiki/utils/wikiRoutes.js';
 import { toSlug } from '../components/wiki/utils/wikiKeys.js';
+import { APP_ROUTES, appHash } from '../router/appRoutes.js';
 
-registerRoutes(wikiRoutesData);
+registerRoutes(APP_ROUTES);
 
-export const wikiActive = derived(currentRoute, (r) => r !== null);
+export const wikiActive = derived(currentRoute, (r) => !!r && r.name.startsWith('wiki'));
 
 // ─── App Settings & Theme Mode (Dark / Light) ──────────────────────────────────
 const defaultSettings = {
@@ -107,82 +107,6 @@ if (typeof window !== 'undefined') {
     e.preventDefault();
     pwaInstallEvent.set(e);
   });
-}
-
-// Aktueller Screen (Screen-Router ohne echtes Routing)
-//
-// Reload-Persistenz (F5 / Pull-to-Refresh): Der zuletzt aktive Top-Level-Screen
-// wird in sessionStorage gehalten, damit der Nutzer nach einem Reload wieder auf
-// demselben Tab landet statt auf der Startseite. Nur „eigenständige" Screens
-// werden wiederhergestellt — Screens, die von flüchtigem Zustand abhängen
-// (gewähltes Spiel, laufende Partie, offener Editor), würden ohne diesen Kontext
-// kaputt/leer aussehen und fallen daher bewusst auf 'game-selection' zurück.
-// sessionStorage statt localStorage: gilt nur für die aktuelle Tab-Sitzung, nicht
-// dauerhaft über Browser-Neustarts hinweg. Keine sensiblen Daten — nur ein Screen-Name.
-const RESTORABLE_SCREENS = ['game-selection', 'match-history', 'stats', 'profile', 'user-profile', 'settings'];
-let _initialScreen = 'game-selection';
-try {
-  const _savedScreen = sessionStorage.getItem('bg_active_screen');
-  if (_savedScreen && RESTORABLE_SCREENS.includes(_savedScreen)) {
-    _initialScreen = _savedScreen;
-  }
-} catch (_) {}
-
-// Der URL-Hash gewinnt immer gegen sessionStorage.
-{
-  let _route = null;
-  currentRoute.subscribe((r) => { _route = r; })();
-  if (_route && _initialScreen === 'wiki') {
-    _initialScreen = 'game-selection'; // Fallback für activeScreen, da Wiki nun über URL läuft
-  } else if (_initialScreen === 'wiki') {
-    _initialScreen = 'game-selection';
-    navigate(wikiHash.overview(), { replace: true });
-  }
-}
-
-/** @type {import('svelte/store').Writable<'game-selection'|'game-dashboard'|'game-timer'|'player-setup'|'score-sheet'|'match-history'|'stats'|'profile'|'user-profile'|'settings'|'custom-game-editor'|'admin-review'>} */
-export const activeScreen = writable(/** @type {any} */ (_initialScreen));
-
-/** Reihenfolge für Richtungslogik der Transitions */
-const SCREEN_ORDER = ['game-selection', 'custom-game-editor', 'game-dashboard', 'game-timer', 'player-setup', 'score-sheet', 'match-history', 'stats', 'profile', 'user-profile', 'settings', 'admin-review'];
-
-let _currentScreen = _initialScreen;
-activeScreen.subscribe(s => {
-  _currentScreen = s;
-  // Nur wiederherstellbare Screens persistieren; transiente Screens entfernen den
-  // gespeicherten Wert, damit ein Reload dort sauber auf der Startseite landet.
-  try {
-    if (RESTORABLE_SCREENS.includes(s)) {
-      sessionStorage.setItem('bg_active_screen', s);
-    } else {
-      sessionStorage.removeItem('bg_active_screen');
-    }
-  } catch (_) {}
-});
-
-/**
- * Navigiert zu einem Screen mit CSS-Slide-Animation.
- * Der aktuelle Screen bekommt .is-leaving (animiert raus),
- * der neue Screen bekommt .active und animiert gleichzeitig rein.
- * @param {'game-selection'|'game-dashboard'|'game-timer'|'player-setup'|'score-sheet'|'match-history'|'stats'|'profile'|'user-profile'|'settings'|'custom-game-editor'|'admin-review'} screen
- */
-export async function navigateTo(screen) {
-  if (_currentScreen === screen) return;
-
-  const fromIdx = SCREEN_ORDER.indexOf(_currentScreen);
-  const toIdx = SCREEN_ORDER.indexOf(screen);
-  const direction = (toIdx < 0 || fromIdx < 0)
-    ? 'forward'
-    : toIdx > fromIdx ? 'forward' : 'backward';
-
-  document.documentElement.dataset.transitionDir = direction;
-  window.scrollTo(0, 0);
-
-  activeScreen.set(screen);
-
-  // Wiki verlassen → Routen-Hash aufräumen
-  clearRouteHash();
-  await tick();
 }
 
 /**
@@ -541,4 +465,48 @@ export function promptDialog(message, title = "Eingabe", isPassword = false, pla
       resolve
     });
   });
+}
+
+// ─── Navigation (R06) ─────────────────────────────────────────────────────────
+const ROUTE_TO_SCREEN = /** @type {Record<string, string>} */ ({
+  home: 'game-selection', game: 'game-dashboard', 'match-players': 'player-setup', 'match-live': 'game-timer',
+  'match-score': 'score-sheet', history: 'match-history', stats: 'stats', settings: 'settings', legal: 'legal',
+  'custom-game-new': 'custom-game-editor', 'admin-review': 'admin-review', 'dev-ui': 'dev-ui',
+});
+
+/**
+ * Früher eigener Store, jetzt aus der URL abgeleitet (nur lesen!). Alle bisherigen Leser
+ * (`$activeScreen === 'stats'` usw.) bleiben gültig.
+ */
+export const activeScreen = derived([currentRoute, currentUser], ([r, user]) => {
+  const name = r?.name ?? 'home';
+  if (name === 'profile') return user ? 'user-profile' : 'profile';
+  if (name.startsWith('wiki')) return 'wiki';
+  return ROUTE_TO_SCREEN[name] ?? 'game-selection';
+});
+
+/** Alter Screen-Name → Hash (Funktionen, weil manche Ziele vom aktuellen Spiel abhängen). */
+const SCREEN_TO_HASH = /** @type {Record<string, () => string>} */ ({
+  'game-selection': () => appHash.home(),
+  'game-dashboard': () => { const g = get(currentGame); return g ? appHash.game(toSlug(g)) : appHash.home(); },
+  'game-timer': () => appHash.matchLive(),
+  'player-setup': () => appHash.matchPlayers(),
+  'score-sheet': () => appHash.matchScore(),
+  'match-history': () => appHash.history(),
+  stats: () => appHash.stats(),
+  profile: () => appHash.profile(),
+  'user-profile': () => appHash.profile(),
+  settings: () => appHash.settings(),
+  'custom-game-editor': () => appHash.customGame(),
+  'admin-review': () => appHash.admin(),
+});
+
+/**
+ * Kompatibilitätsschicht: alte Aufrufe navigateTo('stats') funktionieren weiter.
+ * @param {string} screen
+ * @param {{ replace?: boolean }} [opts]
+ */
+export function navigateTo(screen, opts = {}) {
+  const toHash = SCREEN_TO_HASH[screen];
+  navigate(toHash ? toHash() : appHash.home(), opts);
 }

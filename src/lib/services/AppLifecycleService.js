@@ -2,6 +2,7 @@ import { isOnline, activeScreen, timerState, currentUser, settings, authService,
 import { getSyncService } from '$lib/services/SyncService.js';
 import { db } from '$lib/services/DbService.js';
 import { HapticService } from '$lib/services/HapticService.js';
+import { currentRoute } from '$lib/router/router.js';
 import { get } from 'svelte/store';
 
 class LifecycleManager {
@@ -44,7 +45,9 @@ class LifecycleManager {
         console.log(`🔌 AppLifecycleService: Re-activating timer for game "${storedGame}"`);
         currentGame.set(storedGame);
         timerState.set(/** @type {'running'|'paused'} */ (storedState));
-        navigateTo('game-timer');
+        // R06: Deep Links (z. B. #/wiki/…) nicht überschreiben — nur von der Startseite zur Partie springen.
+        const routeName = get(currentRoute)?.name ?? 'home';
+        if (routeName === 'home') navigateTo('game-timer', { replace: true });
       }
     }
   }
