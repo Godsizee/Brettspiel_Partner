@@ -9,6 +9,7 @@ node_modules/
 # Test-Output
 playwright-report/
 test-results/
+.shots/
 
 # Environment & Secrets
 .env
@@ -75,7 +76,6 @@ Thumbs.db
 /email_templates/
 /migrations/
 /scripts/
-/tests/
 /icons/
 /build.ps1
 /build.sh
@@ -86,7 +86,6 @@ Thumbs.db
 /seed_pocketbase.js
 /sync_games_pb.js
 /insert_*.js
-/vitest.config.js
 
 # Model / AI context & custom plans
 .agents/
