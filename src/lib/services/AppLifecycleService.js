@@ -1,4 +1,4 @@
-import { isOnline, activeScreen, timerState, currentUser, settings, authService, showToast, navigateTo, currentGame, timerText, timerElapsedSeconds } from '$lib/stores/app.js';
+import { isOnline, timerState, currentUser, settings, authService, showToast, navigateTo, currentGame, timerText, timerElapsedSeconds } from '$lib/stores/app.js';
 import { getSyncService } from '$lib/services/SyncService.js';
 import { db } from '$lib/services/DbService.js';
 import { HapticService } from '$lib/services/HapticService.js';
@@ -14,7 +14,6 @@ class LifecycleManager {
   init() {
     this.setupNetworkDetection();
     this.setupGlobalClick();
-    this.setupSwipeGestures();
     this.setupSyncAutomations();
     this.setupInactivityLogout();
     this.setupBeforeUnload();
@@ -25,8 +24,6 @@ class LifecycleManager {
     window.removeEventListener('online', this.updateOnline);
     window.removeEventListener('offline', this.updateOnline);
     window.removeEventListener('click', this.handleGlobalClick);
-    window.removeEventListener('touchstart', this.handleSwipeStart);
-    window.removeEventListener('touchend', this.handleSwipeEnd);
     window.removeEventListener('sync-queue-updated', this.updateAppBadge);
     window.removeEventListener('online', this.handleOnlineSync);
     window.removeEventListener('offline', this.handleOfflineAlert);
@@ -89,42 +86,6 @@ class LifecycleManager {
       }
     };
     window.addEventListener('click', this.handleGlobalClick);
-  }
-
-  setupSwipeGestures() {
-    let touchStartX = 0;
-    let touchStartY = 0;
-    
-    this.handleSwipeStart = (e) => {
-      touchStartX = e.changedTouches[0].screenX;
-      touchStartY = e.changedTouches[0].screenY;
-    };
-    
-    this.handleSwipeEnd = (e) => {
-      const diffX = e.changedTouches[0].screenX - touchStartX;
-      const diffY = e.changedTouches[0].screenY - touchStartY;
-      if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 80) {
-        const tabs = ['game-selection', 'game-timer', 'match-history', 'profile'];
-        const screen = get(activeScreen);
-        // 'user-profile' ist die eingeloggte Variante des 'profile'-Tabs und teilt
-        // sich dessen Navigationsposition — sonst wäre von dort kein Zurückwischen möglich.
-        const currentIdx = screen === 'user-profile' ? tabs.indexOf('profile') : tabs.indexOf(screen);
-        // Eingeloggte Nutzer auf den echten Profil-Screen leiten statt auf das Login-Formular.
-        const resolveTab = (tab) => (tab === 'profile' && get(currentUser)) ? 'user-profile' : tab;
-        if (currentIdx !== -1) {
-          if (diffX > 0 && currentIdx > 0) {
-            HapticService.lightTap();
-            navigateTo(resolveTab(tabs[currentIdx - 1]));
-          } else if (diffX < 0 && currentIdx < tabs.length - 1) {
-            HapticService.lightTap();
-            navigateTo(resolveTab(tabs[currentIdx + 1]));
-          }
-        }
-      }
-    };
-    
-    window.addEventListener('touchstart', this.handleSwipeStart, { passive: true });
-    window.addEventListener('touchend', this.handleSwipeEnd, { passive: true });
   }
 
   setupSyncAutomations() {

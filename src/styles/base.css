@@ -28,6 +28,11 @@
 /* Alter Header setzte diese Variable (WikiShell liest sie) — Header gibt es ab R07 nicht mehr (S20). */
 :root { --app-header-height: 0px; }
 
+/* Fokusmodus (match-*): mobile Tab-Leiste ist ausgeblendet → keinen Platz reservieren */
+:root:has(.appnav--hidden) { --nav-h: 0px; }
+/* Desktop: Navigation und Live-Leiste sitzen in der Seitenleiste → unten nichts reservieren */
+@media (min-width: 1024px) { :root { --nav-h: 0px; --nav-space: 0px; } }
+
 ::view-transition-old(root), ::view-transition-new(root) {
   animation-duration: var(--dur-2);
   animation-timing-function: var(--ease-standard);
