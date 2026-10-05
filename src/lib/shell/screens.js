@@ -4,7 +4,7 @@
  * jede Screen-Aufgabe (R08–R17) stellt genau ihren Eintrag um und entfernt ihn aus LEGACY.
  */
 export const SCREENS = {
-  home: () => import('$lib/components/GameSelection.svelte'),
+  home: () => import('$lib/screens/home/HomeScreen.svelte'),
   game: () => import('$lib/components/GameDashboard.svelte'),
   'match-players': () => import('$lib/components/PlayerSetup.svelte'),
   'match-live': () => import('$lib/components/GameTimer.svelte'),
@@ -21,7 +21,7 @@ export const SCREENS = {
 };
 
 /** Keys, die noch alte Komponenten zeigen (bekommen den alten Innenabstand). */
-export const LEGACY = new Set(['home', 'game', 'match-players', 'match-live', 'match-score', 'history', 'stats', 'profile', 'settings', 'custom-game-new', 'admin-review']);
+export const LEGACY = new Set(['game', 'match-players', 'match-live', 'match-score', 'history', 'stats', 'profile', 'settings', 'custom-game-new', 'admin-review']);
 
 /** Alle wiki-* Routen teilen sich WikiApp (internes Routing). */
 export const screenKey = (/** @type {string} */ name) => (name.startsWith('wiki') ? 'wiki' : name in SCREENS ? name : 'home');

@@ -6,6 +6,9 @@
   import { onMount } from 'svelte';
   import { ui } from './ui.svelte.js';
 
+  /** @type {{ class?: string }} */
+  let { class: extra = '' } = $props();
+
   const syncService = getSyncService();
   let pending = $state(0);
 
@@ -24,13 +27,10 @@
 </script>
 
 {#if visible}
-  <button type="button" class="chip" class:chip--offline={!$isOnline} aria-label="Synchronisierung: {text}" onclick={() => (ui.syncOpen = true)}>
+  <button type="button"
+    class={['inline-flex h-7 items-center gap-1.5 whitespace-nowrap rounded-full bg-warning-soft px-2.5 text-xs font-semibold text-warning', extra]}
+    aria-label="Synchronisierung: {text}" onclick={() => (ui.syncOpen = true)}>
     {#if !$isOnline}<CloudOff class="size-4" aria-hidden="true" />{:else}<RefreshCw class="size-4" aria-hidden="true" />{/if}
     <span>{text}</span>
   </button>
 {/if}
-
-<style>
-  .chip { display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 10px; border-radius: 999px;
-    background: var(--warning-soft); color: var(--warning); font-size: 0.75rem; font-weight: 600; white-space: nowrap; }
-</style>
