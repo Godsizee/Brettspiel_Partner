@@ -12,3 +12,4 @@ export { default as Badge } from './Badge.svelte';
 export { default as EmptyState } from './EmptyState.svelte';
 export { default as Skeleton } from './Skeleton.svelte';
 export { default as PlayerDot } from './PlayerDot.svelte';
+export { default as SelectField } from './SelectField.svelte';

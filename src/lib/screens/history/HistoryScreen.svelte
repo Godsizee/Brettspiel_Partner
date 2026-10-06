@@ -9,9 +9,8 @@
     historyFilter, isOnline, pocketbaseHost, authService, showToast, gamesCatalog, currentUser,
   } from '$lib/stores/app.js';
   import { appHash } from '$lib/router/appRoutes.js';
-  import { pullFromRemote } from '$lib/services/DbService.js';
   import { getMatchRepository } from '$lib/services/MatchRepository.js';
-  import { mergeMatches } from '$lib/services/StatsService.js';
+  import { loadAllMatches } from './loadMatches.js';
   import { shareMatchAsImage } from '$lib/services/MatchShareService.js';
   import { validateGameImageUrl } from '$lib/utils/urlValidator.js';
   import { ui } from '$lib/shell/ui.svelte.js';
@@ -73,33 +72,9 @@
 
   async function loadHistory() {
     loading = true;
-    needsReauth = false;
-    const token = authService.getToken();
-    const user = get(currentUser);
-
-    // Offline-first: lokal gespeicherte Matches IMMER laden – unabhängig von
-    // Login oder Netzverbindung. So gehen Partien in der Ansicht nie verloren.
-    let localMatches = [];
-    try {
-      localMatches = await matchRepo.getLocalMatches();
-    } catch (e) {
-      console.warn('History: Lokale Matches konnten nicht geladen werden', e);
-    }
-
-    let remoteMatches = [];
-    if (token && user?.id) {
-      try {
-        remoteMatches = await pullFromRemote(user.id);
-      } catch (e) {
-        // Kein harter Fehler: lokale Matches werden weiterhin angezeigt.
-        console.warn('History: PocketBase fetch failed', e);
-      }
-    } else if (localMatches.length === 0) {
-      // Weder angemeldet noch lokale Daten → Hinweis zum Anmelden.
-      needsReauth = true;
-    }
-
-    matches = mergeMatches(localMatches, remoteMatches);
+    const result = await loadAllMatches();
+    matches = result.matches;
+    needsReauth = result.needsReauth;
     loading = false;
   }
 
