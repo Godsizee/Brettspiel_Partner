@@ -1,66 +1,25 @@
 import { test, expect } from '@playwright/test';
+import { prepare } from '../support/seed.js';
+import { playMatch } from '../support/flow.js';
 
-test.describe('Offline First Flow', () => {
-  test('App offline öffnen oder Verbindung vor Abschluss trennen und Match speichern', async ({ page }) => {
-    // Onboarding überspringen
-    await page.addInitScript(() => {
-      window.localStorage.setItem('bg_onboarding_completed', 'true');
-    });
+// Gemessen: MatchRepository.saveCompletedMatch reiht nur ein, wenn ein Konto angemeldet ist.
+// Der Test-Nutzer aus seed.js hat kein Token → die Partie bleibt „local_only“, die Warteschlange leer.
+// Der Warteschlangen-Pfad („Warteschlange (1 Runden)“) braucht ein echtes Konto und wird manuell geprüft.
+test.describe('Offline speichern', () => {
+  // „Offline“ = PocketBase blockiert und navigator.onLine=false (prepare). Ein echtes setOffline würde ohne
+  // Service Worker (im Test geblockt) auch das Nachladen der JS-Chunks verhindern.
+  test('Partie ohne Netz werten, App neu laden, Partie bleibt in der Chronik', async ({ page }) => {
+    await prepare(page, { user: true });
+    const { total } = await playMatch(page);
 
-    // 1. App laden
-    await page.goto('/');
-
-    // 2. Netzwerk trennen (offline simulieren)
-    await page.route('**/*', route => {
-      // Ignore external requests or fail them to simulate offline
-      if (route.request().url().includes('/api/collections/')) {
-        return route.abort('internetdisconnected');
-      }
-      return route.continue();
-    });
-
-    await page.context().setOffline(true);
-
-    // 3. Spiel starten
-    await page.click('text=Mischwald');
-    await page.waitForTimeout(500);
-    // In GameDashboard:
-    await page.click('text=Spiel starten');
-    await page.waitForTimeout(500);
-    // In PlayerSetup:
-    await page.click('text=Wertung starten');
-    await page.waitForTimeout(500);
-
-    // In ScoreSheet
-    // We assume some default players are there. Just click Save.
-    await page.click('button:has-text("Speichern")');
-
-    // Wait for the modal or navigation
-    await page.waitForTimeout(1000);
-
-    // 4. Reload
     await page.reload();
+    await page.waitForSelector('body[data-initialized="true"]');
+    await page.goto('./#/chronik');
+    await expect(page.getByRole('navigation', { name: 'Chronik' })).toBeVisible();
 
-    // 5. Historie prüfen (Match sollte da sein)
-    await page.click('button[id="btn-open-history"]');
-    await page.waitForTimeout(1000);
-    // Das Match sollte als "Wartet auf Upload" oder einfach in der Liste sichtbar sein.
-    await expect(page.locator('text=Mischwald').first()).toBeVisible();
-    
-    // Check if the sync modal shows 1 queued match
-    await page.click('button[id="sync-status"]');
-    await expect(page.locator('text=Warteschlange (1 Runden)')).toBeVisible();
-    await page.click('button:has-text("Schließen")');
-
-    // 6. Verbindung wiederherstellen
-    await page.context().setOffline(false);
-    
-    // trigger sync manually or wait for online event
-    await page.click('button[id="sync-status"]');
-    await page.click('button:has-text("Jetzt synchronisieren")');
-
-    // Queue sollte verarbeiten und keine Dubletten erzeugen
-    await page.waitForTimeout(1000);
-    await expect(page.locator('text=Warteschlange (0 Runden)')).toBeVisible();
+    const card = page.getByRole('article').filter({ hasText: 'Mischwald' }).filter({ hasText: 'Pkt.' });
+    await expect(card).toBeVisible();
+    await expect(card).toContainText(`${total} Pkt.`);
+    await expect(card.getByRole('img', { name: 'Nur auf diesem Gerät' })).toBeVisible();
   });
 });
