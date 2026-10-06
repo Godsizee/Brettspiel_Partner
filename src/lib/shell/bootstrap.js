@@ -2,7 +2,7 @@
 /**
  * Wörtlich aus App.svelte (vor R07) übernommener App-Start: Onboarding-Check,
  * Session-Wiederherstellung, E-Mail-/Token-Aktionen, Lifecycle-Init, Katalog-Laden.
- * Die Timer-Wiederherstellung kommt in R11 dazu.
+ * Dazu die Timer-Wiederherstellung (R11).
  */
 import { db, pullProfilesFromRemote } from '$lib/services/DbService.js';
 import { getSyncService } from '$lib/services/SyncService.js';
@@ -10,6 +10,7 @@ import { AppLifecycleService } from '$lib/services/AppLifecycleService.js';
 import { loadGamesCatalog } from '$lib/services/GamesCatalogService.js';
 import { loadWikiCatalog } from '$lib/services/WikiService.js';
 import { currentUser, authService, showToast, navigateTo, promptDialog, loadPlayerProfiles } from '$lib/stores/app.js';
+import { recoverMatchTimer } from '$lib/stores/matchTimer.js';
 import { ui } from './ui.svelte.js';
 
 export async function bootstrapApp() {
@@ -122,6 +123,8 @@ export async function bootstrapApp() {
     window.history.replaceState({}, document.title, window.location.pathname + window.location.hash);
   }
 
+  // Laufende Partie wiederherstellen, bevor der Lifecycle-Service den Zustand liest (R11, S21).
+  recoverMatchTimer();
   AppLifecycleService.init();
 
   // Spiele-Katalog laden (fire-and-forget, P2.2)

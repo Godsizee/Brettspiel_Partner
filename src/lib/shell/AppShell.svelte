@@ -49,7 +49,12 @@
       const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (same || reduce || !document.startViewTransition) { apply(); return; }
       try { await ensureScreen(screenKey(next?.name ?? 'home')); } catch { /* Chunk offline nicht ladbar → ohne Übergang */ }
-      document.startViewTransition(async () => { apply(); await tick(); });
+      const vt = document.startViewTransition(async () => { apply(); await tick(); });
+      // Verdrängt eine schnelle Folgenavigation (push, dann replace) den Übergang, lehnen diese Promises
+      // ab — kein Fehler, der Seitenwechsel selbst läuft durch.
+      vt.ready.catch(() => {});
+      vt.finished.catch(() => {});
+      vt.updateCallbackDone.catch(() => {});
     });
     // Alle Screen-Chunks im Leerlauf vorladen: offline sofort da, Übergänge ohne Leerbild.
     const idle = window.requestIdleCallback ?? ((cb) => setTimeout(cb, 1500));
