@@ -32,7 +32,8 @@ export function genericCompute(scores, template, { expansionActive = false } = {
   const badges = {};
   for (const cat of cats) {
     const val = scores[cat.id] || 0;
-    if (cat.type === 'sum') {
+    // Eigene Spiele speichern nur { id, label } (CustomGameSchema) → ohne Typ gilt „Summe“.
+    if (cat.type === 'sum' || cat.type === undefined) {
       total += val;
     } else if (cat.type === 'multiplier') {
       const pts = val * (cat.multiplier || 1);

@@ -19,6 +19,14 @@ describe('Wertungs-Engine = Golden Master (R01)', () => {
   }
 });
 
+describe('Eigene Spiele (Kategorien ohne Typ)', () => {
+  it('zählen Kategorien ohne type als Summe; info und popularity_driver bleiben außen vor', () => {
+    const custom = { categories: [{ id: 'a', label: 'A' }, { id: 'b', label: 'B' }, { id: 'i', type: 'info' }, { id: 'p', type: 'popularity_driver' }] };
+    const [r] = computeResults(custom, [{ scores: { a: 5, b: 7, i: 99, p: 99 } }]);
+    expect(r.total).toBe(12);
+  });
+});
+
 describe('rankOf', () => {
   it('teilt Plätze bei Gleichstand', () => {
     expect([0, 1, 2, 3].map((i) => rankOf([10, 30, 30, 5], i))).toEqual([3, 1, 1, 4]);
