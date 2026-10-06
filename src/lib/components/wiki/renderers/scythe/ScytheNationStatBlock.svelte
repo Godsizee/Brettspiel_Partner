@@ -10,13 +10,14 @@
 
   // Deutsche Farbnamen aus dem Regeltext → Farbfeld. Unbekannte Namen zeigen
   // einfach keinen Farbpunkt, der Text bleibt trotzdem lesbar.
+  // Spielmaterial-Farben: Werte stehen als --mat-scythe-* in src/styles/tokens.css.
   const COLOR_SWATCHES = {
-    rot: '#c14b3f',
-    blau: '#3d6bc0',
-    gelb: '#c99a25',
-    'weiß': '#e8e6e0',
-    weiss: '#e8e6e0',
-    schwarz: '#3a3a3d'
+    rot: 'var(--mat-scythe-rot)',
+    blau: 'var(--mat-scythe-blau)',
+    gelb: 'var(--mat-scythe-gelb)',
+    'weiß': 'var(--mat-scythe-weiss)',
+    weiss: 'var(--mat-scythe-weiss)',
+    schwarz: 'var(--mat-scythe-schwarz)'
   };
   const swatch = $derived(parsed ? (COLOR_SWATCHES[parsed.color.toLowerCase()] ?? null) : null);
 </script>

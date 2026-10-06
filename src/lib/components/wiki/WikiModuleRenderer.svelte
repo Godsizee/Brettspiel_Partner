@@ -66,7 +66,7 @@
     {entryHref}
   />
 {:else}
-  <div class="p-4 rounded-xl bg-white/5 border border-white/5 text-sm text-[var(--color-text-secondary)]">
-    <p class="m-0">Unbekannter Modultyp: <code class="font-mono bg-white/10 px-1.5 py-0.5 rounded-md text-[var(--color-text-primary)]">{module?.type}</code></p>
+  <div class="p-4 rounded-md bg-surface-2 border border-line text-sm text-[var(--color-text-secondary)]">
+    <p class="m-0">Unbekannter Modultyp: <code class="font-mono bg-surface px-1.5 py-0.5 rounded-sm text-[var(--color-text-primary)]">{module?.type}</code></p>
   </div>
 {/if}

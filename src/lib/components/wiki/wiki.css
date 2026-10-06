@@ -1,41 +1,24 @@
 /* ==========================================================================
    SPIELE-WIKI — Scoped Design Layer  ("Modernes Nachschlagewerk")
    --------------------------------------------------------------------------
-   Ruhiges, erwachsenes Nachschlagewerk: klare Sans, ein verfeinerter
-   Indigo-Akzent, KEIN Neon/Glow/Glas. Alles ist auf `.wiki-root` gescoped –
-   die übrige App bleibt unberührt. Die vom Wiki konsumierten globalen
-   CSS-Variablen werden hier lokal überschrieben, sodass bestehende
+   Ruhiges Nachschlagewerk im Spieltisch-Look (R18): Das Wiki nutzt die
+   globalen Tokens (src/styles/tokens.css) und überschreibt KEINE Farben mehr.
+   Die Legacy-Aliase in app.css (--color-bg-base, --color-primary,
+   --color-text-* …) zeigen auf die Spieltisch-Palette, sodass bestehende
    Tailwind-Utilities (text-text-primary, bg-bg-base, border-border-glass …)
-   automatisch die ruhigere Palette übernehmen.
+   automatisch passen. Hier stehen nur Wiki-Maße und davon abgeleitete Töne.
    ========================================================================== */
 
 .wiki-root {
-  /* Flächen – neutrales Anthrazit-Schichtsystem (dunkel) */
-  --color-bg-base:       hsl(222, 14%, 9%);
-  --color-bg-deep:       hsl(222, 16%, 7%);
-  --color-surface-solid: hsl(222, 13%, 13%);
-  --color-surface-glass: hsl(222, 13%, 13%);          /* opak – kein Blur */
-  --color-border-glass:  hsla(220, 14%, 75%, 0.12);
-
-  /* Akzent – verfeinertes, entglowtes Indigo */
-  --color-primary:       hsl(243, 72%, 70%);
-  --color-primary-hover: hsl(243, 80%, 77%);
-  --color-primary-glow:  transparent;                  /* neutralisiert Alt-Glows */
-
-  /* Text – etwas ruhiger als global; muted ≥ 4,5:1 auf allen Flächen (P6.1) */
-  --color-text-primary:   hsl(220, 25%, 96%);
-  --color-text-secondary: hsl(218, 14%, 72%);
-  --color-text-muted:     hsl(218, 10%, 58%);
-
   /* Wiki-eigene Maße & Design-Tokens (P3.1) */
   --wiki-measure: 70ch;               /* Lesespalte: 60–75 Zeichen/Zeile */
   --wiki-rail-w: 244px;
-  --wiki-radius: 14px;
-  --wiki-radius-sm: 10px;
+  --wiki-radius: var(--r-md);
+  --wiki-radius-sm: var(--r-sm);
   --wiki-gap: 1.25rem;
-  --wiki-accent-soft: hsla(243, 72%, 70%, 0.12);
-  --wiki-accent-line: hsla(243, 72%, 70%, 0.45);
-  --wiki-hover: hsla(220, 20%, 80%, 0.05);
+  --wiki-accent-soft: var(--accent-soft);
+  --wiki-accent-line: color-mix(in oklab, var(--accent) 45%, transparent);
+  --wiki-hover: var(--surface-2);
 
   /* Typografie-Skala (fluid) */
   --wiki-fs-body: clamp(0.95rem, 0.9rem + 0.25vw, 1.0625rem);
@@ -47,8 +30,8 @@
      randbündige Heros. < 360 px wird hierüber zentral kompakter (P3.3). */
   --wiki-pad-x: 1rem;
 
-  background: var(--color-bg-base);
-  color: var(--color-text-primary);
+  background: var(--bg);
+  color: var(--text);
 }
 
 @media (max-width: 359px) {
@@ -67,26 +50,7 @@
   padding-right: var(--wiki-pad-x);
 }
 
-/* --- Hell / Paper-Variante (kühles Weiß) --- */
-[data-theme="light"] .wiki-root {
-  --color-bg-base:       hsl(220, 24%, 98%);
-  --color-bg-deep:       hsl(220, 20%, 95%);
-  --color-surface-solid: hsl(0, 0%, 100%);
-  --color-surface-glass: hsl(0, 0%, 100%);
-  --color-border-glass:  hsla(222, 22%, 30%, 0.14);
-
-  --color-primary:       hsl(243, 62%, 56%);
-  --color-primary-hover: hsl(243, 66%, 49%);
-  --color-primary-glow:  transparent;
-
-  --color-text-primary:   hsl(222, 30%, 14%);
-  --color-text-secondary: hsl(222, 14%, 38%);
-  --color-text-muted:     hsl(222, 10%, 44%);
-
-  --wiki-accent-soft: hsla(243, 62%, 56%, 0.10);
-  --wiki-accent-line: hsla(243, 62%, 56%, 0.40);
-  --wiki-hover: hsla(222, 30%, 20%, 0.045);
-}
+/* Hell/Dunkel regeln die Tokens (light-dark()) — keine eigene Hell-Variante mehr. */
 
 /* ==========================================================================
    REUSABLE BUILDING BLOCKS
@@ -151,7 +115,7 @@ a.wiki-nav-item { text-decoration: none; }
 .wiki-page-title {
   font-family: var(--font-heading);
   font-size: var(--wiki-fs-h1);
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.15;
   color: var(--color-text-primary);
   margin: 0;
@@ -194,11 +158,10 @@ a.wiki-nav-item { text-decoration: none; }
   width: 100%;
   padding: 0.75rem 1rem 0.75rem 3rem !important;
   font-size: 0.95rem !important;
-  background: color-mix(in srgb, var(--color-surface-solid) 70%, var(--color-bg-deep) 30%);
-  border: 1.5px solid var(--color-border-glass);
-  color: var(--color-text-primary);
+  background: var(--surface-2);
+  border: 1.5px solid var(--field-line);
+  color: var(--text);
   border-radius: var(--wiki-radius-sm);
-  box-shadow: inset 0 1.5px 4px hsla(222, 25%, 4%, 0.18);
   transition: border-color 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
   /* Unterdrückt native Browser-Suchfeld-Dekoration (Lupe, ×-Button) */
   -webkit-appearance: none;
@@ -210,30 +173,13 @@ a.wiki-nav-item { text-decoration: none; }
 .wiki-input::-webkit-search-cancel-button,
 .wiki-input::-webkit-search-results-button { display: none; }
 .wiki-input:hover:not(:focus) {
-  border-color: hsla(220, 14%, 75%, 0.25);
-  background: color-mix(in srgb, var(--color-surface-solid) 80%, var(--color-primary) 3%);
+  border-color: var(--text-2);
 }
 .wiki-input:focus {
   outline: none;
-  border-color: var(--color-primary);
-  background: color-mix(in srgb, var(--color-surface-solid) 94%, var(--color-primary) 6%);
+  border-color: var(--accent);
   /* Inset-Ring statt outward box-shadow – wird nicht von overflow:hidden abgeschnitten */
-  box-shadow:
-    inset 0 1px 3px hsla(222, 25%, 4%, 0.10),
-    inset 0 0 0 1.5px var(--color-primary);
-}
-
-[data-theme="light"] .wiki-input {
-  box-shadow: inset 0 1px 3px hsla(222, 25%, 40%, 0.08);
-}
-[data-theme="light"] .wiki-input:hover:not(:focus) {
-  border-color: hsla(222, 22%, 30%, 0.22);
-  background: color-mix(in srgb, var(--color-surface-solid) 97%, var(--color-primary) 3%);
-}
-[data-theme="light"] .wiki-input:focus {
-  box-shadow:
-    inset 0 1px 2px hsla(222, 25%, 40%, 0.06),
-    inset 0 0 0 1.5px var(--color-primary);
+  box-shadow: inset 0 0 0 1.5px var(--accent);
 }
 
 /* Icon-Button (Header / Sheet) */

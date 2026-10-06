@@ -31,8 +31,9 @@
         <img src={game.cover} alt={game.name} loading="lazy" decoding="async" class="w-full aspect-21/9 object-cover object-center select-none" />
         <div class="absolute inset-0" style="background: linear-gradient(to bottom, transparent 30%, color-mix(in srgb, var(--color-bg-base) 75%, transparent) 75%, var(--color-bg-base))"></div>
         <div class="absolute bottom-0 left-0 right-0 wiki-pad pb-5">
-          <h1 tabindex="-1" class="font-heading font-extrabold text-2xl sm:text-3xl text-white leading-tight m-0 drop-shadow-lg">{game?.name}</h1>
-          <p class="text-xs text-white/70 m-0 mt-1 leading-snug">
+          <!-- Text liegt auf dem deckenden Verlauf zur Hintergrundfarbe, nie direkt auf dem Cover -->
+          <h1 tabindex="-1" class="font-display font-semibold text-2xl sm:text-3xl text-text-primary leading-tight m-0">{game?.name}</h1>
+          <p class="text-xs text-text-secondary m-0 mt-1 leading-snug">
             {game?.publisher || manifest?.game?.publisher || 'Unbekannter Verlag'}
             {#if game?.badge}<span class="mx-1.5 opacity-50">·</span>{game.badge}{/if}
             {#if game?.players}<span class="mx-1.5 opacity-50">·</span>{game.players}{/if}

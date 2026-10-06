@@ -70,18 +70,18 @@
 
   /** @param {string} diff */
   function getDifficultyColor(diff) {
-    if (diff === 'Anfänger') return 'var(--color-success, #22c55e)';
-    if (diff === 'Fortgeschritten') return 'var(--color-warning, #eab308)';
-    if (diff === 'Experte') return 'var(--color-error, #ef4444)';
-    return 'var(--color-primary, #3b82f6)';
+    if (diff === 'Anfänger') return 'var(--success)';
+    if (diff === 'Fortgeschritten') return 'var(--warning)';
+    if (diff === 'Experte') return 'var(--danger)';
+    return 'var(--accent)';
   }
 
   /** @param {string} diff */
   function getDifficultyBgClass(diff) {
-    if (diff === 'Anfänger') return 'bg-green-500/15 text-green-400';
-    if (diff === 'Fortgeschritten') return 'bg-yellow-500/15 text-yellow-400';
-    if (diff === 'Experte') return 'bg-red-500/15 text-red-400';
-    return 'bg-blue-500/15 text-blue-400';
+    if (diff === 'Anfänger') return 'bg-success-soft text-success';
+    if (diff === 'Fortgeschritten') return 'bg-warning-soft text-warning';
+    if (diff === 'Experte') return 'bg-danger-soft text-danger';
+    return 'bg-accent-soft text-accent-soft-fg';
   }
 </script>
 
@@ -99,7 +99,7 @@
         <button
           type="button"
           class="tips-tab-segment shrink-0 flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 cursor-pointer whitespace-nowrap relative
-            {activeTab === idx ? 'tips-tab--active text-text-primary' : 'text-text-muted hover:text-text-secondary hover:bg-white/5'}"
+            {activeTab === idx ? 'tips-tab--active text-text-primary' : 'text-text-muted hover:text-text-secondary hover:bg-surface-2'}"
           onclick={() => switchTab(idx)}
         >
           <WikiIcon name={getDifficultyIcon(diff)} size={16} class="shrink-0" />
