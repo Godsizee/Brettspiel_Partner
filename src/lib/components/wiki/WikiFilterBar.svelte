@@ -38,10 +38,10 @@
         onchange={(e) => set(key, /** @type {HTMLSelectElement} */ (e.target).value)}
       >
         {#each list as opt}
-          <option value={opt} style="background: var(--color-surface-solid); color: var(--color-text-primary)">{opt === 'all' ? 'Alle' : opt}</option>
+          <option value={opt} style="background: var(--surface); color: var(--text)">{opt === 'all' ? 'Alle' : opt}</option>
         {/each}
       </select>
-      <div class="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-text-muted flex items-center">
+      <div class="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-fg-2 flex items-center">
         <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <polyline points="6 9 12 15 18 9"></polyline>
         </svg>

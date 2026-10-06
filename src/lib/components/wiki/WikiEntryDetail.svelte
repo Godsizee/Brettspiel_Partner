@@ -35,7 +35,7 @@
     {:else if entry.summary}
       <div class="flex flex-col gap-1.5">
         <span class="wiki-eyebrow">Kurz erklärt</span>
-        <div class="wiki-prose text-sm text-text-primary leading-relaxed">
+        <div class="wiki-prose text-sm text-fg leading-relaxed">
           {#if entry.isHtml}
             {@html sanitizeWikiHtml(entry.summary)}
           {:else}
@@ -46,9 +46,9 @@
     {/if}
 
     {#if entry.description || entry.details}
-      <div class="flex flex-col gap-1.5 border-t border-border-glass pt-4">
+      <div class="flex flex-col gap-1.5 border-t border-line pt-4">
         <span class="wiki-eyebrow">Regeln &amp; Details</span>
-        <div class="wiki-prose text-sm text-text-secondary leading-relaxed">
+        <div class="wiki-prose text-sm text-fg-2 leading-relaxed">
           {#if entry.isHtml}
             {@html sanitizeWikiHtml(entry.description || entry.details)}
           {:else}
@@ -59,9 +59,9 @@
     {/if}
 
     {#if entry.warnings && entry.warnings.length}
-      <div class="flex flex-col gap-2 border-t border-border-glass pt-4">
-        <span class="wiki-eyebrow" style="color: var(--color-danger)">Wichtige Hinweise</span>
-        <ul class="text-sm text-text-secondary leading-relaxed m-0 pl-4 list-disc flex flex-col gap-1">
+      <div class="flex flex-col gap-2 border-t border-line pt-4">
+        <span class="wiki-eyebrow" style="color: var(--danger)">Wichtige Hinweise</span>
+        <ul class="text-sm text-fg-2 leading-relaxed m-0 pl-4 list-disc flex flex-col gap-1">
           {#each entry.warnings as w}
             <li>{w}</li>
           {/each}
@@ -70,7 +70,7 @@
     {/if}
 
     {#if entry.source}
-      <div class="border-t border-border-glass pt-4">
+      <div class="border-t border-line pt-4">
         <WikiSourceNotice source={entry.source} />
       </div>
     {/if}

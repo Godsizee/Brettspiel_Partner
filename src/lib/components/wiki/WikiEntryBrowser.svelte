@@ -1,5 +1,6 @@
 <script>
   // @ts-check
+  import Search from '@lucide/svelte/icons/search';
   import WikiEntryCard from '$lib/components/wiki/WikiEntryCard.svelte';
 
   /** @type {{ entries?: any[], entryHref: (e: any) => string, highlight?: string }} */
@@ -22,8 +23,8 @@
 
 {#if entries.length === 0}
   <div class="flex flex-col items-center gap-3 py-14 px-6 w-full text-center">
-    <span class="text-4xl opacity-20">🔍</span>
-    <p class="text-text-muted text-sm m-0">Keine passenden Einträge gefunden.</p>
+    <Search class="size-10 text-fg-3" aria-hidden="true" />
+    <p class="text-fg-2 text-sm m-0">Keine passenden Einträge gefunden.</p>
   </div>
 {:else}
   <div class="wiki-content grid grid-cols-1 md:grid-cols-2 gap-2.5">
@@ -32,7 +33,7 @@
     {/each}
   </div>
   {#if hasMore}
-    <button class="wiki-nav-item justify-center mt-3 border border-border-glass" type="button" onclick={loadMore}>
+    <button class="wiki-nav-item justify-center mt-3 border border-line" type="button" onclick={loadMore}>
       Weitere {Math.min(50, entries.length - visibleCount)} Einträge laden
     </button>
   {/if}

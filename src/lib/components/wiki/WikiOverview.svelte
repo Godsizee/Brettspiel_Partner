@@ -11,8 +11,8 @@
 {#if games.length === 0}
   <div class="flex flex-col items-center gap-3 py-16 px-6 w-full text-center">
     <Dices class="size-12 text-fg-3" aria-hidden="true" />
-    <h3 class="font-display font-semibold text-text-primary text-base m-0">Noch keine Wiki-Spiele</h3>
-    <p class="text-text-muted text-sm m-0 max-w-[42ch] leading-relaxed">
+    <h3 class="font-display font-semibold text-fg text-base m-0">Noch keine Wiki-Spiele</h3>
+    <p class="text-fg-2 text-sm m-0 max-w-[42ch] leading-relaxed">
       Für deine Spiele sind aktuell noch keine Wiki-Inhalte hinterlegt. Schau später wieder vorbei.
     </p>
   </div>
@@ -34,7 +34,7 @@
             />
           {:else}
             <div class="w-full h-full flex items-center justify-center">
-              <span class="font-display font-semibold text-lg text-text-primary px-4 text-center">{game.name}</span>
+              <span class="font-display font-semibold text-lg text-fg px-4 text-center">{game.name}</span>
             </div>
           {/if}
         </div>
@@ -43,10 +43,10 @@
           {#if game.badge}
             <span class="wiki-chip self-start mb-1">{game.badge}</span>
           {/if}
-          <h3 class="font-display font-semibold text-[1.05rem] text-text-primary leading-tight m-0 truncate group-hover:text-primary transition-colors">
+          <h3 class="font-display font-semibold text-[1.05rem] text-fg leading-tight m-0 truncate group-hover:text-accent transition-colors">
             {game.name}
           </h3>
-          <p class="text-xs text-text-muted mt-0.5 m-0 leading-normal truncate">{game.publisher || 'Unbekannter Verlag'}</p>
+          <p class="text-xs text-fg-2 mt-0.5 m-0 leading-normal truncate">{game.publisher || 'Unbekannter Verlag'}</p>
         </div>
       </a>
     {/each}

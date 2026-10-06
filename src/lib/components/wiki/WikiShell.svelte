@@ -74,6 +74,6 @@
   }
   .wiki-header {
     background: var(--bg);
-    border-bottom: 1px solid var(--color-border-glass);
+    border-bottom: 1px solid var(--line);
   }
 </style>

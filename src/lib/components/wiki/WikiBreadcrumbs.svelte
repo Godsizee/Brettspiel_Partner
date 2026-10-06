@@ -20,21 +20,21 @@
       <li class="flex items-center min-w-0 {isLast ? 'crumb-current' : 'crumb-ancestor'}">
         {#if crumb.href && !isLast}
           <a
-            class="text-xs text-primary hover:text-primary-hover font-semibold transition-colors hover:underline underline-offset-2 truncate"
+            class="text-xs text-accent hover:text-accent-hover font-semibold transition-colors hover:underline underline-offset-2 truncate"
             href={crumb.href}
           >
             {crumb.label}
           </a>
         {:else}
           <span
-            class="text-xs font-semibold truncate max-w-[48vw] sm:max-w-none {isLast ? 'text-text-primary' : 'text-text-muted'}"
+            class="text-xs font-semibold truncate max-w-[48vw] sm:max-w-none {isLast ? 'text-fg' : 'text-fg-2'}"
             aria-current={isLast ? 'page' : undefined}
           >
             {crumb.label}
           </span>
         {/if}
         {#if !isLast}
-          <span class="crumb-sep text-xs text-text-muted/40 mx-2 select-none" aria-hidden="true">/</span>
+          <span class="crumb-sep text-xs text-fg-2/40 mx-2 select-none" aria-hidden="true">/</span>
         {/if}
       </li>
     {/each}

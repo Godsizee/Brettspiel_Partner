@@ -107,7 +107,7 @@
     const combined = [...localMatches];
     onlineSuggestions.forEach(os => {
       if (!combined.some(c => c.name.toLowerCase() === os.name.toLowerCase() || c.name.toLowerCase() === os.username?.toLowerCase())) {
-        combined.push({ name: os.name || os.username, avatar: os.avatar || '🌍', color: '#6366f1', user_id: os.id });
+        combined.push({ name: os.name || os.username, avatar: os.avatar || '🌍', color: DEFAULT_PLAYER_COLORS[0], user_id: os.id });
       }
     });
     return combined;

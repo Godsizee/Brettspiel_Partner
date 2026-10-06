@@ -40,7 +40,7 @@
     onkeydown={handleKeydown}
   />
   <div class="absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none flex items-center transition-colors duration-200"
-       style="color: var(--color-text-muted);">
+       style="color: var(--text-2);">
     <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
       <circle cx="11" cy="11" r="8"></circle>
       <line x1="21" y1="21" x2="16.65" y2="16.65"></line>

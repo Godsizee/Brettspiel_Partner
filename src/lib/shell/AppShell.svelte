@@ -3,7 +3,7 @@
   import { currentRoute, navigate, setTransitionHook } from '$lib/router/router.js';
   import { appHash } from '$lib/router/appRoutes.js';
   import { gamesCatalog, isAdmin } from '$lib/stores/app.js';
-  import { SCREENS, LEGACY, screenKey } from './screens.js';
+  import { SCREENS, screenKey } from './screens.js';
   import { guardRoute } from './routeGuards.js';
   import { ui } from './ui.svelte.js';
   import AppNav from './AppNav.svelte';
@@ -11,7 +11,6 @@
   import ToastRegion from './ToastRegion.svelte';
   import DialogHost from './DialogHost.svelte';
   import SyncSheet from './SyncSheet.svelte';
-  import SyncChip from './SyncChip.svelte';
   import StartPlayerSheet from '$lib/screens/game/StartPlayerSheet.svelte';
   import AuthSheet from '$lib/screens/profile/AuthSheet.svelte';
   import OnboardingDialog from '$lib/screens/onboarding/OnboardingDialog.svelte';
@@ -72,10 +71,7 @@
       <Screen />
     {:else}
       {#key mountKey}
-        <div class={LEGACY.has(key) ? 'legacy-screen' : 'contents'}>
-          {#if LEGACY.has(key)}<div class="legacy-sync"><SyncChip /></div>{/if}
-          <Screen onopenStartPlayer={() => (ui.startPlayerOpen = true)} onclose={() => navigate(appHash.home())} />
-        </div>
+        <Screen onopenStartPlayer={() => (ui.startPlayerOpen = true)} onclose={() => navigate(appHash.home())} />
       {/key}
     {/if}
   {:else}
@@ -98,9 +94,4 @@
   .skip-link:focus { top: 12px; }
   .shell-main { min-height: 100dvh; padding-bottom: calc(var(--nav-space) + 16px); outline: none; }
   @media (min-width: 1024px) { .shell-main { padding-left: 15rem; padding-bottom: 32px; } }
-  /* Übergang: alte Komponenten erwarteten den Innenabstand von .app-main */
-  .legacy-screen { max-width: 720px; margin: 0 auto; padding: 12px 16px; position: relative; }
-  .legacy-sync { position: absolute; top: 8px; right: 12px; z-index: 5; }
-  @media (min-width: 768px) { .legacy-screen { max-width: 860px; padding: 24px; } }
-  @media (min-width: 1024px) { .legacy-screen { max-width: 1080px; padding: 32px; } }
 </style>

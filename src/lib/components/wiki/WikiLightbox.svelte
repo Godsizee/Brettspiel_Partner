@@ -101,7 +101,7 @@
     object-fit: contain;
     transform: scale(1.33);
     transform-origin: center center;
-    border-radius: var(--radius-lg);
+    border-radius: var(--r-lg);
     box-shadow: var(--sh-2);
     user-select: none;
     display: block;

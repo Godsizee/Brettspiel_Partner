@@ -25,20 +25,20 @@
 {#if parsed}
   <div class="flex flex-col gap-5">
     <div class="wiki-card flex flex-wrap items-center gap-x-5 gap-y-2 px-4 py-3.5">
-      <span class="inline-flex items-center gap-2 text-sm text-text-secondary">
+      <span class="inline-flex items-center gap-2 text-sm text-fg-2">
         {#if swatch}
           <span class="nation-swatch" style="background:{swatch}" aria-hidden="true"></span>
         {/if}
-        Farbe: <strong class="text-text-primary font-semibold">{parsed.color}</strong>
+        Farbe: <strong class="text-fg font-semibold">{parsed.color}</strong>
       </span>
-      <span class="text-sm text-text-secondary">
-        Anführer: <strong class="text-text-primary font-semibold">{parsed.leader}</strong>
+      <span class="text-sm text-fg-2">
+        Anführer: <strong class="text-fg font-semibold">{parsed.leader}</strong>
       </span>
     </div>
 
     <div class="wiki-card p-4 sm:p-5 nation-ability-highlight">
-      <span class="wiki-eyebrow" style="color: var(--color-primary)">Nationalfähigkeit</span>
-      <h3 class="text-base font-bold text-text-primary mt-1 mb-1.5">{parsed.nationalAbility.name}</h3>
+      <span class="wiki-eyebrow" style="color: var(--accent)">Nationalfähigkeit</span>
+      <h3 class="text-base font-bold text-fg mt-1 mb-1.5">{parsed.nationalAbility.name}</h3>
       <div class="wiki-prose text-sm">
         {@html formatWikiMarkdown(parsed.nationalAbility.text)}
       </div>
@@ -48,13 +48,13 @@
       <div class="flex flex-col gap-0.5">
         <span class="wiki-eyebrow">Mech-Fähigkeiten</span>
         {#if parsed.mechAbilitiesNote}
-          <p class="text-xs text-text-muted m-0">{parsed.mechAbilitiesNote}</p>
+          <p class="text-xs text-fg-2 m-0">{parsed.mechAbilitiesNote}</p>
         {/if}
       </div>
       <div class="grid gap-2.5 sm:grid-cols-2 items-start">
         {#each parsed.mechAbilities as ability (ability.name)}
           <div class="wiki-card p-3.5">
-            <h4 class="text-sm font-bold text-text-primary m-0 mb-1">{ability.name}</h4>
+            <h4 class="text-sm font-bold text-fg m-0 mb-1">{ability.name}</h4>
             <div class="wiki-prose text-sm">
               {@html formatWikiMarkdown(ability.text)}
             </div>
@@ -66,7 +66,7 @@
 {:else}
   <div class="flex flex-col gap-1.5">
     <span class="wiki-eyebrow">Kurz erklärt</span>
-    <div class="wiki-prose text-sm text-text-primary leading-relaxed">
+    <div class="wiki-prose text-sm text-fg leading-relaxed">
       {@html formatWikiMarkdown(entry?.summary ?? '')}
     </div>
   </div>
@@ -78,10 +78,10 @@
     height: 13px;
     border-radius: 999px;
     display: inline-block;
-    border: 1px solid var(--color-border-glass);
+    border: 1px solid var(--line);
   }
   .nation-ability-highlight {
     border-color: var(--wiki-accent-line);
-    background: color-mix(in srgb, var(--color-surface-solid) 100%, var(--color-primary) 5%);
+    background: color-mix(in srgb, var(--surface) 100%, var(--accent) 5%);
   }
 </style>

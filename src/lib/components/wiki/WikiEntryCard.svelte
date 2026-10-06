@@ -78,25 +78,25 @@
         <span class="wiki-eyebrow truncate">{meta}</span>
       {/if}
       {#if entry.kind && entry.kind !== 'reference'}
-        <span class="px-1.5 py-0.5 rounded text-[10px] font-bold tracking-wide uppercase bg-[var(--wiki-accent-soft)] text-[var(--color-primary)] shrink-0">
+        <span class="px-1.5 py-0.5 rounded text-[10px] font-bold tracking-wide uppercase bg-[var(--wiki-accent-soft)] text-[var(--accent)] shrink-0">
           {KIND_LABELS[entry.kind] ?? entry.kind}
         </span>
       {/if}
       {#if nameBadge}
-        <span class="px-1.5 py-0.5 rounded text-[10px] font-bold tracking-wide uppercase bg-[var(--wiki-accent-soft)] text-[var(--color-primary)] shrink-0">
+        <span class="px-1.5 py-0.5 rounded text-[10px] font-bold tracking-wide uppercase bg-[var(--wiki-accent-soft)] text-[var(--accent)] shrink-0">
           {nameBadge}
         </span>
       {/if}
     </div>
-    <span class="wiki-entry-title font-heading font-semibold text-text-primary leading-snug group-hover:text-primary transition-colors {isLarge ? 'text-base sm:text-lg font-bold' : 'text-[0.95rem]'}">
+    <span class="wiki-entry-title font-display font-semibold text-fg leading-snug group-hover:text-accent transition-colors {isLarge ? 'text-base sm:text-lg font-bold' : 'text-[0.95rem]'}">
       {#if houseIcon}<span class="haus-icon-inline" style="--haus-icon:url('{houseIcon}')" aria-hidden="true"></span>{/if}{@render highlighted(nameParts)}
     </span>
     {#if entry.summary && !isVoidfall}
-      <span class="text-sm text-text-secondary leading-relaxed line-clamp-2">{@render highlighted(summaryParts)}</span>
+      <span class="text-sm text-fg-2 leading-relaxed line-clamp-2">{@render highlighted(summaryParts)}</span>
     {/if}
   </span>
 
-  <svg class="shrink-0 w-4 h-4 text-text-muted opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+  <svg class="shrink-0 w-4 h-4 text-fg-2 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
     <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
   </svg>
 </a>
@@ -108,7 +108,7 @@
     height: 48px;
     aspect-ratio: 1 / 1;
     background: var(--wiki-hover);
-    border: 1px solid var(--color-border-glass);
+    border: 1px solid var(--line);
   }
   .wiki-entry-thumb.is-large {
     width: 96px;

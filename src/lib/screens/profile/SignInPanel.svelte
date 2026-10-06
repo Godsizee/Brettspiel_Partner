@@ -59,7 +59,7 @@
     try {
       await getSyncService().migrateLocalMatchesAfterLogin(user.id);
     } catch (err) {
-      console.warn('⚠️ SignInPanel: Match-Migration fehlgeschlagen:', err);
+      console.warn('SignInPanel: Match-Migration fehlgeschlagen:', err);
     }
   }
 

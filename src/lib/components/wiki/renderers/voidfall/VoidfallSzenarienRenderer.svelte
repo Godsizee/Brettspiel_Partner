@@ -86,7 +86,7 @@
   let eventsByCycle = (scn) => [...(scn?.galacticEvents ?? [])].sort((a, b) => a.cycle - b.cycle);
 </script>
 
-{#snippet meter(label, value, max = 4, colorVar = '--color-primary')}
+{#snippet meter(label, value, max = 4, colorVar = '--accent')}
   <span class="szen-meter" title="{label}: {value ?? '–'} / {max}">
     <span class="szen-meter-label">{label}</span>
     <span class="szen-meter-dots" aria-hidden="true">
@@ -132,8 +132,8 @@
   <!-- ============================= SOLO ============================= -->
   <section id="szen-solo" class="flex flex-col gap-4" style="scroll-margin-top: 5rem">
     <div class="flex items-baseline gap-2">
-      <h2 class="text-lg font-bold text-text-primary m-0">Solo-Szenarien</h2>
-      <span class="text-xs text-text-muted">{soloScenarios.length}</span>
+      <h2 class="text-lg font-bold text-fg m-0">Solo-Szenarien</h2>
+      <span class="text-xs text-fg-2">{soloScenarios.length}</span>
     </div>
 
     <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
@@ -154,10 +154,10 @@
 
           <div class="flex flex-col gap-2.5 p-4">
             <div class="flex items-start justify-between gap-2">
-              <h3 class="text-base font-bold text-text-primary m-0">{scn.name}</h3>
+              <h3 class="text-base font-bold text-fg m-0">{scn.name}</h3>
             </div>
             {@render meter('Komplexität', scn.complexity, 4)}
-            <p class="text-sm text-text-secondary leading-relaxed m-0" class:line-clamp-3={!isOpen}>
+            <p class="text-sm text-fg-2 leading-relaxed m-0" class:line-clamp-3={!isOpen}>
               {scn.fluff}
             </p>
 
@@ -166,7 +166,7 @@
                 {#if scn.specialRules}
                   <div class="szen-special">
                     <span class="wiki-eyebrow">Sonderregel</span>
-                    <p class="text-sm text-text-secondary m-0">{scn.specialRules}</p>
+                    <p class="text-sm text-fg-2 m-0">{scn.specialRules}</p>
                   </div>
                 {/if}
                 {#if scn.refugesImage}
@@ -182,7 +182,7 @@
                     </button>
                   </div>
                 {/if}
-                <span class="text-xs text-text-muted">Kompendium, S. {scn.source?.page}</span>
+                <span class="text-xs text-fg-2">Kompendium, S. {scn.source?.page}</span>
               </div>
             {/if}
 
@@ -198,8 +198,8 @@
   <!-- =========================== KOMPETITIV =========================== -->
   <section id="szen-kompetitiv" class="flex flex-col gap-4" style="scroll-margin-top: 5rem">
     <div class="flex items-baseline gap-2">
-      <h2 class="text-lg font-bold text-text-primary m-0">Kompetitive Szenarien</h2>
-      <span class="text-xs text-text-muted">{compFamilies.length} · je 2–4 Spieler</span>
+      <h2 class="text-lg font-bold text-fg m-0">Kompetitive Szenarien</h2>
+      <span class="text-xs text-fg-2">{compFamilies.length} · je 2–4 Spieler</span>
     </div>
 
     <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
@@ -223,7 +223,7 @@
 
           <div class="flex flex-col gap-2.5 p-4">
             <div class="flex items-start justify-between gap-2 flex-wrap">
-              <h3 class="text-base font-bold text-text-primary m-0">{fam.name}</h3>
+              <h3 class="text-base font-bold text-fg m-0">{fam.name}</h3>
               <div class="szen-segmented" role="group" aria-label="Spielerzahl">
                 {#each playerOptions(fam) as n}
                   <button
@@ -238,10 +238,10 @@
 
             <div class="flex flex-wrap gap-x-5 gap-y-1.5">
               {@render meter('Komplexität', scn.complexity, 4)}
-              {@render meter('Aggression', scn.aggression, 4, '--color-danger, #c14b3f')}
+              {@render meter('Aggression', scn.aggression, 4, '--danger, #c14b3f')}
             </div>
 
-            <p class="text-sm text-text-secondary leading-relaxed m-0" class:line-clamp-3={!isOpen}>
+            <p class="text-sm text-fg-2 leading-relaxed m-0" class:line-clamp-3={!isOpen}>
               {scn.fluff}
             </p>
 
@@ -289,7 +289,7 @@
                     {/each}
                   </div>
                 </div>
-                <span class="text-xs text-text-muted">Kompendium, S. {scn.source?.page}</span>
+                <span class="text-xs text-fg-2">Kompendium, S. {scn.source?.page}</span>
               </div>
             {/if}
 
@@ -309,9 +309,9 @@
     display: block;
     width: 100%;
     aspect-ratio: 4 / 3;
-    background: var(--color-bg-deep);
+    background: var(--bg);
     border: none;
-    border-bottom: 1px solid var(--color-border-glass);
+    border-bottom: 1px solid var(--line);
     padding: 0;
     cursor: zoom-in;
   }
@@ -329,13 +329,13 @@
     right: 0.5rem;
     padding: 0.15rem 0.5rem;
     border-radius: 999px;
-    font-family: var(--font-heading);
+    font-family: var(--ff-display);
     font-size: 0.68rem;
     font-weight: 700;
     letter-spacing: 0.04em;
-    background: color-mix(in srgb, var(--color-bg-base) 78%, transparent);
-    color: var(--color-text-secondary);
-    border: 1px solid var(--color-border-glass);
+    background: color-mix(in srgb, var(--bg) 78%, transparent);
+    color: var(--text-2);
+    border: 1px solid var(--line);
   }
 
   .szen-meter {
@@ -348,15 +348,15 @@
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: var(--color-text-muted);
+    color: var(--text-2);
   }
   .szen-meter-dots { display: inline-flex; gap: 0.22rem; }
   .szen-dot {
     width: 8px;
     height: 8px;
     border-radius: 999px;
-    background: var(--color-border-glass);
-    border: 1px solid var(--color-border-glass);
+    background: var(--line);
+    border: 1px solid var(--line);
   }
   .szen-dot.filled { border-color: transparent; }
 
@@ -368,7 +368,7 @@
     background: none;
     font-size: 0.8rem;
     font-weight: 600;
-    color: var(--color-primary);
+    color: var(--accent);
     cursor: pointer;
   }
   .szen-expand-btn:hover { text-decoration: underline; }
@@ -387,9 +387,9 @@
     display: block;
     width: 100%;
     padding: 0;
-    border: 1px solid var(--color-border-glass);
+    border: 1px solid var(--line);
     border-radius: var(--wiki-radius-sm);
-    background: var(--color-bg-deep);
+    background: var(--bg);
     cursor: zoom-in;
     overflow: hidden;
   }
@@ -398,9 +398,9 @@
   .szen-events-hint {
     font-size: 0.75rem;
     line-height: 1.45;
-    color: var(--color-text-muted);
+    color: var(--text-2);
   }
-  .szen-events-hint strong { color: var(--color-text-secondary); }
+  .szen-events-hint strong { color: var(--text-2); }
 
   /* Zyklus-Zeile: schmales Label + die 3 Karten dieses Zyklus. Die Buchstaben sind
      je Zyklus gleich, die dahinterliegenden Karten aber nicht -> 9 eigene Links. */
@@ -415,13 +415,13 @@
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: var(--color-text-muted);
+    color: var(--text-2);
   }
 
   .szen-chip { cursor: pointer; }
   .szen-chip-muted {
     background: var(--wiki-hover);
-    color: var(--color-text-muted);
+    color: var(--text-2);
     cursor: default;
   }
 
@@ -443,7 +443,7 @@
 
   .szen-segmented {
     display: inline-flex;
-    border: 1px solid var(--color-border-glass);
+    border: 1px solid var(--line);
     border-radius: 999px;
     overflow: hidden;
   }
@@ -453,14 +453,14 @@
     background: none;
     font-size: 0.75rem;
     font-weight: 700;
-    color: var(--color-text-secondary);
+    color: var(--text-2);
     cursor: pointer;
     min-width: 1.75rem;
   }
-  .szen-segmented-btn + .szen-segmented-btn { border-left: 1px solid var(--color-border-glass); }
+  .szen-segmented-btn + .szen-segmented-btn { border-left: 1px solid var(--line); }
   .szen-segmented-btn.is-active {
-    background: var(--color-primary);
-    color: var(--color-bg-base);
+    background: var(--accent);
+    color: var(--bg);
   }
 
   .line-clamp-3 {

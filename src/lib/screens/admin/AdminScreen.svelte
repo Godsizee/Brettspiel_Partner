@@ -61,7 +61,7 @@
       games = data.items ?? [];
       pendingCount = activeTab === 'pending' ? (data.totalItems ?? games.length) : pendingCount;
     } catch (e) {
-      console.error('❌ AdminReview load error:', e);
+      console.error('AdminScreen load error:', e);
       showToast(e instanceof Error && e.message ? e.message : 'Fehler beim Laden.', 'error');
     } finally {
       isLoading = false;

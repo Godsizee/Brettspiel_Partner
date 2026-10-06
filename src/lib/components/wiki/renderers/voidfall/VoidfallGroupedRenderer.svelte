@@ -1,5 +1,6 @@
 <script>
   // @ts-check
+  import Search from '@lucide/svelte/icons/search';
   import WikiEntryBrowser from '$lib/components/wiki/WikiEntryBrowser.svelte';
   import { formatWikiMarkdown } from '$lib/utils/formatWikiMarkdown.js';
   import { searchEntries } from '$lib/components/wiki/utils/wikiSearch.js';
@@ -71,7 +72,7 @@
     {#each sections as section (section.id)}
       <section id="group-{section.id}" class="flex flex-col gap-3" style="scroll-margin-top: 5rem">
         <div class="flex flex-col gap-1">
-          <h2 class="text-lg font-bold text-text-primary m-0">{section.title}</h2>
+          <h2 class="text-lg font-bold text-fg m-0">{section.title}</h2>
           {#if section.description}
             <div class="wiki-prose text-sm">
               {@html formatWikiMarkdown(section.description)}
@@ -83,8 +84,8 @@
     {/each}
     {#if sections.length === 0}
       <div class="flex flex-col items-center gap-3 py-14 px-6 w-full text-center">
-        <span class="text-4xl opacity-20">🔍</span>
-        <p class="text-text-muted text-sm m-0">Keine passenden Einträge gefunden.</p>
+        <Search class="size-10 text-fg-3" aria-hidden="true" />
+        <p class="text-fg-2 text-sm m-0">Keine passenden Einträge gefunden.</p>
       </div>
     {/if}
   {:else}

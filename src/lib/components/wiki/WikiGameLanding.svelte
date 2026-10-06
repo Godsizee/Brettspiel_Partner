@@ -29,11 +29,11 @@
       <!-- svelte-ignore a11y_no_static_element_interactions -->
       <div class="relative cursor-zoom-in" onclick={() => openLightbox(game.cover, game.name ?? '')}>
         <img src={game.cover} alt={game.name} loading="lazy" decoding="async" class="w-full aspect-21/9 object-cover object-center select-none" />
-        <div class="absolute inset-0" style="background: linear-gradient(to bottom, transparent 30%, color-mix(in srgb, var(--color-bg-base) 75%, transparent) 75%, var(--color-bg-base))"></div>
+        <div class="absolute inset-0" style="background: linear-gradient(to bottom, transparent 30%, color-mix(in srgb, var(--bg) 75%, transparent) 75%, var(--bg))"></div>
         <div class="absolute bottom-0 left-0 right-0 wiki-pad pb-5">
           <!-- Text liegt auf dem deckenden Verlauf zur Hintergrundfarbe, nie direkt auf dem Cover -->
-          <h1 tabindex="-1" class="font-display font-semibold text-2xl sm:text-3xl text-text-primary leading-tight m-0">{game?.name}</h1>
-          <p class="text-xs text-text-secondary m-0 mt-1 leading-snug">
+          <h1 tabindex="-1" class="font-display font-semibold text-2xl sm:text-3xl text-fg leading-tight m-0">{game?.name}</h1>
+          <p class="text-xs text-fg-2 m-0 mt-1 leading-snug">
             {game?.publisher || manifest?.game?.publisher || 'Unbekannter Verlag'}
             {#if game?.badge}<span class="mx-1.5 opacity-50">·</span>{game.badge}{/if}
             {#if game?.players}<span class="mx-1.5 opacity-50">·</span>{game.players}{/if}
@@ -43,7 +43,7 @@
     {:else}
       <div class="wiki-pad pt-6 pb-2">
         <h1 tabindex="-1" class="wiki-page-title">{game?.name}</h1>
-        <p class="text-sm text-text-secondary m-0 mt-1">{game?.publisher || manifest?.game?.publisher || 'Unbekannter Verlag'}</p>
+        <p class="text-sm text-fg-2 m-0 mt-1">{game?.publisher || manifest?.game?.publisher || 'Unbekannter Verlag'}</p>
       </div>
     {/if}
   </div>
@@ -59,7 +59,7 @@
               class="wiki-card wiki-card-hover p-3 flex items-center justify-center text-center no-underline group min-h-[48px]"
               href={wikiHash.entry(item.slug, item.moduleId, item.entryId)}
             >
-              <span class="text-xs sm:text-sm font-bold text-text-primary group-hover:text-primary transition-colors uppercase tracking-wider truncate w-full">{item.moduleId}</span>
+              <span class="text-xs sm:text-sm font-bold text-fg group-hover:text-accent transition-colors uppercase tracking-wider truncate w-full">{item.moduleId}</span>
             </a>
           {/each}
         </div>
@@ -85,7 +85,7 @@
     <!-- Desktop: kurzer Hinweis, wo die Navigation liegt, statt leerer Seite -->
     <div class="hidden lg:block">
       {#if modules.length}
-        <p class="text-sm text-text-muted m-0">
+        <p class="text-sm text-fg-2 m-0">
           Wähle links einen Bereich, um Regeln und Einträge zu öffnen.
         </p>
       {/if}

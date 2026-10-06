@@ -1,6 +1,7 @@
 <!-- src/lib/components/wiki/WikiModuleRenderer.svelte -->
 <script>
   // @ts-check
+  import TriangleAlert from '@lucide/svelte/icons/triangle-alert';
   import ReferenceRenderer from './renderers/ReferenceRenderer.svelte';
   import ChecklistRenderer from './renderers/ChecklistRenderer.svelte';
   import GlossaryRenderer from './renderers/GlossaryRenderer.svelte';
@@ -53,9 +54,9 @@
 </script>
 
 {#if module?.error}
-  <div class="wiki-card p-4 text-sm" style="border-color: var(--color-danger)">
-    <p class="m-0 font-medium text-text-primary">⚠️ Fehler beim Laden des Moduls</p>
-    <p class="m-0 mt-1 text-text-secondary">{module.error}</p>
+  <div class="wiki-card p-4 text-sm" style="border-color: var(--danger)">
+    <p class="m-0 flex items-center gap-2 font-medium text-fg"><TriangleAlert class="size-5 shrink-0 text-warning" aria-hidden="true" />Fehler beim Laden des Moduls</p>
+    <p class="m-0 mt-1 text-fg-2">{module.error}</p>
   </div>
 {:else if Renderer}
   {@const DynamicComponent = Renderer}
@@ -66,7 +67,7 @@
     {entryHref}
   />
 {:else}
-  <div class="p-4 rounded-md bg-surface-2 border border-line text-sm text-[var(--color-text-secondary)]">
-    <p class="m-0">Unbekannter Modultyp: <code class="font-mono bg-surface px-1.5 py-0.5 rounded-sm text-[var(--color-text-primary)]">{module?.type}</code></p>
+  <div class="p-4 rounded-md bg-surface-2 border border-line text-sm text-[var(--text-2)]">
+    <p class="m-0">Unbekannter Modultyp: <code class="font-mono bg-surface px-1.5 py-0.5 rounded-sm text-[var(--text)]">{module?.type}</code></p>
   </div>
 {/if}

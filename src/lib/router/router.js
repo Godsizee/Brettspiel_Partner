@@ -150,15 +150,3 @@ export function navigate(hash, { replace = false } = {}) {
     window.location.hash = hash;
   }
 }
-
-/**
- * Entfernt den Routen-Hash ohne neuen History-Eintrag (beim Verlassen des
- * Wikis über die App-Navigation), damit kein toter '#/wiki'-Rest in der URL klebt.
- */
-export function clearRouteHash() {
-  if (!hasWindow) return;
-  if (!get(currentRoute) && !window.location.hash) return;
-  const base = window.location.pathname + window.location.search;
-  window.history.replaceState(window.history.state, '', base);
-  currentRoute.set(null);
-}

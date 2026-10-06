@@ -1,7 +1,7 @@
 // @ts-check
 /**
- * Routenname → Lazy-Loader. Während der Migration zeigen Einträge auf alte Komponenten;
- * jede Screen-Aufgabe (R08–R17) stellt genau ihren Eintrag um und entfernt ihn aus LEGACY.
+ * Routenname → Lazy-Loader. Ein Eintrag je Route; die Struktur bildet 1:1 auf eine spätere
+ * src/routes/-Struktur ab (Plan C2).
  */
 export const SCREENS = {
   home: () => import('$lib/screens/home/HomeScreen.svelte'),
@@ -19,9 +19,6 @@ export const SCREENS = {
   'dev-ui': () => import('$lib/screens/dev/UiGallery.svelte'),
   wiki: () => import('$lib/components/wiki/WikiApp.svelte'),
 };
-
-/** Keys, die noch alte Komponenten zeigen (bekommen den alten Innenabstand). */
-export const LEGACY = new Set([]);
 
 /** Alle wiki-* Routen teilen sich WikiApp (internes Routing). */
 export const screenKey = (/** @type {string} */ name) => (name.startsWith('wiki') ? 'wiki' : name in SCREENS ? name : 'home');

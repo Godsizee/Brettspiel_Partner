@@ -96,7 +96,7 @@
     gap: 0.75rem;
     margin-top: 2.5rem;
     padding-top: 1.25rem;
-    border-top: 1px solid var(--color-border-glass);
+    border-top: 1px solid var(--line);
   }
 
   .wiki-pager-link {
@@ -105,9 +105,9 @@
     gap: 0.7rem;
     min-height: 44px;
     padding: 0.6rem 0.9rem;
-    border: 1px solid var(--color-border-glass);
+    border: 1px solid var(--line);
     border-radius: var(--wiki-radius-sm);
-    color: var(--color-text-secondary);
+    color: var(--text-2);
     text-decoration: none;
     min-width: 0;
     transition: border-color 140ms ease, background-color 140ms ease, color 140ms ease;
@@ -115,7 +115,7 @@
   .wiki-pager-link:hover {
     background: var(--wiki-hover);
     border-color: var(--wiki-accent-line);
-    color: var(--color-text-primary);
+    color: var(--text);
   }
   .wiki-pager-link--next {
     justify-content: flex-end;
@@ -132,12 +132,12 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: var(--color-text-muted);
+    color: var(--text-2);
   }
   .wiki-pager-name {
     font-size: 0.85rem;
     font-weight: 600;
-    color: var(--color-text-primary);
+    color: var(--text);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
