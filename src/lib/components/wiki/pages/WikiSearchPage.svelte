@@ -1,5 +1,6 @@
 <script>
   // @ts-check
+  import Search from '@lucide/svelte/icons/search';
   import WikiFilterBar from '$lib/components/wiki/WikiFilterBar.svelte';
   import WikiEntryBrowser from '$lib/components/wiki/WikiEntryBrowser.svelte';
 
@@ -36,8 +37,8 @@
   </span>
   {#if filteredEntries.length === 0}
     <div class="flex flex-col items-center gap-4 py-10 px-6 w-full text-center">
-      <span class="text-4xl opacity-20" aria-hidden="true">🔍</span>
-      <p class="text-text-muted text-sm m-0 max-w-[42ch]">
+      <Search class="size-10 text-fg-3" aria-hidden="true" />
+      <p class="text-fg-2 text-sm m-0 max-w-[42ch]">
         Keine Treffer{routeQuery ? ` für „${routeQuery}“` : ''}.
         Prüfe die Schreibweise oder stöbere direkt in den Bereichen:
       </p>

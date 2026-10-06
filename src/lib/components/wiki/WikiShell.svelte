@@ -73,9 +73,7 @@
     .wiki-body { padding-top: 2.75rem; padding-bottom: 3rem; }
   }
   .wiki-header {
-    background: color-mix(in srgb, var(--color-bg-base) 88%, transparent);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--color-border-glass);
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
   }
 </style>

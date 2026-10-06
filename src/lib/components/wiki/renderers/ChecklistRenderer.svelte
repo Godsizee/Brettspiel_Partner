@@ -62,12 +62,12 @@
   .checklist { display: flex; flex-direction: column; gap: 1.5rem; }
 
   .checklist-section-title {
-    font-family: var(--font-heading);
+    font-family: var(--ff-display);
     font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: var(--color-text-muted);
+    color: var(--text-2);
     margin-bottom: 0.5rem;
   }
 
@@ -84,8 +84,8 @@
     padding: 0.75rem;
     text-align: left;
     border-radius: var(--wiki-radius-sm);
-    background: var(--color-surface-solid);
-    border: 1px solid var(--color-border-glass);
+    background: var(--surface);
+    border: 1px solid var(--line);
     transition: background-color 140ms ease;
     cursor: pointer;
   }
@@ -96,42 +96,42 @@
     width: 20px;
     height: 20px;
     border-radius: 6px;
-    border: 2px solid var(--color-border-glass);
+    border: 2px solid var(--line);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 12px;
-    color: var(--color-primary);
-    background: var(--color-bg-base);
+    color: var(--accent);
+    background: var(--bg);
     margin-top: 2px;
   }
 
-  .check-text { font-size: 0.9rem; color: var(--color-text-primary); line-height: 1.5; }
-  .check-note { font-size: 0.75rem; color: var(--color-text-muted); padding: 0.25rem 0.75rem 0.5rem calc(0.75rem + 20px + 0.75rem); }
+  .check-text { font-size: 0.9rem; color: var(--text); line-height: 1.5; }
+  .check-note { font-size: 0.75rem; color: var(--text-2); padding: 0.25rem 0.75rem 0.5rem calc(0.75rem + 20px + 0.75rem); }
 
   .checklist-reset {
     align-self: flex-start;
     font-size: 0.75rem;
-    color: var(--color-text-muted);
+    color: var(--text-2);
     padding: 0.5rem 0.75rem;
     border-radius: 999px;
-    border: 1px solid var(--color-border-glass);
+    border: 1px solid var(--line);
     background: transparent;
     cursor: pointer;
   }
-  .checklist-reset:hover { color: var(--color-text-primary); border-color: var(--color-text-muted); }
+  .checklist-reset:hover { color: var(--text); border-color: var(--text-2); }
 
   /* Stufe 2 */
   @media (max-width: 479px) {
     .checklist-check {
-      padding: 10px 12px !important;
+      padding: 10px 12px;
     }
   }
 
   /* Stufe 1 */
   @media (max-width: 359px) {
     .checklist-check {
-      padding: 8px !important;
+      padding: 8px;
     }
   }
 </style>

@@ -1,0 +1,115 @@
+/* ==========================================================================
+   SPIELTISCH — Design-Tokens. EINZIGE Quelle für Farbe, Typo, Radien,
+   Schatten, Bewegung. Komponenten verwenden nur die semantischen Namen.
+   Werte als echte :root-Properties (Tailwinds @theme inline erzeugt keine
+   Variablen — Stolperfalle S5). Kontraste geprüft, siehe Plan C1.1.
+   ========================================================================== */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/fonts/fraunces-latin-var.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308,
+    U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  color-scheme: light dark;
+
+  /* Rohpalette — identisch mit Brettspiel_Wiki (src/styles/global.css) */
+  --paper-50: #fcfaf7; --paper-100: #f5f1ea; --paper-200: #e9e3d8; --paper-300: #d8cfc0;
+  --paper-400: #b0a594; --paper-500: #8c8171; --paper-600: #6f6555; --paper-700: #574e42;
+  --paper-800: #3a342c; --paper-900: #1a1815; --paper-950: #12110e;
+  --accent-50: #ecfbf8; --accent-300: #6fd7c6; --accent-400: #35b3a5; --accent-600: #0f7a72; --accent-700: #0c6159;
+
+  /* Semantik: light-dark(HELL, DUNKEL) — folgt color-scheme (unten per data-theme gesetzt) */
+  --bg:             light-dark(#fcfaf7, #12110e);
+  --surface:        light-dark(#ffffff, #1b1915);
+  --surface-2:      light-dark(#f5f1ea, #24211c);
+  --line:           light-dark(#e9e3d8, #2e2a24);
+  --line-strong:    light-dark(#d8cfc0, #3d3830);
+  --field-line:     light-dark(#8c8171, #7d7262);
+  --text:           light-dark(#1a1815, #f5f1ea);
+  --text-2:         light-dark(#6f6555, #b0a594);
+  --text-3:         light-dark(#8c8171, #8c8171);
+  --accent:         light-dark(#0f7a72, #35b3a5);
+  --accent-hover:   light-dark(#0c6159, #6fd7c6);
+  --on-accent:      light-dark(#ffffff, #12110e);
+  --accent-soft:    light-dark(#ecfbf8, #18302c);
+  --accent-soft-fg: light-dark(#0c6159, #6fd7c6);
+  --danger:         light-dark(#b42318, #f97066);
+  --on-danger:      light-dark(#ffffff, #12110e);
+  --danger-soft:    light-dark(#fef3f2, #3a1d1a);
+  --success:        light-dark(#067647, #47cd89);
+  --success-soft:   light-dark(#ecfdf3, #15291e);
+  --warning:        light-dark(#b54708, #fdb022);
+  --warning-soft:   light-dark(#fffaeb, #33270f);
+  --gold:           light-dark(#a15c07, #f5c451);
+  --gold-soft:      light-dark(#fef6e0, #332a12);
+  --scrim:          light-dark(rgb(26 24 21 / 0.45), rgb(0 0 0 / 0.6));
+
+  /* Spielmaterial (Farben der Spielkomponenten, themeunabhängig) — nur hier definieren */
+  --mat-scythe-rot: #c14b3f; --mat-scythe-blau: #3d6bc0; --mat-scythe-gelb: #c99a25;
+  --mat-scythe-weiss: #e8e6e0; --mat-scythe-schwarz: #3a3a3d;
+
+  --ff-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --ff-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --r-sm: 8px; --r-md: 12px; --r-lg: 20px;
+  --sh-1: 0 1px 2px rgb(26 24 21 / 0.06), 0 1px 1px rgb(26 24 21 / 0.04);
+  --sh-2: 0 10px 30px -12px rgb(26 24 21 / 0.28);
+  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur-1: 120ms; --dur-2: 200ms; --dur-3: 320ms;
+
+  /* Shell-Maße (AppShell setzt --livebar-h dynamisch) */
+  --nav-h: 64px;
+  --livebar-h: 0px;
+  --nav-space: calc(var(--nav-h) + var(--livebar-h) + env(safe-area-inset-bottom));
+}
+[data-theme="light"] { color-scheme: light; }
+[data-theme="dark"]  { color-scheme: dark; }
+
+/* Tailwind-Utilities: bg-canvas, bg-surface, bg-surface-2, text-fg, text-fg-2, border-line, … */
+@theme inline {
+  --font-sans: var(--ff-sans);
+  --font-display: var(--ff-display);
+  --color-canvas: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-field-line: var(--field-line);
+  --color-fg: var(--text);
+  --color-fg-2: var(--text-2);
+  --color-fg-3: var(--text-3);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-on-accent: var(--on-accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-soft-fg: var(--accent-soft-fg);
+  --color-danger: var(--danger);
+  --color-on-danger: var(--on-danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --radius-sm: var(--r-sm);
+  --radius-md: var(--r-md);
+  --radius-lg: var(--r-lg);
+  --shadow-1: var(--sh-1);
+  --shadow-2: var(--sh-2);
+  --text-h1: clamp(1.6rem, 1.25rem + 1.7vw, 2.4rem);
+  --text-h1--line-height: 1.12;
+  --text-h2: clamp(1.25rem, 1.1rem + 0.7vw, 1.6rem);
+  --text-h2--line-height: 1.25;
+  --text-score: clamp(2.25rem, 1.6rem + 3vw, 3.5rem);
+  --text-score--line-height: 1;
+  --text-timer: clamp(3.5rem, 2.4rem + 6vw, 5.5rem);
+  --text-timer--line-height: 1;
+}
+@theme {
+  --breakpoint-xs: 22.5rem;
+}

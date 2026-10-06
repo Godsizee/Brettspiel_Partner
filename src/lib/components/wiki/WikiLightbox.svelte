@@ -64,9 +64,7 @@
     position: fixed;
     inset: 0;
     z-index: 9999;
-    background: rgba(0, 0, 0, 0.88);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    background: var(--scrim);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,8 +101,8 @@
     object-fit: contain;
     transform: scale(1.33);
     transform-origin: center center;
-    border-radius: var(--radius-lg);
-    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.7);
+    border-radius: var(--r-lg);
+    box-shadow: var(--sh-2);
     user-select: none;
     display: block;
     pointer-events: none;
@@ -117,9 +115,9 @@
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 9999px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    color: #fff;
+    background: var(--surface);
+    border: 1px solid var(--line-strong);
+    color: var(--text);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,6 +128,6 @@
   }
 
   .lightbox-close:hover {
-    background: rgba(255, 255, 255, 0.22);
+    background: var(--surface-2);
   }
 </style>

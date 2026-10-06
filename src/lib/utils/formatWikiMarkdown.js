@@ -68,7 +68,7 @@ export function formatWikiMarkdown(md) {
 
     if (trimmed.startsWith('- ') || trimmed.startsWith('* ') || trimmed.startsWith('• ')) {
       if (!inList) {
-        output.push('<ul class="list-disc pl-5 my-2 space-y-1.5 text-[var(--color-text-secondary)]">');
+        output.push('<ul class="list-disc pl-5 my-2 space-y-1.5 text-[var(--text-2)]">');
         inList = true;
       }
       output.push(`<li>${trimmed.substring(2).trim()}</li>`);
@@ -80,9 +80,9 @@ export function formatWikiMarkdown(md) {
 
       if (trimmed) {
         if (trimmed.startsWith('<strong>') && trimmed.endsWith('</strong>')) {
-          output.push(`<h4 class="text-sm sm:text-base font-bold text-[var(--color-text-primary)] mt-5 mb-2">${trimmed}</h4>`);
+          output.push(`<h4 class="text-sm sm:text-base font-bold text-[var(--text)] mt-5 mb-2">${trimmed}</h4>`);
         } else {
-          output.push(`<p class="m-0 leading-relaxed text-[var(--color-text-secondary)] mb-3">${trimmed}</p>`);
+          output.push(`<p class="m-0 leading-relaxed text-[var(--text-2)] mb-3">${trimmed}</p>`);
         }
       }
     }

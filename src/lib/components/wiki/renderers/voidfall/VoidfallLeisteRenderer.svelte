@@ -20,7 +20,7 @@
         {#if entry.image}
           <img src={entry.image} alt="" loading="lazy" class="w-20 h-20 object-contain shrink-0" />
         {/if}
-        <h2 class="text-lg sm:text-xl font-bold text-[var(--color-text-primary)] m-0 group-hover:text-primary transition-colors">
+        <h2 class="text-lg sm:text-xl font-bold text-[var(--text)] m-0 group-hover:text-accent transition-colors">
           {entry.name}
         </h2>
       </a>

@@ -3,16 +3,16 @@
  * Svelte Stores — ersetzt den STATE-Proxy aus app.js
  * Alle reaktiven Zustände der App sind hier zentralisiert.
  */
-import { writable, derived } from 'svelte/store';
-import { tick } from 'svelte';
+import { writable, derived, get } from 'svelte/store';
 import { getAuthService } from '../services/AuthService.js';
-import { currentRoute, navigate, clearRouteHash, registerRoutes } from '../router/router.js';
-import { wikiHash, ROUTES as wikiRoutesData } from '../components/wiki/utils/wikiRoutes.js';
+import { currentRoute, navigate, registerRoutes } from '../router/router.js';
+import { wikiHash } from '../components/wiki/utils/wikiRoutes.js';
 import { toSlug } from '../components/wiki/utils/wikiKeys.js';
+import { APP_ROUTES, appHash } from '../router/appRoutes.js';
 
-registerRoutes(wikiRoutesData);
+registerRoutes(APP_ROUTES);
 
-export const wikiActive = derived(currentRoute, (r) => r !== null);
+export const wikiActive = derived(currentRoute, (r) => !!r && r.name.startsWith('wiki'));
 
 // ─── App Settings & Theme Mode (Dark / Light) ──────────────────────────────────
 const defaultSettings = {
@@ -75,6 +75,27 @@ export function toggleThemeMode() {
   themeMode.update(m => m === 'dark' ? 'light' : 'dark');
 }
 
+/**
+ * Theme-Präferenz setzen: 'system' | 'light' | 'dark'.
+ * Nutzt die bestehenden Stores/Keys (bg_settings.followSystemTheme, bg_theme_mode) — keine neuen Keys.
+ * @param {'system'|'light'|'dark'} pref
+ */
+export function setThemePreference(pref) {
+  if (pref === 'system') {
+    settings.update((s) => ({ ...s, followSystemTheme: true }));
+    themeMode.set(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  } else {
+    settings.update((s) => ({ ...s, followSystemTheme: false }));
+    themeMode.set(pref);
+  }
+}
+
+// Browser-UI-Farbe (Statusleiste) passend zum Theme
+themeMode.subscribe((mode) => {
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute('content', mode === 'dark' ? '#12110e' : '#fcfaf7');
+});
+
 // Netzwerkstatus
 export const isOnline = writable(navigator.onLine);
 
@@ -86,82 +107,6 @@ if (typeof window !== 'undefined') {
     e.preventDefault();
     pwaInstallEvent.set(e);
   });
-}
-
-// Aktueller Screen (Screen-Router ohne echtes Routing)
-//
-// Reload-Persistenz (F5 / Pull-to-Refresh): Der zuletzt aktive Top-Level-Screen
-// wird in sessionStorage gehalten, damit der Nutzer nach einem Reload wieder auf
-// demselben Tab landet statt auf der Startseite. Nur „eigenständige" Screens
-// werden wiederhergestellt — Screens, die von flüchtigem Zustand abhängen
-// (gewähltes Spiel, laufende Partie, offener Editor), würden ohne diesen Kontext
-// kaputt/leer aussehen und fallen daher bewusst auf 'game-selection' zurück.
-// sessionStorage statt localStorage: gilt nur für die aktuelle Tab-Sitzung, nicht
-// dauerhaft über Browser-Neustarts hinweg. Keine sensiblen Daten — nur ein Screen-Name.
-const RESTORABLE_SCREENS = ['game-selection', 'match-history', 'stats', 'profile', 'user-profile', 'settings'];
-let _initialScreen = 'game-selection';
-try {
-  const _savedScreen = sessionStorage.getItem('bg_active_screen');
-  if (_savedScreen && RESTORABLE_SCREENS.includes(_savedScreen)) {
-    _initialScreen = _savedScreen;
-  }
-} catch (_) {}
-
-// Der URL-Hash gewinnt immer gegen sessionStorage.
-{
-  let _route = null;
-  currentRoute.subscribe((r) => { _route = r; })();
-  if (_route && _initialScreen === 'wiki') {
-    _initialScreen = 'game-selection'; // Fallback für activeScreen, da Wiki nun über URL läuft
-  } else if (_initialScreen === 'wiki') {
-    _initialScreen = 'game-selection';
-    navigate(wikiHash.overview(), { replace: true });
-  }
-}
-
-/** @type {import('svelte/store').Writable<'game-selection'|'game-dashboard'|'game-timer'|'player-setup'|'score-sheet'|'match-history'|'stats'|'profile'|'user-profile'|'settings'|'custom-game-editor'|'admin-review'>} */
-export const activeScreen = writable(/** @type {any} */ (_initialScreen));
-
-/** Reihenfolge für Richtungslogik der Transitions */
-const SCREEN_ORDER = ['game-selection', 'custom-game-editor', 'game-dashboard', 'game-timer', 'player-setup', 'score-sheet', 'match-history', 'stats', 'profile', 'user-profile', 'settings', 'admin-review'];
-
-let _currentScreen = _initialScreen;
-activeScreen.subscribe(s => {
-  _currentScreen = s;
-  // Nur wiederherstellbare Screens persistieren; transiente Screens entfernen den
-  // gespeicherten Wert, damit ein Reload dort sauber auf der Startseite landet.
-  try {
-    if (RESTORABLE_SCREENS.includes(s)) {
-      sessionStorage.setItem('bg_active_screen', s);
-    } else {
-      sessionStorage.removeItem('bg_active_screen');
-    }
-  } catch (_) {}
-});
-
-/**
- * Navigiert zu einem Screen mit CSS-Slide-Animation.
- * Der aktuelle Screen bekommt .is-leaving (animiert raus),
- * der neue Screen bekommt .active und animiert gleichzeitig rein.
- * @param {'game-selection'|'game-dashboard'|'game-timer'|'player-setup'|'score-sheet'|'match-history'|'stats'|'profile'|'user-profile'|'settings'|'custom-game-editor'|'admin-review'} screen
- */
-export async function navigateTo(screen) {
-  if (_currentScreen === screen) return;
-
-  const fromIdx = SCREEN_ORDER.indexOf(_currentScreen);
-  const toIdx = SCREEN_ORDER.indexOf(screen);
-  const direction = (toIdx < 0 || fromIdx < 0)
-    ? 'forward'
-    : toIdx > fromIdx ? 'forward' : 'backward';
-
-  document.documentElement.dataset.transitionDir = direction;
-  window.scrollTo(0, 0);
-
-  activeScreen.set(screen);
-
-  // Wiki verlassen → Routen-Hash aufräumen
-  clearRouteHash();
-  await tick();
 }
 
 /**
@@ -313,130 +258,6 @@ export const isAdmin = derived(
   $user => $user?.role === 'admin'
 );
 
-// Game-spezifische Themes (HSL)
-export const THEMES = /** @type {Record<string, Record<string, string>>} */ ({
-  wingspan: {
-    '--color-primary': 'hsl(142, 45%, 45%)',
-    '--color-primary-hover': 'hsl(142, 45%, 52%)',
-    '--color-primary-glow': 'hsla(142, 45%, 45%, 0.4)',
-    '--color-secondary': 'hsl(38, 75%, 65%)',
-    '--color-secondary-hover': 'hsl(38, 75%, 72%)',
-    '--color-secondary-glow': 'hsla(38, 75%, 65%, 0.3)',
-    '--color-border-glow': 'hsla(142, 45%, 45%, 0.35)',
-  },
-  'on mars': {
-    '--color-primary': 'hsl(12, 75%, 45%)',
-    '--color-primary-hover': 'hsl(12, 75%, 52%)',
-    '--color-primary-glow': 'hsla(12, 75%, 45%, 0.4)',
-    '--color-secondary': 'hsl(42, 95%, 55%)',
-    '--color-secondary-hover': 'hsl(42, 95%, 65%)',
-    '--color-secondary-glow': 'hsla(42, 95%, 55%, 0.3)',
-    '--color-border-glow': 'hsla(12, 75%, 45%, 0.35)',
-  },
-  mischwald: {
-    '--color-primary': 'hsl(145, 65%, 35%)',
-    '--color-primary-hover': 'hsl(145, 65%, 42%)',
-    '--color-primary-glow': 'hsla(145, 65%, 35%, 0.4)',
-    '--color-secondary': 'hsl(48, 85%, 50%)',
-    '--color-secondary-hover': 'hsl(48, 85%, 60%)',
-    '--color-secondary-glow': 'hsla(48, 85%, 50%, 0.3)',
-    '--color-border-glow': 'hsla(145, 65%, 35%, 0.35)',
-  },
-  mischwald_dartmoor: {
-    '--color-primary': 'hsl(165, 55%, 38%)',
-    '--color-primary-hover': 'hsl(165, 55%, 45%)',
-    '--color-primary-glow': 'hsla(165, 55%, 38%, 0.4)',
-    '--color-secondary': 'hsl(28, 70%, 55%)',
-    '--color-secondary-hover': 'hsl(28, 70%, 65%)',
-    '--color-secondary-glow': 'hsla(28, 70%, 55%, 0.3)',
-    '--color-border-glow': 'hsla(165, 55%, 38%, 0.35)',
-  },
-  revive: {
-    '--color-primary': 'hsl(190, 85%, 45%)',
-    '--color-primary-hover': 'hsl(190, 85%, 55%)',
-    '--color-primary-glow': 'hsla(190, 85%, 45%, 0.4)',
-    '--color-secondary': 'hsl(55, 95%, 55%)',
-    '--color-secondary-hover': 'hsl(55, 95%, 65%)',
-    '--color-secondary-glow': 'hsla(55, 95%, 55%, 0.3)',
-    '--color-border-glow': 'hsla(190, 85%, 45%, 0.35)',
-  },
-  scythe: {
-    '--color-primary': 'hsl(28, 60%, 42%)',
-    '--color-primary-hover': 'hsl(28, 60%, 50%)',
-    '--color-primary-glow': 'hsla(28, 60%, 42%, 0.4)',
-    '--color-secondary': 'hsl(45, 85%, 50%)',
-    '--color-secondary-hover': 'hsl(45, 85%, 60%)',
-    '--color-secondary-glow': 'hsla(45, 85%, 50%, 0.3)',
-    '--color-border-glow': 'hsla(28, 60%, 42%, 0.35)',
-  },
-  sattgruen: {
-    '--color-primary': 'hsl(140, 50%, 35%)',
-    '--color-primary-hover': 'hsl(140, 50%, 42%)',
-    '--color-primary-glow': 'hsla(140, 50%, 35%, 0.4)',
-    '--color-secondary': 'hsl(42, 85%, 55%)',
-    '--color-secondary-hover': 'hsl(42, 85%, 65%)',
-    '--color-secondary-glow': 'hsla(42, 85%, 55%, 0.3)',
-    '--color-border-glow': 'hsla(140, 50%, 35%, 0.35)',
-  },
-  radlands: {
-    '--color-primary': 'hsl(330, 95%, 55%)',
-    '--color-primary-hover': 'hsl(330, 95%, 62%)',
-    '--color-primary-glow': 'hsla(330, 95%, 55%, 0.4)',
-    '--color-secondary': 'hsl(190, 95%, 50%)',
-    '--color-secondary-hover': 'hsl(190, 95%, 60%)',
-    '--color-secondary-glow': 'hsla(190, 95%, 50%, 0.3)',
-    '--color-border-glow': 'hsla(330, 95%, 55%, 0.35)',
-  },
-  la_granja: {
-    '--color-primary': 'hsl(120, 45%, 35%)',
-    '--color-primary-hover': 'hsl(120, 45%, 42%)',
-    '--color-primary-glow': 'hsla(120, 45%, 35%, 0.4)',
-    '--color-secondary': 'hsl(45, 90%, 50%)',
-    '--color-secondary-hover': 'hsl(45, 90%, 60%)',
-    '--color-secondary-glow': 'hsla(45, 90%, 50%, 0.3)',
-    '--color-border-glow': 'hsla(120, 45%, 35%, 0.35)',
-  },
-  underwater_cities: {
-    '--color-primary': 'hsl(195, 85%, 35%)',
-    '--color-primary-hover': 'hsl(195, 85%, 42%)',
-    '--color-primary-glow': 'hsla(195, 85%, 35%, 0.4)',
-    '--color-secondary': 'hsl(45, 95%, 55%)',
-    '--color-secondary-hover': 'hsl(45, 95%, 65%)',
-    '--color-secondary-glow': 'hsla(45, 95%, 55%, 0.3)',
-    '--color-border-glow': 'hsla(195, 85%, 35%, 0.35)',
-  },
-  next_station_london: {
-    '--color-primary': 'hsl(340, 85%, 55%)',
-    '--color-primary-hover': 'hsl(340, 85%, 62%)',
-    '--color-primary-glow': 'hsla(340, 85%, 55%, 0.4)',
-    '--color-secondary': 'hsl(200, 85%, 50%)',
-    '--color-secondary-hover': 'hsl(200, 85%, 60%)',
-    '--color-secondary-glow': 'hsla(200, 85%, 50%, 0.3)',
-    '--color-border-glow': 'hsla(340, 85%, 55%, 0.35)',
-  },
-  default: {
-    '--color-primary': 'hsl(250, 89%, 65%)',
-    '--color-primary-hover': 'hsl(250, 89%, 72%)',
-    '--color-primary-glow': 'hsla(250, 89%, 65%, 0.4)',
-    '--color-secondary': 'hsl(172, 90%, 45%)',
-    '--color-secondary-hover': 'hsl(172, 90%, 55%)',
-    '--color-secondary-glow': 'hsla(172, 90%, 45%, 0.3)',
-    '--color-border-glow': 'hsla(250, 89%, 65%, 0.35)',
-  },
-});
-
-/**
- * Wendet das Theme eines Spiels auf :root an.
- * @param {string|null} gameName
- */
-export function applyTheme(gameName) {
-  const theme = (gameName && THEMES[gameName]) ? THEMES[gameName] : THEMES.default;
-  const root = document.documentElement;
-  for (const [key, val] of Object.entries(theme)) {
-    root.style.setProperty(key, val);
-  }
-}
-
 // ─── Token Refresh / Expiry Listeners ─────────────────────────────────────────
 if (typeof window !== 'undefined') {
   window.addEventListener('auth-token-refreshed', (/** @type {any} */ e) => {
@@ -520,4 +341,48 @@ export function promptDialog(message, title = "Eingabe", isPassword = false, pla
       resolve
     });
   });
+}
+
+// ─── Navigation (R06) ─────────────────────────────────────────────────────────
+const ROUTE_TO_SCREEN = /** @type {Record<string, string>} */ ({
+  home: 'game-selection', game: 'game-dashboard', 'match-players': 'player-setup', 'match-live': 'game-timer',
+  'match-score': 'score-sheet', history: 'match-history', stats: 'stats', settings: 'settings', legal: 'legal',
+  'custom-game-new': 'custom-game-editor', 'admin-review': 'admin-review', 'dev-ui': 'dev-ui',
+});
+
+/**
+ * Früher eigener Store, jetzt aus der URL abgeleitet (nur lesen!). Alle bisherigen Leser
+ * (`$activeScreen === 'stats'` usw.) bleiben gültig.
+ */
+export const activeScreen = derived([currentRoute, currentUser], ([r, user]) => {
+  const name = r?.name ?? 'home';
+  if (name === 'profile') return user ? 'user-profile' : 'profile';
+  if (name.startsWith('wiki')) return 'wiki';
+  return ROUTE_TO_SCREEN[name] ?? 'game-selection';
+});
+
+/** Alter Screen-Name → Hash (Funktionen, weil manche Ziele vom aktuellen Spiel abhängen). */
+const SCREEN_TO_HASH = /** @type {Record<string, () => string>} */ ({
+  'game-selection': () => appHash.home(),
+  'game-dashboard': () => { const g = get(currentGame); return g ? appHash.game(toSlug(g)) : appHash.home(); },
+  'game-timer': () => appHash.matchLive(),
+  'player-setup': () => appHash.matchPlayers(),
+  'score-sheet': () => appHash.matchScore(),
+  'match-history': () => appHash.history(),
+  stats: () => appHash.stats(),
+  profile: () => appHash.profile(),
+  'user-profile': () => appHash.profile(),
+  settings: () => appHash.settings(),
+  'custom-game-editor': () => appHash.customGame(),
+  'admin-review': () => appHash.admin(),
+});
+
+/**
+ * Kompatibilitätsschicht: alte Aufrufe navigateTo('stats') funktionieren weiter.
+ * @param {string} screen
+ * @param {{ replace?: boolean }} [opts]
+ */
+export function navigateTo(screen, opts = {}) {
+  const toHash = SCREEN_TO_HASH[screen];
+  navigate(toHash ? toHash() : appHash.home(), opts);
 }

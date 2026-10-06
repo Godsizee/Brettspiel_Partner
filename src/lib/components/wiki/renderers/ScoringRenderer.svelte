@@ -7,10 +7,10 @@
   const sections = $derived(data?.sections ?? []);
 
   const TIMING_LABEL = {
-    round: '🔄 Rundenwertung',
-    end: '🏁 Schlusswertung',
-    income: '💰 Einkommen',
-    instant: '⚡ Sofort'
+    round: 'Rundenwertung',
+    end: 'Schlusswertung',
+    income: 'Einkommen',
+    instant: 'Sofort'
   };
 </script>
 
@@ -53,10 +53,10 @@
   }
 
   .scoring-section-title {
-    font-family: var(--font-heading);
+    font-family: var(--ff-display);
     font-size: 1.05rem;
     font-weight: 700;
-    color: var(--color-text-primary);
+    color: var(--text);
     margin: 0;
   }
 
@@ -65,7 +65,7 @@
     padding: 0.2rem 0.6rem;
     border-radius: 999px;
     background: var(--wiki-accent-soft);
-    color: var(--color-primary);
+    color: var(--accent);
     font-weight: 600;
   }
 
@@ -74,15 +74,15 @@
   .scoring-item {
     padding: 0.75rem 1rem;
     border-radius: var(--wiki-radius-sm);
-    background: var(--color-surface-solid);
-    border: 1px solid var(--color-border-glass);
+    background: var(--surface);
+    border: 1px solid var(--line);
   }
 
-  .scoring-item-name { font-size: 0.9rem; font-weight: 600; color: var(--color-text-primary); }
-  .scoring-item-desc { font-size: 0.875rem; color: var(--color-text-secondary); margin-top: 0.25rem; line-height: 1.5; }
+  .scoring-item-name { font-size: 0.9rem; font-weight: 600; color: var(--text); }
+  .scoring-item-desc { font-size: 0.875rem; color: var(--text-2); margin-top: 0.25rem; line-height: 1.5; }
   .scoring-item-max {
     font-size: 0.75rem;
-    color: var(--color-primary);
+    color: var(--accent);
     margin-top: 0.35rem;
     font-weight: 600;
   }
@@ -90,14 +90,14 @@
   /* Stufe 2 */
   @media (max-width: 479px) {
     .scoring-item {
-      padding: 10px 12px !important;
+      padding: 10px 12px;
     }
   }
 
   /* Stufe 1 */
   @media (max-width: 359px) {
     .scoring-item {
-      padding: 8px !important;
+      padding: 8px;
     }
   }
 </style>

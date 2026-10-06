@@ -1,5 +1,6 @@
 <script>
   // @ts-check
+  import Search from '@lucide/svelte/icons/search';
   import { searchEntries } from '$lib/components/wiki/utils/wikiSearch.js';
 
   /** @type {{ module: any, entryHref?: (e: any) => string }} */
@@ -45,7 +46,7 @@
     {#if entry.image}
       <img src={entry.image} alt={entry.name} loading="lazy" class="w-12 h-12 object-contain" />
     {/if}
-    <span class="text-sm font-medium text-text-primary">{entry.name}</span>
+    <span class="text-sm font-medium text-fg">{entry.name}</span>
   </a>
 {/snippet}
 
@@ -62,7 +63,7 @@
   {#if groupDefs.length > 0}
     {#each sections as section (section.id)}
       <section class="flex flex-col gap-3">
-        <h2 class="text-lg font-bold text-text-primary m-0">{section.title}</h2>
+        <h2 class="text-lg font-bold text-fg m-0">{section.title}</h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 w-full">
           {#each section.entries as entry}
             {@render tile(entry)}
@@ -72,8 +73,8 @@
     {/each}
     {#if sections.length === 0}
       <div class="flex flex-col items-center gap-3 py-14 px-6 w-full text-center">
-        <span class="text-4xl opacity-20">🔍</span>
-        <p class="text-text-muted text-sm m-0">Keine passenden Icons gefunden.</p>
+        <Search class="size-10 text-fg-3" aria-hidden="true" />
+        <p class="text-fg-2 text-sm m-0">Keine passenden Icons gefunden.</p>
       </div>
     {/if}
   {:else}

@@ -1,6 +1,7 @@
 <script>
   // @ts-check
   import { fade } from 'svelte/transition';
+  import TriangleAlert from '@lucide/svelte/icons/triangle-alert';
   import WikiShell from '$lib/components/wiki/WikiShell.svelte';
   import WikiSideNav from '$lib/components/wiki/WikiSideNav.svelte';
   import WikiModuleChips from '$lib/components/wiki/WikiModuleChips.svelte';
@@ -117,14 +118,14 @@
         {/if}
       {:else if catalogError || (gameError && view !== 'wiki-overview')}
         <div class="wiki-card p-6 flex flex-col gap-4 items-start max-w-[480px]">
-          <p class="m-0 text-[var(--color-text-primary)] font-medium">⚠ {catalogError || gameError}</p>
+          <p class="m-0 flex items-start gap-2 text-[var(--text)] font-medium"><TriangleAlert class="mt-0.5 size-5 shrink-0 text-warning" aria-hidden="true" />{catalogError || gameError}</p>
           <div class="flex gap-2 flex-wrap">
             <button
               class="wiki-nav-item is-active justify-center w-auto px-4"
               type="button"
               onclick={() => location.reload()}
             >Neu laden</button>
-            <a class="wiki-nav-item justify-center w-auto px-4 border border-border-glass" href={wikiHash.overview()}>Zur Übersicht</a>
+            <a class="wiki-nav-item justify-center w-auto px-4 border border-line" href={wikiHash.overview()}>Zur Übersicht</a>
           </div>
         </div>
       {:else}
@@ -149,5 +150,5 @@
       grid-template-columns: var(--wiki-rail-w) minmax(0, 1fr);
     }
   }
-  .wiki-main { background: var(--color-bg-base); }
+  .wiki-main { background: var(--bg); }
 </style>
