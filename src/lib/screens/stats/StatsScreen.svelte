@@ -162,7 +162,7 @@
               {#if s.streak > 0}
                 <span class="inline-flex items-center gap-1 text-sm font-semibold text-gold"><Flame class="size-4" aria-hidden="true" />{s.streak} in Folge</span>
               {:else}
-                <span class="tabular text-sm text-fg-3">0</span>
+                <span class="tabular text-sm text-fg-2">0</span>
               {/if}
             </li>
           {/each}

@@ -100,7 +100,7 @@
       {#if cats.length > 0}
         <section>
           <h3 class="mb-1.5 text-sm font-semibold text-fg-2">Kategorie-Aufschlüsselung</h3>
-          <div class="overflow-x-auto rounded-md border border-line">
+          <div class="overflow-x-auto rounded-md border border-line" role="region" aria-label="Kategorie-Aufschlüsselung, seitlich scrollbar" tabindex="0">
             <table class="w-full min-w-max border-collapse text-sm">
               <thead>
                 <tr class="bg-surface-2 text-left">

@@ -40,7 +40,7 @@
       <IconButton label="Regel: {cat.label}" onclick={onhelp}><Info class="size-5 text-fg-3" aria-hidden="true" /></IconButton>
     {/if}
     <input class={['tabular h-12 w-[4.5rem] shrink-0 rounded-sm border border-field-line bg-surface-2 px-3 text-right text-lg font-semibold',
-        'focus:border-accent focus:outline-none focus:ring-3 focus:ring-accent/30', value === 0 && 'font-medium text-fg-3']}
+        'focus:border-accent focus:outline-none focus:ring-3 focus:ring-accent/30', value === 0 && 'font-medium text-fg-2']}
       type="number" inputmode={cat.allowNegative ? undefined : 'numeric'} pattern={cat.allowNegative ? undefined : '[0-9]*'}
       aria-labelledby="{uid}-l" {value}
       onfocus={(e) => { before = parse(e.currentTarget.value); e.currentTarget.select(); }}

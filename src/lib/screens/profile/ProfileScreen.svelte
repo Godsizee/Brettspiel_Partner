@@ -181,7 +181,7 @@
         <div class="min-w-0 flex-1 leading-tight">
           <h2 class="truncate font-display text-h2 font-semibold">{$currentUser.name || 'Spieler'}</h2>
           <p class="truncate text-sm text-fg-2">{$currentUser.email || ''}</p>
-          {#if $currentUser.created}<p class="mt-0.5 text-[0.8rem] text-fg-3">Dabei seit {new Date($currentUser.created).toLocaleDateString('de-DE')}</p>{/if}
+          {#if $currentUser.created}<p class="mt-0.5 text-[0.8rem] text-fg-2">Dabei seit {new Date($currentUser.created).toLocaleDateString('de-DE')}</p>{/if}
         </div>
         <IconButton label="Anzeigename ändern" variant="outline" onclick={() => (view = 'name')}><Pencil class="size-5" aria-hidden="true" /></IconButton>
       </Card>
@@ -267,7 +267,7 @@
     {#if $isAuthenticated && $currentUser}
       <div class="flex flex-col items-center gap-1 pt-2">
         <Button variant="danger-ghost" block onclick={handleLogout}>Abmelden</Button>
-        <button type="button" class="min-h-11 px-3 text-sm text-fg-3 underline" onclick={() => (view = 'delete')}>Konto löschen</button>
+        <button type="button" class="min-h-11 px-3 text-sm text-fg-2 underline" onclick={() => (view = 'delete')}>Konto löschen</button>
       </div>
     {/if}
   </div>
