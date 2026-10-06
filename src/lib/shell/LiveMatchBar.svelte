@@ -5,7 +5,9 @@
   import { validateGameImageUrl } from '$lib/utils/urlValidator.js';
   import { safeCssColor } from '$lib/ui/color.js';
 
-  let game = $derived($currentGame ? $gamesCatalog[$currentGame] : null);
+  // Das Spiel der laufenden Partie — NICHT $currentGame: das wechselt beim Stöbern auf anderen Spiel-Seiten.
+  let timerGameKey = $derived($timerState !== 'stopped' ? (localStorage.getItem('bg_timer_current_game') ?? $currentGame) : null);
+  let game = $derived(timerGameKey ? $gamesCatalog[timerGameKey] : null);
   let onMatch = $derived(($currentRoute?.name ?? '').startsWith('match-'));
   let visible = $derived(!!game && $timerState !== 'stopped' && !onMatch);
   let cover = $derived(game?.cover ? validateGameImageUrl(game.cover) : '');
@@ -17,7 +19,7 @@
 </script>
 
 {#if visible}
-  <a href="#/partie" class="livebar" style:--game-accent={safeCssColor(game?.theme?.primary, 'var(--accent)')}
+  <a href="#/partie" class="livebar" onclick={() => timerGameKey && currentGame.set(timerGameKey)} style:--game-accent={safeCssColor(game?.theme?.primary, 'var(--accent)')}
     aria-label="Laufende Partie: {game?.name}, {$timerState === 'running' ? 'läuft' : 'pausiert'}. Öffnen">
     {#if cover}<img src={cover} alt="" width="40" height="40" />{/if}
     <span class="livebar__text"><strong>{game?.name}</strong><span>{$timerState === 'running' ? 'läuft' : 'pausiert'}</span></span>

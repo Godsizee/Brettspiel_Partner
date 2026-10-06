@@ -8,14 +8,16 @@
   import Dices from '@lucide/svelte/icons/dices';
   import {
     gamesCatalog, currentGame, currentSessionDuration, showToast, settings, isAuthenticated,
-    pocketbaseHost, authService, confirmDialog, historyFilter, openWiki, pwaInstallEvent,
+    historyFilter, openWiki, pwaInstallEvent,
   } from '$lib/stores/app.js';
   import { navigate } from '$lib/router/router.js';
   import { appHash } from '$lib/router/appRoutes.js';
   import { toSlug } from '$lib/components/wiki/utils/wikiKeys.js';
-  import { db, deleteCustomGame } from '$lib/services/DbService.js';
-  import { loadGamesCatalog } from '$lib/services/GamesCatalogService.js';
+  import { db } from '$lib/services/DbService.js';
   import { pwaInstall } from '$lib/shell/pwaInstall.svelte.js';
+  import {
+    collection, loadCollection, toggleFavorite, toggleOwned, toggleWishlist, deleteCustomGameEntry,
+  } from '$lib/screens/gameActions.svelte.js';
   import Screen from '$lib/ui/Screen.svelte';
   import Segmented from '$lib/ui/Segmented.svelte';
   import Field from '$lib/ui/Field.svelte';
@@ -30,52 +32,15 @@
   import GameCard from './GameCard.svelte';
   import GameActionsSheet from './GameActionsSheet.svelte';
 
-  // ─── Sammlung / Favoriten (persistiert, bestehende Keys B4) ─────────────────
-  let favorites = $state(/** @type {string[]} */ ([]));
-  let ownedGames = $state(/** @type {string[]} */ ([]));
-  let wishlistGames = $state(/** @type {string[]} */ ([]));
+  // ─── Sammlung / Favoriten (persistiert, bestehende Keys B4; Logik in gameActions.svelte.js) ──
+  let favorites = $derived(collection.favorites);
+  let ownedGames = $derived(collection.owned);
+  let wishlistGames = $derived(collection.wishlist);
 
   onMount(() => {
-    try {
-      favorites = JSON.parse(localStorage.getItem('bg_favorites') ?? '[]');
-      ownedGames = JSON.parse(localStorage.getItem('bg_owned_games') ?? '[]');
-      wishlistGames = JSON.parse(localStorage.getItem('bg_wishlist_games') ?? '[]');
-    } catch (_) {}
+    loadCollection();
     loadDrafts();
   });
-
-  /** @param {string} key */
-  function toggleFavorite(key) {
-    favorites = favorites.includes(key) ? favorites.filter((k) => k !== key) : [...favorites, key];
-    localStorage.setItem('bg_favorites', JSON.stringify(favorites));
-    showToast(favorites.includes(key) ? 'Als Favorit markiert' : 'Favorit entfernt', 'success');
-  }
-
-  /** @param {string} key */
-  function toggleOwned(key) {
-    if (ownedGames.includes(key)) {
-      ownedGames = ownedGames.filter((k) => k !== key);
-    } else {
-      ownedGames = [...ownedGames, key];
-      wishlistGames = wishlistGames.filter((k) => k !== key);
-      localStorage.setItem('bg_wishlist_games', JSON.stringify(wishlistGames));
-    }
-    localStorage.setItem('bg_owned_games', JSON.stringify(ownedGames));
-    showToast(ownedGames.includes(key) ? 'Zur Spielesammlung hinzugefügt' : 'Aus Spielesammlung entfernt', 'success');
-  }
-
-  /** @param {string} key */
-  function toggleWishlist(key) {
-    if (wishlistGames.includes(key)) {
-      wishlistGames = wishlistGames.filter((k) => k !== key);
-    } else {
-      wishlistGames = [...wishlistGames, key];
-      ownedGames = ownedGames.filter((k) => k !== key);
-      localStorage.setItem('bg_owned_games', JSON.stringify(ownedGames));
-    }
-    localStorage.setItem('bg_wishlist_games', JSON.stringify(wishlistGames));
-    showToast(wishlistGames.includes(key) ? 'Zur Wunschliste hinzugefügt' : 'Von Wunschliste entfernt', 'success');
-  }
 
   // ─── Entwürfe (offene Wertungen) ─────────────────────────────────────────────
   let activeDrafts = $state(/** @type {any[]} */ ([]));
@@ -175,17 +140,6 @@
     navigate(appHash.history());
   }
 
-  /** @param {string} key */
-  async function deleteCustomGameEntry(key) {
-    if (!(await confirmDialog('Dieses benutzerdefinierte Spiel wirklich löschen?'))) return;
-    try {
-      await deleteCustomGame(key, { host: get(pocketbaseHost), token: authService.getToken() ?? undefined });
-      await loadGamesCatalog();
-      showToast('Spiel gelöscht.', 'success');
-    } catch (_) {
-      showToast('Fehler beim Löschen.', 'error');
-    }
-  }
 </script>
 
 <Screen title="Spielen" subtitle="{totalCount} Spiele · {ownedCount} in deiner Sammlung" wide>

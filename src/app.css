@@ -1,4 +1,8 @@
 /* Reihenfolge: Schriften (alt, bis R19) → Tailwind → Tokens → Basis → Legacy-Aliase */
+/* Layer-Reihenfolge: das alte globale CSS liegt in `legacy` UNTER den Utilities. Ohne Layer schlug
+   sein ungelayertes `* { padding: 0 }` / `button { background: none }` jede Tailwind-Utility
+   (p-3, bg-accent …) — neue Bausteine hatten keinen Innenabstand und keine Button-Optik. Entfällt mit R19. */
+@layer theme, base, legacy, components, utilities;
 @import url('/fonts/fonts.css');
 @import "tailwindcss";
 @import "./styles/tokens.css";
@@ -58,6 +62,7 @@
 }
 .backdrop-glow { display: none; }
 
+@layer legacy {
 /* ==========================================================================
    RESET & BASE
    ========================================================================== */
@@ -570,19 +575,7 @@ input, select, textarea {
     --header-height: 50px !important;
   }
 
-  /* Globale Typografie-Skalierung */
-  html {
-    font-size: 14px !important;
-  }
-
-  body {
-    font-size: 14px !important;
-  }
-
-  h1, .h1 { font-size: 1.45rem !important; }
-  h2, .h2 { font-size: 1.2rem !important; }
-  h3, .h3 { font-size: 1.05rem !important; }
-  h4, .h4 { font-size: 0.9rem !important; }
+  /* Typografie-Skalierung (html/body/h1–h4) entfällt: neue Screens rechnen mit 16 px Basis (Plan R04/Spiel-Seite). */
 
   /* Hauptcontainer & Paddings */
   .app-main {
@@ -595,8 +588,8 @@ input, select, textarea {
     border-radius: var(--radius-lg) !important;
   }
 
-  /* Buttons & Formulare kompakter machen */
-  button, .btn, .btn-stepper, .filter-pill, .auth-tab {
+  /* Buttons & Formulare kompakter machen — nur alte Screens (neue Bausteine halten 44 px Touch-Ziel) */
+  .legacy-screen button, .btn, .btn-stepper, .filter-pill, .auth-tab {
     min-height: 36px !important;
     padding: 6px 10px !important;
     font-size: 0.85rem !important;
@@ -607,7 +600,7 @@ input, select, textarea {
     height: 36px !important;
   }
 
-  input, select, textarea {
+  .legacy-screen input, .legacy-screen select, .legacy-screen textarea {
     font-size: 14px !important;
     padding: 6px 10px !important;
     min-height: 36px !important;
@@ -997,3 +990,5 @@ input, select, textarea {
   50% { transform: translateY(-8px); }
 }
 
+
+} /* Ende @layer legacy */

@@ -3,13 +3,17 @@
   import IconButton from './IconButton.svelte';
   /**
    * @type {{ title: string, subtitle?: string, back?: string, wide?: boolean, hideTitle?: boolean,
-   *   actions?: import('svelte').Snippet, dock?: import('svelte').Snippet, children: import('svelte').Snippet }}
+   *   hero?: import('svelte').Snippet, actions?: import('svelte').Snippet, dock?: import('svelte').Snippet,
+   *   children: import('svelte').Snippet }}
+   * `hero` ersetzt die Kopfzeile (randlos); es enthält dann selbst das h1 mit data-screen-title.
    */
-  let { title, subtitle = '', back = undefined, wide = false, hideTitle = false, actions, dock, children } = $props();
+  let { title, subtitle = '', back = undefined, wide = false, hideTitle = false, hero, actions, dock, children } = $props();
 </script>
 
 <div class={['screen', wide && 'screen--wide']}>
-  {#if back}
+  {#if hero}
+    <div class="-mx-4 sm:-mx-6">{@render hero()}</div>
+  {:else if back}
     <header class="sticky top-0 z-20 -mx-4 flex h-14 items-center gap-1 bg-canvas/95 px-2 sm:-mx-6">
       <IconButton label="Zurück" href={back}><ChevronLeft class="size-6" aria-hidden="true" /></IconButton>
       <h1 tabindex="-1" data-screen-title class="flex-1 truncate text-center text-base font-semibold">{title}</h1>

@@ -12,7 +12,7 @@
   import DialogHost from './DialogHost.svelte';
   import SyncSheet from './SyncSheet.svelte';
   import SyncChip from './SyncChip.svelte';
-  import StartPlayerModal from '$lib/components/StartPlayerModal.svelte'; // R09: → StartPlayerSheet
+  import StartPlayerSheet from '$lib/screens/game/StartPlayerSheet.svelte';
   import AuthModal from '$lib/components/AuthModal.svelte';               // R15: → AuthSheet
   import Onboarding from '$lib/components/Onboarding.svelte';             // R16: → OnboardingScreen
 
@@ -81,7 +81,7 @@
 <ToastRegion />
 <DialogHost />
 <SyncSheet bind:open={ui.syncOpen} />
-<StartPlayerModal bind:open={ui.startPlayerOpen} />
+<StartPlayerSheet bind:open={ui.startPlayerOpen} />
 <AuthModal bind:open={ui.authOpen} />
 {#if ui.onboardingOpen}
   <Onboarding onComplete={(opts) => { ui.onboardingOpen = false; if (opts?.wantsAuth) ui.authOpen = true; }} />
