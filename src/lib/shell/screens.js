@@ -11,8 +11,8 @@ export const SCREENS = {
   'match-score': () => import('$lib/screens/match/ScoreScreen.svelte'),
   history: () => import('$lib/screens/history/HistoryScreen.svelte'),
   stats: () => import('$lib/screens/stats/StatsScreen.svelte'),
-  profile: () => import('$lib/screens/profile/LegacyProfileScreen.svelte'),
-  settings: () => import('$lib/components/Settings.svelte'),
+  profile: () => import('$lib/screens/profile/ProfileScreen.svelte'),
+  settings: () => import('$lib/screens/settings/SettingsScreen.svelte'),
   legal: () => import('$lib/screens/legal/LegalScreen.svelte'),
   'custom-game-new': () => import('$lib/components/CustomGameEditor.svelte'),
   'admin-review': () => import('$lib/components/AdminReview.svelte'),
@@ -21,7 +21,7 @@ export const SCREENS = {
 };
 
 /** Keys, die noch alte Komponenten zeigen (bekommen den alten Innenabstand). */
-export const LEGACY = new Set(['profile', 'settings', 'custom-game-new', 'admin-review']);
+export const LEGACY = new Set(['custom-game-new', 'admin-review']);
 
 /** Alle wiki-* Routen teilen sich WikiApp (internes Routing). */
 export const screenKey = (/** @type {string} */ name) => (name.startsWith('wiki') ? 'wiki' : name in SCREENS ? name : 'home');

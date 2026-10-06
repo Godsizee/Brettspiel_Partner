@@ -13,7 +13,7 @@
   import SyncSheet from './SyncSheet.svelte';
   import SyncChip from './SyncChip.svelte';
   import StartPlayerSheet from '$lib/screens/game/StartPlayerSheet.svelte';
-  import AuthModal from '$lib/components/AuthModal.svelte';               // R15: → AuthSheet
+  import AuthSheet from '$lib/screens/profile/AuthSheet.svelte';
   import Onboarding from '$lib/components/Onboarding.svelte';             // R16: → OnboardingScreen
 
   /** @type {Record<string, any>} */
@@ -87,7 +87,7 @@
 <DialogHost />
 <SyncSheet bind:open={ui.syncOpen} />
 <StartPlayerSheet bind:open={ui.startPlayerOpen} />
-<AuthModal bind:open={ui.authOpen} />
+<AuthSheet bind:open={ui.authOpen} />
 {#if ui.onboardingOpen}
   <Onboarding onComplete={(opts) => { ui.onboardingOpen = false; if (opts?.wantsAuth) ui.authOpen = true; }} />
 {/if}
